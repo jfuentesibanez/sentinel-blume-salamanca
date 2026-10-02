@@ -1,0 +1,671 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json",
+  "label": {
+    "none": [
+      "Unterlagen_0000072"
+    ]
+  },
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000519.jpg",
+      "label": {
+        "none": [
+          "1"
+        ]
+      },
+      "type": "Canvas",
+      "height": 2533,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-1",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-1",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 2533,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 1807
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-1"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 1807
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000520.jpg",
+      "label": {
+        "none": [
+          "2"
+        ]
+      },
+      "type": "Canvas",
+      "height": 2541,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-2",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-2",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 2541,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000520.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000520.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 1812
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-2"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 1812
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000521.jpg",
+      "label": {
+        "none": [
+          "3"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1107,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-3",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-3",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1107,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000521.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000521.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 1708
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-3"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 1708
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000522.jpg",
+      "label": {
+        "none": [
+          "4"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1108,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-4",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-4",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1108,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000522.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000522.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 1704
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-4"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 1704
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000523.jpg",
+      "label": {
+        "none": [
+          "5"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1106,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-5",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-5",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1106,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000523.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000523.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 1705
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-5"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 1705
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000524.jpg",
+      "label": {
+        "none": [
+          "6"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1108,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-6",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-6",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1108,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000524.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000524.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 1702
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-6"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 1702
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000525.jpg",
+      "label": {
+        "none": [
+          "7"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1108,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-7",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-7",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1108,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000525.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000525.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 1706
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-7"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 1706
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000526.jpg",
+      "label": {
+        "none": [
+          "8"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1109,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-8",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-8",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1109,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000526.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000526.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 1709
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-8"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 1709
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000527.jpg",
+      "label": {
+        "none": [
+          "9"
+        ]
+      },
+      "type": "Canvas",
+      "height": 2346,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-9",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-9",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 2346,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000527.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000527.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2562
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-9"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2562
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000528.jpg",
+      "label": {
+        "none": [
+          "10"
+        ]
+      },
+      "type": "Canvas",
+      "height": 2463,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-10",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-10",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 2463,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000528.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000528.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2552
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-10"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2552
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000529.jpg",
+      "label": {
+        "none": [
+          "11"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1807,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-11",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-11",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1807,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000529.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000529.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2617
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-11"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2617
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000530.jpg",
+      "label": {
+        "none": [
+          "12"
+        ]
+      },
+      "type": "Canvas",
+      "height": 2348,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-12",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-12",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 2348,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000530.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000530.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2561
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-12"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2561
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000531.jpg",
+      "label": {
+        "none": [
+          "13"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1808,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-13",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-13",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1808,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000531.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000531.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2540
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-13"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2540
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000532.jpg",
+      "label": {
+        "none": [
+          "14"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1811,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-page-painting-_0SdRie66XgUmMsGvKtNEaQ-14",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/_0SdRie66XgUmMsGvKtNEaQ.json#annotations-content-painting-_0SdRie66XgUmMsGvKtNEaQ-14",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1811,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000532.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000532.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2544
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/canvasses/_0SdRie66XgUmMsGvKtNEaQ-14"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2544
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "de": [
+          "Titel"
+        ],
+        "en": [
+          "Title"
+        ],
+        "fr": [
+          "Titre"
+        ],
+        "it": [
+          "Titolo"
+        ],
+        "none": [
+          "Titel"
+        ]
+      },
+      "value": {
+        "de": [
+          "Unterlagen_0000072"
+        ],
+        "en": [
+          "Unterlagen_0000072"
+        ],
+        "fr": [
+          "Unterlagen_0000072"
+        ],
+        "it": [
+          "Unterlagen_0000072"
+        ],
+        "none": [
+          "Unterlagen_0000072"
+        ]
+      }
+    }
+  ],
+  "partOf": [
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/_ZM6P9SnwTpaNBcoN4cDNRm.json",
+      "type": "Collection"
+    }
+  ],
+  "rendering": [
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578609",
+      "label": {
+        "de": [
+          "Laden Sie die Unterlagen von der Detailansicht herunter"
+        ],
+        "en": [
+          "Download the documents from the detail view"
+        ],
+        "fr": [
+          "Téléchargez les documents depuis l’affichage complet"
+        ],
+        "it": [
+          "Scarica i documenti dalla visualizzazione dei dettagli"
+        ]
+      },
+      "type": "Text",
+      "format": "text/plain"
+    },
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/files/ocr/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/Unterlagen_0000072_OCR.txt",
+      "label": {
+        "de": [
+          "Download OCR"
+        ],
+        "en": [
+          "Download OCR"
+        ],
+        "fr": [
+          "Download OCR"
+        ],
+        "it": [
+          "Download OCR"
+        ]
+      },
+      "type": "Text",
+      "format": "text/plain"
+    }
+  ],
+  "service": [
+    {
+      "profile": "http://iiif.io/api/search/1/search",
+      "@id": "https://iiif.recherche.bar.admin.ch/iiif/search/manifest/0000-0357-8609-Subdossier_0000066-Unterlagen_0000072",
+      "@type": "SearchService1"
+    }
+  ],
+  "start": null,
+  "thumbnail": [
+    {
+      "format": "image/jpeg",
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/150,/0/default.jpg",
+      "type": "Image"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "scope": "Same sealed pair; not an additional recovery control",
+  "case_id": "de_fold_12x15_20261801",
+  "command": [
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase8_crypto/pool_solver",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/de_fold/model.bin",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase8_crypto/ciphertexts/de_fold_12x15_20261801_T1.txt",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase8_crypto/ciphertexts/de_fold_12x15_20261801_T2.txt",
+    "12",
+    "15",
+    "13249961062395544002",
+    "60",
+    "60",
+    "60",
+    "8000",
+    "1500",
+    "5000"
+  ],
+  "different_local_truth_decoys": [
+    {
+      "true_k1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "true_k2": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "truth_q3": 999999
+    },
+    {
+      "true_k1": [
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "true_k2": [
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "truth_q3": -999999
+    }
+  ],
+  "identical_results_after_removing_elapsed_times": true,
+  "score_keys_candidates_limits_and_causes_equal": true,
+  "wall_time_never_exhausted": true,
+  "truth_decoy_not_an_input": "CLI receives only model, ciphertext paths, widths, search seed and budgets; no external truth argument or lookup in phase8 entry point.",
+  "limit": "A source/interface check plus two poisoned-local-metadata repeats; not a general information-flow proof.",
+  "output_sha256": {
+    "repeat1.jsonl": "22b8c386579f27e04a425fed234e033809c9b28652282b5faa4e89bd809473f6",
+    "repeat2.jsonl": "1c7c7e387d3e23617e6a42bf5b9d253e7ca0d6f2c8f345998356eecb3905ff7d"
+  }
+}

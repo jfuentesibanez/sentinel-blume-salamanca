@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-01",
+  "scope": "Four policies applied to one previously observed wrong key. Conditioned exploratory diagnosis, not four independent controls or a recovery rate.",
+  "case": {
+    "corpus": "Spanish telegram-style proxy; immutable DonQuijote-trained model",
+    "plant_seed": 20261201,
+    "widths": [
+      20,
+      25
+    ],
+    "lengths": [
+      615,
+      160
+    ],
+    "messages_scored": 2,
+    "initial_wrong_k2_source": "work/phase4_crypto/k2_budget_diagnostic.jsonl: completed15s result"
+  },
+  "global_idp_evaluation_limit": 150000,
+  "secondary_seconds_limit": 15,
+  "policies": [
+    {
+      "policy": "source",
+      "start_idp": -2.47530343674,
+      "final_idp": -2.47530343674,
+      "k2_changed": false,
+      "exact_k2": false,
+      "idp_evals": 16650,
+      "seconds": 1.010727208,
+      "termination": "local_optimum",
+      "events": 1,
+      "completed_local_optima": 1
+    },
+    {
+      "policy": "restart",
+      "start_idp": -2.47530343674,
+      "final_idp": -2.47530343674,
+      "k2_changed": false,
+      "exact_k2": false,
+      "idp_evals": 150000,
+      "seconds": 9.152637583,
+      "termination": "max_evaluations",
+      "events": 5,
+      "completed_local_optima": 4
+    },
+    {
+      "policy": "kick",
+      "start_idp": -2.47530343674,
+      "final_idp": -2.47530343674,
+      "k2_changed": false,
+      "exact_k2": false,
+      "idp_evals": 150000,
+      "seconds": 9.409404584,
+      "termination": "max_evaluations",
+      "events": 5,
+      "completed_local_optima": 4
+    },
+    {
+      "policy": "walk",
+      "start_idp": -2.47530343674,
+      "final_idp": -2.47530343674,
+      "k2_changed": false,
+      "exact_k2": false,
+      "idp_evals": 150000,
+      "seconds": 8.968355042,
+      "termination": "max_evaluations",
+      "events": 5,
+      "completed_local_optima": 4
+    }
+  ],
+  "all_global_bests_unchanged": true,
+  "fresh_calibration_run": false,
+  "historical_blume_run": false,
+  "decision": "No larger calibration from this configuration; seek another mechanism. No key-length region or historical hypothesis excluded.",
+  "any_exact_k2": false
+}

@@ -1,0 +1,25 @@
+{
+  "rows": 24,
+  "oracle_k2_disclosed": true,
+  "historical_attack": false,
+  "summary": [
+    {
+      "model": "de_fold",
+      "exact_775_letters": 8,
+      "denominator": 8,
+      "budget_expired": 0
+    },
+    {
+      "model": "de_digraph",
+      "exact_775_letters": 8,
+      "denominator": 8,
+      "budget_expired": 0
+    },
+    {
+      "model": "fr_fold",
+      "exact_775_letters": 8,
+      "denominator": 8,
+      "budget_expired": 0
+    }
+  ]
+}

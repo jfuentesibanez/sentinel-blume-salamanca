@@ -1,0 +1,6 @@
+{
+  "compiler": "Apple clang version 12.0.5 (clang-1205.0.22.11)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "command": "c++ -std=c++17 -O3 -o double_search double_search.cpp",
+  "source_sha256": "445afbaf9f85c17c0661515634ee16a58dced5da80e15e0b54ea8868a093fefe",
+  "note": "Last patch adds argument validation only; stochastic algorithm unchanged after recorded controls. std::shuffle and uniform_real_distribution use this compiler standard library; reproduce with same toolchain for exact random trajectory."
+}

@@ -1,0 +1,31 @@
+{
+  "algorithm": "sha256",
+  "self_excluded": true,
+  "resources": [
+    {
+      "path": "hisma-primeros100.json",
+      "sha256": "29cfbde1f1071ef1f9d6197839c0cc07793103dbb8b006b89bec31f359d967e1",
+      "bytes": 57002
+    },
+    {
+      "path": "hisma-primeros50.json",
+      "sha256": "82f093f20be0e64d0ca4e6885a60516b253fd2abd473eb15bb58335ac219d7b1",
+      "bytes": 28988
+    },
+    {
+      "path": "ledger.json",
+      "sha256": "eaa63f50a426875314cb88ee39c5f7cc9ecd7747faa7cdb7b32f06c847937ae8",
+      "bytes": 1493
+    },
+    {
+      "path": "oswald-resultados.json",
+      "sha256": "1f02e3e04ab9fabec2dc595718bfcf55425652f507c6060de29ccda2af822d92",
+      "bytes": 5437
+    },
+    {
+      "path": "visor-incidencia.json",
+      "sha256": "1b8b5a619db83db5e7af1d18ae13a6711aa5361e1cf867c13506aafd794ffe64",
+      "bytes": 835
+    }
+  ]
+}

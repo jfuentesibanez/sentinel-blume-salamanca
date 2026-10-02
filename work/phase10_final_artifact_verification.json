@@ -1,0 +1,30 @@
+{
+  "phase": 10,
+  "passed": true,
+  "checks": {
+    "phase10_crypto_resources": 29,
+    "diplomatic_resources": 32,
+    "uek_resources": 11,
+    "previous_historical_files": 804,
+    "previous_crypto_files": 252,
+    "phase9_root_report_drafts_and_evidence": 12,
+    "root_score_audit_passed": true,
+    "canonical_ciphertexts_unchanged": 2
+  },
+  "canonical_ciphertexts": [
+    {
+      "path": "work/source/ct1.txt",
+      "raw_sha256": "d442e136d63bfc066c20374e2b454ca5581b164e940b307d5600d0d463df943e",
+      "normalized_sha256": "e266615d92019276513c1b7656f10c4f1a3d1e8eb739d28fd481ae337a434c55",
+      "letters": 615
+    },
+    {
+      "path": "work/source/ct2.txt",
+      "raw_sha256": "d2cdadbefb0bef2fbcdcf83bf6de1b104583e166f14f0a3d2b545024b3188df0",
+      "normalized_sha256": "8fd5cfb82fc3c39fe0ee007b19ada7e74b4ae7747cd9b794d36dce101e17a644",
+      "letters": 160
+    }
+  ],
+  "audit_note": "First hash check confused uppercase-normalized ciphertext SHA with lowercase raw-file SHA. Corrected using the original frozen verification record; no source file changed.",
+  "limits": "Checks hashes and recorded audit; does not rerun the search or establish historical plaintext."
+}

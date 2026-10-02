@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-02",
+  "phase": 9,
+  "report": {
+    "path": "outputs/Sentinel_BLUME_fase9_2026-10-02.txt",
+    "sha256": "544ea35671b0be46113f68b99ac440cd2a5efe89e03ebf711c02216ab1ebc0bd"
+  },
+  "drafts": [
+    {
+      "path": "outputs/Sentinel_BLUME_PTT_2026-10-02/01_Consulta_PTT_aleman.txt",
+      "sha256": "7c03cb6de0aaefdd2a92a8dbf0585a695b905fc24d2a2ca60564be0d70e7a1d0",
+      "state": "local_unsent"
+    },
+    {
+      "path": "outputs/Sentinel_BLUME_PTT_2026-10-02/02_Consulta_PTT_traduccion.txt",
+      "sha256": "97b578133fa20f98aa6cc50daf0fb380dd0d6f043d0007538e2be38953f27cd6",
+      "state": "local_unsent"
+    }
+  ],
+  "historical_primary_sources": [
+    {
+      "url": "https://bsb.swisscovery.slsp.ch/permalink/41SLSP_RBE/859kdn/alma991363970105527",
+      "call_number": "MfK P-013-001",
+      "holdings_literal": "1(1922)-16(1937)56",
+      "read_level": "Metadatos bibliográficos y existencias; páginas del boletín NO leídas."
+    },
+    {
+      "url": "https://bsb.swisscovery.slsp.ch/permalink/41SLSP_RBE/859kdn/alma9957534140105527",
+      "call_number": "MfK P-013-002",
+      "holdings_literal": "(1922)-(1937)96",
+      "read_level": "Metadatos bibliográficos y existencias; páginas del suplemento NO leídas."
+    }
+  ],
+  "related_1937_dossier": {
+    "url": "https://mfk.rechercheonline.ch/pttarchiv:15003",
+    "signature": "P-00 C_2522_06",
+    "read_level": "catalog description only; carried forward from phase8"
+  },
+  "original_ptt_letter": {
+    "date": "1937-01-15",
+    "internal_reference": "6011.8.3",
+    "archive_signature": "E4320B#1974/47#277*",
+    "url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg"
+  },
+  "crypto_result": {
+    "synthetic_pairs": 8,
+    "rounds_per_method": 16,
+    "K2_archive_hits": {
+      "restart": 3,
+      "ils": 4
+    },
+    "same_pairs_with_K2_found": 2,
+    "objective_calls_per_round": 100000,
+    "failed_rounds_true_K2_above_saved_candidates": 25,
+    "known_widths": true,
+    "K1_attempted": false,
+    "historical_attack": false,
+    "comparison_limits": "Small paired K2-only pilot with known widths and one literary corpus per language. Objective calls equal does not imply equal CPU cost. No K1 recovery, language or BLUME exclusion."
+  },
+  "evidence_files": {
+    "work/phase9_crypto/RESOURCE_HASHES.json": "6bc10007d989ffa9bb01dac1ab832fa774adfd8b0f86adaa1ef5f1612697567c",
+    "work/phase9_crypto/summary.json": "f9161db179cd34bdee359f5465664e98cae4b05865e0e14894ee855f90c60cb8",
+    "work/history/phase9-ptt-publicaciones/resource-hashes.json": "5ef2609ee2f81fdbe1df428c8bb75287f2884a1de7caa5d34cc63b781677e008",
+    "work/history/phase9-ptt-publicaciones/plan-ledger.json": "d40ef35d5657d3faa241cd788ad77f0c26737809962387747c0b3b1a94a0d29d",
+    "work/history/phase9-oswald-complemento/resource-hashes.json": "44626fae0354e6a33be184b614a2ef5a97caf932042b51112ff8ecb82b9bc27d",
+    "work/history/phase9-oswald-complemento/ledger.json": "5ac030e49a5b06f5da7eee9b9ddfa65e4756eee01b0ded6266abfd59f295efff",
+    "work/phase9_root_verification.json": "72e054e1dd5d37639b1dfa3381a1ee9a393bfde466a19dee5ecaeae8a25191b0",
+    "work/phase9_idp_diagnostic/diagnostic.json": "5a9e8b44e492a11d79eb65656d02a1197c3cb1ac39dc2737f55a132d9099e930",
+    "work/phase9_final_artifact_verification.json": "f22487575019e65240cece9811c5a1623cda5f1ed13ec24399c30f438d5f1aee"
+  },
+  "external_actions": {
+    "contacts_sent": false,
+    "Gmail_changes": false,
+    "orders": false,
+    "payments": false
+  },
+  "mail_state": "Prior sent messages unchanged; responses not checked in phase9."
+}

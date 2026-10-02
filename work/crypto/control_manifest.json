@@ -1,0 +1,726 @@
+{
+  "budget_seconds": 390.0,
+  "elapsed_seconds": 136.16900549997808,
+  "commands": [
+    {
+      "width": [
+        8,
+        10
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "8",
+        "10",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        8,
+        10
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "8",
+        "10",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        8,
+        10
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "8",
+        "10",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        8,
+        10
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "8",
+        "10",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        8,
+        10
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "8",
+        "10",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        8,
+        10
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "8",
+        "10",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        10,
+        12
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "10",
+        "12",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        10,
+        12
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "10",
+        "12",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        10,
+        12
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "10",
+        "12",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        10,
+        12
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "10",
+        "12",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        10,
+        12
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "10",
+        "12",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        10,
+        12
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "10",
+        "12",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        12,
+        15
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "12",
+        "15",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        12,
+        15
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "12",
+        "15",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        12,
+        15
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "12",
+        "15",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        12,
+        15
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "12",
+        "15",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        12,
+        15
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "12",
+        "15",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        12,
+        15
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "12",
+        "15",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        15,
+        20
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "15",
+        "20",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        15,
+        20
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "15",
+        "20",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        15,
+        20
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "15",
+        "20",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        15,
+        20
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "15",
+        "20",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        15,
+        20
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "15",
+        "20",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        15,
+        20
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "15",
+        "20",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        20,
+        25
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "20",
+        "25",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        20,
+        25
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "20",
+        "25",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        20,
+        25
+      ],
+      "corpus": "holdout_es.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "20",
+        "25",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        20,
+        25
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261001,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        20,
+        25
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261002,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    },
+    {
+      "width": [
+        20,
+        25
+      ],
+      "corpus": "holdout_proxy.txt",
+      "seed": 20261003,
+      "status": "completed",
+      "stderr": "",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/double_search",
+        "control",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ]
+    }
+  ]
+}

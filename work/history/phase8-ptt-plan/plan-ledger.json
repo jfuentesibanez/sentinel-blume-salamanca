@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-02",
+  "scope": "Documentación pública externa sobre clasificación y registros de PTT en 1930–1940; complementa la navegación del catálogo.",
+  "queries": [
+    "\"PTT\" \"Registraturplan\" \"1937\"",
+    "\"Generaldirektion\" \"Rechtsdienst\" \"1936\" PTT",
+    "\"PTT\" \"Aktenplan\" \"6000\"",
+    "\"PTT-Archiv\" \"Registraturplan\"",
+    "\"PTT\" \"Aktenplan\" \"1930\"",
+    "\"PTT\" \"Registratur\" \"Rechtsdienst\"",
+    "\"PTT\" \"Registraturordnung\"",
+    "\"PTT\" \"plan de classement\""
+  ],
+  "primary_sources": [
+    {
+      "url": "https://ub-archeco24.ub.unibas.ch/index.php/ptt-generalpostdirektion-und-nachfolger",
+      "observed": "P-00 A–D, 1849–1997: descripción por productor. El campo «Ordnung und Klassifikation» no explica el plan numérico. Menciona una base bibliotecaria interna y los fondos relacionados BAR E51 y E10454.",
+      "limit": "No relaciona 6011.8.3 con una signatura. El enlace de la antigua base debe cotejarse con el portal actual."
+    },
+    {
+      "url": "https://www.mfk.ch/forschen/ptt-archiv/bestaende",
+      "observed": "Los fondos se ordenan por procedencia regional y departamentos de administración central. Hay una colección de publicaciones internas y externas de 1849–1997 con Amtsblätter, Verordnungen y Vorschriften.",
+      "limit": "No identifica una instrucción de registro de 1937 ni demuestra que la carta esté en esa colección."
+    }
+  ],
+  "indexed_only": [
+    {
+      "url": "https://www.e-periodica.ch/cntmng?pid=ase-001%3A1945%3A36%3A%3A1248",
+      "observed": "Noticia indexada de 1945 sobre Dr. V. Tuason como jefe del Rechtsdienst de PTT.",
+      "limit": "No se descargó ni se leyó íntegramente. Es posterior a 1937. No se atribuye a Tuason la firma de la remisión."
+    }
+  ],
+  "result": "No se localizó un plan histórico de 1937 ni el significado comprobado de 6011 en las ocho consultas. No es una búsqueda exhaustiva ni prueba de ausencia.",
+  "contacts_sent": false,
+  "orders": false,
+  "payments": false
+}

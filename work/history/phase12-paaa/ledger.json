@@ -1,0 +1,195 @@
+{
+  "phase": 12,
+  "date": "2026-10-02",
+  "max_web_queries": 6,
+  "search_queries_executed": 6,
+  "web_tool_calls": 6,
+  "queries": [
+    {
+      "number": 1,
+      "q": "site:auswaertiges-amt.de Politisches Archiv ADAP Filmnummer Bildnummer",
+      "response_file": "web-01.json"
+    },
+    {
+      "number": 2,
+      "q": "site:archiv.diplo.de ADAP Mikrofilm Konkordanz",
+      "response_file": "web-01.json"
+    },
+    {
+      "number": 3,
+      "q": "site:archiv.diplo.de \"Filmnummern\" \"Signaturen\"",
+      "response_file": "web-02.json"
+    },
+    {
+      "number": 4,
+      "q": "site:archiv.diplo.de (\"Hisma\" OR \"Bernhardt\")",
+      "response_file": "web-02.json"
+    },
+    {
+      "number": 5,
+      "q": "site:archiv.diplo.de (Filmnummernverzeichnis OR Filmnummernverzeichnisse OR Filmkonkordanz)",
+      "response_file": "web-04.json"
+    },
+    {
+      "number": 6,
+      "q": "site:politisches-archiv.diplo.de (\"Hisma\" OR \"Johannes Bernhardt\")",
+      "response_file": "web-04.json"
+    }
+  ],
+  "catalogue_queries_executed": 0,
+  "claude_operations": 0,
+  "sources": [
+    {
+      "url": "https://archiv.diplo.de/arc-de/gut-zu-wissen/akteneditionen/akten-zur-deutschen-auswaertigen-politik-1918-1945-1496702",
+      "scope": "Página oficial sobre ADAP, leída en web-01/02; las películas permiten localizar originales, sin tabla de equivalencia en esta página."
+    },
+    {
+      "url": "https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-beispielrecherche-1433554",
+      "scope": "Guía oficial, apartado Edition; indica Filmnummernverzeichnisse. Su ejemplo de países corresponde a Yugoslavia, no prueba expedientes españoles."
+    },
+    {
+      "url": "https://archiv.diplo.de/arc-de/im-archiv-forschen/bestellen-und-zitieren-mit-invenio",
+      "scope": "Guía oficial de cita y búsqueda; RZ* + antigua Bestellnummer de la Zentrale. No aplicar a fotogramas ADAP. Incluye navegación, búsqueda avanzada y OCR cuando disponible."
+    },
+    {
+      "url": "https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-orientierung-1433562",
+      "scope": "Guía oficial y tabla de distribución de procedencias. Para1936–1945, Handelspolitik figura en Bundesarchiv; no es atribución individual de documentos."
+    },
+    {
+      "url": "https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-findmittel-1433556",
+      "scope": "Guía oficial: los inventarios se organizan por productor, Aktenzeichen, título y fechas; palabras distintas o catalogación incompleta pueden limitar consultas."
+    },
+    {
+      "url": "https://archiv.diplo.de/arc-de/im-archiv-forschen/tipps-zu-invenio-2555286",
+      "scope": "Guía oficial: comodines y campo Aktenzeichen. Sus ejemplos del plan1972 no se trasladan al año1937."
+    },
+    {
+      "url": "https://archiv.diplo.de/arc-de/digitalisierte-und-einsehbare-bestaende-invenio--2404424",
+      "scope": "Lista oficial de fondos digitalizados. RZ211 es Politische Abteilung con rangos concretos; no se considera íntegramente digitalizado."
+    }
+  ],
+  "images_read": [
+    {
+      "scan": 917,
+      "printed_page": "817",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00917/full/full/0/default.jpg",
+      "local": "scan-00917.jpg",
+      "visual_read": true,
+      "assessment": "Apéndice IV: glosario de términos y abreviaturas, no tabla de películas en esta página."
+    },
+    {
+      "scan": 918,
+      "printed_page": "818",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00918/full/full/0/default.jpg",
+      "local": "scan-00918.jpg",
+      "visual_read": true,
+      "assessment": "Apéndice IV: glosario de términos y abreviaturas, no tabla de películas en esta página."
+    },
+    {
+      "scan": 919,
+      "printed_page": "819",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00919/full/full/0/default.jpg",
+      "local": "scan-00919.jpg",
+      "visual_read": true,
+      "assessment": "Apéndice IV: glosario de términos y abreviaturas, no tabla de películas en esta página."
+    }
+  ],
+  "manifest_used": "work/history/phase11-adap-documentos/iiif-manifest.json; no modificación. URLs de imágenes tomadas de los canvases917–919.",
+  "current_file_conversions": [
+    {
+      "doc": 187,
+      "adap": "643/254221–222",
+      "date": "1937-01-07",
+      "original_registration": "Sa.3–360; Pol.III160",
+      "current_archive_file_verified": null,
+      "missing": "Película/fotogramas → antigua signatura de expediente."
+    },
+    {
+      "doc": 180,
+      "adap": "3176/682876–878",
+      "date": "1937-01-01",
+      "original_registration": "Sa.10–322",
+      "parts": "682876 carta;682877 protocolo adjunto de31diciembre1936;682878 telegrama629 referido y no impreso, no leído.",
+      "current_archive_file_verified": null,
+      "missing": "Película/fotogramas → antigua signatura de expediente."
+    },
+    {
+      "doc": 206,
+      "adap": "3176/682895–896",
+      "date": "1937-01-16",
+      "original_registration": "W II W.E.355 I; telegrama26",
+      "current_archive_file_verified": null,
+      "missing": "Película/fotogramas → antigua signatura de expediente; confirmar custodia PAAA/Bundesarchiv."
+    }
+  ],
+  "verified_record_groups": [
+    {
+      "reference": "RZ 211",
+      "title": "Politische Abteilung",
+      "type": "Fondo real, no expediente concreto.",
+      "source": "https://archiv.diplo.de/arc-de/digitalisierte-und-einsehbare-bestaende-invenio--2404424",
+      "link_to_adap_643": "No verificado.",
+      "public_digital_ranges": "77093–77096,101203–101403,102763–102895,102896–103580,104386–104431,104546A–104763,104775–105207B,150001–154421,261119–261228,273020–273021 según lista oficial."
+    },
+    {
+      "reference": "RAV 163",
+      "title": "Botschaft Madrid",
+      "type": "Fondo real verificado en fase10; no reconsulta actual.",
+      "source": "https://politisches-archiv.diplo.de/invenio/direktlink/95bcbe36-f6cd-461e-9b0a-3e62faa2c3d0/",
+      "limit": "Catalogación incompleta en ficha leída en fase10; no prueba relación con Salamanca/Hisma."
+    }
+  ],
+  "suggested_route": [
+    "Obtener Filmnummernverzeichnis o concordancia que relacione película/fotogramas con antigua signatura.",
+    "Si la concordancia da una antigua Bestellnummer de la Zentrale, buscar RZ* + ese número en Signatur; verificar fondo, unidad y fechas.",
+    "Si la procedencia es Handelspolitik1936–1945, contrastar también catálogo Bundesarchiv. No se verificó un número de fondo Bundesarchiv en esta ronda.",
+    "Como ruta temática separada, consultar Invenio por procedencia; para1936–1937 usar Hisma, Bernhardt y Rowak en metadatos/OCR cuando exista; leer historia del fondo."
+  ],
+  "terms_suggested_not_executed_in_catalogue": [
+    "Hisma",
+    "Johannes Bernhardt",
+    "Bernhardt",
+    "Rowak",
+    "1936–1937"
+  ],
+  "bounded_negatives": [
+    "No equivalencia concreta de las3 referencias en las páginas oficiales y búsquedas web consultadas.",
+    "No tabla de películas en páginas finales817–819 de la edición1951 consultada. No ausencia declarada en todas las páginas o ediciones.",
+    "No ficha concreta verificable Hisma/Bernhardt en los resultados de estas búsquedas web. No búsqueda realizada dentro de Invenio ni ausencia documental inferida."
+  ],
+  "official_table_excerpt": {
+    "source": "https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-orientierung-1433562",
+    "section": "Überlieferung im Bundesarchiv",
+    "headers": [
+      "Zeitraum",
+      "Im Politischen Archiv",
+      "Im Bundesarchiv"
+    ],
+    "row_period": "1936-1945",
+    "political_archive": [
+      "Leitung",
+      "Personal und Verwaltung",
+      "Politik"
+    ],
+    "federal_archive": [
+      "Handelspolitik",
+      "Kultur",
+      "Recht",
+      "Presse",
+      "Rundfunk"
+    ],
+    "scope": "Transcripción compacta del cuadro general, sin atribuir expedientes concretos; resultados guardados web-05/06."
+  },
+  "local_review": {
+    "auditor": "/root/pista_ptt_suiza/auditoria_busquedas_blume",
+    "scope": "rg local sin búsquedas ni escrituras.",
+    "result": "No había conversión verificada previa; ya existían las guías de ADAP y cita. RZ* aplicado a Bestellnummer, no a fotogramas."
+  },
+  "contacts": 0,
+  "accounts_created": 0,
+  "orders": 0,
+  "payments": 0,
+  "tabs_created": 0,
+  "user_tabs_modified": 0,
+  "source_instructions_treated_as_data": true
+}

@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-02",
+  "scope": "Fase 6: publicaciones Hunziker/Olten. Investigación pública, sin contactos, sin pagos y sin eludir verificación.",
+  "search_query_count": 12,
+  "queries": [
+    "\"60 Jahre Zement aus Olten\"",
+    "\"Die Zemente\" \"Hunziker\" \"Geschichte\"",
+    "\"Hundert Jahre Hunziker-Unternehmungen\" Bibliothek",
+    "\"Zement aus Olten\" 1990",
+    "\"Drei Kamine\" \"Hunziker\" \"1931\"",
+    "\"Drei Kamine\" \"1957\" \"Direktor\"",
+    "\"60 Jahre\" \"Hunziker\" swisscovery",
+    "site:e-periodica.ch \"Drei Kamine\" \"Hunziker\"",
+    "\"Portlandcementwerk\" \"Olten\" \"1931\" \"Hunziker\"",
+    "site:e-periodica.ch/cntmng?pid=olt-001 \"Drei Kamine\" \"1931\"",
+    "\"60 Jahre A. G. Hunziker\" -site:scribd.com -site:yumpu.com",
+    "\"Hundert Jahre Hunziker\" Bibliothek"
+  ],
+  "previous_phases": "No modificadas. Los PDF e imágenes del inventario de fase 5 sólo se leyeron.",
+  "sources": [
+    {
+      "id": "FA013-publications",
+      "url": "https://firmenarchive.ch/uploads/1/4/2/1/142137325/fa-013_portlandzementfabrik_olten_pco_hunziker_ag.pdf",
+      "read_status": "Inventario: texto local y páginas 23 y 26 visualmente revisadas; no se han leído las publicaciones descritas.",
+      "local_previous": "work/history/phase5-archive/FA-013-detailed-inventory.pdf",
+      "findings": [
+        {
+          "reference": "FA-013-32.266",
+          "page": 23,
+          "description": "Incluye una copia de un folleto sobre 60 años de AG Hunziker & Cie.",
+          "containers": [
+            "FA-013-NF_0053",
+            "FA-013-NF_0054"
+          ],
+          "container_precision": "El inventario divide el conjunto entre I/III en NF_0053 y II-III/III en NF_0054; no individualiza cuál contiene la copia."
+        },
+        {
+          "reference": "FA-013-61.272",
+          "page": 26,
+          "description": "Incluye Die Zemente, sobre historia de las empresas hasta 1945, y un extracto de Oltner Neujahrsblätter de 1990 sobre 60 Jahre Zement aus Olten.",
+          "container": "FA-013-NF_0041"
+        },
+        {
+          "reference": "FA-013-61.351",
+          "page": 26,
+          "description": "1874-1974 Hundert Jahre Hunziker-Unternehmungen: medalla, folleto y estuche con emblema.",
+          "container": "FA-013-GF_0001"
+        }
+      ]
+    },
+    {
+      "id": "arCHeco-FA013",
+      "url": "https://ub-archeco24.ub.unibas.ch/index.php/pco-portlandzementfabrik-olten-1931",
+      "read_status": "Ficha completa leída mediante web; es descripción archivística, no documentos históricos.",
+      "findings": [
+        "La ficha explica que PCO y AG Hunziker siguieron cercanas en dirección y organización después de 1931. El fondo conserva documentos de Hunziker, pero no equivale al archivo completo de la matriz de Zürich.",
+        "Bibliografía de la ficha: H. Hunziker, 60 Jahre Hunziker & Cie., Brugg 1934; Drei Kamine, 1957, pp. 84-87; Hundert Jahre Hunziker-Unternehmungen, Zürich 1974."
+      ]
+    },
+    {
+      "id": "drei-kamine",
+      "url": "https://doi.org/10.5169/seals-659748",
+      "repository_url": "https://www.e-periodica.ch/cntmng?pid=olt-001%3A1957%3A15%3A%3A126",
+      "read_status": "Sólo fragmentos indexados. La apertura del PDF, del visor y del DOI falló mediante web. La descarga de fase 5 devolvió HTML de verificación; no se eludió.",
+      "bibliography": "Drei Kamine, [s.n.], Oltner Neujahrsblätter 15 (1957), pp. 84-87. URL también cotejada en fase 5.",
+      "finding": "El fragmento de la p. 86 describe dos empresas jurídicamente separadas, sobre un mismo solar y bajo una misma dirección. No confirma la situación exacta de 1937 ni contiene una clave de BLUME en lo leído.",
+      "limits": "No hay lectura íntegra ni cotejo visual del artículo."
+    },
+    {
+      "id": "centennial-wonen-1974",
+      "url": "https://doi.org/10.5169/seals-104401",
+      "repository_url": "https://www.e-periodica.ch/cntmng?pid=woh-002%3A1974%3A49%3A%3A634",
+      "read_status": "Sólo metadatos indexados; apertura de PDF falló. Publicación nueva en esta fase, sin lectura de su contenido.",
+      "bibliography": "Hundert Jahre Hunziker-Baustoffe, [s.n.], Wohnen 49 (1974), Heft 6.",
+      "limits": "El artículo de Wohnen no es necesariamente el mismo folleto del centenario descrito en FA-013."
+    },
+    {
+      "id": "olten-old-booksale",
+      "url": "https://www.olten.ch/_docn/5587465/25-03-19_do_Verzeichnis_Buchantiquariat.pdf",
+      "read_status": "Texto completo del catálogo extraído por web, indexado. La captura visual falló y una descarga normal mediante curl devolvió 404.",
+      "document_date": "2025-03-19",
+      "entry": {
+        "reference": "DV 455",
+        "title": "Hundert Jahre Hunziker-Unternehmungen, 1874-1974",
+        "publication_place_year": "Zürich, 1974",
+        "old_list_price_CHF": 5,
+        "old_list_count": 7,
+        "page": 27
+      },
+      "limits": "Precio y existencias sólo del listado de 2025, no oferta vigente. Sin contacto, compra ni recomendación de pagar."
+    },
+    {
+      "id": "otto-brunner",
+      "url": "https://www.e-periodica.ch/cntmng?pid=jsg-003%3A1962%3A35%3A%3A431",
+      "read_status": "Fragmento indexado de fuente primaria, sin página visual ni artículo completo.",
+      "bibliography": "Totentafel 1961, Jahrbuch für solothurnische Geschichte 35 (1962).",
+      "finding": "El registro indexado identifica a Otto Brunner, ingeniero, nacido en 1893, residente en Orselina y antes en Olten, como director técnico y cofundador de AG Hunziker & Cie. y Portlandcementwerk AG Olten; fallecido el 4 de diciembre de 1961.",
+      "limits": "No informa de operaciones en España en 1937 ni de Oswald. Nombre útil para futuras búsquedas, sin vínculo demostrado con los telegramas."
+    }
+  ],
+  "correction": {
+    "source_received": "Agente principal y archivo_seguimiento: cotejo visual del original BAR, imagen 509.",
+    "correct_reading": "Bureau: Bahnhofplatz 1, Zürich; Wohnung: Brugg.",
+    "correction_to_previous": "La fase 5 y su copia entregada atribuyeron erróneamente la oficina de Bahnhofplatz 1 a Brugg. Los informes de fase 4 y el ledger de fase 3 conservaban Zürich. Se mantienen los archivos originales; esta nota corrige la interpretación de fase 5.",
+    "effect": "Olten es un archivo empresarial relacionado; no queda demostrado que sea el archivo completo de la oficina de Zürich.",
+    "letter1937": "El agente principal indica que el original 513 está fechado en Zürich, con teléfonos 52.668 Zürich / 41.261 Brugg / 2476 Olten."
+  },
+  "conclusion": "La vía más concreta es pedir reproducciones o localizadores de FA-013-61.272 (NF_0041) y FA-013-61.351 (GF_0001), además de la localización de la copia del folleto de 60 años en FA-013-32.266 (NF_0053/0054). Ninguna publicación se ha leído íntegra en esta fase y ninguna confirma el asunto o las claves de BLUME."
+}

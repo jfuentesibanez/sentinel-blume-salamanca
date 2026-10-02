@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-02",
+  "scope": "Kent serial-to-roll concordance for T120; ADAP D III serials 643 and 3176",
+  "queries": [
+    {
+      "n": 1,
+      "q": "\"Catalog of Files and Microfilm\" \"supplement\" Kent T120",
+      "raw": "web-01.json"
+    },
+    {
+      "n": 2,
+      "q": "\"Catalog of Files and Microfilm of the German Foreign\" digital volumes",
+      "raw": "web-01.json"
+    },
+    {
+      "n": 3,
+      "q": "\"Catalog\" \"Files\" \"German Foreign Ministry Archives\" \"Kent\" digitized",
+      "domains": [
+        "archive.org",
+        "babel.hathitrust.org",
+        "books.google.com",
+        "catalog.hathitrust.org",
+        "searchworks.stanford.edu"
+      ],
+      "raw": "web-02.json"
+    }
+  ],
+  "opens": [
+    {
+      "n": 1,
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA770",
+      "result": "tool reported URL not accessible",
+      "raw": "web-03.json"
+    },
+    {
+      "n": 2,
+      "url": "https://books.google.com/books?id=8Z9TorHSjDMC&pg=PA781",
+      "result": "tool reported URL not accessible",
+      "raw": "web-03.json"
+    },
+    {
+      "n": 3,
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ",
+      "result": "HTML metadata and contents read, lines 0–119; National Archives Supplement starts p.770 at line82; download PDF/EPUB links present, not followed",
+      "raw": "web-04.json"
+    }
+  ],
+  "limits": {
+    "web_queries": 3,
+    "query_limit": 3,
+    "open_attempts": 3,
+    "open_limit": 3,
+    "web_tool_calls": 4,
+    "kent_scan_images_read": 0,
+    "serial643_row_read": false,
+    "serial3176_row_read": false,
+    "roll643_inferred": false,
+    "roll3176_inferred": false,
+    "current_PAAA_signatura_inferred": false,
+    "current_custody_inferred": false,
+    "ui_used": false,
+    "account_contact_order_purchase": false
+  },
+  "verified_localization": {
+    "url": "https://books.google.com/books?id=oHAmAQAAMAAJ",
+    "catalog_title": "A Catalog of Files and Microfilms of the German Foreign Ministry Archives, 1920-1945, Issue 3",
+    "editor": "George O. Kent",
+    "author": "United States. Department of State. Historical Office",
+    "publisher_as_metadata": "Hoover Institution, Stanford University, 1962; reprint",
+    "original_copy_as_metadata": "University of Michigan",
+    "digitized_as_metadata": "Jul 20, 2011",
+    "supplement_start_printed_page_from_HTML_contents": 770,
+    "edition_year_cotejo": false,
+    "scan_title_page_read": false,
+    "links_present_but_not_used": [
+      "Preview this book",
+      "Download EPUB",
+      "Download PDF"
+    ]
+  },
+  "alternate_metadata": {
+    "url": "https://books.google.com/books/about/A_Catalog_of_Files_and_Microfilms_of_the.html?id=8Z9TorHSjDMC",
+    "copy_as_search_metadata": "New York Public Library",
+    "digitized_as_search_metadata": "Jan31,2023",
+    "length_as_search_metadata": 807,
+    "selected_pages_as_search_metadata": [
+      800,
+      87,
+      781,
+      5,
+      771
+    ],
+    "full_view_label_not_read": true
+  },
+  "prior_local_sources": {
+    "nara_raw": "../web-nara-citation.json",
+    "nara_url": "https://www.archives.gov/research/captured-german-records/citing-german-microfilm-sources.html",
+    "nara_lines_reviewed_by_local_audit": "L44–45",
+    "claude_second_response": "../claude_respuesta2_ax.txt",
+    "local_auditor": "auditoria_busquedas_blume",
+    "audit": "No existing Kent table location or serial conversion in the two directories reviewed."
+  },
+  "conclusion": "Public catalog/contents localization verified; no visual reading of serial643 or serial3176 conversion row. Stop at authorized cap; no claim that public copy is unavailable."
+}

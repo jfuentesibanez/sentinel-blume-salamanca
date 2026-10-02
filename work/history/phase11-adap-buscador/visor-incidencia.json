@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Browser Use could not complete this action because a browser security check was unavailable. Reason: Auto-review timed out without an approval decision; this was not a determination that the action was unsafe. You may retry once. Browser use cannot access https://digitale-sammlungen.de because Auto-review did not finish before it could grant permission for this request.\nThe automatic permission approval review did not finish before its deadline. Do not assume the action is unsafe based on the timeout alone. You may retry once, or ask the user for guidance or explicit approval. This failure may be temporary. The agent may retry after the issue is resolved, but must not bypass browser security controls or use an indirect workaround."
+    }
+  ],
+  "isError": true
+}
+

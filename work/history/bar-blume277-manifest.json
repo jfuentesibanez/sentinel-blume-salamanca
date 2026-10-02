@@ -1,0 +1,300 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/3578609.json",
+    "label": {
+        "none": [
+            "Spanische Revolution (Passvisas etc.)"
+        ]
+    },
+    "type": "Collection",
+    "items": [
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Umschlag_0000001/_cHzAATLHzRY5Qwzrqs3BJu.json",
+            "label": {
+                "none": [
+                    "Umschlag_0000001"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FUmschlag_0000001%2F00000001.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000002/_pC4O59HlMsJaxeR3Y2iy7U.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000002"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000015/_Bo1DbP0zju8luLt1lDTSkd.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000015"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/_ZM6P9SnwTpaNBcoN4cDNRm.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000066"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000073/_6oQH4BG1J4YVdvjv4BQbIR.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000073"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000089/_f6n4leVDMxi1t2w8FVgI04.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000089"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000113/_LEBWkhu5GUDn2jSzL7uGQ8.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000113"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000135/_CKlmpDXf6JMrzPzc1Z86JD.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000135"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000214/_uvOz24udIcaiZCVNU1E9IQ.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000214"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000224/_UEqXnsGbempOEx1QWyrZTa.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000224"
+                ]
+            },
+            "type": "Collection"
+        }
+    ],
+    "metadata": [
+        {
+            "label": {
+                "de": [
+                    "Signatur"
+                ],
+                "en": [
+                    "Reference code"
+                ],
+                "fr": [
+                    "Cote"
+                ],
+                "it": [
+                    "Segnatura"
+                ],
+                "none": [
+                    "Signatur"
+                ]
+            },
+            "value": {
+                "de": [
+                    "E4320B#1974/47#277*"
+                ],
+                "en": [
+                    "E4320B#1974/47#277*"
+                ],
+                "fr": [
+                    "E4320B#1974/47#277*"
+                ],
+                "it": [
+                    "E4320B#1974/47#277*"
+                ],
+                "none": [
+                    "E4320B#1974/47#277*"
+                ]
+            }
+        },
+        {
+            "label": {
+                "de": [
+                    "Titel"
+                ],
+                "en": [
+                    "Title"
+                ],
+                "fr": [
+                    "Titre"
+                ],
+                "it": [
+                    "Titolo"
+                ],
+                "none": [
+                    "Titel"
+                ]
+            },
+            "value": {
+                "de": [
+                    "Spanische Revolution (Passvisas etc.)"
+                ],
+                "en": [
+                    "Spanische Revolution (Passvisas etc.)"
+                ],
+                "fr": [
+                    "Spanische Revolution (Passvisas etc.)"
+                ],
+                "it": [
+                    "Spanische Revolution (Passvisas etc.)"
+                ],
+                "none": [
+                    "Spanische Revolution (Passvisas etc.)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "de": [
+                    "Entstehungszeitraum"
+                ],
+                "en": [
+                    "Creation period"
+                ],
+                "fr": [
+                    "Date de cr\u00e9ation"
+                ],
+                "it": [
+                    "Periodo di costituzione"
+                ],
+                "none": [
+                    "Entstehungszeitraum"
+                ]
+            },
+            "value": {
+                "de": [
+                    "1936 - 1938"
+                ],
+                "en": [
+                    "1936 - 1938"
+                ],
+                "fr": [
+                    "1936 - 1938"
+                ],
+                "it": [
+                    "1936 - 1938"
+                ],
+                "none": [
+                    "1936 - 1938"
+                ]
+            }
+        },
+        {
+            "label": {
+                "de": [
+                    "Aktenzeichen"
+                ],
+                "en": [
+                    "File reference"
+                ],
+                "fr": [
+                    "R\u00e9f\u00e9rence"
+                ],
+                "it": [
+                    "Riferimento"
+                ],
+                "none": [
+                    "Aktenzeichen"
+                ]
+            },
+            "value": {
+                "de": [
+                    "C.08-01.03"
+                ],
+                "en": [
+                    "C.08-01.03"
+                ],
+                "fr": [
+                    "C.08-01.03"
+                ],
+                "it": [
+                    "C.08-01.03"
+                ],
+                "none": [
+                    "C.08-01.03"
+                ]
+            }
+        }
+    ],
+    "rendering": [
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578609",
+            "label": {
+                "de": [
+                    "Laden Sie die Unterlagen von der Detailansicht herunter"
+                ],
+                "en": [
+                    "Download the documents from the detail view"
+                ],
+                "fr": [
+                    "T\u00e9l\u00e9chargez les documents depuis l\u2019affichage complet"
+                ],
+                "it": [
+                    "Scarica i documenti dalla visualizzazione dei dettagli"
+                ]
+            },
+            "type": "Text",
+            "format": "text/plain"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/ocr/0000/0357/8609/OCR-Text-komplett.zip",
+            "label": {
+                "de": [
+                    "Download OCR"
+                ],
+                "en": [
+                    "Download OCR"
+                ],
+                "fr": [
+                    "Download OCR"
+                ],
+                "it": [
+                    "Download OCR"
+                ]
+            },
+            "type": "Zip",
+            "format": "application/zip"
+        }
+    ],
+    "start": null,
+    "service": {
+        "id": "https://iiif.recherche.bar.admin.ch/iiif/search/collection/0000-0357-8609",
+        "type": "SearchService2"
+    }
+}

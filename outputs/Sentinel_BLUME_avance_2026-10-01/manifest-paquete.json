@@ -1,0 +1,306 @@
+{
+  "date": "2026-10-01",
+  "scope": "Separate selected-source supplement; historical ciphertext remains unsolved.",
+  "files": [
+    {
+      "path": "LEEME.txt",
+      "bytes": 8105,
+      "sha256": "11a1d7a0226fa5fe76973694b4faba57aa04ddb5bfda70d04f9dc0deac0faa9d"
+    },
+    {
+      "path": "verificacion-suplemento.json",
+      "bytes": 2803,
+      "sha256": "af1f47db7395aceaa007cfee6a331177a509f572a0fec254f96f60e17d25b279"
+    },
+    {
+      "path": "work/build_blume_supplement.py",
+      "bytes": 11238,
+      "sha256": "e7b1090bd5e1ecf93d21dea615029e62c65466df16fd9bdb564fa6aa967551de"
+    },
+    {
+      "path": "work/crypto/double_search.cpp",
+      "bytes": 11172,
+      "sha256": "445afbaf9f85c17c0661515634ee16a58dced5da80e15e0b54ea8868a093fefe"
+    },
+    {
+      "path": "work/crypto/holdout_es.txt",
+      "bytes": 329757,
+      "sha256": "b2d8d84a3d22d18918cd49dad122d8b385cf28ed1602f57ffd22b6d319254c1b"
+    },
+    {
+      "path": "work/crypto/holdout_proxy.txt",
+      "bytes": 279228,
+      "sha256": "8dae5c6fe87646155b3c9495303edf2c508573515f88492308f21a918219119f"
+    },
+    {
+      "path": "work/crypto/model_es.bin",
+      "bytes": 1900912,
+      "sha256": "d52bbf2f4d8412834e30bcc48758f2e1f4935bca7a0763b7560a36883288ab32"
+    },
+    {
+      "path": "work/crypto/model_provenance.json",
+      "bytes": 814,
+      "sha256": "249cb4784791bf383d738092fac47f47ef8f7840d185bc0e4eac982e61f3fcbc"
+    },
+    {
+      "path": "work/crypto/pg2000.txt",
+      "bytes": 2225803,
+      "sha256": "534f41d59f7142163fa0964076ac6351845c006ea6433778be637fac6d5b04d7"
+    },
+    {
+      "path": "work/crypto/prepare_model.py",
+      "bytes": 2684,
+      "sha256": "1ef8ea29629076509f123e86ff192765160af5427609d10e1e3a30d178b399f5"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/Dokument_0000071-manifest.json",
+      "bytes": 13957,
+      "sha256": "3dc1080df782ad7616a462b9748520971356e86c287ab99adb922372ec91d178"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/Umschlag_0000067-manifest.json",
+      "bytes": 10215,
+      "sha256": "91a2b946be8973e17995868d7e724d17a912083cd855d13a49e46e8f8e0631d1"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/Unterlagen_0000068-manifest.json",
+      "bytes": 14051,
+      "sha256": "2be3253590e761fe2470e89ad671f49aab56c51879c068cb21e5d6efe0f33227"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/Unterlagen_0000070-manifest.json",
+      "bytes": 14051,
+      "sha256": "49fee78856667e762d4d26655f8a80e87cac11052bbc82d4ba5668cd8f53e42e"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/images/Dokument_0000071-00000513.jpg",
+      "bytes": 1098727,
+      "sha256": "19e39e233879047fe5396bbfd7d23fa9c4f69acefc734abb62e482d7eeb459b6"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/images/Dokument_0000071-00000517.jpg",
+      "bytes": 845392,
+      "sha256": "b3e490ff4ce58e938b3a6d94892077af38ed8e3fcd6c6a37e8898d4e2ac5680d"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/images/Umschlag_0000067-00000491.jpg",
+      "bytes": 1268733,
+      "sha256": "35f6322fdcaf8b3d412e514dd2d9019c87bade630bd3d62dd5878279d9849628"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/images/Unterlagen_0000068-00000499.jpg",
+      "bytes": 1287555,
+      "sha256": "3546ca39f2cbcc4ac744490ba351990a3c77e09dbfaec70d05ae9b5621c94ed1"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/images/Unterlagen_0000068-00000500.jpg",
+      "bytes": 1316225,
+      "sha256": "584a16a9a9f1bfa13efeee7b50872706ddd29e1468d9bd1c0293b2ed1bc4eed8"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/images/Unterlagen_0000070-00000507.jpg",
+      "bytes": 1030505,
+      "sha256": "d1493cbf71e2030bfc35213fa675a2624e1eebd72ac7f46e372881b399f56501"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/images/Unterlagen_0000070-00000511.jpg",
+      "bytes": 958967,
+      "sha256": "b0fbf04d5a72d29238c7cc723c3ae0d732ad71ba22e5a6b000968d6e654b1de9"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/images-source-ledger.json",
+      "bytes": 12279,
+      "sha256": "43007dda4ad4cd117d44d221380986e4cafff97ba3d8b8dccf8e532850527c6a"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent/manifest-source-ledger.json",
+      "bytes": 19271,
+      "sha256": "f174140eceb05765e79e7f2a7e84946962e1758c8ec1efb805d22b2caebb8eca"
+    },
+    {
+      "path": "work/history/bar-blume277-adjacent-evidence.json",
+      "bytes": 17487,
+      "sha256": "038b9556e2b3edc8ed67a7e98d767b0f0fe44fe48e8d719020a5c209bd6a771b"
+    },
+    {
+      "path": "work/history/blume-registered-address-lead.json",
+      "bytes": 4722,
+      "sha256": "9bbc36491f0f73bf0fd7698ebcaf0de1f910a09bf56a0a36c0e8ae618397c3e5"
+    },
+    {
+      "path": "work/history/blume-user-search-screenshot-audit.json",
+      "bytes": 2162,
+      "sha256": "d4a6ae3c3d85ac491cfbbbb90beccca12440eff619ee38b3e7d3fae92bb23483"
+    },
+    {
+      "path": "work/history/blume2020-public-report-search.json",
+      "bytes": 12843,
+      "sha256": "064aa7ccb91b4225525eece2d94b3027d7ca927fbc906a641179240e8b117bde"
+    },
+    {
+      "path": "work/history/correos-catalogue-abreviadas.txt",
+      "bytes": 18767,
+      "sha256": "60a22b69d1d0e530ffb43c1972c81323be44e760243b5d5fa95bc9c093a05379"
+    },
+    {
+      "path": "work/history/correos-catalogue-blume.txt",
+      "bytes": 6453,
+      "sha256": "c1d892384fdee077c1705e14a81580f604694151db52c34248c0b720f0e8c565"
+    },
+    {
+      "path": "work/history/correos-catalogue-direcciones.txt",
+      "bytes": 18975,
+      "sha256": "640a77e31f0325a31204f7a12be98de5912c19bfc7907c2d449c3460e9073264"
+    },
+    {
+      "path": "work/history/correos-catalogue-salamanca.txt",
+      "bytes": 23565,
+      "sha256": "c165416e9d6e3cc20edba9378b2495be4df46c219ea75da4d9adf8db46514dfd"
+    },
+    {
+      "path": "work/history/correos-catalogue-salamanca1930-1940.txt",
+      "bytes": 13158,
+      "sha256": "a598948fa1aad49f038cc2aa853b2e2544cda3df771ad40c9ec3b2b5276039bc"
+    },
+    {
+      "path": "work/history/gaceta1934-direcciones-abreviadas-p1437.png",
+      "bytes": 687338,
+      "sha256": "335edc906467a609b252cdfdede49dfd18a1ca0fd61d5b296d8f3088f52d046a"
+    },
+    {
+      "path": "work/history/gaceta1934-direcciones-abreviadas.pdf",
+      "bytes": 5502771,
+      "sha256": "36fc71b6908de98b7bab788f2f2cb540e2f9ebd8999b45d100baf54ebaf26461"
+    },
+    {
+      "path": "work/history/telegraph-regulations-madrid1932-lnts151.pdf",
+      "bytes": 9010666,
+      "sha256": "3fcf24765fcf464e517474eebd337902a00c416dd8babb9e19ab7996eaa53c0e"
+    },
+    {
+      "path": "work/history/telegraph-regulations-madrid1932-p63.png",
+      "bytes": 170963,
+      "sha256": "c308e1dd7c13f77e7468cef47106d117a50d233e449efcf8d42c7b32d3141fe0"
+    },
+    {
+      "path": "work/phase3_crypto/METHOD.txt",
+      "bytes": 11196,
+      "sha256": "57c03c1e98fd8a2b767e29a02390b0a23a157c37d4f437b60d2ebeccd47f30eb"
+    },
+    {
+      "path": "work/phase3_crypto/README.txt",
+      "bytes": 2911,
+      "sha256": "ac08492e948a16d3c4bc374b968589c8d30c51da54c6d87d8c4cca9ad7fb968a"
+    },
+    {
+      "path": "work/phase3_crypto/RESULTADOS.txt",
+      "bytes": 3327,
+      "sha256": "d1e47e31cae3585e16cbae1f14d5443ef457dcd71293022783e8255cd8f55406"
+    },
+    {
+      "path": "work/phase3_crypto/full_prose_20261011_5.jsonl",
+      "bytes": 22750,
+      "sha256": "16e6974dd51135d0d20c8709a881fcdd20f4ee334d5c230512d783a79574d7de"
+    },
+    {
+      "path": "work/phase3_crypto/full_prose_20261011_5_manifest.json",
+      "bytes": 5266,
+      "sha256": "44da9e2cf545418655b6cc21f25a28266b915fd4d1f34ed76d80558e5eaab201"
+    },
+    {
+      "path": "work/phase3_crypto/full_prose_20261081_3_negative.jsonl",
+      "bytes": 13634,
+      "sha256": "90e648ab171a654ce930d0f6c43fce2c77a56d7203d20317e3981c7d036a89a0"
+    },
+    {
+      "path": "work/phase3_crypto/full_prose_20261081_3_negative_manifest.json",
+      "bytes": 3754,
+      "sha256": "fd3eea9ad1ea701cf2a8077a59175f8618b358761cf08fa60ed7c56ab2051824"
+    },
+    {
+      "path": "work/phase3_crypto/full_proxy_20261011_3.jsonl",
+      "bytes": 13653,
+      "sha256": "1845978938b3c9b0e64f5fd73c72199b5a6604d3e99706904515a14ad4c2bf3c"
+    },
+    {
+      "path": "work/phase3_crypto/full_proxy_20261011_3_manifest.json",
+      "bytes": 3519,
+      "sha256": "e6e2acfde9d7feb161012f495123630dfaff34f55d7ec01cdaa682279cc5839d"
+    },
+    {
+      "path": "work/phase3_crypto/geometry_check.json",
+      "bytes": 88,
+      "sha256": "9dada68838609f6758c03451685f8848c5e259c8158ec08b87bbe96593c3f658"
+    },
+    {
+      "path": "work/phase3_crypto/ict_search.h",
+      "bytes": 7510,
+      "sha256": "4167f43147969f6d3b2d943fb85a5ad306073098b4344d501d8f05f9e0bb57af"
+    },
+    {
+      "path": "work/phase3_crypto/independent_source_audit.json",
+      "bytes": 15702,
+      "sha256": "ef2b225519284df41bee0d6a6dc5e0a4a0ae13bfeb63a93a28de87720ebe1b58"
+    },
+    {
+      "path": "work/phase3_crypto/oracle_prose_20261101_25.jsonl",
+      "bytes": 106677,
+      "sha256": "52e0aab4af7bcd9112b67cb0c02600df33bb856db6273365bfaf500e7358efed"
+    },
+    {
+      "path": "work/phase3_crypto/oracle_prose_20261101_25_manifest.json",
+      "bytes": 23191,
+      "sha256": "c7e3192b2a06b84b8b452e0186713ce6686a6deb7bb1d7d5f8bdbe417577af01"
+    },
+    {
+      "path": "work/phase3_crypto/oracle_prose_20261131_5_negative.jsonl",
+      "bytes": 21344,
+      "sha256": "9b116d08e7e91f2d106ea98bb444d7255109af52391f3f3658a633786db21471"
+    },
+    {
+      "path": "work/phase3_crypto/oracle_prose_20261131_5_negative_manifest.json",
+      "bytes": 5619,
+      "sha256": "de07e681d7903411b0dd2aacdc5098470ef0e76ee1d0905eec47abfa559df318"
+    },
+    {
+      "path": "work/phase3_crypto/oracle_proxy_20261101_25.jsonl",
+      "bytes": 106674,
+      "sha256": "03170cccb42946b5cf6029d14ac13fb590eece4f0429858a71c1c307282ea0c6"
+    },
+    {
+      "path": "work/phase3_crypto/oracle_proxy_20261101_25_manifest.json",
+      "bytes": 23344,
+      "sha256": "7c0e0b63a3a7e5d99997816d55151bf85c820f9e3cfa50d38806260a050fb83c"
+    },
+    {
+      "path": "work/phase3_crypto/phase3.cpp",
+      "bytes": 7604,
+      "sha256": "659d485123aaceb5926177a7c2cc8306cb0c5c5e5964be6e2618e72ff59462df"
+    },
+    {
+      "path": "work/phase3_crypto/phase3_full_validated.cpp",
+      "bytes": 7549,
+      "sha256": "2ad5c90f568c4257dd4ca13dca6a61a0809284d5fe1c03cabc5e206fc9f6da3d"
+    },
+    {
+      "path": "work/phase3_crypto/run_controls.py",
+      "bytes": 2517,
+      "sha256": "7c355cee246674de50afa85a1cd8caf451a318cb3e4375b37cbd87ec51ef7b5f"
+    },
+    {
+      "path": "work/phase3_crypto/summarize.py",
+      "bytes": 6108,
+      "sha256": "1cf4767e32e72afc83e324210dc04a7c2a59e88d052abea08bacc053e95e1702"
+    },
+    {
+      "path": "work/phase3_crypto/summary.json",
+      "bytes": 32518,
+      "sha256": "1dbb1213ae2bb6281c9242c189e5a297af4d7dbfe6476515e0a437f2b5121225"
+    },
+    {
+      "path": "work/phase3_crypto/summary_check.json",
+      "bytes": 4645,
+      "sha256": "bf6b26768cb061ade399e1e20dc6a695b71b147dee158f52ab4db2b6e80df622"
+    }
+  ]
+}

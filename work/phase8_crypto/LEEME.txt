@@ -1,0 +1,158 @@
+Sentinel — BLUME SALAMANCA — comparación de una K2 frente a varias K2
+Fecha: 2 de octubre de 2026
+
+Resultado
+
+Probar hasta cinco candidatas K2 no mejoró la recuperación en estos ocho pares
+sintéticos. Ambas políticas recuperaron exactamente los mismos dos pares.
+El pool consumió más tiempo y más evaluaciones registradas.
+
+Modelo y anchos       Candidata única       Hasta cinco candidatas
+Alemán 12×15               2/2                       2/2
+Alemán 20×25               0/2                       0/2
+Francés 12×15              0/2                       0/2
+Francés 20×25              0/2                       0/2
+Total                     2/8                       2/8
+
+En los seis pares fallidos, la K2 verdadera no apareció en ninguno de los tres
+pools devueltos. Evaluar K1 con más candidatas de esos pools no podía partir de
+la K2 verdadera. El ajuste final de K2 tampoco produjo una recuperación exacta.
+En los dos éxitos, la política pool seleccionó una candidata de rango 1.
+
+Esto no identifica el idioma de BLUME. Los textos son controles literarios,
+los anchos son conocidos y se prueba una sola convención de doble transposición.
+Las dos políticas están emparejadas: no son 16 casos independientes.
+
+Diseño y separación de la verdad
+
+Se predefinieron ocho pares antes de ejecutar el solver:
+de_fold y fr_fold, anchos 12×15 y 20×25, semillas 20261801 y 20261802.
+Cada par tiene 615 y 160 letras, se cifra con las mismas claves y se evalúa con
+ambos mensajes juntos. Los fragmentos proceden de holdouts ya separados del
+entrenamiento: Die Verwandlung, de Kafka, y Candide, de Voltaire.
+
+run_pool_comparison.py genera los casos y guarda las claves originales en
+planted_truth.jsonl. Escribe los dieciséis textos cifrados en ciphertexts/ y
+sella todos los casos en comparison_manifest.json antes de invocar el solver.
+
+pool_solver recibe sólo el modelo, dos archivos cifrados, los anchos, la semilla
+de búsqueda y los límites. No acepta claves originales, scores de la verdad,
+un archivo de holdout ni una opción de clave conocida. La verdad sólo se usa
+en verify_pool_comparison.py, después de terminar la búsqueda.
+
+El solver conserva los movimientos K2 de source_moves.h y la reconstrucción
+ICT de K1. La copia instrumentada añade presupuestos y métricas; no modifica
+ningún archivo anterior. Sólo se escribió en work/phase8_crypto.
+
+La búsqueda K2 se ejecuta una vez por ronda y se guarda antes de evaluar ambas
+políticas. Las tres rondas y sus pools son idénticos para las dos políticas.
+El pool K2 se ordena por IDP y elimina claves duplicadas. La candidata única
+evalúa el rango 1; el pool evalúa hasta cinco claves distintas. Se elige el mejor
+resultado final por su puntuación de trigramas. No se consulta la respuesta real.
+
+Presupuesto y coste real
+
+Cada ronda dispone de estos límites máximos:
+• Generación K2: 5 segundos y 300.000 evaluaciones IDP.
+• K1: 3 segundos y 2.000.000 propuestas evaluadas.
+• Ajuste final K2: 3 segundos y 2.000.000 propuestas evaluadas.
+
+La política pool divide el límite de K1 y el del ajuste final K2 entre el número
+de candidatas distintas que evalúa en esa ronda. No multiplica los límites por
+cinco ni redistribuye el presupuesto sobrante. Ambas políticas usan ocho
+reinicios máximos de K1 por candidata.
+
+Los límites máximos iguales no produjeron costes reales iguales:
+
+                             Candidata única           Pool
+Tiempo imputado total          80,275 s               101,588 s
+Evaluaciones registradas     20.900.359             39.856.490
+Tiempo dependiente de K1
+y del ajuste final K2            9,008 s                30,321 s
+
+El coste K2 común se imputa íntegro a cada política. Por tanto, la suma de los
+tiempos imputados duplica ese coste compartido; no es el tiempo real del proceso.
+El manifiesto registra además el tiempo real de cada proceso completo.
+
+«Evaluaciones registradas» cuenta propuestas sujetas al límite, no todas las
+puntuaciones ni todos los cálculos. La primera evaluación de Feature por
+reinicio no entra en ese contador. Se puede contar con restarts_attempted:
+192 en candidata única y 642 en pool. Las puntuaciones iniciales del texto
+también se registran aparte en initial_q_evaluations: 216 y 760, respectivamente.
+Construir las tablas ICT supone cálculos adicionales, medidos en setup_seconds.
+El contador mezcla llamadas de distinto coste; no equivale a tiempo de CPU.
+
+El reloj de K1 empieza antes de construir ICT. El reloj del ajuste K2 empieza
+antes de generar los movimientos. Ese trabajo y las puntuaciones iniciales
+permanecen dentro del tiempo de la etapa. Los límites de tiempo son blandos:
+una construcción o puntuación en curso puede terminar después del límite antes
+del próximo allow(). Los campos seconds, setup_seconds, seconds_limit, cause y
+cut_phase permiten medir ese exceso.
+
+En esta ejecución no hubo exceso del límite temporal en K1 ni en el ajuste K2.
+El mayor setup de esas etapas fue 0,010838 s. Las doce búsquedas K2 de los cuatro
+pares 20×25 cortaron por tiempo; las doce de 12×15 terminaron. Su mayor exceso
+temporal medido fue 0,0000584 s. En la política pool, 60 de 118 etapas K1 cortaron
+por evaluaciones. Las demás terminaron sin corte. La candidata única terminó
+sus 24 etapas K1 y sus 24 ajustes K2 sin corte. Las 118 etapas de ajuste final
+del pool terminaron sin corte. El campo setup_seconds de la generación K2 no
+se midió por separado: su valor 0 no indica coste cero. La construcción de los
+movimientos K2 sí está incluida en el reloj y el tiempo total de esa etapa.
+
+La búsqueda K2 común conserva sólo hasta cinco claves después de su recorrido
+de escaladas. Esto no es un muestreo amplio de claves ni una exclusión de otras
+regiones. Deduplicar después de esa búsqueda tampoco demuestra que todos los
+mínimos o máximos relevantes se hayan explorado.
+
+Verificación y archivos
+
+verify_pool_comparison.py comprobó:
+• 16 filas y 16 textos cifrados, con 32 textos devueltos reconstruidos.
+• 284 puntuaciones de candidata calculadas con Python independiente.
+• Pools exactamente iguales entre políticas, claves distintas y rangos correctos.
+• Reparto del presupuesto por ronda y selección exclusiva por puntuación q3.
+• 187 archivos de fases anteriores, intactos antes y después.
+
+check_isolation.py usó el primer caso ya existente, con límites pequeños de
+evaluaciones y tiempo suficiente. Repitió la misma llamada cambiando un archivo
+de verdad falso en el directorio de trabajo. El solver devolvió exactamente las
+mismas claves, scores, candidatas y causas de corte al quitar sólo los tiempos
+medidos. Es un check de interfaz y aislamiento; no una prueba general de flujo
+de información. No añade un nuevo par de recuperación.
+
+Archivos principales:
+• comparison_manifest.json: casos predefinidos, comandos, hashes y costes reales.
+• solver_outputs.jsonl: salida del solver sin verdad, con rondas y candidatas.
+• planted_truth.jsonl: verdad sintética separada del solver.
+• external_evaluation.jsonl: éxitos y presencia de la K2 real, evaluados después.
+• comparison_summary.json: resultados emparejados, costes y causas de corte.
+• verification.json y isolation_check.json: comprobaciones.
+
+Reproducción
+
+Compilar:
+clang++ -std=c++17 -O3 work/phase8_crypto/pool_solver.cpp -o work/phase8_crypto/pool_solver
+
+Comprobar resultados guardados:
+/Users/javier/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/phase8_crypto/verify_pool_comparison.py
+
+Repetir el check de aislamiento:
+/Users/javier/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/phase8_crypto/check_isolation.py
+
+El runner rechaza sobrescribir un manifiesto previo. Cada caso se puede repetir
+con su command de comparison_manifest.json. Las búsquedas cortadas por tiempo
+pueden devolver un pool distinto si cambia la carga de la máquina. La semilla
+de búsqueda se mantiene fija, pero el número de propuestas antes del corte puede
+variar. Guardar los pools permite auditar la comparación ya realizada.
+
+Qué haría después
+
+Este cambio no justifica una búsqueda real más amplia. La siguiente mejora debe
+actuar en la generación K2: introducir una salida de los máximos locales y
+compararla con el recorrido actual bajo un coste medido. Los casos franceses
+12×15 fallaron con las escaladas completas, y los 20×25 se cortaron por tiempo;
+son dos límites que conviene distinguir. Aumentar candidatos de los pools
+devueltos no resolvió ninguno de los seis pares fallidos de esta muestra.
+
+No se ha obtenido texto en claro de BLUME ni se ha descartado ningún idioma,
+sistema de cifrado o conjunto de claves.

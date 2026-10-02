@@ -1,0 +1,6 @@
+* -text
+/README.md text eol=lf
+/CLAUDE.md text eol=lf
+/THIRD_PARTY_NOTICES.md text eol=lf
+/docs/*.md text eol=lf
+/tools/*.py text eol=lf

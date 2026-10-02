@@ -1,0 +1,132 @@
+{
+  "elapsed_seconds": 17.378172249998897,
+  "interpretation": "Exploratory baseline only; calibrated recovery failures preclude exclusion; re-encryption is inverse consistency only",
+  "commands": [
+    {
+      "label": "blume",
+      "seed": 20261001,
+      "command": [
+        "work/crypto/double_search",
+        "solve",
+        "work/crypto/model_es.bin",
+        "work/source/ct1.txt",
+        "work/source/ct2.txt",
+        "8",
+        "10",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ],
+      "ct1_sha256": "d442e136d63bfc066c20374e2b454ca5581b164e940b307d5600d0d463df943e",
+      "ct2_sha256": "d2cdadbefb0bef2fbcdcf83bf6de1b104583e166f14f0a3d2b545024b3188df0"
+    },
+    {
+      "label": "blume",
+      "seed": 20261002,
+      "command": [
+        "work/crypto/double_search",
+        "solve",
+        "work/crypto/model_es.bin",
+        "work/source/ct1.txt",
+        "work/source/ct2.txt",
+        "8",
+        "10",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ],
+      "ct1_sha256": "d442e136d63bfc066c20374e2b454ca5581b164e940b307d5600d0d463df943e",
+      "ct2_sha256": "d2cdadbefb0bef2fbcdcf83bf6de1b104583e166f14f0a3d2b545024b3188df0"
+    },
+    {
+      "label": "blume",
+      "seed": 20261003,
+      "command": [
+        "work/crypto/double_search",
+        "solve",
+        "work/crypto/model_es.bin",
+        "work/source/ct1.txt",
+        "work/source/ct2.txt",
+        "8",
+        "10",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ],
+      "ct1_sha256": "d442e136d63bfc066c20374e2b454ca5581b164e940b307d5600d0d463df943e",
+      "ct2_sha256": "d2cdadbefb0bef2fbcdcf83bf6de1b104583e166f14f0a3d2b545024b3188df0"
+    },
+    {
+      "label": "shuffled",
+      "seed": 20261001,
+      "command": [
+        "work/crypto/double_search",
+        "solve",
+        "work/crypto/model_es.bin",
+        "work/crypto/negative_ct1.txt",
+        "work/crypto/negative_ct2.txt",
+        "8",
+        "10",
+        "20261001",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ],
+      "ct1_sha256": "80723e1dd427bf6b4ca407a4be595d288c9d568fe2a855322bcbcff9e7a25d8a",
+      "ct2_sha256": "4b8bc852a39d3e69fd001f84307556fa272bf2f4a0703c3e1709c0f0528f758b"
+    },
+    {
+      "label": "shuffled",
+      "seed": 20261002,
+      "command": [
+        "work/crypto/double_search",
+        "solve",
+        "work/crypto/model_es.bin",
+        "work/crypto/negative_ct1.txt",
+        "work/crypto/negative_ct2.txt",
+        "8",
+        "10",
+        "20261002",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ],
+      "ct1_sha256": "80723e1dd427bf6b4ca407a4be595d288c9d568fe2a855322bcbcff9e7a25d8a",
+      "ct2_sha256": "4b8bc852a39d3e69fd001f84307556fa272bf2f4a0703c3e1709c0f0528f758b"
+    },
+    {
+      "label": "shuffled",
+      "seed": 20261003,
+      "command": [
+        "work/crypto/double_search",
+        "solve",
+        "work/crypto/model_es.bin",
+        "work/crypto/negative_ct1.txt",
+        "work/crypto/negative_ct2.txt",
+        "8",
+        "10",
+        "20261003",
+        "4",
+        "10000",
+        "0",
+        "-1",
+        "1"
+      ],
+      "ct1_sha256": "80723e1dd427bf6b4ca407a4be595d288c9d568fe2a855322bcbcff9e7a25d8a",
+      "ct2_sha256": "4b8bc852a39d3e69fd001f84307556fa272bf2f4a0703c3e1709c0f0528f758b"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "cpp_sha256": "bfcc0c6015c23529df25b873a34527ace136233abf0a6eaf87921616bdec0dc8",
+  "prepare_sha256": "1ef8ea29629076509f123e86ff192765160af5427609d10e1e3a30d178b399f5",
+  "independent_reference_cases": 1566,
+  "holdout_es_reconstruction_equal": true,
+  "holdout_proxy_reconstruction_equal": true,
+  "model_sample_max_float_error": 2.796954898798276e-07,
+  "position_split_disjoint": true,
+  "sanitizers": "Unavailable at runtime: incompatible installed libclang_rt.asan_osx_dynamic architecture. Ordinary harness run succeeded.",
+  "matrix_vs_independent_brute_offset_cases": 1485
+}

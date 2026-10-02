@@ -1,0 +1,355 @@
+{
+  "assumption": "Literal A-Z preserved by pure transposition. Terms are hypotheses, not recovered words.",
+  "results": [
+    {
+      "term": "HOVAG",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "PATVAG",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "CEDRIC",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "VICTOR",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "RUDOLF",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "WERNEROSWALD",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "W": 2
+          }
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "W": 2
+          }
+        }
+      }
+    },
+    {
+      "term": "OSWALD",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "W": 1
+          }
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "W": 1
+          }
+        }
+      }
+    },
+    {
+      "term": "WALTHERCETTO",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "W": 1
+          }
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "W": 1
+          }
+        }
+      }
+    },
+    {
+      "term": "PAULHOLZACH",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "H": 1
+          }
+        }
+      }
+    },
+    {
+      "term": "HANSHEUSSER",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "H": 1
+          }
+        }
+      }
+    },
+    {
+      "term": "HOLZVERZUCKERUNGSAG",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "Z": 1,
+            "K": 1
+          }
+        }
+      }
+    },
+    {
+      "term": "BAHNHOFSTRASSE",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "H": 1
+          }
+        }
+      }
+    },
+    {
+      "term": "KILOS",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "K": 1
+          }
+        }
+      }
+    },
+    {
+      "term": "PESETAS",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "LANA",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "SALAMANCA",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "BLUME",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "ALGODON",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "PRECIOS",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "FRANCO",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "SANSEBASTIAN",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "IMPORTACION",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "EXPORTACION",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": false,
+          "missing_multiplicities": {
+            "X": 1
+          }
+        }
+      }
+    },
+    {
+      "term": "COMPENSACION",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    },
+    {
+      "term": "ACEITEOLIVA",
+      "messages": {
+        "ct1.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        },
+        "ct2.txt": {
+          "feasible_inventory_only": true,
+          "missing_multiplicities": {}
+        }
+      }
+    }
+  ]
+}

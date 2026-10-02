@@ -1,0 +1,18 @@
+term,length,required_counts,T1_inventory_feasible,T1_deficits,T2_inventory_feasible,T2_deficits
+HOVAG,5,A:1 G:1 H:1 O:1 V:1,True,{},True,{}
+PATVAG,6,A:2 G:1 P:1 T:1 V:1,True,{},True,{}
+CEDRIC,6,C:2 D:1 E:1 I:1 R:1,True,{},True,{}
+WERNEROSWALD,12,A:1 D:1 E:2 L:1 N:1 O:1 R:2 S:1 W:2,False,"{""W"":{""required"":2,""available"":0,""missing"":2}}",False,"{""W"":{""required"":2,""available"":0,""missing"":2}}"
+OSWALD,6,A:1 D:1 L:1 O:1 S:1 W:1,False,"{""W"":{""required"":1,""available"":0,""missing"":1}}",False,"{""W"":{""required"":1,""available"":0,""missing"":1}}"
+WALTHERCETTO,12,A:1 C:1 E:2 H:1 L:1 O:1 R:1 T:3 W:1,False,"{""W"":{""required"":1,""available"":0,""missing"":1}}",False,"{""W"":{""required"":1,""available"":0,""missing"":1}}"
+PAULHOLZACH,11,A:2 C:1 H:2 L:2 O:1 P:1 U:1 Z:1,True,{},False,"{""H"":{""required"":2,""available"":1,""missing"":1}}"
+HANSHEUSSER,11,A:1 E:2 H:2 N:1 R:1 S:3 U:1,True,{},False,"{""H"":{""required"":2,""available"":1,""missing"":1}}"
+HOLZVERZUCKERUNGSAG,19,A:1 C:1 E:2 G:2 H:1 K:1 L:1 N:1 O:1 R:2 S:1 U:2 V:1 Z:2,True,{},False,"{""K"":{""required"":1,""available"":0,""missing"":1},""Z"":{""required"":2,""available"":1,""missing"":1}}"
+BAHNHOFSTRASSE,14,A:2 B:1 E:1 F:1 H:2 N:1 O:1 R:1 S:3 T:1,True,{},False,"{""H"":{""required"":2,""available"":1,""missing"":1}}"
+KILOS,5,I:1 K:1 L:1 O:1 S:1,True,{},False,"{""K"":{""required"":1,""available"":0,""missing"":1}}"
+PESETAS,7,A:1 E:2 P:1 S:2 T:1,True,{},True,{}
+LANA,4,A:2 L:1 N:1,True,{},True,{}
+SALAMANCA,9,A:4 C:1 L:1 M:1 N:1 S:1,True,{},True,{}
+BLUME,5,B:1 E:1 L:1 M:1 U:1,True,{},True,{}
+ALGODON,7,A:1 D:1 G:1 L:1 N:1 O:2,True,{},True,{}
+PRECIOS,7,C:1 E:1 I:1 O:1 P:1 R:1 S:1,True,{},True,{}

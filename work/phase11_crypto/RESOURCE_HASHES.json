@@ -1,0 +1,185 @@
+{
+  "phase": "11",
+  "resource_count_excluding_this_file": 35,
+  "resources": [
+    {
+      "path": "ATTRIBUTION.txt",
+      "sha256": "51b87391c9159efc922f9b2d3f9798370f2243c95b4e55dde2b152de6bbdc44d",
+      "bytes": 1015
+    },
+    {
+      "path": "LEEME.txt",
+      "sha256": "ec282596266d9ea4b0128485fcce377737ca42982dd4e666169537a356c2cadb",
+      "bytes": 10703
+    },
+    {
+      "path": "LICENSE-CrypTool-2.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "build_record.json",
+      "sha256": "fc87021defbe120d537e121fb7f7c0de7dd0f52b4f06236254709dfab303b2f9",
+      "bytes": 1123
+    },
+    {
+      "path": "build_solver.py",
+      "sha256": "52ff5532c1465cf2c0ad0d3d0aff34c61003db659030787ddfeeeba76dc54957",
+      "bytes": 1565
+    },
+    {
+      "path": "capped_population_search",
+      "sha256": "801bac4896e82c39311c97f60f45a722adce765889bd8fcba05960cc60847590",
+      "bytes": 233957
+    },
+    {
+      "path": "capped_population_search.cpp",
+      "sha256": "2401b8522b80a29b36657f09d5fb97bdf1d3f71e212eae005d1db015522e4aaa",
+      "bytes": 8076
+    },
+    {
+      "path": "ciphertexts/de_fold_12x15_20262101_T1.txt",
+      "sha256": "9c1da01eb5d9bb0b29e5543457a6596eef67b31a1707a78704db2f973ead8b98",
+      "bytes": 616
+    },
+    {
+      "path": "ciphertexts/de_fold_12x15_20262101_T2.txt",
+      "sha256": "1630d6bb6fec176f0f572540457252b883c8e530d8a5ff0012777518e6f737ae",
+      "bytes": 161
+    },
+    {
+      "path": "ciphertexts/de_fold_12x15_20262102_T1.txt",
+      "sha256": "1df35de2b79276e57c81e49a9e6952d35e23ae6e519d74960254eb3f9ba9f38b",
+      "bytes": 616
+    },
+    {
+      "path": "ciphertexts/de_fold_12x15_20262102_T2.txt",
+      "sha256": "86a7b34c8fb735acf613185cc0d5eb5fc4b7a3f1af46d23d38822dc3a4676c98",
+      "bytes": 161
+    },
+    {
+      "path": "ciphertexts/de_fold_20x25_20262101_T1.txt",
+      "sha256": "8d711bdc1c823478e00e49d20ec33ba06a941f2aa0f79bda358732e38f2bd341",
+      "bytes": 616
+    },
+    {
+      "path": "ciphertexts/de_fold_20x25_20262101_T2.txt",
+      "sha256": "46b5744698dccbb75863e74a9ab0ec04f5994bb2d0e582cfc6d4896761e9b102",
+      "bytes": 161
+    },
+    {
+      "path": "ciphertexts/de_fold_20x25_20262102_T1.txt",
+      "sha256": "a32e3efa87c77ee00b867b0f25cd6b97bc320a0b1e057fe5ffc663a83d3c6e75",
+      "bytes": 616
+    },
+    {
+      "path": "ciphertexts/de_fold_20x25_20262102_T2.txt",
+      "sha256": "189cd86c4f4fc3dc55270d234c63254e817c61bc2a9c45059c239cba0e37a593",
+      "bytes": 161
+    },
+    {
+      "path": "ciphertexts/fr_fold_12x15_20262101_T1.txt",
+      "sha256": "70e3e40b39ec041624381aaf8023814cbd7c64bbeb0418571b574bba498e7262",
+      "bytes": 616
+    },
+    {
+      "path": "ciphertexts/fr_fold_12x15_20262101_T2.txt",
+      "sha256": "b482d6d1afd1f27bc62956c31fd94acc30b8f7d983502e1e065b5a8dc5cc4e9f",
+      "bytes": 161
+    },
+    {
+      "path": "ciphertexts/fr_fold_12x15_20262102_T1.txt",
+      "sha256": "a2b2c357cb632d0f8bd3f0df38cd8ca2623361a92ece668c9459effd1320bf35",
+      "bytes": 616
+    },
+    {
+      "path": "ciphertexts/fr_fold_12x15_20262102_T2.txt",
+      "sha256": "4f9714850a338cd04d2cd5eba7f1feb6f972e8bb54dc0d6462e470705d9781ee",
+      "bytes": 161
+    },
+    {
+      "path": "ciphertexts/fr_fold_20x25_20262101_T1.txt",
+      "sha256": "44cdaefd78b6e815ba10f567fb916eb8131bfebfaacdfa379c36edd650d8ce4e",
+      "bytes": 616
+    },
+    {
+      "path": "ciphertexts/fr_fold_20x25_20262101_T2.txt",
+      "sha256": "fdd07a88d733a413d6d899b8bcb702ef4e872679975f1cd66c86c4a17929d2bd",
+      "bytes": 161
+    },
+    {
+      "path": "ciphertexts/fr_fold_20x25_20262102_T1.txt",
+      "sha256": "0b8cdeb928ebde0068b1af86787386bb5ddb5a2c6259e86d0d6a7b89b3113cd4",
+      "bytes": 616
+    },
+    {
+      "path": "ciphertexts/fr_fold_20x25_20262102_T2.txt",
+      "sha256": "a6122523272d8da0a821b1be05409b07693ca7249e89bd6ca843335abee16d36",
+      "bytes": 161
+    },
+    {
+      "path": "evaluate_external.py",
+      "sha256": "3d1b5d639190bdb493423ca450def163401e5a9e54f849b0372bd105243d917c",
+      "bytes": 24048
+    },
+    {
+      "path": "evaluation_console.json",
+      "sha256": "c81918b5b5777e08953893f74c0377749c7879002dc832f80f7a1a80aa3dab2a",
+      "bytes": 21432
+    },
+    {
+      "path": "external_evaluation.jsonl",
+      "sha256": "267a58a6dde6dab01c8dab6dbda58d75e7a9db6fb271716d56b7f34cb63b1609",
+      "bytes": 12865
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "af1ddb7d2b85853e4601fd1942a2ce153439c1d88959c9111835be8b08277d00",
+      "bytes": 158931
+    },
+    {
+      "path": "phase10_frozen_classes.h",
+      "sha256": "bc70ef992bb05a7fff73c712a93f557065ee422eac8a500a0f720aed24d81a54",
+      "bytes": 8540
+    },
+    {
+      "path": "run_comparison.py",
+      "sha256": "a14e4ab92ff97cd2066c5690c91bc235be592022b4fd466dcf66ef1158dcaa83",
+      "bytes": 10678
+    },
+    {
+      "path": "run_diagnostics.json",
+      "sha256": "f564146783699364379330d23c1b7bd8e6d88c25158c83f6355ca23c0227312b",
+      "bytes": 2923
+    },
+    {
+      "path": "sealed_design.json",
+      "sha256": "13f76031eb50be4716cde031964f5bcc5459e55ecd5d6912ffbb8f2c602afede",
+      "bytes": 84410
+    },
+    {
+      "path": "search_outputs.jsonl",
+      "sha256": "e7adbf4b5f7645f8a859d58f16d8b14140d34740a606346479c21259a75124f2",
+      "bytes": 3693972
+    },
+    {
+      "path": "summary.json",
+      "sha256": "4f6afbec4f271dc1d32e0172d43cf7398117b9323523267feafd646d20fb3da9",
+      "bytes": 24127
+    },
+    {
+      "path": "truth.jsonl",
+      "sha256": "9268c72d8cf69f59e9979b1c11635b535c620df9cc2ba53d61f6a825c1251c23",
+      "bytes": 1902
+    },
+    {
+      "path": "verification.json",
+      "sha256": "99cc3d711e07d53bdc85fa5a05c9d1435e8d20f637583a1b0ddc9e8315784c26",
+      "bytes": 2175
+    }
+  ],
+  "protected_prior_file_count": 282,
+  "protected_unchanged": true,
+  "historical_attack": false,
+  "reruns": 0
+}

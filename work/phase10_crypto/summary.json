@@ -1,0 +1,502 @@
+{
+  "phase": "10",
+  "pairs": 8,
+  "rows": 32,
+  "k2_only": true,
+  "historical_attack": false,
+  "cells": [
+    {
+      "language_model": "de_fold",
+      "w1": 12,
+      "w2": 15,
+      "method": "restart",
+      "rows": 4,
+      "true_k2_in_archive": 3,
+      "true_k2_best": 3,
+      "true_idp_greater_than_all": 1,
+      "objective_calls": 400000,
+      "seconds": 11.143751958
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 12,
+      "w2": 15,
+      "method": "population",
+      "rows": 4,
+      "true_k2_in_archive": 4,
+      "true_k2_best": 4,
+      "true_idp_greater_than_all": 0,
+      "objective_calls": 400000,
+      "seconds": 10.933615125
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 20,
+      "w2": 25,
+      "method": "restart",
+      "rows": 4,
+      "true_k2_in_archive": 0,
+      "true_k2_best": 0,
+      "true_idp_greater_than_all": 4,
+      "objective_calls": 400000,
+      "seconds": 24.334344292
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 20,
+      "w2": 25,
+      "method": "population",
+      "rows": 4,
+      "true_k2_in_archive": 0,
+      "true_k2_best": 0,
+      "true_idp_greater_than_all": 4,
+      "objective_calls": 400000,
+      "seconds": 24.443060291
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 12,
+      "w2": 15,
+      "method": "restart",
+      "rows": 4,
+      "true_k2_in_archive": 0,
+      "true_k2_best": 0,
+      "true_idp_greater_than_all": 4,
+      "objective_calls": 400000,
+      "seconds": 10.778624292
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 12,
+      "w2": 15,
+      "method": "population",
+      "rows": 4,
+      "true_k2_in_archive": 0,
+      "true_k2_best": 0,
+      "true_idp_greater_than_all": 4,
+      "objective_calls": 400000,
+      "seconds": 10.771513875
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 20,
+      "w2": 25,
+      "method": "restart",
+      "rows": 4,
+      "true_k2_in_archive": 0,
+      "true_k2_best": 0,
+      "true_idp_greater_than_all": 4,
+      "objective_calls": 400000,
+      "seconds": 24.495146626
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 20,
+      "w2": 25,
+      "method": "population",
+      "rows": 4,
+      "true_k2_in_archive": 0,
+      "true_k2_best": 0,
+      "true_idp_greater_than_all": 4,
+      "objective_calls": 400000,
+      "seconds": 24.748421167
+    }
+  ],
+  "paired_rounds": [
+    {
+      "case_id": "de_fold_12x15_20262001",
+      "round": 0,
+      "restart_true_k2": true,
+      "population_true_k2": true,
+      "population_minus_restart_best_idp": 0.0,
+      "population_minus_restart_seconds": -0.04687675000000002,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "de_fold_12x15_20262001",
+      "round": 1,
+      "restart_true_k2": false,
+      "population_true_k2": true,
+      "population_minus_restart_best_idp": 0.09180182760999989,
+      "population_minus_restart_seconds": -0.026289457999999932,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "de_fold_12x15_20262002",
+      "round": 0,
+      "restart_true_k2": true,
+      "population_true_k2": true,
+      "population_minus_restart_best_idp": 0.0,
+      "population_minus_restart_seconds": -0.005422124999999944,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "de_fold_12x15_20262002",
+      "round": 1,
+      "restart_true_k2": true,
+      "population_true_k2": true,
+      "population_minus_restart_best_idp": 0.0,
+      "population_minus_restart_seconds": -0.13154850000000007,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "de_fold_20x25_20262001",
+      "round": 0,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.0,
+      "population_minus_restart_seconds": 0.036823832999999695,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "de_fold_20x25_20262001",
+      "round": 1,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": -0.0002502697099999729,
+      "population_minus_restart_seconds": -0.029593415999999984,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "de_fold_20x25_20262002",
+      "round": 0,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.021126055559999912,
+      "population_minus_restart_seconds": -0.012726751000000647,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "de_fold_20x25_20262002",
+      "round": 1,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.0,
+      "population_minus_restart_seconds": 0.11421233300000022,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "fr_fold_12x15_20262001",
+      "round": 0,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.022199509350000035,
+      "population_minus_restart_seconds": 0.020492207999999845,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "fr_fold_12x15_20262001",
+      "round": 1,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.06619427771999975,
+      "population_minus_restart_seconds": -0.0019282080000002644,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "fr_fold_12x15_20262002",
+      "round": 0,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.004247920740000133,
+      "population_minus_restart_seconds": -0.01651691700000013,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "fr_fold_12x15_20262002",
+      "round": 1,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.005574516640000304,
+      "population_minus_restart_seconds": -0.009157499999999708,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "fr_fold_20x25_20262001",
+      "round": 0,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.0,
+      "population_minus_restart_seconds": -0.006300624999999727,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "fr_fold_20x25_20262001",
+      "round": 1,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": -0.01376862573000004,
+      "population_minus_restart_seconds": -0.004385751000000049,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "fr_fold_20x25_20262002",
+      "round": 0,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.0,
+      "population_minus_restart_seconds": 0.17334087500000006,
+      "same_objective_calls": true
+    },
+    {
+      "case_id": "fr_fold_20x25_20262002",
+      "round": 1,
+      "restart_true_k2": false,
+      "population_true_k2": false,
+      "population_minus_restart_best_idp": 0.0,
+      "population_minus_restart_seconds": 0.09062004200000029,
+      "same_objective_calls": true
+    }
+  ],
+  "archive_hits_by_method": {
+    "restart": 3,
+    "population": 4
+  },
+  "cases_with_any_archive_hit_by_method": {
+    "restart": 2,
+    "population": 2
+  },
+  "total_calls_by_method": {
+    "restart": 1600000,
+    "population": 1600000
+  },
+  "total_seconds_by_method": {
+    "restart": 70.751867168,
+    "population": 70.896610458
+  },
+  "cut_causes": {
+    "evaluations": 32
+  },
+  "true_idp_greater_than_all_rows": 25,
+  "limit": "Small paired K2-only pilot with known widths and one literary corpus per language. Objective calls equal does not imply equal CPU cost. No K1 recovery, language or BLUME exclusion.",
+  "total_process_wall_seconds_by_method": {
+    "restart": 71.20234995696228,
+    "population": 70.99370633502258
+  },
+  "population_diagnostics": [
+    {
+      "case_id": "de_fold_12x15_20262001",
+      "round": 0,
+      "threshold": 6,
+      "final_population_size": 5,
+      "final_population_min_distance": 9,
+      "output_archive_min_distance": 2,
+      "parent_choices": 11,
+      "offspring_completed": 10,
+      "refreshes": 2,
+      "admissions": 71,
+      "rejections": 56,
+      "true_k2_in_final_population": true
+    },
+    {
+      "case_id": "de_fold_12x15_20262001",
+      "round": 1,
+      "threshold": 6,
+      "final_population_size": 5,
+      "final_population_min_distance": 8,
+      "output_archive_min_distance": 2,
+      "parent_choices": 10,
+      "offspring_completed": 9,
+      "refreshes": 2,
+      "admissions": 70,
+      "rejections": 58,
+      "true_k2_in_final_population": true
+    },
+    {
+      "case_id": "de_fold_12x15_20262002",
+      "round": 0,
+      "threshold": 6,
+      "final_population_size": 5,
+      "final_population_min_distance": 11,
+      "output_archive_min_distance": 2,
+      "parent_choices": 12,
+      "offspring_completed": 11,
+      "refreshes": 2,
+      "admissions": 72,
+      "rejections": 60,
+      "true_k2_in_final_population": true
+    },
+    {
+      "case_id": "de_fold_12x15_20262002",
+      "round": 1,
+      "threshold": 6,
+      "final_population_size": 5,
+      "final_population_min_distance": 7,
+      "output_archive_min_distance": 2,
+      "parent_choices": 12,
+      "offspring_completed": 11,
+      "refreshes": 2,
+      "admissions": 72,
+      "rejections": 58,
+      "true_k2_in_final_population": true
+    },
+    {
+      "case_id": "de_fold_20x25_20262001",
+      "round": 0,
+      "threshold": 10,
+      "final_population_size": 5,
+      "final_population_min_distance": 23,
+      "output_archive_min_distance": 2,
+      "parent_choices": 1,
+      "offspring_completed": 0,
+      "refreshes": 0,
+      "admissions": 21,
+      "rejections": 15,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "de_fold_20x25_20262001",
+      "round": 1,
+      "threshold": 10,
+      "final_population_size": 5,
+      "final_population_min_distance": 21,
+      "output_archive_min_distance": 2,
+      "parent_choices": 2,
+      "offspring_completed": 1,
+      "refreshes": 0,
+      "admissions": 22,
+      "rejections": 16,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "de_fold_20x25_20262002",
+      "round": 0,
+      "threshold": 10,
+      "final_population_size": 5,
+      "final_population_min_distance": 21,
+      "output_archive_min_distance": 2,
+      "parent_choices": 2,
+      "offspring_completed": 1,
+      "refreshes": 0,
+      "admissions": 22,
+      "rejections": 15,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "de_fold_20x25_20262002",
+      "round": 1,
+      "threshold": 10,
+      "final_population_size": 5,
+      "final_population_min_distance": 10,
+      "output_archive_min_distance": 2,
+      "parent_choices": 1,
+      "offspring_completed": 0,
+      "refreshes": 0,
+      "admissions": 21,
+      "rejections": 15,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "fr_fold_12x15_20262001",
+      "round": 0,
+      "threshold": 6,
+      "final_population_size": 5,
+      "final_population_min_distance": 9,
+      "output_archive_min_distance": 2,
+      "parent_choices": 12,
+      "offspring_completed": 12,
+      "refreshes": 3,
+      "admissions": 73,
+      "rejections": 58,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "fr_fold_12x15_20262001",
+      "round": 1,
+      "threshold": 6,
+      "final_population_size": 5,
+      "final_population_min_distance": 12,
+      "output_archive_min_distance": 2,
+      "parent_choices": 12,
+      "offspring_completed": 12,
+      "refreshes": 3,
+      "admissions": 73,
+      "rejections": 58,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "fr_fold_12x15_20262002",
+      "round": 0,
+      "threshold": 6,
+      "final_population_size": 5,
+      "final_population_min_distance": 9,
+      "output_archive_min_distance": 2,
+      "parent_choices": 12,
+      "offspring_completed": 12,
+      "refreshes": 3,
+      "admissions": 73,
+      "rejections": 59,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "fr_fold_12x15_20262002",
+      "round": 1,
+      "threshold": 6,
+      "final_population_size": 5,
+      "final_population_min_distance": 11,
+      "output_archive_min_distance": 2,
+      "parent_choices": 12,
+      "offspring_completed": 11,
+      "refreshes": 2,
+      "admissions": 72,
+      "rejections": 62,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "fr_fold_20x25_20262001",
+      "round": 0,
+      "threshold": 10,
+      "final_population_size": 5,
+      "final_population_min_distance": 18,
+      "output_archive_min_distance": 2,
+      "parent_choices": 1,
+      "offspring_completed": 0,
+      "refreshes": 0,
+      "admissions": 21,
+      "rejections": 15,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "fr_fold_20x25_20262001",
+      "round": 1,
+      "threshold": 10,
+      "final_population_size": 5,
+      "final_population_min_distance": 22,
+      "output_archive_min_distance": 2,
+      "parent_choices": 2,
+      "offspring_completed": 1,
+      "refreshes": 0,
+      "admissions": 22,
+      "rejections": 15,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "fr_fold_20x25_20262002",
+      "round": 0,
+      "threshold": 10,
+      "final_population_size": 5,
+      "final_population_min_distance": 23,
+      "output_archive_min_distance": 2,
+      "parent_choices": 1,
+      "offspring_completed": 0,
+      "refreshes": 0,
+      "admissions": 21,
+      "rejections": 15,
+      "true_k2_in_final_population": false
+    },
+    {
+      "case_id": "fr_fold_20x25_20262002",
+      "round": 1,
+      "threshold": 10,
+      "final_population_size": 5,
+      "final_population_min_distance": 22,
+      "output_archive_min_distance": 2,
+      "parent_choices": 2,
+      "offspring_completed": 1,
+      "refreshes": 0,
+      "admissions": 22,
+      "rejections": 16,
+      "true_k2_in_final_population": false
+    }
+  ]
+}

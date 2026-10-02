@@ -1,0 +1,29 @@
+{
+  "priority_es": "Identificar la nota42 del pasaje BLUME en las notas iniciales de Nylon und Napalm y la signatura del pie/crédito de imagen en PT5, antes de buscar más contexto general.",
+  "google_books": {
+    "id": "ayibEAAAQBAJ",
+    "human_url": "https://books.google.com/books?id=ayibEAAAQBAJ",
+    "queries": {
+      "Salamanca": "https://books.google.com/books?id=ayibEAAAQBAJ&jscmd=SearchWithinVolume2&q=Salamanca",
+      "Blume Salamanca": "https://books.google.com/books?id=ayibEAAAQBAJ&jscmd=SearchWithinVolume2&q=Blume%20Salamanca",
+      "Telefonanschluss": "https://books.google.com/books?id=ayibEAAAQBAJ&jscmd=SearchWithinVolume2&q=Telefonanschluss",
+      "Ulrich,": "https://books.google.com/books?id=ayibEAAAQBAJ&jscmd=SearchWithinVolume2&q=Ulrich%2C",
+      "Bildnachweis": "https://books.google.com/books?id=ayibEAAAQBAJ&jscmd=SearchWithinVolume2&q=Bildnachweis",
+      "E4320": "https://books.google.com/books?id=ayibEAAAQBAJ&jscmd=SearchWithinVolume2&q=E4320"
+    },
+    "findings_es": [
+      "PT3 identifica teléfono de PATVAG como origen de los dos telegramas, copia remitida por PTT a Bundesanwaltschaft y remite a nota42.",
+      "PT3 registra la afirmación de Oswald de que su hermano era remitente, no un hecho demostrado.",
+      "PT5 denomina imágenes telegramas cifrados de PATVAG a Blume Salamanca,1937.",
+      "PA1928 identifica visita del inspector Max Ulrich a PATVAG con orden de registro el28abril1937.",
+      "Créditos de imágenes están en PT718-720; notas iniciales cerca PT652-655. Signatura exacta no encontrada aún."
+    ]
+  },
+  "requested_materials_es": [
+    "Página/pasaje BLUME con notas40-44 del capítulo correspondiente, conservando título del capítulo.",
+    "Crédito de imagen de los telegramas en Bildnachweis y número de página impresa.",
+    "Una vez localizada signatura: cubierta/índice del expediente, originales completos anverso/reverso, remisión de PTT, interrogatorio de28abril1937, folios anteriores/posteriores y todos los telegramas/copias en claro/cualquier explicación del sistema."
+  ],
+  "public_work_remaining_es": "Consultar notas iniciales y crédito de imagen en acceso legal Google Books; inspección visual de expediente diplomático E2001E#1000/1571#787* puede hallar referencia cruzada aunque OCR negativo. Dossier Oswald Madrid E2001D#1000/1551#5627* no digitalizado en catálogo.",
+  "sender_caution_es": "Remitente consignado en formulario W.E.Oswald debe distinguirse de autor material y de atribución narrativa; Bochsler2023 expresa Victor o quizá Werner; el libro transmite declaración de Werner que atribuía envío a hermano."
+}

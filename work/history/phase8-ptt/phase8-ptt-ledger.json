@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-02",
+  "scope": "Pista PTT por procedencia: servicio jurídico/Dirección General, registro1936–1938 y referencia6011.8.3.",
+  "public_queries_this_phase": 5,
+  "external_web_search_queries_this_phase_by_this_agent": 0,
+  "records": [
+    {
+      "current_signature": "P-00 C_2522_06",
+      "record_id": 15003,
+      "year": 1937,
+      "title": "Registratur- und Archivdienst, Makulierung, Aufbewahrungsfrist für Akten",
+      "level": "Dossier",
+      "language": "Deutsch",
+      "protection": "Sachakten (30 Jahre)",
+      "status": "In den Lesesaal bestellbar",
+      "url": "https://mfk.rechercheonline.ch/pttarchiv:15003",
+      "verification": "Ficha completa de metadatos leída; contenido archivístico no leído.",
+      "digital_content_observed": false,
+      "capture": "record-15003-registratur1937.json"
+    },
+    {
+      "current_signature": "P-00 C",
+      "record_id": 213,
+      "period": "1936-1979",
+      "title": "Generaldirektion PTT",
+      "level": "Bestand",
+      "provenance": "Generaldirektion PTT 1936-1979",
+      "protection": "Sachakten (30 Jahre)",
+      "status": "El fondo no se solicita directamente; el catálogo permite dossiers sin plazo vigente.",
+      "url": "https://mfk.rechercheonline.ch/pttarchiv:213",
+      "verification": "Ficha completa de metadatos leída.",
+      "capture": "record-p00c-detail.json"
+    },
+    {
+      "current_signature": "P-00 C_2513_05",
+      "record_id": 15002,
+      "year": 1936,
+      "title": "Registratur- und Archivdienst, Makulierung, Aufbewahrungsfrist für Akten",
+      "list_status": "Lesesaal",
+      "url": "https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-p-00-c/pttarchiv:15002?sqs_query=Registratur",
+      "verification": "Sólo metadatos de lista. Tentativa de ficha completa falló; no utilizar record-15002-registratur1936.json como lectura de contenido.",
+      "capture": "query02-registratur-p00c.json"
+    },
+    {
+      "current_signature": "P-00 C_0001_05",
+      "record_id": 15004,
+      "year": 1938,
+      "title": "Registratur- und Archivdienst, Makulierung, Aufbewahrungsfrist für Akten",
+      "list_status": "Lesesaal",
+      "url": "https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-p-00-c/pttarchiv:15004?sqs_query=Registratur",
+      "verification": "Sólo metadatos de lista. Ficha completa y contenido no leídos.",
+      "capture": "query02-registratur-p00c.json"
+    },
+    {
+      "current_signature": "P-00 C_2550_06",
+      "record_id": 23065,
+      "year": 1937,
+      "title": "Diensterlasse und Broschüren: Druck (bis 1941 = Hauptregistratur GD PTT (Post); seit 1942 = Registratur W)",
+      "list_status": "Lesesaal",
+      "url": "https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-p-00-c/pttarchiv:23065?sqs_query=Registratur",
+      "verification": "Sólo metadatos de lista; título no prueba inclusión de plan de registro.",
+      "capture": "query02-registratur-p00c.json"
+    }
+  ],
+  "queries": [
+    {
+      "number": 1,
+      "term": "Rechtsdienst",
+      "provenance_filter": "P-00 C",
+      "mode": "Standard Textsuche",
+      "observed_dossiers": 0,
+      "parent_excluded_from_count": true,
+      "capture": "query01-rechtsdienst-p00c.json",
+      "negative_result_scope": "Sólo resultados visibles bajo este filtro; no ausencia del archivo."
+    },
+    {
+      "number": 2,
+      "term": "Registratur",
+      "provenance_filter": "P-00 C",
+      "mode": "Standard Textsuche",
+      "observed_dossiers": 32,
+      "parent_excluded_from_count": true,
+      "capture": "query02-registratur-p00c.json",
+      "negative_result_scope": null
+    },
+    {
+      "number": 3,
+      "term": "Bundesanwaltschaft",
+      "provenance_filter": "P-00 C",
+      "mode": "Standard Textsuche",
+      "observed_dossiers": 0,
+      "parent_excluded_from_count": true,
+      "capture": "query03-bundesanwaltschaft-p00c.json",
+      "negative_result_scope": "Sólo resultados visibles bajo este filtro; no ausencia del archivo."
+    },
+    {
+      "number": 4,
+      "term": "Aktenplan",
+      "provenance_filter": "P-00 C",
+      "mode": "Standard Textsuche",
+      "observed_dossiers": 0,
+      "parent_excluded_from_count": true,
+      "capture": "query04-aktenplan-p00c.json",
+      "negative_result_scope": "Sólo resultados visibles bajo este filtro; no ausencia del archivo."
+    },
+    {
+      "number": 5,
+      "term": "Geschäftskontrolle",
+      "provenance_filter": "P-00 C",
+      "mode": "Standard Textsuche",
+      "observed_dossiers": 0,
+      "parent_excluded_from_count": true,
+      "capture": "query05-geschaeftskontrolle-p00c.json",
+      "negative_result_scope": "Sólo resultados visibles bajo este filtro; no ausencia del archivo."
+    }
+  ],
+  "internal_reference": {
+    "value": "6011.8.3",
+    "date": "1937-01-15",
+    "producer": "Generaldirektion der Post- und Telegraphenverwaltung / Rechtsdienst",
+    "subject": "Neutralität gegenüber Spanien",
+    "source_BAR": "E4320B#1974/47#277*, Unterlagen_0000072, imagen00000519",
+    "current_archival_signature_equivalence": "No localizada. P-00 C_2522_06 NO se identifica como su equivalencia.",
+    "primary_image": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg",
+    "primary_image_sha256_verified_in_phase7": "01b1d429f63285735b736daa7b0ee7889bd731001cacdb57016f9c656fac971b"
+  },
+  "custodian_step": "Localizar el plan vigente en1937; interpretar6011.8.3; identificar copia o entrada de salida15.1.1937. Consulta local DE/ES preparada, no enviada.",
+  "limits": [
+    "No se ha leído el contenido del dossier1937.",
+    "El título sobre archivo, eliminación y conservación no prueba inclusión de un plan de clasificación.",
+    "No regla de conservación1937 de todos los telegramas privados verificada.",
+    "No copias de telegramas, claves ni sistema de cifrado nuevo localizado.",
+    "No se ha identificado Blume.",
+    "Telefonía1937 y telegrafía1946 no se presentan como telegramasBLUME."
+  ],
+  "actions": {
+    "external_contact": false,
+    "gmail_draft_created": false,
+    "reading_room_order": false,
+    "copy_order": false,
+    "payment": false,
+    "publication": false,
+    "own_browser_research_tab_closed": true
+  },
+  "outputs": [
+    "phase8-ptt-resumen.txt",
+    "consulta-ptt-aleman.txt",
+    "consulta-ptt-traduccion.txt"
+  ]
+}

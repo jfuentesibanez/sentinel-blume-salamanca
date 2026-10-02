@@ -1,0 +1,13 @@
+{
+  "file_hashes_verified": 62,
+  "positive_rows_verified": 32,
+  "negative_rows_verified": 8,
+  "all_reencryption_consistent": true,
+  "history_originals_visually_verified_by_root": [
+    "00000104",
+    "00000106",
+    "00000513",
+    "00000499",
+    "Olten-FA013-p11"
+  ]
+}

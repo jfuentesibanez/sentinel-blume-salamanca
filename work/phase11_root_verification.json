@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "phase": 11,
+  "scope": "Saved controls, frozen models, truth, commands and 160 returned archive scores. Independent movement/admission audit is separate.",
+  "searches_rerun": 0,
+  "helpers_rerun": 0,
+  "counts": {
+    "ciphertexts_regenerated_without_helper": 16,
+    "true_k2_scores": 8,
+    "paired_initializations": 16,
+    "archive_scores": 160,
+    "rows": 32
+  },
+  "protected_prior_crypto_files": 282,
+  "new_crypto_resources_verified": 35,
+  "max_archive_idp_error": 9.415952462177302e-10,
+  "archive_hits": {
+    "population": 2,
+    "cap5000": 3
+  },
+  "pairs_with_hits": {
+    "population": 1,
+    "cap5000": 2
+  },
+  "failed_true_score_margin_range": [
+    0.1395186727556088,
+    0.2998260774110495
+  ],
+  "model_limit": "One literary holdout per language, known widths, shared keys, no historical plaintext.",
+  "resource_hash_manifest_sha256": "d6dc4c2b70c62281905802e2336226527f50148b2b7b571a9c9c89e963a99ee4",
+  "manifest_sha256": "af1ddb7d2b85853e4601fd1942a2ce153439c1d88959c9111835be8b08277d00",
+  "saved_results_sha256": "e7adbf4b5f7645f8a859d58f16d8b14140d34740a606346479c21259a75124f2"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://vintes.ch/wp-content/uploads/2023/03/2023_Taetigkeitsbericht.pdf",
+  "title": "2022 Jahresrueckblick — Verband fuer Industriekultur und Technikgeschichte Schweiz VINTES",
+  "publication_copyright_year": 2023,
+  "pages": 48,
+  "sha256": "0f36f6c7f867787447ed413258cc5c7ec6054b1a312a556e1d4a26a30a01e3b8",
+  "bytes": 4860340,
+  "source_copy": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/outputs/Sentinel_fuente_VINTES_2022.pdf",
+  "relevant_pages": [
+    {
+      "printed": 33,
+      "pdf_1_based": 33,
+      "kind": "Book notice",
+      "title": "Nylon und Napalm. Die Geschaefte der Emser Werke und ihres Gruenders Werner Oswald",
+      "visually_checked": true
+    }
+  ],
+  "findings": [
+    "Notice is near-verbatim publisher synopsis, so it is not independent historical corroboration.",
+    "No matches in extracted full text for BLUME, Salamanca, PATVAG, Telegram, or Fischer.",
+    "No source for note 42 or cipher procedure supplied.",
+    "Synopsis gives 1941 foundation; HLS article by Bochsler differentiates Hovag incorporation in Zurich 1936 from plant construction in Ems starting 1941.",
+    "Dominik Landwehr listed as communication board member on printed page 39, but the book notice has no personal byline."
+  ],
+  "comparison_sources": [
+    "https://www.hierundjetzt.ch/de/catalogue/nylon-und-napalm_2200022/",
+    "https://hls-dhs-dss.ch/articles/041879/2025-09-23/"
+  ],
+  "classification": "Context / reception of Bochsler book; no new BLUME archival or cryptanalytic evidence",
+  "unchanged_phase1_outputs": true
+}

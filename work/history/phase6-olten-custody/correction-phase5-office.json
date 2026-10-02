@@ -1,0 +1,16 @@
+{
+  "id": "CORRECTION_PHASE5_HUNZIKER_OFFICE",
+  "date": "2026-10-02",
+  "status": "Nuevo cotejo visual realizado por el agente principal; esta subtarea conserva la precisión y el hash sin repetir la inspección.",
+  "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000070%2F00000509.jpg/full/full/0/default.jpg",
+  "local_original": "work/history/bar-blume277-adjacent/images/Unterlagen_0000070-00000509.jpg",
+  "sha256": "c03ab81dc4924df8344d2e5c8553e381d0551222973f3bb8d4cd44dd0b686c74",
+  "reference": "BAR E4320B#1974/47#277*, Subdossier_0000066, Unterlagen_0000070, imagen 00000509",
+  "literal_reading_reported_by_visual_verifier": [
+    "Bureau: Bahnhofplatz 1, Zürich",
+    "Wohnung: Brugg"
+  ],
+  "correct_fact": "La oficina está en Bahnhofplatz 1, Zürich; la vivienda está en Brugg. Brugg/Aargau sigue siendo pertinente por residencia y fábricas, pero la búsqueda de correspondencia debe incluir la oficina de Zürich.",
+  "error_scope": "El error comprobado está en el ledger y borradores de fase 5 y su copia entregada. El ledger de fase 3 era correcto y los informes de fase 4 mantienen Zürich; no atribuirles genéricamente el error.",
+  "unchanged_prior_artifacts": "No se modifican los archivos ni ZIP antiguos; la corrección queda en fase 6 y en los nuevos borradores del agente principal."
+}

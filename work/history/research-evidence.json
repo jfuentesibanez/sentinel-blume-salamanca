@@ -1,0 +1,154 @@
+{
+  "date_checked": "2026-10-01",
+  "status": "No verified plaintext located. Exact police dossier containing BLUME telegrams not yet identified. BLUME identity unresolved. No contacts made.",
+  "sources": [
+    {
+      "id": "issue14",
+      "kind": "public research log, not independent historical proof",
+      "url": "https://github.com/dbourdeau/cyphersolver/issues/14",
+      "api_url": "https://api.github.com/repos/dbourdeau/cyphersolver/issues/14",
+      "comments_api_url": "https://api.github.com/repos/dbourdeau/cyphersolver/issues/14/comments",
+      "date": "2026-09-30",
+      "supports": [
+        "three corrections confirmed by Richard Bean and dbourdeau",
+        "second image/transcription acquired through Richard Bean",
+        "joint shared-key hypothesis under test"
+      ],
+      "limitations": "No plaintext or exact shelfmark provided. Claimed cryptanalytic exclusions require methodology audit."
+    },
+    {
+      "id": "bochsler-book-preview",
+      "kind": "secondary historical work, public excerpt",
+      "url": "https://www.legimi.de/e-book-nylon-und-napalm-regula-bochsler,b3465546.html",
+      "date": "2022",
+      "summary": "Bochsler links Spanish business to PATVAG, reorganized in spring 1936 as a family trading company: Werner delegated director, Rudolf president, Victor board member in Spain. Its office moved to Zurich Bahnhofstrasse. Early compensation trade exchanged Spanish goods against Swiss export balances; olive oil mentioned. Victor earlier ran CEDRIC with Walther Cetto and worked with Paul Holzach and Hans Heusser. This makes PATVAG a better archival search term than assuming HOVAG as telegram sender. No cipher plaintext or exact police shelfmark appears in preview."
+    },
+    {
+      "id": "hls-ems",
+      "kind": "historical dictionary entry by Regula Bochsler",
+      "url": "https://hls-dhs-dss.ch/articles/041879/2025-09-23/",
+      "date": "2025-09-23",
+      "summary": "HOVAG founded in Zurich in 1936 by Werner Oswald. Factory built later; avoid assigning later weapons/napalm operations to telegrams in 1937."
+    },
+    {
+      "id": "sternenjaeger-schmeh",
+      "kind": "2023 interview/report, secondary",
+      "url": "https://www.sternenjaeger.ch/wp-content/uploads/2023/10/2023-kryptologie-klaus-schmeh.pdf",
+      "date": "2023-10-01 (printed interview date)",
+      "page": 10,
+      "summary": "Reports Swiss telegram dated 8 January 1937 found by Bochsler at Federal Archives. Meaning of BLUME unknown and arms-business relationship described as possibility, not decrypted content."
+    },
+    {
+      "id": "bar-victor",
+      "kind": "official archival metadata + digitized primary records",
+      "title": "Oswald, Victor, 1912, Madrid",
+      "shelfmark": "E2001E#1000/1571#787*",
+      "dates": "1937-1948",
+      "human_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/Vz%20%20%20%20%20%203ad2db78-3938-5400-8984-42d2b055e749",
+      "legacy_scopeArchiv_id": "1740283",
+      "manifest_url": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/3ad2db78-3938-5400-8984-42d2b055e749.json",
+      "viewer_url": "https://viewer.recherche.bar.admin.ch/?manifest=https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/3ad2db78-3938-5400-8984-42d2b055e749.json",
+      "ocr_url": "https://www.recherche.bar.admin.ch/recherche/files/ocr/3ad2db78-393/8-5400-8984-/42d2b055e749/OCR-Text-komplett.zip",
+      "classification": "Political department / legal protection / expulsions and entry bans / individual cases",
+      "access": "Frei zugänglich",
+      "findings": "Four OCR text files searched: no BLUME, SALAMANCA or WERNER. Contains Victor clear German telegram about French transit in May 1938; no identified 8 January 1937 cipher/clear copy. Catalog title birthyear 1912 must not be treated as established (original French deportation decree gives 1909; discrepancy unresolved)."
+    },
+    {
+      "id": "pfyffer1939",
+      "kind": "primary contemporaneous testimony, visually checked",
+      "parent_source": "bar-victor",
+      "date": "1939-01-18",
+      "sender": "Oberst-Div. H. Pfyffer, Luzern",
+      "recipient": "Bundesrat Dr. Giuseppe Motta, Bern",
+      "manifest_component": "Dokument_0000003, canvas 4, image00000076.jpg, typed page marker -2-",
+      "image_url": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FDokument_0000003%2F00000076.jpg/full/1400,/0/default.jpg",
+      "local_image": "victor-00000076.jpg",
+      "summary": "Pfyffer states Viktor Oswald operates import/export on Franco side since December 1936 and travels via England and Holland because expelled from France. This verifies existence of a 1939 testimonial assertion; neither telegram content nor BLUME identity follows."
+    },
+    {
+      "id": "bar-oswald-madrid",
+      "kind": "official archival metadata, not digitized",
+      "title": "Oswald, Madrid",
+      "shelfmark": "E2001D#1000/1551#5627*",
+      "dates": "1936-1938",
+      "url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1689905",
+      "importance": "Priority follow-up for contemporary Spanish correspondence; no plaintext inspected."
+    },
+    {
+      "id": "bar-ronchi",
+      "kind": "official police archive, weak contextual lead",
+      "title": "Ronchi & Konsorten - Waffenschmuggel in Sachen Feindseligkeiten in Spanien",
+      "shelfmark": "E4320B#1974/47#102*",
+      "dates": "1937-1939",
+      "url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578266",
+      "manifest_url": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/3578266.json",
+      "negative_check": "202 OCR files downloaded/searched: no Oswald, Blume, Salamanca exact hits. OCR negatives do not prove absence. No reason to link this dossier to BLUME."
+    },
+    {
+      "id": "mercury1959",
+      "kind": "US Bureau of Mines materials survey, contemporaneous primary publication for later date",
+      "url": "https://digital.library.unt.edu/ark%3A/67531/metadc170716/m1/96/",
+      "date": "1959",
+      "page": 78,
+      "summary": "Lists PATVAG at Bahnhofstrasse12, Zurich as mercury cartel distribution agent. Confirms later address only; not evidence telegrams1937 concerned mercury."
+    }
+  ],
+  "crib_hypotheses": [
+    {
+      "terms": [
+        "PATVAG",
+        "VICTOR",
+        "CEDRIC",
+        "RUDOLF"
+      ],
+      "basis": "1930s company/family networks in Bochsler excerpt",
+      "letters": "compatible with both inventories",
+      "confidence": "low; no fragment attested in telegrams"
+    },
+    {
+      "terms": [
+        "IMPORTACION",
+        "COMPENSACION",
+        "ACEITEOLIVA",
+        "SANSEBASTIAN"
+      ],
+      "basis": "trade/residence context, not recovered words",
+      "letters": "compatible with both inventories",
+      "confidence": "low"
+    },
+    {
+      "terms": [
+        "EXPORTACION"
+      ],
+      "basis": "trade context only",
+      "letters": "compatible T1; impossible literal in pure transposition T2 because X=0",
+      "confidence": "low"
+    },
+    {
+      "terms": [
+        "LANAMERINA",
+        "LANALAVADA"
+      ],
+      "basis": "conditional wool-business explanation attributed in repo, original police statement not located",
+      "letters": "compatible both",
+      "confidence": "very low"
+    },
+    {
+      "terms": [
+        "OSWALD",
+        "WERNEROSWALD",
+        "WALTHERCETTO",
+        "KILOS"
+      ],
+      "basis": "avoid literal crib assumptions",
+      "letters": "first three impossible in pure transposition both (W=0); KILOS impossible T2 (K=0)",
+      "confidence": "letter-inventory constraint"
+    }
+  ],
+  "remaining_priorities": [
+    "Obtain exact police dossier shelfmark from full Bochsler notes/image credits rather than inventing it. Public preview stops before telegram passage.",
+    "Inspect Oswald,Madrid1936-1938 undigitized dossier or request digitization only with user authorization as needed.",
+    "Continue BLUME telegraphic-address identification: surname and registered commercial address remain hypotheses.",
+    "Inspect original police folios adjacent to telegrams once exact dossier located."
+  ]
+}

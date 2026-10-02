@@ -1,0 +1,74 @@
+SENTINEL — BLUME SALAMANCA
+Avance de investigación: 1 de octubre de 2026
+
+Seguimos sin identificar a BLUME ni descifrar los dos telegramas del 8 de enero de 1937. La revisión aporta documentos concretos para la siguiente búsqueda y una mejora comprobada en una parte del programa de descifrado.
+
+LO QUE APORTA EL EXPEDIENTE
+
+En la carta del 19 de abril de 1937, Hunziker & Cie. cuenta que llegó desde Zúrich un telegrama avisando de que Oswald no podía acudir a París. Es una referencia a otro mensaje, anterior o como máximo contemporáneo a esa carta; todavía no hemos recuperado el telegrama. La carta no permite fijar su fecha exacta, remitente, dirección de recepción ni si estaba cifrado. Tampoco permite establecer que usara la misma clave que los mensajes de enero. La reunión futura del día 28, mencionada en la misma carta, constituye una referencia diferente.
+
+Fuente: BAR E4320B#1974/47#277*, Subdossier_0000066, Dokument_0000071, imagen 00000513.
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000071%2F00000513.jpg/full/full/0/default.jpg
+
+La nota policial del 20 de abril identifica al destinatario de esa carta como Viktor Oswald, empleado bancario en Burgos, y al intermediario en Zúrich como Werner Oswald, con oficina en Bahnhofstrasse 12. Identifica a los participantes de la carta; no identifica a BLUME.
+
+La orden contra Werner, fechada el 27 de abril, lleva una anotación de ejecución del 28 de abril de 1937 en ese despacho. Esta hoja no incluye un inventario de papeles incautados. Encontrar el acta o inventario es una prioridad: podría señalar correspondencia, libros de cifra o claves, si los hubiera.
+
+Fuentes: Dokument_0000071, imagen 00000517; Unterlagen_0000070, imagen 00000507.
+https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578609
+
+Otra carta de Hunziker, del 19 de abril, solicita remitir la correspondencia a Burgos mediante correo diplomático. Su sello de entrada en la Fiscalía Federal es del 9 de junio: son fechas diferentes. En el interrogatorio del 12 de mayo, Hunziker declara que no tiene más documentos relativos a esos negocios. Esa declaración no prueba que no existan copias en otros fondos.
+
+Fuentes: Unterlagen_0000070, imagen 00000511; Unterlagen_0000068, imágenes 00000499–00000500. El registro de evidencia detalla observaciones e inferencias por separado.
+
+QUÉ PODRÍA SER «BLUME»
+
+La hipótesis de una dirección telegráfica abreviada tiene apoyo documental general. Una orden española del 20 de febrero de 1934 regula la administración de ese servicio. El Reglamento telegráfico de Madrid de 1932, artículo 15, párrafo 9, admite direcciones arbitrarias o abreviadas acordadas con la oficina de destino. Ninguno de estos textos identifica a BLUME.
+
+Fuentes: Gaceta de Madrid, 23 de febrero de 1934, página 1437 (página 13 del PDF); League of Nations Treaty Series, volumen 151, página 63.
+https://www.boe.es/gazeta/dias/1934/02/23/pdfs/GMD-1934-54.pdf
+https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20151/v151.pdf
+
+Consulté el catálogo público de la Biblioteca de Correos y Telégrafos. Las búsquedas «direcciones», «abreviadas» y «Blume», además de «Salamanca» con filtro de publicaciones de 1930–1940, no permitieron identificar un registro de abonados pertinente. Se consultaron metadatos bibliográficos; no equivale a haber revisado los fondos de la oficina de Salamanca. Las hemerotecas BNE y Prensa Histórica no pudieron consultarse directamente por sus respuestas de verificación humana y exceso de solicitudes.
+
+Pregunta preparada para la biblioteca o el archivo custodio:
+
+«¿Se conservan libros de registro, concesiones, renovaciones o listados de direcciones telegráficas abreviadas/convenidas de la oficina de Salamanca correspondientes a 1936–1938? Buscamos BLUME, destinatario de dos telegramas de Zúrich del 8 de enero de 1937, a las 11:31 y 17:34. Si los libros están en otro archivo, ¿podrían identificar la institución y serie?»
+
+Contacto observado en el catálogo: bibliotecacorreosytelegrafos@correos.com.
+https://bibliotecadecorreos.absys.cloud/cgi-bin/opac/
+No se ha enviado ninguna consulta externa.
+
+LA CAPTURA DE GOOGLE
+
+Ellos y nosotros, de Sofía Moro, existe y lo publica Blume. La ficha y el índice general visibles del editor no respaldan la supuesta sección específica sobre Salamanca; no hemos leído el libro completo. Tampoco tenemos un documento que vincule a Léon Blum con el destinatario «BLUME». Son coincidencias de búsqueda sin conexión demostrada con los telegramas.
+https://blume.net/catalogo/745-ellos-y-nosotros-9788498011227.html
+
+La captura contiene además un error comprobable: la Junta de Defensa Nacional se constituyó en Burgos el 24 de julio de 1936, según el decreto número 1 publicado al día siguiente. No se constituyó en Salamanca.
+https://www.boe.es/gazeta/dias/1936/07/25/pdfs/BJD-1936-1.pdf
+
+DESCIFRADO
+
+La nueva búsqueda de la primera clave (K1) recupera exactamente la clave y las 775 letras en los 100 controles conjuntos cuando se proporciona la segunda clave (K2). Son 25 pares por corpus y combinación de anchos: prosa española y una aproximación de estilo telegráfico, con claves de 12×15 y 20×25 columnas. Los anchos se conocen de antemano. La prueba usa la misma puntuación por trigramas que la etapa K1 del ataque completo. Con el mensaje largo como único texto puntuado se recuperan 96 de los 100 pares.
+
+El piloto que debe descubrir ambas claves recupera 0 de los 16 pares al puntuar ambos mensajes, y 1 de 16 al puntuar únicamente el largo. La única recuperación es sintética. El piloto es exploratorio y no mide una tasa de éxito general. Los controles barajados, los límites de tiempo y las variantes del algoritmo se documentan en los resultados. Se comprobaron además 60 casos de geometría y 6.780 movimientos.
+
+Esto sitúa la búsqueda de K2 como el principal trabajo pendiente bajo estas condiciones. Esta versión no se ha ejecutado sobre BLUME y no proporciona un texto histórico descifrado.
+
+La doble transposición, el idioma español y el uso de claves compartidas siguen siendo hipótesis. Los controles prueban capacidades del programa bajo condiciones conocidas; no demuestran esas condiciones para los originales. La implementación está inspirada en Lasry y contiene variantes documentadas, por lo que no se presenta como una réplica exacta del algoritmo publicado.
+
+Fuente técnica: George Lasry, A Methodology for the Cryptanalysis of Classical Ciphers with Search Metaheuristics, 2018, apartados 5.3.4 y 9.4.6.
+https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf
+
+INFORME DEL INTENTO DE 2020
+
+No se localizó una memoria técnica pública del intento de los cuatro especialistas mencionados en la nota 44 del libro de Bochsler. Se hicieron 44 búsquedas indexadas y se revisó el catálogo de publicaciones de cnlab; esto no prueba que no exista un documento privado o no indexado. La entrevista publicada por Dominik Landwehr en 2023 menciona el caso, pero no describe claves, parámetros ni algoritmos de ese intento.
+https://www.sternenjaeger.ch/wp-content/uploads/2023/10/2023-kryptologie-klaus-schmeh.pdf
+
+SIGUIENTES OBJETIVOS CONCRETOS
+
+1. Localizar el inventario del registro del 28 de abril y el telegrama que avisó de que Oswald no acudiría al encuentro de París. Si aparece cifrado, su sentido conocido podría ser útil tras comprobar su relación con los mensajes de enero.
+2. Localizar los registros de direcciones telegráficas de Salamanca: esta vía puede convertir BLUME en una identidad verificable.
+3. Obtener la memoria o notas del intento de 2020 y calibrar la búsqueda de la segunda clave antes de ampliar los ataques a los originales.
+
+Este suplemento conserva código, resultados y procedencia. Incluye una selección de siete imágenes nuevas del BAR; se descargaron 22 y se cotejaron visualmente 18. El registro de fuentes permite localizar las restantes. Los paquetes y el dossier previamente entregados se conservan.

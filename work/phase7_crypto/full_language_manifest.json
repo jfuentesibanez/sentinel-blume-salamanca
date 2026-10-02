@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-02",
+  "mode": "full; both K1 and K2 unknown to source_full",
+  "variant": "source",
+  "historical_attack": false,
+  "lengths": [
+    615,
+    160
+  ],
+  "bands": [
+    [
+      12,
+      15
+    ],
+    [
+      20,
+      25
+    ]
+  ],
+  "models": [
+    "de_fold",
+    "fr_fold"
+  ],
+  "seeds": [
+    20261601,
+    20261602
+  ],
+  "messages_scored": [
+    1,
+    2
+  ],
+  "convention": "conv0: forward irregular columnar transposition twice, no padding",
+  "widths_disclosed": true,
+  "keys_disclosed": false,
+  "restarts": 8,
+  "outer_rounds": 3,
+  "k1_seconds_per_round": 3,
+  "k2_seconds_per_round": 5,
+  "final_k2_seconds_per_round": 3,
+  "max_idp_evaluations_per_round": 300000,
+  "max_k1_evaluations_per_round": 2000000,
+  "max_final_k2_evaluations_per_round": 2000000,
+  "outer_selection": "best trigram plaintext score; truth unavailable",
+  "process_timeout_seconds": 90,
+  "paired_observations": "Two seeds per band/model; same seed and widths share keys across language models. Single/joint rows share the planted pair and are not independent.",
+  "de_digraph_omitted": "Same German work; this pilot targets absence of full-key calibration, not spelling sensitivity.",
+  "negative_controls": "None added in this small pilot; earlier phase4 shuffled negatives are separate and are not language-specific negative controls.",
+  "model_limit": "One literary work per language, with disjoint training/holdout sections. No claim of coverage for commercial telegrams in 1937.",
+  "files_before": [
+    {
+      "path": "work/phase4_crypto/phase4",
+      "sha256": "539830e0a84b53702c6ecd79459ff5654eb3ac478a8505b2423f581b6b4affee"
+    },
+    {
+      "path": "work/phase4_crypto/phase4.cpp",
+      "sha256": "0ac121aa90aed78298b993eb21b743e7cc5f7f2d41f4f61b11c4836271b3ec64"
+    },
+    {
+      "path": "work/phase4_crypto/source_moves.h",
+      "sha256": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed"
+    },
+    {
+      "path": "work/phase3_crypto/phase3.cpp",
+      "sha256": "659d485123aaceb5926177a7c2cc8306cb0c5c5e5964be6e2618e72ff59462df"
+    },
+    {
+      "path": "work/phase3_crypto/ict_search.h",
+      "sha256": "4167f43147969f6d3b2d943fb85a5ad306073098b4344d501d8f05f9e0bb57af"
+    },
+    {
+      "path": "work/crypto/double_search.cpp",
+      "sha256": "445afbaf9f85c17c0661515634ee16a58dced5da80e15e0b54ea8868a093fefe"
+    },
+    {
+      "path": "work/phase5_language/de_fold/model.bin",
+      "sha256": "ef650af02cfccb10ccafe5ccc69148e28c8d525cc52f816ef0a1a6f47576294b"
+    },
+    {
+      "path": "work/phase5_language/de_fold/holdout.txt",
+      "sha256": "b2e409c67bb6fee689fdc2f90dfb30726afff06a59a351bfeadcd78af0616d6a"
+    },
+    {
+      "path": "work/phase5_language/de_fold/provenance.json",
+      "sha256": "ba06f68601c29ebb1c09eed5951f87983d9175be05071beefee5f5b3364eb371"
+    },
+    {
+      "path": "work/phase5_language/fr_fold/model.bin",
+      "sha256": "0b16044142ef82e6c809172a4981a1eb838a96da6caf4e301fe810e66143c268"
+    },
+    {
+      "path": "work/phase5_language/fr_fold/holdout.txt",
+      "sha256": "75d3431c2c204effff5ad366c8f2584cff40f259715a6b8e5258290ef78ebed7"
+    },
+    {
+      "path": "work/phase5_language/fr_fold/provenance.json",
+      "sha256": "439e2da5126db2601d8b3deee17e668122f4a826c06cbc26f68716412599ea7a"
+    }
+  ],
+  "started_at_unix": 1790940472.560572,
+  "runs": [
+    {
+      "language_model": "de_fold",
+      "w1": 12,
+      "w2": 15,
+      "seed": 20261601,
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/de_fold/model.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/de_fold/holdout.txt",
+        "12",
+        "15",
+        "20261601",
+        "8",
+        "3",
+        "5"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 5.689633874979336
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 12,
+      "w2": 15,
+      "seed": 20261602,
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/de_fold/model.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/de_fold/holdout.txt",
+        "12",
+        "15",
+        "20261602",
+        "8",
+        "3",
+        "5"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 5.749833624984603
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 20,
+      "w2": 25,
+      "seed": 20261601,
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/de_fold/model.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/de_fold/holdout.txt",
+        "20",
+        "25",
+        "20261601",
+        "8",
+        "3",
+        "5"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 33.17639091599267
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 20,
+      "w2": 25,
+      "seed": 20261602,
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/de_fold/model.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/de_fold/holdout.txt",
+        "20",
+        "25",
+        "20261602",
+        "8",
+        "3",
+        "5"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 33.07156508305343
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 12,
+      "w2": 15,
+      "seed": 20261601,
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/fr_fold/model.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/fr_fold/holdout.txt",
+        "12",
+        "15",
+        "20261601",
+        "8",
+        "3",
+        "5"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 5.8572895000106655
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 12,
+      "w2": 15,
+      "seed": 20261602,
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/fr_fold/model.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/fr_fold/holdout.txt",
+        "12",
+        "15",
+        "20261602",
+        "8",
+        "3",
+        "5"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 5.1811313750222325
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 20,
+      "w2": 25,
+      "seed": 20261601,
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/fr_fold/model.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/fr_fold/holdout.txt",
+        "20",
+        "25",
+        "20261601",
+        "8",
+        "3",
+        "5"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 33.125205540971365
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 20,
+      "w2": 25,
+      "seed": 20261602,
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/fr_fold/model.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_language/fr_fold/holdout.txt",
+        "20",
+        "25",
+        "20261602",
+        "8",
+        "3",
+        "5"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 33.08451941696694
+    }
+  ],
+  "ended_at_unix": 1790940627.4991941,
+  "log_sha256": "a7b7f5bbf53d74108a0c5b1456a6f9dc7f296dd9cdd5e0e7e770c8410bd05727",
+  "files_after": [
+    {
+      "path": "work/phase4_crypto/phase4",
+      "sha256": "539830e0a84b53702c6ecd79459ff5654eb3ac478a8505b2423f581b6b4affee"
+    },
+    {
+      "path": "work/phase4_crypto/phase4.cpp",
+      "sha256": "0ac121aa90aed78298b993eb21b743e7cc5f7f2d41f4f61b11c4836271b3ec64"
+    },
+    {
+      "path": "work/phase4_crypto/source_moves.h",
+      "sha256": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed"
+    },
+    {
+      "path": "work/phase3_crypto/phase3.cpp",
+      "sha256": "659d485123aaceb5926177a7c2cc8306cb0c5c5e5964be6e2618e72ff59462df"
+    },
+    {
+      "path": "work/phase3_crypto/ict_search.h",
+      "sha256": "4167f43147969f6d3b2d943fb85a5ad306073098b4344d501d8f05f9e0bb57af"
+    },
+    {
+      "path": "work/crypto/double_search.cpp",
+      "sha256": "445afbaf9f85c17c0661515634ee16a58dced5da80e15e0b54ea8868a093fefe"
+    },
+    {
+      "path": "work/phase5_language/de_fold/model.bin",
+      "sha256": "ef650af02cfccb10ccafe5ccc69148e28c8d525cc52f816ef0a1a6f47576294b"
+    },
+    {
+      "path": "work/phase5_language/de_fold/holdout.txt",
+      "sha256": "b2e409c67bb6fee689fdc2f90dfb30726afff06a59a351bfeadcd78af0616d6a"
+    },
+    {
+      "path": "work/phase5_language/de_fold/provenance.json",
+      "sha256": "ba06f68601c29ebb1c09eed5951f87983d9175be05071beefee5f5b3364eb371"
+    },
+    {
+      "path": "work/phase5_language/fr_fold/model.bin",
+      "sha256": "0b16044142ef82e6c809172a4981a1eb838a96da6caf4e301fe810e66143c268"
+    },
+    {
+      "path": "work/phase5_language/fr_fold/holdout.txt",
+      "sha256": "75d3431c2c204effff5ad366c8f2584cff40f259715a6b8e5258290ef78ebed7"
+    },
+    {
+      "path": "work/phase5_language/fr_fold/provenance.json",
+      "sha256": "439e2da5126db2601d8b3deee17e668122f4a826c06cbc26f68716412599ea7a"
+    }
+  ],
+  "protected_inputs_unchanged": true,
+  "completed": true
+}

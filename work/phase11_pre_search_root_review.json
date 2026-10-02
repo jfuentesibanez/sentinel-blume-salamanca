@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scope": "Pre-search source/runner/design review and hashes. No search execution.",
+  "sealed_design_sha256": "13f76031eb50be4716cde031964f5bcc5459e55ecd5d6912ffbb8f2c602afede",
+  "source_sha256": "2401b8522b80a29b36657f09d5fb97bdf1d3f71e212eae005d1db015522e4aaa",
+  "protected_files_checked": 282,
+  "cases": 8,
+  "planned_commands": 32,
+  "rules": "Local cap5000 does not trigger global cut; all W2=25 climbs are partial; terminal global returns are not offered; refresh after4processed offspring excluding initial; top5 separate."
+}

@@ -1,0 +1,72 @@
+THE INDEPENDENT SENTINEL — BLUME SALAMANCA
+Avance de investigación, fase 9. 2 de octubre de 2026.
+
+La pista histórica ha ganado precisión: el catálogo del PTT-Archiv identifica ejemplares de su boletín oficial y su suplemento que llegan a 1937. En criptografía, una modificación de la búsqueda encuentra la segunda clave en una ronda adicional de controles sintéticos, pero no la encuentra en ningún par adicional. Seguimos sin una clave histórica, un texto en claro verificado o una identidad documentada para «Blume».
+
+PISTA HISTÓRICA: PUBLICACIONES DEL PROPIO PTT
+
+La biblioteca identifica estas dos publicaciones:
+
+1. Schweizerisches Post- und Telegraphen-Amtsblatt.
+Signatura bibliotecaria: MfK P-013-001.
+Existencias literales: «1(1922)-16(1937)56».
+https://bsb.swisscovery.slsp.ch/permalink/41SLSP_RBE/859kdn/alma991363970105527
+
+2. Schweizerisches Post- und Telegraphen-Amtsblatt. Beiblatt.
+Signatura bibliotecaria: MfK P-013-002.
+Existencias literales: «(1922)-(1937)96».
+https://bsb.swisscovery.slsp.ch/permalink/41SLSP_RBE/859kdn/alma9957534140105527
+
+Se leyeron las fichas y las existencias, no las páginas. El catálogo muestra «Eventuell verfügbar», consulta en sede y sin préstamo interbibliotecario. No se comprobó una descarga digital ni la integridad de las colecciones. Los sufijos 56 y 96 se conservan literalmente, sin interpretarlos.
+
+Estas publicaciones permiten precisar una consulta al custodio: preguntar por un índice o una instrucción sobre Registratur, Aktenplan, Geschäftskontrolle o Rechtsdienst vigente en enero de 1937. Que incluyan esa documentación sigue siendo una hipótesis.
+
+La consulta enlaza con el expediente P-00 C_2522_06 (1937), localizado en fase 8. Sólo conocemos su descripción de catálogo. El dato que buscamos es el significado de «Unsere Zeichen: 6011.8.3» en la carta de PTT a la Fiscalía Federal del 15 de enero de 1937. Esa cifra es una referencia interna de entonces; aún no existe una equivalencia comprobada con una signatura archivística actual.
+Expediente: https://mfk.rechercheonline.ch/pttarchiv:15003
+Carta original: https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg
+
+También se consultaron fichas de fondos PTT en BAR. E8232-15* contiene una rama descrita como telegramas estatales de la Segunda Guerra Mundial. Su título no demuestra que conserve estos mensajes privados de enero de 1937. Las búsquedas de catálogo son limitadas: una tentativa de filtrar Registratur entre 1900 y 1938 no se aplicó y no sirve como prueba de ausencia.
+
+La búsqueda pública complementaria sobre Oswald, PATVAG y el inventario corporativo consultado por la UEK no aportó una signatura específica nueva ni un vínculo documentado con BLUME. El prólogo público de Bochsler menciona ese inventario, pero no lo hemos leído y no sabemos si incluye documentos de 1937.
+Fuente del prólogo: https://www.legimi.de/e-book-nylon-und-napalm-regula-bochsler,b3465546.html
+
+PRUEBA CRIPTOGRÁFICA: ENCONTRAR LA SEGUNDA CLAVE
+
+El diagnóstico independiente de los ocho controles de fase 8 mostró algo útil: en sus seis casos fallidos, la segunda clave correcta obtiene mejor puntuación IDP que todas las candidatas guardadas. IDP es una puntuación que estima combinaciones posibles de letras antes de conocer la primera clave. Esto apoya mejorar la generación de candidatas; no demuestra que la clave correcta sea el máximo global de la puntuación.
+
+La prueba nueva usa ocho pares sintéticos de 615 y 160 letras, con dos claves compartidas por cada par. Combina textos reservados en alemán y francés con anchos 12×15 y 20×25. Usa semillas nuevas, anchos conocidos y dos rondas por método y par. El buscador recibe los cifrados y el modelo, sin las claves ni el texto original; la evaluación con las claves correctas se hace después.
+
+Se compararon dos métodos:
+- Reinicios: comenzar la búsqueda desde nuevas claves.
+- ILS: perturbar la mejor clave encontrada mediante tres intercambios disjuntos y volver a buscar; tras cuatro intentos sin mejora, reiniciar.
+
+Cada ronda consumió exactamente 100.000 evaluaciones IDP. Se guardaron las cinco mejores claves distintas entre las propuestas puntuadas.
+
+Resultado de K2, la segunda clave:
+- Reinicios: clave correcta guardada en 3 de 16 rondas y en 2 de 8 pares.
+- ILS: clave correcta guardada en 4 de 16 rondas y en los mismos 2 de 8 pares.
+- La mejora fue una ronda del caso alemán 12×15, semilla 20261901.
+- No se encontró K2 en ningún par adicional. No se buscó K1, la primera clave, ni se recuperó el texto completo en esta fase.
+
+Ambos métodos consumieron 1,6 millones de evaluaciones. El tiempo interno medido fue 70,713 s para reinicios y 70,894 s para ILS. El mismo número de evaluaciones no garantiza el mismo coste de CPU. En los casos 20×25 sólo cabían una o dos perturbaciones por ronda bajo este presupuesto.
+
+En las 25 rondas sin K2 correcta, esa clave vuelve a puntuar mejor que todas las candidatas archivadas. El dato se refiere a las claves guardadas, no a todas las propuestas ni al espacio completo. El piloto es pequeño, usa una obra literaria por idioma y presupone los anchos. No permite descartar idiomas ni sistemas de cifrado para BLUME. Tampoco se compara directamente su tasa con la de fase 8, que buscaba ambas claves y usaba otras semillas.
+
+La verificación independiente comprobó 160 puntuaciones archivadas, 100 perturbaciones y la reconstrucción de los 16 cifrados sintéticos. Confirmó que los 222 archivos criptográficos protegidos de fases anteriores conservaron su contenido.
+
+SIGUIENTE TRABAJO CONCRETO
+
+En historia: obtener del PTT-Archiv el plan vigente o una referencia exacta del índice de 1937, y buscar una copia de salida o un asiento de la carta del 15 de enero. Quedan preparados un nuevo borrador en alemán y su traducción; son archivos locales y no se ha enviado esta consulta.
+
+En criptografía: probar una generación de candidatas que explore zonas más distintas del espacio de claves. El resultado actual no justifica repetir sin cambios el mismo piloto ni afirmar que ya funciona para los telegramas históricos. Cualquier variante deberá evaluarse primero con controles nuevos y un presupuesto definido antes de correrlos.
+
+ARCHIVOS PARA REVISAR
+
+Consulta alemana: outputs/Sentinel_BLUME_PTT_2026-10-02/01_Consulta_PTT_aleman.txt
+Traducción: outputs/Sentinel_BLUME_PTT_2026-10-02/02_Consulta_PTT_traduccion.txt
+Detalle criptográfico: work/phase9_crypto/LEEME.txt
+Verificación independiente: work/phase9_root_verification.json
+Detalle histórico: work/history/phase9-ptt-publicaciones/resultado.txt
+Registro complementario: work/history/phase9-oswald-complemento/ledger.json
+
+Se mantienen las consultas ya enviadas por Javier a Bochsler, Correos y Olten. Esta fase no ha comprobado si llegaron respuestas.

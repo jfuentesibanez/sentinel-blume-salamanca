@@ -1,0 +1,98 @@
+Sentinel — propuesta criptográfica tras fase11
+2 de octubre de 2026. Sólo revisión de diseño: no hay búsquedas nuevas.
+
+Lo que sabemos
+
+Fase11 no aisló el efecto del tope: cambió también la frecuencia de renovación
+de padres. En 20×25, el tope de 5.000 dejó todos los hijos parciales: el barrido
+contiene 16.649 movimientos. Exploró catorce hijos por ronda, sin recuperar K2.
+La K2 verdadera tuvo mayor IDP que todas las devueltas en cada fallo. Eso
+diagnostica una carencia observada de búsqueda, no un óptimo global ni el
+idioma del telegrama. No conviene interpretar los ocho pares como una tasa
+general de recuperación.
+
+Piloto propuesto: dos factores, cuatro políticas
+
+Limitarlo a K2 sintética, 20×25, conv0 y mensajes de 615+160 letras. Mantener
+objetivo, modelos de_fold/fr_fold, movimientos, admisión, distancia, elección
+de padres y perturbación congelados. No buscar K1 ni atacar BLUME.
+
+Factor A: 5.000 propuestas por escalada frente a 33.298, dos veces los 16.649
+movimientos. El segundo tope permite completar hasta dos barridos; puede
+converger antes. No garantiza convergencia: si el último barrido mejora o hay
+corte de etapa/global, el retorno sigue siendo parcial.
+
+Factor B: fusionar o no fusionar una preparación de control en la población.
+Todas las políticas hacen ESA MISMA preparación a las 50.000 llamadas IDP:
+1.000 claves aleatorias, veinte supervivientes y sus swaps, 7.000 llamadas.
+Todas conservan sus propuestas puntuadas en el archivo top5. El control no
+ofrece las veinte supervivientes como padres; el tratamiento sí las fusiona
+con la regla congelada. Así el factor B mide incorporar nuevos padres, sin
+añadir puntuaciones, coste de preparación o frecuencia distintos entre brazos.
+No mide el efecto total de renovar frente a gastar esas llamadas en escaladas.
+
+                  Sin fusión al checkpoint       Con fusión al checkpoint
+Tope 5.000                  A                              B
+Tope 33.298                 C                              D
+
+El checkpoint depende del contador IDP, nunca de cuántos hijos acabaron. La
+preparación del checkpoint usa un RNG separado y fijo, por ejemplo
+checkpoint_seed = search_seed XOR 0x6a09e667f3bcc909. Sus veinte supervivientes
+deben coincidir exactamente en las cuatro políticas de cada caso/ronda.
+El RNG del recorrido se guarda y restaura alrededor de esa preparación.
+
+Al llegar a 50.000 se cierra una escalada en curso como parcial_checkpoint,
+se ofrece su candidata ya puntuada según la misma regla y se abandona ese
+recorrido; no se le llama convergente ni se simula un corte global. Si ya
+terminó la escalada, no se vuelve a ofrecer. Después de la preparación común
+se genera el próximo hijo con la regla congelada. Esta frontera de etapa se
+aplica a los cuatro brazos y es otro cambio común respecto a fase11: no usar
+su binario ni sus tasas como baseline directo de este experimento.
+
+El presupuesto total por ronda sigue en 100.000 llamadas IDP y 30 segundos
+blandos, con preparación inicial y checkpoint incluidos. Los 7.000 iniciales
+dejan 43.000 llamadas de búsqueda antes del checkpoint; tras sus otros 7.000
+quedan 43.000. El tope largo permite barridos completos dentro de ambos bloques.
+No interrumpir una puntuación a mitad. Ante corte global, conservar el archivo
+y registrar el terminal sin admitirlo ni ejecutar un checkpoint pendiente.
+
+Controles y análisis antes de ejecutar
+
+Proponer cuatro pares frescos: de/fr × semillas 20262201/20262202, dos rondas
+por caso y cuatro políticas: 32 búsquedas, como máximo 3.200.000 llamadas IDP.
+Confirmar que esas semillas no se usaron; sellar textos, verdad separada,
+comandos, reglas y hashes antes de la primera búsqueda. Equilibrar el orden
+de las cuatro políticas antes de los resultados. No ampliar presupuesto ni
+ajustar topes si todas fallan.
+
+Comparar C−A y D−B para el tope; B−A y D−C para la fusión. Mostrar también su
+interacción por caso/ronda, sin presentar los 32 brazos como casos independientes.
+La preparación de checkpoint es un control activo: sus candidatos llegan al
+archivo aunque no lleguen a los padres. Su coste no debe ocultarse.
+
+Registrar llamadas y tiempo real por etapa, barridos completos, estado de la
+última pasada, retornos parciales/convergidos, candidatos y admisiones, padre
+elegido, usos, umbral y contribución del checkpoint. Verificar por separado
+la igualdad de las veinte semillas iniciales y de checkpoint. Evaluar después,
+externamente, K2 exacta en top5/rango1, IDP verdadero frente al archivo y
+diferencias pareadas. Distancia a la K2 verdadera sólo en evaluación externa.
+Iguales llamadas no prueban igual CPU. Conservar todos los archivos anteriores.
+
+Tres preguntas para Claude
+
+1. ¿Este factorial 2×2 identifica el efecto del tope y el de incorporar nuevos
+   padres? Señala una confusión concreta, si existe, y la modificación mínima
+   para eliminarla sin ampliar las 100.000 llamadas por ronda. Revisa en especial
+   el checkpoint de 50.000, la preparación común y las candidatas parciales.
+
+2. Con 16.649 movimientos por barrido y un IDP verdadero superior al archivo
+   en los fallos sintéticos, ¿qué cambio mínimo de generación K2 probarías antes
+   de ampliar presupuesto? Compara esta propuesta con conservar y reanudar un
+   barrido parcial. Pide logs/controles concretos que permitan refutar tu idea;
+   no propongas cambiar a la vez objetivo, modelos y movimientos.
+
+3. ¿Qué evidencia adicional exigirías antes de aplicar este método al telegrama
+   real? Distingue fallos del recorrido, límites del IDP/modelo literario y la
+   hipótesis no demostrada de doble transposición columnar. Indica qué control
+   o documento cambiaría cada conclusión, sin inferir texto en claro de palabras
+   esperadas ni tratar estos pocos casos como tasas generales.

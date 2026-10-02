@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-01",
+  "sources": [
+    {
+      "author": "George Lasry",
+      "year": 2018,
+      "title": "A Methodology for the Cryptanalysis of Classical Ciphers with Search Metaheuristics",
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "sections_read": [
+        "2.3.3",
+        "3.4",
+        "4.3.2"
+      ],
+      "printed_pages": [
+        "19",
+        "40–41",
+        "53–54"
+      ],
+      "local_text": "work/phase2_crypto/Lasry2018_text.txt",
+      "local_text_sha256": "3693b3add45b4ff5af6ac3d494fa1dbd520afe2e96ced4347e9ebcaab1822104",
+      "findings": [
+        "Strict local improvement may stall; restarting or accepting a non-improving move may escape but can return immediately to the same local maximum.",
+        "ILS alternates a procedure reaching local optima with a perturbation procedure escaping them. The author distinguishes generic ILS from his nested different-key-part scheme and calls for research on cryptanalytic ILS.",
+        "Simulated annealing offers another escape mechanism but needs temperature/cooling choices. This phase deliberately avoids tuning a temperature."
+      ]
+    },
+    {
+      "author": "CrypTool2 Team",
+      "url": "https://github.com/CrypToolProject/CrypTool-2/blob/bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c/CrypPlugins/ADFGVXAnalyzer/common/TranspositionTransformations.cs",
+      "imported_from": "work/phase4_crypto/source_moves.h",
+      "sha256": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed",
+      "finding": "Previously audited source-neighbourhood is reused verbatim."
+    }
+  ],
+  "experimental_choices": {
+    "not_exact_published_solver": true,
+    "policy": "Greedy ILS-inspired perturbation then HC; retain best IDP globally",
+    "kick_strength": "Fixed cycle 2,3,4 disjoint point swaps; sample 2k distinct positions uniformly by shuffle; no canceling swaps",
+    "HC": "Previously audited circular-slide/segment-swap/three-partite source neighbourhood, random sweep order, strict improvement",
+    "acceptance": "Non-improving post-perturbation starting score is permitted; after HC the global incumbent changes only if IDP improves. Therefore may revisit the same maximum; returns are logged. No tabu rule.",
+    "comparison": "Same observed wrong numeric K2, stream seed, global max IDP evaluations and secondary wall-time cap for restart and kick. Source strict checks one optimum then stops.",
+    "score_budget": "Every in-solver IDP evaluation is gated, including initial score and single evaluation after an entire kick. Applying unscored swaps is not an IDP evaluation. Event totals must equal budget count.",
+    "truth": "Planted key/plaintext and exact success appear only outside solver in synthetic control generator and metrics.",
+    "observed_case": "Conditioned diagnostic, not new independent calibration; starting wrong K2 taken from the15s completed phase4 HC output.",
+    "walk_variant": "Accept every reached local optimum as current state, even if worse; maintain separate best-ever record. Same 2/3/4 disjoint-swap cycle and source HC, global150000 IDP evaluations/15s. Additional diagnostic only.",
+    "calibration_decision": "No fresh calibration or historical attempt: all tested policies retain the same wrong incumbent on the conditioned case. This is not a universal rejection of ILS or of key regions."
+  },
+  "files": [
+    {
+      "path": "work/phase5_crypto/escape_search.h",
+      "sha256": "b1dc67202a59e45b12041304e43cf3c8eaf7eb55bcc62dec7791460570374ea7"
+    },
+    {
+      "path": "work/phase5_crypto/diagnostic.cpp",
+      "sha256": "d62a907b537ea953fbd780d62d4406bf78f3dc09046c47974395f62e7495d7e8"
+    },
+    {
+      "path": "work/phase5_crypto/walk_diagnostic.cpp",
+      "sha256": "c01274b976e7762673f72243e4400fb06f155111ba92148b5726e0314b868d6d"
+    },
+    {
+      "path": "work/phase5_crypto/check.cpp",
+      "sha256": "9bd53c6f3fead6f661e82423a3a710c53f8d45f9f972ad44eab7fd7321bb5a1f"
+    }
+  ]
+}

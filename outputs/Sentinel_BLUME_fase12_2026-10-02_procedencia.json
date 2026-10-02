@@ -1,0 +1,44 @@
+{
+  "phase": 12,
+  "date": "2026-10-02",
+  "report": {
+    "path": "outputs/Sentinel_BLUME_fase12_2026-10-02.txt",
+    "sha256": "0f09b384451c470d91ec71ecf8c02ad9a92d14c77b2a10b75b195ac5ac9ec659"
+  },
+  "claude": {
+    "app": "Claude",
+    "model_observed": "Opus 5.5 Medium",
+    "chat_url": "https://claude.ai/chat/3a9b0fb5-f5ab-461d-9da2-b4e06401526c",
+    "send_confirmed": false,
+    "send_rejected_by_automatic_review": true,
+    "explicit_approval_requested": true,
+    "response_obtained": false,
+    "no_external_contrast_yet": true
+  },
+  "independent_work": {
+    "official_archive_route_checked": true,
+    "adap_current_signatures_verified": 0,
+    "archival_web_queries": 6,
+    "cryptographic_design_only": true,
+    "new_cryptographic_searches": 0
+  },
+  "preservation": {
+    "historical_files": 903,
+    "prior_crypto_files": 318,
+    "phase11_report_and_provenance": true
+  },
+  "evidence_files": {
+    "work/phase12_claude/resource-hashes.json": "cdbfa821bbe41267b3a60fd5388df8654920a7f307b99348d04c76816c901559",
+    "work/history/phase12-paaa/resource-hashes.json": "89e302f7bbd7f09dbca52d287fb05a806fbb0aea2aae295fbc2fd244b9af80a4",
+    "work/history/phase12-paaa/ledger.json": "9af0fba22b58c9cbbf86a21082ce36de539a98d3d7c3d965098611ec763ae612",
+    "work/history/phase12-paaa/resultado.txt": "9e856cdc5128c353d7f2e2e37734b34fb764be1e1528cddb0aa03a86fc18cff0"
+  },
+  "external_actions": {
+    "emails": 0,
+    "comments": 0,
+    "accounts": 0,
+    "orders": 0,
+    "payments": 0
+  },
+  "limitation": "Awaiting explicit user approval before sending the prepared consultation to Claude."
+}

@@ -1,0 +1,26 @@
+FASE 6 — PUBLICACIONES HUNZIKER / OLTEN
+2 de octubre de 2026
+
+La investigación de publicaciones confirma una vía concreta de acceso, pero no ha producido una lectura completa de nuevos textos históricos. E-Periodica devuelve errores en el acceso normal al PDF, visor y DOI de Drei Kamine. La descarga anterior había devuelto una página de verificación y no se ha eludido.
+
+Para avanzar sin depender de ese acceso web, el inventario de Olten permite solicitar:
+
+1. FA-013-61.272, caja FA-013-NF_0041: folleto Die Zemente, que trata la historia empresarial hasta 1945, y extracto de Oltner Neujahrsblätter de 1990, 60 Jahre Zement aus Olten. Sería útil pedir las páginas relativas a 1931–1945, la portada y cualquier nota de fuentes o bibliografía. No conocemos todavía el contenido de esas páginas.
+
+2. FA-013-61.351, caja FA-013-GF_0001: folleto del centenario, 1874–1974 Hundert Jahre Hunziker-Unternehmungen. El inventario lo describe junto con una medalla y un estuche; se puede especificar que interesan el folleto y sus referencias históricas.
+
+3. FA-013-32.266: copia del folleto de 60 años de AG Hunziker & Cie. El conjunto ocupa FA-013-NF_0053 y FA-013-NF_0054; el inventario no precisa cuál guarda la copia. La ficha de arCHeco cita una publicación de H. Hunziker, Brugg 1934, sobre 1874–1934. Su cronología termina antes de los telegramas, pero puede aclarar la organización y nombres de la empresa.
+
+Las páginas 23 y 26 del inventario se cotejaron visualmente. No se han leído los folletos descritos. La ficha completa de arCHeco explica por qué Olten guarda documentos de Hunziker: las dos empresas permanecieron cercanas en dirección y organización después de 1931. Eso no demuestra que Olten conserve toda la correspondencia de la oficina de Zürich.
+
+Hay dos referencias adicionales, por ahora sólo indexadas: Hundert Jahre Hunziker-Baustoffe, revista Wohnen 49 (1974), número 6, DOI 10.5169/seals-104401; y la necrológica de Otto Brunner, ingeniero nacido en 1893, en Totentafel 1961, Jahrbuch für solothurnische Geschichte 35 (1962). Esta última lo presenta como director técnico y cofundador de Hunziker y de Portlandcementwerk. No lo relaciona con Oswald ni con España en lo leído.
+
+El catálogo comercial de Olten de 19 de marzo de 2025 listaba el centenario de 1974 como DV 455, por CHF 5, con siete ejemplares. El texto indexado se puede leer, pero la descarga pública del catálogo ahora devuelve 404. Precio y disponibilidad vigentes no confirmados; no se ha comprado ni encargado nada.
+
+CORRECCIÓN DEL INFORME ANTERIOR
+El cotejo visual del agente principal con la orden de registro BAR, imagen 509, dice Bureau: Bahnhofplatz 1, Zürich; Wohnung: Brugg. La fase 5 y su copia entregada confundieron la localidad de la oficina. Los informes de fase 4 y el ledger de fase 3 mantenían correctamente Zürich. La corrección afecta a la búsqueda de custodios: deben distinguirse oficina de Zürich, vivienda de Brugg y fábrica o fondo empresarial de Olten. Los documentos originales y paquetes antiguos no se han modificado.
+
+Alcance: 12 consultas de búsqueda adaptativas, aperturas de fuentes primarias y cotejo del inventario existente. Sin contacto con terceros, envíos, pedidos, pagos ni elusión de protecciones. No se ha identificado a BLUME ni hallado clave o texto descifrado.
+
+Fuentes y resultados exactos: publications-ledger.json y web-1.json a web-6.json, en este directorio.
+

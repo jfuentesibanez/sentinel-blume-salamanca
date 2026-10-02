@@ -1,0 +1,62 @@
+[
+  {
+    "w1": 12,
+    "w2": 15,
+    "messages_scored": 1,
+    "controls": 6,
+    "pooled_languages": "Spanish novel/proxy, 3 seeds each",
+    "truth_idp_beats_random_pool": 6,
+    "pool_size_per_control": 1000,
+    "stage1_recovered_k2": 0,
+    "oracle_k2_revealed_k1_exact": 5,
+    "oracle_k1_revealed_k2_exact": 4,
+    "idp_gap_true_to_stage1_best_min": 0.07852784899999987,
+    "idp_gap_true_to_stage1_best_max": 0.39950107300000015,
+    "all_failed_oracle_candidates_have_q4_below_truth": true
+  },
+  {
+    "w1": 12,
+    "w2": 15,
+    "messages_scored": 2,
+    "controls": 6,
+    "pooled_languages": "Spanish novel/proxy, 3 seeds each",
+    "truth_idp_beats_random_pool": 6,
+    "pool_size_per_control": 1000,
+    "stage1_recovered_k2": 0,
+    "oracle_k2_revealed_k1_exact": 5,
+    "oracle_k1_revealed_k2_exact": 4,
+    "idp_gap_true_to_stage1_best_min": 0.28521572500000003,
+    "idp_gap_true_to_stage1_best_max": 0.38036110999999995,
+    "all_failed_oracle_candidates_have_q4_below_truth": true
+  },
+  {
+    "w1": 20,
+    "w2": 25,
+    "messages_scored": 1,
+    "controls": 6,
+    "pooled_languages": "Spanish novel/proxy, 3 seeds each",
+    "truth_idp_beats_random_pool": 6,
+    "pool_size_per_control": 1000,
+    "stage1_recovered_k2": 0,
+    "oracle_k2_revealed_k1_exact": 0,
+    "oracle_k1_revealed_k2_exact": 0,
+    "idp_gap_true_to_stage1_best_min": 0.20409505300000008,
+    "idp_gap_true_to_stage1_best_max": 0.26806891900000007,
+    "all_failed_oracle_candidates_have_q4_below_truth": true
+  },
+  {
+    "w1": 20,
+    "w2": 25,
+    "messages_scored": 2,
+    "controls": 6,
+    "pooled_languages": "Spanish novel/proxy, 3 seeds each",
+    "truth_idp_beats_random_pool": 6,
+    "pool_size_per_control": 1000,
+    "stage1_recovered_k2": 0,
+    "oracle_k2_revealed_k1_exact": 1,
+    "oracle_k1_revealed_k2_exact": 1,
+    "idp_gap_true_to_stage1_best_min": 0.26679761300000004,
+    "idp_gap_true_to_stage1_best_max": 0.3184832259999997,
+    "all_failed_oracle_candidates_have_q4_below_truth": true
+  }
+]

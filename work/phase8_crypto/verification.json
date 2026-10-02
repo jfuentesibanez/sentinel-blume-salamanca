@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "rows_checked": 16,
+  "ciphertexts_checked": 16,
+  "returned_plaintexts_checked": 32,
+  "candidate_score_checks": 284,
+  "shared_pools_exactly_equal_between_policies": true,
+  "candidates_distinct": true,
+  "per_round_budget_split_checked": true,
+  "final_selection_by_q3_only_checked": true,
+  "protected_files_checked": 187,
+  "protected_unchanged": true,
+  "source_review": "Ciphertext-only CLI; no ground-truth argument, oracle option, holdout input, truth score or truth lookup in phase8 main/solver functions. Budget starts before ICT construction.",
+  "artifact_sha256": {
+    "pool_solver.cpp": "d4f3fa2d4db2d1828b6612bab72fd7aaa63727e280dd629e0e4d1bedb0f2edd8",
+    "pool_solver": "dc52becdc814b56789489c29342137688edfd3ae81d3702607346a0d06384f76",
+    "run_pool_comparison.py": "2431403a2e57a9dcdb8f59d94280d9847770c0877bb4e2e22bfb0ec0515f0db6",
+    "verify_pool_comparison.py": "c2adc0fec23ba072a5ecf911011cdf905fc98957422a014d9b2284437cd506ca",
+    "comparison_manifest.json": "23ee4feeda0218f5e8585b06f3709af964b1b86093dc9933716320423ec87d1e",
+    "solver_outputs.jsonl": "fee47f8e3a99559e0f74b92f455e622038ef804402082a834985a6649feac71d",
+    "planted_truth.jsonl": "5d67498954c149d55231cdc6be7d1d92418bbc9c6119b672ae4e7f4d4fd97e08",
+    "external_evaluation.jsonl": "3b04e3557a31a17b114a3f7bf588f15f527e17f39d5ffbd1df8d6c06d07e37f7",
+    "comparison_summary.json": "f3629dd82d2f542817c8c9a9c8fcf42d3c26ca1908f174c5f663714e1ce2b1b3"
+  }
+}

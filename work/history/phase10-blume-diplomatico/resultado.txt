@@ -1,0 +1,32 @@
+Fase 10: BLUME en fuentes diplomáticas alemanas
+2 de octubre de 2026
+
+No hemos identificado a BLUME. La ronda abre una vía documental pública y registra varios falsos positivos que no deben convertirse en candidatos.
+
+Se ejecutaron 11 consultas nuevas, con un máximo de 12. La auditoría local confirmó que las fases previas no habían explorado PAAA/Bundesarchiv alemán. No hubo contactos, registros de cuenta, pedidos, copias de pago ni envíos.
+
+PAAA permite buscar sin registro y tiene búsqueda por nombre. La consulta simple Blume con Laufzeit 1936–1938 devolvió 20 coincidencias. Se leyeron parte del árbol y dos fichas de personal: Ilse Blume, P3/370, empleo1943–1945; Lucie Blume, P3/371, empleo1942–1943. No aportan vínculo con Salamanca. No se leyeron los20expedientes y el intervalo de Laufzeit no equivale a fechas de empleo.
+
+Blume Salamanca, mismo intervalo, no devolvió resultados. Es un negativo de la consulta sobre el catálogo público, no prueba de ausencia en los documentos.
+
+Blume Spanien encontró PA AA RZ214/100004,1937. Ficha colectiva de desnaturalizaciones: Bernhard Blume está descrito con residencia Mills College/EE.UU.; España aparece en otra entrada, Harro Simon en Melilla. La coocurrencia no conecta aBlume conEspaña. Sólo se leyeron metadatos, ningún folio.
+https://politisches-archiv.diplo.de/invenio/direktlink/dbba4fd4-3bda-4ddf-9fd4-54bea4c8ce79/
+
+Salamanca, mismo intervalo, devolvió13coincidencias. Se abrió el resultado de misión: PA AA RAV163/433,alquileres de inmuebles enMadrid. Salamanca esPlaza deSalamanca4, dirección madrileña de1942. No es una referencia a la ciudad del telegrama. Sólo se leyeron metadatos. ElUI mostró una fecha irregular,1938–19345, que no normalizamos como fecha archivística comprobada.
+https://politisches-archiv.diplo.de/invenio/direktlink/e9e488d1-00a8-48e1-8e70-be53d9fd3172/
+
+Su fondo padre, RAV163 Embajada deMadrid,1851–1945, advierte que está en nueva catalogación y que no todas las actas aparecen aún enInvenio. Esto limita cualquier conclusión negativa.
+https://politisches-archiv.diplo.de/invenio/direktlink/95bcbe36-f6cd-461e-9b0a-3e62faa2c3d0/
+
+Fuente nueva consultable: ADAP,D3,Deutschland und der spanische Bürgerkrieg1936–1939. Edición1951; BSB4 Z50.281,D-3; C,819páginas. La ficha y el buscador OCR se leyeron. Blume dioKeine Treffer; Salamanca devolvió50coincidencias iniciales y336adicionales segúnUI. Ese control confirma que el buscador responde, pero no elimina erroresOCR ni las limitaciones de selección editorial. No se leyó el volumen completo ni se cotejó visualmente el índice de personas.
+https://digitale-sammlungen.de/de/view/bsb00045915
+https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00045915-4
+
+El paso público concreto para otra ronda sería cotejar visualmente los índices de personas y los documentos de diciembre1936–enero1937 deADAP D3. Puede dar nombres, relaciones y referencias de correspondencia; por ahora no identifica aBlume ni aporta clave.
+
+Bundesarchiv: el aviso oficial15septiembre2026 y su pantalla de entrada confirman una restricción temporal que exige iniciar sesión o registrarse. No se ejecutó consulta en esa base y no se creó cuenta.
+https://www.bundesarchiv.de/nachricht/einschraenkungen-bei-online-anwendungen-des-bundesarchivs/
+
+Las capturas DOM/JSON y dosJPG documentan lo leído. Chrome tradujo partes de la interfaz al español; algunas fechas aparecen deformadas y no se usan para identificar personas.
+
+La conservación de los804archivos anteriores se comprueba porSHA256 al cierre. Consultarprotected-verification.json yresource-hashes.json.

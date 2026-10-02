@@ -1,0 +1,38 @@
+PTT: expediente de registro de 1937 localizado
+Fecha de comprobación: 2 de octubre de 2026.
+
+El catálogo público ofrece una pista concreta en el productor adecuado: P-00 C_2522_06 (1937), «Registratur- und Archivdienst, Makulierung, Aufbewahrungsfrist für Akten». El título se refiere al servicio de registro y archivo, la eliminación de documentos y los plazos de conservación.
+Ficha exacta: https://mfk.rechercheonline.ch/pttarchiv:15003
+
+La ficha completa confirma: nivel dossier; alemán; fecha 1937; «Sachakten (30 Jahre)»; estado «In den Lesesaal bestellbar» (se puede solicitar para la sala de lectura). No muestra imágenes del expediente ni enlace de descarga. Sólo hemos leído sus metadatos, no su contenido.
+
+Su fondo padre es P-00 C, «Generaldirektion PTT», 1936–1979. La ficha identifica la procedencia como «Generaldirektion PTT 1936-1979». El fondo completo no se solicita directamente a sala; el catálogo indica que se solicitan dossiers sin plazo de protección vigente.
+Ficha padre: https://mfk.rechercheonline.ch/pttarchiv:213
+Ruta observada: PTT-Archiv > ZAC2, documentos registrados de la Administración Federal de Correos y Telégrafos > dossiers registrados de las direcciones centrales y regionales > P-00 C, Generaldirektion PTT.
+
+Por qué sirve: la carta del 15 de enero de 1937 salió de la Dirección General de Correos y Telégrafos y lleva «Rechtsdienst» y «Unsere Zeichen: 6011.8.3». El dossier de 1937 podría ayudar a localizar las normas de registro o conservación de ese productor. Su título no demuestra que contenga un plan de clasificación, un registro de salida, la carta ni un expediente sobre España. Tampoco demuestra que se conservaran copias de todos los telegramas.
+
+La referencia 6011.8.3 es una referencia interna de 1937. No hemos identificado su equivalencia con una signatura actual del PTT-Archiv. P-00 C_2522_06 es la signatura actual del dossier sobre registro y archivo: no es una conversión de 6011.8.3.
+
+Fuente original de la referencia interna: BAR E4320B#1974/47#277*, documento Unterlagen_0000072, imagen 00000519. Carta del 15.1.1937 al Ministerio Público de la Confederación, asunto «Neutralität gegenüber Spanien».
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg
+
+Alternativas contiguas observadas en la lista del catálogo, con el mismo título:
+- 1936: P-00 C_2513_05, registro 15002; la lista muestra «Lesesaal».
+  https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-p-00-c/pttarchiv:15002?sqs_query=Registratur
+- 1938: P-00 C_0001_05, registro 15004; la lista muestra «Lesesaal».
+  https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-p-00-c/pttarchiv:15004?sqs_query=Registratur
+No se leyó su ficha completa ni su contenido. La navegación directa a la ficha de 1936 devolvió una interfaz sin datos; esa tentativa se conserva en record-15002-registratur1936.json y no respalda afirmaciones nuevas.
+
+Otra ficha de lista, secundaria: P-00 C_2550_06 (1937), «Diensterlasse und Broschüren: Druck (bis 1941 = Hauptregistratur GD PTT (Post); seit 1942 = Registratur W)», registro 23065. Podría tratar del trámite de impresión de instrucciones o folletos; no prueba que contenga un plan de clasificación.
+https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-p-00-c/pttarchiv:23065?sqs_query=Registratur
+
+Alcance de esta ronda: cinco búsquedas nuevas dentro de P-00 C, por Rechtsdienst, Registratur, Bundesanwaltschaft, Aktenplan y Geschäftskontrolle. Registratur mostró 32 dossiers y el fondo padre. Los otros cuatro términos sólo mostraron el fondo padre. Esto describe los resultados del catálogo bajo ese filtro; no prueba que esos documentos no existan o que no figuren bajo otro nombre. No hemos agotado otros productores ni inventarios internos.
+Paso público reproducible: abrir la lista filtrada P-00 C con el término Registratur, seleccionar el dossier de 1937 y comprobar su signatura y estado.
+https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-p-00-c?sqs_query=Registratur
+
+El siguiente paso que depende del custodio es preguntar dónde está el plan de clasificación válido en 1937 y si permite interpretar 6011.8.3 o localizar la copia/entrada de salida del 15 de enero. Se han preparado una consulta local en alemán y una traducción al español. No se ha contactado al archivo ni creado un borrador de Gmail. No se ha encargado consulta, copia ni trabajo de pago.
+
+Las normas actuales de acceso y tarifas se verificaron en la fase 7. La consulta de sala se indica como gratuita, con registro previo; la disponibilidad de digitalización depende de derechos, conservación y recursos. Esas normas actuales no establecen cuánto se guardaban los telegramas en 1937. Fase 7 queda preservada.
+
+No se ha descifrado ningún telegrama ni localizado una clave. No hay nuevo dato sobre la identidad de Blume. Los expedientes de telefonía T-00 B y los de 1946 no se presentan como documentos BLUME.

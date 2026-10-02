@@ -1,0 +1,125 @@
+{
+  "source": "https://www.cia.gov/resources/csi/static/4-Article-NaziEnigmaRudolphFischer-June-2026.pdf",
+  "title": "The Enigma of Ernst Rudolf Fischer: Nazi Germany’s Oil Expert",
+  "author": "Anand Toprani",
+  "publication": "Studies in Intelligence 70(2), June 2026",
+  "printed_pages": "27–39",
+  "local_text": "work/history/article-fischer-2026.txt",
+  "scope": "Artículo histórico firmado y publicado por CSI; p27 excluye representación o autenticación del Gobierno estadounidense. Nota1: fuentes desclasificadas públicas y trabajo anterior del autor; no es un informe operativo clasificado.",
+  "text_search_counts": {
+    "BLUME": 0,
+    "SALAMANCA": 0,
+    "SPAIN": 0,
+    "SPANISH": 0,
+    "OSWALD": 0,
+    "PATVAG": 0,
+    "HOVAG": 0,
+    "HOLZVERZUCKERUNGS": 1,
+    "IMFELD": 1
+  },
+  "project_relevance": [
+    {
+      "page": 34,
+      "note": 70,
+      "finding_es": "El exejecutivo de Petrola Ernst Imfeld ayudó a Fischer a obtener trabajo en Holzverzuckerungs AG; no fecha la primera relación Fischer–Oswald.",
+      "notes_page": 39,
+      "source_paths": [
+        "Bochsler, Nylon und Napalm (2022), subcapítulo Mineraloel Fischer",
+        "Uhlig, Tarnung, Transfer, Transit (2001), pp183–188,383ss"
+      ]
+    },
+    {
+      "page": 34,
+      "note": 62,
+      "finding_es": "El resumen de la acogida en Suiza remite a Bochsler NZZ2020, Uhlig y la comisión Bergier; no al expediente BLUME.",
+      "notes_page": 38,
+      "source_paths": [
+        "Die Schweiz, der Nationalsozialismus und der Zweite Weltkrieg (2002), pp398–399",
+        "Uhlig, Tarnung, capítulos5,11",
+        "https://www.nzz.ch/geschichte/ein-neues-leben-fuer-drei-nazis-ld.1576696"
+      ]
+    },
+    {
+      "pages": [
+        29,
+        35,
+        36
+      ],
+      "finding_es": "La inferencia de posible colaboración aliada desde1943 se declara circunstancial. Toprani deja abiertas la identidad del servicio, la condición de fuente o activo y las contrapartidas.",
+      "evidence_dates": [
+        "MEW,24mayo1943, resume conversación con neutral del otoño1942",
+        "USSBS Interview67,2julio1945: identifica al sujeto como Emil Fischer; Toprani lo identifica con Ernst Rudolf por su rol profesional"
+      ]
+    }
+  ],
+  "archival_references": [
+    {
+      "note": 75,
+      "printed_note_page": 39,
+      "document": "MEW Intelligence Minutes No20,24May1943",
+      "repository": "NARA",
+      "shelfmark": "RG169, Enemy Oil Committee, Box2201"
+    },
+    {
+      "note": 76,
+      "printed_note_page": 39,
+      "document": "Kontinentale Oel AG, sin fecha",
+      "repository": "NARA",
+      "shelfmark": "RG169, Enemy Oil Committee, Box2201"
+    },
+    {
+      "note": 77,
+      "printed_note_page": 39,
+      "document": "USSBS Interview No67,2July1945",
+      "repository": "NARA",
+      "shelfmark": "RG243, European Survey, Intelligence Branch, Interrogations, Box2"
+    },
+    {
+      "note": 60,
+      "printed_note_page": 38,
+      "document": "Protocol y extractos de diario marzo–abril1945 adjuntos al informe Murphy17Jan1947",
+      "repository": "NARA",
+      "shelfmark": "RG59,862.6363/1-1747"
+    },
+    {
+      "note": 47,
+      "printed_note_page": 38,
+      "document": "Wangler Research Report10Aug1946 adjunto a Murphy29Aug1946",
+      "repository": "NARA",
+      "shelfmark": "RG59,862.6363/8-2946; expediente más completo: RG260, OMGUS Property Division, Box9"
+    },
+    {
+      "notes": [
+        45,
+        48
+      ],
+      "printed_note_page": 38,
+      "documents": [
+        "Heath a Draper,4febrero1946",
+        "Coleman, Records,7junio1946"
+      ],
+      "url": "https://catalog.archives.gov/id/472567766",
+      "verification": "Enlace aportado por el artículo. Frontend NARA no accesible con webtool; contenido original no inspeccionado."
+    },
+    {
+      "note": 80,
+      "printed_note_page": 39,
+      "document": "Oil as a Factor in the German War Effort,8March1946",
+      "repository": "Combined Arms Research Library",
+      "pages": "28n10,148,156"
+    }
+  ],
+  "additional_authorized_source": {
+    "url": "https://www.nylonundnapalm.ch/user/pages/04.medien/drei_nazis_nzz_geschichte/2020%2030_NZZG_Bochsler_Drei%20Nazis_66-75.pdf",
+    "title": "Drei Nazis",
+    "author": "Regula Bochsler",
+    "printed_pages": "66–75",
+    "local_path": "work/history/bochsler-drei-nazis-2020.pdf",
+    "finding_es": "p74: Imfeld presentó a Fischer a Werner Oswald; pasó a ser asesor a media jornada. Sin fecha exacta de inicio. Referencias personales de1953; carta de Oswald de1955 enp75. Regreso a Alemania: Bochsler1954, Toprani1955; discordancia sin resolver."
+  },
+  "conclusion_es": "Fuente útil para la red industrial e inteligencia aliada de1943–1955 y referencias concretas. No aporta nota42, signatura policial BLUME, identidad BLUME, texto en claro ni clave de1937.",
+  "sha256": {
+    "article-fischer-2026.pdf": "291c36665b39c071b5601c6c0746df18af2a06b31d147ce381738cffeb2ffb39",
+    "bochsler-drei-nazis-2020.pdf": "4761ced28c4a8616ce364bd3bb44f71b4cd9e4af60fe68c8058dcb500cdac50f"
+  }
+}

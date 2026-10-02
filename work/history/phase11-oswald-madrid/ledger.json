@@ -1,0 +1,37 @@
+{
+  "phase": 11,
+  "date": "2026-10-02",
+  "purpose": "Comprobar la disponibilidad actual de un expediente pendiente y el estado publicado de la investigación pública.",
+  "search_queries": 0,
+  "catalog_url": "https://www.recherche.bar.admin.ch/recherche/link/de/archiv/einheit/1689905",
+  "catalog_read": {
+    "title": "Oswald, Madrid",
+    "signature": "E2001D#1000/1551#5627*",
+    "years": "1936–1938",
+    "internal_reference": "B.73.E.7.21",
+    "hierarchy": [
+      "Abteilung für Auswärtiges: Zentrale Ablage (1937–1945)",
+      "Bürgerkrieg in Spanien",
+      "Nachforschungen und Heimschaffungen",
+      "Einzelfälle"
+    ],
+    "access_literal": "Prüfung nötig",
+    "digital_document_links_seen": false,
+    "originals_read": 0,
+    "identity_confirmed": false,
+    "limitations": "La ficha no identifica nombre de pila, no prueba que Oswald sea Viktor y no muestra correspondencia comercial. La disponibilidad y restricciones se observaron en una sesión pública sin identificación."
+  },
+  "access_actions": {
+    "logged_in": false,
+    "account_created": false,
+    "order_placed": false,
+    "chatbot_used": false,
+    "own_temporary_tab_closed": true
+  },
+  "next_step": "La lectura del expediente permitiría comprobar identidad y contenido. Esta fase no solicitó ni descargó originales.",
+  "captures": [
+    "web-ficha.json",
+    "browser-ficha.json"
+  ]
+}
+

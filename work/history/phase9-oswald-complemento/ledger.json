@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-02",
+  "scope": "Búsqueda pública complementaria sobre el archivo corporativo y la oficina de Oswald; separada de la vía PTT.",
+  "queries": [
+    "\"Oswald\" \"Blume\" \"Salamanca\" 1937",
+    "\"Oswald\" \"Hisma\" \"Wolle\"",
+    "\"Viktor Oswald\" \"Archiv\"",
+    "\"Werner Oswald\" \"Nachlass\"",
+    "\"Patvag\" \"1937\"",
+    "\"Viktor\" \"Oswald\" \"Salamanca\"",
+    "\"Victor\" \"Oswald\" \"Hisma\"",
+    "\"Viktor\" \"Oswald\" \"lana\"",
+    "\"Patvag\" \"1936\" site:e-periodica.ch",
+    "\"Patvag\" \"Oswald\" site:recherche.bar.admin.ch",
+    "\"Patvag\" \"Handelsamtsblatt\"",
+    "\"Oswald\" \"CEDRIC\" site:dodis.ch",
+    "site:recherche.bar.admin.ch \"Ems\" \"UEK\"",
+    "\"Ems-Chemie\" \"Aktenverzeichnis\" \"UEK\"",
+    "site:afz.ethz.ch \"Oswald\"",
+    "\"Patvag\" \"Archiv\" \"1936\"",
+    "\"Tarnung, Transfer, Transit\" \"Oswald\"",
+    "\"UEK\" \"Ems\" \"E9500\"",
+    "\"Patvag\" \"1936\" \"SHAB\"",
+    "\"Eléonore Matthys\" \"Werner Oswald\"",
+    "\"Tarnung, Transfer, Transit\" site.uek.ch",
+    "\"Tarnung, Transfer, Transit\" site:uek.ch",
+    "\"Schweizerisches Post- und Telegraphen-Amtsblatt\" \"1937\"",
+    "\"Post- und Telegraphen-Amtsblatt\" \"Beiblatt\" \"Registratur\"",
+    "\"6011.8.3\" PTT",
+    "\"Post\" \"1937\" \"Aktenplan\" \"Schweiz\""
+  ],
+  "query_limits": [
+    "Veintidós consultas sobre Oswald y cuatro sobre boletines o planes PTT. Una contiene site.uek.ch, que no es un filtro de dominio válido.",
+    "Hubo muchos resultados de homónimos o productores ajenos; no se atribuyen a los hermanos Oswald.",
+    "dodis.ch comunicó bloqueo robots; no se intentó eludirlo.",
+    "No es una búsqueda exhaustiva de fondos o inventarios."
+  ],
+  "sources_read": [
+    {
+      "url": "https://hls-dhs-dss.ch/de/articles/030150/2025-09-23/",
+      "author": "Regula Bochsler",
+      "observed": "Artículo de HLS de 23.09.2025 sobre Werner Oswald. Identifica a Eléonore Matthys como su secretaria y posterior esposa; remite al fondo BAR E6101 y a la biografía de Rentsch de 1985.",
+      "limit": "La autora es la misma del libro; no constituye una corroboración independiente de sus afirmaciones. No relaciona a Matthys con el envío o cifrado de enero de 1937."
+    },
+    {
+      "url": "https://www.legimi.de/e-book-nylon-und-napalm-regula-bochsler,b3465546.html",
+      "portion": "Previsualización pública, prólogo",
+      "observed": "El prólogo menciona un inventario de diez páginas de documentos corporativos consultados por la UEK, conservado en BAR. No se obtuvo su signatura ni se leyó el inventario.",
+      "limit": "No prueba que liste documentos de 1937. La nota 5 no se recuperó en esta ronda. No se reactivó la suscripción ni se accedió a contenido reservado."
+    },
+    {
+      "url": "https://www.uek.ch/de/schlussbericht/Publikationen/Zusammenfassungenpdf/09d.pdf",
+      "portion": "Resumen oficial de cuatro páginas, no el volumen completo",
+      "observed": "Identifica autores, ISBN y alcance de Tarnung, Transfer, Transit, volumen 9 de la UEK. La búsqueda textual Oswald no devolvió coincidencias en este resumen.",
+      "limit": "No es una búsqueda en las 501 páginas del libro ni en los documentos de la comisión."
+    },
+    {
+      "url": "https://www.gr.ch/DE/Medien/Mitteilungen/MMStaka/2025/DokumenteMM/Beilage1_Bericht_FaschismusNationalsozialismus_Def.pdf",
+      "authors": ["Andrea Tognina", "Christian Ruch"],
+      "document_date": "Agosto de 2024, según portada; ruta del servidor de 2025",
+      "portion": "Metadatos, búsquedas textuales y pasajes sobre HOVAG en informe de 230 páginas",
+      "observed": "El informe encargado por el Gobierno de Graubünden remite a E6101 y a investigación sobre HOVAG posterior a la guerra. Las búsquedas Blume y Hunziker no devolvieron coincidencias con la herramienta utilizada.",
+      "limit": "No se leyó íntegramente ni se inspeccionó cada página. No se localizó un enlace nuevo con enero de 1937. No se atribuyen los fondos UEK de la GKB al inventario corporativo de Ems."
+    }
+  ],
+  "indexed_only": [
+    {
+      "url": "https://www.e-periodica.ch/cntmng?pid=piw-001%3A1998%3A43%3A%3A122",
+      "observed": "Resultado indexado de 1998 que sitúa la entrada de Matthys en la oficina de Oswald en mayo de 1936.",
+      "limit": "La apertura del PDF devolvió Cache miss; no se leyó la página original. No se presenta la fecha como comprobación primaria ni se infiere que ella cifrara los mensajes."
+    }
+  ],
+  "outcome": "No se obtuvo una signatura específica del inventario UEK de Ems ni el asiento comercial PATVAG de 1936. La búsqueda no añade destinatario, clave o texto en claro. La vía PTT tiene mayor precisión documental en esta ronda.",
+  "contacts_sent": false,
+  "orders": false,
+  "payments": false
+}

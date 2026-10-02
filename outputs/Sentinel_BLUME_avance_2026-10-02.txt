@@ -1,0 +1,117 @@
+THE INDEPENDENT SENTINEL — BLUME SALAMANCA
+Avance de investigación: 2 de octubre de 2026, fase 8
+
+Tenemos un nuevo objetivo de archivo y una comparación criptográfica terminada.
+No hemos obtenido el texto en claro, una clave ni la identidad de Blume.
+
+INVESTIGACIÓN HISTÓRICA
+
+En el catálogo del PTT-Archiv localizamos P-00 C_2522_06 (1937),
+«Registratur- und Archivdienst, Makulierung, Aufbewahrungsfrist für Akten».
+El título se refiere al servicio de registro y archivo, la eliminación de
+documentos y sus plazos de conservación. Pertenece a Generaldirektion PTT,
+1936–1979. La ficha completa indica que está en alemán y se puede solicitar
+para la sala de lectura. No muestra imágenes ni un enlace de descarga.
+https://mfk.rechercheonline.ch/pttarchiv:15003
+Fondo padre: https://mfk.rechercheonline.ch/pttarchiv:213
+
+Esta pista interesa porque la remisión de los telegramas a la Fiscalía Federal,
+fechada el 15 de enero de 1937, salió del Servicio Jurídico de esa Dirección
+General. Lleva el asunto «Neutralität gegenüber Spanien» y la referencia
+interna «Unsere Zeichen: 6011.8.3». El expediente sobre registro podría ayudar
+a localizar el plan de clasificación que usaban entonces.
+
+Sólo conocemos los metadatos del catálogo. No sabemos si ese expediente contiene
+el plan de clasificación, la carta o su registro de salida. Su signatura actual
+P-00 C_2522_06 no es una equivalencia demostrada de 6011.8.3. El campo
+«Sachakten (30 Jahre)» de la ficha corresponde al plazo de protección de acceso;
+no establece cuánto se conservaban los telegramas en 1937.
+
+Carta original: BAR E4320B#1974/47#277*, Unterlagen_0000072, imagen 00000519.
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg
+
+En la lista también aparecen expedientes con el mismo título para 1936 y 1938.
+No leímos sus fichas completas ni sus documentos. Cinco búsquedas dentro del
+fondo y ocho consultas públicas externas no localizaron un plan de 1937 ni una
+interpretación comprobada de 6011.8.3. Ese resultado tiene un alcance limitado;
+no demuestra que los documentos no existan.
+
+La consulta preparada pregunta al custodio por tres cosas:
+1. El plan de registro o clasificación vigente en 1937.
+2. El significado de 6011.8.3 y su posible equivalencia con una signatura actual.
+3. Una copia o entrada de salida de la carta del 15 de enero de 1937.
+
+Borrador alemán: work/history/phase8-ptt/consulta-ptt-aleman.txt
+Traducción española: work/history/phase8-ptt/consulta-ptt-traduccion.txt
+Destinatario propuesto: archiv@mfk.ch
+Ambos son archivos locales. No se han enviado ni creado en Gmail.
+
+La descripción general del archivo también menciona una base bibliotecaria
+interna y una colección de publicaciones de PTT que incluye instrucciones y
+reglamentos. Es otra vía posible para localizar las normas de registro; todavía
+no identifica una publicación concreta de 1937.
+https://ub-archeco24.ub.unibas.ch/index.php/ptt-generalpostdirektion-und-nachfolger
+https://www.mfk.ch/forschen/ptt-archiv/bestaende
+
+DESCIFRADO: COMPARACIÓN DE UNA CANDIDATA FRENTE A HASTA CINCO
+
+Probamos ocho pares sintéticos nuevos, cada uno con mensajes de 615 y 160 letras.
+Usamos fragmentos de Kafka y Voltaire separados del entrenamiento de los modelos,
+dos anchos de clave y dos semillas por combinación. Las claves originales se
+guardaron aparte. El programa recibió los textos cifrados y los anchos, sin las
+claves originales ni las puntuaciones de las respuestas.
+
+Cada par se evaluó con ambos métodos. Los tres conjuntos de candidatas para la
+segunda clave fueron idénticos entre métodos. El límite total por etapa también
+fue igual; el método de hasta cinco candidatas lo dividió entre sus candidatas.
+
+                            Una candidata     Hasta cinco
+Alemán, anchos 12×15             2/2              2/2
+Alemán, anchos 20×25             0/2              0/2
+Francés, anchos 12×15            0/2              0/2
+Francés, anchos 20×25            0/2              0/2
+Total                           2/8              2/8
+
+Ambos métodos recuperaron los mismos dos pares. Evaluar más candidatas no rescató
+ninguno de los seis pares fallidos. En esos seis, la segunda clave verdadera no
+quedó entre las candidatas devueltas en ninguna de las tres rondas. Los registros
+no enumeran todas las claves visitadas: no podemos afirmar que nunca se probara.
+
+El método de varias candidatas consumió más coste real pese a los mismos límites
+máximos. El tiempo imputado fue 80,275 segundos para una candidata y 101,588 para
+varias. Las propuestas evaluadas registradas fueron 20.900.359 y 39.856.490.
+El coste común de generar candidatas se imputa entero a cada método; esos tiempos
+no se suman para obtener la duración del proceso. Los contadores omiten algunas
+puntuaciones iniciales y mezclan operaciones de distinto coste. El LEEME detalla
+estas condiciones y los límites temporales blandos.
+
+La siguiente mejora debe actuar en la generación de candidatas para la segunda
+clave. Conviene distinguir los fallos franceses de 12×15, cuya búsqueda terminó,
+de los casos 20×25, cuyas etapas de generación agotaron el tiempo. La comparación
+no justifica ampliar todavía una búsqueda contra los telegramas históricos.
+
+Estos resultados no identifican el idioma de BLUME. Son controles literarios
+pequeños, con anchos conocidos, claves compartidas y una única convención de
+doble transposición. No se atacaron los telegramas originales en esta ronda.
+
+COMPROBACIONES Y EVIDENCIA
+
+La revisión independiente reconstruyó 16 textos cifrados y los 32 textos devueltos.
+También recalculó 284 puntuaciones de candidatas, comprobó la selección por
+puntuación y el reparto de límites. Confirmó los mismos dos éxitos y la ausencia
+de la segunda clave verdadera en los conjuntos devueltos de los seis fallos.
+Los 187 archivos criptográficos anteriores y los 20 archivos de la ronda previa
+del PTT siguen intactos. Se comprobaron además 49 hashes de recursos de esta fase.
+La repetición de aislamiento con dos archivos locales de respuestas falsas
+produjo los mismos resultados al quitar los tiempos medidos. Es una comprobación
+de la interfaz, no una prueba general de todo flujo de información.
+
+Resultados criptográficos: work/phase8_crypto/LEEME.txt
+Datos: work/phase8_crypto/comparison_summary.json
+Revisión independiente: work/phase8_root_verification.json
+Investigación histórica: work/history/phase8-ptt/phase8-ptt-resumen.txt
+Fuentes y límites históricos: work/history/phase8-ptt/phase8-ptt-ledger.json
+Búsqueda complementaria: work/history/phase8-ptt-plan/plan-ledger.json
+
+Los correos que Javier ya envió a Bochsler, Correos y Olten siguen siendo tres
+consultas distintas. Esta ronda no comprobó respuestas ni envió nuevos mensajes.

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-02",
+  "sha256": {
+    "access-checks.json": "c4e2a66a7ffa6f6f4bd3f762c04c1330e6b0fe2d39b28d137119da9cd31d0bde",
+    "publications-ledger.json": "769081d24cbf6fd42a8dbd1efcac1055610c9643ede39849eb271edd0dbab91b",
+    "publications-summary.txt": "c12e9324b4ca68dab26f591721c5ab37e58687d073cdb965f755ea45c6fdb68d",
+    "web-1.json": "7e56a61059b61f34bd41f8a61b2e4eda7cbbdb9900dfb8c70b905429be58ddab",
+    "web-2.json": "0c3944365b9f721e28628df0237f77ad6d7609f696d64d8ba6d6011e59dfc9ee",
+    "web-3.json": "f6e26902482752a8440e9f9caee4e5a19241d87b32ebcca0d7bae57333878ce4",
+    "web-4.json": "20c2e51f44bd1839b28fd26b679ae7ed2f61d23989ca98ddd81cd90048a30d29",
+    "web-5.json": "f35d009580003b01ac309c091465be0df400a22a38c52f136b67fff6270b580d",
+    "web-6.json": "7eb845438382c068ebc2ac8a1b5a491191d29b873e92f779cafa7e987cbc7ca6"
+  }
+}

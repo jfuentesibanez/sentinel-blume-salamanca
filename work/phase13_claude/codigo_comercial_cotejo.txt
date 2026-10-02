@@ -1,0 +1,40 @@
+Sentinel — comprobación de la hipótesis de código comercial
+2 de octubre de 2026. Sólo lectura documental y descripción de los cuerpos.
+
+Fuente leída: Telegraph Regulations,Madrid 1932, League of Nations Treaty Series 151,
+publicación1934, n.º3479. Archivo preservado: work/history/telegraph-regulations-madrid1932-lnts151.pdf.
+Lectura visual completa de las páginas impresas 57,59 y 63; texto extraído sólo como apoyo.
+
+Artículo 10, Code Language: incluye palabras artificiales o palabras reales usadas
+con significados distintos de los habituales. Su §2 permite palabras de hasta
+cinco letras, formadas de cualquier modo, salvo la é. El §3 dispone la marca de
+servicio CDE. El §4 fija para CDE siete décimas de tarifa plena en el sistema
+europeo. Son reglas históricas de la publicación citada; no hemos verificado
+cambios posteriores ni su aplicación efectiva a estos telegramas.
+
+El §6,continuación en página 59, exige que el remitente presente el código usado
+si lo requiere la oficina de origen o su administración. Esto justifica buscar
+un código o una mención administrativa en el expediente, pero no demuestra
+que PTT lo solicitara ni que conserve un ejemplar de los Oswald.
+
+Artículo 11,Cypher Language, distingue cifras de significado secreto y combinaciones
+que no cumplen las condiciones de lenguaje claro o código. Una agrupación de
+cinco letras no demuestra un libro de códigos ni excluye un cifrado por transposición.
+
+Artículo 15,§2 y§9,página 63: la dirección mínima designa destinatario y oficina de
+destino; la forma arbitraria/abreviada está sujeta a acuerdo con esa oficina.
+Esto mantiene abierta la posibilidad de una dirección telegráfica registrada.
+No demuestra que BLUME tuviera ese carácter ni identifica a su titular.
+
+Descripción reproducible, con hashes canónicos verificados: T1 tiene 123 grupos,
+todos distintos; T2 tiene 32 grupos,todos distintos. No comparten ningún grupo.
+Se guardan recuentos de letras por cada una de las cinco posiciones. No se ha
+hecho contraste estadístico, ajuste a libros de códigos ni búsqueda de clave.
+La ausencia de repeticiones en un texto breve,con vocabulario desconocido, no
+es prueba contra un código comercial. Tampoco lo confirma.
+
+Próximo cotejo concreto: buscar marca CDE y justificación de la tarifa en los
+formularios o registros complementarios, y cualquier petición del código por
+PTT. Si aparece un libro concreto, compararlo con los grupos, sin elegirlo a
+partir de coincidencias aisladas. La marca o tarifa,por sí solas,tampoco darían
+la clave ni el texto claro.

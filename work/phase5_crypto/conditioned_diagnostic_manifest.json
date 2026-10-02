@@ -1,0 +1,144 @@
+{
+  "scope": "Conditioned exploratory diagnostic on previously observed wrong K2; not fresh calibration",
+  "date": "2026-10-01",
+  "known_wrong_k2_source": "work/phase4_crypto/k2_budget_diagnostic.jsonl",
+  "known_wrong_source_sha256": "f5845b2a0be1f9448578b426a728653c1474926625e742f17cc49111b63dc67b",
+  "known_wrong_k2": [
+    15,
+    17,
+    10,
+    5,
+    8,
+    11,
+    6,
+    7,
+    18,
+    1,
+    12,
+    20,
+    23,
+    24,
+    9,
+    21,
+    16,
+    22,
+    2,
+    19,
+    13,
+    4,
+    3,
+    14,
+    0
+  ],
+  "plant_seed": 20261201,
+  "widths": [
+    20,
+    25
+  ],
+  "lengths": [
+    615,
+    160
+  ],
+  "messages_scored": 2,
+  "model": "work/crypto/model_es.bin",
+  "corpus": "work/crypto/holdout_proxy.txt",
+  "policies": [
+    "source",
+    "restart",
+    "kick"
+  ],
+  "max_idp_evaluations": 150000,
+  "seconds_limit": 15,
+  "counts_include": [
+    "initial score",
+    "all candidate and post-perturbation scores",
+    "all HC evaluations"
+  ],
+  "metrics_outside_solver": [
+    "start_idp",
+    "true_k2_idp",
+    "exact_k2"
+  ],
+  "runs": [
+    {
+      "policy": "source",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_crypto/diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261201",
+        "2",
+        "15",
+        "150000",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_crypto/known_wrong_k2.txt",
+        "source"
+      ],
+      "wall_seconds": 1.6735751628875732,
+      "status": "completed"
+    },
+    {
+      "policy": "restart",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_crypto/diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261201",
+        "2",
+        "15",
+        "150000",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_crypto/known_wrong_k2.txt",
+        "restart"
+      ],
+      "wall_seconds": 9.15873098373413,
+      "status": "completed"
+    },
+    {
+      "policy": "kick",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_crypto/diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261201",
+        "2",
+        "15",
+        "150000",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_crypto/known_wrong_k2.txt",
+        "kick"
+      ],
+      "wall_seconds": 9.418273210525513,
+      "status": "completed"
+    }
+  ],
+  "files": [
+    {
+      "path": "work/phase5_crypto/escape_search.h",
+      "sha256": "b1dc67202a59e45b12041304e43cf3c8eaf7eb55bcc62dec7791460570374ea7"
+    },
+    {
+      "path": "work/phase5_crypto/diagnostic.cpp",
+      "sha256": "d62a907b537ea953fbd780d62d4406bf78f3dc09046c47974395f62e7495d7e8"
+    },
+    {
+      "path": "work/phase5_crypto/diagnostic",
+      "sha256": "c3ac207494987cf56b4e36fc93e4e2c9082b0a0c6063b53b7e5a68f437b2bfe3"
+    },
+    {
+      "path": "work/crypto/model_es.bin",
+      "sha256": "d52bbf2f4d8412834e30bcc48758f2e1f4935bca7a0763b7560a36883288ab32"
+    },
+    {
+      "path": "work/crypto/holdout_proxy.txt",
+      "sha256": "8dae5c6fe87646155b3c9495303edf2c508573515f88492308f21a918219119f"
+    },
+    {
+      "path": "work/phase4_crypto/source_moves.h",
+      "sha256": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed"
+    }
+  ]
+}

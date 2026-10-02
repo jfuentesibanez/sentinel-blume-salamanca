@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-01",
+  "independent_log_aggregation": {
+    "oracle_positive_files": [
+      "oracle_prose_20261101_25.jsonl",
+      "oracle_proxy_20261101_25.jsonl"
+    ],
+    "oracle_q3_k2_revealed_joint": {
+      "exact": 100,
+      "total": 100
+    },
+    "oracle_q3_k2_revealed_single": {
+      "exact": 96,
+      "total": 100
+    },
+    "full_positive_files": [
+      "full_prose_20261011_5.jsonl",
+      "full_proxy_20261011_3.jsonl"
+    ],
+    "full_joint": {
+      "exact": 0,
+      "total": 16
+    },
+    "full_single": {
+      "exact": 1,
+      "total": 16
+    },
+    "all_these_runs_completed_without_reported_budget_expiry": true,
+    "reencryption_is_only_consistency_not_solution_evidence": true
+  },
+  "adjacent_bar_originals_all_22_sha_verified": true,
+  "adjacent_bar_originals_selected_for_package": [
+    "Umschlag_0000067-00000491.jpg",
+    "Unterlagen_0000068-00000499.jpg",
+    "Unterlagen_0000068-00000500.jpg",
+    "Unterlagen_0000070-00000507.jpg",
+    "Unterlagen_0000070-00000511.jpg",
+    "Dokument_0000071-00000513.jpg",
+    "Dokument_0000071-00000517.jpg"
+  ],
+  "adjacent_bar_originals_downloaded_but_excluded_from_package": 15,
+  "historical_solution_found": false,
+  "phase3_historical_attack_run": false,
+  "binary_not_packaged_recompile_source": true,
+  "prior_deliverable_and_baseline_hashes_before_build": {
+    "outputs/Sentinel_BLUME_dossier.pdf": "8023ffa8046812334764d377b84fba2ca46ecba8935d91ec1ca969084bfb6de8",
+    "outputs/Sentinel_BLUME_codigo_y_evidencias.zip": "d5ecdccbdb46b83d5e1062065793ade9b2eb1a852f50b9fcbdabe7d678c8f073",
+    "outputs/Sentinel_BLUME_originales_BAR.zip": "21290e9ed369897a14d516d5f89b1b8ac0ef1ae0a973ddb8c60b2988498d68ae",
+    "work/crypto/double_search.cpp": "445afbaf9f85c17c0661515634ee16a58dced5da80e15e0b54ea8868a093fefe"
+  },
+  "reviewed_current_source_hashes_match_independent_audit": true,
+  "run_manifests_source_data_and_log_hashes_verified": [
+    "full_prose_20261011_5_manifest.json",
+    "full_prose_20261081_3_negative_manifest.json",
+    "full_proxy_20261011_3_manifest.json",
+    "oracle_prose_20261101_25_manifest.json",
+    "oracle_prose_20261131_5_negative_manifest.json",
+    "oracle_proxy_20261101_25_manifest.json"
+  ],
+  "full_run_main_source_hashes_resolve_to": "work/phase3_crypto/phase3_full_validated.cpp",
+  "limitations": [
+    "Prior book screenshots, private account evidence and the user screenshot are not included.",
+    "Referenced work/phase2_crypto thesis text is not copied; primary technical source is linked in METHOD.txt.",
+    "Historical ledgers describe all downloaded originals; fifteen adjacent images remain outside this selected supplement.",
+    "Absolute CLI paths in run manifests identify the original environment; re-run from package root with the README commands."
+  ]
+}

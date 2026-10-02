@@ -1,0 +1,10 @@
+{"band": [12, 15], "seed": 20261081, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 0.13}
+{"band": [12, 15], "seed": 20261082, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 0.25}
+{"band": [12, 15], "seed": 20261083, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 0.37}
+{"band": [12, 15], "seed": 20261084, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 0.5}
+{"band": [12, 15], "seed": 20261085, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 0.61}
+{"band": [20, 25], "seed": 20261081, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 1.43}
+{"band": [20, 25], "seed": 20261082, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 2.19}
+{"band": [20, 25], "seed": 20261083, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 2.99}
+{"band": [20, 25], "seed": 20261084, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 3.8}
+{"band": [20, 25], "seed": 20261085, "mode": "oracle", "corpus": "prose", "negative": true, "elapsed": 4.66}

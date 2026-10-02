@@ -1,0 +1,161 @@
+Sentinel — BLUME SALAMANCA — reinicios y perturbaciones en la búsqueda K2
+Fecha: 2 de octubre de 2026
+
+Resultado
+
+La variante con perturbaciones (ILS) encontró la K2 verdadera en una ronda
+más que los reinicios. Ambas encontraron claves de los mismos dos pares.
+No hubo recuperación con claves de 20 y 25 columnas ni con el modelo francés.
+
+K2 verdadera en el archivo final, por ronda:
+
+Modelo y anchos       Reinicios       ILS
+Alemán 12×15             3/4          4/4
+Alemán 20×25             0/4          0/4
+Francés 12×15            0/4          0/4
+Francés 20×25            0/4          0/4
+Total                   3/16         4/16
+
+Pares con al menos una ronda acertada: 2/8 en ambos métodos. La ronda adicional
+es de_fold_12x15_20261901, ronda 0. No se buscaron K1 ni textos en claro.
+Las rondas y los métodos están emparejados; no son 32 casos independientes.
+
+Presupuesto y coste
+
+Cada ronda consumió exactamente 100.000 llamadas IDP. Cada método consumió
+1.600.000 en total. Las 32 rondas cortaron por evaluaciones. Ninguna llegó al
+límite de protección de 30 segundos.
+
+                              Reinicios          ILS
+Tiempo interno de búsqueda     70,713 s          70,894 s
+Tiempo real de procesos        71,216 s          71,016 s
+
+El contador incluye cada llamada a IDP: claves aleatorias, intercambios durante
+la preparación, propuestas de escalada y perturbaciones. No hay scores iniciales
+sin contar ni caché de IDP dentro del solver. Construir los movimientos, gestionar
+el archivo y generar claves no llama al objetivo, pero sí consume tiempo.
+La igualdad del contador no implica igualdad de coste de CPU.
+
+El reloj empieza antes de construir los movimientos source. El límite temporal
+se comprueba antes de puntuar cada propuesta; una puntuación ya iniciada puede
+terminar después. En esta ejecución las búsquedas duraron entre 2,638 y 6,325 s.
+El máximo setup fue 0,015893 s. No hubo exceso del límite temporal.
+
+Diseño sellado antes de ejecutar
+
+Ocho pares nuevos: de_fold/fr_fold × 12×15/20×25 × semillas 20261901/20261902.
+Dos rondas por par y método. Cada par contiene 615 y 160 letras con claves
+compartidas, transposición columnar irregular directa dos veces (conv0), sin
+relleno. Los anchos se informan al solver; las claves no. Los textos proceden
+de holdouts literarios separados del entrenamiento de Kafka y Voltaire.
+
+run_comparison.py guarda la verdad en truth.jsonl y los textos cifrados en
+ciphertexts/. Sella los ocho pares y los 32 comandos en manifest.json antes de
+ejecutar el solver. El orden fijo es reinicios y después ILS en cada ronda.
+Ese orden puede influir en los tiempos medidos y es una limitación del piloto.
+
+El ejecutable k2_search recibe sólo método, modelo, dos archivos cifrados,
+anchos, semilla de búsqueda, límite de llamadas, límite temporal y número de
+ronda. No recibe textos originales, claves verdaderas ni scores de la verdad.
+La verdad y su IDP se calculan sólo después, en evaluate_external.py.
+
+Objetivo, reinicios y perturbación
+
+Se conserva el IDP completo con asignación greedy de vecinos y la geometría
+de movimientos source ya auditada. Todas las claves que puntúa el solver pasan
+por Search.evaluate. El objetivo no usa K1 ni la puntuación del texto en claro.
+
+Una preparación genera 1.000 claves numéricas aleatorias y conserva las 20
+mejores. Cada una recibe una pasada de intercambios de izquierda a derecha.
+Se escala desde la mejor superviviente con los movimientos source, en orden
+aleatorio por barrido, aceptando sólo mejoras estrictas de IDP.
+
+Reinicios: al terminar una escalada se repite toda la preparación y otra
+escalada hasta consumir el presupuesto. No se detiene al encontrar un máximo.
+
+ILS: comparte ese esquema inicial. Después cambia exactamente seis posiciones
+del incumbente mediante tres intercambios disjuntos. Puntúa esa perturbación,
+escala desde ella y acepta el máximo resultante sólo si mejora al incumbente.
+Tras cuatro intentos sin mejora, vuelve a una preparación completa nueva y
+reinicia el incumbente. Continúa hasta consumir el presupuesto.
+
+Las posiciones y las claves numéricas antes y después de cada perturbación
+están registradas. Se verificaron las 100 perturbaciones puntuadas: todas
+cambiaron exactamente seis posiciones. En las rondas de 20×25 sólo cupieron
+una o dos perturbaciones; en las de 12×15 cupieron entre ocho y trece.
+
+El archivo guarda como máximo cinco claves distintas con mejor IDP entre
+todas las propuestas puntuadas, incluidas las rechazadas. Los empates se
+ordenan por clave numérica. No se retienen las 100.000 propuestas completas.
+Deduplicar claves no garantiza diversidad entre máximos locales.
+
+Este diseño usa una escalada por unidad de reinicio y un archivo de todas las
+propuestas; ambos difieren de fase8. La comparación válida es reinicios frente
+a ILS dentro de este piloto. No se deben comparar directamente tasas de fase8
+y fase9. Tampoco es una reproducción exacta de todos los parámetros de CrypTool
+o del ataque completo de Lasry.
+
+Cortes y preparación
+
+Los reinicios iniciaron 124 preparaciones, completaron 120 y completaron 108
+de 120 escaladas iniciadas. ILS inició 29 preparaciones, completó 27 y completó
+113 de 127 escaladas. ILS hizo 13 reinicios por estancamiento.
+
+El presupuesto puede acabar durante la preparación, sin completar la unidad.
+En reinicios, 12 rondas cortaron en escalada, dos durante el pool aleatorio y
+dos durante intercambios de preparación. En ILS, 14 cortaron en escalada,
+una durante el pool y una durante intercambios. Los candidatos ya puntuados
+permanecen en el archivo aunque la operación final quede incompleta.
+
+Qué muestra el diagnóstico externo
+
+En las 25 rondas sin la K2 verdadera, la K2 verdadera tiene un IDP mayor que
+todos los candidatos devueltos. Los márgenes sobre el mejor candidato van de
+0,0913 a 0,3461. En las siete rondas acertadas, la K2 verdadera ocupa el rango 1.
+Este resultado señala una limitación de la búsqueda en estos controles; no
+demuestra que la K2 verdadera sea el óptimo global ni identifica un idioma
+para los telegramas históricos.
+
+evaluate_external.py enumera directamente los productos cartesianos de los
+límites de columnas viables con NumPy. No usa las sumas incrementales C++ del
+solver para comprobar los scores. Validó los 160 scores archivados y el IDP de
+las claves verdaderas, además de regenerar fuera del solver las posiciones y
+claves plantadas y comprobar los 16 textos cifrados.
+
+Conservación y archivos
+
+Se comprobaron 222 archivos anteriores, incluidos los 35 de fase8: todos
+permanecieron intactos. El trabajo se guardó sólo en work/phase9_crypto.
+
+• manifest.json: casos sellados, comandos, presupuestos, tiempos y hashes.
+• search_outputs.jsonl: 32 salidas del solver, sin verdad.
+• truth.jsonl: verdad sintética separada.
+• external_evaluation.jsonl: comparación externa de claves y scores.
+• summary.json: resultados por modelo, anchos, método y ronda.
+• verification.json: comprobaciones y hashes.
+• operation_traces: preparaciones y escaladas completas o cortadas.
+• perturbation_traces: posiciones y claves de las perturbaciones, en los logs.
+
+Reproducción
+
+Compilar:
+clang++ -std=c++17 -O3 work/phase9_crypto/k2_search.cpp -o work/phase9_crypto/k2_search
+
+Comprobar los resultados guardados:
+/Users/javier/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/phase9_crypto/evaluate_external.py
+
+Cada caso se puede repetir con su command de manifest.json. El runner rechaza
+sobrescribir un manifiesto existente. La secuencia de propuestas es reproducible
+con la misma semilla, binario y biblioteca estándar si no corta por tiempo.
+Los tiempos pueden variar por carga y preparación de la máquina.
+
+Límites y siguiente paso
+
+La ventaja observada es una sola ronda adicional, sin ampliar los pares
+resueltos. No basta para ampliar una búsqueda histórica. En claves largas
+hubo poca oportunidad de perturbación; en francés tampoco se obtuvo una K2.
+Un siguiente ensayo podría medir una perturbación de fuerza variable o más
+diversidad entre máximos, con controles nuevos y presupuesto medido.
+
+No se hizo ningún ataque BLUME, búsqueda K1, contacto externo ni acción Gmail.
+No se ha obtenido texto en claro ni se ha descartado ningún idioma o cifrado.

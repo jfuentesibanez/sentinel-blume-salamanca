@@ -1,0 +1,16 @@
+{
+  "package": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/outputs/Sentinel_BLUME_inventario_y_controles_2026-10-01.zip",
+  "files": 76,
+  "bytes": 3187811,
+  "sha256": "9961d0c7096754054607fc8bc5031847be42cd580c8caecf05e318a587f4f625",
+  "zip_crc_valid": true,
+  "prior_packages_unchanged": true,
+  "manifest_hashes_verified": 75,
+  "packaged_sources_compiled": [
+    "phase3.cpp",
+    "check.cpp",
+    "walk_diagnostic.cpp"
+  ],
+  "packaged_check_passed": true,
+  "packaged_french_oracle_20x25_single_and_joint_exact": true
+}

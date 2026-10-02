@@ -1,0 +1,162 @@
+[
+  {
+    "file": "imagenes/Dokument_0000069-00000501.jpg",
+    "sha256": "230d20c9e02e529b4585972473be7f2986ac97b591e0565783d940ab00157df1",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000501.jpg/full/full/0/default.jpg",
+    "canvas": "1",
+    "piece": "Dokument_0000069",
+    "bytes": 1070468
+  },
+  {
+    "file": "imagenes/Dokument_0000069-00000502.jpg",
+    "sha256": "d7fd89aa42be6eae4d121f6ee38decb1a5a0900bbddd6f5e1c97cb19772dad31",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000502.jpg/full/full/0/default.jpg",
+    "canvas": "2",
+    "piece": "Dokument_0000069",
+    "bytes": 787627
+  },
+  {
+    "file": "imagenes/Dokument_0000069-00000503.jpg",
+    "sha256": "e5c5235cdc4b0299fcf85a42b8802a7b366d30f3ca19c2e0a66d0f56d85742ad",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000503.jpg/full/full/0/default.jpg",
+    "canvas": "3",
+    "piece": "Dokument_0000069",
+    "bytes": 1145998
+  },
+  {
+    "file": "imagenes/Dokument_0000069-00000504.jpg",
+    "sha256": "caeb11c04878815d525b01e407e1853ddd49a0e8f3b806b4cb05d209133839b8",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000504.jpg/full/full/0/default.jpg",
+    "canvas": "4",
+    "piece": "Dokument_0000069",
+    "bytes": 807384
+  },
+  {
+    "file": "imagenes/Dokument_0000069-00000505.jpg",
+    "sha256": "15fc202f34406ebab8dfb40b91794352593b4af6f82a380515291e51f73c7e41",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000505.jpg/full/full/0/default.jpg",
+    "canvas": "5",
+    "piece": "Dokument_0000069",
+    "bytes": 1125405
+  },
+  {
+    "file": "imagenes/Dokument_0000069-00000506.jpg",
+    "sha256": "3040f85bc1edec408c28885cdb5da45249c28cab60cda1ca13c3c01877707899",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000506.jpg/full/full/0/default.jpg",
+    "canvas": "6",
+    "piece": "Dokument_0000069",
+    "bytes": 792008
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000519.jpg",
+    "sha256": "01b1d429f63285735b736daa7b0ee7889bd731001cacdb57016f9c656fac971b",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg",
+    "canvas": "1",
+    "piece": "Unterlagen_0000072",
+    "bytes": 492947
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000520.jpg",
+    "sha256": "d0a0e97e72965f61739700679b9d48babbba0f4483be92cbe97a617b02c88775",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000520.jpg/full/full/0/default.jpg",
+    "canvas": "2",
+    "piece": "Unterlagen_0000072",
+    "bytes": 350211
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000521.jpg",
+    "sha256": "502107a96362034201c79b9ba50a5e878df85836c2c062d3061a06cff3c38441",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000521.jpg/full/full/0/default.jpg",
+    "canvas": "3",
+    "piece": "Unterlagen_0000072",
+    "bytes": 255721
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000522.jpg",
+    "sha256": "18588d02b4816f84c7df9aba66ab3c0af002321bb57f8decaf068f9add446950",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000522.jpg/full/full/0/default.jpg",
+    "canvas": "4",
+    "piece": "Unterlagen_0000072",
+    "bytes": 101563
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000523.jpg",
+    "sha256": "6c0aba7a3749ae0c78d28fcd8fd3488d089ff4a2c62f465db11828bb106ef322",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000523.jpg/full/full/0/default.jpg",
+    "canvas": "5",
+    "piece": "Unterlagen_0000072",
+    "bytes": 409511
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000524.jpg",
+    "sha256": "1b0b2b7a379dbfbbe70c9ae0cc5ae970be8ad461914cd4890ee6d80a47a6f64e",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000524.jpg/full/full/0/default.jpg",
+    "canvas": "6",
+    "piece": "Unterlagen_0000072",
+    "bytes": 125239
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000525.jpg",
+    "sha256": "d62827c0f2c7f0225b1f4634e28ea7e8dc9b6c1817b42b5423f27fc85dbfc2ed",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000525.jpg/full/full/0/default.jpg",
+    "canvas": "7",
+    "piece": "Unterlagen_0000072",
+    "bytes": 377025
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000526.jpg",
+    "sha256": "2bdecb096a795e5187e765838fba24941359a632f6b7466871f99422ae62c736",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000526.jpg/full/full/0/default.jpg",
+    "canvas": "8",
+    "piece": "Unterlagen_0000072",
+    "bytes": 106743
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000527.jpg",
+    "sha256": "410d37a5644106efead1eb636229cb74d781e202dd82838a8fce5b196266be73",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000527.jpg/full/full/0/default.jpg",
+    "canvas": "9",
+    "piece": "Unterlagen_0000072",
+    "bytes": 934094
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000528.jpg",
+    "sha256": "53d26061e084c9118df722271ac3c72ed2dc4f1347ec9d487882ddd9c75e053f",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000528.jpg/full/full/0/default.jpg",
+    "canvas": "10",
+    "piece": "Unterlagen_0000072",
+    "bytes": 930431
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000529.jpg",
+    "sha256": "327d83f906b84985c65eac13defdb72043ae73091bd3e0df483f1db5c7121453",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000529.jpg/full/full/0/default.jpg",
+    "canvas": "11",
+    "piece": "Unterlagen_0000072",
+    "bytes": 644976
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000530.jpg",
+    "sha256": "7ae2fee101760deca0fd37761548021e881b22a3f4c9e626cb03c8c2873ddfe2",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000530.jpg/full/full/0/default.jpg",
+    "canvas": "12",
+    "piece": "Unterlagen_0000072",
+    "bytes": 738076
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000531.jpg",
+    "sha256": "84002a17f2d703512fa277e94fc94dccc8ce0a0791044a2a71b39dd4d1cb9d85",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000531.jpg/full/full/0/default.jpg",
+    "canvas": "13",
+    "piece": "Unterlagen_0000072",
+    "bytes": 505085
+  },
+  {
+    "file": "imagenes/Unterlagen_0000072-00000532.jpg",
+    "sha256": "24f80f01cfb980a215389ffa5a7d876e31607dce8bc7a755ff6e13e0ec7994d3",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000532.jpg/full/full/0/default.jpg",
+    "canvas": "14",
+    "piece": "Unterlagen_0000072",
+    "bytes": 442605
+  }
+]

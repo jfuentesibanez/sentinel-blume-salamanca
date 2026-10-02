@@ -1,0 +1,112 @@
+BLUME: recomendación para la segunda fase, diagnóstico controlado
+
+No ampliar todavía el barrido de BLUME ni aumentar reinicios sin arreglar las
+etapas. La primera base pierde claves correctas aunque su modelo les da una
+puntuación claramente mejor. Además, la etapa K1 no resuelve con fiabilidad
+claves largas incluso cuando se revela K2. Encontrar K2 con más trabajo no
+resolvería por sí solo este segundo bloqueo.
+
+Se conservaron intactos los entregables de la primera fase. Todo lo nuevo está
+en work/phase2_crypto. No se ejecutó aquí ningún ataque sobre telegramas reales.
+Los oráculos que siguen son diagnósticos: revelan una clave sintética para
+comprobar la etapa restante; no cuentan como descifrados sin clave.
+
+Evidencia nueva (66,23 segundos): doce parejas plantadas de 615 + 160 letras,
+con claves compartidas, seis en 12 × 15 y seis en 20 × 25. Cada grupo contiene
+tres semillas para prosa y tres para proxy. Se evaluaron solo 615 y la pareja
+por separado, por lo que el archivo contiene 24 filas.
+
+                         12 × 15                  20 × 25
+                      solo / pareja            solo / pareja
+  K2 recuperada por
+  la etapa IDP        0/6 / 0/6                 0/6 / 0/6
+  Revelar K2:
+  K1 exacta           5/6 / 5/6                 0/6 / 1/6
+  Revelar K1:
+  K2 exacta           4/6 / 4/6                 0/6 / 1/6
+
+En las 24 filas, el IDP de la K2 verdadera supera tanto las 1.000 permutaciones
+aleatorias de contraste como la mejor K2 de la etapa inicial de la base.
+Esto mide separación frente a esas muestras, no el rango entre todas las K2!
+En todos los casos de oráculo fallidos, la lectura incorrecta tiene q4 inferior
+al texto verdadero. El gap es de 0,36 a 2,27 log10 por quadgrama, aproximadamente.
+La evidencia apunta a búsqueda/representación de las etapas, antes que a una
+preferencia del modelo por los textos incorrectos de estos controles.
+
+Se probó también un cambio pequeño, con presupuesto idéntico de 120.000
+propuestas por búsqueda: bigramas primero, quadgramas después, con K2 revelada
+en 20 × 25. No recuperó K1 exactamente en ninguno de los seis controles, ni
+con un mensaje ni con ambos (4,43 segundos). No basta cambiar el orden de
+ngramas de una annealing plana. El experimento no implementa el método publicado.
+
+Mejora prioritaria implementable:
+
+1. Rehacer el solucionador K1 de transposición columnar incompleta, siguiendo
+   Lasry (2018), sección 5.3.4: precomputar matrices de adyacencia y offsets,
+   optimizar alternadamente adyacencia y alineación con umbrales secundarios,
+   recorrer slides y swaps de segmentos, y terminar con quadgramas. La misma
+   K1 se aplica exactamente a cada longitud; no se igualan ni rellenan matrices.
+   Primero validarlo con K2 revelada en nuevos controles: este experimento
+   aisla el módulo y evita gastar trabajo K2 cuando la siguiente etapa falla.
+
+2. Cuando K1 funcione, reproducir la búsqueda K2 de Lasry/Kopal/Wacker (2014),
+   sección 4.6: seleccionar buenos iniciales, mejora de izquierda a derecha,
+   vecindarios completos de segmentos y tripartitos, resolver K1 y refinar K2
+   condicionado a K1. Mantener permutaciones arbitrarias; no restringirlas a
+   frases inglesas ni a reglas específicas del reto sin evidencia para BLUME.
+
+3. Evaluar después una geometría conjunta más fuerte como variante A/B, sin
+   mezclar cambios en la comparación principal. Hoy se permiten comienzos
+   óptimos independientes por par de columnas y por mensaje. Con K1 compartida,
+   los prefijos de columnas largas en ambas longitudes tienen que proceder de
+   la misma permutación. Impedir combinaciones incompatibles puede mejorar la
+   señal y reducir falsos máximos; todavía no hay un resultado que lo demuestre.
+
+El scorer de idioma requiere controles telegráficos mejores y otras lenguas,
+pero los fallos actuales también ocurren en prosa del mismo corpus que entrenó
+el modelo (sección disjunta reservada). Ajustar el idioma es importante para la
+fase aplicada; no sustituye reparar la capacidad algorítmica conocida.
+
+Prueba de aceptación propuesta:
+
+  • Conjunto nuevo de 20–30 parejas por banda, seeds reservadas, longitudes
+    exactas 615 + 160, casos completos e incompletos entre los tamaños de clave
+    de interés, prosa y proxy/telegramas sintéticos documentados. Nunca alimentar
+    las claves verdaderas a la búsqueda final ni entrenar con sus plaintexts.
+  • Comparación A/B sobre las mismas parejas y presupuesto medido. Registrar
+    recuperación exacta, parcial, claves, coste y fracasos; publicar tamaños
+    de muestra e intervalos, sin inventar un score universal de solución.
+  • El módulo K1 debe recuperar de manera repetida la banda larga con K2
+    revelada. Después la cadena completa debe mostrar recuperaciones exactas
+    nuevas, reproducibles y distribuidas entre los tipos de control de la banda.
+    Si solo mejora prosa o solo una semilla, esa capacidad no se extrapola al
+    proxy ni a BLUME. Los fracasos impiden anunciar exclusiones en esas regiones.
+  • Pasar a un piloto BLUME únicamente con configuraciones y tipos lingüísticos
+    que hayan demostrado capacidad, con el mismo presupuesto declarado. Buscar
+    lecturas coherentes de ambos telegramas, estabilidad entre reinicios y apoyo
+    de un crib independiente obtenido históricamente; re-cifrado por sí solo
+    continúa siendo una comprobación mecánica.
+
+Presupuesto práctico: un primer bloque de implementación centrado en K1,
+seguido de calibración con un tope inicial de 30–60 minutos de CPU por variante.
+Después decidir si merece la segunda etapa K2, según recuperación/coste medidos.
+La implementación no está hecha ni se promete éxito: el diagnóstico determina
+qué corregir y cuál es la prueba útil. Mantener investigación de archivos y
+posibles claves en paralelo puede aportar una restricción más valiosa que otro
+gran barrido de permutaciones.
+
+Fuentes primarias revisadas:
+  Lasry, Kopal y Wacker (2014), §§4.2 y 4.6, DOI10.1080/01611194.2014.915269.
+  https://www.researchgate.net/publication/263286752_Solving_the_Double_Transposition_Challenge_with_a_Divide-and-Conquer_Approach
+  Lasry (2018), A Methodology for the Cryptanalysis of Classical Ciphers with
+  Search Metaheuristics, §5.3.4 y capítulo9, ISBN978-3-7376-0458-1.
+  https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf
+
+Reproducir diagnóstico (desde la raíz del proyecto):
+  c++ -std=c++17 -O3 -o work/phase2_crypto/oracle_diagnostic work/phase2_crypto/oracle_diagnostic.cpp
+  python3 work/phase2_crypto/run_diagnostic.py
+
+Archivos de evidencia: oracle_diagnostics.jsonl, oracle_summary.json,
+diagnostic_manifest.json, bigram_bridge_diagnostics.jsonl,
+bigram_bridge_manifest.json. Los programas incluyen el código de la primera
+fase en lectura y no lo modifican.

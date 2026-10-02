@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-01",
+  "scope": "Revisión estática independiente de geometría, concordancia con Lasry2018 y alcance del harness. No se escribieron tests ni se modificaron archivos del implementador.",
+  "reviewed_sha256": {
+    "work/phase3_crypto/ict_search.h": "4167f43147969f6d3b2d943fb85a5ad306073098b4344d501d8f05f9e0bb57af",
+    "work/phase3_crypto/phase3.cpp": "659d485123aaceb5926177a7c2cc8306cb0c5c5e5964be6e2618e72ff59462df",
+    "work/phase3_crypto/run_controls.py": "7c355cee246674de50afa85a1cd8caf451a318cb3e4375b37cbd87ec51ef7b5f",
+    "work/phase3_crypto/phase3_full_validated.cpp": "2ad5c90f568c4257dd4ca13dca6a61a0809284d5fe1c03cabc5e206fc9f6da3d"
+  },
+  "source": "work/phase2_crypto/Lasry2018_text.txt",
+  "source_sections_read": [
+    "5.3.2: movimientos, líneas3820–3868",
+    "5.3.3: clave numérica, adjacency y fases, líneas3952–4040",
+    "5.3.4: ICT, líneas4178–4355",
+    "9.4.6–9.4.6.2: K2 y optimizaciones, líneas9592–9724"
+  ],
+  "geometry_verdict": "Sin error material detectado en representación de clave, rangos, signo de offsets, intervalos o movimientos slides/swaps.",
+  "checks": [
+    {
+      "name": "representation",
+      "status": "correct",
+      "code": "ict_search.h:23,43,48,82",
+      "reason": "s[c] es el rango de lectura cifrada de la columna original c. inverse(s)[rank] es la columna original que se lee en ese rango, la representación que espera col(). Las adyacencias (s[c],s[c+1]) corresponden a columnas contiguas del texto original."
+    },
+    {
+      "name": "start_ranges",
+      "status": "correct",
+      "code": "ict_search.h:28–34",
+      "reason": "Para la columna cifrada de rango k (base0), el comienzo es k*r+a. El número a de columnas largas anteriores está entre max(0,k−(w−u)) y min(k,u). Los rangos enumerados son completos. Para los anchos permitidos y longitudes615/160, r>=1 y las ventanas de r filas no salen del texto."
+    },
+    {
+      "name": "offset",
+      "status": "correct",
+      "code": "ict_search.h:33–35",
+      "reason": "Guarda O[i,j]=(pj−pi) modr normalizado a0..r−1. El orden de los ngramas es izquierda i, derecha j, y la tercera columna opcional va a la derecha de ambas, como5.3.3."
+    },
+    {
+      "name": "alignment_sign_interval",
+      "status": "correct with source interpretation noted",
+      "code": "ict_search.h:44–45",
+      "reason": "islong[s[c]]=(c<u) asigna longitudes a rangos cifrados. prefix[j]−prefix[i] cuenta largas en[i,j), con signo invertido para j<i. Como pj−pi=(j−i)*r+prefix[j]−prefix[i], su módulo r debe coincidir con O[i,j]. La interpretación firmada y modular evita el error de contar el intervalo invertido como positivo. La redacción de5.3.4 habla de número de largas; aquí se interpreta según su definición formal modular deO."
+    },
+    {
+      "name": "alignment_bonus",
+      "status": "correct",
+      "code": "ict_search.h:45",
+      "reason": "Cada pareja alineada suma2; cada pareja alineada inmediatamente posterior a otra suma1 extra. previous se reinicia por mensaje, evitando bonos entre telegramas. Una clave con todas sus w−1 parejas alineadas suma3w−4 por mensaje."
+    },
+    {
+      "name": "moves",
+      "status": "correct for slides and equal-length swaps",
+      "code": "ict_search.h:14–15",
+      "reason": "rotate([a,b),[b,c)) enumera todos los desplazamientos de un bloque contiguo a través de su bloque vecino; cortes complementarios incluyen el desplazamiento inverso. Swaps recorren todos los pares de bloques del mismo tamaño y sin solapamiento. Dedupe elimina transformaciones redundantes sin reducir el vecindario de permutaciones."
+    },
+    {
+      "name": "k2_pipeline",
+      "status": "concordant bounded version",
+      "code": "ict_search.h:79–88;phase3.cpp:27–44",
+      "reason": "Pool aleatorio, subset20, mejora left-to-right, subset5, HC IDP, bestK2→solveK1 trigrams, HC finalK2 conK1 fijo: orden de§9.4.6 correcto. Nueva función exterior repite3 veces con semillas derivadas distintas y selecciona por q3 del ciphertext/modelo, sin usar verdad del generador."
+    },
+    {
+      "name": "harness_truth_separation",
+      "status": "appropriate to declared mode",
+      "code": "phase3.cpp:43–53",
+      "reason": "oracle revela únicamenteK2 para medir la reconstrucciónK1; full no recibe claves verdaderas del generador. Las claves/texto verdaderos se usan al puntuar resultados. Con messages_scored=1, ambos textos se descifran para validación pero soloT1 aporta scoring: exact_both_plaintexts también mide transferencia aT2."
+    }
+  ],
+  "source_variants_to_document": [
+    {
+      "variant": "ICT strict lexicographic acceptance",
+      "code": "ict_search.h:63",
+      "effect": "§5.3.4 permite aceptar primario igual si el secundario supera su umbral, aun sin mejora lexicográfica. El código requiere mejora estricta en primario o, en empate, mejora del secundario. Evita ciclos pero cambia exploración de mesetas; no presentarlo como réplica exacta."
+    },
+    {
+      "variant": "threshold schedule and extra sweep cap",
+      "code": "ict_search.h:55–67",
+      "effect": "Inicialadj=current, align=0, subida25% y hasta15 sweeps internos no están numéricamente especificados en la fuente. La fuente sí da hasta15 rondas exteriores."
+    },
+    {
+      "variant": "r full rows for adjacency",
+      "code": "ict_search.h:33–34",
+      "effect": "Solo se puntúan r filas completas, sin la última fila irregular. Decisión razonable para límites desconocidos, pero requiere explicitarse. El ejemplo ilustrativo de5.3.4 considera7 bigramas cuando dos columnas son largas y r=6; la auditoría no infiere equivalencia exacta de esos scores con el código."
+    },
+    {
+      "variant": "joint messages",
+      "code": "ict_search.h:41,44–46",
+      "effect": "Sumar matrices y alignment por mensaje generaliza el algoritmo monomensaje de la fuente; la normalizaciónadj por(rows_total*(w−1)) es constante por caso y no altera el orden de candidatos."
+    },
+    {
+      "variant": "3-partite whole-key partition",
+      "code": "ict_search.h:16–19",
+      "effect": "El texto citado nombra3-partite swaps pero no define su mapping en la tesis. El código permuta los3 bloques que cubren toda la clave; es una interpretación documentada, sin demostración de identidad con el código original."
+    },
+    {
+      "variant": "fixed three outer repetitions",
+      "code": "phase3.cpp:34–44",
+      "effect": "Tras revisión el implementador añadió3 repeticiones del pipeline, cada una con presupuesto propio. §9.4.6 paso5 permite repetición hasta umbral/iteraciones; aquí se elige3 fijo, sin umbral de éxito dependiente del corpus. Es variante acotada, con selección final porq3."
+    },
+    {
+      "variant": "inherited IDP relaxation",
+      "code": "work/crypto/double_search.cpp:46–54",
+      "effect": "Se reutiliza baseline: selección greedy uno-a-uno permite ciclos y diagonal forzada al suelo−7*nr. Es una relajación ya marcada; esta revisión no valida identidad exacta con todo el IDP publicado."
+    }
+  ],
+  "material_issue_reported_and_corrected": {
+    "issue": "La expiración del HC finalK2 no se propagaba al campo budget_expired.",
+    "notification": "Se avisó a root y metodo_cifrado; el auditor no editó código.",
+    "current_status": "Corregido por el implementador y comprobado visualmente en fuente actual.",
+    "code": "phase3.cpp:26 final_expired;32 captura del HC final;40/43 agregación de cualquier etapa/ronda expirada;61 OR al emitirbudget_expired."
+  },
+  "budget_limits": [
+    "Limits comprueba tiempo/evaluaciones en allow(). Precomputo de tablas/moves y una evaluación indivisible pueden superar el límite antes de la siguiente comprobación; seconds no es un hard wall timeout.",
+    "Contadores feature_evals/q_evals/final_evals cuentan candidatos, no todo precomputo ni evaluaciones iniciales/fallback.",
+    "Cada ronda full tiene límites independientes K2+k1+finalK2, este último igual a k1_seconds. Las3 rondas pueden consumir3*(K2+2*K1), más preparación, por búsqueda de un solo conjunto de mensajes.",
+    "Wrapper actualizado y cotejado: timeout=2*(3*(5+2*sec) si full, sec si oracle)+20. Con sec3,86sfull y26soracle. Incluye las2 búsquedas por proceso y margen20s para preparación/salida. El límite duro sigue siendo del proceso; Limits internos se comprueban solo entre evaluaciones."
+  ],
+  "controls_scope": {
+    "inputs": "holdout prose y proxy existentes, exactamente615+160 letras; anchos conocidos12×15 y20×25; convención0.",
+    "positive_metric": "Recuperación exacta de claves y plaintext; re-encryption solo verifica consistencia reversible y no prueba solución.",
+    "negative_metric": "Ciphertexts barajados por mensaje mantienen histogramas de letras. Oracle negativo aún revelaK2 pero quita la estructura; no es un control de búsquedaK2 completa.",
+    "limits": "Resultadosoracle no calibran el pipelinefull, otras anchuras, idiomas ni la hipótesis histórica de doble transposición. Proxy al eliminar palabras funcionales aproxima cierta estadística, no se valida como lenguaje telegráfico de1937.",
+    "manifest_warning": "Final full logs retain original manifests, whose phase3.cpp hash resolves to preserved phase3_full_validated.cpp. Diff withcurrentmain changes only oraclecall(q3+salt) and emittedfinal_ngramfield; pipelinefull isidentical. Historical fullbinary is no longer currentbuild; portable reproduction usespreservedsource. Finaloracle manifests matchcurrentmain/currentbinary."
+  },
+  "tests_run_by_auditor": false,
+  "historical_ciphertext_processed_by_auditor": false,
+  "final_verdict": "Ready for packaging. Geometry, aggregation, selectionq3, countersexpirations and subprocesscap coherent. Finaloracleq3 joint100/100 versusfulljoint0/16 must remain distinguished; fullsingle1/16 also needs to be retained. Sourcevariants and corpus/knownwidthlimits areexplicit. No unresolved materialblocker found; nohistoricalcipherattack orplaintextclaim.",
+  "aggregation_review": {
+    "selection": "BestCycle elegido exclusivamente por fullscore(ct,keys,model,3), no por exactkeys, plaintext original ni truth_q3. El campo best.score conservaq4 de ese ciclo, pero no decide la selección.",
+    "metrics": "feature_evals,q_evals,idp_evals,final_k2_evals se suman sobre3 rondas. La expiración global es OR de todas las fases/rondas y se propaga a salida. stage_k2/stage_idp corresponden al ciclo elegido, no al mejor IDP entre todas las rondas: describir así.",
+    "timing": "seconds suma tiempo observado de los3 ciclos; excluye las evaluacionesq3 de selección exteriores, insignificantes en este caso pero no es tiempo de proceso completo.",
+    "truth": "true_k2_idp añadido se evalúa solo al emitir JSON, después de solver/selección, sin modificar ningún estado de búsqueda. En oracle stage_k2 vacío hace stage_exact_k2 falso: usar solo en modo full."
+  },
+  "resolved_wrapper_timeout": {
+    "previous_seconds": 35,
+    "current_formula": "2*(3*(5+2*sec) if mode==full else sec)+20",
+    "verified_current_source": "work/phase3_crypto/run_controls.py:33–34",
+    "current_full_seconds_at_sec3": 86,
+    "current_oracle_seconds_at_sec3": 26
+  },
+  "open_methodological_issue": {
+    "name": "oracle/full final ngram mismatch",
+    "status": "Resolved by implementer, verified in current source and fresh q3 controls.",
+    "oracle": "Current oracle explicitly final_ngram3, and K1 seed salt matches full first round.",
+    "full": "solve_ict final_ngram3 explicit",
+    "effect": "New final controls use20261101–20261125, final_ngram3 ineveryrow, replacing q4developmentcontrols. Their100/100joint now calibrates same K1 scoring used in full.",
+    "resolution_metadata": "phase3.cpp emits final_ngram=3 for both modes."
+  },
+  "verified_oracle_controls_snapshot": {
+    "files": [
+      "oracle_prose_20261101_25.jsonl",
+      "oracle_proxy_20261101_25.jsonl"
+    ],
+    "final_ngram": 3,
+    "seeds": "20261101–20261125",
+    "joint": {
+      "exact_plaintext": 100,
+      "n": 100,
+      "denominator": "25 seeds ×2 known width bands ×2 corpora, messages_scored=2"
+    },
+    "single_message": {
+      "exact_plaintext": 96,
+      "n": 100,
+      "denominator": "Same100 planted pairs, messages_scored=1"
+    },
+    "budget_expired": 0,
+    "reencryption_consistent": 200,
+    "limits": "K2 supplied. Corpus/key combinations reuse pairedseeds/keys and possibly overlapping windows. No claim of100 independent keydraws or general recovery guarantee."
+  },
+  "verified_full_controls_snapshot": {
+    "files": [
+      "full_prose_20261011_5.jsonl",
+      "full_proxy_20261011_3.jsonl"
+    ],
+    "joint": {
+      "exact_plaintext": 0,
+      "n": 16,
+      "denominator": "5 prose+3 proxy seeds ×2 known width bands, messages_scored=2"
+    },
+    "single_message": {
+      "exact_plaintext": 1,
+      "n": 16,
+      "denominator": "Same16 planted pairs, messages_scored=1",
+      "recovered_case": "proxy12×15"
+    },
+    "all_searches": {
+      "exact_plaintext": 1,
+      "n": 32
+    },
+    "budget_expired": 0,
+    "reencryption_consistent": 32,
+    "limit": "Small exploratory pilot, not blind confirmatoryvalidation. Do not describe asfull0/N without specifyingjoint; T1-alone did recover one pair."
+  },
+  "verified_negative_controls_snapshot": {
+    "oracle": {
+      "file": "oracle_prose_20261131_5_negative.jsonl",
+      "joint": {
+        "exact_plaintext": 0,
+        "n": 10
+      },
+      "single": {
+        "exact_plaintext": 0,
+        "n": 10
+      },
+      "final_ngram": 3,
+      "budget_expired": 0
+    },
+    "full": {
+      "file": "full_prose_20261081_3_negative.jsonl",
+      "joint": {
+        "exact_plaintext": 0,
+        "n": 6
+      },
+      "single": {
+        "exact_plaintext": 0,
+        "n": 6
+      },
+      "budget_expired": 0
+    }
+  },
+  "manifest_hash_review": {
+    "scope": "All6 final manifests inphase3 root; source/data/model/log hashes checked without rerunning experiments.",
+    "mismatches_requiring_action": [],
+    "full_source_snapshot": "work/phase3_crypto/phase3_full_validated.cpp",
+    "full_source_diff": "Onlyoraclecall and final_ngrammetadata differ; allfullalgorithm/aggregationcode unchanged.",
+    "full_binary_exception": "Historical binary hashes recorded; currentbinary changed afteroraclefix, expected. No claim that historicalfullbinary was itself rehashed successfully.",
+    "oracle": "All7 referenced files ineachfinaloraclemanifest matchtheir hashes."
+  },
+  "documentation_review": {
+    "METHOD": "Currentdocument explicitlyq3 bothmodes, seeds11101–11125 and11131–11135, partialLasryvariants, budgets/caps, nohistoricalattack, and lackofindependentstatistics.",
+    "README": "Preservedfullsource provenance explained; minor reexecutionwording notified implementer. No effect onverifiedcontrols."
+  },
+  "reviewed_final_logs_sha256": {
+    "work/phase3_crypto/oracle_prose_20261101_25.jsonl": "52e0aab4af7bcd9112b67cb0c02600df33bb856db6273365bfaf500e7358efed",
+    "work/phase3_crypto/oracle_proxy_20261101_25.jsonl": "03170cccb42946b5cf6029d14ac13fb590eece4f0429858a71c1c307282ea0c6",
+    "work/phase3_crypto/oracle_prose_20261131_5_negative.jsonl": "9b116d08e7e91f2d106ea98bb444d7255109af52391f3f3658a633786db21471",
+    "work/phase3_crypto/full_prose_20261011_5.jsonl": "16e6974dd51135d0d20c8709a881fcdd20f4ee334d5c230512d783a79574d7de",
+    "work/phase3_crypto/full_proxy_20261011_3.jsonl": "1845978938b3c9b0e64f5fd73c72199b5a6604d3e99706904515a14ad4c2bf3c",
+    "work/phase3_crypto/full_prose_20261081_3_negative.jsonl": "90e648ab171a654ce930d0f6c43fce2c77a56d7203d20317e3981c7d036a89a0"
+  }
+}

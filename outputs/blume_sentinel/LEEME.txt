@@ -1,0 +1,114 @@
+BLUME SALAMANCA - Proyecto de investigación para Sentinel
+1 octubre 2026
+
+ESTADO
+No hay solución histórica verificada. Fotografías y hashes cotejados. Se ha
+localizado una pista archivística de Victor Oswald y calibrado un buscador
+experimental. Ninguna región de claves se declara descartada.
+
+El informe principal es Sentinel_BLUME_dossier.pdf. Los logs que contienen
+"plaintexts" son lecturas candidatas, salvo controles cotejados exactamente
+con su claro conocido. Reencryption=true prueba inversas, no una solución.
+
+CONTENIDO
+sources/: copias fotográficas y transcripciones del repositorio público.
+source_manifest.json: revisión completa, URLs fijas y hashes de archivo.
+verification.json: hashes de letras normalizadas, frecuencias, IC y grupos.
+visual_review/: cotejo independiente, dudas y comprobaciones matemáticas.
+history/: evidencia y signaturas, manifiesto oficial y carta Pfyffer de 1939.
+crypto/: C++17, modelo de lenguaje, controles y piloto exploratorio BLUME.
+language_corpora/: copias sin modificar de cinco test sets oficiales UD;
+licencias y atribuciones originales en language_corpora/licenses/.
+language_comparison.json: comparación marginal entre idiomas y procedencia.
+crib_constraints.json: multiplicidades necesarias para cada crib hipotético.
+checksums.json: SHA-256 de todos los archivos del paquete, salvo sí mismo.
+
+REPRODUCCIÓN BÁSICA
+Desde la carpeta que contiene este archivo, con Python3 estándar:
+  python3 verify_sources.py --output verification_reproduced.json
+  python3 language_inventory.py --output language_reproduced.json
+  python3 crib_inventory.py > crib_constraints_reproduced.json
+
+El código no usa API de IA ni necesita credenciales.
+
+BUSCADOR Y CONTROLES
+Desde la subcarpeta crypto/, con un compilador C++17:
+  c++ -std=c++17 -O3 -o double_search double_search.cpp
+  ./double_search check
+  ./double_search control model_es.bin holdout_es.txt 8 10 20261001 4 10000 0 -1 1
+
+Para repetir las 60 búsquedas del piloto:
+  python3 run_controls.py --budget 390 --steps 10000 --restarts 4
+Este script escribe controls.jsonl y control_manifest.json en esa carpeta.
+Conservar la copia original o ejecutarlo sobre una copia del paquete permite
+comparar los resultados históricos de esta fase con una reproducción nueva.
+
+Para repetir un ensayo exploratorio BLUME, desde crypto/:
+  ./double_search solve model_es.bin ../sources/ct1.txt ../sources/ct2.txt 8 10 20261001 4 10000 0 -1 1
+
+Convención0: escribir filas y leer columnas por la permutación, dos veces;
+sin padding. Las matrices se reconstruyen para cada mensaje por separado.
+Los índices de clave empiezan en 0, representan columnas originales en orden
+de lectura y se imprimen en cada resultado. README.txt y audit_upstream.txt
+explican el método, controles y diferencias con Lasry, Kopal y Wacker (2014).
+
+Los controles usan claves conocidas pero el buscador no las recibe; solo se
+utilizan al contar errores al final. Las semillas de generación y búsqueda
+se separan. El fichero build_manifest.json registra la versión de clang y el
+hash de la última fuente. std::shuffle puede cambiar de trayectoria entre
+bibliotecas C++; para identidad exacta de semillas usar el mismo toolchain.
+
+CALIBRACIÓN
+615+160 letras, 3 semillas por pareja y corpus, 4 reinicios y 10000 propuestas IDP.
+Recuperaciones íntegras de ambos textos (solo 615 / pareja):
+  claves     prosa             proxy sin palabras funcionales
+  8x10       1/3 / 3/3         2/3 / 1/3
+  10x12      1/3 / 1/3         0/3 / 1/3
+  12x15      0/3 / 0/3         0/3 / 0/3
+  15x20      0/3 / 0/3         0/3 / 0/3
+  20x25      0/3 / 0/3         0/3 / 0/3
+Se dan al buscador las longitudes verdaderas: no se calibra su detección.
+El proxy es sintético y no representa un corpus auténtico comercial de 1937.
+Los 60 resultados, incluidos los fracasos, se conservan. Tres semillas son un
+piloto y no estiman una tasa de recuperación poblacional.
+
+Piloto BLUME: anchos 8x10, tres semillas y mismo presupuesto; ninguna lectura
+coherente. Los resultados solapan los de BLUME barajado con las mismas letras.
+El buscador todavía no tiene potencia comprobada para claves largas.
+
+HISTORIA
+Expediente localizado: Oswald, Victor, 1912, Madrid, 1937-1948,
+E2001E#1000/1571#787*. El título archivístico no fija aquí su nacimiento.
+Carta de H. Pfyffer a Giuseppe Motta, 18 enero 1939: afirma actividad de importación
+y exportación de Viktor en el lado de Franco desde diciembre 1936. Esto no
+revela el contenido de los telegramas. El expediente policial exacto donde
+aparecen BLUME, sus folios contiguos y la identidad de BLUME siguen pendientes.
+La web de Bochsler atribuye los envíos a Victor o quizá Werner; por separado,
+T2 identifica a Dr. ing. W. E. Oswald como remitente en el formulario.
+URLs completas y límites de cada fuente en history/ y en el informe PDF.
+
+DATOS LINGÜÍSTICOS
+Universal Dependencies: Spanish-AnCora, German-GSD, French-GSD, Italian-ISDT,
+English-EWT. Se usa el campo # text de sus muestras test; 39.069 letras por
+idioma, normalizadas a A-Z. Las licencias y los README originales se conservan.
+Referencia requerida por ISDT: Cristina Bosco, Simonetta Montemagni, Maria Simi,
+Converting Italian Treebanks: Towards an Italian Stanford Dependency Treebank,
+7th Linguistic Annotation Workshop, 2013; https://aclanthology.org/W13-2308/.
+Cada dataset mantiene su propia licencia; no se aplica una licencia uniforme
+a las fuentes de terceros. El modelo español proviene de Don Quijote,
+Gutenberg 2000, con procedencia y hashes en crypto/model_provenance.json.
+
+PASOS ABIERTOS
+Localizar la signatura policial exacta y documentos asociados; reproducir
+con fidelidad las fases del ataque publicado; incorporar corpus telegráficos
+independientes y varios idiomas; ampliar controles antes de aumentar el
+cómputo sobre las claves largas de BLUME. No se ha publicado ni enviado este
+material a terceros.
+
+REVISIÓN INDEPENDIENTE
+Desde visual_review/:
+  c++ -std=c++17 -O2 -o independent_harness independent_harness.cpp
+  ./independent_harness
+Se conserva la fuente revisada bfcc0c60. La versión final añade validaciones
+CLI y está identificada en crypto/build_manifest.json. El harness del paquete
+solo adapta la ruta relativa al modelo; sus cálculos son los mismos.

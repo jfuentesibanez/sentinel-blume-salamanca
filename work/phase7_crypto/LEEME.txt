@@ -1,0 +1,95 @@
+Sentinel — BLUME SALAMANCA — control de idiomas con ambas claves desconocidas
+Fecha: 2 de octubre de 2026
+
+Resultado
+
+El método recuperó exactamente los dos textos y las dos claves en 4 de las
+16 filas de este control. Todos los éxitos corresponden a claves de 12 y 15
+columnas. No recuperó ningún caso de 20 y 25 columnas.
+
+                  12×15: T1 sola   12×15: T1+T2   20×25: T1 sola   20×25: T1+T2
+Alemán de_fold          1/2             1/2             0/2             0/2
+Francés fr_fold         1/2             1/2             0/2             0/2
+
+En 12×15 ninguna fila indicó agotamiento del presupuesto. Las ocho filas de
+20×25 sí lo indicaron. El indicador reúne todas las etapas y rondas; este
+registro no identifica cuál agotó el límite ni si fue tiempo o evaluaciones.
+
+Las 16 filas representan ocho pares de mensajes sintéticos, no 16 casos
+independientes. Cada par se buscó dos veces: con el texto largo solo y con ambos
+textos. Tres de los ocho pares se recuperaron en al menos una de esas búsquedas.
+En francés, el primer par se recuperó con T1 sola y el segundo con ambos textos.
+Por tanto, este piloto no demuestra que añadir T2 mejore siempre la recuperación.
+
+Qué se probó
+
+Se usó el binario congelado work/phase4_crypto/phase4, variante source, que
+emplea el vecindario de movimientos ya cotejado con CrypTool. No se modificó
+ningún archivo de fases anteriores. Tampoco se atacaron los telegramas reales.
+
+Textos: 615 y 160 letras, tomadas de las partes de control de Die Verwandlung,
+de Kafka, y Candide, de Voltaire. Estas partes no se usaron para entrenar los
+modelos. Se usaron de_fold y fr_fold. No se añadió de_digraph: procede de la misma
+obra alemana y este piloto buscaba comprobar el ataque sin conocer las claves,
+no la sensibilidad a una normalización distinta.
+
+Semillas nuevas: 20261601 y 20261602. Convención: transposición columnar irregular
+directa dos veces, sin relleno, con las mismas claves para ambos mensajes.
+Se informaron al método los anchos de clave, pero ninguna de las dos claves.
+
+Presupuesto igual para todos los casos: ocho reinicios de K1, tres rondas,
+K1 3 segundos por ronda, búsqueda de K2 5 segundos por ronda y ajuste final de
+K2 3 segundos por ronda. También se mantuvieron los topes por etapa de fase4:
+300.000 evaluaciones IDP y 2.000.000 evaluaciones para K1 y el ajuste final de K2.
+Los límites de tiempo iguales no garantizan números de evaluaciones iguales.
+La selección entre rondas utiliza el score de trigramas, nunca la respuesta real.
+
+La verdad de terreno se creó en el envoltorio de control. La llamada source_full
+recibe únicamente el texto cifrado, los anchos, el modelo, la semilla de búsqueda
+y los presupuestos. El envoltorio consulta la verdad después de que termina la
+búsqueda, para medir el resultado. No equivale a ejecutar K1 con K2 conocida,
+como en el control de fase5.
+
+Comprobación independiente
+
+verify_language_full_controls.py reconstruye las posiciones y las claves
+plantadas con regenerate_planted_keys.cpp, un programa externo al solver.
+Después usa una implementación Python independiente de las columnas para
+cifrar los textos originales, descifrar con las claves devueltas y comprobar:
+
+• 16 filas, 32 textos y 64 puntuaciones de trigramas/cuatrigramas.
+• Letras correctas, claves exactas, textos exactos y vuelta al texto cifrado.
+• Los 12 archivos de entrada congelados, antes y después de los controles.
+
+Todas esas comprobaciones pasaron. verification.json contiene los hashes de
+los artefactos de esta fase. full_language_manifest.json conserva los hashes de
+los archivos anteriores y los ocho comandos completos.
+
+Para comprobar los resultados guardados:
+
+clang++ -std=c++17 -O2 work/phase7_crypto/regenerate_planted_keys.cpp -o work/phase7_crypto/regenerate_planted_keys
+/Users/javier/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/phase7_crypto/verify_language_full_controls.py
+
+Para repetir un caso, usar su command en full_language_manifest.json. Los
+presupuestos de tiempo pueden cambiar el punto de corte según la carga de la
+máquina. run_language_full_controls.py rechaza sobrescribir una ejecución previa.
+
+Límites y próximo cambio útil
+
+Esta muestra es pequeña y utiliza una obra literaria por idioma. No mide la
+fiabilidad ante telegramas comerciales de 1937. Tampoco incluye controles
+negativos nuevos por idioma. Los anchos son conocidos y sólo se prueba una
+convención. Un fracaso aquí no excluye idiomas, doble transposición ni claves.
+
+En las doce filas fallidas, la K2 verdadera obtiene un IDP mayor que la candidata
+de la etapa K2 de la ronda seleccionada. La puntuación sabe preferir la verdadera
+en esta comparación, pero la búsqueda no llega a devolverla. Esto no prueba
+qué ocurrió en las otras rondas ni excluye defectos de la puntuación en otros casos.
+
+El siguiente cambio útil es registrar las etapas de las tres rondas y evaluar
+varias candidatas K2 con K1, en lugar de llevar sólo la candidata K2 mejor puntuada
+de cada ronda a K1. Otra comparación acotada sería una búsqueda que escape de
+los máximos locales de K2. Ambas deben medirse sobre controles nuevos antes de
+ampliar la búsqueda sobre BLUME.
+
+No se ha identificado el idioma de BLUME ni se ha obtenido su texto en claro.

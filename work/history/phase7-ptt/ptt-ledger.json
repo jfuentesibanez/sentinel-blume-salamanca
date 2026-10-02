@@ -1,0 +1,141 @@
+{
+  "recorded_at": "2026-10-02",
+  "purpose": "Vía PTT suiza: localizar documentación del productor de la remisión del 15.1.1937, sin contactar ni solicitar archivos.",
+  "external_messages_sent": false,
+  "orders_placed": false,
+  "payments_made": false,
+  "prior_local_review": {
+    "files": [
+      "work/history/bar-blume277-evidence.json",
+      "work/history/bar-blume277-images/Unterlagen_0000072-00000519.jpg"
+    ],
+    "observed": "No investigación previa del catálogo PTT-Archiv encontrada en los documentos de resultados buscados; sí copia primaria BAR de la remisión.",
+    "image_visually_verified": true,
+    "image_sha256": "01b1d429f63285735b736daa7b0ee7889bd731001cacdb57016f9c656fac971b"
+  },
+  "primary_letter": {
+    "date": "1937-01-15",
+    "producer": "Generaldirektion der Post- und Telegraphenverwaltung, Rechtsdienst",
+    "recipient": "Schweizerische Bundesanwaltschaft, Bern",
+    "subject": "Neutralität gegenüber Spanien",
+    "internal_reference": "6011.8.3",
+    "reference_field": "Unsere Zeichen",
+    "meaning": "Referencia interna PTT de 1937 visible en el documento; no es una signatura actual del PTT-Archiv.",
+    "archive_reference": "BAR, E4320B#1974/47#277*, Unterlagen_0000072, imagen 00000519",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg",
+    "content": "Envía confidencialmente dos copias de telegramas cifrados Zúrich–Salamanca.",
+    "limitation": "No proporciona clave ni prueba que el productor conservara otra copia o un expediente aparte."
+  },
+  "custody": {
+    "institution": "PTT-Archiv",
+    "operator": "Schweizerische Stiftung für die Geschichte der Post und Telekommunikation",
+    "address": "Sägestrasse 77, 3098 Köniz",
+    "email": "archiv@mfk.ch",
+    "source_urls": [
+      "https://www.mfk.ch/forschen/ptt-archiv",
+      "https://www.mfk.ch/fileadmin/files/02_Forschen/02_PTT-Archiv/02_Information/Leitbild_PTT-Archiv_2021.pdf"
+    ],
+    "collection_scope": "Documentación PTT de 1848–1997; archivos ordenados por procedencia administrativa y regional.",
+    "online_portal": "https://mfk.rechercheonline.ch/de/research/records;ptt",
+    "counterpart_custody_limitation": "No se ha localizado la contraparte PTT de la carta enviada a BA."
+  },
+  "verified_catalogue_units": [
+    {
+      "reference": "T-00 B",
+      "title": "Generaldirektion PTT Technische Abteilung / Generaldirektion PTT TT-Abteilung",
+      "date_range": "1935–1946",
+      "url": "https://mfk.rechercheonline.ch/pttarchiv:252",
+      "status": "Unidad superior no pedible directamente al salón de lectura; el portal permite pedidos de dossiers sin plazo vigente.",
+      "method": "Lectura pública del registro en Browser.",
+      "local_record": "portal-T00B-parent.json"
+    },
+    {
+      "reference": "T-00 B_0012_09",
+      "title": "Telephonwesen mit Spanien und Portugal",
+      "date_range": "1937",
+      "level": "Dossier",
+      "language": "Französisch",
+      "protection_description": "Sachakten (30 Jahre)",
+      "url": "https://mfk.rechercheonline.ch/pttarchiv:74692",
+      "status": "In den Lesesaal bestellbar",
+      "method": "Ficha individual leída públicamente en Browser.",
+      "limitation": "Telefonía. No hay cuerpo digital ni nexo con BLUME mostrado en la ficha."
+    },
+    {
+      "reference": "T-00 B_0198_08",
+      "title": "Telegraphenverkehr mit Spanien und Portugal",
+      "date_range": "1946",
+      "url": "https://mfk.rechercheonline.ch/pttarchiv:73543",
+      "method": "Título, fecha y signatura leídos en lista pública de resultados de la serie T-00 B; no se leyó el contenido del dossier.",
+      "limitation": "Fuera del periodo 1936–38. No se presenta como documento BLUME."
+    },
+    {
+      "reference": "CH PTT-Archiv P-00 A-D",
+      "title": "PTT, Generalpostdirektion und Nachfolger",
+      "date_range": "1849–1997",
+      "url": "https://ub-archeco24.ub.unibas.ch/index.php/ptt-generalpostdirektion-und-nachfolger",
+      "method": "Descripción de fondo en arCHeco.",
+      "limitation": "Referencia general del fondo. No demuestra que 6011.8.3 se conserve en un subfondo concreto."
+    }
+  ],
+  "bounded_searches": {
+    "search_engine_queries": 12,
+    "public_catalogue_queries": [
+      {
+        "term": "6011.8.3",
+        "url": "https://mfk.rechercheonline.ch/de/research/records;ptt?sqs_query=6011.8.3",
+        "result": "0 enlaces de registros PTT en la lista pública observada."
+      },
+      {
+        "term": "Neutralität",
+        "url": "https://mfk.rechercheonline.ch/de/research/records;ptt?sqs_query=Neutralit%C3%A4t",
+        "result": "1 enlace observado: PAA 00683:01, Bretzwil, 1911; no correspondiente a España."
+      },
+      {
+        "term": "Spanien",
+        "url": "https://mfk.rechercheonline.ch/de/research/records;ptt?sqs_query=Spanien",
+        "result": "La ficha señala 80 resultados; se guardó la lista renderizada inicial, no se afirma haber leído los 80 dossiers.",
+        "local_record": "portal-spanien-results.json"
+      }
+    ],
+    "series_navigation": {
+      "url": "https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-t-00-b?sqs_query=Spanien",
+      "observed": "Lista de 10 dossiers y su padre. Telefonía 1937, 1939–46; telegrafía 1946. No se muestra dossier Telegraphenverkehr de 1936–37 bajo este término/filtro.",
+      "local_record": "portal-T00B-spanien.json"
+    },
+    "limit": "Resultados negativos acotados a los términos, campos y páginas observados; no prueban ausencia de documentación PTT, de telegramas privados, de claves ni de correspondencia con BA."
+  },
+  "current_access_and_rates": {
+    "provenance": "PDFs enlazados por el portal oficial el día de la consulta; descargados con su enlace normal, leídos con pypdf y página relevante renderizada y revisada.",
+    "rules_url": "https://amos--production--storage.s3.amazonaws.com/amos/digital_documents/2025-11-20-143923--nutzungsreglement-pttarchiv.pdf",
+    "rules_local": "2025-11-20-143923--nutzungsreglement-pttarchiv.pdf",
+    "rules_sha256": "3a7305854afbfbf168102d8aa19623d716b809dd7eb0ae8c015ab9a7b3fd2260",
+    "rules_file_note": "El archivo descargado tiene una sola página, aunque su pie dice Seite 1 von 2. No se infieren condiciones de una segunda página no incluida.",
+    "rules_verified": [
+      "Sala de lectura gratuita, con inscripción previa.",
+      "Consulta y uso sujetos a BGA, derechos de autor y personalidad.",
+      "Algunos documentos no están públicamente digitalizados por límites de recursos o jurídicos.",
+      "Solicitudes de acceso durante plazo se remiten a Post/Swisscom para decisión."
+    ],
+    "rates_url": "https://amos--production--storage.s3.amazonaws.com/amos/digital_documents/2025-11-20-140154--preispolitik-ptt-archiv-20251009.pdf",
+    "rates_local": "2025-11-20-140154--preispolitik-ptt-archiv-20251009.pdf",
+    "rates_sha256": "6c0a954c9d7edc9ab589db0581adea8dc5e8de0617e6e1bd5c47ff3da8606ec4",
+    "rates_verified": [
+      "Consultas generales gratuitas; investigación extensa puede costar CHF 120/h previa información.",
+      "Digitalización solicitada para uso no comercial: hasta 20 páginas de un dossier PDF o cinco TIFF de alta resolución gratis, sujeto a BGA y conservación; pedidos mayores CHF 120/h.",
+      "Uso comercial: al menos CHF 60 por imagen, según tarifa."
+    ],
+    "limitation": "No se ha solicitado presupuesto ni decidido si el uso de Sentinel es comercial. No se extrapola el servicio gratuito de BAR a este archivo.",
+    "outdated_regulation_not_applied": {
+      "url": "https://www.mfk.ch/fileadmin/files/02_Forschen/02_PTT-Archiv/03_Recherche/Benutzungsordnung_D.pdf",
+      "date": "2000-01-13",
+      "reason": "Todavía aparece indexado por buscadores; el portal oficial enlaza un reglamento distinto. No usamos sus plazos de respuesta de 4 días/un mes como promesa vigente."
+    },
+    "retention_limitation": "No se ha encontrado una norma primaria de conservación de telegramas privados que permita afirmar su supervivencia hasta hoy."
+  },
+  "concrete_next_step": {
+    "now_public": "Usar la referencia interna 6011.8.3, fecha 15.1.1937, productor Rechtsdienst y asunto como localizadores. Reproducir las búsquedas del catálogo y consultar las series de Dirección General / registros / servicio jurídico por procedencia.",
+    "future_inquiry_only": "Si hace falta consultar al custodio, preguntar dónde se relaciona 6011.8.3 con una signatura actual, y si existe copia de salida, registro de expedición o expediente administrativo de la remisión. No pedir 'la clave' como si el archivo la tuviera.",
+    "not_done": "Sin contacto, pedido ni borrador externo."
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "source": "blume_8x10_pilot.jsonl",
+    "messages_scored": 1,
+    "seeds": [
+      20261001,
+      20261002,
+      20261003
+    ],
+    "q4_min": -6.55362575,
+    "q4_max": -6.43154284,
+    "q4_mean": -6.4956522366666665,
+    "total_seconds": 3.74822233,
+    "reencryption_all": true
+  },
+  {
+    "source": "blume_8x10_pilot.jsonl",
+    "messages_scored": 2,
+    "seeds": [
+      20261001,
+      20261002,
+      20261003
+    ],
+    "q4_min": -6.54186747,
+    "q4_max": -6.46719387,
+    "q4_mean": -6.50931851,
+    "total_seconds": 4.60970441,
+    "reencryption_all": true
+  },
+  {
+    "source": "blume_shuffled_8x10_pilot.jsonl",
+    "messages_scored": 1,
+    "seeds": [
+      20261001,
+      20261002,
+      20261003
+    ],
+    "q4_min": -6.52020225,
+    "q4_max": -6.4437821,
+    "q4_mean": -6.48432468,
+    "total_seconds": 5.36150758,
+    "reencryption_all": true
+  },
+  {
+    "source": "blume_shuffled_8x10_pilot.jsonl",
+    "messages_scored": 2,
+    "seeds": [
+      20261001,
+      20261002,
+      20261003
+    ],
+    "q4_min": -6.5005283,
+    "q4_max": -6.48311769,
+    "q4_mean": -6.492281953333333,
+    "total_seconds": 5.66509679,
+    "reencryption_all": true
+  }
+]

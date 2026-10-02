@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "dataset": "smoke_positive",
+      "rows": 32,
+      "process_runs": 16,
+      "all_completed": true,
+      "all_reencryption_consistent": true,
+      "all_truth_outside_solver": true,
+      "all_manifest_hashes_match_current_files": true
+    },
+    {
+      "dataset": "smoke_negative",
+      "rows": 8,
+      "process_runs": 4,
+      "all_completed": true,
+      "all_reencryption_consistent": true,
+      "all_truth_outside_solver": true,
+      "all_manifest_hashes_match_current_files": true
+    }
+  ],
+  "note": "Reencryption is inverse consistency only; no historical BLUME ciphertext was attacked."
+}

@@ -1,0 +1,223 @@
+{
+  "observed_date": "2026-10-01",
+  "task": "Localizar informe técnico o presentación pública sobre el intento2020 de descifrar BLUME Salamanca mencionado por Regula Bochsler.",
+  "status": "No localizado en la cobertura indicada; no se concluye inexistencia.",
+  "book_evidence": {
+    "file": "work/history/legimi-book-note42.json",
+    "screenshot_inspected": "outputs/Sentinel_BLUME_Legimi/nota-42-y-adyacentes.png",
+    "chapter": "Bilder für Hitler, Bomben für Franco",
+    "note": 44,
+    "names_literal": [
+      "Peter Heinzmann",
+      "Carlo Matteotti",
+      "Patrick Liniger",
+      "Kandiah Viveksanth"
+    ],
+    "institution_literal": "Führungsunterstützungsbasis (FUB) der Schweizer Armee",
+    "limit": "La nota44 enumera personas y afiliación; no da título, fecha exacta, repositorio, número de informe o método. El año2020 procede del pasaje del libro según la auditoría previa, no de esta nota aislada."
+  },
+  "search_log": [
+    {
+      "batch": 1,
+      "queries": [
+        "\"Blume\" \"Salamanca\" \"Heinzmann\"",
+        "\"Blume\" \"Matteotti\" Telegramm",
+        "\"Nylon und Napalm\" \"Viveksanth\"",
+        "\"Patrick Liniger\" \"Salamanca\""
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 2,
+      "queries": [
+        "\"Peter Heinzmann\" \"Bochsler\"",
+        "\"Carlo Matteotti\" Kryptologie",
+        "\"Kandiah Viveksanth\"",
+        "\"Patrick Liniger\" Kryptologie"
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 3,
+      "queries": [
+        "\"Peter Heinzmann\" kryptologie",
+        "\"Carlo Matteotti\" FUB",
+        "\"Viveksanth\" cryptography",
+        "\"Blume Salamanca\" 2020"
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 4,
+      "queries": [
+        "site:cnlab.ch Blume Salamanca",
+        "\"Carlo Matteotti\" cryptography",
+        "\"Viveksanth\" Kryptologie",
+        "\"Heinzmann\" \"Oswald\" Telegramm"
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 5,
+      "queries": [
+        "\"Blume Salamanca\" telegram",
+        "\"Blume Salamanca\" decipher 2020",
+        "site:armee.ch \"Blume\"",
+        "site:admin.ch \"Salamanca\" \"Heinzmann\""
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 6,
+      "queries": [
+        "\"Blume\" \"Salamanca\" \"telegram\"",
+        "\"Blume\" \"Salamanca\" \"Schmeh\"",
+        "\"Viveksanth Kandiah\" cryptography",
+        "\"Patrick Liniger\" FUB"
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 7,
+      "queries": [
+        "\"Blume\" \"Salamanca\" Entschlüsselung",
+        "\"Heinzmann\" \"Matteotti\" Telegramme",
+        "\"Liniger\" \"Kandiah\" Kryptologie",
+        "\"Bochsler\" \"Telegramme\" \"2020\""
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 8,
+      "queries": [
+        "\"Peter Heinzmann\" \"Telegramm\"",
+        "\"Carlo Matteotti\" \"Telegramm\"",
+        "\"Patrick Liniger\" \"Telegramm\"",
+        "\"Viveksanth\" \"Telegramm\""
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 9,
+      "queries": [
+        "site:scienceblogs.de/klausis-krypto-kolumne \"Oswald\"",
+        "site:scienceblogs.de/klausis-krypto-kolumne \"Salamanca\"",
+        "site:sternenjaeger.ch \"Heinzmann\" \"Blume\"",
+        "site:nylonundnapalm.ch \"Telegramm\""
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 10,
+      "queries": [
+        "\"Blume\" \"Salamanca\" cryptanalysis report",
+        "\"Blume\" \"Salamanca\" Heinzmann Matteotti Liniger",
+        "site:armee.ch \"Viveksanth\"",
+        "site:admin.ch \"Patrick Liniger\""
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Resultados relevantes reseñados en sources; demás resultados no identifican el informe y a menudo son homónimos o coincidencias inconexas."
+    },
+    {
+      "batch": 11,
+      "queries": [
+        "site:cnlab.ch \"Telegramme\"",
+        "site:cnlab.ch \"Bochsler\"",
+        "site:iacr.org \"Blume\" \"Salamanca\"",
+        "site:aclanthology.org \"Blume\" \"Salamanca\""
+      ],
+      "qualified_2020_report_found": false,
+      "result_note": "Último lote: herramienta devolvió explícitamente Empty search results."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sternenjaeger.ch/wp-content/uploads/2023/10/2023-kryptologie-klaus-schmeh.pdf",
+      "title": "Geheime Nachrichten frisch entschlüsselt. Ein Bericht aus der Praxis. Gespräch mit Klaus Schmeh",
+      "author": "Dominik Landwehr",
+      "document_date": "2023-10-01",
+      "pages": 11,
+      "relevant_page": 10,
+      "access": "Texto PDF completo mediante web.open; petición de captura de página9 (página impresa10) sin imagen inspeccionable devuelta en la salida de la llamada. No se afirma cotejo visual del PDF en esta auditoría.",
+      "finding": "Ficha narrativa de un telegrama del8.1.1937 de Werner Oswald y Blume Salamanca, atribuye hallazgo a Bochsler y dice que seguía sin descifrar en2023. Propone posible vínculo con armas. No menciona intento2020 ni sus participantes; no describe algoritmo, claves, parámetros ni pruebas.",
+      "source_limits": "La ficha dice Zürich→London. El original PTT lleva una indicación de encaminamiento London Mcl. y dirección BLUME SALAMANCA; no usar la simplificación London como prueba de destino final. La ficha deriva el hallazgo del libro2022 y no es corroboración independiente de identidad ni contenido."
+    },
+    {
+      "url": "https://www.cnlab.ch/en/publications",
+      "title": "Publications - Presentations of our employees and customers",
+      "access": "Página completa de3626 líneas mediante web.open; búsquedas de texto Blume, Salamanca, Historische y2020.",
+      "finding": "No coincidencias Blume, Salamanca ni Historische en el catálogo visible; hay entradas2020 y anteriores. Las entradas2020 inspeccionadas son otras materias, no el intento BLUME.",
+      "source_limits": "La revisión cubre títulos y descripciones del catálogo visible; no se descargó cada presentación, y un documento sin esos términos o fuera de catálogo podría escapar."
+    },
+    {
+      "url": "https://www.cnlab.ch/en/about-us/prof-dr-peter-heinzmann",
+      "title": "Prof. Dr. Peter Heinzmann",
+      "access": "Perfil profesional oficial mediante web.open",
+      "finding": "CV de profesor emérito de seguridad de información y redes, HSR hasta2019; cnlab hasta2020.",
+      "source_limits": "No documenta la participación2020 ni un informe sobre los telegramas."
+    },
+    {
+      "url": "https://crypto.unibe.ch/courses-past/",
+      "title": "Past Courses - Cryptology and Data Security",
+      "access": "Página oficial universitaria mediante web.open",
+      "finding": "Aparece Dr. Patrick Liniger en docencia de matemática discreta.",
+      "source_limits": "Coincidencia de nombre y disciplina; la página no enlaza esa persona con el intento de2020."
+    },
+    {
+      "url": "https://arxiv.org/abs/2203.03525",
+      "title": "Cryptanalysis of some Nonabelian Group-Based Key Exchange Protocols",
+      "authors": [
+        "Simran Tinani",
+        "Carlo Matteotti",
+        "Joachim Rosenthal"
+      ],
+      "first_submission": "2022-03-07",
+      "access": "Ficha arXiv y resumen completos mediante web.open",
+      "finding": "Artículo sobre intercambio de claves basado en grupos no abelianos.",
+      "source_limits": "Ninguna conexión BLUME en la ficha/resumen. No se descargó el texto íntegro, pues no apunta al informe buscado; no atribuir ese método a los telegramas."
+    },
+    {
+      "url": "https://actu.epfl.ch/news/cyber-defence-fellowships-simran-tinani/",
+      "title": "CYBER-DEFENCE FELLOWSHIPS: Simran Tinani",
+      "date": "2021-12-20",
+      "access": "Texto completo oficial EPFL mediante web.open",
+      "finding": "Tinani identifica a Carlo Matteotti como mentor CYD Campus; el proyecto trata criptografía algebraica.",
+      "source_limits": "No menciona BLUME ni el intento2020. Afiliación no prueba carácter oficial de aquel trabajo."
+    },
+    {
+      "url": "https://www.quantware.ups-tlse.fr/dima/students.html",
+      "title": "Contact with Young Researchers",
+      "access": "Resultado de búsqueda con ficha de Viveksanth Kandiah; página no abierta completa",
+      "finding": "Resultado académico con orden de nombre Viveksanth Kandiah, tesis2014 sobre matrices Google en redes dirigidas.",
+      "source_limits": "La coincidencia de nombre no basta para resolver identidad del participante de la nota44. No aporta informe BLUME."
+    },
+    {
+      "url": "https://github.com/dbourdeau/cyphersolver/blob/main/TARGETS.md",
+      "title": "cyphersolver TARGETS.md",
+      "access": "Resultados de búsqueda; repositorio ya utilizado en fase1",
+      "finding": "Intentos2026 visibles, posteriores al intento del libro y sin enlace directo a informe2020 en el resultado.",
+      "source_limits": "No es testimonio del intento2020 y sus afirmaciones criptanalíticas no se validan aquí. Apertura de NOTES.md devolvió Internal Error; no se leyó una nueva versión."
+    }
+  ],
+  "coverage": "44 consultas dirigidas en web pública indexada en alemán/inglés, nombres exactos y variantes; búsquedas restringidas a cnlab, armee.ch, admin.ch, scienceblogs, sternenjaeger, nylonundnapalm, IACR y ACL Anthology. Lectura del catálogo público cnlab y fuentes oficiales de perfiles/docencia, más PDF Landwehr2023. Sin catálogos privados, mensajes a terceros, bases institucionales internas ni descarga masiva de publicaciones.",
+  "conclusions": [
+    "No hay informe o presentación2020 verificable localizado.",
+    "El libro sustenta la afirmación de un intento previo; no permite reproducirlo ni enumerar sistemas descartados.",
+    "No se atribuye Enigma, transposición, idioma, crib, presupuesto computacional ni alcance institucional a ese intento.",
+    "El PDF2023 solo permite decir que su ficha aún presentaba el mensaje como no descifrado; no es un informe del equipo2020."
+  ],
+  "eventual_contact_question_es": "¿Existe una memoria, presentación o conjunto de notas del intento de2020 citado en la nota44 de «Bilder für Hitler, Bomben für Franco» que pueda consultarse, con la transcripción exacta de los dos telegramas, los sistemas y parámetros ensayados, el tratamiento de letras dudosas y los criterios de validación? Si no se publicó, ¿podrían facilitar el título, fecha, autores y depositario de esos materiales y aclarar si fue una consulta personal o un trabajo encargado institucionalmente?",
+  "eventual_contact_question_de": "Gibt es zum Entzifferungsversuch von2020, den Anmerkung44 des Kapitels «Bilder für Hitler, Bomben für Franco» nennt, einen einsehbaren Bericht, Vortrag oder Arbeitsnotizen mit der verwendeten Transkription beider Telegramme, den geprüften Verfahren und Parametern, dem Umgang mit unsicheren Zeichen und den Validierungskriterien? Falls unveröffentlicht: Wie lauten Titel, Datum, Autoren und Aufbewahrungsstelle, und handelte es sich um eine persönliche Anfrage oder einen institutionellen Auftrag?",
+  "external_messages_sent": false,
+  "cryptanalytic_attack_performed": false,
+  "phase1_outputs_modified": false
+}

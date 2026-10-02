@@ -1,0 +1,387 @@
+{
+  "passed": true,
+  "date": "2026-10-02",
+  "scope": "Independent phase11 source/design review and post-search log audit; no solver/evaluator imports or invocation; no planted truth read.",
+  "design_review_before_search": true,
+  "pre_execution_finding": "W2=15 has2840 unique moves; W2=25 has16649. A5000proposal cap cannot converge at25. Draft global-terminal admission corrected before sealing/search.",
+  "accepted_terminal_rule": "cap_local candidates offered under frozen admission rule; global_cut return logged without admission or refresh; started child counted processed; every scored proposal stays in top5 archive.",
+  "sealed_design_sha256": "13f76031eb50be4716cde031964f5bcc5459e55ecd5d6912ffbb8f2c602afede",
+  "solver_source_sha256": "2401b8522b80a29b36657f09d5fb97bdf1d3f71e212eae005d1db015522e4aaa",
+  "solver_sha256": "801bac4896e82c39311c97f60f45a722adce765889bd8fcba05960cc60847590",
+  "search_log_sha256": "e7adbf4b5f7645f8a859d58f16d8b14140d34740a606346479c21259a75124f2",
+  "rows_checked": 32,
+  "protected_files_rehashed": 282,
+  "frozen_phase10_prefix_exact": true,
+  "cases": 8,
+  "paired_initializations_checked": 16,
+  "all_objective_categories_reconcile": true,
+  "all_capped_calls_at_most5000": true,
+  "all_w2_25_climbs_partial": true,
+  "checks": {
+    "admission_events": 2376,
+    "parent_choices": 350,
+    "perturbations": 350,
+    "refreshes": 75,
+    "capped_climbs_cap_local": 246,
+    "capped_climbs_global_cut": 10,
+    "capped_climbs_converged": 2,
+    "paired_initializations_identical": 16
+  },
+  "independent_idp": {
+    "function": "phase9_idp_diagnostic.idp",
+    "script_sha256": "78446220e12187093ff758738dcc45b9982aecebe459e2c7413f784d98e1fe90",
+    "method": "Direct feasible-boundary Cartesian products and greedy row/column assignment from ciphertext and float32 model; numeric keys inverted independently.",
+    "checks_by_category": {
+      "archives": 160,
+      "admission_candidates": 2376,
+      "population_states": 23120,
+      "perturbations": 350,
+      "climb_initial": 258,
+      "climb_final": 258
+    },
+    "distinct_computations": 2319,
+    "max_absolute_score_error": 1.2506551350099926e-09,
+    "tolerance": 1e-08,
+    "truth_used": false
+  },
+  "limits": [
+    "Variant changes per-climb effort and refresh frequency together; improvement cannot be attributed to diversity alone.",
+    "AtW2=25 no variant climb completes a sweep; partial endpoints are not local optima.",
+    "Eight literary synthetic pairs with known widths/shared keys; rounds reuse cases and are correlated. No historical language/cipher or BLUME conclusion.",
+    "Hamming diversity is a numeric proxy; no proof of independent basins.",
+    "Logs retain top5 and admitted-state events, not all proposals; global top5 optimality over the complete unlogged sequence is established by source review, not replay.",
+    "Equal IDP ceilings do not imply equal CPU time;30s is a soft protection limit.",
+    "Admission/selection replay used saved solver scores. Independent score tolerance1e-8 exceeds the admission epsilon1e-12; this audit does not claim exact floating-point equivalence at that epsilon."
+  ],
+  "run_diagnostics": [
+    {
+      "case_id": "de_fold_12x15_20262101",
+      "method": "population",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 10,
+      "refreshes_started": 2,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_12x15_20262101",
+      "method": "cap5000",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": 16,
+      "children_converged": 0,
+      "refreshes_started": 4,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_12x15_20262101",
+      "method": "cap5000",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": 16,
+      "children_converged": 0,
+      "refreshes_started": 4,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_12x15_20262101",
+      "method": "population",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 10,
+      "refreshes_started": 2,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_12x15_20262102",
+      "method": "population",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 8,
+      "refreshes_started": 2,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_12x15_20262102",
+      "method": "cap5000",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": 16,
+      "children_converged": 0,
+      "refreshes_started": 4,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_12x15_20262102",
+      "method": "cap5000",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": 16,
+      "children_converged": 0,
+      "refreshes_started": 4,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_12x15_20262102",
+      "method": "population",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 11,
+      "refreshes_started": 2,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_20x25_20262101",
+      "method": "population",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 0,
+      "refreshes_started": 0,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_20x25_20262101",
+      "method": "cap5000",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": 14,
+      "children_converged": 0,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_20x25_20262101",
+      "method": "cap5000",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": 14,
+      "children_converged": 0,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_20x25_20262101",
+      "method": "population",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 1,
+      "refreshes_started": 0,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_20x25_20262102",
+      "method": "population",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 2,
+      "refreshes_started": 0,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_20x25_20262102",
+      "method": "cap5000",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": 14,
+      "children_converged": 0,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_20x25_20262102",
+      "method": "cap5000",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": 14,
+      "children_converged": 0,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "de_fold_20x25_20262102",
+      "method": "population",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 0,
+      "refreshes_started": 0,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_12x15_20262101",
+      "method": "population",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 12,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_12x15_20262101",
+      "method": "cap5000",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": 17,
+      "children_converged": 0,
+      "refreshes_started": 4,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_12x15_20262101",
+      "method": "cap5000",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": 16,
+      "children_converged": 0,
+      "refreshes_started": 4,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_12x15_20262101",
+      "method": "population",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 12,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_12x15_20262102",
+      "method": "population",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 12,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_12x15_20262102",
+      "method": "cap5000",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": 16,
+      "children_converged": 0,
+      "refreshes_started": 4,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_12x15_20262102",
+      "method": "cap5000",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": 17,
+      "children_converged": 0,
+      "refreshes_started": 4,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_12x15_20262102",
+      "method": "population",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 11,
+      "refreshes_started": 2,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_20x25_20262101",
+      "method": "population",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 1,
+      "refreshes_started": 0,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_20x25_20262101",
+      "method": "cap5000",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": 14,
+      "children_converged": 0,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_20x25_20262101",
+      "method": "cap5000",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": 14,
+      "children_converged": 0,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_20x25_20262101",
+      "method": "population",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 1,
+      "refreshes_started": 0,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_20x25_20262102",
+      "method": "population",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 1,
+      "refreshes_started": 0,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_20x25_20262102",
+      "method": "cap5000",
+      "round": 0,
+      "objective_calls": 100000,
+      "children_processed": 14,
+      "children_converged": 0,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_20x25_20262102",
+      "method": "cap5000",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": 14,
+      "children_converged": 0,
+      "refreshes_started": 3,
+      "cut_cause": "evaluations"
+    },
+    {
+      "case_id": "fr_fold_20x25_20262102",
+      "method": "population",
+      "round": 1,
+      "objective_calls": 100000,
+      "children_processed": null,
+      "children_converged": 0,
+      "refreshes_started": 0,
+      "cut_cause": "evaluations"
+    }
+  ],
+  "near_tie_audit": {
+    "threshold": 2e-08,
+    "relevant_admission_comparisons": {
+      "same_key": 16
+    },
+    "distinct_key_near_comparisons": 0,
+    "note": "Admission/selection replay uses recorded solver scores. Independent IDP tolerance1e-8 exceeds admission epsilon1e-12; same-key exact ties remain identical by determinism.",
+    "distinct_parent_near_comparisons": 0
+  }
+}

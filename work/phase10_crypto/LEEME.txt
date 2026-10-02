@@ -1,0 +1,183 @@
+Sentinel — BLUME SALAMANCA — población de candidatas K2 con distancia mínima
+Fecha: 2 de octubre de 2026
+
+Resultado
+
+La población encontró la K2 verdadera en 4 de 16 rondas; los reinicios, en
+3 de 16. Ambas variantes acertaron en los mismos dos pares de ocho, alemanes
+con anchos 12×15. La población rescató una ronda de la semilla 20262001.
+
+Modelo y anchos        Reinicios         Población
+Alemán 12×15              3/4               4/4
+Alemán 20×25              0/4               0/4
+Francés 12×15             0/4               0/4
+Francés 20×25             0/4               0/4
+Total                    3/16              4/16
+
+Se buscó sólo K2 en textos sintéticos. No se recuperó K1 ni se atacó BLUME.
+Las rondas y los métodos están emparejados. Las mismas semillas comparten
+claves entre modelos de idioma con los mismos anchos; las 32 filas no son
+32 casos independientes ni una estimación fiable de tasa de recuperación.
+
+Presupuesto y coste real
+
+Cada ronda consumió exactamente 100.000 llamadas IDP, incluidos pool aleatorio,
+intercambios de preparación, escaladas y perturbaciones. Cada método consumió
+1.600.000 llamadas. Las 32 rondas cortaron por evaluaciones; ninguna llegó a
+los 30 segundos de protección. El presupuesto no se amplió al fallar.
+
+                              Reinicios          Población
+Tiempo interno de búsqueda     70,752 s            70,897 s
+Tiempo real de procesos        71,202 s            70,994 s
+
+Igual número de llamadas no implica igual coste de CPU. El reloj empieza antes
+de construir los movimientos source y conserva preparación y gestión de la
+población. El límite de tiempo es blando: se comprueba antes de puntuar cada
+propuesta, sin interrumpir una puntuación en curso. El tiempo de procesos
+incluye además carga, salida y lectura de resultados.
+
+Las búsquedas duraron entre 2,676 y 6,339 segundos. El mayor setup fue
+0,007654 segundos. No hubo exceso del límite temporal. El orden de métodos
+se alternó: reinicios y población en ronda 0; población y reinicios en ronda 1.
+
+Diseño sellado
+
+Ocho pares nuevos: de_fold/fr_fold × 12×15/20×25 × semillas 20262001/20262002.
+Dos rondas por método y par. Longitudes 615 y 160, claves compartidas, conv0,
+transposición columnar irregular directa dos veces, sin relleno. Los anchos
+son conocidos. Los textos proceden de holdouts literarios de Kafka y Voltaire,
+separados del entrenamiento; no representan telegramas comerciales de 1937.
+
+run_comparison.py creó todos los pares y guardó sus claves en truth.jsonl.
+Selló verdad, comandos, reglas, hashes y semillas en manifest.json antes del
+primer comando. El ejecutable recibe sólo método, modelo, textos cifrados,
+anchos, semilla de búsqueda y presupuestos. La verdad no llega al solver.
+La evaluación de claves e IDP verdadero se hace después, externamente.
+
+El baseline importa phase9::Search directamente de su fuente congelada.
+Los hashes de su fuente y binario se guardaron antes de ejecutar. Ese método
+mantiene la preparación de 1.000 claves aleatorias, las 20 mejores con swaps
+de izquierda a derecha y una escalada source desde la mejor superviviente.
+Al acabar la escalada vuelve a preparar y escalar hasta consumir el límite.
+
+La población usa el mismo objetivo IDP y los mismos movimientos source. Su
+primera preparación y escalada desde la mejor semilla comparten el inicio con
+el baseline. La comparación válida es entre variantes dentro de fase10, no
+entre tasas de fase9 y fase10, que usan textos y semillas distintos.
+
+Regla de diversidad
+
+Se mantienen hasta cinco padres, distintos del archivo final de resultados.
+La distancia Hamming cuenta posiciones diferentes entre claves numéricas.
+El umbral se fijó como ceil(0,4×W2): 6 posiciones para W2=15 y 10 para W2=25.
+No cambió durante la búsqueda.
+
+Las 20 supervivientes de la preparación se ofrecen en orden IDP descendente,
+con empate lexicográfico. La aceptación inicial es codiciosa: se conservan
+semillas separadas al menos por el umbral, hasta cinco. Después de la primera
+escalada se ofrece también su máximo local.
+
+Para generar un hijo se elige el padre menos usado, con desempate por IDP y
+clave numérica. Se incrementa su uso al elegirlo, aunque después corte el
+presupuesto. Esos usos cuentan selecciones para hijos; no cuentan la primera
+escalada compartida desde la semilla preparada.
+
+La perturbación hace 3 o 5 intercambios disjuntos, cambiando exactamente 6 o
+10 posiciones según el ancho. Se puntúa y escala desde esa clave perturbada.
+Los hijos se ofrecen a la población sólo tras una escalada completa.
+
+Un vecino próximo tiene distancia estrictamente menor que el umbral. Para
+entrar, el candidato debe mejorar el IDP de TODOS sus vecinos próximos por
+más de 1e-12. Reemplaza esos vecinos y hereda el máximo de sus contadores de
+uso. Si no tiene vecinos próximos, entra con uso cero cuando hay sitio; si
+la población está llena, sustituye al peor sólo si lo mejora estrictamente.
+La población se ordena después por IDP y clave numérica.
+
+Cada cuatro hijos completos se repite la preparación. Sus 20 supervivientes
+se fusionan mediante la misma regla; no se reinicia la población ni se cambia
+el umbral. Cada fusión y su corte, si lo hay, están registrados.
+
+El archivo final permanece separado: cinco claves distintas con mejor IDP
+entre TODAS las propuestas puntuadas, sin filtro de distancia. No se guardan
+las 100.000 propuestas completas. Los scores ya calculados de los padres se
+usan para admisión; esas comparaciones no añaden llamadas IDP ocultas.
+
+Diversidad observada y límites
+
+La población final tuvo cinco miembros en las 16 rondas. Se verificó el umbral
+en todos los estados registrados. La distancia mínima final fue de 7 a 12 en
+las claves cortas y de 10 a 23 en las largas. El archivo final por IDP tuvo
+distancia mínima 2 en todas las salidas de la variante población: mantener
+padres diversos no obliga a que las cinco mejores puntuaciones sean diversas.
+
+En las rondas cortas se completaron de 9 a 12 hijos. En las ocho rondas largas
+sólo se completaron cero o un hijo; una escalada consume buena parte del
+presupuesto. Por tanto, este piloto da poca oportunidad de evaluar diferentes
+padres en claves largas. La distancia Hamming es un indicador reproducible,
+no una prueba de que los padres ocupen cuencas independientes o útiles.
+
+El baseline inició 119 preparaciones y completó 115; completó 103 de 115
+escaladas. La población inició 35 preparaciones y completó 32; completó
+108 de 121 escaladas, incluida la primera de cada ronda. Sus 105 elecciones
+de padres y perturbaciones están registradas.
+
+Los cortes del baseline fueron 12 en escalada, dos en el pool inicial y dos
+en swaps de preparación. La población cortó 13 veces en escalada y tres en
+swaps de preparación. Los candidatos ya puntuados permanecen en el archivo.
+Un hijo cortado no se considera máximo local completo ni entra como padre.
+
+Diagnóstico externo
+
+En las 25 rondas sin K2 verdadera, su IDP fue mayor que el de todos los
+candidatos devueltos, con margen de 0,0918 a 0,3368 sobre el mejor. En las
+siete rondas acertadas ocupó el rango 1. Esto señala el límite observado de
+la búsqueda; no demuestra un óptimo global ni identifica el idioma de BLUME.
+
+evaluate_external.py usa Python/NumPy con enumeración directa de límites
+viables, independiente de las sumas incrementales C++ del solver. Comprobó:
+• 160 scores del archivo final.
+• 748 scores de candidatos ofrecidos y sus admisiones/rechazos.
+• 105 elecciones de padres y perturbaciones de swaps disjuntos.
+• 4.105 apariciones de scores en estados de población.
+• Distancias, selección de padres, incrementos y herencia de usos, fusiones
+  y reconstrucción completa de la secuencia de estados.
+
+El evaluador cachea sólo sus cálculos externos: comprobó 928 claves distintas.
+Ese caché no existe en la búsqueda ni modifica sus 100.000 llamadas por ronda.
+
+Conservación y archivos
+
+Se verificaron 252 archivos de fases anteriores, incluidos los 30 de fase9:
+todos permanecieron intactos. Sólo se escribió en work/phase10_crypto.
+
+• population_search.cpp: variante y entrada del solver; importa el baseline.
+• manifest.json: diseño previo, casos, comandos, presupuestos y hashes.
+• search_outputs.jsonl: 32 salidas, rondas, archivos y estados sin verdad.
+• truth.jsonl: verdad sintética separada.
+• external_evaluation.jsonl: comparación externa de claves y objetivo.
+• summary.json y verification.json: resultados, diversidad y comprobaciones.
+• RESOURCE_HASHES.json: hashes de los recursos de esta fase.
+
+Reproducir
+
+Compilar con las fuentes congeladas en sus rutas relativas:
+clang++ -std=c++17 -O3 work/phase10_crypto/population_search.cpp -o work/phase10_crypto/population_search
+
+Comprobar los resultados guardados:
+/Users/javier/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/phase10_crypto/evaluate_external.py
+
+Los commands de manifest.json permiten repetir cada ronda. El runner rechaza
+sobrescribir un manifiesto existente. Con la misma semilla, binario y biblioteca
+estándar, la secuencia es reproducible mientras no corte por tiempo. Los tiempos
+pueden variar por carga de la máquina y preparación del proceso.
+
+Siguiente cambio útil
+
+La mejora es una ronda adicional, sin ampliar los pares acertados. No justifica
+ampliar una búsqueda histórica. Un siguiente piloto podría limitar las propuestas
+de cada escalada para explorar más padres dentro del mismo presupuesto total.
+Ese cambio debe compararse sobre controles nuevos y distinguir una escalada
+cortada por diseño de un máximo local completo. Aquí no se hizo ese cambio.
+
+No se obtuvo texto en claro de BLUME ni se descartó idioma, cifrado o región
+de claves a partir de estos controles.

@@ -1,0 +1,32 @@
+{
+  "audit_date": "2026-10-01",
+  "method": "Inspección visual independiente del original BAR a resolución original; recortes ampliados para comparar glifos en la misma hoja. No OCR para decidir la letra y ningún ataque criptanalítico.",
+  "source_images": {
+    "T1": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-images/Unterlagen_0000072-00000527.jpg",
+    "T2": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-images/Unterlagen_0000072-00000531.jpg"
+  },
+  "T1_group_38": {
+    "position": "fila 5, columna 6; grupo numerado desde 1",
+    "preferred_reading": "SOLRS",
+    "confidence": "alta tras comparación interna de glifos",
+    "evidence": "La tercera letra tiene pie largo hacia la derecha y un pequeño remate ascendente en el extremo derecho, como las L de LGMAL y HLTOS de la misma hoja. Las I de IOEIC tienen serif inferior simétrico sin ese remate.",
+    "recommendation": "Mantener SOLRS como lectura canónica; no cambiar a SOIRS.",
+    "prior_alternative": "SOIRS puede surgir por lectura superficial o por OCR, pero el original ampliado favorece L.",
+    "comparison_image": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume-g38-letter-comparison.png"
+  },
+  "sender_initials": {
+    "T1": {
+      "literal_preferred_reading": "W. E. Oswald",
+      "confidence": "alta",
+      "evidence": "La segunda inicial presenta los tres trazos horizontales de E; se distingue del pie único de la segunda inicial en T2."
+    },
+    "T2": {
+      "literal_preferred_reading": "W. L. Oswald",
+      "confidence": "alta en la lectura literal, identidad sin determinar",
+      "evidence": "La segunda inicial consta de trazo vertical y pie hacia la derecha, sin los trazos horizontales superior y central que sí aparecen en la E de T1."
+    },
+    "interpretation_limit": "Es una discrepancia de las anotaciones manuscritas de remitente. No permite inferir dos personas, autoría material, ni distinguir error de transcripción de inicial deliberada."
+  },
+  "phase1_outputs_modified": false,
+  "cryptanalysis_performed": false
+}

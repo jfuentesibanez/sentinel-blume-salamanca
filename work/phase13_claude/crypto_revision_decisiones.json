@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-02",
+  "reviewed_document": "crypto_decisiones_preimplementacion.txt",
+  "scope": "Textual preimplementation review only; no solver execution or code certification.",
+  "findings_corrected": [
+    "Every scored candidate considered for top5; archive retains five keys, not all scores.",
+    "Conditional admission applies only to checkpoint pool; initial twenty offers in all arms.",
+    "7000 calls is full preparation cost; time cuts may prevent or interrupt; count actual cost and qualify equality checks.",
+    "Post-checkpoint recovery is not attribution to fused parents without ancestry evidence."
+  ],
+  "reviewer": "calibracion_idiomas_sin_clave",
+  "status": "Four findings applied; future implementation audit remains necessary."
+}

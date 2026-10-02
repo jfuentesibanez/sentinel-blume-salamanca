@@ -1,0 +1,24 @@
+{
+  "checked_date": "2026-10-01",
+  "historical_plaintext_verified": false,
+  "historical_solution_candidates": [],
+  "first_phase_completed": [
+    "two independent visual transcriptions",
+    "normalized hashes verified",
+    "three L corrections verified",
+    "medium-confidence group 113 retained",
+    "archival primary lead located",
+    "60 paired-control solver runs",
+    "bounded 8x10 BLUME pilot and matched-inventory shuffles",
+    "five-language marginal comparison",
+    "portable code and reproducible data packaged"
+  ],
+  "remaining": [
+    "exact police shelfmark containing BLUME",
+    "identity of BLUME",
+    "authentic historical language corpus",
+    "faithful full published attack and calibration at long widths",
+    "verified plaintext and complete historical cipher procedure"
+  ],
+  "uncertainty": "Shared keys, pure transposition, plaintext language, sender attribution and subject remain hypotheses; current long-key control failures do not exclude cipher regions."
+}

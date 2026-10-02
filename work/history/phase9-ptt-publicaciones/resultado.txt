@@ -1,0 +1,53 @@
+Publicaciones PTT: ejemplares de 1937 localizados
+Comprobación: 2 de octubre de 2026. Sólo fuentes públicas. No contactos ni pedidos.
+
+El avance concreto es bibliográfico: el PTT-Archiv tiene ejemplares del boletín oficial y su suplemento que llegan a 1937. No se ha localizado ni leído un plan de registro que explique 6011.8.3.
+
+1. Boletín principal
+Título: Schweizerisches Post- und Telegraphen-Amtsblatt = Feuille officielle des postes et des télégraphes suisses = Foglio ufficiale delle poste e dei telegrafi svizzeri.
+Editor responsable: Generaldirektion der Post- und Telegraphenverwaltung. El campo de publicación indica Bern: Generaldirektion der PTT.
+Ficha Alma: alma991363970105527.
+Signatura bibliotecaria: MfK P-013-001.
+Numeración de la publicación: 1922–1937. Frecuencia: semanal. Idiomas: alemán, francés e italiano.
+Existencias de la biblioteca, texto literal del catálogo: «1(1922)-16(1937)56».
+Estado mostrado: «Eventuell verfügbar». El catálogo indica uso sólo en sede, sin préstamo interbibliotecario. No se observó un enlace de lectura o descarga del boletín.
+Ficha completa y existencias leídas; enlace permanente obtenido de la función «Link» del catálogo:
+https://bsb.swisscovery.slsp.ch/permalink/41SLSP_RBE/859kdn/alma991363970105527
+Capturas locales: library-amtsblatt-main-detail.json y library-amtsblatt-main-holdings.json.
+
+2. Suplemento
+Título: Schweizerisches Post- und Telegraphen-Amtsblatt. Beiblatt = Feuille officielle des postes et des télégraphes suisses. Annexe = Foglio ufficiale delle poste e dei telegrafi svizzeri. Annesso.
+Publicación: Bern, Generaldirektion der Post- und Telegraphenverwaltung, 1922–1937.
+Ficha Alma: alma9957534140105527.
+Signatura bibliotecaria: MfK P-013-002.
+Existencias literales: «(1922)-(1937)96».
+Estado mostrado: «Eventuell verfügbar». Uso sólo en sede, sin préstamo interbibliotecario. No se observó una lectura o descarga digital.
+Ficha completa y existencias leídas; enlace permanente obtenido de la función «Link» del catálogo:
+https://bsb.swisscovery.slsp.ch/permalink/41SLSP_RBE/859kdn/alma9957534140105527
+Captura local: library-beiblatt-holdings.json.
+
+Qué permite concluir: hay publicaciones del propio productor y existencias que alcanzan 1937. Es una vía concreta para buscar índices e instrucciones de registro, circulación de cartas o gestión de telegramas. Que contengan el plan buscado es una hipótesis de trabajo. No se han leído sus páginas, identificado una instrucción específica ni comprobado la vigencia de una norma en enero de 1937. No se interpreta el sufijo «56» o «96» como una descripción de integridad de las colecciones.
+
+La lista también identifica títulos continuadores desde 1938, con las mismas signaturas P-013-001 y P-013-002. Sólo se leyó su descripción de lista. No se consultaron sus ejemplares ni se retrotraen sus posibles normas a 1937.
+
+Fondos BAR relacionados comprobados
+- E51*, Postwesen: cobertura 1708–1931. Se leyó la descripción completa del fondo y sus categorías generales; incluye organización, administración y registros oficiales entre sus materias. Esto no identifica un registro de 1937 ni demuestra que una instrucción anterior siguiera vigente.
+  https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/Best%20%20%20%20cbfbc37e-dbd4-5cdd-b3b4-1ce9d073b954
+- E10454*, Post-, Telefon- und Telegrafenbetriebe (1961–1997): cobertura de documentos 1894–1998. Se leyó la ficha del fondo. Su rama visible conduce a E8232-14*, correo de campaña. La fecha del productor y la cobertura documental son campos distintos; el primero no excluye documentos anteriores. No se localizó aquí un plan de 1937.
+  https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/Best%20%20%20%20fb4ea088-be35-50a2-aee3-030f35e95696
+- E10974*, Generaldirektion der Post-, Telefon- und Telegrafenverwaltung (1930–1961): cobertura 1894–1964. La rama visible es E8232-15*. Se leyó la ficha del fondo, no documentos individuales.
+  https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/Best%20%20%20%20c8e97fba-829a-5bca-899b-c7c375dc79db
+- E8232-15*, Generaldirektion der Post-, Telefon- und Telegrafenverwaltung: Sammlungen von Verträgen und Telegrammen (1930–1961): cobertura 1894–1964; antigua signatura E8231*. Se leyó la ficha y los títulos de sus tres ramas: contratos/acuerdos; acuerdos complementarios SUVA; telegramas estatales de la Segunda Guerra Mundial. No se ha leído el contenido de esas ramas. El título «telegramas» no demuestra que incluya BLUME ni mensajes de enero de 1937.
+  https://www.recherche.bar.admin.ch/recherche/link/de/archiv/einheit/5941
+
+Nota técnica del catálogo BAR: las fichas de fondos E10974 y E51 conservaron en el campo «URL permanente» un enlace de la ficha E10454 consultada antes. Se conservan esas capturas sin corregirlas. Para identificar cada ficha se usa su URL efectiva en la barra del navegador, cotejada con su título y signatura; no el campo de enlace que quedó desactualizado. La traducción automática del navegador muestra parte de la interfaz y las descripciones en español; los títulos alemanes anteriores constan en el árbol o en las migas de navegación.
+
+Alcance y límites de las consultas
+Se hicieron doce búsquedas nuevas: seis externas, cuatro en swisscovery y dos en el buscador de BAR. Se leyeron además fichas y ramas enlazadas. No es una investigación exhaustiva de estos fondos ni de inventarios internos.
+La búsqueda bibliotecaria Registratur dio 181 resultados en las bibliotecas especializadas de Berna, de ellos 100 con el filtro PTT. El filtro de fecha ofrecía 1948–2018. La tentativa de introducir 1900–1938 no se aplicó: la URL y la interfaz mantuvieron 1948–2018 y mostraron 97 resultados. El nombre del archivo lib-registratur-1900-1938-bar-e51.json describe la tentativa, no un filtro conseguido. NO se usa como prueba de ausencia entre 1900 y 1938.
+Aktenplan dio seis resultados en las bibliotecas especializadas: los tres asociados a PTT eran posteriores a 1937; el plan específico SBB era de 1957 y de otro productor. Es un negativo limitado a esa consulta bibliográfica, no al contenido archivístico.
+La búsqueda literal E10454 en todos los datos de BAR no encontró la ficha, pero sí se localizó por el árbol. Ese contraste impide usar el cero de la búsqueda como prueba de ausencia del fondo.
+
+La referencia 6011.8.3 sigue siendo una referencia interna de 1937 sin equivalencia archivística comprobada. Las signaturas P-013-001/P-013-002 son bibliotecarias; las E... son archivísticas actuales. Ninguna se presenta como conversión de 6011.8.3. Los treinta años de Schutzfrist del expediente de fase 8 son un plazo de protección de acceso, no una regla de conservación histórica de telegramas.
+
+El siguiente dato útil sería el índice de 1937 del boletín y del suplemento, o una indicación del custodio sobre dónde localizar entradas de Registratur, Aktenplan, Geschäftskontrolle, Rechtsdienst y conservación/circulación de telegramas. Se podría incorporar esta referencia bibliográfica a la consulta local de fase 8 cuando corresponda. No se ha creado ni enviado un correo, pedido un volumen completo, solicitado copias ni autorizado ningún coste.

@@ -1,0 +1,44 @@
+{
+  "retrieved_date": "2026-10-01",
+  "repository": "https://github.com/dbourdeau/cyphersolver",
+  "revision": "9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+  "issue_url": "https://github.com/dbourdeau/cyphersolver/issues/14",
+  "files": [
+    {
+      "file": "ct1.txt",
+      "source_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets/blume/ct1.txt",
+      "sha256_file_bytes": "d442e136d63bfc066c20374e2b454ca5581b164e940b307d5600d0d463df943e",
+      "bytes": 615,
+      "role": "upstream transcription or notes"
+    },
+    {
+      "file": "ct2.txt",
+      "source_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets/blume/ct2.txt",
+      "sha256_file_bytes": "d2cdadbefb0bef2fbcdcf83bf6de1b104583e166f14f0a3d2b545024b3188df0",
+      "bytes": 160,
+      "role": "upstream transcription or notes"
+    },
+    {
+      "file": "telegram1.jpg",
+      "source_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets/blume/telegram1.jpg",
+      "sha256_file_bytes": "fe25852aa1c7998d88d78646bad5e8997365f20af8d1084b2140e12ead519ba1",
+      "bytes": 827996,
+      "role": "upstream primary photo"
+    },
+    {
+      "file": "telegram2.jpg",
+      "source_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets/blume/telegram2.jpg",
+      "sha256_file_bytes": "a2fc356b404cf9670e60239ba8380e1ac975295e59b5cc0a854074b58299bde1",
+      "bytes": 236892,
+      "role": "upstream primary photo"
+    },
+    {
+      "file": "NOTES.md",
+      "source_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets/blume/NOTES.md",
+      "sha256_file_bytes": "6af9b147e016d5515cb3f313c0af05e9a81b39cb0e26065f78fc54358ff4bd2a",
+      "bytes": 18265,
+      "role": "upstream transcription or notes"
+    }
+  ],
+  "chain_of_custody_limit": "Repository copies of photographs, not a certified digitization from the Swiss Federal Archives; original file reference not yet established."
+}

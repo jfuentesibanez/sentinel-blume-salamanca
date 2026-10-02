@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "Independent score and population replay; no solver rerun, K1 or historical test",
+  "counts": {
+    "ciphertexts": 16,
+    "rows": 32,
+    "archive_scores": 160,
+    "perturbations": 105,
+    "admission_scores": 748,
+    "population_events": 748,
+    "parent_choices": 105,
+    "refreshes": 19
+  },
+  "totals": {
+    "restart": {
+      "round_hits": 3,
+      "calls": 1600000,
+      "seconds": 70.751867168,
+      "cases": [
+        "de_fold_12x15_20262001",
+        "de_fold_12x15_20262002"
+      ]
+    },
+    "population": {
+      "round_hits": 4,
+      "calls": 1600000,
+      "seconds": 70.89661045799998,
+      "cases": [
+        "de_fold_12x15_20262001",
+        "de_fold_12x15_20262002"
+      ]
+    }
+  },
+  "protected_previous_crypto_files": 252,
+  "failure_margin_min": 0.09180182761391853,
+  "failure_margin_max": 0.33683953724764004,
+  "failed_rounds": 25,
+  "failed_rounds_truth_scores_higher": 25,
+  "script_sha256": "fdf434f49058c2e0589fc3cfc4cd0888984cfad55bee589a09455f02e158f0ee",
+  "limits": [
+    "Only logged states and saved candidates checked, not every proposal.",
+    "Hamming diversity does not establish independent search basins.",
+    "Known widths, shared keys and one literary corpus per language.",
+    "No historical plaintext, key or language finding."
+  ]
+}

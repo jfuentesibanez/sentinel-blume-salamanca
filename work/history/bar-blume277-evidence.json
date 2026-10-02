@@ -1,0 +1,231 @@
+{
+  "recorded_at": "2026-10-01",
+  "purpose": "Verificación primaria del expediente citado por Regula Bochsler para los telegramas BLUME SALAMANCA de enero de 1937. Registro nuevo: conserva intactas las conclusiones y fuentes de fase 1.",
+  "catalogue": {
+    "institution": "Schweizerisches Bundesarchiv / Archives fédérales suisses (BAR)",
+    "reference_code": "E4320B#1974/47#277*",
+    "archive_record_id": "3578609",
+    "title": "Spanische Revolution (Passvisas etc.)",
+    "creation_period": "1936–1938",
+    "access_label": "Frei zugänglich",
+    "can_be_ordered": true,
+    "anonymous_full_package_download_allowed": false,
+    "observed_public_access": "Manifest, OCR ZIP y originales JPEG IIIF accesibles públicamente y descargados sin iniciar sesión. El flag isDownloadAllowed=false no impide la consulta pública del visor ni estas imágenes.",
+    "human_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578609",
+    "entity_api_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/GetEntity?id=3578609&language=de",
+    "manifest_url": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/3578609.json",
+    "viewer_url": "https://viewer.recherche.bar.admin.ch/?manifest=https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/3578609.json",
+    "ocr_url": "https://www.recherche.bar.admin.ch/recherche/files/ocr/0000/0357/8609/OCR-Text-komplett.zip",
+    "classification": "Bundesanwaltschaft → Polizeidienst → Kommunistische Bewegungen → dossier",
+    "file_number": "C.08-01.03",
+    "limitation": "Expediente colectivo sobre la revolución española; no es un expediente personal titulado Werner Oswald."
+  },
+  "book_to_archive_link": {
+    "source": "Información comunicada por agente raíz tras lectura y capturas de la app Legimi; no cotejada por este subagente dentro del libro.",
+    "chapter": "Bilder für Hitler, Bomben für Franco",
+    "chapter_note_42": "BAR E4320B#1974/47#277*: Generaldirektion PTT, Rechtsdienst, an BA, 15.1.1937.",
+    "chapter_note_43": "Mismo expediente: Abhörprotokoll Werner Oswald, 28.4.1937.",
+    "image_credit": "48 o/u BAR E4320B#1974/47#277*",
+    "image_printed_page": 48,
+    "caption": "Verschlüsselte Telegramme der PATVAG an ‹Blume Salamanca› (1937)",
+    "book_screenshots_directory": "outputs/Sentinel_BLUME_Legimi"
+  },
+  "primary_pieces": [
+    {
+      "piece": "Unterlagen_0000072",
+      "date": "1937-01-15",
+      "image": "00000519",
+      "canvas": 1,
+      "type": "Carta de remisión de la Dirección General PTT, servicio jurídico, a la Fiscalía federal suiza.",
+      "heading": "Neutralität gegenüber Spanien",
+      "file_number": "6011.8.3",
+      "verified_visually": true,
+      "facts": [
+        "Datación visible 15.1.37, Berna.",
+        "Remisión confidencial de dos copias de telegramas cifrados enviados de Zúrich a Salamanca."
+      ],
+      "original_source": {
+        "document": "Unterlagen_0000072",
+        "canvas_label": "1",
+        "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000519.jpg",
+        "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg",
+        "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000519.jpg",
+        "width": 1807,
+        "height": 2533,
+        "bytes": 492947,
+        "sha256": "01b1d429f63285735b736daa7b0ee7889bd731001cacdb57016f9c656fac971b"
+      }
+    },
+    {
+      "piece": "Dokument_0000069",
+      "date": "1937-04-28",
+      "type": "Acta de interrogatorio en persona de Werner Leodegar Oswald.",
+      "heading": "Abhörungsprotokoll / Procès-verbal d’audition",
+      "images_verified_visually": [
+        "00000501",
+        "00000503",
+        "00000505"
+      ],
+      "facts": [
+        "Primera hoja datada en Zúrich, 28.4.1937, 14.25.",
+        "La policía pregunta quién redactó y entregó los dos telegramas de 8.1.1937, cuál era su contenido y dónde estaba la clave.",
+        "Werner atribuye el envío y la firma a su hermano Viktor M. Oswald, entonces en San Sebastián, cuando estaba de paso por Suiza.",
+        "Werner niega conocer el contenido y poseer la clave. Afirma que no se comunica cifradamente con su hermano.",
+        "Werner plantea como posibilidad conversaciones con compradores españoles de lana y desea que Hisma, en Sevilla, no conozca esos planes antes de conversaciones con autoridades de Burgos.",
+        "La última hoja está firmada por Werner Oswald y el inspector Ulrich."
+      ],
+      "short_literal_content_denial": "Den Inhalt kenne ich nicht",
+      "short_literal_key_denial": "Den Schlüssel besitze ich ebenfalls nicht",
+      "evidence_status": "Son declaraciones de Werner recogidas por la policía. La autoría de Viktor y la hipótesis comercial no quedan demostradas de forma independiente por el acta.",
+      "translation_warning": "Abhörungsprotokoll designa aquí un interrogatorio. La cabecera francesa dice Procès-verbal d’audition; no es una transcripción de escucha telefónica.",
+      "ocr_correction": "OCR Hsma → lectura visual Hisma.",
+      "original_sources": [
+        {
+          "document": "Dokument_0000069",
+          "canvas_label": "1",
+          "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Dokument_0000069/00000501.jpg",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000501.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-images/Dokument_0000069-00000501.jpg",
+          "width": 2544,
+          "height": 3560,
+          "bytes": 1070468,
+          "sha256": "230d20c9e02e529b4585972473be7f2986ac97b591e0565783d940ab00157df1"
+        },
+        {
+          "document": "Dokument_0000069",
+          "canvas_label": "3",
+          "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Dokument_0000069/00000503.jpg",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000503.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-images/Dokument_0000069-00000503.jpg",
+          "width": 2555,
+          "height": 3556,
+          "bytes": 1145998,
+          "sha256": "e5c5235cdc4b0299fcf85a42b8802a7b366d30f3ca19c2e0a66d0f56d85742ad"
+        },
+        {
+          "document": "Dokument_0000069",
+          "canvas_label": "5",
+          "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Dokument_0000069/00000505.jpg",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000505.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-images/Dokument_0000069-00000505.jpg",
+          "width": 2544,
+          "height": 3565,
+          "bytes": 1125405,
+          "sha256": "15fc202f34406ebab8dfb40b91794352593b4af6f82a380515291e51f73c7e41"
+        }
+      ]
+    }
+  ],
+  "telegram_front_identification": [
+    {
+      "label": "T1",
+      "piece": "Unterlagen_0000072",
+      "image": "00000527",
+      "canvas": 9,
+      "date": "1937-01-08",
+      "time": "11:31",
+      "serial": "1381",
+      "fee_francs": "49.90",
+      "ciphertext_starts": "SSVCC",
+      "original_source": {
+        "document": "Unterlagen_0000072",
+        "canvas_label": "9",
+        "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000527.jpg",
+        "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000527.jpg/full/full/0/default.jpg",
+        "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000527.jpg",
+        "width": 2562,
+        "height": 2346,
+        "bytes": 934094,
+        "sha256": "410d37a5644106efead1eb636229cb74d781e202dd82838a8fce5b196266be73"
+      },
+      "new_marginal_evidence": {
+        "text": "Oswald Viktor, geb. 15.11.1909, in Burgos",
+        "position": "Anotación manuscrita roja al pie izquierdo",
+        "status": "Lectura visual. Mano y fecha no identificadas: atribución marginal, no comprobación independiente de autoría."
+      }
+    },
+    {
+      "label": "T2",
+      "piece": "Unterlagen_0000072",
+      "image": "00000531",
+      "canvas": 13,
+      "date": "1937-01-08",
+      "time": "17:34",
+      "serial": "1486",
+      "fee_francs": "14",
+      "ciphertext_starts": "NOCUO",
+      "original_source": {
+        "document": "Unterlagen_0000072",
+        "canvas_label": "13",
+        "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000531.jpg",
+        "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000531.jpg/full/full/0/default.jpg",
+        "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000531.jpg",
+        "width": 2540,
+        "height": 1808,
+        "bytes": 505085,
+        "sha256": "84002a17f2d703512fa277e94fc94dccc8ce0a0791044a2a71b39dd4d1cb9d85"
+      },
+      "sender_field": {
+        "tentative_reading": "Dr ing. W. L. Oswald; Bureau Bahnhofstr. 12; Zürich",
+        "status": "La inicial L parece visible en este original; remitido al agente raíz para cotejo. No modificar transcripciones anteriores sin cotejo."
+      }
+    }
+  ],
+  "other_images_in_piece_72": {
+    "00000528": "Repetición del anverso T1 con tira plegada encima.",
+    "00000529": "Repetición del anverso T1 con tira doblada horizontalmente.",
+    "00000530": "Reverso de T1; transparencias y anotaciones de cálculo.",
+    "00000532": "Reverso de T2; transparencias y anotaciones de cálculo.",
+    "00000521_00000523_00000525": "Otros anexos sobre Hunziker; no son telegramas BLUME. No se recogen detalles técnicos."
+  },
+  "limitations": [
+    "No se ha obtenido texto en claro ni clave en la carta PTT ni en el acta de Werner.",
+    "La búsqueda OCR no demuestra ausencia de una clave o traducción en todo el expediente; las páginas manuscritas y OCR pueden omitir información.",
+    "No se ha identificado por documentos independientes quién era el destinatario BLUME.",
+    "Imágenes originales preservadas sin recortar, limpiar ni añadir anotaciones.",
+    "Las fechas y horas de T1/T2 se registran como visibles en los formularios, sin interpretar todos los sellos de transmisión."
+  ],
+  "saved_public_sources": [
+    {
+      "path": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-entity.json",
+      "bytes": 8889,
+      "sha256": "df90af48811c54e772a9652f8d5473847b1d71c1eb49282f68c838f4cb8b8c2f"
+    },
+    {
+      "path": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-manifest.json",
+      "bytes": 9255,
+      "sha256": "3e518bd74c1c6aa7197c4c87cf67b8ae7a93cf406131a742d29a4c9d50e5f545"
+    },
+    {
+      "path": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-sub66-manifest.json",
+      "bytes": 7533,
+      "sha256": "a9e2edcedab471e5e5d1046c3099e02fb4aade0c7d9ceee43860d5113e0dfb94"
+    },
+    {
+      "path": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-Dokument_0000069-manifest.json",
+      "bytes": 13957,
+      "sha256": "b06cf311af5f291c97c2570f424f23209644cfdcaf77bb4b79d13f0cded7f4e6"
+    },
+    {
+      "path": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-Unterlagen_0000072-manifest.json",
+      "bytes": 29135,
+      "sha256": "faf8f63dee5def890cc45f8308bdb78f06d655cc3fed8a8874d576c59391fcbd"
+    },
+    {
+      "path": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-ocr.zip",
+      "bytes": 600737,
+      "sha256": "5738b7f85314cfb6c6b92a4a2c4263e0d9f0f6e039710cc4e8bb0b9a75babd66"
+    },
+    {
+      "path": "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-images-source-ledger.json",
+      "bytes": 11842,
+      "sha256": "2f652f3c4ac852c135b684b36031f478c7196e9e7143cd6f5e9f9093a33ef970"
+    }
+  ],
+  "original_images_count": 20,
+  "all_image_provenance_ledger": "work/history/bar-blume277-images-source-ledger.json",
+  "relevant_ocr_paths": [
+    "work/history/bar-blume277-ocr/Dokument_0000069_OCR.txt",
+    "work/history/bar-blume277-ocr/Unterlagen_0000072_OCR.txt"
+  ]
+}

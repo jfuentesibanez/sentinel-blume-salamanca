@@ -1,0 +1,119 @@
+{
+  "project": "Sentinel — BLUME SALAMANCA",
+  "phase": 11,
+  "date": "2026-10-02",
+  "report": {
+    "path": "outputs/Sentinel_BLUME_fase11_2026-10-02.txt",
+    "sha256": "b46e1d9307980e1d529124acc8e653f21a39e970d8bb72e091c48e7e4781b0a9"
+  },
+  "historical_status": "No verified historical plaintext, key or recipient identity.",
+  "history": {
+    "source": "https://digitale-sammlungen.de/de/view/bsb00045915",
+    "permalink": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00045915-4",
+    "document_numbers": [
+      163,
+      180,
+      181,
+      187,
+      196,
+      205,
+      206,
+      207,
+      208,
+      213
+    ],
+    "fully_read_documents": 10,
+    "additional_primary_pieces": 4,
+    "visual_scans": 35,
+    "new_viewer_queries": 2,
+    "root_independent_visual_cotejo": [
+      180,
+      187,
+      213
+    ],
+    "limit": "Edited facsimile1951, not full original archive files. Printed film/frame references not converted to current PAAA signatures."
+  },
+  "crypto": {
+    "scope": "Synthetic K2-only; known widths, shared keys; no K1 or historical attack.",
+    "seeds": [
+      20262101,
+      20262102
+    ],
+    "paired_cases": 8,
+    "rounds_per_method": 16,
+    "hits": {
+      "population": 2,
+      "cap5000": 3
+    },
+    "cases_with_any_hit": {
+      "population": 1,
+      "cap5000": 2
+    },
+    "calls_per_method": 1600000,
+    "limit": "All hits German12x15. No French or20x25 recovery. Local cap and refresh frequency change together. Literary controls are not1937commercial plaintext."
+  },
+  "emails": {
+    "account": "javier@ncompany.es",
+    "read_threads": 4,
+    "targeted_query_results": 0,
+    "scope": "No replies in the four project threads or targeted query. No general mailbox claim."
+  },
+  "source_integrity": {
+    "phase": 11,
+    "passed": true,
+    "new_resource_counts_excluding_manifests": {
+      "work/phase11_crypto/RESOURCE_HASHES.json": 35,
+      "work/history/phase11-adap-documentos/resource-hashes.json": 43,
+      "work/history/phase11-adap-buscador/resource-hashes.json": 5,
+      "work/history/phase11-oswald-madrid/resource-hashes.json": 3,
+      "work/source/phase11-public-state/resource-hashes.json": 5
+    },
+    "previous_historical_files_preserved": 849,
+    "previous_crypto_files_preserved": 282,
+    "previous_phase10_evidence_files_preserved": 16,
+    "previous_phase10_report_and_provenance_preserved": true,
+    "canonical_ciphertexts_preserved": 2,
+    "root_crypto_check_passed": true,
+    "independent_crypto_check_passed": true,
+    "history_visual_documents": 10,
+    "history_visual_scans": 35,
+    "additional_primary_pieces": 4,
+    "root_visual_cotejo": [
+      180,
+      187,
+      213
+    ],
+    "report_sha256": "b46e1d9307980e1d529124acc8e653f21a39e970d8bb72e091c48e7e4781b0a9",
+    "contacts": 0,
+    "new_searches_after_sealed32": 0,
+    "limits": "No verified BLUME plaintext, key or recipient identity. Provenance verifies saved evidence, not historical hypotheses."
+  },
+  "evidence_files": {
+    "work/phase11_crypto/RESOURCE_HASHES.json": "d6dc4c2b70c62281905802e2336226527f50148b2b7b571a9c9c89e963a99ee4",
+    "work/phase11_crypto/manifest.json": "af1ddb7d2b85853e4601fd1942a2ce153439c1d88959c9111835be8b08277d00",
+    "work/phase11_crypto/summary.json": "4f6afbec4f271dc1d32e0172d43cf7398117b9323523267feafd646d20fb3da9",
+    "work/phase11_crypto/verification.json": "99cc3d711e07d53bdc85fa5a05c9d1435e8d20f637583a1b0ddc9e8315784c26",
+    "work/phase11_pre_search_root_review.json": "4e4023e1f28ad081cc0a095a6f7c075f184af0e4897754bec3b825a348d52822",
+    "work/phase11_independent_audit.json": "98ff13fcebddf2ee314a314d0b7769641df231b18010ed1f17ef27f9b9cea3bf",
+    "work/phase11_root_verification.json": "6cb56a2b322341e56faae2150a0bea67f98f0ca7180f71b75513b4cc21591045",
+    "work/verify_blume_phase11.py": "93ef5ea77342f309f06652a577a3f55292f0e61f9a14d823bd1e5b86e582ee4c",
+    "work/phase11_final_artifact_verification.json": "42a5dd7a02da5791bd40a9432b5111d19a6a9d6a74f8d5e472c04d2c70bbe9e4",
+    "work/close_blume_phase11.py": "e17ea6382d65b646712616963357002ea12e4353a99688916b3a60307537ae55",
+    "work/history/phase11-adap-documentos/resource-hashes.json": "81c5822e4685bfafe7ab5197a8e7f723c048de3e71548f1909c37470dcf1a77f",
+    "work/history/phase11-adap-documentos/ledger.json": "e836fc9da1ae537fb6026c8658fb8b2dd51748801b444f13429bf555ace3da60",
+    "work/history/phase11-adap-documentos/resultado.txt": "20824fd22c51ac22e78399fc1fcaedd9ce78cefeae21245993c73a2e014044db",
+    "work/history/phase11-adap-buscador/resource-hashes.json": "d74fafc8b305fdf2f060047eca7186a5a9d16a3f3498deb44c2db187e895ca47",
+    "work/history/phase11-oswald-madrid/resource-hashes.json": "c50206966f1d337cb8462b9cdf12c618419aa0d3c3c4aa62e9ff625dce1bebbf",
+    "work/source/phase11-public-state/resource-hashes.json": "0caafa1c817c9d6dde58d8ad34bc0f3acecdfb40b8e68f9c3f34ab40dc5bd9d6",
+    "outputs/Sentinel_BLUME_estado_correos_fase11_2026-10-02.json": "767dc112da1aac5f16aff09723fab7bd7ed7f566490fc34a9f665758673d8bc9"
+  },
+  "external_actions": {
+    "emails_sent": 0,
+    "comments_posted": 0,
+    "accounts_created": 0,
+    "orders": 0,
+    "payments": 0,
+    "automations": 0
+  },
+  "next_steps_status": "Search original Bernhardt/Hisma correspondence and convert film references; design next long-key control pilot separating cap and refresh changes. Neither executed by this closure."
+}

@@ -1,0 +1,87 @@
+Sentinel — revisión interna de la propuesta fase12
+2 de octubre de 2026. Revisión de fuente y diseño; sin búsquedas ni controles.
+Esta nota revisa la propuesta propia y las fuentes de fase10/11. La respuesta
+de Claude se analiza por separado en crypto_comparativa_claude.txt.
+
+El factorial propuesto puede comparar dos políticas dentro de su arquitectura,
+pero debe cerrar estas ambigüedades antes de programar o sellar un experimento.
+
+1. Preparación común, fusión y usos
+
+Puntuar las mismas claves al checkpoint separa incorporar padres de puntuar
+más candidatos: todas las políticas pagan 7.000 llamadas y conservan los mismos
+scores en top5. El contraste mide FUSIÓN DE PADRES CON LA REGLA DE USOS, no la
+renovación completa frente a emplear esas llamadas en escaladas.
+
+La regla congelada da uso cero a una candidata diversa y hereda el máximo de
+los vecinos próximos reemplazados. Por tanto, fusionar altera claves y prioridad
+de selección. Eso forma parte del tratamiento, pero no permite atribuir una
+mejora sólo a calidad/diversidad de claves. No igualar ni reiniciar los usos al
+checkpoint: sería otro tratamiento. Registrarlos antes/después y reproducir la
+admisión de las veinte supervivientes en su orden exacto.
+
+Advertencia de implementación: phase10::PopulationSearch::prepare() admite
+automáticamente las veinte supervivientes. El control sin fusión no puede
+llamar a esa función como si sólo preparara. Necesita una rutina nueva de
+generación/puntuación sin admisión y una fusión condicional posterior. Tampoco
+basta fusionar y restaurar sólo population: quedarían IDs, eventos, secuencias
+y otros efectos. Todas las puntuaciones pasan por evaluate y cuentan.
+
+2. Frontera de 50.000 y barridos
+
+La propuesta abandona una escalada parcial a las 50.000. Es un operador de
+interrupción adicional, común a los cuatro brazos. No invalida sus contrastes,
+pero éstos quedan condicionados a esa frontera; no estiman qué haría el tope
+sin interrupción. El cap largo permite dos barridos completos en una escalada,
+no en TODAS: una escalada tardía puede cortar por checkpoint o presupuesto.
+
+Fijar el orden exacto: procesar el resultado del movimiento ya puntuado; si
+concluyó un barrido sin mejora, registrar convergencia y ofrecer sólo una vez;
+en caso contrario, una escalada en curso retorna parcial_checkpoint. Si sólo
+se puntuó una perturbación, distinguir el hijo sin escalada de una escalada
+parcial. No incrementar de nuevo uses al transitar de etapa ni ofrecer dos
+veces la misma terminación. La oferta parcial usa la regla común.
+
+El corte global impide admisión/checkpoint posterior. Declarar antes de correr
+qué ocurre cuando coinciden global, checkpoint y cap; preservar la evidencia
+de barridos completos por separado del motivo de parada. Nunca marcar como
+convergente una pasada incompleta sólo porque no mejoró.
+
+Hay un detalle de la fuente fase11: la siguiente pasada se baraja ANTES de
+comprobar el tope dentro del bucle. Un cap de 33.298 tras dos pasadas mejoradas
+podría consumir un barajado de una tercera pasada con cero propuestas. En el
+nuevo diseño comprobar límites antes de ese barajado, o conservar y documentar
+explícitamente ese consumo. No cambiarlo después de ver resultados.
+
+3. RNG y controles de igualdad
+
+Guardar/restaurar el RNG del recorrido basta para que preparar el checkpoint
+no consuma su secuencia, pero no iguala el recorrido entre caps: un cap largo
+consume más barajados por hijo; los hijos y las admisiones divergen. No vender
+semillas iguales como trayectorias iguales ni como eliminación del ruido.
+
+Fijar algoritmo RNG y derivación de checkpoint_seed; ahora XOR es una propuesta,
+no una especificación ejecutada. La preparación de checkpoint debe usar sólo
+ese RNG, sin depender de población, IDs, usos o consumo previo. Guardar sus
+1.000 claves, veinte supervivientes y hashes de las claves barajadas si se
+requiere auditarlos; no son 1.000 archivos ni llamadas IDP adicionales.
+
+Con el MISMO cap, fusión/no-fusión deben tener idénticos ciphertexts, modelo,
+semilla, archivo, población/usos y estado RNG antes de 50.000, salvo tiempos.
+En los CUATRO brazos deben coincidir las veinte supervivientes de checkpoint.
+Después de fusionar, la divergencia de padres es el tratamiento esperado.
+Registrar también si una K2 recuperada apareció directamente al puntuar ese
+pool común o después, al recorrer padres. Un acierto directo del pool no es
+evidencia de un beneficio de incorporarlo a la población.
+
+No añadir ahora flujos RNG nuevos por hijo/pasada o reiniciar el vector de
+movimientos de forma distinta en algún brazo: introduciría reglas extra.
+Si se adopta esa arquitectura, aplicarla a todos y declarar que el baseline
+del nuevo piloto ya no es el binario congelado de fase11.
+
+Antes de ejecutar
+
+Resolver estas reglas en manifiesto/código revisables, conservar la verdad
+fuera del solver y evaluar después. Mostrar costes reales y diferencias por
+caso/ronda; cuatro pares propuestos no permiten una tasa general ni una regla
+de ganador. El ensayo sigue siendo K2 sintética con anchos conocidos, no BLUME.

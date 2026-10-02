@@ -1,0 +1,18 @@
+{
+  "phase13_start": {
+    "checked": 104,
+    "mismatches": []
+  },
+  "prior_history": {
+    "checked": 903,
+    "mismatches": []
+  },
+  "prior_crypto": {
+    "checked": 282,
+    "mismatches": []
+  },
+  "passed": true,
+  "canonical_raw_and_normalized_hashes_verified": true,
+  "groups_verified": true,
+  "new_searches": 0
+}

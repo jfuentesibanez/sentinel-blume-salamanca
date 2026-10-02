@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "Independent accounting, hashes, model probabilities, logged keys and exact synthetic plaintext scores; no historical decipherment validated",
+  "protected_prior_files_unchanged": 133,
+  "archive_resource_hashes": 23,
+  "language_manifest_file_hashes": 15,
+  "language_processes": 12,
+  "language_oracle_rows": 24,
+  "independently_reconstructed_synthetic_plaintexts": 48,
+  "crypto_manifest_file_hashes": 13,
+  "conditioned_diagnostic_policies": 4,
+  "historical_attack": false
+}

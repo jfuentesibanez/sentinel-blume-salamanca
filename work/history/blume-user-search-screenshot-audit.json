@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-01",
+  "input": "Captura aportada por Javier de una visión general creada por IA que relaciona Blume, Salamanca y Guerra Civil",
+  "assessment": "No aporta prueba de identificación del destinatario de los telegramas de 8 de enero de 1937.",
+  "checks": [
+    {
+      "claim": "Editorial Blume publicó Ellos y nosotros de Sofía Moro",
+      "status": "Confirmado por la ficha de la editorial",
+      "url": "https://blume.net/catalogo/745-ellos-y-nosotros-9788498011227.html",
+      "limitation": "La existencia de ese libro contemporáneo no vincula el sello editorial con el destinatario BLUME de 1937."
+    },
+    {
+      "claim": "Una sección principal del libro se centra en Salamanca, 1936–1938",
+      "status": "No corroborado en la sinopsis ni en el índice general publicados por la editorial",
+      "url": "https://blume.net/catalogo/745-ellos-y-nosotros-9788498011227.html",
+      "limitation": "No se ha leído el libro completo; no se afirma que Salamanca nunca aparezca."
+    },
+    {
+      "claim": "BLUME puede identificarse con Léon Blum por su relación con la Guerra Civil",
+      "status": "Conexión no demostrada",
+      "reason": "Semejanza nominal y contexto general sin documento que vincule a Blum con la dirección BLUME Salamanca. No se trata como candidato identificado."
+    },
+    {
+      "claim": "La Junta de Defensa Nacional se estableció en Salamanca",
+      "status": "Incorrecto",
+      "correction": "El decreto número 1 de constitución está fechado en Burgos el 24 de julio de 1936, publicado el 25 de julio.",
+      "source": "Boletín Oficial de la Junta de Defensa Nacional de España, número 1, primera página",
+      "url": "https://www.boe.es/gazeta/dias/1936/07/25/pdfs/BJD-1936-1.pdf",
+      "evidence": "Texto del decreto y cabecera leídos en la fuente oficial."
+    }
+  ],
+  "editorial_foundation_year": "No se afirma: no fue necesario establecerla para distinguir el sello editorial del destinatario de 1937.",
+  "method": "Separar coincidencia de palabras, contexto histórico e identificación documental; contrastar afirmaciones puntuales con fuentes primarias."
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-02",
+  "scope": "External diagnosis of frozen phase8, not a new recovery trial",
+  "independent_method": "Direct feasible-boundary Cartesian products and greedy directed neighbour assignment",
+  "saved_candidate_score_checks": 118,
+  "previous_files_unchanged": 34,
+  "results": [
+    {
+      "case_id": "de_fold_12x15_20261801",
+      "true_k2_idp": -2.2394974282942712,
+      "best_returned_pool_idp": -2.2394974282942712,
+      "true_minus_best": 0.0,
+      "true_k2_in_returned_pool": true,
+      "distinct_returned_candidates": 14
+    },
+    {
+      "case_id": "de_fold_12x15_20261802",
+      "true_k2_idp": -2.205751763191074,
+      "best_returned_pool_idp": -2.205751763191074,
+      "true_minus_best": 0.0,
+      "true_k2_in_returned_pool": true,
+      "distinct_returned_candidates": 12
+    },
+    {
+      "case_id": "de_fold_20x25_20261801",
+      "true_k2_idp": -2.2381645277926796,
+      "best_returned_pool_idp": -2.4942664985593996,
+      "true_minus_best": 0.25610197076672003,
+      "true_k2_in_returned_pool": false,
+      "distinct_returned_candidates": 15
+    },
+    {
+      "case_id": "de_fold_20x25_20261802",
+      "true_k2_idp": -2.2081584238692336,
+      "best_returned_pool_idp": -2.469436896474738,
+      "true_minus_best": 0.2612784726055044,
+      "true_k2_in_returned_pool": false,
+      "distinct_returned_candidates": 15
+    },
+    {
+      "case_id": "fr_fold_12x15_20261801",
+      "true_k2_idp": -2.222707812053462,
+      "best_returned_pool_idp": -2.463944592202703,
+      "true_minus_best": 0.241236780149241,
+      "true_k2_in_returned_pool": false,
+      "distinct_returned_candidates": 15
+    },
+    {
+      "case_id": "fr_fold_12x15_20261802",
+      "true_k2_idp": -2.2331786804522076,
+      "best_returned_pool_idp": -2.36105028896903,
+      "true_minus_best": 0.12787160851682255,
+      "true_k2_in_returned_pool": false,
+      "distinct_returned_candidates": 15
+    },
+    {
+      "case_id": "fr_fold_20x25_20261801",
+      "true_k2_idp": -2.2321707143595346,
+      "best_returned_pool_idp": -2.4137588623322936,
+      "true_minus_best": 0.18158814797275902,
+      "true_k2_in_returned_pool": false,
+      "distinct_returned_candidates": 15
+    },
+    {
+      "case_id": "fr_fold_20x25_20261802",
+      "true_k2_idp": -2.2365402336183346,
+      "best_returned_pool_idp": -2.4484629732997796,
+      "true_minus_best": 0.21192273968144493,
+      "true_k2_in_returned_pool": false,
+      "distinct_returned_candidates": 15
+    }
+  ],
+  "limits": [
+    "Eight synthetic cases, known widths and conv0.",
+    "Comparison with returned pools only; not the global IDP landscape.",
+    "Greedy IDP is a relaxed bigram score, not an inferred first key or plaintext.",
+    "No historical cipher or language conclusion."
+  ],
+  "script_sha256": "78446220e12187093ff758738dcc45b9982aecebe459e2c7413f784d98e1fe90"
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "rows_checked": 16,
+  "synthetic_plaintexts_reconstructed": 32,
+  "scores_recomputed": 64,
+  "protected_inputs_unchanged": 12,
+  "historical_attack": false,
+  "widths_disclosed": true,
+  "keys_disclosed": false,
+  "truth_separation_review": "source_full receives ciphertext, widths, model, independent search seed and budgets. True keys/plaintexts are used by plant() and post-solver evaluation only.",
+  "limitations": "Small paired controls, one literary corpus per language, known widths, no new language-specific negative controls. This does not validate a decipherment of BLUME.",
+  "PTT_archival_resource_hashes_checked": 19,
+  "PTT_primary_remission_sha256": "01b1d429f63285735b736daa7b0ee7889bd731001cacdb57016f9c656fac971b",
+  "readable_summary": {
+    "path": "outputs/Sentinel_BLUME_siguientes_pasos_2026-10-02.txt",
+    "sha256": "0114f4669ce20c4b1da5e5ee26712c813f4affc152e3c66e78c6e49f3e786240"
+  }
+}

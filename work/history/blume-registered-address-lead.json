@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-01",
+  "question": "¿Puede BLUME designar una dirección telegráfica abreviada o convenida en Salamanca, en vez de un apellido?",
+  "conclusion": "Hipótesis documentalmente posible. No se ha localizado un registro que identifique BLUME ni se ha probado que esta dirección concreta estuviera registrada.",
+  "primary_sources": [
+    {
+      "title": "Orden del Ministerio de Comunicaciones, Madrid, 20 de febrero de 1934",
+      "publication": "Gaceta de Madrid, número 54, 23 de febrero de 1934",
+      "printed_page": 1437,
+      "pdf_page_1_based": 13,
+      "url": "https://www.boe.es/gazeta/dias/1934/02/23/pdfs/GMD-1934-54.pdf",
+      "local_pdf": "work/history/gaceta1934-direcciones-abreviadas.pdf",
+      "local_render": "work/history/gaceta1934-direcciones-abreviadas-p1437.png",
+      "verified_visually": true,
+      "finding": "La orden documenta un servicio de direcciones abreviadas en Telégrafos y atribuye su regulación administrativa a la Dirección general técnica de Telecomunicaciones.",
+      "limitation": "No enumera abonados ni contiene BLUME, Salamanca o los Oswald. Confirma la existencia del servicio, no la identidad del destinatario."
+    },
+    {
+      "title": "Telegraph Regulations, Madrid, 1932, artículo 15, párrafos 2 y 9",
+      "publication": "League of Nations Treaty Series, volumen 151, 1934, número 3479",
+      "printed_page": 63,
+      "pdf_page_1_based": 63,
+      "url": "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20151/v151.pdf",
+      "local_pdf": "work/history/telegraph-regulations-madrid1932-lnts151.pdf",
+      "local_render": "work/history/telegraph-regulations-madrid1932-p63.png",
+      "verified_visually": true,
+      "finding": "El párrafo 2 exige al menos destinatario y oficina de destino; el párrafo 9 admite dirección arbitraria o abreviada mediante un acuerdo con la oficina de destino.",
+      "limitation": "Regla general de la época; no prueba la aplicación concreta a BLUME ni certifica la entrega de nuestros telegramas."
+    }
+  ],
+  "catalogue_search": {
+    "institution": "Biblioteca de Correos y Telégrafos",
+    "url": "https://bibliotecadecorreos.absys.cloud/cgi-bin/opac/",
+    "access": "Catálogo público en navegador. La pantalla inicial de sesión expirada se resolvió siguiendo su enlace público Búsqueda Avanzada; no se introdujeron credenciales.",
+    "queries": [
+      {"query": "direcciones", "scope": "Cualquier campo, sin fechas", "hits": 8, "snapshot": "work/history/correos-catalogue-direcciones.txt", "relevant_register_identified": false},
+      {"query": "abreviadas", "scope": "Cualquier campo, sin fechas", "hits": 6, "snapshot": "work/history/correos-catalogue-abreviadas.txt", "relevant_register_identified": false},
+      {"query": "Salamanca", "scope": "Cualquier campo, sin fechas", "hits": 61, "read": "Primera página de diez resultados solamente", "snapshot": "work/history/correos-catalogue-salamanca.txt"},
+      {"query": "Salamanca", "scope": "Cualquier campo, publicaciones entre 1930 y 1940", "hits": 2, "snapshot": "work/history/correos-catalogue-salamanca1930-1940.txt", "relevant_register_identified": false},
+      {"query": "Blume", "scope": "Cualquier campo, sin fechas", "hits": 0, "snapshot": "work/history/correos-catalogue-blume.txt"}
+    ],
+    "limitations": "Búsqueda en metadatos de biblioteca, no lectura completa de fondos documentales o de libros de abonados. Los resultados no prueban que los registros no existan.",
+    "public_contact_observed": "bibliotecacorreosytelegrafos@correos.com",
+    "contact_source": "Pie del catálogo público, observado en la sesión de consulta del 1 de octubre de 2026",
+    "pending_question": "¿Se conservan libros de registro, concesiones, renovaciones o listados de direcciones telegráficas abreviadas/convenidas de la oficina de Salamanca correspondientes a 1936–1938? Buscamos BLUME, destinatario de dos telegramas de Zúrich del 8 de enero de 1937 (11:31 y 17:34). Si los libros están en otro archivo, ¿podrían identificar la institución y serie?",
+    "external_contact_sent": false
+  },
+  "press_search_limits": [
+    "Las consultas web de BLUME combinadas con Salamanca, Oswald, HISMA, lana y fechas 1936–1938 no identificaron un destinatario verificable.",
+    "La Hemeroteca Digital BNE mostró una verificación humana; no se completó ni se consultó su corpus mediante automatización.",
+    "Biblioteca Virtual de Prensa Histórica devolvió Too Many Requests; no se consultó su corpus directamente.",
+    "Numerosos resultados aluden a la editorial Blume, a bibliografías modernas o a otros homónimos. No se han convertido en candidatos sin prueba de época."
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/3ad2db78-3938-5400-8984-42d2b055e749.json",
+  "label": {
+    "none": [
+      "Oswald, Victor, 1912, Madrid"
+    ]
+  },
+  "type": "Collection",
+  "items": [
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Umschlag_0000001/_ZjckQlTUJG7P61VHJgDFkd.json",
+      "label": {
+        "none": [
+          "Umschlag_0000001"
+        ]
+      },
+      "type": "Manifest",
+      "thumbnail": [
+        {
+          "format": "image/jpeg",
+          "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUmschlag_0000001%2F00000001.jpg/full/150,/0/default.jpg",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000002/_TLanrHSI1w2pxe643fNd7S.json",
+      "label": {
+        "none": [
+          "Unterlagen_0000002"
+        ]
+      },
+      "type": "Manifest",
+      "thumbnail": [
+        {
+          "format": "image/jpeg",
+          "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000002%2F00000005.jpg/full/150,/0/default.jpg",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Dokument_0000003/_kNUNKAgD6GhcqaNfk9sjht.json",
+      "label": {
+        "none": [
+          "Dokument_0000003"
+        ]
+      },
+      "type": "Manifest",
+      "thumbnail": [
+        {
+          "format": "image/jpeg",
+          "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FDokument_0000003%2F00000073.jpg/full/150,/0/default.jpg",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json",
+      "label": {
+        "none": [
+          "Unterlagen_0000004"
+        ]
+      },
+      "type": "Manifest",
+      "thumbnail": [
+        {
+          "format": "image/jpeg",
+          "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000078.jpg/full/150,/0/default.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "de": [
+          "Signatur"
+        ],
+        "en": [
+          "Reference code"
+        ],
+        "fr": [
+          "Cote"
+        ],
+        "it": [
+          "Segnatura"
+        ],
+        "none": [
+          "Signatur"
+        ]
+      },
+      "value": {
+        "de": [
+          "E2001E#1000/1571#787*"
+        ],
+        "en": [
+          "E2001E#1000/1571#787*"
+        ],
+        "fr": [
+          "E2001E#1000/1571#787*"
+        ],
+        "it": [
+          "E2001E#1000/1571#787*"
+        ],
+        "none": [
+          "E2001E#1000/1571#787*"
+        ]
+      }
+    },
+    {
+      "label": {
+        "de": [
+          "Titel"
+        ],
+        "en": [
+          "Title"
+        ],
+        "fr": [
+          "Titre"
+        ],
+        "it": [
+          "Titolo"
+        ],
+        "none": [
+          "Titel"
+        ]
+      },
+      "value": {
+        "de": [
+          "Oswald, Victor, 1912, Madrid"
+        ],
+        "en": [
+          "Oswald, Victor, 1912, Madrid"
+        ],
+        "fr": [
+          "Oswald, Victor, 1912, Madrid"
+        ],
+        "it": [
+          "Oswald, Victor, 1912, Madrid"
+        ],
+        "none": [
+          "Oswald, Victor, 1912, Madrid"
+        ]
+      }
+    },
+    {
+      "label": {
+        "de": [
+          "Entstehungszeitraum"
+        ],
+        "en": [
+          "Creation period"
+        ],
+        "fr": [
+          "Date de création"
+        ],
+        "it": [
+          "Periodo di costituzione"
+        ],
+        "none": [
+          "Entstehungszeitraum"
+        ]
+      },
+      "value": {
+        "de": [
+          "1937-1948"
+        ],
+        "en": [
+          "1937-1948"
+        ],
+        "fr": [
+          "1937-1948"
+        ],
+        "it": [
+          "1937-1948"
+        ],
+        "none": [
+          "1937-1948"
+        ]
+      }
+    },
+    {
+      "label": {
+        "de": [
+          "Aktenzeichen"
+        ],
+        "en": [
+          "File reference"
+        ],
+        "fr": [
+          "Référence"
+        ],
+        "it": [
+          "Riferimento"
+        ],
+        "none": [
+          "Aktenzeichen"
+        ]
+      },
+      "value": {
+        "de": [
+          "B.31.51"
+        ],
+        "en": [
+          "B.31.51"
+        ],
+        "fr": [
+          "B.31.51"
+        ],
+        "it": [
+          "B.31.51"
+        ],
+        "none": [
+          "B.31.51"
+        ]
+      }
+    }
+  ],
+  "rendering": [
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/Vz      3ad2db78-3938-5400-8984-42d2b055e749",
+      "label": {
+        "de": [
+          "Laden Sie die Unterlagen von der Detailansicht herunter"
+        ],
+        "en": [
+          "Download the documents from the detail view"
+        ],
+        "fr": [
+          "Téléchargez les documents depuis l’affichage complet"
+        ],
+        "it": [
+          "Scarica i documenti dalla visualizzazione dei dettagli"
+        ]
+      },
+      "type": "Text",
+      "format": "text/plain"
+    },
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/files/ocr/3ad2db78-393/8-5400-8984-/42d2b055e749/OCR-Text-komplett.zip",
+      "label": {
+        "de": [
+          "Download OCR"
+        ],
+        "en": [
+          "Download OCR"
+        ],
+        "fr": [
+          "Download OCR"
+        ],
+        "it": [
+          "Download OCR"
+        ]
+      },
+      "type": "Zip",
+      "format": "application/zip"
+    }
+  ],
+  "service": [
+    {
+      "@id": "https://iiif.recherche.bar.admin.ch/iiif/search/collection/3ad2db78-393-8-5400-8984--42d2b055e749",
+      "@type": "SearchService2"
+    }
+  ],
+  "start": null
+}

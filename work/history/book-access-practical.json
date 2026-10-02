@@ -1,0 +1,51 @@
+{
+  "book": "Nylon und Napalm",
+  "author": "Regula Bochsler",
+  "publisher": "HIER UND JETZT",
+  "print_isbn": "9783039195695",
+  "ebook_isbn": "9783039199921",
+  "relevant_chapter": "Bilder für Hitler, Bomben für Franco",
+  "location_support": {
+    "table_of_contents": "https://www.legimi.de/e-book-nylon-und-napalm-regula-bochsler,b3465546.html",
+    "google_books_query": "https://books.google.com/books?id=ayibEAAAQBAJ&jscmd=SearchWithinVolume2&q=Bilder%20f%C3%BCr%20Hitler",
+    "chapter_start_in_google_books": "PA1920",
+    "blume_passage": "PT3",
+    "photo_caption": "PT5",
+    "notes_section_start": "PT652",
+    "image_credits_start": "PT718",
+    "printed_pages_warning": "PA1920 y PT3 son identificadores internos erráticos de Google Books; no páginas impresas. No se ha verificado página impresa del pasaje ni ubicación exacta de nota42."
+  },
+  "reader_instructions_es": [
+    "En EPUB buscar Blume Salamanca y pulsar el42 junto al pasaje de copia PTT a Bundesanwaltschaft.",
+    "En papel buscar capítulo Bilder für Hitler, Bomben für Franco y luego Anmerkungen bajo ese mismo encabezado; pedir notas40–44 y el crédito de imagen de los telegramas en Bildnachweis.",
+    "No buscar nota42 global ni página42."
+  ],
+  "legal_access": [
+    {
+      "source": "editorial",
+      "url": "https://www.hierundjetzt.ch/de/catalogue/bochsler-nylon-und-napalm_22000040/",
+      "format": "EPUB",
+      "price_displayed": "CHF49",
+      "access": "Ficha enlaza iTunes/Amazon; no venta directa demostrada."
+    },
+    {
+      "source": "OrellFüssli",
+      "url": "https://www.orellfuessli.ch/shop/home/artikeldetails/A1066941954",
+      "format": "EPUB3",
+      "price_displayed": "CHF49",
+      "access": "Ficha anuncia descarga inmediata y sin protección; elegibilidad compra desde España no verificada."
+    },
+    {
+      "source": "GoogleBooks",
+      "url": "https://books.google.com/books/about/Nylon_und_Napalm.html?id=ayibEAAAQBAJ",
+      "access": "Búsqueda pública permite ver extracto con42; nota completa y crédito exacto no recuperados."
+    },
+    {
+      "source": "Legimi",
+      "url": "https://www.legimi.de/e-book-nylon-und-napalm-regula-bochsler,b3465546.html",
+      "access": "Ofrece suscripción/7días prueba; requisitos regionales y captura de nota42 en app no verificados."
+    }
+  ],
+  "library_status_es": "No se ha verificado ejemplar disponible en biblioteca española ni ficha de fondos suizos. Puede solicitarse por ISBN a biblioteca del usuario, sin prometer disponibilidad.",
+  "actions": "No compras, contactos, altas o suscripciones realizados."
+}

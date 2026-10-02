@@ -1,0 +1,247 @@
+{
+  "phase": "8",
+  "paired_cases": 8,
+  "rows": 16,
+  "historical_attack": false,
+  "ground_truth_disclosed_to_solver": false,
+  "cells": [
+    {
+      "language_model": "de_fold",
+      "w1": 12,
+      "w2": 15,
+      "policy": "single",
+      "denominator": 2,
+      "exact_both_plaintexts": 2,
+      "true_k2_in_any_pool": 2,
+      "charged_seconds": 6.485060125,
+      "charged_evaluations": 1094404
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 12,
+      "w2": 15,
+      "policy": "pool5",
+      "denominator": 2,
+      "exact_both_plaintexts": 2,
+      "true_k2_in_any_pool": 2,
+      "charged_seconds": 8.349921332,
+      "charged_evaluations": 5835268
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 20,
+      "w2": 25,
+      "policy": "single",
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "true_k2_in_any_pool": 0,
+      "charged_seconds": 34.022892833,
+      "charged_evaluations": 9177607
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 20,
+      "w2": 25,
+      "policy": "pool5",
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "true_k2_in_any_pool": 0,
+      "charged_seconds": 42.976918874999996,
+      "charged_evaluations": 13828683
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 12,
+      "w2": 15,
+      "policy": "single",
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "true_k2_in_any_pool": 0,
+      "charged_seconds": 5.560501459999999,
+      "charged_evaluations": 1454136
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 12,
+      "w2": 15,
+      "policy": "pool5",
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "true_k2_in_any_pool": 0,
+      "charged_seconds": 7.653892336,
+      "charged_evaluations": 6508223
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 20,
+      "w2": 25,
+      "policy": "single",
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "true_k2_in_any_pool": 0,
+      "charged_seconds": 34.206827249,
+      "charged_evaluations": 9174212
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 20,
+      "w2": 25,
+      "policy": "pool5",
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "true_k2_in_any_pool": 0,
+      "charged_seconds": 42.607633791,
+      "charged_evaluations": 13684316
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "case_id": "de_fold_12x15_20261801",
+      "single_exact": true,
+      "pool_exact": true,
+      "pool_minus_single_seconds": 0.9835934159999997,
+      "pool_minus_single_evaluations": 2562145,
+      "single_q3": -3.11987228431,
+      "pool_q3": -3.11987228431
+    },
+    {
+      "case_id": "de_fold_12x15_20261802",
+      "single_exact": true,
+      "pool_exact": true,
+      "pool_minus_single_seconds": 0.881267791,
+      "pool_minus_single_evaluations": 2178719,
+      "single_q3": -3.09818724621,
+      "pool_q3": -3.09818724621
+    },
+    {
+      "case_id": "de_fold_20x25_20261801",
+      "single_exact": false,
+      "pool_exact": false,
+      "pool_minus_single_seconds": 3.9046065409999997,
+      "pool_minus_single_evaluations": 2312974,
+      "single_q3": -4.36403091656,
+      "pool_q3": -4.36403091656
+    },
+    {
+      "case_id": "de_fold_20x25_20261802",
+      "single_exact": false,
+      "pool_exact": false,
+      "pool_minus_single_seconds": 5.049419500999999,
+      "pool_minus_single_evaluations": 2338102,
+      "single_q3": -4.3408929374,
+      "pool_q3": -4.37193528471
+    },
+    {
+      "case_id": "fr_fold_12x15_20261801",
+      "single_exact": false,
+      "pool_exact": false,
+      "pool_minus_single_seconds": 1.0243717930000003,
+      "pool_minus_single_evaluations": 2476509,
+      "single_q3": -4.27673498264,
+      "pool_q3": -4.27673498264
+    },
+    {
+      "case_id": "fr_fold_12x15_20261802",
+      "single_exact": false,
+      "pool_exact": false,
+      "pool_minus_single_seconds": 1.0690190830000001,
+      "pool_minus_single_evaluations": 2577578,
+      "single_q3": -4.04584805665,
+      "pool_q3": -4.04584805665
+    },
+    {
+      "case_id": "fr_fold_20x25_20261801",
+      "single_exact": false,
+      "pool_exact": false,
+      "pool_minus_single_seconds": 4.74767975,
+      "pool_minus_single_evaluations": 2315152,
+      "single_q3": -4.12119371542,
+      "pool_q3": -4.13927732213
+    },
+    {
+      "case_id": "fr_fold_20x25_20261802",
+      "single_exact": false,
+      "pool_exact": false,
+      "pool_minus_single_seconds": 3.653126792000002,
+      "pool_minus_single_evaluations": 2194952,
+      "single_q3": -4.27504640052,
+      "pool_q3": -4.27328138376
+    }
+  ],
+  "single_exact": 2,
+  "pool_exact": 2,
+  "pool_only_recoveries": 0,
+  "single_only_recoveries": 0,
+  "total_charged_seconds_by_policy": {
+    "single": 80.275281667,
+    "pool5": 101.588366334
+  },
+  "total_charged_evaluations_by_policy": {
+    "single": 20900359,
+    "pool5": 39856490
+  },
+  "cut_causes": [
+    {
+      "policy": "pool5",
+      "stage": "final_k2_stage",
+      "cause": "algorithm_finished",
+      "count": 118
+    },
+    {
+      "policy": "pool5",
+      "stage": "k1_stage",
+      "cause": "algorithm_finished",
+      "count": 58
+    },
+    {
+      "policy": "pool5",
+      "stage": "k1_stage",
+      "cause": "evaluations",
+      "count": 60
+    },
+    {
+      "policy": "pool5",
+      "stage": "shared_k2_stage",
+      "cause": "algorithm_finished",
+      "count": 12
+    },
+    {
+      "policy": "pool5",
+      "stage": "shared_k2_stage",
+      "cause": "wall_time",
+      "count": 12
+    },
+    {
+      "policy": "single",
+      "stage": "final_k2_stage",
+      "cause": "algorithm_finished",
+      "count": 24
+    },
+    {
+      "policy": "single",
+      "stage": "k1_stage",
+      "cause": "algorithm_finished",
+      "count": 24
+    },
+    {
+      "policy": "single",
+      "stage": "shared_k2_stage",
+      "cause": "algorithm_finished",
+      "count": 12
+    },
+    {
+      "policy": "single",
+      "stage": "shared_k2_stage",
+      "cause": "wall_time",
+      "count": 12
+    }
+  ],
+  "limits": [
+    "Only two seeds per model and band; policies paired, not independent samples.",
+    "Known widths, shared keys, conv0, no padding; one literary holdout per language.",
+    "Identical maximum budgets do not guarantee equal actual costs; both are reported.",
+    "K2 computed once and charged identically to both policies; charged totals are not actual process time.",
+    "Initial plaintext score calls are recorded separately, with time counted inside the stage.",
+    "No language-specific shuffled controls in this pilot; no exclusion of BLUME language, cipher or keys."
+  ]
+}

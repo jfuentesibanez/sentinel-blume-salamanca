@@ -1,0 +1,21 @@
+{
+  "code": "de_fold",
+  "source_url": "https://www.gutenberg.org/cache/epub/22367/pg22367.txt",
+  "catalogue_url": "https://www.gutenberg.org/ebooks/22367",
+  "title": "Die Verwandlung",
+  "author": "Franz Kafka",
+  "retrieved_date": "2026-10-01",
+  "source_sha256": "359d3f5983c812393f4bd7ee49a350ffffc7d476015e58d6b84b6c848dd2b0e9",
+  "body_start_unicode_offset": 1450,
+  "body_end_unicode_offset": 122587,
+  "opening_anchor": "Als Gregor Samsa eines Morgens",
+  "training": "first80% of narrative by Unicode characters; excludes Gutenberg wrapper and preceding title/publisher/editor preface",
+  "controls": "remaining20% of narrative; training and holdout do not overlap",
+  "normalization": "lowercase; ß→ss, œ→oe, æ→ae; NFKD; retain a-z; no whitespace",
+  "train_letters": 79236,
+  "holdout_letters": 19764,
+  "model_format": "orders2,3,4; complete26^n little-endian float32 log10 probabilities; .01 pseudocount per entry",
+  "model_sha256": "ef650af02cfccb10ccafe5ccc69148e28c8d525cc52f816ef0a1a6f47576294b",
+  "holdout_sha256": "b2e409c67bb6fee689fdc2f90dfb30726afff06a59a351bfeadcd78af0616d6a",
+  "corpus_limit": "One literary work, not an authentic1937 commercial-telegram corpus; punctuation and numeric material dropped; editorial inline notes remain."
+}

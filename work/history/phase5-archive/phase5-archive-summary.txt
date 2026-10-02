@@ -1,0 +1,32 @@
+Sentinel — BLUME SALAMANCA. Fase 5 archivística, 1 de octubre de 2026.
+
+El inventario detallado FA-013 está publicado en el sitio Projekt Firmenarchive. Se encontró siguiendo la remisión del Historischer Verein des Kantons Solothurn. El PDF público tiene 26 páginas y metadatos de creación del 5 de enero de 2023.
+https://firmenarchive.ch/uploads/1/4/2/1/142137325/fa-013_portlandzementfabrik_olten_pco_hunziker_ag.pdf
+Página que lo enlaza:
+https://firmenarchive.ch/die-archivbestaumlnde.html
+
+Signaturas concretas para acotar una consulta al Stadtarchiv Olten:
+- FA-013-11.65.67: actas del consejo, página 2; tramo 1934–1964 en FA-013-NF_0001. Posibles actas y anexos de enero–abril de 1937.
+- FA-013-11.65.79: informes anuales, página 2; tramo 1932–1950 en FA-013-NF_0008. Contexto de 1936/1937.
+- FA-013-32.266: copia del folleto de 60 años de AG Hunziker & Cie, página 23, cajas NF_0053/NF_0054; dosier preciso pendiente.
+- FA-013-61.272: historia empresarial Die Zemente hasta 1945, página 26, NF_0041.
+- FA-013-61.351: folleto del centenario de 1974, página 26, GF_0001.
+
+El inventario indica que faltan los informes de auditoría de 1937 en FA-013-21.77.78, página 4. Esa ausencia no se extiende a los informes anuales ni a todo el archivo. Se cotejaron visualmente las páginas 2, 4, 23 y 26. La correspondencia comercial concreta y el telegrama buscado siguen sin localizar; el inventario no equivale a los originales.
+
+BAR #275 y #276: nuevas consultas de fichas individuales confirman acceso libre y posibilidad de pedido, pero no un manifest o digitalización disponible en esas respuestas. La política pública vigente indica que BAR digitaliza bajo pedido y publica gratis:
+https://www.bar.admin.ch/de/online-zugang
+Esto permite plantear la digitalización de esos dos dosieres sin afirmar que contengan el inventario del registro. No se ha pedido nada y no se aplican esas condiciones gratuitas a Olten.
+
+Drei Kamine (1957), DOI 10.5169/seals-659748: metadatos y un fragmento indexado accesibles, pero la descarga devolvió HTML de verificación. No se ha leído el PDF completo. Se identificaron ejemplares archivísticos de las publicaciones de 1934, 1974 y Die Zemente; ningún escaneo público de esos folletos se localizó en las consultas delimitadas.
+
+El acta o inventario del registro de Werner Oswald, 28 de abril de 1937, C.8/1, sigue sin localizar. No se reauditaron imágenes anteriores ni se repitieron búsquedas transversales BAR de fase 4.
+
+Borradores locales para preguntar por las signaturas y por otros fondos de correspondencia, no para pedir nuevamente el inventario ya encontrado:
+work/history/phase5-archive/Olten-FA013-draft-de.txt
+work/history/phase5-archive/Olten-FA013-draft-es.txt
+
+Procedencia y límites:
+work/history/phase5-archive/phase5-archive-ledger.json
+
+La fase 4 y los ZIP anteriores permanecen sin modificaciones. No se enviaron mensajes, hicieron pedidos, realizaron pagos ni guardaron borradores en correo.

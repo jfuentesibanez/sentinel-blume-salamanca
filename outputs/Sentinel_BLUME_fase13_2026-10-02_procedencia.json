@@ -1,0 +1,93 @@
+{
+  "phase": 13,
+  "date": "2026-10-02",
+  "report": {
+    "path": "outputs/Sentinel_BLUME_fase13_2026-10-02.txt",
+    "sha256": "86e4a0e7966e9b542a6b40906d7ecfb8444e6f57ae1847831db3b323841d0711"
+  },
+  "claude": {
+    "chat_url": "https://claude.ai/chat/3a9b0fb5-f5ab-461d-9da2-b4e06401526c",
+    "model_observed": "Opus 5.5 Medium",
+    "user_authorization": "Adelante, no hay nada privado",
+    "sent_requests": 2,
+    "completed_responses": 2,
+    "original_prepared_request_sha256": "b389b73036c7cd9c5df47fcbe74ef96ad31f90b8e4af5bf94426351926309b91",
+    "first_response_scope": "Critical review of supplied summary. Claude reports one public query and no BAR/MDZ images opened.",
+    "first_capture_limit": "Accessibility truncates two long paragraphs; full verbatim capture not claimed.",
+    "second_response_scope": "Public bibliographic clarification only, independently checked against NARA.",
+    "expanded_design_followup_sent": false,
+    "expanded_followup_automatic_review_rejection": true,
+    "automatic_review_reason": "Authorization interpreted as covering the initial prepared consultation, not the newly added experimental-design detail.",
+    "public_bibliographic_alternative_sent": true,
+    "own_design_reviewed_by_claude": false
+  },
+  "independent_work": {
+    "interrogation_pages_visually_recotejo": [
+      501,
+      503,
+      505
+    ],
+    "interrogation_second_reader_confirmation": 503,
+    "pdf_pages_visually_read": [
+      57,
+      59,
+      63
+    ],
+    "group_description": "123 unique groups +32 unique groups; zero shared groups. Descriptive, no model comparison.",
+    "nara_primary_source_opened": true,
+    "nara_url": "https://www.archives.gov/research/captured-german-records/citing-german-microfilm-sources.html",
+    "kent_metadata_localized": "https://books.google.com/books?id=oHAmAQAAMAAJ",
+    "kent_supplement_start_from_html_contents": 770,
+    "kent_table_images_read": 0,
+    "serial_to_roll_mappings_verified": 0,
+    "current_archival_signatures_verified": 0,
+    "archive_queries": 3,
+    "archive_opens": 3,
+    "root_nara_opens": 1,
+    "new_cryptographic_searches": 0,
+    "new_oracle_controls": 0,
+    "new_historical_attack": false,
+    "new_design_status": "Text decisions reviewed and four findings corrected; implementation and execution pending."
+  },
+  "preservation": {
+    "phase13_start": {
+      "checked": 104,
+      "mismatches": []
+    },
+    "prior_history": {
+      "checked": 903,
+      "mismatches": []
+    },
+    "prior_crypto": {
+      "checked": 282,
+      "mismatches": []
+    },
+    "passed": true,
+    "canonical_raw_and_normalized_hashes_verified": true,
+    "groups_verified": true,
+    "new_searches": 0
+  },
+  "evidence": {
+    "resource_count_excluding_root_manifest": 29,
+    "manifest": "work/phase13_claude/RESOURCE_HASHES.json",
+    "manifest_sha256": "0aafdd6a20fef1d373f68d87a5a5877dbb87f2675b779400f164d668805a7cc6",
+    "source_pdf_path": "work/history/telegraph-regulations-madrid1932-lnts151.pdf",
+    "source_pdf_sha256": "3fcf24765fcf464e517474eebd337902a00c416dd8babb9e19ab7996eaa53c0e"
+  },
+  "external_actions": {
+    "claude_requests_sent": 2,
+    "emails_sent": 0,
+    "orders": 0,
+    "payments": 0,
+    "accounts_changed": 0,
+    "mailbox_checks": 0,
+    "automations_created": 0
+  },
+  "limits": [
+    "No verified identity of BLUME, key or historical plaintext.",
+    "NARA confirms a concordance exists, not a row for643 or3176; catalog HTML is not table-image reading.",
+    "Historical1932 rules not separately checked for amendments or effective application to these telegrams.",
+    "No statistical codebook-family test; five-letter groups alone are not a classification.",
+    "No implementation certification or experimental claims for new proposed design."
+  ]
+}

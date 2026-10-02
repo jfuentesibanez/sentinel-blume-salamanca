@@ -1,0 +1,43 @@
+{
+  "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/Search?language=de",
+  "request": {
+    "query": {
+      "searchGroups": [
+        {
+          "searchFields": [
+            {
+              "key": "allData",
+              "value": "\"E4320B#1974/47#277\""
+            }
+          ],
+          "fieldOperator": 1
+        }
+      ],
+      "groupOperator": 1
+    },
+    "paging": {
+      "skip": 0,
+      "take": 100
+    },
+    "options": {
+      "enableHighlighting": true,
+      "enableAggregations": false
+    }
+  },
+  "response": {
+    "entities": {
+      "items": [],
+      "paging": {
+        "total": 0,
+        "orderBy": null,
+        "sortOrder": null,
+        "skip": 0,
+        "take": 100
+      }
+    },
+    "facets": null,
+    "enableExplanations": false,
+    "searchTimeInMilliseconds": 69,
+    "executionTimeInMilliseconds": 70
+  }
+}

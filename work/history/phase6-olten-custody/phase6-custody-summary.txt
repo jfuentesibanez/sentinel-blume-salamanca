@@ -1,0 +1,41 @@
+Sentinel — BLUME SALAMANCA. Custodia Hunziker/Olten, fase 6, 2 de octubre de 2026.
+
+La procedencia archivística explica por qué hay que confirmar la empresa productora antes de pedir actas. La descripción municipal de FA-013 lo identifica como archivo de Portlandcementwerk Olten, asegurado por Peter Kaiser, director del Museo Histórico de Olten, y entregado al Stadtarchiv el 24 de enero de 2012; es propiedad de la ciudad. Esa misma descripción explica que incorpora documentación de Hunziker por sus vínculos empresariales y de recinto. No documenta una transferencia del archivo completo de la oficina de Zürich.
+
+Fuente primaria reutilizada, página 11:
+https://www.olten.ch/_docn/7067200/26-06-08_do_Bestands%C3%BCbersicht_Firmenarchive.pdf
+No se obtuvo el acta de entrega ni se identificó al donante inicial. Tampoco se verificó con documentación mercantil original la cadena societaria de 1931.
+
+CORRECCIÓN ESPECÍFICA DE FASE 5
+La imagen 509 distingue «Bureau: Bahnhofplatz 1, Zürich» y «Wohnung: Brugg». La oficina es Zürich y la vivienda Brugg. El error comprobado está en los materiales de fase 5 y su copia entregada; el ledger de fase 3 era correcto y los informes de fase 4 mantienen Zürich. Los archivos anteriores permanecen intactos; esta fase registra la corrección.
+Original:
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000070%2F00000509.jpg/full/full/0/default.jpg
+SHA-256: c03ab81dc4924df8344d2e5c8553e381d0551222973f3bb8d4cd44dd0b686c74
+Cotejo visual nuevo realizado por el agente principal; no repetido por esta subtarea.
+
+CUSTODIOS ALTERNATIVOS, RESULTADO ACOTADO
+El Stadtarchiv Brugg conserva fondos municipales y puede recibir archivos empresariales y privados. Su página oficial publica inventarios B y Q:
+https://www.brugg.ch/politik-und-verwaltung/abteilungen/stadtarchiv.html/178
+Se descargaron y buscaron Hunziker, Oswald, Osswald, Portland y Patvag en los textos de Q (59 páginas, 17 de mayo de 2019) y B (65 páginas, 28 de marzo de 2025): cero coincidencias. Esto delimita dos instrumentos, no demuestra ausencia de documentos en el archivo. Ambas versiones ocultan datos protegidos; no se hizo una auditoría de todos los fondos actuales.
+
+La referencia B A.IIa.95 describe actas municipales de Brugg de 1937; utilidad sólo contextual. No es una serie empresarial de Hunziker. No se ha leído el volumen original.
+Las consultas focalizadas de Aargau/Zürich no identificaron un fondo inequívoco de AG Hunziker & Cie. La apertura del catálogo webgate Brugg falló; no hubo búsqueda interactiva completa. SBB Historic indexa un contrato Hunziker & Cie, Brugg, de 1913–1914: pista de contraparte, fuera del intervalo y sin documento leído.
+
+El tramo se limita a ocho consultas de búsqueda nuevas, distribuidas en dos llamadas, y tres llamadas adicionales de lectura/búsqueda interna. No se repitió la búsqueda transversal BAR ni la bibliografía que investiga otra tarea.
+
+CONSULTA CONCRETA YA PREPARADA POR EL AGENTE PRINCIPAL
+Los borradores principal alemán y español preguntan:
+1. Si FA-013-11.65.67 (actas, NF_0001) y FA-013-11.65.79 (informes, NF_0008) pertenecen a Portlandcementwerk, a AG Hunziker & Cie o a ambas, y cómo acceder a los tramos 1937/1936–1937.
+2. Si se conserva correspondencia, telegramas o libros de salida de la oficina de Zürich en 1937; si fue transferida, su destino.
+
+Se revisaron los dos archivos sin duplicarlos ni modificarlos. Oficina Zürich y firma Javier Fuentes correctas. El dato Burgos/Banco Guipuzoano de la carta 513 es mecanografiado, según nuevo cotejo del agente principal; se retira la interpretación inicial de esta subtarea basada en OCR como anotación manuscrita.
+
+Borradores principales:
+outputs/Sentinel_BLUME_Olten_2026-10-02/01_Consulta_Olten_aleman.txt
+outputs/Sentinel_BLUME_Olten_2026-10-02/02_Consulta_Olten_traduccion.txt
+Contacto verificado por el agente principal hoy: stadtarchiv@olten.ch. La página municipal ofrece copias digitales por encargo, sin tarifa afirmada:
+https://www.olten.ch/aemter/974
+
+Esta subtarea no ha enviado consultas, hecho pedidos ni pagado. Las actas, informes originales y telegrama siguen pendientes de localizar o consultar. No se modifica ningún ZIP ni archivo anterior.
+
+Verificación de preservación: 390 archivos previos cotejados por SHA-256; 0 modificados y 0 ausentes. Registro: work/history/phase6-olten-custody/protected-verified.json.

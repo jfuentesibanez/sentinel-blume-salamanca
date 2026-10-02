@@ -1,0 +1,146 @@
+{
+  "phase": 10,
+  "date": "2026-10-02",
+  "track": "Histórica — inventario UEK/Ems y red comercial",
+  "purpose": "Buscar una referencia al inventario de Ems citado por Bochsler y localizar documentación próxima a 1937.",
+  "limits": {
+    "external_search_queries": 8,
+    "interactive_catalog_queries": 2,
+    "additional_searches_after_close": 0,
+    "original_documents_read": 0,
+    "query_count_definition": "Sólo búsquedas nuevas; aperturas de fichas y páginas no son consultas de búsqueda."
+  },
+  "external_queries": [
+    {
+      "q": "site:recherche.bar.admin.ch \"UEK\" \"Ems\"",
+      "result": "Sin resultados devueltos por el buscador en esta consulta."
+    },
+    {
+      "q": "site:bar.admin.ch \"Unabhängige Expertenkommission\" \"Privatarchive\"",
+      "result": "Sin resultados devueltos por el buscador en esta consulta."
+    },
+    {
+      "q": "site:recherche.bar.admin.ch \"E9500.239\" \"Aktenverzeichnis\"",
+      "result": "Sin resultados devueltos por el buscador en esta consulta."
+    },
+    {
+      "q": "\"Unabhängige Expertenkommission\" \"Unternehmensarchive\" Bundesarchiv",
+      "result": "Leída después la página oficial de migración UEK/Dodis."
+    },
+    {
+      "q": "\"Bergier\" \"E9500\" Archiv",
+      "result": "Ruta UEK/Dodis; no signatura exacta del inventario Ems."
+    },
+    {
+      "q": "\"Aktenverzeichnis\" \"Ems\" \"Bochsler\"",
+      "result": "Vista pública de Nylon und Napalm ya usada en fase9; misma autora, no corroboración independiente."
+    },
+    {
+      "q": "\"E9500.239\" Bundesarchiv",
+      "result": "Referencia general del archivo UEK, no inventario Ems individual."
+    },
+    {
+      "q": "site:uek.ch \"Archiv\" \"Bundesarchiv\"",
+      "result": "Bibliografía y publicaciones UEK; sin inventario Ems identificado."
+    }
+  ],
+  "catalog_queries": [
+    {
+      "q": "Ems",
+      "url": "https://dodis.ch/search",
+      "collections_actually_applied": [
+        "Document",
+        "UEK"
+      ],
+      "results_count": 993,
+      "rows_read": 20,
+      "limit": "Búsqueda de texto amplia con ruido. El intento de aplicar un filtro adicional InfoICE falló por selector; no se usó para una conclusión negativa."
+    },
+    {
+      "q": "HOVAG",
+      "url": "https://dodis.ch/search?q=HOVAG&op=Search&c=Document&f=All&t=all&cb=doc&cb=UEK",
+      "results_count": 24,
+      "rows_read": 20,
+      "rows_unread": 4,
+      "capture": "browser-hovag-primeros20.json"
+    }
+  ],
+  "primary_pages": [
+    {
+      "url": "https://www.dodis.ch/de/dodis-uek-datenbank",
+      "read_level": "Página explicativa leída.",
+      "literal_reference": "E 9500.239-A/2003/54",
+      "interpretation": "Archivo general del material de trabajo UEK en BAR. La base es parcial y describe unidades y notas, no copias digitales de originales.",
+      "limit": "No identifica el inventario Ems de diez páginas; sus decisiones de acceso de 2001/2004 no garantizan acceso vigente.",
+      "capture": "web-uek-migracion.txt"
+    },
+    {
+      "url": "https://www.dodis.ch/res/doc/UEK-Archivliste.pdf",
+      "read_level": "Texto de las dos páginas leído, sin inspección visual.",
+      "result": "Lista de códigos de archivo; no se observó un código Ems.",
+      "limit": "La omisión no prueba inexistencia de documentos Ems.",
+      "capture": "web-uek-archivos.txt"
+    },
+    {
+      "url": "https://dodis.ch/24495",
+      "read_level": "Ficha completa leída en DOM; captura completa no retenida.",
+      "archive": "AfZ",
+      "record": "Nota general UEK sobre Gesellschaft zur Förderung der schweizerischen Wirtschaft (wf).",
+      "limit": "Acervo temático y prensa, principalmente desde 1943; no es el inventario empresarial Ems buscado."
+    },
+    {
+      "url": "https://dodis.ch/R13483",
+      "read_level": "Metadatos de organización y primera página de documentos.",
+      "record": "Ems-Chemie Holding AG; variantes HOVAG/Holzverzuckerungs AG y Emser Werke.",
+      "limit": "Las fechas de alias del catálogo no sustituyen el registro mercantil.",
+      "capture": "browser-ems-organizacion.json"
+    },
+    {
+      "url": "https://dodis.ch/P27557",
+      "read_level": "Metadatos de persona y cuatro referencias.",
+      "record": "Victor/Viktor Oswald; cuatro documentos mencionados de 1961, 1969 y 1977.",
+      "limit": "No resuelve la discrepancia de nacimiento ni aporta aquí un documento de 1937.",
+      "capture": "browser-viktor-persona.json"
+    },
+    {
+      "url": "https://dodis.ch/27246",
+      "read_level": "Ficha UEK completa, no originales.",
+      "literal_reference": "Archiv UBS : UBS AG; CHA Basel; fonds SBC: 1000014895 . Quartalberichte 1937-1940",
+      "organizations_indexed": [
+        "Ems-Chemie Holding AG",
+        "Havero",
+        "Swiss Bank Corporation"
+      ],
+      "interpretation": "Pista para informes bancarios del periodo 1937–1940.",
+      "limit": "No permite fechar la mención de Ems en 1937 ni vincularla a BLUME. La indicación de fotocopia es histórica, no disponibilidad digital actual.",
+      "capture": "browser-27246-sbc-1937-1940.json"
+    },
+    {
+      "url": "https://dodis.ch/27339",
+      "read_level": "Notas UEK completas, no informes originales.",
+      "literal_reference": "Archiv UBS: UBS-Basel: 521 (D-19-1-4). Quartalberichte der Sitze 1940-1942 [ 020'004.001 ] [cf. p.2 de l'inventaire \"historique\"]",
+      "specific_reference": "Zürich, IV trimestre 1940, p.5: Holzverzuckerungs AG.",
+      "limit": "La referencia concreta es de 1940; no enero de 1937.",
+      "capture": "browser-27339-ubs-1940-1942.json"
+    },
+    {
+      "url": "https://dodis.ch/26153",
+      "read_level": "Ficha UEK completa, no documentos originales.",
+      "literal_reference": "BArch Berlin; R 3101, 3282;",
+      "period": 1945,
+      "limit": "Material de Ems de primavera de 1945, no pista temporal directa de los telegramas.",
+      "capture": "browser-26153-barch-1945.json"
+    }
+  ],
+  "evidence_quality": "Las fichas de UEK son información primaria del catálogo sobre el trabajo archivístico. Sus descripciones no prueban por sí mismas los hechos narrados por los documentos originales.",
+  "capture_limits": "Las primeras tres consultas y las últimas aperturas están conservadas. El segundo grupo de cuatro consultas y la lectura completa de 24495 se describen desde el registro de trabajo, sin reconstruir una captura inexistente.",
+  "conclusion": "No se encontró la signatura exacta del inventario Ems, identidad de BLUME, clave ni texto en claro.",
+  "browser_cleanup": "Se cerró la pestaña temporal Dodis; se conservó la pestaña Gmail del usuario.",
+  "external_actions": {
+    "accounts_created": 0,
+    "emails_sent": 0,
+    "orders": 0,
+    "payments": 0
+  }
+}
+

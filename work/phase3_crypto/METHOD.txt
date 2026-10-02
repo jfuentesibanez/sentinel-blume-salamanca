@@ -1,0 +1,189 @@
+BLUME / SENTINEL — FASE 3 CRIPTOGRÁFICA
+Fecha: 2026-10-01
+
+Alcance
+-------
+Mejora experimental de la reconstrucción K1 para transposición columnar
+irregular, y piloto acotado del ataque a K2. Solamente controles sintéticos.
+No se ejecutó esta versión sobre BLUME y no se ha descifrado BLUME.
+Los paquetes work/crypto y work/phase2_crypto permanecen sin modificaciones.
+
+Fuentes primarias consultadas
+----------------------------
+George Lasry, A Methodology for the Cryptanalysis of Classical Ciphers with
+Search Metaheuristics, tesis, Kassel University Press, 2018, ISBN
+978-3-7376-0458-1; capítulo 5, §§5.3.2–5.3.4, pp.69–78 del documento, y
+capítulo 9, §§9.4.5.2 y 9.4.6, pp.180–184.
+https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf
+Texto local leído: work/phase2_crypto/Lasry 2018_text.txt.
+
+Lasry, Kopal y Wacker, Solving the Double Transposition Challenge with a
+Divide-and-Conquer Approach, Cryptologia 38(3), 2014,
+DOI 10.1080/01611194.2014.915269, §4.6. El esquema se reproduce en la tesis,
+§9.4.6. No se trasladan a BLUME las restricciones de frases inglesas ni la
+criba por diccionario usadas para aquel desafío.
+https://doi.org/10.1080/01611194.2014.915269
+
+Representación y geometría exacta
+-------------------------------
+Cada mensaje se llena por filas y se extrae por columnas dos veces, convención
+F,F (convention 0 de la fase 1), sin añadir padding. Cada mensaje tiene su
+propio número de filas y columnas largas: r=floor(n/w), u=n mod w.
+En los dos textos n=615 y 160. Se mantienen claves compartidas pero longitudes
+de columnas independientes por mensaje. No se supone rectángulo completo.
+
+El código criptográfico base recibe k[read_rank]=plaintext_column.
+Las búsquedas de esta fase operan sobre s[plaintext_column]=read_rank, como
+la clave numérica de la fuente. inverse(s) convierte entre ambas notaciones.
+Los índices son numerados desde cero. Los segmentos se mueven en s, no en k.
+
+Para la columna de rango i en el texto intermedio, todos los comienzos
+individualmente factibles son p=i*r+a, con
+max(0,i-(w-u)) <= a <= min(i,u).
+Se exploran todos esos comienzos; no se usa la aproximación +/-2.
+La tabla de adyacencia A[i,j] maximiza la suma de log-probabilidades de
+trigramas fila a fila de i,j,k sobre cada tercer k distinto y todos los
+comienzos factibles de las tres columnas. Se usa exactamente r filas
+completas; no se añade la fila parcial cuya pertenencia aún se ignora.
+O[i,j]=(pj-pi) mod r corresponde al máximo retenido. Los empates se resuelven
+por el orden determinista del recorrido. Para matrices completas se puede
+usar bigramas en lugar de trigramas mediante la función de prueba.
+
+Para una s candidata se reconstruye qué rango corresponde a cada columna
+larga: islong[s[c]]=(c<u), y los prefijos prefix[rank] de ese vector.
+El offset predicho para el par adyacente i,j es
+(prefix[j]-prefix[i]) mod r. Los pares que coinciden con O[i,j] suman 2 puntos
+y 1 adicional si también coincidió el anterior par de columnas del texto.
+Se examinan w-1 pares, sin cerrar el último con el primero.
+Por mensaje el máximo de alineación es 3*w-4. La adyacencia conjunta suma los
+log-scores de ambos mensajes, y se normaliza por filas totales*(w-1);
+la alineación conjunta suma los puntos de ambos textos.
+
+Movimientos y búsqueda K1
+------------------------
+Se enumeran todos los slides de dos bloques adyacentes A,B→B,A mediante
+tres cortes, y todos los swaps de dos bloques disjuntos de igual tamaño.
+Se eliminan movimientos duplicados; len 1 ya incluye todos los point swaps.
+Cada reinicio parte de s aleatoria. Hasta 15 ciclos alternan:
+1) mejorar adyacencia manteniendo un mínimo de alineación;
+2) mejorar alineación manteniendo un mínimo de adyacencia.
+Después se realiza HC con el mismo vecindario y score de texto completo.
+Se usa q3 en el diagnóstico K1 final y en la fase K1 del ataque completo.
+La fuente de 2018 termina en q4; aquí se alinea el oracle con el componente
+real de full (q3 de 2014). Los antiguos diagnósticos q4 se guardan como
+desarrollo y no forman parte del resultado definitivo.
+
+Diferencias explícitas respecto del pseudocódigo
+------------------------------------------------
+No se reclama una réplica íntegra de Lasry 2018 ni Lasry/Kopal/Wacker 2014.
+La fuente deja abierto el valor y la subida de los umbrales. Aquí el umbral
+de adyacencia comienza en el valor aleatorio y el de alineación en 0; cada
+ciclo sube cada umbral 25% hacia su valor alcanzado, sin permitir bajadas.
+Cada subfase de features limita el número de barridos a 15.
+La fuente permite aceptar igualdad de score primario incluso si baja el
+secundario pero sigue sobre el umbral. Aquí se acepta mejora estricta del
+primario, o empate con mejora del secundario, para evitar ciclos en mesetas.
+Este guard limita las transiciones respecto de la fuente.
+Se continúa el barrido tras cada mejora; no se selecciona el mejor vecino
+global antes de mover. Hay límites explícitos por tiempo y evaluaciones.
+
+K2: piloto parcial del esquema publicado
+---------------------------------------
+Cada ronda genera 1000 claves aleatorias; conserva 20 por IDP, realiza el
+point-swap de izquierda a derecha, conserva 5 y hace HC con todos los slides
+y swaps enumerados. La función IDP reutiliza la fase 1: matrix de bigramas
+con rango completo de offsets, asignación greedy de vecino izquierdo/derecho
+único y score normalizado por filas totales*ancho. Esta relajación permite
+ciclos e incompatibilidad de offsets entre pares. Si el greedy deja solo una
+arista diagonal, el base permite esa arista forzada al floor−7*filas; no es
+un orden columnar válido y queda como reserva metodológica heredada.
+
+La fuente menciona 3-partite swaps pero no define su transformación exacta
+en el texto consultado. Se ensaya una variante: todos los órdenes de los
+tres bloques que particionan la clave completa. No se presenta esa variante
+como todos los 3-partite swaps originales. No se restringe el espacio de
+permutaciones mediante supuestos sobre las palabras de las claves.
+
+La mejor K2 por IDP de la ronda pasa a K1 por adyacencia/alineación y q3.
+Con K1 fija se refina K2 por HC sobre q3 del texto descifrado. Se realizan
+exactamente 3 rondas exteriores con streams distintos y se conserva el
+resultado de mayor q3, sin usar la verdad ni un umbral lingüístico de éxito.
+La evaluación q4 solo se registra como diagnóstico del resultado final.
+
+Datos, controles y ausencia de fugas
+-----------------------------------
+El modelo y holdouts se leen de work/crypto. El modelo es de n-gramas 2,3,4
+con log10-probabilidades entrenado en el primer 80% del cuerpo de Don Quijote,
+Project Gutenberg 2000. Los controles salen del último 20%, separado por
+posición. Normalización NFKD, a–z; tildes eliminadas, ñ→n. Pseudocount0.01.
+Procedencia detallada: work/crypto/model_provenance.json.
+La proxy elimina palabras funcionales; no es un corpus de telegramas reales.
+Las métricas no se trasladan automáticamente a otros idiomas, textos de
+época ni estilos telegráficos.
+
+El generador plant(seed) selecciona un comienzo uniforme en el holdout,
+extrae 615+160 letras consecutivas y genera K1,K2 aleatorias de los anchos
+indicados. search_seed=plant_seed XOR 0xb7e151628aed2a6b. K1 y K2 usan además
+sales XOR 0x1111111111111111 y0x2222222222222222 en el ataque completo.
+La ronda r usa search_seed+r*0x9e3779b97f4a7c15 módulo 2^64.
+El barajado negativo tiene otra sal XOR 0xcccccccccccccccc; baraja cada
+ciphertext por separado conservando su longitud y frecuencias de letras.
+En los negativos los campos truth/true_k conservan la plantación original
+como referencia, no una solución asociada al ciphertext barajado; los campos
+exact_k2 del oracle reflejan una clave proporcionada, no una recuperación.
+
+El solver full recibe ciphertexts, anchos, modelo y seed de búsqueda.
+La verdad solo existe en plant() y en las métricas fuera del solver.
+El modo oracle revela K2 sintética; jamás cuenta como ataque completo.
+La misma clave recuperada se aplica también al texto corto cuando solo se
+puntúa el largo. exact_both_plaintexts exige las 775 letras exactas.
+Los controles de ambos corpus con una misma seed comparten claves y el
+muestreo puede producir ventanas solapadas: no se presupone independencia
+estadística de todas las 200 búsquedas K1.
+
+Re-encryption consiste en verificar la inversión de las permutaciones;
+cualquier clave válida recifra su propio candidato. No prueba descifrado.
+No se usan coincidencias de palabras para declarar soluciones históricas.
+
+Presupuestos y métricas
+----------------------
+Oracle: 8 reinicios, máximo 2000000 evaluaciones features+q3, máximo 3 s.
+Full: 3 rondas; cada ronda permite K2 5 s/máximo 300000 evaluaciones IDP,
+K1 3 s/máximo 2000000 evaluaciones, y HC final K2 3 s/máximo 2000000.
+Cada invocación procesa single y joint. El runner actual deriva timeout
+de 86 s para full con 3 s de K1, y 26 s para oracle. Las primeras tandas usaron
+cap 35 s del wrapper; todas terminaron y no hubo censura por ese cap.
+El precomputo de tablas y movimientos no es interrumpible; evaluaciones
+iniciales/fallback y score de selección no cuentan en maxeval.
+seconds suma el tiempo interno de ciclos y excluye el score q3 de selección;
+wall_seconds del manifiesto mide el proceso completo. budget_expired agrega
+el agotamiento de cualquier etapa o ronda, incluido HC final K2.
+
+La tanda confirmatoria K1 (q3) usa semillas 20261101…20261125: 25 por
+corpus/banda, dos corpus y dos bandas, 100 pares/200 búsquedas. Los negativos
+K1 usan 5 seeds, 20261131…20261135, por banda. El full es un piloto
+exploratorio: 5 seeds en prosa 20261011…20261015 y 3 en proxy
+20261011…20261013 por banda. Algunas seeds
+del piloto ya se habían visto durante desarrollo: no es una validación ciega.
+Los negativos full usan 3 seeds 20261081…20261083 por banda.
+El snapshot phase3_full_validated.cpp conserva el código exacto usado para
+full. El actual phase3.cpp solo cambió la rama oracle (q3/sal de RNG) y añadió
+la metadata final_ngram; la rama full es idéntica. Los manifiestos originales
+no se reescribieron: sus hashes de main se verifican contra ese snapshot.
+
+summary.json contiene denominadores y ficheros usados. Los logs en
+development no se usan para el resumen final ni deben sustituir sus tandas.
+La revisión independiente valida la representación, rangos, fórmula de
+offset y ausencia de verdad en los solvers; véase el informe del otro agente.
+
+Criterio de avance
+------------------
+K1 oracle es una etapa calibrada en estos datos. El ataque conjunto necesita
+mejor recuperación de K2 antes de una búsqueda histórica larga. Próximo
+hito: establecer el vecindario 3-partite original y ensayar escapes/reinicios
+del K2-HC, con controles frescos e igual presupuesto registrado. Después
+piloto completo de 20–30 pares por banda, incluidos proxy/negativos y
+comparación single/joint; tasa de recuperación y recursos publicados antes
+de elegir el presupuesto histórico. No se inventa un umbral universal q4.
+Ninguna región de claves ni hipótesis histórica queda excluida por estos
+fallos de búsqueda.

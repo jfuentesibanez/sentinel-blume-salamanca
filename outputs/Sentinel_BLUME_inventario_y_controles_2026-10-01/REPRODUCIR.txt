@@ -1,0 +1,36 @@
+Desde la raíz de la carpeta descomprimida, con Python 3 y C++17:
+
+1. Compilar el núcleo que usa la prueba con K2 conocida:
+c++ -O3 -std=c++17 work/phase3_crypto/phase3.cpp -o work/phase3_crypto/phase3
+
+2. Un control alemán de muestra (produce dos registros JSON):
+work/phase3_crypto/phase3 oracle work/phase5_language/de_fold/model.bin work/phase5_language/de_fold/holdout.txt 20 25 20261401 8 3 3
+
+3. Reconstruir modelos de alemán/francés y comparación de frecuencias:
+python3 work/phase5_language/prepare_languages.py
+
+4. Repetir el pequeño conjunto de controles:
+python3 work/phase5_language/run_oracle_controls.py
+
+Para los diagnósticos de escape, véanse los comandos completos en
+work/phase5_crypto/README.txt. Los resultados son condicionales a una K2
+incorrecta seleccionada en fase 4; no son ataques históricos.
+
+Las órdenes de regeneración actualizan archivos en la copia descomprimida;
+trabajar sobre otra copia si se quiere conservar la entrega exacta.
+Los binarios no se distribuyen. Los manifiestos originales registran sus
+hashes y las rutas del Mac utilizado; recompilar puede cambiar esos hashes.
+MANIFEST.json permite comprobar los archivos que sí se distribuyen.
+Los tiempos varían según el equipo y los compiladores.
+
+Los textos Gutenberg tienen entrenamiento (primer 80% del cuerpo) y
+controles (último 20%) sin solapamiento; las muestras proceden de una obra
+por idioma y no representan el lenguaje comercial de 1937. La procedencia
+especifica los recortes y las normalizaciones. No hay nuevos controles
+negativos de idioma ni un nuevo ataque con ambas claves desconocidas.
+
+El port de los movimientos CrypTool2 conserva la licencia Apache 2.0 en
+work/phase4_crypto/source/LICENSE. Se adjunta la fuente C# de referencia.
+La motivación ILS es Lasry (2018), §§2.3.3 y 4.3.2, una propuesta de
+investigación, no un ataque publicado a BLUME:
+https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf

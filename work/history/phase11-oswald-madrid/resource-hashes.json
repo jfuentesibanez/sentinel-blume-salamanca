@@ -1,0 +1,21 @@
+{
+  "algorithm": "sha256",
+  "self_excluded": true,
+  "resources": [
+    {
+      "path": "browser-ficha.json",
+      "sha256": "3d0b55d96da5aeddb2383ec4f638091a03e592d166de69bfd5e45eb46e68d7b4",
+      "bytes": 6131
+    },
+    {
+      "path": "ledger.json",
+      "sha256": "0bc75c057a444fd826845b9c1b502cbd4410e94a5c2731be98d32aeb4e30f64b",
+      "bytes": 1397
+    },
+    {
+      "path": "web-ficha.json",
+      "sha256": "17e8702e9478666c600e4cc2ce0567d6e8a5d4512e48108685cbbb29087b17d7",
+      "bytes": 763
+    }
+  ]
+}

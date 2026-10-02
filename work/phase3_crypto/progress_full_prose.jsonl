@@ -1,0 +1,10 @@
+{"band": [12, 15], "seed": 20261011, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 2.35}
+{"band": [12, 15], "seed": 20261012, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 4.07}
+{"band": [12, 15], "seed": 20261013, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 5.87}
+{"band": [12, 15], "seed": 20261014, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 7.73}
+{"band": [12, 15], "seed": 20261015, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 9.49}
+{"band": [20, 25], "seed": 20261011, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 25.51}
+{"band": [20, 25], "seed": 20261012, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 45.0}
+{"band": [20, 25], "seed": 20261013, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 61.74}
+{"band": [20, 25], "seed": 20261014, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 80.42}
+{"band": [20, 25], "seed": 20261015, "mode": "full", "corpus": "prose", "negative": false, "elapsed": 97.97}

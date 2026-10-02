@@ -1,0 +1,92 @@
+{
+  "auditor": "root; direct source and wrapper review plus independent rerun of constructor/transform set comparison",
+  "date": "2026-10-01",
+  "geometry_passed": true,
+  "widths_tested": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "total_unique_nonidentity_moves_checked": 102163,
+  "cryptographic_mapping": "C# stores inverse of construction map and assigns to[list[i]]=from[i]; port destination-to-source gives the same transformation. Numerical key converted to read order only at cipher boundary.",
+  "reviewed": {
+    "csharp_constructor_and_transform": true,
+    "csharp_manual_value_deduplication": true,
+    "cpp_move_generation": true,
+    "full_wrapper_no_truth_into_solver": true,
+    "runner_paired_cases": true,
+    "k1_and_idp_unchanged": true
+  },
+  "qualifications": [
+    "CrypTool file is common code from current ADFGVX analyzer; it establishes transformation geometry, not identity with historical2014 binary.",
+    "std::shuffle differs from successive Random swaps in C# randomize.",
+    "Same time/evaluation limits are applied, but neighborhoods cost different numbers of evaluations.",
+    "Source neighborhood is not a strict superset of phase3: its two-block swaps have smaller lengths and strict upper bounds.",
+    "The K1 solver, IDP relaxation, three outer repetitions and joint-message extension retain their previously documented variants.",
+    "Repeated seed across prose/proxy pairs repeats planted keys; single/joint cases are paired.",
+    "Reencryption is consistency, not evidence of historical plaintext.",
+    "Geometry alone does not establish the ability to recover historical BLUME; synthetic calibration comes first."
+  ],
+  "files": [
+    {
+      "path": "work/phase4_crypto/source_moves.h",
+      "sha256": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed"
+    },
+    {
+      "path": "work/phase4_crypto/phase4.cpp",
+      "sha256": "0ac121aa90aed78298b993eb21b743e7cc5f7f2d41f4f61b11c4836271b3ec64"
+    },
+    {
+      "path": "work/phase4_crypto/check_source_moves.py",
+      "sha256": "c51a163a5880e95e0f57000379c30f8591fb79eb69a9906373a2bb4bf8f5bbcc"
+    },
+    {
+      "path": "work/phase4_crypto/source/TranspositionTransformations.cs",
+      "sha256": "29e71f0700b679f43c1daf0f886758cab3de06018c2cbe51fc14aa55f47613a8"
+    },
+    {
+      "path": "work/phase3_crypto/phase3.cpp",
+      "sha256": "659d485123aaceb5926177a7c2cc8306cb0c5c5e5964be6e2618e72ff59462df"
+    },
+    {
+      "path": "work/phase3_crypto/ict_search.h",
+      "sha256": "4167f43147969f6d3b2d943fb85a5ad306073098b4344d501d8f05f9e0bb57af"
+    },
+    {
+      "path": "work/crypto/double_search.cpp",
+      "sha256": "445afbaf9f85c17c0661515634ee16a58dced5da80e15e0b54ea8868a093fefe"
+    }
+  ],
+  "final_results_reviewed": {
+    "positive_rows": 32,
+    "negative_rows": 8,
+    "exact_old_positive": 2,
+    "exact_source_positive": 2,
+    "source_joint": 2,
+    "old_joint": 1,
+    "source_20x25_stage_expired": 8,
+    "diagnostic_five_climbs_completed_at_15_seconds": true,
+    "diagnostic_same_incorrect_key_and_idp": true,
+    "all_manifests_and_ledger_file_hashes_pass": true
+  }
+}

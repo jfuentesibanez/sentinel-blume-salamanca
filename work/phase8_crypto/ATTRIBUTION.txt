@@ -1,0 +1,13 @@
+CrypTool 2 movement-generation algorithm
+Copyright (C) CrypTool 2 Team
+Licensed under the Apache License, Version 2.0.
+See LICENSE-CrypTool-2.txt.
+
+Pinned upstream commit: bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c
+https://github.com/CrypToolProject/CrypTool-2
+
+The frozen adaptation is work/phase4_crypto/source_moves.h. Phase8 imports its
+audited movement mappings and instruments the K2 search. Its copied K1 logic
+comes from the prior local Lasry2018-inspired ICT implementation. This phase
+adds shared K2 pools, candidate policies, split budgets and trace output; it
+does not claim an exact reproduction of the full published Lasry attack.

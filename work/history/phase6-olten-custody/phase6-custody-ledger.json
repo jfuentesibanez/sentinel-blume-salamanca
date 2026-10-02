@@ -1,0 +1,309 @@
+{
+  "project": "Sentinel — BLUME SALAMANCA",
+  "phase": 6,
+  "date": "2026-10-02",
+  "scope": "Custodios alternativos y procedencia de FA-013; oficina de Zürich frente a residencia/fábrica en Brugg. Búsqueda acotada, sin contactos ni pedidos.",
+  "correction": {
+    "id": "CORRECTION_PHASE5_HUNZIKER_OFFICE",
+    "date": "2026-10-02",
+    "status": "Nuevo cotejo visual realizado por el agente principal; esta subtarea conserva la precisión y el hash sin repetir la inspección.",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000070%2F00000509.jpg/full/full/0/default.jpg",
+    "local_original": "work/history/bar-blume277-adjacent/images/Unterlagen_0000070-00000509.jpg",
+    "sha256": "c03ab81dc4924df8344d2e5c8553e381d0551222973f3bb8d4cd44dd0b686c74",
+    "reference": "BAR E4320B#1974/47#277*, Subdossier_0000066, Unterlagen_0000070, imagen 00000509",
+    "literal_reading_reported_by_visual_verifier": [
+      "Bureau: Bahnhofplatz 1, Zürich",
+      "Wohnung: Brugg"
+    ],
+    "correct_fact": "La oficina está en Bahnhofplatz 1, Zürich; la vivienda está en Brugg. Brugg/Aargau sigue siendo pertinente por residencia y fábricas, pero la búsqueda de correspondencia debe incluir la oficina de Zürich.",
+    "error_scope": "El error comprobado está en el ledger y borradores de fase 5 y su copia entregada. El ledger de fase 3 era correcto y los informes de fase 4 mantienen Zürich; no atribuirles genéricamente el error.",
+    "unchanged_prior_artifacts": "No se modifican los archivos ni ZIP antiguos; la corrección queda en fase 6 y en los nuevos borradores del agente principal."
+  },
+  "FA013_custody_and_provenance": {
+    "source_url": "https://www.olten.ch/_docn/7067200/26-06-08_do_Bestands%C3%BCbersicht_Firmenarchive.pdf",
+    "local_pdf": "work/history/phase4-archive/Olten-Firmenarchive-2026-06-08.pdf",
+    "local_text": "work/history/phase4-archive/Olten-Firmenarchive-2026-06-08.txt",
+    "pdf_and_printed_page": 11,
+    "access": "Fuente primaria ya conservada y cotejada visualmente en una fase anterior; texto de la página 11 releído en fase 6 para estudiar la custodia. No nueva descarga ni modificación.",
+    "custody_facts": {
+      "fonds": "FA-013 — PCO Portlandzementfabrik Olten (1931–)",
+      "secured_by": "Peter Kaiser, director del Historisches Museum Olten",
+      "transfer_to_Stadtarchiv": "2012-01-24",
+      "ownership_as_described": "Ciudad de Olten"
+    },
+    "corporate_facts_as_described": {
+      "Portlandcementwerk_founded": "1931-03-21",
+      "renamed_PCO_Olten": "1999-03-12",
+      "pre_1931_factory": "La fábrica de cemento de Olten pertenecía a AG Hunziker & Cie antes de la constitución de Portlandcementwerk.",
+      "post_1931_relation": "Ambas empresas mantuvieron vínculos de recinto, dirección y organización.",
+      "archive_scope": "La descripción atribuye el fondo principalmente a Portlandcementwerk y explica que también contiene documentación de Hunziker-Unternehmungen, por ejemplo la revista de personal."
+    },
+    "consequence": "FA-013 no debe tratarse automáticamente como el archivo íntegro de la oficina de AG Hunziker & Cie en Zürich. Las actas y los informes concretos tienen títulos genéricos; el custodio debe confirmar la sociedad productora.",
+    "limits": [
+      "No se describe en esta página el donante inicial ni la fecha de rescate por el museo.",
+      "La entrega del 24 de enero de 2012 no documenta por sí sola el traslado de la correspondencia de la oficina de Zürich.",
+      "No se ha consultado acta de entrega, contrato de donación, inventario de ingreso ni extracto mercantil certificado. No se afirma una cadena jurídica completa de sociedades o archivos."
+    ]
+  },
+  "alternative_custodians": [
+    {
+      "repository": "Stadtarchiv Brugg",
+      "official_source": "https://www.brugg.ch/politik-und-verwaltung/abteilungen/stadtarchiv.html/178",
+      "verified_institutional_scope": "El archivo acepta fondos empresariales y privados como depósitos o donaciones; publica instrumentos de descripción.",
+      "archive_management_as_listed": "docuteam AG, Baden-Dättwil; Bettina Flütsch y Tabea Edelmann.",
+      "repository_role": "Custodio posible para documentar actividad o residencia en Brugg; no se ha identificado aquí un fondo propio de AG Hunziker & Cie.",
+      "consulted_instruments": [
+        {
+          "source_url": "https://www.brugg.ch/public/upload/assets/477/Verz_Bestand_Q_20190517.pdf?fp=1",
+          "local_pdf": "work/history/phase6-olten-custody/Brugg-Q-2019.pdf",
+          "title": "Q — Privatarchive",
+          "date_printed": "2019-05-17",
+          "pages": 59,
+          "visual_review": "Página 1: identificación, fecha y alcance del inventario.",
+          "method": "Búsqueda de nombres en el texto extraído de las 59 páginas.",
+          "search_results": {
+            "file": "work/history/phase6-olten-custody/Brugg-Q-2019.pdf",
+            "pages_with_text": 59,
+            "term_counts": {
+              "Hunziker": 0,
+              "Oswald": 0,
+              "Osswald": 0,
+              "Portland": 0,
+              "Patvag": 0
+            }
+          }
+        },
+        {
+          "source_url": "https://www.brugg.ch/public/upload/assets/469/Verz_Bestand%20B_20250328.pdf?fp=2",
+          "local_pdf": "work/history/phase6-olten-custody/Brugg-B-2025.pdf",
+          "title": "B — Neues Archiv",
+          "date_printed": "2025-03-28",
+          "pages": 65,
+          "visual_review": "Página 4: serie de actas municipales y referencia de 1937.",
+          "method": "Búsqueda de nombres en el texto extraído de las 65 páginas.",
+          "search_results": {
+            "file": "work/history/phase6-olten-custody/Brugg-B-2025.pdf",
+            "pages_with_text": 65,
+            "term_counts": {
+              "Hunziker": 0,
+              "Oswald": 0,
+              "Osswald": 0,
+              "Portland": 0,
+              "Patvag": 0
+            }
+          }
+        }
+      ],
+      "new_exact_reference": {
+        "reference": "B A.IIa.95",
+        "title": "Protokolle des Gemeinderates der Stadt Brugg",
+        "year": "1937",
+        "page": 4,
+        "relevance": "Actas municipales: referencia de contexto, no actas de empresa ni correspondencia de Hunziker. Original no consultado; no se prioriza pedir el volumen completo."
+      },
+      "limits": [
+        "Cero coincidencias de Hunziker/Oswald/Osswald/Portland/Patvag en estos dos inventarios no demuestra ausencia de documentos sobre ellos.",
+        "Los inventarios ocultan datos protegidos y tienen fechas 2019 y 2025; no representan una auditoría íntegra de todos los fondos actuales.",
+        "El webgate público de Brugg apareció en resultados indexados, pero la apertura de su ficha raíz devolvió error. No se hizo una búsqueda interactiva completa del catálogo."
+      ],
+      "webgate_pointer": "https://webgate.docuteam.cloud/de/stores/257-stadtarchiv-brugg/units/1-stadtarchiv-brugg"
+    },
+    {
+      "repository": "Staatsarchiv Aargau y archivos de Zürich",
+      "status": "Consultas web focalizadas en dominios oficiales; no se identificó una descripción inequívoca del archivo de AG Hunziker & Cie o de la correspondencia de Hans nacido en 1874.",
+      "limits": "No se efectuó una búsqueda exhaustiva ni interactiva de todos los catálogos. Los resultados homónimos o de fechas incompatibles no se atribuyen al empresario."
+    },
+    {
+      "repository": "SBB Historic",
+      "source_pointer": "https://www.sbbarchiv.ch/archivplansuche.aspx?ID=201805",
+      "indexed_reference": "GD_BAU_SBBSIMPL_012_11",
+      "indexed_title": "Simplon: Vertrag mit Hunziker & Cie. Brugg betreffend die Lieferung v. Kunststeinen",
+      "indexed_dates": "1913–1914",
+      "status": "Pista de documentos de una contraparte comercial, sólo en resultado indexado; apertura directa fallida.",
+      "priority": "Baja para este tramo: anterior a 1937, sin documento individual leído ni vínculo demostrado con el telegrama."
+    }
+  ],
+  "access_to_FA013_specific_records": {
+    "reused_public_inventory": "https://firmenarchive.ch/uploads/1/4/2/1/142137325/fa-013_portlandzementfabrik_olten_pco_hunziker_ag.pdf",
+    "status": "El inventario ya hallado en fase 5 sigue siendo el instrumento público. Esta fase no encontró nuevos originales digitalizados de las actas o informes.",
+    "records": [
+      {
+        "reference": "FA-013-11.65.67",
+        "container": "FA-013-NF_0001",
+        "range_in_container": "1934–1964",
+        "request_scope": "Actas y posibles anexos de enero–abril de 1937; confirmar primero sociedad productora."
+      },
+      {
+        "reference": "FA-013-11.65.79",
+        "container": "FA-013-NF_0008",
+        "range_in_container": "1932–1950",
+        "request_scope": "Informes anuales de 1936/1937; confirmar primero sociedad productora."
+      }
+    ],
+    "official_access_page": "https://www.olten.ch/aemter/974",
+    "contact": "stadtarchiv@olten.ch",
+    "contact_verification": "Agente principal, 2 de octubre de 2026.",
+    "digital_access_rule": "La página municipal ofrece copias digitales por encargo. No se afirma gratuidad ni tarifa concreta; no se ha hecho pedido por esta subtarea.",
+    "best_next_question": "¿De qué sociedad son las series? ¿Se conserva correspondencia, telegramas o libros de salida de la oficina de Zürich de 1937? Si fue transferida, ¿a qué custodio, fondo o ubicación?"
+  },
+  "queries": [
+    {
+      "method": "web.run search_query",
+      "date": "2026-10-02",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Hunziker\" \"Archiv\" \"Brugg\"",
+            "domains": [
+              "ag.ch",
+              "brugg.ch",
+              "stadtmuseumbrugg.ch",
+              "ub-archeco24.ub.unibas.ch"
+            ]
+          },
+          {
+            "q": "\"Hunziker\" \"Archiv\" \"Zürich\"",
+            "domains": [
+              "amsquery.stadt-zuerich.ch",
+              "suche.staatsarchiv.djiktzh.ch",
+              "stadt-zuerich.ch",
+              "ub-archeco24.ub.unibas.ch"
+            ]
+          },
+          {
+            "q": "\"Hunziker\" \"PCO\" \"Archiv\" Übergabe"
+          },
+          {
+            "q": "\"AG Hunziker\" \"Portlandcementwerk\" \"1931\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase6-olten-custody/query01.json",
+      "individual_search_queries": 4
+    },
+    {
+      "method": "web.run search_query",
+      "date": "2026-10-02",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Hunziker & Cie\" \"Archiv\""
+          },
+          {
+            "q": "\"Brugg\" \"Stadtarchiv\" \"Bestände\""
+          },
+          {
+            "q": "\"Hunziker\" \"Firmenarchive\" \"Aargau\""
+          },
+          {
+            "q": "\"Portlandcementwerk\" \"1931\" \"Hunziker\" \"Handelsregister\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase6-olten-custody/query02.json",
+      "individual_search_queries": 4
+    }
+  ],
+  "reading_calls": [
+    {
+      "method": "web.run open/click/find",
+      "date": "2026-10-02",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.brugg.ch/politik-und-verwaltung/abteilungen/stadtarchiv.html/178"
+          },
+          {
+            "ref_id": "https://www.brugg.ch/public/upload/assets/477/Verz_Bestand_Q_20190517.pdf?fp=1"
+          },
+          {
+            "ref_id": "https://webgate.docuteam.cloud/de/stores/257-stadtarchiv-brugg/units/1-stadtarchiv-brugg"
+          },
+          {
+            "ref_id": "https://www.sbbarchiv.ch/archivplansuche.aspx?ID=201805"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase6-olten-custody/read01.json"
+    },
+    {
+      "method": "web.run open/click/find",
+      "date": "2026-10-02",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn204view1",
+            "pattern": "Hunziker"
+          },
+          {
+            "ref_id": "turn204view1",
+            "pattern": "Oswald"
+          },
+          {
+            "ref_id": "turn204view1",
+            "pattern": "Portland"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn204view0",
+            "id": 87
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase6-olten-custody/read02.json"
+    },
+    {
+      "method": "web.run open/click/find",
+      "date": "2026-10-02",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn207view0",
+            "pattern": "Hunziker"
+          },
+          {
+            "ref_id": "turn207view0",
+            "pattern": "Portland"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase6-olten-custody/read03.json"
+    }
+  ],
+  "search_budget": {
+    "individual_search_queries": 8,
+    "web_runs": 5,
+    "public_PDF_downloads": 2,
+    "new_transversal_BAR_searches": 0,
+    "new_bibliography_queries": 0
+  },
+  "principal_drafts": {
+    "de": "outputs/Sentinel_BLUME_Olten_2026-10-02/01_Consulta_Olten_aleman.txt",
+    "es": "outputs/Sentinel_BLUME_Olten_2026-10-02/02_Consulta_Olten_traduccion.txt",
+    "authoring": "Preparados por el agente principal; revisados en esta subtarea; no duplicados ni modificados.",
+    "review": "Preguntan por sociedad productora, correspondencia de oficina Zürich y destino de transferencias; firma Javier Fuentes; consulta de localización y acceso, sin pedido de pago.",
+    "recipient_address_note": "El agente principal cotejó visualmente imagen 513 y comunicó lectura mecanografiada: Herrn Osswald in Burgos, Banco Guipuzoano, San Sebastian. Esta subtarea retira su interpretación inicial, basada en OCR, de que Burgos/Banco fueran anotaciones manuscritas. No hay corrección material pendiente en el borrador por ese dato."
+  },
+  "limits": [
+    "No se ha localizado el telegrama llegado de Zürich antes del 19 de abril de 1937.",
+    "No se ha establecido otro custodio concreto de la correspondencia de la oficina de AG Hunziker & Cie.",
+    "No se ha consultado el acta de entrega de FA-013 ni documentación societaria original de 1931.",
+    "No se repitió la búsqueda transversal BAR ni las investigaciones bibliográficas asignadas a otra tarea."
+  ],
+  "preservation": {
+    "baseline_file": "work/history/phase6-olten-custody/protected-baseline.json",
+    "verification_file": "work/history/phase6-olten-custody/protected-verified.json",
+    "prior_phases_and_ZIPs_unchanged": true,
+    "orders_placed_by_this_subtask": false,
+    "payments_made_by_this_subtask": false,
+    "email_drafts_saved_by_this_subtask": false,
+    "files_checked": 390,
+    "external_messages_sent_by_this_subtask": false
+  }
+}

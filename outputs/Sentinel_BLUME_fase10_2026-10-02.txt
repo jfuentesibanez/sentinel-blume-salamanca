@@ -1,0 +1,131 @@
+Sentinel — BLUME SALAMANCA
+Avance y próximos pasos — fase 10 — 2 de octubre de 2026
+
+La prioridad es conseguir documentación que acerque la clave o explique el
+sistema de cifrado. Seguimos sin una identidad probada de BLUME y sin un
+texto en claro verificado de los dos telegramas del 8 de enero de 1937.
+
+CUATRO CONSULTAS ENVIADAS POR JAVIER
+
+El nuevo correo a PTT consta como enviado desde javier@ncompany.es el
+2 de octubre a las 17:03:10, hora de Madrid, a archiv@mfk.ch.
+
+Bochsler: buscamos el informe del intento de descifrado de 2020 y las
+referencias de archivo que puedan conducir a correspondencia de los Oswald.
+
+Correos: buscamos el registro o directorio de direcciones telegráficas que
+permita identificar BLUME SALAMANCA.
+
+PTT: buscamos el significado de la referencia interna 6011.8.3 de su carta
+del 15 de enero de 1937 y el plan de clasificación correspondiente.
+
+Olten: buscamos correspondencia de Hunziker con los Oswald y la procedencia
+de las series archivísticas. Una carta en claro que trate del mismo negocio
+podría ayudar, pero no sería por sí sola la solución de los telegramas.
+
+Los tres hilos anteriores sólo mostraron el envío de Javier. La búsqueda
+acotada de mensajes entrantes no devolvió respuestas de estos contactos.
+Eso describe la consulta realizada, no todo el buzón. La etiqueta SENT
+confirma el envío registrado; no es una confirmación de recepción.
+
+NUEVA REFERENCIA PARA LA RED COMERCIAL
+
+Dodis 27246 describe informes trimestrales de Swiss Bank Corporation de
+1937–1940, vinculados en el índice a Ems y Havero:
+Archiv UBS : UBS AG; CHA Basel; fonds SBC: 1000014895 . Quartalberichte 1937-1940
+https://dodis.ch/27246
+
+Hemos leído la ficha, no los informes. La referencia puede conducir a
+información financiera o comercial; aún no hay vínculo con BLUME ni una
+mención de Ems fechada específicamente en 1937.
+
+La documentación de Dodis ofrece una referencia general al material de
+trabajo de la UEK en BAR: E 9500.239-A/2003/54. Sigue pendiente la signatura
+exacta del inventario de Ems de diez páginas citado por Bochsler.
+https://www.dodis.ch/de/dodis-uek-datenbank
+
+BÚSQUEDA DIPLOMÁTICA
+
+La búsqueda pública alemana no identificó al destinatario. Dos coincidencias
+quedaron descartadas como pruebas de una conexión: Bernhard Blume figura
+con residencia en Estados Unidos, mientras España corresponde a otra
+persona del expediente; una referencia a Salamanca en el fondo de Madrid
+es la plaza madrileña en 1942. Sólo leímos fichas, no los expedientes.
+https://politisches-archiv.diplo.de/invenio/direktlink/dbba4fd4-3bda-4ddf-9fd4-54bea4c8ce79/
+https://politisches-archiv.diplo.de/invenio/direktlink/e9e488d1-00a8-48e1-8e70-be53d9fd3172/
+
+Localizamos la edición documental ADAP D3 sobre la Guerra Civil española.
+El buscador OCR no devolvió Blume; sí devolvió Salamanca. Falta cotejar el
+índice visual y los documentos. Ese negativo no excluye al apellido de los
+originales ni de otros fondos.
+https://digitale-sammlungen.de/de/view/bsb00045915
+
+El catálogo de la embajada de Madrid está en nueva catalogación y advierte
+que no muestra aún todos sus documentos. Algunas fechas del navegador
+traducido aparecieron deformadas; no se usaron para identificar personas.
+
+PRUEBA CRIPTOGRÁFICA
+
+Comparamos reinicios con una población de hasta cinco candidatas separadas
+por una distancia mínima. Fueron ocho pares sintéticos nuevos, dos rondas
+por método y par, con anchos conocidos y 100.000 evaluaciones por ronda.
+Se buscó sólo la segunda clave, K2.
+
+Modelo y anchos         Reinicios       Población
+Alemán 12×15                3/4             4/4
+Alemán 20×25                0/4             0/4
+Francés 12×15               0/4             0/4
+Francés 20×25               0/4             0/4
+Total                     3/16            4/16
+
+Ambos métodos acertaron en los mismos dos pares de ocho. La población
+recuperó una ronda adicional, sin resolver un caso nuevo. Este piloto
+pequeño usa textos literarios; no mide una tasa fiable para telegramas.
+
+En las ocho rondas de claves largas, la población sólo completó cero o un
+hijo. Explorar una candidata consume buena parte del presupuesto, de modo
+que mantener varias no basta para explorarlas. En los 25 intentos fallidos,
+la clave verdadera tuvo mejor puntuación que las cinco candidatas devueltas.
+Esto señala un límite observado de búsqueda, sin probar un óptimo global.
+
+Verificamos los resultados con un cálculo independiente y reconstruimos
+las admisiones y elecciones de padres. Se conservaron intactos 252 archivos
+criptográficos y 804 archivos históricos de fases anteriores.
+
+SIGUIENTE TRABAJO EN LAS DOS LÍNEAS
+
+1. Historia: cotejar visualmente el índice de personas y la documentación de
+   diciembre de 1936 y enero de 1937 en ADAP D3. Contrastaremos cualquier
+   candidato con una dirección, una empresa o correspondencia contemporánea.
+   No bastará una coincidencia de apellido.
+
+2. Documentos: incorporar las respuestas a los cuatro correos. El informe de
+   2020 y la correspondencia tienen prioridad sobre más contexto general.
+   También sigue pendiente de lectura el expediente ya localizado «Oswald,
+   Madrid», 1936–1938, E2001D#1000/1551#5627*. Su descripción previa lo
+   registraba sin digitalización; esta fase no ha vuelto a comprobar esa
+   disponibilidad.
+   https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1689905
+
+3. Criptografía: definir un piloto que reparta el mismo presupuesto total
+   entre más candidatas. Habrá que limitar cada escalada y distinguir una
+   búsqueda interrumpida de un máximo local completo. Compararemos con el
+   método actual sobre controles nuevos, con las claves ocultas al algoritmo,
+   antes de decidir si merece una búsqueda sobre los telegramas históricos.
+
+El informe de 2020 podría revelar métodos ya probados y evitar repetirlos.
+Una clave, un libro de códigos, otro telegrama relacionado o una copia en
+claro ofrecerían una ayuda criptográfica mucho más directa que identificar
+a BLUME por sí solo. Estas posibilidades siguen pendientes de documentación.
+
+ARCHIVOS DE RESPALDO
+
+work/phase10_crypto/LEEME.txt
+work/phase10_root_verification.json
+work/history/phase10-blume-diplomatico/resultado.txt
+work/history/phase10-uek-dodis/resultado.txt
+outputs/Sentinel_BLUME_estado_correos_fase10_2026-10-02.json
+
+Los hashes y la procedencia se conservan en el JSON que acompaña este informe.
+Esta fase no incluye nuevos envíos del asistente, pedidos de copias ni pagos.
+

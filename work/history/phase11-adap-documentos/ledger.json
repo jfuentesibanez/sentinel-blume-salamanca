@@ -1,0 +1,623 @@
+{
+  "phase": 11,
+  "date": "2026-10-02",
+  "source": "https://digitale-sammlungen.de/de/view/bsb00045915",
+  "permalink": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00045915-4",
+  "manifest": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/manifest",
+  "metadata_source": "iiif-manifest.json",
+  "edition": {
+    "publication_year": 1951,
+    "institution": "Bayerische Staatsbibliothek",
+    "shelfmark": "4 Z 50.281,D-3",
+    "catalogue_id": "BV001113577",
+    "volume_scans": 919,
+    "scope": "Selección documental editada, con notas y apéndices. Se leen facsímiles de la edición impresa, no los expedientes originales completos."
+  },
+  "access": {
+    "method": "API pública IIIF documentada en https://digitale-sammlungen.de/de/schnittstellen; imágenes limitadas derivadas del manifiesto. Lectura visual con view_image original.",
+    "viewer_queries_here": 0,
+    "root_viewer_queries": 2,
+    "root_query_ledger": "work/history/phase11-adap-buscador/ledger.json",
+    "queries": [
+      "Oswald",
+      "Hisma"
+    ],
+    "query_limits": "Hasta8 consultas; root leyó100 fragmentos OCR Hisma de254 anunciados. Aquí no se descargó OCR ni se repitió búsqueda Blume.",
+    "local_browser": "No disponible en esta fase tras la única comprobación indicada por bootstrap. No es un negativo documental. No se crearon pestañas.",
+    "shell_access": "GET públicos autorizados; una revisión caducada del primer acceso se recuperó con el único reintento permitido. Sin eludir rechazo ni acceso privado."
+  },
+  "budgets": {
+    "max_queries": 8,
+    "new_queries_total": 2,
+    "max_visual_scans": 50,
+    "visual_scans_here": 35,
+    "max_chronological_documents": 20,
+    "fully_read_numbered_documents": 10,
+    "additional_primary_pieces_or_comments": 4,
+    "primary_units_conservative_total": 14,
+    "additional_pieces": [
+      "Protocolo31diciembre1936 adjunto180",
+      "NotaLammers15enero1937 reproducida bajo196",
+      "ComentarioWeizsäcker27enero1937 bajo213",
+      "NotaRitter28enero1937 bajo213"
+    ],
+    "definition": "El límite documental cuenta lectura íntegra del cuerpo seleccionado y piezas primarias adjuntas. Los resúmenes del índice y vecinos sólo visibles no se presentan como documentos íntegros leídos."
+  },
+  "pages": [
+    {
+      "scan": 5,
+      "printed_page": "sin numerar",
+      "local_file": "scan-00005.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/5",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00005/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Portada: ADAP serieD volumenIII, Alemania y Guerra Civil española 1936–1939."
+    },
+    {
+      "scan": 30,
+      "printed_page": "XXX",
+      "local_file": "scan-00030.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/30",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00030/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Índice cronológico, resúmenes y referencias de documentos 133–140; selección temática del cuerpo, sin lectura íntegra de todos esos documentos."
+    },
+    {
+      "scan": 31,
+      "printed_page": "XXXI",
+      "local_file": "scan-00031.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/31",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00031/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Índice cronológico, resúmenes y referencias de documentos 141–150; selección temática del cuerpo, sin lectura íntegra de todos esos documentos."
+    },
+    {
+      "scan": 32,
+      "printed_page": "XXXII",
+      "local_file": "scan-00032.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/32",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00032/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Índice cronológico, resúmenes y referencias de documentos 151–159; selección temática del cuerpo, sin lectura íntegra de todos esos documentos."
+    },
+    {
+      "scan": 33,
+      "printed_page": "XXXIII",
+      "local_file": "scan-00033.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/33",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00033/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Índice cronológico, resúmenes y referencias de documentos 160–169; selección temática del cuerpo, sin lectura íntegra de todos esos documentos."
+    },
+    {
+      "scan": 34,
+      "printed_page": "XXXIV",
+      "local_file": "scan-00034.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/34",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00034/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Índice cronológico, resúmenes y referencias de documentos 170–179; selección temática del cuerpo, sin lectura íntegra de todos esos documentos."
+    },
+    {
+      "scan": 35,
+      "printed_page": "XXXV",
+      "local_file": "scan-00035.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/35",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00035/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Índice cronológico, resúmenes y referencias de documentos 180–189; selección temática del cuerpo, sin lectura íntegra de todos esos documentos."
+    },
+    {
+      "scan": 36,
+      "printed_page": "XXXVI",
+      "local_file": "scan-00036.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/36",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00036/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Índice cronológico, resúmenes y referencias de documentos 190–199; selección temática del cuerpo, sin lectura íntegra de todos esos documentos."
+    },
+    {
+      "scan": 37,
+      "printed_page": "XXXVII",
+      "local_file": "scan-00037.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/37",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00037/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Índice cronológico, resúmenes y referencias de documentos 200–208; selección temática del cuerpo, sin lectura íntegra de todos esos documentos."
+    },
+    {
+      "scan": 38,
+      "printed_page": "XXXVIII",
+      "local_file": "scan-00038.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/38",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00038/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Índice cronológico, resúmenes y referencias de documentos 209–219; selección temática del cuerpo, sin lectura íntegra de todos esos documentos."
+    },
+    {
+      "scan": 253,
+      "printed_page": "153",
+      "local_file": "scan-00253.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/253",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00253/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Documento 163 completo; final vecino 162 visible sin seguimiento."
+    },
+    {
+      "scan": 254,
+      "printed_page": "154",
+      "local_file": "scan-00254.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/254",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00254/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación sobrante: inicio 164 de 24 diciembre; no se leyó completo ni se siguió 155."
+    },
+    {
+      "scan": 270,
+      "printed_page": "170",
+      "local_file": "scan-00270.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/270",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Documento 180 completo y protocolo anexo 31 diciembre."
+    },
+    {
+      "scan": 271,
+      "printed_page": "171",
+      "local_file": "scan-00271.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/271",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00271/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Documento 181 completo, añadido por contacto comercial Pack; inicio 182 visible sin seguimiento."
+    },
+    {
+      "scan": 275,
+      "printed_page": "175",
+      "local_file": "scan-00275.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/275",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00275/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Inicio 187 leído; vecino 186 visible sin selección temática ni seguimiento."
+    },
+    {
+      "scan": 276,
+      "printed_page": "176",
+      "local_file": "scan-00276.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/276",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00276/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Final 187 leído, incluido párrafo relaciones Bernhardt/Franco/Nicolas."
+    },
+    {
+      "scan": 277,
+      "printed_page": "177",
+      "local_file": "scan-00277.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/277",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00277/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación sobrante: inicio 188 de 7 enero, sin lectura completa ni seguimiento."
+    },
+    {
+      "scan": 286,
+      "printed_page": "186",
+      "local_file": "scan-00286.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/286",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00286/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Documento 196 completo y nota Lammers 15 enero; cola 195 visible sin lectura completa."
+    },
+    {
+      "scan": 287,
+      "printed_page": "187",
+      "local_file": "scan-00287.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/287",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00287/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación sobrante: vecinos 197/198 visibles, no seleccionados ni seguidos."
+    },
+    {
+      "scan": 292,
+      "printed_page": "192",
+      "local_file": "scan-00292.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/292",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00292/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Documento 205 completo; cola 204 visible sin lectura completa."
+    },
+    {
+      "scan": 293,
+      "printed_page": "193",
+      "local_file": "scan-00293.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/293",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00293/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Documento 206 completo e inicio 207."
+    },
+    {
+      "scan": 294,
+      "printed_page": "194",
+      "local_file": "scan-00294.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/294",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00294/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Final 207 y documento 208 completo."
+    },
+    {
+      "scan": 295,
+      "printed_page": "195",
+      "local_file": "scan-00295.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/295",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00295/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación sobrante: nota Ciano y vecinos 209/210 visibles; no seleccionados ni seguidos."
+    },
+    {
+      "scan": 298,
+      "printed_page": "198",
+      "local_file": "scan-00298.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/298",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00298/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Inicio 213: registro Dörnberg de declaraciones Miranda ante Canaris."
+    },
+    {
+      "scan": 299,
+      "printed_page": "199",
+      "local_file": "scan-00299.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/299",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00299/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Final 213, reservas 27 enero y nota Ritter 28 enero; inicio 214 visible sin seguimiento."
+    },
+    {
+      "scan": 851,
+      "printed_page": "751",
+      "local_file": "scan-00851.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/851",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00851/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación para localizar apéndices; vecinos 769–771 marzo 1939, fuera de ventana, sin seguimiento."
+    },
+    {
+      "scan": 871,
+      "printed_page": "771",
+      "local_file": "scan-00871.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/871",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00871/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación: documento 788 de 2 mayo 1939 menciona Bernhardt/Hisma; fuera de ventana, sin seguimiento."
+    },
+    {
+      "scan": 881,
+      "printed_page": "781",
+      "local_file": "scan-00881.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/881",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00881/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación: continuación de un documento 1939, sin encabezado en esta página; no se le asigna número/fecha ni se usa para enero 1937."
+    },
+    {
+      "scan": 901,
+      "printed_page": "801",
+      "local_file": "scan-00901.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/901",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00901/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación: plan de personal WII, Sabath España y Wingen Suiza. Año no visible: no se le atribuye vigencia 1937."
+    },
+    {
+      "scan": 910,
+      "printed_page": "810",
+      "local_file": "scan-00910.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/910",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00910/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Personenverzeichnis: BLOMBERG, BLUM Léon, BOHLE; sin entrada Blume en ese tramo. Entrada Bernhardt identificada como nota de los editores."
+    },
+    {
+      "scan": 911,
+      "printed_page": "811",
+      "local_file": "scan-00911.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/911",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00911/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Continuación índiceCABALLERO–DIRKSEN; confirma límite del tramoB/C, sin entrada Blume."
+    },
+    {
+      "scan": 913,
+      "printed_page": "813",
+      "local_file": "scan-00913.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/913",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00913/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Cotejo visual del único resultado OCR Oswald: nombre de pila de Hoyningen-Huene, enviado alemán en Lisboa según índice; homónimo descartado."
+    },
+    {
+      "scan": 914,
+      "printed_page": "814",
+      "local_file": "scan-00914.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/914",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00914/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Personenverzeichnis LITWINOW–PLESSEN; tramo NEWTON–PERTH sin entrada de apellido Oswald."
+    },
+    {
+      "scan": 915,
+      "printed_page": "815",
+      "local_file": "scan-00915.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/915",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00915/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación índice PLYMOUTH–SCHWENDEMANN."
+    },
+    {
+      "scan": 916,
+      "printed_page": "816",
+      "local_file": "scan-00916.jpg",
+      "canvas_id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/canvas/916",
+      "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00916/full/full/0/default.jpg",
+      "visual_read": true,
+      "scope": "Navegación índice SELZAM–WUCHER."
+    }
+  ],
+  "documents": [
+    {
+      "number": 163,
+      "date": "1936-12-23",
+      "pages": [
+        153
+      ],
+      "scans": [
+        253
+      ],
+      "reference": "3176/682874–875",
+      "sender": "Jefe del departamento de Política Comercial; firmado Ritter",
+      "recipient": "Encargado de negocios en Salamanca",
+      "registration": "Telegramm Nr.155; W II W.E.4914; Ref. V.L.R. Sabath",
+      "fact": "Propone prorrogar tres meses el acuerdo de mercancías de 9 marzo 1936, y negociar uno nuevo antes del 1 abril 1937. Distingue el acuerdo de pagos de 21 diciembre 1934, vigente sin término fijo.",
+      "limit": "Propuesta diplomática; no prueba un negocio de los Oswald.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00253/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    },
+    {
+      "number": 180,
+      "date": "1937-01-01",
+      "pages": [
+        170
+      ],
+      "scans": [
+        270
+      ],
+      "reference": "3176/682876; anexo3176/682877",
+      "sender": "Representante alemán en Salamanca; I.V. Schwendemann",
+      "recipient": "Auswärtiges Amt",
+      "registration": "Sa.10–322; referencia a telegrama629 de31diciembre1936",
+      "fact": "Remite protocolo de prórroga y solicita negociar en Salamanca o Burgos por dificultades para enviar técnicos españoles a Berlín.",
+      "attachment": "Protocolo firmado Faupel y F.Serrat en Salamanca 31 diciembre 1936: prórroga hasta 31 marzo 1937 y negociación antes 1 abril.",
+      "limit": "Se leyó el anexo impreso; el telegrama 629 (3176/682878) se menciona como no impreso y no se leyó.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    },
+    {
+      "number": 181,
+      "date": "1937-01-02",
+      "pages": [
+        171
+      ],
+      "scans": [
+        271
+      ],
+      "reference": "3253/E000652–655",
+      "sender": "Representante alemán en Salamanca; I.V. Schwendemann",
+      "recipient": "Auswärtiges Amt",
+      "registration": "Sa.3–324; recibido6enero; Pol.III71",
+      "fact": "Schwendemann registra lo que le dijo Sangroniz: el agregado comercial británico Pack visitaba frecuentemente Burgos y Salamanca para negociaciones económicas.",
+      "limit": "Testimonio transmitido por Sangroniz, no observación directa de Schwendemann de todas las visitas; Pack no se identifica con Blume.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00271/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    },
+    {
+      "number": 187,
+      "date": "1937-01-07",
+      "pages": [
+        175,
+        176
+      ],
+      "scans": [
+        275,
+        276
+      ],
+      "reference": "643/254221–222",
+      "sender": "Faupel, encargado de negocios en Salamanca",
+      "recipient": "Auswärtiges Amt",
+      "registration": "Sa.3–360; Pol.III160; Lagebericht",
+      "fact": "Faupel propone aprovechar la reacción al material alemán anunciado para cerrar acuerdos políticos y económicos. Para los acuerdos económicos señala las estrechas relaciones personales del jefe de Hisma, Bernhardt, con Franco y Nicolas Franco.",
+      "limit": "Documento contemporáneo un día anterior a los BLUME; no menciona a Blume ni a los Oswald y no demuestra relación con los telegramas.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00275/full/full/0/default.jpg",
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00276/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    },
+    {
+      "number": 196,
+      "date": "1937-01-12",
+      "pages": [
+        186
+      ],
+      "scans": [
+        286
+      ],
+      "reference": "1534/374403–404",
+      "sender": "Faupel, encargado de negocios en Salamanca",
+      "recipient": "Auswärtiges Amt",
+      "registration": "Telegramm Nr.21; enviado19:20; llegada13enero06:00",
+      "fact": "Pide acelerar una delegación para cerrar cuestiones económicas y de indemnización, antes de que el aumento de la intervención italiana reduzca la influencia alemana.",
+      "attachment": "Nota de la Cancillería del Reich fechada 15 enero 1937, L[ammers], reproducida en nota editorial: orden de atender cuanto antes la petición final y comunicarla al ministro, Wienstein y Röhrcke.",
+      "limit": "La nota adjunta sí está reproducida; no se leyó el expediente original ni el telegrama 629 referido.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00286/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    },
+    {
+      "number": 205,
+      "date": "1937-01-15",
+      "pages": [
+        192
+      ],
+      "scans": [
+        292
+      ],
+      "reference": "2938/569697–698",
+      "sender": "Weizsäcker",
+      "recipient": "Encargado de negocios en Salamanca",
+      "registration": "Telegramm Nr.25; Berlin22:15; W II W.E.341 II; Ref. V.L.R. Dumont",
+      "fact": "Solicita aclarar noticias del Wehrwirtschaftsstab y prensa británica sobre distribución de la producción de Rio Tinto y compensaciones a empresas británicas.",
+      "limit": "La distribución 40/60 y otros datos son noticias cuya confirmación se pide; no deben presentarse como un contrato verificado. La nota refiere telegrama Woermann 21 enero 2938/569695–696, no reproducido completo ni leído.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00292/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    },
+    {
+      "number": 206,
+      "date": "1937-01-16",
+      "pages": [
+        193
+      ],
+      "scans": [
+        293
+      ],
+      "reference": "3176/682895–896",
+      "sender": "Ritter, jefe del departamento de Política Comercial",
+      "recipient": "Encargado de negocios en Salamanca",
+      "registration": "Telegramm Nr.26; W II W.E.355 I",
+      "fact": "Anuncia negociación económica inmediata, sin acuerdo político previsto. La delegación sería encabezada por Wucher, con representantes ministeriales y Rowak, y estrecha participación de Bernhardt; pregunta por sede Salamanca o Burgos y prevé empezar 25 enero.",
+      "limit": "Composición y calendario previstos, no acta de reuniones realizadas. El cuerpo nombra von Jackwitz o Bethge; la nota editorial corrige Bethge a Friedrich Bethke. No resolver por similitud Jackwitz/Jagwitz.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00293/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    },
+    {
+      "number": 207,
+      "date": "1937-01-18",
+      "pages": [
+        193,
+        194
+      ],
+      "scans": [
+        293,
+        294
+      ],
+      "reference": "47/31868–869",
+      "sender": "Faupel, encargado de negocios en Salamanca",
+      "recipient": "Auswärtiges Amt",
+      "registration": "Geheim; Sa.3–459; recibido22enero; Pol.I338g",
+      "fact": "En su informe de situación, Faupel contrasta lo que Mancini dijo sobre gastos italianos y poca compensación con los retornos que Alemania obtenía por Hisma.",
+      "limit": "La comparación está condicionada a la veracidad de los datos comunicados por Mancini. No es una cuenta de resultados verificada. Anexo 47/31870–871 no impreso ni leído.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00293/full/full/0/default.jpg",
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00294/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    },
+    {
+      "number": 208,
+      "date": "1937-01-20",
+      "pages": [
+        194
+      ],
+      "scans": [
+        294
+      ],
+      "reference": "2938/569699",
+      "sender": "Faupel, encargado de negocios en Salamanca",
+      "recipient": "Auswärtiges Amt",
+      "registration": "Telegramm Nr.34; enviado20:00; llegada21enero04:30; W II W.E.519a",
+      "fact": "En respuesta al telegrama 25, informa que la propuesta británica fue rechazada y que Hisma tenía una promesa escrita del Gobierno español de hasta 60% de la producción de Rio Tinto. El texto indica un tipo de cambio de 42 pesetas por una libra esterlina (moneda, no unidad de peso). Espera contrato final próximo.",
+      "limit": "Se leyó el informe de Faupel; no la promesa escrita ni el contrato final. No tratar expectativa de firma como contrato realizado.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00294/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    },
+    {
+      "number": 213,
+      "date": "1937-01-26",
+      "pages": [
+        198,
+        199
+      ],
+      "scans": [
+        298,
+        299
+      ],
+      "reference": "47/31895–899",
+      "sender": "Von Dörnberg, Legationssekretär de la Politische Abteilung",
+      "recipient": "Nota presentada a Weizsäcker",
+      "registration": "Berlin; Geheim; e.o.Pol.I731g",
+      "fact": "Dörnberg registra reunión con Canaris y Augusto Miranda. Según Miranda, Bernhardt reclamaba que las divisas disponibles se pusieran a disposición suya/Hisma; Franco, Nicolas Franco y Faupel aparecen en el relato. Miranda defendía sus compras de armas fuera de Alemania y citaba tratos con Veltjens.",
+      "counterevidence": "La nota reproduce la reserva de Weizsäcker 27 enero y Körner, y una nota de R[itter]28 enero con la versión de Bernhardt: quería que las divisas pagadas por suministros extranjeros se destinaran a pagar los alemanes. Ritter aprobaba esta petición y sospechaba rivalidad comercial de Miranda.",
+      "limit": "Acusación transmitida y versión contraria, no monopolio de divisas demostrado. El Erlass firmado Dumont 47/31900–903 se resume editorialmente; no se leyó completo.",
+      "reading": "Texto completo del documento numerado y notas de sus páginas, en imagen de la edición 1951; no original archivístico.",
+      "image_urls": [
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00298/full/full/0/default.jpg",
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00299/full/full/0/default.jpg"
+      ],
+      "reference_type": "Referencia de película/fotograma impresa en ADAP; equivalencia a signatura actual PAAA no verificada."
+    }
+  ],
+  "bounded_negatives": [
+    "El índice de personas no tiene entrada Blume en el tramoB leído visualmente; sí BLUM Léon. No prueba que Blume no existiera ni que no aparezca en originales fuera de la edición.",
+    "El índice no tiene entrada de apellido Oswald en el tramoN–P leído visualmente. La única coincidencia OCR ejecutada por root se cotejó: Oswald es nombre de pila de Hoyningen-Huene.",
+    "Los10 documentos completos seleccionados no establecen relación de Blume u Oswald con los nombres comerciales registrados. No se afirma ausencia en todos los81 documentos de diciembre1936–enero1937 ni en archivos originales."
+  ],
+  "outside_scope": {
+    "date_window": "1936-12-01–1937-01-31; anexo31diciembre1936 incluido.",
+    "edition_documents_in_window": "Índice:136–216, 81documentos. Se seleccionaron163,180,181,187,196,205,206,207,208,213; los demás cuerpos no se estudiaron completos.",
+    "unread_originals": "Contratos Hisma/RioTinto, promesa escrita referida por208, remisiones y anexos declarados no impresos, expediente completo de cada película/fotograma, y documentos excluidos por los editores.",
+    "outside_date_navigation": "Escaneos851/871/881 contienen páginas1939; sólo navegación, sin usarlos como pruebas de enero1937. Resultados OCR Hisma desde307 no se siguieron aquí."
+  },
+  "quotes_short_total_words": 12,
+  "short_extracts": [
+    {
+      "doc": 187,
+      "printed_page": 176,
+      "scan": 276,
+      "text": "die sehr engen persönlichen Beziehungen",
+      "purpose": "Traducción orientativa: las relaciones personales muy estrechas; atribución de Faupel."
+    },
+    {
+      "doc": 213,
+      "printed_page": 198,
+      "scan": 298,
+      "text": "alle ihm zur Verfügung stehenden Devisen",
+      "purpose": "Traducción orientativa: todas las divisas a su disposición; reclamación atribuida por Miranda, con versión contraria en nota."
+    }
+  ],
+  "source_instructions_treated_as_data": true,
+  "contacts": 0,
+  "accounts": 0,
+  "orders": 0,
+  "payments": 0,
+  "published": false,
+  "tabs_created": 0,
+  "user_tabs_modified": 0
+}

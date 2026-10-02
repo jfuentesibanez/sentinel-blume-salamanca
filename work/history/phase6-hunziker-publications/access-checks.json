@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-02",
+  "normal_public_catalog_download": {
+    "url": "https://www.olten.ch/_docn/5587465/25-03-19_do_Verzeichnis_Buchantiquariat.pdf",
+    "tool": "curl -fL --max-time 35",
+    "default_sandbox_result": "DNS unavailable (exit 6)",
+    "network_escalation_result": "The requested URL returned error: 404 (exit 56)",
+    "no_file_saved": true
+  },
+  "e_periodica_access": "Web opening errors recorded in web-1, web-3, web-4 and web-5; previous HTML verification was not bypassed."
+}

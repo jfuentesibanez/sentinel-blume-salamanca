@@ -1,0 +1,43 @@
+{
+  "phase": 11,
+  "date": "2026-10-02",
+  "source": "https://digitale-sammlungen.de/de/view/bsb00045915",
+  "new_queries": 2,
+  "queries": [
+    {
+      "q": "Oswald",
+      "result_count": 1,
+      "scan": "0913",
+      "result": "HOYNINGEN-HUENE, Baron von, Oswald",
+      "assessment": "Oswald aparece como nombre de pila de otra persona, no como apellido del remitente.",
+      "capture": "oswald-resultados.json"
+    },
+    {
+      "q": "Hisma",
+      "results_announced": 254,
+      "results_read_as_OCR_fragments": 100,
+      "remaining_unread": 154,
+      "notable_scans": [
+        "0298",
+        "0307",
+        "0308",
+        "0313",
+        "0332",
+        "0344",
+        "0345"
+      ],
+      "assessment": "Los fragmentos orientan la selección de páginas; no sustituyen la lectura visual de documentos completos.",
+      "captures": [
+        "hisma-primeros50.json",
+        "hisma-primeros100.json"
+      ]
+    }
+  ],
+  "limits": "No se consultó Blume de nuevo. No se leyó visualmente una página por el solo hecho de leer un fragmento OCR. La consulta no cubre nombres omitidos por OCR ni documentos excluidos de la edición.",
+  "browser_incident": "La primera lectura del visor falló porque la revisión automática de permisos expiró sin decisión. El único reintento permitido tuvo éxito; las consultas posteriores se hicieron en la misma interfaz autorizada.",
+  "source_instructions_treated_as_data": true,
+  "contacts": 0,
+  "accounts": 0,
+  "orders": 0
+}
+

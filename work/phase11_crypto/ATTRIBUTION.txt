@@ -1,0 +1,17 @@
+CrypTool 2 movement-generation algorithm
+Copyright (C) CrypTool 2 Team
+Licensed under Apache License, Version 2.0; see LICENSE-CrypTool-2.txt.
+Pinned commit: bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c
+https://github.com/CrypToolProject/CrypTool-2
+
+Phase11 calls the frozen phase10 baseline binary directly. Its variant imports
+the byte-identical prefix of the frozen phase10 source, excluding only its CLI
+main declaration and following bytes. The imported classes include the frozen
+phase9 metering and audited phase4 source movements. No prior source is edited.
+
+The new variant limits every source climb to 5000 proposal evaluations and
+refreshes parents after 4 processed offspring, including partial climbs. Local
+caps, completed sweeps and global cuts are logged separately. The objective,
+movements, population admission, parent choice and perturbations stay frozen.
+This pilot does not reproduce the whole published Lasry attack or claim all
+CrypTool parameters. It contains no historical BLUME or K1 search.

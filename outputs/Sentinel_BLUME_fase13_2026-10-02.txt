@@ -1,0 +1,161 @@
+Sentinel — BLUME SALAMANCA, fase 13
+Contraste con Claude y revisión de las dos líneas de investigación
+2 de octubre de 2026
+
+Claude Opus 5.5 ha revisado nuestro resumen y ha aportado una ruta bibliográfica
+comprobable. No ha descifrado los telegramas ni ha verificado sus originales.
+Seguimos sin una identidad comprobada de BLUME, una clave o un texto claro.
+El resultado útil de esta fase es precisar qué buscar y corregir el siguiente
+ensayo antes de gastar otro presupuesto de búsqueda.
+
+Alcance de la consulta
+
+Tras la autorización de Javier, se envió la consulta preparada en fase 12 al
+chat «Mensaje BLUME Salamanca», con el modelo visible «Opus 5.5 Medium»:
+https://claude.ai/chat/3a9b0fb5-f5ab-461d-9da2-b4e06401526c
+
+Claude declara haber hecho una consulta pública y no haber abierto las imágenes
+BAR o MDZ. Su primera respuesta es una crítica del resumen que le facilitamos,
+no una lectura independiente de los telegramas o del interrogatorio. La captura
+de accesibilidad conserva la respuesta, pero recorta dos párrafos largos; no
+se presenta como una transcripción íntegra de toda su prosa.
+
+Un seguimiento ampliado con el diseño experimental quedó bloqueado por revisión
+automática. Se conserva con el nombre consulta2_ampliada_NO_ENVIADA.txt. Se envió
+después una pregunta limitada a bibliografía pública. Claude respondió con una
+URL de NARA y matizó su recomendación sobre archivos alemanes. No recibió en ese
+seguimiento el diseño experimental ampliado. No cabe afirmar que lo validara.
+
+Historia: el testimonio de Werner
+
+El cotejo visual de las tres páginas del interrogatorio del 28 de abril de 1937
+confirma que Werner menciona lana, créditos suizos de exportación congelados en
+España e Hisma. Explica que una operación de lana podría recuperar esos saldos
+y atribuye el cifrado al deseo de ocultar los planes a Hisma antes de hablar
+con las autoridades de Burgos. A la vez, declara desconocer el contenido y
+no poseer la clave. Su explicación sigue siendo una conjetura testimonial.
+
+El acta sí contiene una mención contemporánea de Hisma al explicar los mensajes.
+Eso no demuestra una operación concreta con Blume o Bernhardt, ni vincula los
+telegramas al documento ADAP187 del 7 de enero. Las fechas próximas dan contexto.
+
+La investigación de un proyecto de bombas aparece en otra pregunta del mismo
+interrogatorio. Ni esa investigación ni un eventual destinatario militar
+refutarían por sí solos un mensaje sobre lana. Tampoco un objeto social textil
+demostraría su contenido. Haría falta un documento que vincule estos mensajes
+con una operación concreta, o un descifrado comprobado.
+
+Fuente primaria y cotejo con citas alemanas, traducciones y límites:
+work/phase13_claude/interrogatorio_cotejo.txt
+https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578609
+Archivo Federal Suizo,E4320B#1974/47#277*,Dokument_0000069,imágenes501/503/505.
+
+Historia: una ruta nueva para los microfilms
+
+Se ha abierto y comprobado la URL primaria aportada por Claude. NARA distingue
+el número de serie del rollo en T120 y señala suplementos de conversión en
+cada volumen del catálogo de archivos alemanes de 1920–1945:
+https://www.archives.gov/research/captured-german-records/citing-german-microfilm-sources.html
+
+Hemos localizado una ficha de copia digital del volumenIII del catálogo Kent.
+Su índice HTML sitúa «National Archives Supplement» en la página 770:
+https://books.google.com/books?id=oHAmAQAAMAAJ
+
+No se han leído las filas de los seriales 643 o 3176 ni se ha convertido ninguno
+a un rollo de T120. Las dos aperturas de páginas concretas fallaron en la
+herramienta web; no prueban que las páginas sean inaccesibles para el público.
+Los metadatos de ediciones aún no se han cotejado contra sus portadas.
+
+Esta ruta permite buscar las referencias antiguas de ADAP187,180 y 206, pero
+una conversión a rollo tampoco da automáticamente una signatura alemana actual.
+La guía oficial ya comprobada en fase 12 sitúa la política comercial de 1936–1945
+en el Bundesarchiv como orientación general. Claude corrigió su recomendación
+de concentrar esa búsqueda en PAAA. La custodia de cada documento concreto
+sigue pendiente de comprobación; hay que conservar también la vía política
+del PAAA. No se ha pedido ningún expediente ni inventado una signatura.
+https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-orientierung-1433562
+
+Criptografía: conservar la alternativa de código comercial
+
+Claude sugiere no concentrarnos sólo en transposición. Es razonable mantener
+un libro de códigos comercial, posiblemente con una transformación adicional,
+como hipótesis abierta. No ha localizado un libro usado por los Oswald.
+
+La lectura visual de las páginas 57,59 y 63 del reglamento de Madrid 1932 confirma
+que admitía palabras de código de hasta cinco letras, disponía la marca CDE y
+permitía exigir al remitente el código empleado. También regulaba direcciones
+arbitrarias o abreviadas mediante acuerdo con la oficina de destino. Estas
+reglas justifican buscar registros complementarios; no prueban su aplicación
+efectiva en enero de 1937 ni que PTT pidiera o conserve el código de los Oswald.
+
+Los cuerpos canónicos se han descrito sin buscar claves: T1 contiene 123 grupos
+de cinco letras, todos distintos; T2 contiene 32,todos distintos; no comparten
+ningún grupo. Se guardaron recuentos de letras por posición de grupo. No se
+hizo un contraste estadístico o comparación con un libro concreto. Esos
+recuentos no identifican sistema, idioma, clave ni contenido. La agrupación
+en cinco letras, por sí sola, tampoco distingue código comercial de cifrado.
+
+Fuente preservada: work/history/telegraph-regulations-madrid1932-lnts151.pdf,
+League of Nations Treaty Series 151,1934,n.º3479,artículos 10,11 y 15.
+Nota: work/phase13_claude/codigo_comercial_cotejo.txt
+Datos reproducibles: work/phase13_claude/group_description.json
+
+Criptografía: corregir el ensayo antes de ejecutarlo
+
+No adoptamos el factorial de Claude tal como está. Sin tope local, contar hijos
+procesados o convergidos da la misma política antes del corte global. Con su
+tope de 20.000, una preparación de 7.000, una escalada inicial y cuatro hijos
+agotando el tope exigirían 107.004 llamadas: la renovación no cabría en 100.000.
+Podría terminar una comparación antes de aplicar el cambio que intenta medir.
+
+Sus otros controles necesitan presupuesto y límites claros. Arrancar cerca de
+la clave verdadera es un diagnóstico con información privilegiada. Un nulo
+con puntuación alta no demuestra por sí solo un error del scorer. Seis victorias
+de ocho podrían ser un umbral práctico, pero no prueban superioridad estadística.
+
+La propuesta propia de fase 12 también requiere precisión. Se conserva un
+checkpoint común a 50.000 llamadas, con preparación idéntica en todos los brazos
+y fusión de padres no/sí. El efecto medido incluye la herencia de usos. Se han
+fijado por escrito la preparación sin admisiones automáticas, la prioridad
+de cortes, el tratamiento de resultados parciales y el consumo del generador
+aleatorio. Estas decisiones todavía deben implementarse y auditarse antes
+de sellar un experimento. Claude no revisó este documento ampliado.
+
+Notas internas y decisiones:
+work/phase13_claude/crypto_comparativa_claude.txt
+work/phase13_claude/crypto_revision_interna.txt
+work/phase13_claude/crypto_decisiones_preimplementacion.txt
+
+No se ha ejecutado una nueva búsqueda criptográfica, control privilegiado o
+ataque al mensaje histórico. Los resultados sintéticos de fase 11 se conservan
+y no validan un descifrado ni excluyen familias generales.
+
+Próximos pasos concretos
+
+1. Leer el suplemento del catálogo Kent y localizar filas legibles para 643 y
+   3176. Registrar la equivalencia exacta, la página y el encabezamiento. Si
+   alguno no está en ese volumen, buscar su lista correspondiente sin inferir
+   un rollo a partir del número de serie.
+2. Buscar en los formularios/registros PTT la marca CDE, justificación de la
+   tarifa y cualquier petición del código. Continuar buscando la titularidad
+   de BLUME como posible dirección telegráfica. Un indicio tarifario no daría
+   por sí solo la clave ni el contenido.
+3. Implementar y auditar el piloto sintético corregido antes de ejecutarlo.
+   Mantener la verdad fuera del solver y registrar costes y cortes por caso.
+   No pasar al ataque histórico basándonos sólo en una crítica de un modelo.
+
+Preservación y acciones externas
+
+Se han revalidado 903 archivos históricos anteriores,282 archivos criptográficos
+previos a fase 11 y 104 archivos del inventario de inicio de esta fase, que
+incluye los recursos de fase11/12 y sus informes. Son conjuntos parcialmente
+solapados: no deben sumarse como archivos distintos. Los cuerpos canónicos
+también coinciden con los hashes fijados. No se ha modificado ninguna de esas
+evidencias ni las conclusiones guardadas de fases anteriores.
+
+Acciones externas: dos consultas efectivamente enviadas a Claude; una pregunta
+ampliada bloqueada y no enviada. Una apertura independiente de la fuente NARA;
+tres consultas y tres aperturas web en la búsqueda acotada del catálogo Kent.
+No se enviaron correos, se hicieron pedidos, compras o cambios de cuenta.
+No se ha revisado la bandeja de entrada en esta fase ni creado seguimiento
+automático. El material de origen y los límites están en la procedencia JSON.

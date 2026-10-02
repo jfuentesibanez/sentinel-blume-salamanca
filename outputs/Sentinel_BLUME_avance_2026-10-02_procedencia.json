@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-02",
+  "phase": 8,
+  "scope": "Final report and evidence pointers; full resource lists remain in the referenced crypto and history manifests.",
+  "historical_plaintext_recovered": false,
+  "historical_key_recovered": false,
+  "new_emails_sent": false,
+  "files": [
+    {
+      "path": "outputs/Sentinel_BLUME_avance_2026-10-02.txt",
+      "bytes": 6898,
+      "sha256": "b8d9df59302856133f871f1d8088af210e64f2d27cffdf4e1c75b7240f403571"
+    },
+    {
+      "path": "work/verify_blume_phase8.py",
+      "bytes": 13110,
+      "sha256": "744d780046ab032f68043307263483ec5b31528e16e6166ab93b6b20c29771ed"
+    },
+    {
+      "path": "work/phase8_root_verification.json",
+      "bytes": 1544,
+      "sha256": "3dd1082015f87b3a578a591dd637730ad52ce972b07365bdde2b407c633a6710"
+    },
+    {
+      "path": "work/phase8_crypto/RESOURCE_HASHES.json",
+      "bytes": 5716,
+      "sha256": "550220c2d2ac4183f663b468d63ad4b2835d471eff2038c2473d400fd02145c7"
+    },
+    {
+      "path": "work/history/phase8-ptt/resource-hashes.json",
+      "bytes": 1895,
+      "sha256": "17ada0207c390fd101e8faad026b112e36d099c1b72e4aae0a70f793f55a3c70"
+    },
+    {
+      "path": "work/history/phase8-ptt-plan/plan-ledger.json",
+      "bytes": 2044,
+      "sha256": "d5b19f642dfbb92859472ad45baeab4953214591d2f6539e37d2354196d32ff1"
+    },
+    {
+      "path": "work/history/phase8-ptt/consulta-ptt-aleman.txt",
+      "bytes": 2448,
+      "sha256": "dcbac25764262e592993e6f3db59fb5483dfe90173e41bf6df0b6ef604edf75b"
+    },
+    {
+      "path": "work/history/phase8-ptt/consulta-ptt-traduccion.txt",
+      "bytes": 2563,
+      "sha256": "341113a9c347ecfab4f043479347d403ad31a90884920543c73b6cee18880ca1"
+    }
+  ]
+}

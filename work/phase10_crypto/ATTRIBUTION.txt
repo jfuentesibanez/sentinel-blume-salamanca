@@ -1,0 +1,12 @@
+CrypTool 2 movement-generation algorithm
+Copyright (C) CrypTool 2 Team
+Licensed under Apache License, Version 2.0; see LICENSE-CrypTool-2.txt.
+Pinned commit: bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c
+https://github.com/CrypToolProject/CrypTool-2
+
+Phase10 imports the frozen phase9 Search class and the audited phase4 source
+movement mappings without editing those files. It adds a separate population
+with numeric-permutation Hamming constraints, scored-parent admission, usage
+counts and explicit state traces. Its objective remains the local full-range
+greedy IDP implementation. This pilot does not claim an exact reproduction of
+the full published Lasry attack or all CrypTool search parameters.

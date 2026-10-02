@@ -1,0 +1,34 @@
+{
+  "audio_source": "https://soundcloud.com/entretiens/napalm",
+  "soundcloud_track_id": 1375854871,
+  "episode_date": "2022-11-03",
+  "associated_blog_date": "2022-11-04",
+  "duration_description": "62 minutos",
+  "sites_checked": [
+    {
+      "url": "https://www.sternenjaeger.ch/napalm/",
+      "author": "Dominik Landwehr",
+      "verified": "Texto público completo vía WordPresspost11725; contiene resumen y player oficial, sin transcript/enlaces transcript. No BLUME/telegramas/España/Victor/PATVAG en resumen."
+    },
+    {
+      "url": "https://entretiens-talks.ch/2022/11/04/napalm/",
+      "verified": "Texto público completo vía WordPresspost548; mismo resumen/reproductor, no transcripción."
+    },
+    {
+      "url": "https://podcasts.apple.com/ch/podcast/nylon-und-napalm-die-historikerin-regula-bochsler-untersucht/id1492557661?i=1000584990487",
+      "verified": "Versión autorizada episodio con descripción equivalente; no transcript público recuperado."
+    }
+  ],
+  "authorized_player": "https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1375854871&show_artwork=true&maxheight=750&maxwidth=500",
+  "limited_findings_es": "El texto del entrevistador permite establecer origen y tema general de la entrevista, no contenido hablado o marcas de tiempo. No transcripción localizada; no audio descargado ni escuchado por esta tarea.",
+  "other_text_sources": [
+    {
+      "url": "https://www.swissinfo.ch/ger/kultur/napalm-aus-den-alpen/48148056",
+      "description": "Artículo independiente de Bochsler,11enero2023; contexto posguerra,no transcripción de entrevista2022."
+    },
+    {
+      "url": "https://www.swissinfo.ch/ger/kultur/nylon-nazis-und-betriebsspionage/48148040",
+      "description": "Artículo independiente de Bochsler,10enero2023; fibras y contexto posguerra,no transcripción."
+    }
+  ]
+}

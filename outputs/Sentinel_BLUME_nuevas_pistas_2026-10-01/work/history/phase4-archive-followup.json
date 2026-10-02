@@ -1,0 +1,1186 @@
+{
+  "project": "Sentinel — BLUME SALAMANCA",
+  "created_date": "2026-10-01",
+  "scope": "Seguimiento acotado del registro de Werner Oswald (C.8/1) y del telegrama sobre París. Nueva muestra telegráfica de 1938 y fondo empresarial relevante. No modifica fases ni paquetes previos.",
+  "new_findings": [
+    {
+      "id": "VICTOR_CLEAR_TELEGRAM_1938",
+      "status": "original visually verified",
+      "archive": "Schweizerisches Bundesarchiv",
+      "reference": "E2001E#1000/1571#787*",
+      "catalogue_title": "Oswald, Victor, 1912, Madrid",
+      "identity_caution": "El año 1912 del catálogo difiere del 15.11.1909 de la nota policial de 1937. El telegrama lleva la firma victor oswald y está agrupado en este expediente; esta discrepancia registral queda pendiente.",
+      "piece": "Unterlagen_0000004",
+      "canvas_label": "27",
+      "image_id": "00000104",
+      "manifest_url": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json",
+      "source_url": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000104.jpg/full/full/0/default.jpg",
+      "local_original": "work/history/phase4-archive/victor-Unterlagen_0000004-00000104.jpg",
+      "date": "1938-05-09",
+      "date_basis": "Sello Telegraph Bern del 9.V.1938 y anotación manuscrita 9.5.38. No se interpreta el grupo de encaminamiento como fecha completa.",
+      "origin_as_printed": "Hendaye",
+      "recipient_as_printed": "dr froehlicher / bundeshaus berne suisse",
+      "sender_as_signed": "victor oswald",
+      "language": "German",
+      "cipher_status": "Readable plaintext telegram, not ciphertext.",
+      "new_value": "Muestra auténtica de idioma y estilo telegráfico asociado a Victor; incluye saludo, petición y cortesía. Puede ayudar a elaborar controles de estilo en alemán.",
+      "limits": [
+        "No es el telegrama sobre una cita de París citado el19 de abril de 1937.",
+        "No demuestra que BLUME esté en alemán.",
+        "No identifica BLUME ni sistema de cifrado.",
+        "No proporciona una criba conocida ni una clave para enero de 1937.",
+        "La firma OSWALD no puede incorporarse íntegramente a un mensaje obtenido por mera permutación del cifrado BLUME, donde no hay W."
+      ],
+      "printed_excerpt": "muss dringenst ins ausland reisen",
+      "summary_es": "Pide ayuda para conseguir permiso de tránsito por Francia para un viaje urgente; conserva saludo y cortesía."
+    },
+    {
+      "id": "HUNZIKER_CANDIDATE_FA013",
+      "status": "Fondo público verificado. Identificación biográfica sólida del Hans Hunziker investigado en 1937 con el empresario de la red Hunziker. La conservación de la correspondencia buscada en FA-013 está pendiente de comprobar.",
+      "repository": "Stadtarchiv Olten",
+      "reference": "FA-013",
+      "title": "PCO Portlandzementfabrik Olten (1931-)",
+      "dates_as_catalogued": "1921–1999",
+      "extent_as_catalogued": "12 lfm",
+      "record_url": "https://ub-archeco24.ub.unibas.ch/index.php/pco-portlandzementfabrik-olten-1931",
+      "record_local": "work/history/phase4-archive/archeco-FA013-record.html",
+      "official_inventory_url": "https://www.olten.ch/_docn/7067200/26-06-08_do_Bestands%C3%BCbersicht_Firmenarchive.pdf",
+      "official_inventory_local": "work/history/phase4-archive/Olten-Firmenarchive-2026-06-08.pdf",
+      "official_inventory_page_printed_and_pdf": 11,
+      "official_inventory_visual_confirmation": "work/history/phase4-archive/Olten-FA013-p11.png",
+      "verified_description": "El fondo contiene documentación de Hunziker-Unternehmungen por la relación de AG Hunziker & Cie con la fábrica antes y después de 1931. La ficha identifica la línea empresarial Hunziker & Cie, Brugg (1907), AG Hunziker + Cie (1914), y publicaciones sobre las fábricas de Zürich, Brugg y Olten. Describe principalmente documentación de dirección y recursos empresariales.",
+      "qualified_bridge": "El interrogatorio de Hans Hunziker (imagen 00000499, original cotejado por el agente principal) da nacimiento el 3.V.1874 en Reinach, padres Johann y Elisabeth de soltera Galliker, e industrial de Brugg. El HLS coincide en fecha y lugar, padres Johannes y Elisabeth Galliker, y traslado de la empresa a Brugg en 1907 con expansión en Olten. La coincidencia biográfica, sumada al membrete de la carta del 19 de abril de 1937 (imagen 00000513, cotejada previamente), permite identificar al empresario investigado y sostener la relevancia del fondo. No prueba que FA-013 contenga telegramas o correspondencia con Oswald.",
+      "public_finding_aids": "La ficha anuncia sistema archivístico e inventario separado. La página municipal publica el resumen de fondos, pero en su lista visible sólo ofrece inventarios detallados de FA-021 y FA-056. No ofrece FA-013 en esa lista; indica que proporciona otros extractos previa consulta.",
+      "official_repository_url": "https://www.olten.ch/aemter/974",
+      "repository_email_verified": "stadtarchiv@olten.ch",
+      "proposed_research_question": "Solicitar el Dossierverzeichnis detallado de FA-013 y preguntar si conserva correspondencia o diarios de Hans Hunziker (industrial de Brugg) y de la oficina de AG Hunziker & Cie en Zürich, enero–abril de 1937, con la referencia HU/Z, viaje París–Londres y telegrama llegado de Zürich antes del 19 de abril de 1937. No dar por hecho que el telegrama subsiste.",
+      "limits": [
+        "No se ha consultado el inventario detallado de FA-013.",
+        "No se ha localizado un telegrama de 1937 dentro de FA-013.",
+        "La identidad biográfica no resuelve el contenido de BLUME ni el sistema de cifrado.",
+        "No se ha enviado consulta ni solicitado copias de pago."
+      ],
+      "identity_evidence": {
+        "primary_interrogation_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000068%2F00000499.jpg/full/full/0/default.jpg",
+        "primary_interrogation_visual_verification": "Por el agente principal durante esta fase; no repetida por este subagente.",
+        "primary_company_letter_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000071%2F00000513.jpg/full/full/0/default.jpg",
+        "secondary_biography_url": "https://hls-dhs-dss.ch/de/articles/029551/2008-01-16/",
+        "secondary_author": "Dominik Sauerländer",
+        "secondary_version": "2004, editada el 16.01.2008",
+        "secondary_access": "Texto completo devuelto por búsqueda web oficial el 01.10.2026; no descarga de HTML.",
+        "secondary_facts": {
+          "birth": "1874-05-03",
+          "birthplace": "Reinach (AG)",
+          "father": "Johannes",
+          "mother": "Elisabeth, née Galliker",
+          "place_of_origin": "Leimbach",
+          "firm_relocated_to_Brugg": "1907",
+          "additional_site": "Olten"
+        },
+        "do_not_merge": "Hans Hunziker y Gottlieb Hunziker (Rüti) son personas distintas en el expediente."
+      }
+    },
+    {
+      "id": "BAR277_VOLUME_COVER",
+      "status": "Original visually verified",
+      "reference": "E4320B#1974/47#277*",
+      "piece": "Umschlag_0000001",
+      "image_id": "00000001",
+      "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FUmschlag_0000001%2F00000001.jpg/full/full/0/default.jpg",
+      "local_original": "work/history/phase4-archive/Umschlag_0000001-00000001.jpg",
+      "observation": "Cubierta C.8.1, Spanische Revolution 1936–1938, agrupaciones temáticas y marca romana III.",
+      "limit": "La marca III no basta para identificar las actuales signaturas #275 y #276 como los otros dos volúmenes ni demuestra que contengan el inventario del registro."
+    },
+    {
+      "id": "VICTOR_FROELICHER_LETTER_1938_04_08",
+      "status": "Original cotejado visualmente por este subagente y por el agente principal.",
+      "archive": "Schweizerisches Bundesarchiv",
+      "reference": "E2001E#1000/1571#787*",
+      "piece": "Unterlagen_0000004",
+      "image_id": "00000106",
+      "source_url": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000106.jpg/full/full/0/default.jpg",
+      "local_original": "work/history/phase4-archive/victor-Unterlagen_0000004-00000106.jpg",
+      "date": "1938-04-08",
+      "sender": "Frölicher",
+      "recipient_as_printed": "Victor M. Oswald, Miraconcha 13, 3º, San Sebastián",
+      "letter_reference": "B.31.51.F.-NZ",
+      "content_summary_es": "Acusa recibo de la carta de Oswald del 27 de marzo y trata su expulsión de Francia. Sigue pendiente una respuesta vinculante de las autoridades francesas.",
+      "value": "Contexto primario para la solicitud posterior de permiso de tránsito del 9 de mayo de 1938; documenta además un domicilio español.",
+      "limits": [
+        "No determina el motivo ni la fecha de la expulsión.",
+        "No demuestra relación causal con la cita de París de 1937 ni con BLUME."
+      ]
+    }
+  ],
+  "ocr_search": {
+    "corpus": "work/history/bar-blume277-ocr",
+    "files": 219,
+    "identity_terms": "oswald|osswald|patvag|bahnhof\\s*str\\.?\\s*12",
+    "identity_matching_pieces": [
+      "Dokument_0000069",
+      "Dokument_0000071",
+      "Unterlagen_0000068",
+      "Unterlagen_0000070"
+    ],
+    "broader_terms": "hunziker|27/28April1937|beschlagnahm|sichergestellt|hausdurchsuch",
+    "candidate_neighbors_reviewed_in_OCR": [
+      "Unterlagen_0000027",
+      "Unterlagen_0000035",
+      "Dokument_0000062",
+      "Unterlagen_0000063",
+      "Dokument_0000064",
+      "Unterlagen_0000065",
+      "Unterlagen_0000075",
+      "Dokument_0000076",
+      "Dokument_0000130",
+      "Dokument_0000211"
+    ],
+    "assessment": "Las coincidencias alternativas se refieren a otros casos o personas: Vavra/Peyralbe, asuntos de Ginebra, Charles Beck, Gottlieb Hunziker de Rüti, cuatro checos detenidos en Basel, Emil Walker y Groppi Ponce. No se encontró una referencia inequívoca nueva al inventario del registro de Werner Oswald ni al telegrama de París.",
+    "limits": [
+      "No se ha efectuado lectura visual completa de las 219 piezas.",
+      "La ausencia de coincidencias OCR no demuestra ausencia de manuscritos ni de documentos no recuperados por el OCR.",
+      "Las 22 imágenes adyacentes de la fase anterior no se repiten en esta revisión."
+    ]
+  },
+  "catalogue_searches": [
+    {
+      "label": "hunziker-hans",
+      "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/Search?language=de",
+      "request": {
+        "query": {
+          "searchGroups": [
+            {
+              "searchFields": [
+                {
+                  "key": "title",
+                  "value": "Hunziker AND Hans"
+                }
+              ],
+              "fieldOperator": 1
+            }
+          ],
+          "groupOperator": 1
+        },
+        "paging": {
+          "skip": 0,
+          "take": 100
+        },
+        "options": {
+          "enableHighlighting": true,
+          "enableAggregations": false
+        }
+      },
+      "response_file": "work/history/phase4-archive/search-hunziker-hans.json",
+      "total": 41,
+      "returned_and_read": 41,
+      "matches_summary": [
+        {
+          "archiveRecordId": "31516175",
+          "reference": "E2200.56-07#1000/649#2289*",
+          "title": "Hunziker, Hans",
+          "dates": "1946 - 1947",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "2178433",
+          "reference": "E5001F#1968/100#1140*",
+          "title": "Hunziker Hans, Stark Hans",
+          "dates": "1956",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "1731795",
+          "reference": "E2001D#1000/1553#7844*",
+          "title": "Hunziker, Hans, Direktor",
+          "dates": "1943 - 1945",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "6733056",
+          "reference": "E2200.37-02#1967/49#77*",
+          "title": "Hunziker Hans, Leimbach",
+          "dates": "1933 - 1950",
+          "manifest_link": null,
+          "access": "Prüfung nötig"
+        },
+        {
+          "archiveRecordId": "6313902",
+          "reference": "E2200.75-01#1000/688#29*",
+          "title": "Hunziker Hans, Verkehrsumfall",
+          "dates": "1948 - 1949",
+          "manifest_link": null,
+          "access": "Prüfung nötig"
+        },
+        {
+          "archiveRecordId": "3591225",
+          "reference": "E4320B#1987/187#735*",
+          "title": "Hunziker, Hans, 1905",
+          "dates": "1940",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "2034021",
+          "reference": "E5521#1991/65#326*",
+          "title": "Hunziker Hans, 1913",
+          "dates": "1934 - 1951",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "5464726",
+          "reference": "E8150A#1967/63#1032*",
+          "title": "Hunziker, Hans, 1912",
+          "dates": "1943 - 1944",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "5366780",
+          "reference": "E4264#1988/2#13225*",
+          "title": "HUNZIKER, JOHANN (HANS), 1923",
+          "dates": "1941 - 1942",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "5370407",
+          "reference": "E4264#1988/2#16852*",
+          "title": "HUNZIKER, JOHANN (HANS), 31.01.1924",
+          "dates": "1944 - 1945",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "4113575",
+          "reference": "E5330-01#1000/894#10218*",
+          "title": "Hunziker Hans 1894, Veruntreuung",
+          "dates": "1920 - 1921",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "5567591",
+          "reference": "E5330-01#1000/894#17152*",
+          "title": "Hunziker Hans 1915, Diebstahl",
+          "dates": "1935",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30410827",
+          "reference": "E5330-01#1975/95#39674*",
+          "title": "Hunziker Hans 1922, Nichteinrücken",
+          "dates": "1947",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "27872109",
+          "reference": "E5330-01#1975/95#8060*",
+          "title": "Hunziker Hans 1912, Diebstahl",
+          "dates": "1940 - 1947",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "31071172",
+          "reference": "E5330-01#1979/123#2616*",
+          "title": "Hunziker Hans 1949, Verkehrskollision",
+          "dates": "1970 - 1971",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "2052653",
+          "reference": "E5540E#1982/161#80*",
+          "title": "Hunziker, Hans, 1921, Krankenpfleger",
+          "dates": "1955 - 1960",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "8015052",
+          "reference": "E2200.46-01#1970/130#354*",
+          "title": "Hunziker-Küng Hans Jakob, 1908",
+          "dates": "1945 - 1945",
+          "manifest_link": null,
+          "access": "Prüfung nötig"
+        },
+        {
+          "archiveRecordId": "20804867",
+          "reference": "E5330-01#1975/95#3637*",
+          "title": "Hunziker Hans Jakob 1908, Dienstversäumnis",
+          "dates": "1940 - ca. 1944",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "32284686",
+          "reference": "J2.79#1971/143#6264*",
+          "title": "Nr. 208 Hans Hunziker, Zürich",
+          "dates": "1918 - 1951",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "5328725",
+          "reference": "E4264#1000/842#6413*",
+          "title": "HUNZIKER, FRIEDRICH (FRITZ), 22.01.1914; HUNZIKER, JAKOB (GIACOMO LODOVICO, 29.12.1910; HUNZIKER, JOHANN (HANS), 20.04.1908; HUNZIKER, WALTER, 23.09.1909",
+          "dates": "1930 - 1939",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30435104",
+          "reference": "E5330-01#1975/95#42273*",
+          "title": "Hunziker Hans 1925, Unfall bei Schussabgabe",
+          "dates": "1948 - 1949",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "32250289",
+          "reference": "J2.79#1971/143#2108*",
+          "title": "Dossier Nr. 2177 Monsieur Hans Hunziker",
+          "dates": "1918 - 1925",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "2162929",
+          "reference": "E5001F#1000/1855#335*",
+          "title": "Hunziker Hans, Seftigen; Kpl. Handschin André, Genf",
+          "dates": "1951",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "29350994",
+          "reference": "E5330-01#1975/95#17375*",
+          "title": "Hunziker Hans 1923, Eintritt in fremden Militärdienst",
+          "dates": "1942 - 1943",
+          "manifest_link": "0000/2935/0994/29350994.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30293475",
+          "reference": "E5330-01#1975/95#31280*",
+          "title": "Hunziker Hans 1925, Wiederholte Dienstverletzung, Wederholter Diebstahl",
+          "dates": "1944",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30397612",
+          "reference": "E5330-01#1975/95#39015*",
+          "title": "Hunziker Hans 1913, Unregelmässigkeiten in der Rechnungsstellung",
+          "dates": "1945 - 1948",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30510111",
+          "reference": "E5330-01#1975/95#58353*",
+          "title": "Hunziker Hans 1927, Dienstversäumnis, Nichtbefolgung von Dienstvorschriften",
+          "dates": "1959",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30516080",
+          "reference": "E5330-01#1975/95#60148*",
+          "title": "Hunziker Hans 1927, Nichtbefolgung von Dienstvorschriften, Dienstversäumnis",
+          "dates": "1959 - 1963",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30526928",
+          "reference": "E5330-01#1975/95#65511*",
+          "title": "Hunziker Hans 1944, Beschädigung eines landwirtschaftlichen Fahrzeuges",
+          "dates": "1965",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "4975700",
+          "reference": "E4110A#1000/1832#1011*",
+          "title": "Hunziker Hans, von Leimbach AG, gest. in Lugano",
+          "dates": "1947 - 1947",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30293206",
+          "reference": "E5330-01#1975/95#31011*",
+          "title": "Hunziker Hans s.d., Meier Karl s.d., Unerlaubte Entfernung",
+          "dates": "1944",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30437914",
+          "reference": "E5330-01#1975/95#42723*",
+          "title": "Hunziker Hans 1922, Dienstverweigerung, Materialverschleuderung, Nichtbefolgung von Dienstvorschriften",
+          "dates": "1949 - 1951",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30322166",
+          "reference": "E5330-01#1975/95#35051*",
+          "title": "Hunziker Gustav 1905 Koller Hans 1899, Abhandenkommen einer Zeltblache",
+          "dates": "1944 - 1945",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30326294",
+          "reference": "E5330-01#1975/95#35567*",
+          "title": "Hunziker Hans 1923, Illegaler Grenzübertritt, Eintritt in Fremden Militärdienst",
+          "dates": "1945 - 1946",
+          "manifest_link": "0000/3032/6294/30326294.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "2995765",
+          "reference": "E7001C#1975/64#972*",
+          "title": "Hunziker-Bolliger Hans: Beschwerde betr. Rückerstattung des Kälbermästerbeitrags 1963",
+          "dates": "1964",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "4304798",
+          "reference": "E4264#2006/266#6631*",
+          "title": "Sierts, Christian, 27.05.1961; Sierts, Stephan, 11.12.1958; Sierts-Hunziker, Hans Paul, 07.07.1927",
+          "dates": "1966 - 1967",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "2198195",
+          "reference": "E5001F#1970/4#1359*",
+          "title": "Adj. Uof. Bulgheroni, Adj. Uof. Jenal Heinz, Kr. Pfleger Hunziker Hans",
+          "dates": "1958",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30877605",
+          "reference": "E5330-01#1979/123#1262*",
+          "title": "Hunziker Peter Fritz 2.11.1949; Sigrist Rudolf 25.2.1944; Eisenhut Hans 22.11.1942, Getriebeschaden",
+          "dates": "1970",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30505683",
+          "reference": "E5330-01#1975/95#56974*",
+          "title": "Hunziker Hans-Rudolf 1943, Nichtbefolgung von Dienstvorschriften, Missbrauch und Verschleuderung von Material,",
+          "dates": "1963",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30478592",
+          "reference": "E5330-01#1975/95#49383*",
+          "title": "Hunziker Max 1931, Friedli Hans 1932, Gutknecht Walter 1930, Materialmissbrauch, Nichtbefolgung von Dienstvorschriften, Unrkundenfälschung",
+          "dates": "1953 - 1954",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3394306",
+          "reference": "E4321A#1991/62#4810*",
+          "title": "Suter, Johann, 1907, Siglisdorf; Keiser, Karl, 1904, Zug; Oetiker, Alfred, 1925, Rafz; Brunner, Friedrich, 1923, Thalheim a.d. Thur; Brack, Fritz, 1915, Schinznach-Dorf; Hunziker, Hans, 1934, Teufenthal; Basler, Max, 1898, Holziken; Maurer, Ernst, Lengnau; Wüthrich, Ernst, Ersigen",
+          "dates": "1968",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        }
+      ]
+    },
+    {
+      "label": "1974-47-neighbors",
+      "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/Search?language=de",
+      "request": {
+        "query": {
+          "searchGroups": [
+            {
+              "searchFields": [
+                {
+                  "key": "referenceCode",
+                  "value": "E4320B#1974/47#27?*"
+                }
+              ],
+              "fieldOperator": 1
+            }
+          ],
+          "groupOperator": 1
+        },
+        "paging": {
+          "skip": 0,
+          "take": 100
+        },
+        "options": {
+          "enableHighlighting": true,
+          "enableAggregations": false
+        }
+      },
+      "response_file": "work/history/phase4-archive/search-1974-47-neighbors.json",
+      "total": 11,
+      "returned_and_read": 11,
+      "matches_summary": [
+        {
+          "archiveRecordId": "3578119",
+          "reference": "E4320B#1974/47#27*",
+          "title": "Bärtschi, Jakob, Hindelbank",
+          "dates": "1933",
+          "manifest_link": "0000/0357/8119/3578119.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578595",
+          "reference": "E4320B#1974/47#270*",
+          "title": "Vuattolo, Augusto, 1882",
+          "dates": "1937 - 1944",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578597",
+          "reference": "E4320B#1974/47#271*",
+          "title": "Streik im Tessin",
+          "dates": "1943 - 1944",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578599",
+          "reference": "E4320B#1974/47#272*",
+          "title": "Streikbewegungen",
+          "dates": "1936 - 1957",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578601",
+          "reference": "E4320B#1974/47#273*",
+          "title": "Milchstreik",
+          "dates": "1947 - 1949",
+          "manifest_link": "0000/0357/8601/3578601.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578603",
+          "reference": "E4320B#1974/47#274*",
+          "title": "Streik italienischer Arbeiter in Pratteln",
+          "dates": "1937 - 1948",
+          "manifest_link": "0000/0357/8603/3578603.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "Vz      cb9610ea-e7ad-54ce-8d35-623f96a8e191",
+          "reference": "E4320B#1974/47#275*",
+          "title": "Spanische Revolution",
+          "dates": "1936-1937",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578607",
+          "reference": "E4320B#1974/47#276*",
+          "title": "Spanische Revolution (Spanienfahrer etc.)",
+          "dates": "1934 - 1937",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578609",
+          "reference": "E4320B#1974/47#277*",
+          "title": "Spanische Revolution (Passvisas etc.)",
+          "dates": "1936 - 1938",
+          "manifest_link": "0000/0357/8609/3578609.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578611",
+          "reference": "E4320B#1974/47#278*",
+          "title": "Spanische Revolution (Pressekommentare)",
+          "dates": "1936 - 1938",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578613",
+          "reference": "E4320B#1974/47#279*",
+          "title": "Spanische Revolution (Informationsdienst)",
+          "dates": "1938",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        }
+      ]
+    },
+    {
+      "label": "oswald-werner",
+      "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/Search?language=de",
+      "request": {
+        "query": {
+          "searchGroups": [
+            {
+              "searchFields": [
+                {
+                  "key": "allData",
+                  "value": "Oswald AND Werner"
+                }
+              ],
+              "fieldOperator": 1
+            }
+          ],
+          "groupOperator": 1
+        },
+        "paging": {
+          "skip": 0,
+          "take": 100
+        },
+        "options": {
+          "enableHighlighting": true,
+          "enableAggregations": false
+        }
+      },
+      "response_file": "work/history/phase4-archive/search-oswald-werner.json",
+      "total": 20,
+      "returned_and_read": 20,
+      "matches_summary": [
+        {
+          "archiveRecordId": "5390255",
+          "reference": "E4264#1988/2#36700*",
+          "title": "OSWALD, ARTHUR WERNER, 25.06.1898; OSWALD, WERNER ARTHUR, 25.06.1898",
+          "dates": "1952 - 1954",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "32406324",
+          "reference": "E2200.19-01#1000/1722#200*",
+          "title": "Rehmann Oswald, Bernath Werner (Execution seuteuce)",
+          "dates": "1932 - 1937",
+          "manifest_link": null,
+          "access": "Prüfung nötig"
+        },
+        {
+          "archiveRecordId": "32775733",
+          "reference": "E4264#1989/146#27455*",
+          "title": "Martin, Werner Oswald . 15.10.1907; Martin, Eva Maria . 27.07.1933",
+          "dates": "1945 - 1955",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "30507529",
+          "reference": "E5330-01#1975/95#57697*",
+          "title": "Amrein Erich 1936, Verletzung durch blinden Schuss (Opfer: Oswald Werner)",
+          "dates": "1959",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "6473967",
+          "reference": "E4264#2006/96#11127*",
+          "title": "Scheffler, Rudolf Arthur, 17.05.1942; Scheffler, Silvia, 18.01.1936; Scheffler, Werner Oswald. 25.12.1944",
+          "dates": "1953 - 1956",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "5056302",
+          "reference": "E5330-01#1000/894#14222*",
+          "title": "Heuberger Arnold Johann 1895, Brüllhardt Werner Oswald 1905, Fälschung dienstlicher Aktenstücke (Standblattfälschung)",
+          "dates": "1930",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "21842794",
+          "reference": "J2.225#2000/20#785#11*",
+          "title": "Tagesschau Hauptausgabe (TS), OS Athen / Infrastruktur, 23.11.2001",
+          "dates": "23.11.2001",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "21858861",
+          "reference": "J2.225#2000/22#1276#2*",
+          "title": "Fierz-Quartier ; Blickpunkt, 15.06.1979",
+          "dates": "15.06.1979",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "21858706",
+          "reference": "J2.225#2000/22#1233#1*",
+          "title": "Kantonsgericht Schwyz ; Blickpunkt, 10.04.1979",
+          "dates": "10.04.1979",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "22321784",
+          "reference": "J2.225#2004/221#58#16*",
+          "title": "Tagesschau Hauptausgabe (TS), 27.02.2004 ; Athen unter Druck wegen OS 2004",
+          "dates": "27.02.2004",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "22321777",
+          "reference": "J2.225#2004/221#58#9*",
+          "title": "Tagesschau Hauptausgabe (TS), 27.02.2004 ; Athen unter Druck wegen OS 2004",
+          "dates": "27.02.2004",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "21867940",
+          "reference": "J2.225#2000/22#2718#2*",
+          "title": "Dezentralisierung der Bundesverwaltung ; DRS-aktuell, 17.06.1985",
+          "dates": "17.06.1985",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3592459",
+          "reference": "E4320B#1993/214#1587*",
+          "title": "Lohrer Adolf, 1.7.1912, und Konsorten; Spionage",
+          "dates": "1941",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "31058712",
+          "reference": "E5330-01#1982/1#1034*",
+          "title": "Geheimer Einzelfall: Wirz Wolfang Franz Josef 1911 und andere, Verletzung militärischer Geheimnisse, Verbotener Nachrichtendienst",
+          "dates": "1942 - 1960",
+          "manifest_link": "0000/3105/8712/31058712.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "26762921",
+          "reference": "E5330-01#1975/95#6483*",
+          "title": "Benoit Marcel Alphonse 1911, Pedroletti Frédéric Joseph 1914, Jenni Ernest 1919, Klotzli Armin 1917, Leuenberger Marcel 1919, Schaller Otto Henri 1917, Eicher Robert Werner 1913, Muster Jean Willy 1917, Allemann Pierre Charles 1918, Hirschi Walter 1914, Charmillot Robert 1918, Kottelat Henri 1919, Huber Jean 1920, Chetelat Joseph 1913, Kaufmann Oswald Oscar 1912, Mouttet Gustave 1917, Friche Maurice 1918, Botinelli Ercole 1908, Rottet Justin 1908, Grosjean Gérald 1919, Jeanpretre Gilbert Alfred 1916, Kummer Jean 1916, Ambuhl Gilbert André 1917, Weber Ernest Albert 1909, Schaller André Joseph 1913, Schaller Henri Joseph 1912, Peteux Roger Willly 1921, Kohler René Joseph 1918, Neuenschwander Werner 1912, Chetelat Théophile Joseph 1911, Kohler Julien 1916,",
+          "dates": "1940 - 1963",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "4415495",
+          "reference": "J2.294-01#2008/120#576*",
+          "title": "Pressekonferenz: PUBLICA - Gesetz, Steuern Heiratsstrafe vom 23.09.2005",
+          "dates": "23.09.2005",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "Vz      d99dbd7a-32da-5674-9ac6-cce05b085e42",
+          "reference": "E4264#1988/2#37030*",
+          "title": "Sammeldossier Fremdenlegion : ABEGGLEN, MAX, 11.01.1939 - VOGEL, JOSEF, 17.03.1938",
+          "dates": "1952-1970",
+          "manifest_link": "d99dbd7a-32d/a-5674-9ac6-/cce05b085e42/d99dbd7a-32da-5674-9ac6-cce05b085e42.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "31054167",
+          "reference": "E5330-01#1982/1#953*",
+          "title": "Geheimer Einzelfall: Fritz Adolf & Konsorten, Spionage",
+          "dates": "1942 - 1974",
+          "manifest_link": "0000/3105/4167/31054167.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "31058809",
+          "reference": "E5330-01#1982/1#1131*",
+          "title": "Geheimer Einzelfall: Vorläufige Beweisaufnahme gemäss Art. 108 MStr. GO betr. Nichtrückgabe der K. Mob. V. Trp. Kdt. 47, Enquête 108 OJPPM concernant la non-restitution d'exemplaire des P. mob. G cdt. Trp. 1947",
+          "dates": "1952 - 1953",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "31058815",
+          "reference": "E5330-01#1982/1#1137*",
+          "title": "Geheimer Einzelfall: Laubscher Berta 1908, Grimm Sophie 1901 & Konsorten, Wiederholte Gehilfenschaft bei Verletzung militärischer Geheimnisse, ev. Gehilfenschaft bei verbotenem militärischem Nachrichtendienst",
+          "dates": "1942 - 1967",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        }
+      ]
+    },
+    {
+      "label": "hunziker-brugg",
+      "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/Search?language=de",
+      "request": {
+        "query": {
+          "searchGroups": [
+            {
+              "searchFields": [
+                {
+                  "key": "allData",
+                  "value": "Hunziker AND Brugg"
+                }
+              ],
+              "fieldOperator": 1
+            }
+          ],
+          "groupOperator": 1
+        },
+        "paging": {
+          "skip": 0,
+          "take": 100
+        },
+        "options": {
+          "enableHighlighting": true,
+          "enableAggregations": false
+        }
+      },
+      "response_file": "work/history/phase4-archive/search-hunziker-brugg.json",
+      "total": 5,
+      "returned_and_read": 5,
+      "matches_summary": [
+        {
+          "archiveRecordId": "3116604",
+          "reference": "E8100A#1976/161#723*",
+          "title": "Stangensockel Hunziker und Cie, Brugg, Proben",
+          "dates": "1916 - 1922",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3533543",
+          "reference": "E4110B#1981/30#937*",
+          "title": "Hunziker AG & Cie., Zürich, betr. Projektierungszonen in den Gemeinden Brugg und Windisch",
+          "dates": "1966 - 1969",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "22393192",
+          "reference": "J2.225#2009/142#481#1*",
+          "title": "Rundschau (RS), 30.06.1987 ; Bauernpräsident Melchior Ehrler",
+          "dates": "30.06.1987",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "32540598",
+          "reference": "E5250D#2020/322#112*",
+          "title": "Lizenzverträge DS (Nicht unterzeichnete Verträge, = Fr. 1000.00 / Schul-Datensätze) 074611 - 074640",
+          "dates": "01.01.2007 - 31.12.2007",
+          "manifest_link": null,
+          "access": "In Schutzfrist"
+        },
+        {
+          "archiveRecordId": "32721705",
+          "reference": "E5301B#1995/557#1-08*",
+          "title": "Adressliste nach Alphabet geordnet, H",
+          "dates": "1987",
+          "manifest_link": null,
+          "access": "Prüfung nötig"
+        }
+      ]
+    },
+    {
+      "label": "spanische-revolution",
+      "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/Search?language=de",
+      "request": {
+        "query": {
+          "searchGroups": [
+            {
+              "searchFields": [
+                {
+                  "key": "title",
+                  "value": "\"Spanische Revolution\""
+                }
+              ],
+              "fieldOperator": 1
+            }
+          ],
+          "groupOperator": 1
+        },
+        "paging": {
+          "skip": 0,
+          "take": 100
+        },
+        "options": {
+          "enableHighlighting": true,
+          "enableAggregations": false
+        }
+      },
+      "response_file": "work/history/phase4-archive/search-spanische-revolution.json",
+      "total": 13,
+      "returned_and_read": 13,
+      "matches_summary": [
+        {
+          "archiveRecordId": "Vz      cb9610ea-e7ad-54ce-8d35-623f96a8e191",
+          "reference": "E4320B#1974/47#275*",
+          "title": "Spanische Revolution",
+          "dates": "1936-1937",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578611",
+          "reference": "E4320B#1974/47#278*",
+          "title": "Spanische Revolution (Pressekommentare)",
+          "dates": "1936 - 1938",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578613",
+          "reference": "E4320B#1974/47#279*",
+          "title": "Spanische Revolution (Informationsdienst)",
+          "dates": "1938",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578614",
+          "reference": "E4320B#1974/47#280*",
+          "title": "Spanische Revolution (Heeresberichte)",
+          "dates": "1938 - 1939",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578616",
+          "reference": "E4320B#1974/47#281*",
+          "title": "Spanische Revolution (Propagandamaterial)",
+          "dates": "1936 - 1937",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "Vz      2a7a429e-daf1-5fac-b3f1-965f2585567b",
+          "reference": "E4320B#1974/47#282*",
+          "title": "Spanische Revolution (Anwerbungen)",
+          "dates": "1936-1937",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578622",
+          "reference": "E4320B#1974/47#284*",
+          "title": "Spanische Revolution (Diverses)",
+          "dates": "1936 - 1939",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578625",
+          "reference": "E4320B#1974/47#285*",
+          "title": "Spanische Revolution (Diverses)",
+          "dates": "1936 - 1959",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578607",
+          "reference": "E4320B#1974/47#276*",
+          "title": "Spanische Revolution (Spanienfahrer etc.)",
+          "dates": "1934 - 1937",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578609",
+          "reference": "E4320B#1974/47#277*",
+          "title": "Spanische Revolution (Passvisas etc.)",
+          "dates": "1936 - 1938",
+          "manifest_link": "0000/0357/8609/3578609.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578620",
+          "reference": "E4320B#1974/47#283*",
+          "title": "Spanische Revolution (Propaganda Bulletin)",
+          "dates": "1936 - 1937",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3578627",
+          "reference": "E4320B#1974/47#286*",
+          "title": "Spanische Revolution (Protestkundgebung gegen die Verurteilung von Spanienfahrer)",
+          "dates": "1936 - 1943",
+          "manifest_link": "0000/0357/8627/3578627.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "2068965",
+          "reference": "J1.323-01#2004/540#197*",
+          "title": "Unterlagen und Notizen zur Geschichte und Gesetze der Revolutionen: Allgemeines und die Türkische, Mexikanische, Französische (Belgien und Polen) und die Spanische Revolution",
+          "dates": "1924 - 1990",
+          "manifest_link": null,
+          "access": "Prüfung nötig"
+        }
+      ]
+    },
+    {
+      "label": "hunziker-company",
+      "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/Search?language=de",
+      "request": {
+        "query": {
+          "searchGroups": [
+            {
+              "searchFields": [
+                {
+                  "key": "allData",
+                  "value": "\"Hunziker & Cie\""
+                }
+              ],
+              "fieldOperator": 1
+            }
+          ],
+          "groupOperator": 1
+        },
+        "paging": {
+          "skip": 0,
+          "take": 100
+        },
+        "options": {
+          "enableHighlighting": true,
+          "enableAggregations": false
+        }
+      },
+      "response_file": "work/history/phase4-archive/search-hunziker-company.json",
+      "total": 3,
+      "returned_and_read": 3,
+      "matches_summary": [
+        {
+          "archiveRecordId": "3038608",
+          "reference": "E7202#1000/1081#108*",
+          "title": "Briketierwerk Olten, Hunziker & Cie. AG, Explosion 6.11.1920 (114)",
+          "dates": "1921",
+          "manifest_link": "0000/0303/8608/3038608.json",
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "4978132",
+          "reference": "E4110A#1000/1839#32*",
+          "title": "Schweiz. Bundesgericht, Lausanne. Verwaltungsgerichtsbeschwerde der AG Hunziker & Cie, Baustofffabriken, Filiale Olten, und Josef Ulrich, Landwirt, Rickenbach SO, gegen Regierungsrat Solothurn betr. bäuerlichen Grundstückverkehr; Vernehmlassung",
+          "dates": "1954 - 1954",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        },
+        {
+          "archiveRecordId": "3282880",
+          "reference": "E23#1000/715#87*",
+          "title": "Allgemeines: u.a. Antwendung des Fabrikgesetzes auf Depots, Werkstätten etc.; Stundenplanangelegenheit der Aluminium AG Neuhausen; Explosion in der Fabrik der Firma Hunziker & Cie. Olten; Stellung der Freileitungsmonteure und Hausinstallateure der Elektrizitätswerke zum Fabrikgesetz",
+          "dates": "01.01.1916 - 31.12.1928",
+          "manifest_link": null,
+          "access": "Frei zugänglich"
+        }
+      ]
+    },
+    {
+      "label": "werner-date",
+      "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/Search?language=de",
+      "request": {
+        "query": {
+          "searchGroups": [
+            {
+              "searchFields": [
+                {
+                  "key": "allData",
+                  "value": "\"16.3.1904\""
+                }
+              ],
+              "fieldOperator": 1
+            }
+          ],
+          "groupOperator": 1
+        },
+        "paging": {
+          "skip": 0,
+          "take": 100
+        },
+        "options": {
+          "enableHighlighting": true,
+          "enableAggregations": false
+        }
+      },
+      "response_file": "work/history/phase4-archive/search-werner-date.json",
+      "total": 0,
+      "returned_and_read": 0,
+      "matches_summary": []
+    }
+  ],
+  "unresolved_priorities": [
+    {
+      "target": "Inventario del registro de Werner Oswald, 28 de abril de 1937",
+      "known_reference": "C.8/1; orden del 27 de abril; despacho Bahnhofstrasse 12, Zürich",
+      "next_archive_candidates": [
+        "BAR E4320B#1974/47#275* — Spanische Revolution, 1936–1937",
+        "BAR E4320B#1974/47#276* — Spanische Revolution (Spanienfahrer etc.), 1934–1937",
+        "Archivo de la policía de Zürich, tras determinar si la autoridad actuante fue cantonal o municipal."
+      ],
+      "limit": "#275 y #276 no ofrecen manifest en las consultas realizadas. Son candidatos de serie; no se ha localizado el inventario."
+    },
+    {
+      "target": "Telegrama llegado de Zürich anunciando imposibilidad de acudir a París, anterior al 19 de abril de 1937",
+      "next_archive_candidate": "Stadtarchiv Olten, FA-013; pedir primero el inventario detallado de los documentos conservados de Hunziker-Unternehmungen.",
+      "limit": "Relevancia empresarial documentada; presencia de correspondencia o del telegrama aún sin comprobar."
+    },
+    {
+      "target": "Posible expediente personal adicional de Hans Hunziker",
+      "reference": "E2200.37-02#1967/49#77*",
+      "catalogue_title": "Hunziker Hans, Leimbach",
+      "dates": "1933–1950",
+      "record_id": "6733056",
+      "source": "Consulta BAR title Hunziker AND Hans, guardada en search-hunziker-hans.json",
+      "identity_status": "Candidato sin cotejo individual: Leimbach coincide con el lugar de origen según HLS, pero título y fechas no bastan para identificarlo.",
+      "access_as_catalogued": "Prüfung nötig",
+      "manifest_as_catalogued": null
+    }
+  ],
+  "preservation": {
+    "earlier_phase_files_modified": false,
+    "contacts_sent": false,
+    "orders_placed": false
+  },
+  "file_hashes": {
+    "work/history/phase4-archive/BAR-C08-neighbors-entity.json": "406abce7ee626b888f90968094dd0cf066ee0b6adb226a1dd5b01ec412a1c56d",
+    "work/history/phase4-archive/HLS-HansHunziker-evidence.json": "45fda1100c3f488a1aae8f2b1bbb9805e8399c83b2b6d0dedce3e0062a134d23",
+    "work/history/phase4-archive/Olten-FA013-p11.png": "f4c7c0ad9dcf2f28bc789b0c1c269a5ef97c1f6df95e7687123d9eba54ab707b",
+    "work/history/phase4-archive/Olten-Firmenarchive-2026-06-08.pdf": "910d7e5d8d90a04144fd0c7a4a5971510b28ac837be1091b081f7dcc1c0dfe57",
+    "work/history/phase4-archive/Olten-Firmenarchive-2026-06-08.txt": "ed4a847b7e7cff01b25196233945743a05b1879c5b7f704095896495a03a922e",
+    "work/history/phase4-archive/Umschlag_0000001-00000001.jpg": "f97e804943e17980bbb010043a85db8567d730a2427112c9a64af970ca6cecf8",
+    "work/history/phase4-archive/Umschlag_0000001-manifest.json": "1d79a1e16aba71582ba9eecb057e045957041e8e1c4b5a0d8c0fe9c0979bea67",
+    "work/history/phase4-archive/archeco-FA013-record.html": "bf203a31d03820e4427138e9cfc4999e020deea7d7fa2ba5ada551f9da07366d",
+    "work/history/phase4-archive/archeco-FA013-results.html": "b43ca45b08e6780f6ae058e0bcb9bfbb988bb8ab27523dd8af91128dd1ebbd5b",
+    "work/history/phase4-archive/archeco-hunziker-results.html": "aa99696e2b4644c0472f7cc68916a42379f06e14d29a99995cf150fe66b25e8b",
+    "work/history/phase4-archive/query-1974-47-neighbors.json": "8a026b75d0c96d6e1661b056a9ee3e5850e4cf5635105f725796b7183fc8a3b4",
+    "work/history/phase4-archive/query-hunziker-brugg.json": "3c568bf5bbe15c4e174109a3bedbb7be67abefb81d7792c40737f3899294bf4b",
+    "work/history/phase4-archive/query-hunziker-company.json": "1edb51751e48b300c7b56b33ea2ca5e1009c9c2fe970a0446a5955c26ecb6d3a",
+    "work/history/phase4-archive/query-hunziker-hans.json": "208a77d185a1eb5f42aae62433dcefa8e3081855aa6f07588559cc4a24380bb5",
+    "work/history/phase4-archive/query-oswald-werner.json": "8b59478475b4ca78b03611844d22cdbbd259af65c3dece7994d48ec62b0d6c9e",
+    "work/history/phase4-archive/query-spanische-revolution.json": "4d285da1d2664d14421a7ed9fb28a248705f88c8114c6b9a47c841fc4bf3aad8",
+    "work/history/phase4-archive/query-werner-date.json": "6d98ad3779bc9f100c057e4c42ab7fc6a34cadfd6bb40ad7a52b80536315d534",
+    "work/history/phase4-archive/search-1974-47-neighbors.json": "ae21dec346db60d58650f7ffbc11b757d9a5f9915d25729c1a079c4efe3d6f14",
+    "work/history/phase4-archive/search-hunziker-brugg.json": "87c851bc595a27b47689e13a534c81ea56ad7337c39a30aff9a27441f9cedcb4",
+    "work/history/phase4-archive/search-hunziker-company.json": "a46758c605e9c045ee461d47c825494e4dfaeb9c438653029ac9aaf49123d55a",
+    "work/history/phase4-archive/search-hunziker-hans.json": "8de7910a624cabd68820aa948b66838f4733e68c674335b334e1a5ab3726d8af",
+    "work/history/phase4-archive/search-oswald-werner.json": "aa8dc2d06a92d35882197cab6dec9e3150271c1ebbc772c06c0a6c66183d528c",
+    "work/history/phase4-archive/search-spanische-revolution.json": "c8401c723bf03b5ecb5bfb0a0b35a8ce3fbf7682384616e06f925ee62e9831c4",
+    "work/history/phase4-archive/search-werner-date.json": "75b16793c0a4d811a584dcf3748425b0caf739b27039d9e5e6ca19d85a1aff5e",
+    "work/history/phase4-archive/victor-Unterlagen_0000004-00000103.jpg": "66cce525a4b1c1fa76e3dbe47636281903e0dcd8e4cf1bb374f3ea159f54fc4e",
+    "work/history/phase4-archive/victor-Unterlagen_0000004-00000104.jpg": "4c917574eb9bdc1fa0cf7d074a4287dd9160b3c0376f46e9c2ea35a8bd839851",
+    "work/history/phase4-archive/victor-Unterlagen_0000004-00000106.jpg": "3b1ced4c3948249aa34c92c21901959806a1af2044981a029265a352be660d63",
+    "work/history/phase4-archive/victor-Unterlagen_0000004-manifest.json": "706b35d84c56618e426b249ef2db15be03cc7816685e8eaafb5951c21e6b1a6c",
+    "work/history/phase4-archive/victor-telegram-search.json": "6bf13a811e1ea2682f47d7c795ebb877930df1c3a3dace12711c4b772f6f594a"
+  },
+  "delivery_note": "Copia de entrega con resumen y extracto breve; el texto impreso completo puede consultarse en la imagen original adjunta."
+}

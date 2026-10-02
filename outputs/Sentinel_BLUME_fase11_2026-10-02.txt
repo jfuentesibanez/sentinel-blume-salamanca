@@ -1,0 +1,84 @@
+SENTINEL — BLUME SALAMANCA
+Fase 11 · 2 de octubre de 2026
+Trabajo realizado mientras llegan las respuestas
+
+Seguimos sin un texto descifrado verificable, una clave histórica o una identidad confirmada de «Blume». Esta fase aporta documentos contemporáneos para orientar la investigación y una comparación controlada de dos estrategias criptográficas.
+
+1. La pista documental más útil
+
+Faupel escribió desde Salamanca el 7 de enero de 1937, un día antes de los dos telegramas BLUME, que convenía aprovechar la reacción favorable de Franco al anuncio de material alemán para cerrar acuerdos económicos y políticos. Para la parte económica recomendaba usar las estrechas relaciones de Bernhardt, jefe de Hisma, con Franco y su hermano Nicolás.
+
+Es el documento 187 de Akten zur deutschen auswärtigen Politik, serie D, volumen III, páginas 175–176; referencia impresa de película/fotogramas 643/254221–222, registro Sa.3–360, Pol. III 160. Hemos leído las dos páginas y cotejado el pasaje de forma independiente.
+Fuente: https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00276/full/full/0/default.jpg
+
+Esto hace razonable buscar los contactos comerciales de Hisma en Salamanca y Burgos en esas fechas. El documento no menciona a Blume ni a los Oswald y no conecta los telegramas con ningún acuerdo concreto.
+
+El documento 180 conserva un protocolo firmado por Faupel y F. Serrat el 31 de diciembre de 1936: prorroga el acuerdo de mercancías hasta el 31 de marzo de 1937 y prevé negociar su adaptación antes del 1 de abril. La remisión del 1 de enero pide celebrar las negociaciones en Salamanca o Burgos. El telegrama 629 mencionado en esa remisión no está impreso; no lo hemos leído.
+Fuente, página 170: https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg
+
+El documento 206, del 16 de enero, anuncia una delegación económica encabezada por Wucher, con representantes de Rowak y participación de Bernhardt. Es un plan de negociación, no una prueba de que se celebraran todas las reuniones previstas.
+Fuente, página 193: https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00293/full/full/0/default.jpg
+
+El documento 213, del 26 de enero, registra ante Canaris las acusaciones de Augusto Miranda sobre las exigencias de divisas de Bernhardt. La edición conserva también reservas y la respuesta de Bernhardt transmitida por Ritter. Debemos mantener ambas versiones: el conflicto relatado no prueba el contenido de BLUME.
+Fuentes, páginas 198–199:
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00298/full/full/0/default.jpg
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00299/full/full/0/default.jpg
+
+2. Qué se ha leído y qué significa
+
+Se inspeccionaron 35 escaneos de una edición documental de 1951: diez documentos numerados completos y cuatro piezas primarias adjuntas o reproducidas en notas. Son reproducciones editadas; no hemos consultado sus expedientes originales completos.
+
+Las dos nuevas consultas del visor fueron «Oswald» e «Hisma». El único resultado Oswald corresponde al nombre de pila de Hoyningen-Huene. De Hisma se anunciaron 254 coincidencias; leímos 100 fragmentos OCR y seleccionamos documentos para lectura visual. Quedan 154 fragmentos sin revisar.
+
+El tramo pertinente del índice de personas contiene Léon Blum, pero ninguna entrada Blume. Tampoco tiene una entrada del apellido Oswald. Estos negativos se limitan a la edición y a lo leído; no excluyen alias, fallos del OCR o documentos omitidos.
+
+Las referencias de película/fotogramas impresas son pistas para localizar originales. Todavía no las hemos convertido en signaturas actuales del Politisches Archiv des Auswärtigen Amts.
+Volumen permanente: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00045915-4
+
+3. El expediente «Oswald, Madrid»
+
+La ficha actual del Archivo Federal Suizo confirma el título, las fechas 1936–1938, la signatura E2001D#1000/1551#5627* y la referencia interna B.73.E.7.21. Está clasificado entre averiguaciones y repatriaciones, en casos individuales de la Guerra Civil española.
+
+La ficha pública indica «Prüfung nötig» —consulta sujeta a revisión— y no ofrece un documento digital en la sesión observada. No identifica un nombre de pila ni demuestra que contenga correspondencia comercial. La identidad y el interés del contenido requieren leer el expediente.
+Ficha: https://www.recherche.bar.admin.ch/recherche/link/de/archiv/einheit/1689905
+
+4. La prueba criptográfica
+
+Comparamos la población de claves de la fase 10, conservando su programa exacto, con una variante que limita a 5.000 propuestas cada búsqueda local y reparte el esfuerzo entre más candidatos.
+
+Se fijaron ocho pares nuevos de mensajes artificiales, de 615 y 160 letras: alemán y francés, claves 12×15 y 20×25, semillas 20262101 y 20262102. Cada método tuvo dos rondas por par, con 100.000 evaluaciones por ronda. Se conocían las longitudes de las claves, pero el buscador no recibía las claves ni los textos originales. Se buscó sólo la segunda clave, K2.
+
+Resultado:
+
+- Método anterior: K2 verdadera en 2 de 16 rondas, un par con algún acierto.
+- Variante 5.000: K2 verdadera en 3 de 16 rondas, dos pares con algún acierto.
+- Todos los aciertos son del alemán 12×15.
+- Francés y 20×25: ninguna recuperación.
+
+La variante acierta ambas rondas de un caso que antes fallaba, pero pierde una ronda acertada en el otro. Por tanto, este piloto no demuestra una mejora general.
+
+Cada método consumió 1.600.000 evaluaciones. La variante exploró 14 candidatos derivados por ronda larga, todos parciales. Un recorrido completo a longitud 25 requiere 16.649 movimientos; el límite 5.000 impide terminar siquiera el primero. También cambió la frecuencia de renovación de candidatos: 56 renovaciones frente a 19. No podemos atribuir el resultado sólo a la diversidad.
+
+En las 27 rondas fallidas, la puntuación de la clave verdadera supera las cinco candidatas devueltas. El buscador no alcanzó esa clave. Esto no determina el idioma ni el sistema de BLUME.
+
+Los controles proceden de una obra literaria por idioma. No son correspondencia comercial de 1937. Esta fase no buscó K1 ni ejecutó un ataque nuevo sobre los telegramas históricos.
+
+5. Comprobaciones y estado de los correos
+
+La auditoría independiente comprobó los 32 resultados, las 16 inicializaciones pareadas, 2.376 eventos de admisión y 350 selecciones/perturbaciones. Recalculó 2.319 puntuaciones distintas sin ejecutar el buscador ni consultar las claves verdaderas.
+
+La revisión principal reconstruyó los 16 mensajes artificiales a partir de las claves selladas, revisó los modelos y recalculó las 160 puntuaciones de las candidatas devueltas. Ambas comprobaciones pasaron. Los 282 archivos criptográficos y 849 archivos históricos anteriores permanecen intactos.
+
+Revisamos los cuatro hilos enviados a Bochsler, Correos, Olten y el archivo PTT, más una búsqueda dirigida de entradas. No apareció una respuesta en ese ámbito. No se enviaron correos nuevos ni se hicieron pedidos o pagos.
+
+También volvimos a leer las notas públicas de cyphersolver: su contenido coincide con la copia anterior y no contiene un texto descifrado. El cierre de la incidencia 14 corresponde a la corrección de la transcripción.
+Fuente: https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/NOTES.md
+
+6. El siguiente paso concreto
+
+En historia, buscar una mención directa de los Oswald o de «Blume» en la correspondencia de Bernhardt/Hisma y en los expedientes de las negociaciones de enero. Las referencias impresas de los documentos 180, 187 y 206 permiten acotar esa búsqueda. Un nombre, dirección telegráfica, copia de telegrama o texto original tendría mucho más valor que otra coincidencia de apellidos.
+
+En criptografía, el siguiente piloto debe permitir completar recorridos con claves largas y separar el efecto del límite local del cambio en las renovaciones. Antes de ampliar el ataque histórico, necesitamos comprobar que el método recupera claves largas en controles nuevos. Ese piloto queda propuesto; no se ha ejecutado en esta fase.
+
+Los correos ya enviados siguen siendo las vías para conseguir el trabajo de 2020, el registro de «BLUME» y posibles copias de la correspondencia. Mientras tanto, tenemos una ruta documental más precisa y una limitación del buscador medida.
+

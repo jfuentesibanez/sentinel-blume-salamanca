@@ -1,0 +1,533 @@
+{
+  "date": "2026-10-01",
+  "diagnostic": "Unigram inventories only; no ciphertext order or plaintext candidate is scored. Conditional on pure permutation and documented normalization.",
+  "training_letters_balanced": 79236,
+  "target_sha256": {
+    "ct1.txt": "d442e136d63bfc066c20374e2b454ca5581b164e940b307d5600d0d463df943e",
+    "ct2.txt": "d2cdadbefb0bef2fbcdcf83bf6de1b104583e166f14f0a3d2b545024b3188df0"
+  },
+  "target_counts": {
+    "ct1.txt": {
+      "a": 58,
+      "b": 12,
+      "c": 30,
+      "d": 24,
+      "e": 73,
+      "f": 5,
+      "g": 9,
+      "h": 8,
+      "i": 43,
+      "j": 2,
+      "k": 2,
+      "l": 20,
+      "m": 24,
+      "n": 53,
+      "o": 69,
+      "p": 35,
+      "q": 2,
+      "r": 40,
+      "s": 39,
+      "t": 36,
+      "u": 16,
+      "v": 3,
+      "w": 0,
+      "x": 6,
+      "y": 2,
+      "z": 4
+    },
+    "ct2.txt": {
+      "a": 23,
+      "b": 2,
+      "c": 5,
+      "d": 5,
+      "e": 19,
+      "f": 7,
+      "g": 4,
+      "h": 1,
+      "i": 11,
+      "j": 1,
+      "k": 0,
+      "l": 5,
+      "m": 4,
+      "n": 14,
+      "o": 11,
+      "p": 4,
+      "q": 0,
+      "r": 15,
+      "s": 10,
+      "t": 9,
+      "u": 7,
+      "v": 2,
+      "w": 0,
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    "pair_concatenated": {
+      "a": 81,
+      "b": 14,
+      "c": 35,
+      "d": 29,
+      "e": 92,
+      "f": 12,
+      "g": 13,
+      "h": 9,
+      "i": 54,
+      "j": 3,
+      "k": 2,
+      "l": 25,
+      "m": 28,
+      "n": 67,
+      "o": 80,
+      "p": 39,
+      "q": 2,
+      "r": 55,
+      "s": 49,
+      "t": 45,
+      "u": 23,
+      "v": 5,
+      "w": 0,
+      "x": 6,
+      "y": 2,
+      "z": 5
+    }
+  },
+  "new_model_provenance": [
+    {
+      "code": "de_fold",
+      "source_url": "https://www.gutenberg.org/cache/epub/22367/pg22367.txt",
+      "catalogue_url": "https://www.gutenberg.org/ebooks/22367",
+      "title": "Die Verwandlung",
+      "author": "Franz Kafka",
+      "retrieved_date": "2026-10-01",
+      "source_sha256": "359d3f5983c812393f4bd7ee49a350ffffc7d476015e58d6b84b6c848dd2b0e9",
+      "body_start_unicode_offset": 1450,
+      "body_end_unicode_offset": 122587,
+      "opening_anchor": "Als Gregor Samsa eines Morgens",
+      "training": "first80% of narrative by Unicode characters; excludes Gutenberg wrapper and preceding title/publisher/editor preface",
+      "controls": "remaining20% of narrative; training and holdout do not overlap",
+      "normalization": "lowercase; ß→ss, œ→oe, æ→ae; NFKD; retain a-z; no whitespace",
+      "train_letters": 79236,
+      "holdout_letters": 19764,
+      "model_format": "orders2,3,4; complete26^n little-endian float32 log10 probabilities; .01 pseudocount per entry",
+      "model_sha256": "ef650af02cfccb10ccafe5ccc69148e28c8d525cc52f816ef0a1a6f47576294b",
+      "holdout_sha256": "b2e409c67bb6fee689fdc2f90dfb30726afff06a59a351bfeadcd78af0616d6a",
+      "corpus_limit": "One literary work, not an authentic1937 commercial-telegram corpus; punctuation and numeric material dropped; editorial inline notes remain."
+    },
+    {
+      "code": "de_digraph",
+      "source_url": "https://www.gutenberg.org/cache/epub/22367/pg22367.txt",
+      "catalogue_url": "https://www.gutenberg.org/ebooks/22367",
+      "title": "Die Verwandlung",
+      "author": "Franz Kafka",
+      "retrieved_date": "2026-10-01",
+      "source_sha256": "359d3f5983c812393f4bd7ee49a350ffffc7d476015e58d6b84b6c848dd2b0e9",
+      "body_start_unicode_offset": 1450,
+      "body_end_unicode_offset": 122587,
+      "opening_anchor": "Als Gregor Samsa eines Morgens",
+      "training": "first80% of narrative by Unicode characters; excludes Gutenberg wrapper and preceding title/publisher/editor preface",
+      "controls": "remaining20% of narrative; training and holdout do not overlap",
+      "normalization": "lowercase; ß→ss, œ→oe, æ→ae; ä→ae, ö→oe, ü→ue; NFKD; retain a-z; no whitespace",
+      "train_letters": 80663,
+      "holdout_letters": 20085,
+      "model_format": "orders2,3,4; complete26^n little-endian float32 log10 probabilities; .01 pseudocount per entry",
+      "model_sha256": "08df06527ba07033d46032bbd432ed8eb1c235b78a35660a9cc33ad6b339cf46",
+      "holdout_sha256": "3181e52b8538a504cd6e6ed71914bbe95d58f057bd865d29eba4d2176d76aabf",
+      "corpus_limit": "One literary work, not an authentic1937 commercial-telegram corpus; punctuation and numeric material dropped; editorial inline notes remain."
+    },
+    {
+      "code": "fr_fold",
+      "source_url": "https://www.gutenberg.org/cache/epub/4650/pg4650.txt",
+      "catalogue_url": "https://www.gutenberg.org/ebooks/4650",
+      "title": "Candide, ou l’optimisme",
+      "author": "Voltaire",
+      "retrieved_date": "2026-10-01",
+      "source_sha256": "1cc10ab3268a76aa01bd3f9722ae2ae0e5e36b869a18b0bb0832b75bc0327806",
+      "body_start_unicode_offset": 7639,
+      "body_end_unicode_offset": 202351,
+      "opening_anchor": "Il y avait en Vestphalie,",
+      "training": "first80% of narrative by Unicode characters; excludes Gutenberg wrapper and preceding title/publisher/editor preface",
+      "controls": "remaining20% of narrative; training and holdout do not overlap",
+      "normalization": "lowercase; ß→ss, œ→oe, æ→ae; NFKD; retain a-z; no whitespace",
+      "train_letters": 122181,
+      "holdout_letters": 30356,
+      "model_format": "orders2,3,4; complete26^n little-endian float32 log10 probabilities; .01 pseudocount per entry",
+      "model_sha256": "0b16044142ef82e6c809172a4981a1eb838a96da6caf4e301fe810e66143c268",
+      "holdout_sha256": "75d3431c2c204effff5ad366c8f2584cff40f259715a6b8e5258290ef78ebed7",
+      "corpus_limit": "One literary work, not an authentic1937 commercial-telegram corpus; punctuation and numeric material dropped; editorial inline notes remain."
+    }
+  ],
+  "spanish_frozen_provenance": {
+    "source_url": "https://www.gutenberg.org/cache/epub/2000/pg2000.txt",
+    "title": "Don Quijote de la Mancha",
+    "author": "Miguel de Cervantes Saavedra",
+    "retrieved_date": "2026-10-01",
+    "source_sha256": "534f41d59f7142163fa0964076ac6351845c006ea6433778be637fac6d5b04d7",
+    "training": "first 80% of body by Unicode character; strips Gutenberg wrapper",
+    "controls": "final 20% of body; disjoint from training; prose and function-word deletion proxy",
+    "normalization": "NFKD, lowercase, retain a-z only; accents stripped, ñ→n; no whitespace",
+    "smoothing": ".01 count pseudocount per 26^n entry; log10 probability; orders 2,3,4",
+    "train_letters": 1321563,
+    "holdout_letters": 329757,
+    "proxy_letters": 279228,
+    "model_sha256": "d52bbf2f4d8412834e30bcc48758f2e1f4935bca7a0763b7560a36883288ab32"
+  },
+  "comparisons": [
+    {
+      "code": "de_fold",
+      "training_letters_for_unigrams": 79236,
+      "training_counts": {
+        "a": 4766,
+        "b": 1389,
+        "c": 2662,
+        "d": 3659,
+        "e": 13434,
+        "f": 1341,
+        "g": 2729,
+        "h": 4158,
+        "i": 5642,
+        "j": 126,
+        "k": 987,
+        "l": 2705,
+        "m": 2189,
+        "n": 7745,
+        "o": 2064,
+        "p": 388,
+        "q": 6,
+        "r": 6202,
+        "s": 5422,
+        "t": 4716,
+        "u": 3742,
+        "v": 651,
+        "w": 1416,
+        "x": 2,
+        "y": 0,
+        "z": 1095
+      },
+      "targets": {
+        "ct1.txt": {
+          "logp_per_letter": -3.145431852672821,
+          "chi2": 3545.489959681559,
+          "w_count": 0
+        },
+        "ct2.txt": {
+          "logp_per_letter": -2.938498137594456,
+          "chi2": 69.13636228543625,
+          "w_count": 0
+        },
+        "pair_concatenated": {
+          "logp_per_letter": -3.1027100534308363,
+          "chi2": 2945.068987816712,
+          "w_count": 0
+        }
+      },
+      "heldout_windows": {
+        "ct1.txt": {
+          "window_length": 615,
+          "nonoverlapping_windows": 32,
+          "chi2_min": 12.619170551155985,
+          "chi2_median": 21.55753497302087,
+          "chi2_max": 65.23079088398826,
+          "chi2_empirical_fraction_at_least_target": 0.0,
+          "w_zero_windows": 0,
+          "w_min": 3,
+          "w_max": 17,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        },
+        "ct2.txt": {
+          "window_length": 160,
+          "nonoverlapping_windows": 123,
+          "chi2_min": 8.280283725300247,
+          "chi2_median": 19.530209837877578,
+          "chi2_max": 104.41633457878098,
+          "chi2_empirical_fraction_at_least_target": 0.024390243902439025,
+          "w_zero_windows": 4,
+          "w_min": 0,
+          "w_max": 9,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        },
+        "pair_concatenated": {
+          "window_length": 775,
+          "nonoverlapping_windows": 25,
+          "chi2_min": 11.289796041565163,
+          "chi2_median": 26.269041467134052,
+          "chi2_max": 61.8561461772027,
+          "chi2_empirical_fraction_at_least_target": 0.0,
+          "w_zero_windows": 0,
+          "w_min": 7,
+          "w_max": 20,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        }
+      }
+    },
+    {
+      "code": "de_digraph",
+      "training_letters_for_unigrams": 79236,
+      "training_counts": {
+        "a": 4681,
+        "b": 1367,
+        "c": 2611,
+        "d": 3592,
+        "e": 14588,
+        "f": 1325,
+        "g": 2686,
+        "h": 4078,
+        "i": 5539,
+        "j": 124,
+        "k": 969,
+        "l": 2659,
+        "m": 2142,
+        "n": 7605,
+        "o": 2028,
+        "p": 379,
+        "q": 6,
+        "r": 6105,
+        "s": 5322,
+        "t": 4634,
+        "u": 3683,
+        "v": 642,
+        "w": 1400,
+        "x": 2,
+        "y": 0,
+        "z": 1069
+      },
+      "targets": {
+        "ct1.txt": {
+          "logp_per_letter": -3.1514591998660357,
+          "chi2": 3564.4198380908488,
+          "w_count": 0
+        },
+        "ct2.txt": {
+          "logp_per_letter": -2.944206346091962,
+          "chi2": 71.93935191161405,
+          "w_count": 0
+        },
+        "pair_concatenated": {
+          "logp_per_letter": -3.108671513925582,
+          "chi2": 2965.6834588516526,
+          "w_count": 0
+        }
+      },
+      "heldout_windows": {
+        "ct1.txt": {
+          "window_length": 615,
+          "nonoverlapping_windows": 32,
+          "chi2_min": 11.841774204914842,
+          "chi2_median": 24.405154445038715,
+          "chi2_max": 65.05349204037964,
+          "chi2_empirical_fraction_at_least_target": 0.0,
+          "w_zero_windows": 0,
+          "w_min": 5,
+          "w_max": 18,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        },
+        "ct2.txt": {
+          "window_length": 160,
+          "nonoverlapping_windows": 125,
+          "chi2_min": 7.1994533519058015,
+          "chi2_median": 19.927684802904576,
+          "chi2_max": 103.45154033865755,
+          "chi2_empirical_fraction_at_least_target": 0.024,
+          "w_zero_windows": 7,
+          "w_min": 0,
+          "w_max": 8,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        },
+        "pair_concatenated": {
+          "window_length": 775,
+          "nonoverlapping_windows": 25,
+          "chi2_min": 12.204067234472761,
+          "chi2_median": 20.66128733996742,
+          "chi2_max": 62.456314960707154,
+          "chi2_empirical_fraction_at_least_target": 0.0,
+          "w_zero_windows": 0,
+          "w_min": 6,
+          "w_max": 20,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        }
+      }
+    },
+    {
+      "code": "fr_fold",
+      "training_letters_for_unigrams": 79236,
+      "training_counts": {
+        "a": 6572,
+        "b": 833,
+        "c": 2378,
+        "d": 3359,
+        "e": 13440,
+        "f": 785,
+        "g": 830,
+        "h": 642,
+        "i": 5724,
+        "j": 495,
+        "k": 17,
+        "l": 4305,
+        "m": 2359,
+        "n": 5740,
+        "o": 4441,
+        "p": 2056,
+        "q": 985,
+        "r": 4982,
+        "s": 6288,
+        "t": 5434,
+        "u": 5271,
+        "v": 1460,
+        "w": 2,
+        "x": 380,
+        "y": 265,
+        "z": 193
+      },
+      "targets": {
+        "ct1.txt": {
+          "logp_per_letter": -2.9238301071019746,
+          "chi2": 153.7951815793223,
+          "w_count": 0
+        },
+        "ct2.txt": {
+          "logp_per_letter": -2.8647083183391455,
+          "chi2": 43.75736854941713,
+          "w_count": 0
+        },
+        "pair_concatenated": {
+          "logp_per_letter": -2.9116243184541646,
+          "chi2": 151.39097739217019,
+          "w_count": 0
+        }
+      },
+      "heldout_windows": {
+        "ct1.txt": {
+          "window_length": 615,
+          "nonoverlapping_windows": 49,
+          "chi2_min": 12.251493570687488,
+          "chi2_median": 28.40870138475899,
+          "chi2_max": 102.14207732864332,
+          "chi2_empirical_fraction_at_least_target": 0.0,
+          "w_zero_windows": 49,
+          "w_min": 0,
+          "w_max": 0,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        },
+        "ct2.txt": {
+          "window_length": 160,
+          "nonoverlapping_windows": 189,
+          "chi2_min": 11.535109918593667,
+          "chi2_median": 22.75607290455767,
+          "chi2_max": 280.28117578150017,
+          "chi2_empirical_fraction_at_least_target": 0.08994708994708994,
+          "w_zero_windows": 189,
+          "w_min": 0,
+          "w_max": 0,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        },
+        "pair_concatenated": {
+          "window_length": 775,
+          "nonoverlapping_windows": 39,
+          "chi2_min": 11.755024671233766,
+          "chi2_median": 32.361989841973454,
+          "chi2_max": 79.82705717629143,
+          "chi2_empirical_fraction_at_least_target": 0.0,
+          "w_zero_windows": 39,
+          "w_min": 0,
+          "w_max": 0,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        }
+      }
+    },
+    {
+      "code": "es_frozen",
+      "training_letters_for_unigrams": 79236,
+      "training_counts": {
+        "a": 9976,
+        "b": 1282,
+        "c": 3048,
+        "d": 4322,
+        "e": 10795,
+        "f": 416,
+        "g": 874,
+        "h": 865,
+        "i": 4330,
+        "j": 501,
+        "k": 0,
+        "l": 4713,
+        "m": 2000,
+        "n": 5353,
+        "o": 7843,
+        "p": 1607,
+        "q": 1465,
+        "r": 4882,
+        "s": 5709,
+        "t": 3059,
+        "u": 3888,
+        "v": 897,
+        "w": 0,
+        "x": 14,
+        "y": 1070,
+        "z": 327
+      },
+      "targets": {
+        "ct1.txt": {
+          "logp_per_letter": -2.9454160364585524,
+          "chi2": 1437.9120263263414,
+          "w_count": 0
+        },
+        "ct2.txt": {
+          "logp_per_letter": -2.8842646607013003,
+          "chi2": 65.89901346346697,
+          "w_count": 0
+        },
+        "pair_concatenated": {
+          "logp_per_letter": -2.9327912363022164,
+          "chi2": 1175.17754857114,
+          "w_count": 0
+        }
+      },
+      "heldout_windows": {
+        "ct1.txt": {
+          "window_length": 615,
+          "nonoverlapping_windows": 536,
+          "chi2_min": 10.044891611759848,
+          "chi2_median": 27.406175849995655,
+          "chi2_max": 96.09851253610516,
+          "chi2_empirical_fraction_at_least_target": 0.0,
+          "w_zero_windows": 536,
+          "w_min": 0,
+          "w_max": 0,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        },
+        "ct2.txt": {
+          "window_length": 160,
+          "nonoverlapping_windows": 2060,
+          "chi2_min": 7.14040517059057,
+          "chi2_median": 21.61663589586506,
+          "chi2_max": 166.0348644381154,
+          "chi2_empirical_fraction_at_least_target": 0.006796116504854369,
+          "w_zero_windows": 2060,
+          "w_min": 0,
+          "w_max": 0,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        },
+        "pair_concatenated": {
+          "window_length": 775,
+          "nonoverlapping_windows": 425,
+          "chi2_min": 6.849301979671356,
+          "chi2_median": 29.67570880549892,
+          "chi2_max": 146.01616501787223,
+          "chi2_empirical_fraction_at_least_target": 0.0,
+          "w_zero_windows": 425,
+          "w_min": 0,
+          "w_max": 0,
+          "sampling": "All non-overlapping windows in heldout final20%; adjacent windows/topic are still dependent."
+        }
+      }
+    }
+  ],
+  "qualifications": [
+    "Does not prove transposition, plaintext language, key sharing or absence of padding/substitution.",
+    "A single literary work per new language introduces topic/author/period differences. Orthography is a tested modeling choice, not an attested1937 encryption convention.",
+    "These frequencies and window fractions are descriptive and are not posterior language probabilities or independent significance tests.",
+    "The May1938 Victor telegram is a separate authentic style example; it is neither training text nor known plaintext for January1937.",
+    "Earlier modern UD unigram comparison is preserved in work/final_language_comparison.json; this adds n-gram controls and a different sensitivity sample, not a new independent solution."
+  ],
+  "historical_attack_run": false
+}

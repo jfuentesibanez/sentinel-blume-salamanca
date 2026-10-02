@@ -1,0 +1,194 @@
+{
+  "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/Search?language=de",
+  "request": {
+    "query": {
+      "searchGroups": [
+        {
+          "searchFields": [
+            {
+              "key": "referenceCode",
+              "value": "E4320B#1974/47#277*"
+            }
+          ],
+          "fieldOperator": 1
+        }
+      ],
+      "groupOperator": 1
+    },
+    "paging": {
+      "skip": 0,
+      "take": 100
+    },
+    "options": {
+      "enableHighlighting": true,
+      "enableAggregations": false
+    }
+  },
+  "response": {
+    "entities": {
+      "items": [
+        {
+          "highlight": null,
+          "explanation": null,
+          "depth": 0,
+          "_metadata": null,
+          "_context": null,
+          "isDownloadAllowed": false,
+          "primaryDataLink": "03b224fd-05a5-4cf3-8a63-8f14c34da40e@_bI9eoJwYxzRB81YSYXskWi",
+          "manifestLink": "0000/0357/8609/3578609.json",
+          "canBeOrdered": true,
+          "withinInfo": "",
+          "customFields": {
+            "zuständigeStelle": [
+              "Bundesanwaltschaft (1889-)"
+            ],
+            "aipId": [
+              "03b224fd-05a5-4cf3-8a63-8f14c34da40e@_bI9eoJwYxzRB81YSYXskWi"
+            ],
+            "digitalesFindmittelBeschreibung": [],
+            "publikationsrechte": "BAR",
+            "digitaleVersion": [],
+            "thema": [],
+            "land": [],
+            "nachfolgerbehörden": [],
+            "früheresAktenzeichen": [],
+            "urheber": [],
+            "signaturArchivplan": "E4320B#1974/47#277*",
+            "beteiligtePersonenKörperschaften": [],
+            "zugänglichkeitGemässBga": "Frei zugänglich",
+            "kategorieDia": 4.0,
+            "format": [],
+            "digitalesFindmittelLink": [],
+            "abdeckung": [],
+            "aktenzeichen": [
+              "C.08-01.03"
+            ],
+            "verleger": [],
+            "vorgängerbehörden": [],
+            "zusatzkomponenteZac1": [],
+            "veAblieferungLink": [
+              {
+                "entityType": "Ablieferungen",
+                "value": "1974/00047 Bundesanwaltschaft (Bern) (1922-1969)",
+                "entityRecordId": "13057"
+              }
+            ]
+          },
+          "protectionEndDate": {
+            "date": "1988-12-31T00:00:00",
+            "year": 1988
+          },
+          "archiveRecordId": "3578609",
+          "title": "Spanische Revolution (Passvisas etc.)",
+          "referenceCode": "E4320B#1974/47#277*",
+          "isAnonymized": false,
+          "isLeaf": true,
+          "parentArchiveRecordId": "3881756",
+          "level": "Dossier",
+          "childCount": 0,
+          "treeSequence": 87,
+          "archiveplanContext": [
+            {
+              "iconId": 4,
+              "level": "Archiv",
+              "refCode": "CH-BAR#Unterlagen*",
+              "title": "Gesamtbestand des Schweizerischen Bundesarchivs (1798-)",
+              "dateRangeText": "1424-2007",
+              "archiveRecordId": "1",
+              "protected": false
+            },
+            {
+              "iconId": 10,
+              "level": "Hauptabteilung",
+              "refCode": "E*",
+              "title": "Archiv des Schweizerischen Bundesstaates ab 1848",
+              "dateRangeText": "1848-2018",
+              "archiveRecordId": "28",
+              "protected": false
+            },
+            {
+              "iconId": 5,
+              "level": "Bestand",
+              "refCode": "E10105*",
+              "title": "Bundesanwaltschaft (1889-)",
+              "dateRangeText": "1848-2003",
+              "archiveRecordId": "4681",
+              "protected": false
+            },
+            {
+              "iconId": 12,
+              "level": "Teilbestand",
+              "refCode": "E4320B*",
+              "title": "Bundesanwaltschaft: Polizeidienst (1931-1959)",
+              "dateRangeText": "1848-1989",
+              "archiveRecordId": "5921",
+              "protected": false
+            },
+            {
+              "iconId": 19,
+              "level": "Serie",
+              "refCode": "E4320B#C.08",
+              "title": "Kommunistische Bewegungen",
+              "dateRangeText": "1848-1981",
+              "archiveRecordId": "3881756",
+              "protected": false
+            },
+            {
+              "iconId": 2,
+              "level": "Dossier",
+              "refCode": "E4320B#1974/47#277*",
+              "title": "Spanische Revolution (Passvisas etc.)",
+              "dateRangeText": "1936-1938",
+              "archiveRecordId": "3578609",
+              "protected": false
+            }
+          ],
+          "creationPeriod": {
+            "text": "1936 - 1938",
+            "startDate": "1936-01-01T00:00:00",
+            "endDate": "1938-12-31T23:59:59",
+            "searchStartDate": "1935-07-05T00:00:00",
+            "searchEndDate": "1938-12-31T00:00:00",
+            "startDateApproxIndicator": false,
+            "endDateApproxIndicator": false,
+            "startDateText": "+1936",
+            "endDateText": "+1938",
+            "years": [
+              1936,
+              1937,
+              1938
+            ]
+          },
+          "displayTemplateName": null,
+          "primaryDataDownloadAccessTokens": [
+            "BAR",
+            "AS",
+            "BVW",
+            "Ö3",
+            "Ö2",
+            "AS_541"
+          ],
+          "primaryDataFulltextAccessTokens": [
+            "BAR",
+            "AS",
+            "BVW",
+            "Ö3",
+            "Ö2"
+          ],
+          "fieldAccessTokens": []
+        }
+      ],
+      "paging": {
+        "total": 1,
+        "orderBy": null,
+        "sortOrder": null,
+        "skip": 0,
+        "take": 100
+      }
+    },
+    "facets": null,
+    "enableExplanations": false,
+    "searchTimeInMilliseconds": 102,
+    "executionTimeInMilliseconds": 105
+  }
+}

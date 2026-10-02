@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-02",
+  "export_integrity": "passed",
+  "canonical_ciphertexts": "raw and normalized hashes match",
+  "original_workspace_files_unchanged": 1720,
+  "numerical_recheck": {
+    "ciphertexts": 16,
+    "archive_scores": 160,
+    "maximum_error": 9.415952462177302e-10,
+    "tolerance": 1e-08,
+    "searches": 0
+  },
+  "compilation": {
+    "new_searches": 0,
+    "replaced_frozen_files": 0,
+    "builds": [
+      {
+        "source": "work/phase10_crypto/population_search.cpp",
+        "new_binary": ".repro/bin/phase10_population",
+        "sha256": "d4a31f38b066f819979524f21eda5083f21c7f9f8628dbd743d3d6c015d1f6df",
+        "command": [
+          "c++",
+          "-std=c++17",
+          "-O3",
+          "work/phase10_crypto/population_search.cpp",
+          "-o",
+          ".repro/bin/phase10_population"
+        ]
+      },
+      {
+        "source": "work/phase11_crypto/capped_population_search.cpp",
+        "new_binary": ".repro/bin/phase11_cap5000",
+        "sha256": "f32d98c6aeb76893e70cfa27036b0ed5bee2ea9190b90ad3bcf5b1f16212ff1e",
+        "command": [
+          "c++",
+          "-std=c++17",
+          "-O3",
+          "work/phase11_crypto/capped_population_search.cpp",
+          "-o",
+          ".repro/bin/phase11_cap5000"
+        ]
+      },
+      {
+        "source": "work/phase7_crypto/regenerate_planted_keys.cpp",
+        "new_binary": ".repro/bin/phase7_regenerate_keys",
+        "sha256": "515231c1bcfa2a0e295a365fa754e58119af25f539015fd2a1fc5fad76442072",
+        "command": [
+          "c++",
+          "-std=c++17",
+          "-O3",
+          "work/phase7_crypto/regenerate_planted_keys.cpp",
+          "-o",
+          ".repro/bin/phase7_regenerate_keys"
+        ]
+      }
+    ]
+  },
+  "command_rendering": "Repository-relative representation of recorded build commands.",
+  "entrypoint_links": "checked",
+  "independent_doc_reviews": [
+    "Historical scope and excluded scans",
+    "AST scope, rebuild side effects and reproduction claims"
+  ],
+  "new_research_experiments": 0,
+  "secrets_pattern_scan": "no credential/key/token pattern matches in the prepared export"
+}

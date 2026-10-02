@@ -1,0 +1,62 @@
+{
+  "oracle_only": true,
+  "equal_annealing_proposals": 120000,
+  "elapsed_seconds": 4.428059374971781,
+  "commands": [
+    [
+      "work/phase2_crypto/oracle_bigram_bridge",
+      "work/crypto/model_es.bin",
+      "work/crypto/holdout_es.txt",
+      "20",
+      "25",
+      "20261001",
+      "10000"
+    ],
+    [
+      "work/phase2_crypto/oracle_bigram_bridge",
+      "work/crypto/model_es.bin",
+      "work/crypto/holdout_es.txt",
+      "20",
+      "25",
+      "20261002",
+      "10000"
+    ],
+    [
+      "work/phase2_crypto/oracle_bigram_bridge",
+      "work/crypto/model_es.bin",
+      "work/crypto/holdout_es.txt",
+      "20",
+      "25",
+      "20261003",
+      "10000"
+    ],
+    [
+      "work/phase2_crypto/oracle_bigram_bridge",
+      "work/crypto/model_es.bin",
+      "work/crypto/holdout_proxy.txt",
+      "20",
+      "25",
+      "20261001",
+      "10000"
+    ],
+    [
+      "work/phase2_crypto/oracle_bigram_bridge",
+      "work/crypto/model_es.bin",
+      "work/crypto/holdout_proxy.txt",
+      "20",
+      "25",
+      "20261002",
+      "10000"
+    ],
+    [
+      "work/phase2_crypto/oracle_bigram_bridge",
+      "work/crypto/model_es.bin",
+      "work/crypto/holdout_proxy.txt",
+      "20",
+      "25",
+      "20261003",
+      "10000"
+    ]
+  ],
+  "limitation": "Tuned staged objective, not a faithful full adjacency/alignment implementation. No historical ciphertexts supplied."
+}

@@ -1,0 +1,40 @@
+KENT: TABLA DE CONVERSIÓN SERIAL → ROLLO DE T120
+2 de octubre de 2026. Ronda limitada a tres consultas web y tres aperturas.
+
+Resultado
+
+Se ha localizado una ficha pública de copia digital del volumen III del catálogo Kent. Su índice HTML sitúa «National Archives Supplement» en la página impresa 770. No se ha conseguido leer visualmente la fila del serial 643 ni la del serial 3176. No hay una equivalencia serial → rollo verificada en esta ronda.
+
+Localización comprobada
+
+Google Books:
+https://books.google.com/books?id=oHAmAQAAMAAJ
+
+Título de la ficha: A Catalog of Files and Microfilms of the German Foreign Ministry Archives, 1920-1945, Issue 3. Autor: United States. Department of State. Historical Office. Editor: George O. Kent. La ficha identifica el ejemplar de la University of Michigan y una digitalización del 20 de julio de 2011. Su índice marca List of Serials, p. 525; Index, p. 737; National Archives Supplement, p. 770. Se han leído los metadatos y ese índice HTML, no las imágenes de esas páginas. La ficha presenta enlaces de previsualización y descarga PDF/EPUB, que no se han seguido.
+
+Precaución bibliográfica: la ficha abierta da 1962 y «reprint»; otra ficha del Issue 3 da 1966. No se han cotejado las portadas ni se han unificado esos metadatos como si describieran necesariamente la misma edición.
+
+Otro ejemplar digital anunciado en resultados de búsqueda:
+https://books.google.com/books/about/A_Catalog_of_Files_and_Microfilms_of_the.html?id=8Z9TorHSjDMC
+
+Los metadatos de búsqueda lo identifican como Volume 3, ejemplar de la New York Public Library, digitalizado el 31 de enero de 2023, 807 páginas. Anuncian entre las páginas seleccionadas 771, 781 y 800. No se han leído esas imágenes. La ficha de búsqueda es una localización posible, no una lectura de la tabla.
+
+Fuente oficial que justifica buscar la concordancia
+
+https://www.archives.gov/research/captured-german-records/citing-german-microfilm-sources.html
+
+Fuente ya verificada por el agente principal, preservada en work/phase13_claude/web-nara-citation.json y revisada localmente por un segundo agente. NARA distingue serial y rollo para T120 e indica que cada volumen del catálogo Kent contiene un suplemento de conversión. Esa guía no da en el pasaje leído una equivalencia para 643 o 3176.
+
+Intentos y límite de acceso
+
+Las aperturas de https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA770 y https://books.google.com/books?id=8Z9TorHSjDMC&pg=PA781 devolvieron «not accessible via this tool». La tercera apertura, a la ficha sin parámetro de página del primer ejemplar, sí devolvió el índice y los metadatos. Estos fallos limitan esta herramienta; no demuestran que Google Books niegue acceso público a las páginas ni que la copia requiera pago.
+
+Se agotó el límite autorizado: tres consultas y tres aperturas, en cuatro llamadas web. No se abrieron otras interfaces, no se descargó el libro y no se hicieron búsquedas adicionales. Las fuentes crudas están en web-01.json a web-04.json y el alcance exacto en ledger.json.
+
+Paso concreto pendiente
+
+En una siguiente ronda autorizada, seguir el enlace de previsualización o descarga de la ficha localizada y leer el suplemento que empieza en la página 770. Sólo después de localizar los seriales 643 y 3176 en una fila legible se podría registrar el número de rollo correspondiente de T120. Esas equivalencias tampoco serían por sí solas signaturas actuales del PAAA ni prueba de la custodia actual de los originales. No se ha inferido ninguna de ambas cosas.
+
+Preservación
+
+Esta ronda sólo ha creado archivos en work/phase13_claude/kent/. Las evidencias y notas anteriores se han consultado sin modificarlas. No hubo cuentas, contactos, pedidos ni compras.

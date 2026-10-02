@@ -1,0 +1,31 @@
+{
+  "algorithm": "sha256",
+  "self_excluded": true,
+  "resources": [
+    {
+      "path": "comments.json",
+      "sha256": "a520436aabdd02c5dfb1256045845b63a62620cf1cfc4ca9bf4021015ea653b8",
+      "bytes": 10692
+    },
+    {
+      "path": "issue.json",
+      "sha256": "232568ed1a2109f07b5545027d9c2bfc4f1b9a3af1a2a23afec107c1dd1cb078",
+      "bytes": 1701
+    },
+    {
+      "path": "ledger.json",
+      "sha256": "f2357cb1b5c069c45a0c53989145ff6cc2d181bb26f1867a4293eb08a2127710",
+      "bytes": 844
+    },
+    {
+      "path": "notes-current.json",
+      "sha256": "46674b8fc0a3fc3b61cd072fdea9e47b081991739819e929535484704895fd6b",
+      "bytes": 18880
+    },
+    {
+      "path": "web-failed-fetch.txt",
+      "sha256": "d1b57166966314e30fb6e591616bb1bff8ac3526b9d43153569bae5c01381c85",
+      "bytes": 615
+    }
+  ]
+}

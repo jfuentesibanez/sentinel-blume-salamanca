@@ -1,0 +1,148 @@
+{
+  "sha": "9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+  "node_id": "C_kwDOUbJEttoAKDkyMjY5MjJmZmIwNjYzYjFkOWI5NWY0ZWY4OThkMDkzZWZkNzRlZjI",
+  "commit": {
+    "author": {
+      "name": "Daniel Bourdeau",
+      "email": "dbourdeau@users.noreply.github.com",
+      "date": "2026-09-30T22:30:53Z"
+    },
+    "committer": {
+      "name": "Daniel Bourdeau",
+      "email": "dbourdeau@users.noreply.github.com",
+      "date": "2026-09-30T22:30:53Z"
+    },
+    "message": "blume: the second BLUME SALAMANCA telegram (160 letters), transcribed and verified\n\nRichard Bean (issue 14) pointed to the full image of Schmeh's post, which the public\npreview crops, at a Facebook image-server address that needs no login (it expires on\n5 Oct 2026). Saved as telegram2.jpg (2048 x 1376). The second telegram went the same\nafternoon as the first (serial 1486, fee 14 fr, handed in 17:34, to London 17:40),\nfrom the same sender.\n\n- tg.py (T2, GROUPS2, CT2) and ct2.txt: 32 groups, 160 letters. The SHA-256 of the\n  160 letters is the value Bean gave, so the transcription agrees with his letter for\n  letter (he says it also matches W. Higinbotham's in the post's comments).\n  IC 0.071, Spanish-like letter mix: another transposition.\n- NOTES.md: status reopened (in progress), the second telegram, and a correction to\n  \"What would break it\": 160 against 615 letters is not the equal-length depth that\n  classical joint anagramming needs; a joint key search is the route.\n- profile.json: document telegram2, 3 corrections counted on telegram1, two steps.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "tree": {
+      "sha": "5e285706812b398b65589f76b21f854d1524644b",
+      "url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/trees/5e285706812b398b65589f76b21f854d1524644b"
+    },
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/commits/9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/dbourdeau/cyphersolver/commits/9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+  "html_url": "https://github.com/dbourdeau/cyphersolver/commit/9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+  "comments_url": "https://api.github.com/repos/dbourdeau/cyphersolver/commits/9226922ffb0663b1d9b95f4ef898d093efd74ef2/comments",
+  "author": {
+    "login": "dbourdeau",
+    "id": 1851213,
+    "node_id": "MDQ6VXNlcjE4NTEyMTM=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1851213?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dbourdeau",
+    "html_url": "https://github.com/dbourdeau",
+    "followers_url": "https://api.github.com/users/dbourdeau/followers",
+    "following_url": "https://api.github.com/users/dbourdeau/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dbourdeau/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dbourdeau/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dbourdeau/subscriptions",
+    "organizations_url": "https://api.github.com/users/dbourdeau/orgs",
+    "repos_url": "https://api.github.com/users/dbourdeau/repos",
+    "events_url": "https://api.github.com/users/dbourdeau/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dbourdeau/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "dbourdeau",
+    "id": 1851213,
+    "node_id": "MDQ6VXNlcjE4NTEyMTM=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1851213?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dbourdeau",
+    "html_url": "https://github.com/dbourdeau",
+    "followers_url": "https://api.github.com/users/dbourdeau/followers",
+    "following_url": "https://api.github.com/users/dbourdeau/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dbourdeau/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dbourdeau/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dbourdeau/subscriptions",
+    "organizations_url": "https://api.github.com/users/dbourdeau/orgs",
+    "repos_url": "https://api.github.com/users/dbourdeau/repos",
+    "events_url": "https://api.github.com/users/dbourdeau/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dbourdeau/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "e5cfcba1d996dafdb70b92c0ae11b37f04175927",
+      "url": "https://api.github.com/repos/dbourdeau/cyphersolver/commits/e5cfcba1d996dafdb70b92c0ae11b37f04175927",
+      "html_url": "https://github.com/dbourdeau/cyphersolver/commit/e5cfcba1d996dafdb70b92c0ae11b37f04175927"
+    }
+  ],
+  "stats": {
+    "total": 106,
+    "additions": 91,
+    "deletions": 15
+  },
+  "files": [
+    {
+      "sha": "b0deb18a2180d8be8a06b2a7242045563c6260a8",
+      "filename": "targets/blume/NOTES.md",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 9,
+      "changes": 38,
+      "blob_url": "https://github.com/dbourdeau/cyphersolver/blob/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2FNOTES.md",
+      "raw_url": "https://github.com/dbourdeau/cyphersolver/raw/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2FNOTES.md",
+      "contents_url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets%2Fblume%2FNOTES.md?ref=9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+      "patch": "@@ -7,16 +7,19 @@ the Emser Werke (*Nylon und Napalm*, 2022), and Klaus Schmeh posted them on Face\n they concerned \"wool business\" in Spain; Bochsler doubts that, given his ties to Franco's side. Salamanca was\n Franco's headquarters in January 1937.\n \n-**Status: not solved, and set aside.** No plaintext has been recovered. The cipher is a transposition of what\n+**Status: in progress (30 Sept 2026).** The second telegram (160 letters) is now in hand and transcribed (below), and\n+a joint attack on both telegrams is under way; the rest of this section is the state after the September sessions.\n+\n+**Before 30 Sept: not solved, and set aside.** No plaintext has been recovered. The cipher is a transposition of what\n looks like telegraphic Spanish. Every transposition family that a single 615-letter message can be tested for\n with methods proven on planted controls has been excluded. What remains is the family the evidence points to\n anyway, a double columnar transposition with two keys of eleven letters or more, and a single message of this\n length is below what any method known to us can break without a crib or a second message in the same key.\n \n ## Transcription\n \n-Only the first telegram is reachable. The photograph was retrieved from Schmeh's Facebook post at\n-1,134 × 1,012 px (`telegram1.jpg`); the second telegram is not in the public preview. `tg.py` holds\n+The first telegram's photograph was retrieved from Schmeh's Facebook post at 1,134 × 1,012 px (`telegram1.jpg`);\n+the second telegram is not in the post's public preview (it was found on 30 Sept 2026, below). `tg.py` holds\n **123 groups, 615 letters** (`ct1.txt`). The transcription checks against the form: 123 groups + BLUME +\n SALAMANCA = **125 words**, the figure written in the *Wörter* box, with the pencilled (50) and (100) at the\n right groups. Group 113 (`RBEEP`, word 115) has a red stroke through it but is counted. (Earlier versions of these\n@@ -29,7 +32,23 @@ at twice the size found no other difference. With the correction, the SHA-256 of\n spaces) is `e266615d92019276513c1b7656f10c4f1a3d1e8eb739d28fd481ae337a434c55`, the value Bean gives, so his\n transcription and ours now agree letter for letter. His issue also gives the SHA-256 of a 160-letter text,\n `8fd5cfb82fc3c39fe0ee007b19ada7e74b4ae7747cd9b794d36dce101e17a644`, which matches no 160-letter stretch of this\n-telegram, with or without BLUME SALAMANCA; it may be the second telegram.\n+telegram, with or without BLUME SALAMANCA; it is the second telegram (next paragraph).\n+\n+**The second telegram (30 Sept 2026).** Bean then pointed to the full image of Schmeh's post, which the public\n+preview crops, at a Facebook image-server address that needs no login (saved as `telegram2.jpg`, 2,048 × 1,376 px;\n+the address expires on 5 Oct 2026). He adds that the top comment on the post, by William Higinbotham, carries a\n+transcription matching his hash (not seen here: the comments need a login). Form: stamp \"I A* 14.00z – 1486 –\n+8 JAN 37\", office 910 Zurich, *via angleterre Eastern* in pencil, fee 14 fr, \"Cde\" stamp, handed in 17 34, passed\n+to London Mcl. at 17 40; sender \"Dr ing. W. E. Oswald, Bureau Bahnhofstr 12, Zürich\". So it went the same afternoon\n+(no. 1, serial 1381, fee 49.90, went at 11 31 / 11 42). BLUME SALAMANCA and **32 groups, 160 letters** (`tg.py`\n+T2, `ct2.txt`), read from the image; the SHA-256 of the 160 letters is Bean's value exactly, so the transcription\n+agrees with his letter for letter. Index of coincidence 0.071 (no. 1: 0.0695), top letters a 23, e 19, r 15, n 14,\n+o 11, i 11, no q, k, w or x: another transposition of Spanish-like text.\n+\n+```\n+NOCUO APMOE PMFZC EEOVO ONRTI  PEFIC ACFCL GRNLN DNSDA RTGUL  ANAIA EAROA ITISI TNUNS LRSNA\n+AAOUD EASRG SJTRS PIRED BUSNR  ROEMI FRNVE AUMIA GREEE AAATI  LFARA EAETT NOAIS EERNA FHEEN  SATOB REFUD\n+```\n \n The statistics and searches below were run on the uncorrected text. The errors are substitutions, so no letter moved\n and every transposition test stands. Re-run on the corrected text, the lag scan's maximum is z = 3.4 (was 3.3), at\n@@ -188,11 +207,11 @@ length). It is not a matter of another evening's compute.\n \n What would break it:\n \n-1. **The second telegram**, sent the same day by the same firm, almost certainly in the same keys. Two\n-   messages in depth under the same double transposition can be anagrammed jointly (the classical solution),\n-   and the key lengths fall out of the two lengths. Bochsler holds the photographs; Schmeh's post (\"Can anyone\n-   decipher these two telegrams…\") shows both, but only the first is in its public preview. Richard Bean's\n-   160-letter hash in issue 14 (see Transcription) may mean he has the second one.\n+1. **The second telegram**, sent the same day by the same firm, probably in the same keys. **In hand since\n+   30 Sept 2026** (see Transcription): Schmeh's post (\"Can anyone decipher these two telegrams…\") shows both,\n+   but only the first is in its public preview, and Richard Bean (issue 14) pointed to the full image. It has\n+   160 letters against 615, so the two are not the equal-length depth that the classical joint anagramming of a\n+   double transposition needs. Under the same keys, though, any candidate key pair must make both read at once.\n 2. **A crib.** The letter counts promise *pesetas*, *kilos*, *punto*, spelled numbers, and the firm's own\n    names (*HOVAG*, the Holzverzuckerungs-AG at Ems, fits the letters; *Oswald* does not: there is no w).\n    With a known 8–10-letter word and known widths the two keys can be pinned by hand.\n@@ -201,6 +220,7 @@ What would break it:\n ## Files\n \n * `ct1.txt`, `tg.py` — the transcription (three letters corrected 30 Sept 2026, issue 14). `telegram1.jpg` — the photograph.\n+* `ct2.txt`, `tg.py` (T2, CT2) — the second telegram, 160 letters (30 Sept 2026). `telegram2.jpg` — its photograph.\n * `families.py`, `trans.py`, `double.py` — first-session Python searches.\n * `dt/Dt.cs`, `dt/Dt2.cs`, `dt/St.cs` — C# annealers: double (forward), double (reversed), single columnar.\n * `dt/Idp2.cs` — divide-and-conquer solver: `sa` / `hc` local search, `exhaust` enumeration, `IDP_INV=0|1|2`"
+    },
+    {
+      "sha": "4f3619d98e96f63b5d4bbb153f41f46063ffcb3d",
+      "filename": "targets/blume/ct2.txt",
+      "status": "added",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/dbourdeau/cyphersolver/blob/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2Fct2.txt",
+      "raw_url": "https://github.com/dbourdeau/cyphersolver/raw/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2Fct2.txt",
+      "contents_url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets%2Fblume%2Fct2.txt?ref=9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+      "patch": "@@ -0,0 +1 @@\n+nocuoapmoepmfzceeovoonrtipeficacfclgrnlndnsdartgulanaiaearoaitisitnunslrsnaaaoudeasrgsjtrspiredbusnrroemifrnveaumiagreeeaaatilfaraeaettnoaiseernafheensatobrefud\n\\ No newline at end of file"
+    },
+    {
+      "sha": "f4d4b0ee1ce6706e9501cb9f693efea3fdb4f063",
+      "filename": "targets/blume/profile.json",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 4,
+      "changes": 51,
+      "blob_url": "https://github.com/dbourdeau/cyphersolver/blob/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2Fprofile.json",
+      "raw_url": "https://github.com/dbourdeau/cyphersolver/raw/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2Fprofile.json",
+      "contents_url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets%2Fblume%2Fprofile.json?ref=9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+      "patch": "@@ -28,8 +28,39 @@\n     \"by\": \"llm from images\",\n     \"source\": \"telegram1.jpg, 1,134 x 1,012 px, from Schmeh's Facebook post\",\n     \"image_quality\": \"fair\",\n-    \"notes\": \"123 groups; checked against the word count (125) written on the form. The second telegram is not accessible. Language is the NOTES' inference (telegraphic Spanish), not established. Corrected 30 Sept 2026: groups 38, 48 and 122 are SOLRS, ACCEL, FTULX (L read as I three times), reported by Richard Bean (GitHub issue 14), confirmed on the photograph and by his SHA-256 of the 615 letters.\"\n-   }\n+    \"notes\": \"123 groups; checked against the word count (125) written on the form. The second telegram was out of reach until 30 Sept 2026 (document telegram2). Language is the NOTES' inference (telegraphic Spanish), not established. Corrected 30 Sept 2026: groups 38, 48 and 122 are SOLRS, ACCEL, FTULX (L read as I three times), reported by Richard Bean (GitHub issue 14), confirmed on the photograph and by his SHA-256 of the 615 letters.\",\n+    \"corrections\": 3\n+   },\n+   \"read\": \"not read\"\n+  },\n+  {\n+   \"id\": \"telegram2\",\n+   \"shelfmark\": \"Swiss Federal Police files on Werner Oswald (found by R. Bochsler); full image of Schmeh's Facebook post, reached through the image-server link given in GitHub issue 14\",\n+   \"date\": \"8 Jan 1937\",\n+   \"year\": 1937,\n+   \"country\": \"unknown\",\n+   \"route\": \"Zurich -> Salamanca (via London)\",\n+   \"language\": \"Spanish\",\n+   \"cleartext_in_document\": \"none\",\n+   \"plaintext\": {\n+    \"location\": [\n+     \"none\"\n+    ]\n+   },\n+   \"length\": {\n+    \"tokens\": 160,\n+    \"distinct\": 21,\n+    \"unit\": \"letters\",\n+    \"measured\": true,\n+    \"file\": \"ct2.txt\"\n+   },\n+   \"transcription\": {\n+    \"by\": \"llm from images\",\n+    \"source\": \"telegram2.jpg, 2,048 x 1,376 px, full image of Schmeh's Facebook post\",\n+    \"image_quality\": \"good\",\n+    \"notes\": \"32 groups; the SHA-256 of the 160 letters equals the one Richard Bean gave (issue 14), which he says matches W. Higinbotham's transcription in the post's comments. Handed in 17:34 the same day as telegram 1 (serial 1486, fee 14 fr). Language is inferred, as for telegram 1.\"\n+   },\n+   \"read\": \"not read\"\n   }\n  ],\n  \"system\": {\n@@ -68,7 +99,7 @@\n    \"images\"\n   ],\n   \"attack\": \"ciphertext-only\",\n-  \"human_role\": \"Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded. 30 Sept 2026: an outside reader (Richard Bean, GitHub issue 14) supplied three transcription corrections; this session checked them against the photograph and applied them.\",\n+  \"human_role\": \"Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded. 30 Sept 2026: an outside reader (Richard Bean, GitHub issue 14) supplied three transcription corrections; this session checked them against the photograph and applied them. Bean then pointed to the full image of the second telegram, which Daniel relayed.\",\n   \"tools\": [\n    \"exhaustive fixed-pattern transposition search (families.py)\",\n    \"columnar annealing (trans.py, dt/st.exe)\",\n@@ -141,6 +172,18 @@\n    \"kind\": \"statistics\",\n    \"what\": \"Lag scan re-run on the corrected text: maximum z = 3.4 (was 3.3) at the same lags; index of coincidence 0.0695 (was 0.0699). The errors were substitutions, so no letter moved and the earlier exclusions stand.\",\n    \"result\": \"ruled out\"\n+  },\n+  {\n+   \"date\": \"2026-09-30\",\n+   \"kind\": \"access\",\n+   \"what\": \"Second telegram: the full image of Schmeh's post, which the public preview crops, reached without a login through the Facebook image-server link Richard Bean gave in issue 14 (telegram2.jpg, 2048 x 1376).\",\n+   \"result\": \"worked\"\n+  },\n+  {\n+   \"date\": \"2026-09-30\",\n+   \"kind\": \"transcription\",\n+   \"what\": \"Second telegram transcribed: 32 groups, 160 letters (ct2.txt); its SHA-256 equals the one Bean gave, so the reading agrees with his letter for letter. IC 0.071 and a Spanish-like letter mix: another transposition.\",\n+   \"result\": \"worked\"\n   }\n  ],\n  \"outcome\": {\n@@ -153,6 +196,6 @@\n   \"verification\": [\n    \"none\"\n   ],\n-  \"notes\": \"Open: double columnar with two long keys; needs the second telegram or a crib.\"\n+  \"notes\": \"Open: double columnar with two long keys. The second telegram (160 letters) is in hand since 30 Sept 2026; a joint attack on both is in progress.\"\n  }\n }"
+    },
+    {
+      "sha": "2401b029bd920dd3bf1aae5a2ce4b9da03bb072b",
+      "filename": "targets/blume/telegram2.jpg",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/dbourdeau/cyphersolver/blob/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2Ftelegram2.jpg",
+      "raw_url": "https://github.com/dbourdeau/cyphersolver/raw/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2Ftelegram2.jpg",
+      "contents_url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets%2Fblume%2Ftelegram2.jpg?ref=9226922ffb0663b1d9b95f4ef898d093efd74ef2"
+    },
+    {
+      "sha": "6f0f08bedd1544b428585fa60370abe772d4c495",
+      "filename": "targets/blume/tg.py",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 2,
+      "changes": 16,
+      "blob_url": "https://github.com/dbourdeau/cyphersolver/blob/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2Ftg.py",
+      "raw_url": "https://github.com/dbourdeau/cyphersolver/raw/9226922ffb0663b1d9b95f4ef898d093efd74ef2/targets%2Fblume%2Ftg.py",
+      "contents_url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets%2Fblume%2Ftg.py?ref=9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+      "patch": "@@ -1,5 +1,7 @@\n-\"\"\"BLUME SALAMANCA telegram no. 1, Zurich to London, 8 Jan 1937 (Schmeh's Facebook post, photo from Regula Bochsler).\n-123 five-letter groups; with BLUME SALAMANCA = 125 words, matching the '125' in the word-count box.\"\"\"\n+\"\"\"BLUME SALAMANCA telegrams nos. 1 and 2, Zurich to London, 8 Jan 1937 (Schmeh's Facebook post, photos from Regula Bochsler).\n+No. 1 (T1, CT): 123 five-letter groups; with BLUME SALAMANCA = 125 words, matching the '125' in the word-count box.\n+No. 2 (T2, CT2): 32 groups, 160 letters, from the full image of the post (telegram2.jpg, 30 Sept 2026); its SHA-256\n+matches the one Richard Bean gave in GitHub issue 14.\"\"\"\n T1 = \"\"\"SSVCC NTEMS AEPZE UQNOC URNRM RSIUO BSBHD ONSBB\n OAOEP MINGA CTPOO PANPO APIEI EATTH IUDEE ENGIO\n MAREO LGMAL EEMNE IAPSI HLTOS NTONI AIACA UOSSU\n@@ -18,3 +20,13 @@\n IPLAN FTULX REFLX\"\"\"\n GROUPS = T1.split()\n CT = ''.join(GROUPS).lower()\n+\n+T2 = \"\"\"NOCUO APMOE PMFZC EEOVO ONRTI\n+PEFIC ACFCL GRNLN DNSDA RTGUL\n+ANAIA EAROA ITISI TNUNS LRSNA\n+AAOUD EASRG SJTRS PIRED BUSNR\n+ROEMI FRNVE AUMIA GREEE AAATI\n+LFARA EAETT NOAIS EERNA FHEEN\n+SATOB REFUD\"\"\"\n+GROUPS2 = T2.split()\n+CT2 = ''.join(GROUPS2).lower()"
+    }
+  ]
+}

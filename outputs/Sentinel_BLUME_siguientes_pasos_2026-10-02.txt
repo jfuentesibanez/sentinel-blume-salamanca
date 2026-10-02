@@ -1,0 +1,56 @@
+Sentinel — BLUME SALAMANCA
+2 de octubre de 2026
+
+Podemos avanzar sin esperar las respuestas: mejorar la búsqueda de claves
+y localizar más documentos originales de la misma correspondencia.
+
+Los envíos a Bochsler, Correos y Olten están comprobados en Gmail de
+javier@ncompany.es. Los envió Javier. No se han enviado nuevos mensajes
+desde el asistente ni se ha programado seguimiento automático.
+
+1. Mejorar el método de búsqueda de claves.
+
+Ya se hizo una prueba nueva con textos de control en alemán y francés,
+de 615 y 160 letras, ocultando ambas claves al método. Recuperó exactamente
+los textos en 4 de 16 ejecuciones, todas con claves de 12 y 15 columnas.
+Con 20 y 25 columnas no recuperó ningún caso; las ocho ejecuciones agotaron
+algún límite. Son ocho pares sintéticos evaluados de dos formas, no 16
+casos independientes. Además, el método conocía los anchos de las claves.
+
+El paso siguiente es registrar las tres rondas y probar varias candidatas
+para la segunda clave junto con la búsqueda de la primera. El método
+actual sólo pasa la candidata mejor puntuada de cada ronda a esa búsqueda.
+Cualquier cambio debe comprobarse con controles nuevos antes de ampliar
+las pruebas sobre los telegramas BLUME. Los resultados actuales no permiten
+descartar el alemán, el francés ni la doble transposición.
+
+Resultados y reproducción: work/phase7_crypto/LEEME.txt.
+Comprobación del agente principal: work/phase7_root_verification.json.
+Pasaron la reconstrucción independiente de 32 textos, 64 puntuaciones
+y la comprobación de los hashes de 12 archivos de entrada anteriores.
+
+2. Buscar el expediente de origen en el archivo de PTT suiza.
+
+La remisión a la Fiscalía del 15 de enero de 1937 lleva la referencia
+interna 6011.8.3 y el asunto «Neutralität gegenüber Spanien».
+Ese número de oficina no es una signatura actual identificada.
+Custodio confirmado: PTT-Archiv, Köniz.
+https://www.mfk.ch/forschen/ptt-archiv
+Original BAR: E4320B#1974/47#277*, Unterlagen_0000072, imagen 519.
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg
+
+El catálogo público de PTT tiene una serie técnica T-00 B (1935–1946):
+https://mfk.rechercheonline.ch/pttarchiv:252
+Sus resultados filtrados por España incluyen telefonía de 1937 y tráfico
+telegráfico de 1946. No identifican la remisión ni un expediente telegráfico
+de 1936–1937. La búsqueda exacta de 6011.8.3 tampoco localizó una ficha.
+Estos resultados no demuestran ausencia del documento en el archivo.
+
+La vía útil es aclarar el sistema de registro del servicio jurídico y
+buscar una copia de su remisión o documentos relacionados. La existencia
+de otra copia, de más telegramas o de una clave sigue sin comprobarse.
+
+No se ha obtenido el texto en claro ni identificado al destinatario BLUME.
+Detalle de la búsqueda: work/history/phase7-ptt/ptt-ledger.json y
+work/history/phase7-ptt/ptt-resumen.txt. No se ha contactado a PTT ni
+encargado consultas o copias en esta ronda.

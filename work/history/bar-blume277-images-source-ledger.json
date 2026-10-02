@@ -1,0 +1,222 @@
+[
+  {
+    "document": "Dokument_0000069",
+    "canvas_label": "1",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Dokument_0000069/00000501.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000501.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Dokument_0000069-00000501.jpg",
+    "width": 2544,
+    "height": 3560,
+    "bytes": 1070468,
+    "sha256": "230d20c9e02e529b4585972473be7f2986ac97b591e0565783d940ab00157df1"
+  },
+  {
+    "document": "Dokument_0000069",
+    "canvas_label": "2",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Dokument_0000069/00000502.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000502.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Dokument_0000069-00000502.jpg",
+    "width": 2545,
+    "height": 3566,
+    "bytes": 787627,
+    "sha256": "d7fd89aa42be6eae4d121f6ee38decb1a5a0900bbddd6f5e1c97cb19772dad31"
+  },
+  {
+    "document": "Dokument_0000069",
+    "canvas_label": "3",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Dokument_0000069/00000503.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000503.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Dokument_0000069-00000503.jpg",
+    "width": 2555,
+    "height": 3556,
+    "bytes": 1145998,
+    "sha256": "e5c5235cdc4b0299fcf85a42b8802a7b366d30f3ca19c2e0a66d0f56d85742ad"
+  },
+  {
+    "document": "Dokument_0000069",
+    "canvas_label": "4",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Dokument_0000069/00000504.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000504.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Dokument_0000069-00000504.jpg",
+    "width": 2553,
+    "height": 3558,
+    "bytes": 807384,
+    "sha256": "caeb11c04878815d525b01e407e1853ddd49a0e8f3b806b4cb05d209133839b8"
+  },
+  {
+    "document": "Dokument_0000069",
+    "canvas_label": "5",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Dokument_0000069/00000505.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000505.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Dokument_0000069-00000505.jpg",
+    "width": 2544,
+    "height": 3565,
+    "bytes": 1125405,
+    "sha256": "15fc202f34406ebab8dfb40b91794352593b4af6f82a380515291e51f73c7e41"
+  },
+  {
+    "document": "Dokument_0000069",
+    "canvas_label": "6",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Dokument_0000069/00000506.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000506.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Dokument_0000069-00000506.jpg",
+    "width": 2547,
+    "height": 3570,
+    "bytes": 792008,
+    "sha256": "3040f85bc1edec408c28885cdb5da45249c28cab60cda1ca13c3c01877707899"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "1",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000519.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000519.jpg",
+    "width": 1807,
+    "height": 2533,
+    "bytes": 492947,
+    "sha256": "01b1d429f63285735b736daa7b0ee7889bd731001cacdb57016f9c656fac971b"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "2",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000520.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000520.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000520.jpg",
+    "width": 1812,
+    "height": 2541,
+    "bytes": 350211,
+    "sha256": "d0a0e97e72965f61739700679b9d48babbba0f4483be92cbe97a617b02c88775"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "3",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000521.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000521.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000521.jpg",
+    "width": 1708,
+    "height": 1107,
+    "bytes": 255721,
+    "sha256": "502107a96362034201c79b9ba50a5e878df85836c2c062d3061a06cff3c38441"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "4",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000522.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000522.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000522.jpg",
+    "width": 1704,
+    "height": 1108,
+    "bytes": 101563,
+    "sha256": "18588d02b4816f84c7df9aba66ab3c0af002321bb57f8decaf068f9add446950"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "5",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000523.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000523.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000523.jpg",
+    "width": 1705,
+    "height": 1106,
+    "bytes": 409511,
+    "sha256": "6c0aba7a3749ae0c78d28fcd8fd3488d089ff4a2c62f465db11828bb106ef322"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "6",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000524.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000524.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000524.jpg",
+    "width": 1702,
+    "height": 1108,
+    "bytes": 125239,
+    "sha256": "1b0b2b7a379dbfbbe70c9ae0cc5ae970be8ad461914cd4890ee6d80a47a6f64e"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "7",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000525.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000525.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000525.jpg",
+    "width": 1706,
+    "height": 1108,
+    "bytes": 377025,
+    "sha256": "d62827c0f2c7f0225b1f4634e28ea7e8dc9b6c1817b42b5423f27fc85dbfc2ed"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "8",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000526.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000526.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000526.jpg",
+    "width": 1709,
+    "height": 1109,
+    "bytes": 106743,
+    "sha256": "2bdecb096a795e5187e765838fba24941359a632f6b7466871f99422ae62c736"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "9",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000527.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000527.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000527.jpg",
+    "width": 2562,
+    "height": 2346,
+    "bytes": 934094,
+    "sha256": "410d37a5644106efead1eb636229cb74d781e202dd82838a8fce5b196266be73"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "10",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000528.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000528.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000528.jpg",
+    "width": 2552,
+    "height": 2463,
+    "bytes": 930431,
+    "sha256": "53d26061e084c9118df722271ac3c72ed2dc4f1347ec9d487882ddd9c75e053f"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "11",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000529.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000529.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000529.jpg",
+    "width": 2617,
+    "height": 1807,
+    "bytes": 644976,
+    "sha256": "327d83f906b84985c65eac13defdb72043ae73091bd3e0df483f1db5c7121453"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "12",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000530.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000530.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000530.jpg",
+    "width": 2561,
+    "height": 2348,
+    "bytes": 738076,
+    "sha256": "7ae2fee101760deca0fd37761548021e881b22a3f4c9e626cb03c8c2873ddfe2"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "13",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000531.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000531.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000531.jpg",
+    "width": 2540,
+    "height": 1808,
+    "bytes": 505085,
+    "sha256": "84002a17f2d703512fa277e94fc94dccc8ce0a0791044a2a71b39dd4d1cb9d85"
+  },
+  {
+    "document": "Unterlagen_0000072",
+    "canvas_label": "14",
+    "canvas_id": "https://image.recherche.bar.admin.ch/iiif/2/0000/0357/8609/Subdossier_0000066/Unterlagen_0000072/00000532.jpg",
+    "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000532.jpg/full/full/0/default.jpg",
+    "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000532.jpg",
+    "width": 2544,
+    "height": 1811,
+    "bytes": 442605,
+    "sha256": "24f80f01cfb980a215389ffa5a7d876e31607dce8bc7a755ff6e13e0ec7994d3"
+  }
+]

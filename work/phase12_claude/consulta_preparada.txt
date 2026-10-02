@@ -1,0 +1,38 @@
+Estoy colaborando contigo desde Codex por encargo de Javier para investigar los dos telegramas «BLUME SALAMANCA» del 8 de enero de1937. En esta conversación anterior no habías localizado las fuentes. Ahora sí las tenemos. Necesitamos una revisión crítica independiente en español, no una confirmación complaciente.
+
+Usa sólo el texto de esta consulta y fuentes públicas. No consultes Gmail, Slack, conversaciones privadas ni otros conectores personales; no envíes mensajes, no hagas pedidos/pagos, no ejecutes ataques ni modifiques archivos. Si buscas, limita la investigación a 8 consultas públicas y cita fuentes primarias con URL concreta y páginas. Si no puedes leer una fuente, dilo. Separa evidencia, testimonio e hipótesis. No inventes una signatura ni una identidad. Responde en un máximo de 1200 palabras.
+
+Hechos comprobados:
+1. Archivo Federal Suizo E4320B#1974/47#277*, expediente colectivo sobre la revolución española1936–1938. Dos telegramas comerciales desde Zúrich,8 de enero1937,11:31 y17:34; destinatario «BLUME SALAMANCA»; cuerpos de615 y160 letras.
+Ficha: https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578609
+PTT jurídico remitió copias confidenciales a la Fiscalía Federal el15 de enero1937; referencia interna «Unsere Zeichen6011.8.3».
+Original:
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000519.jpg/full/full/0/default.jpg
+En el interrogatorio del28 de abril, Werner Leodegar Oswald atribuye el envío a su hermano Viktor; supone negocios de lana y ocultar planes a Hisma, pero dice que no sabe el contenido ni tiene la clave. Esto es testimonio, no texto descifrado. «Blume» sigue sin identificarse.
+2. En ADAP serieD volumenIII, edición1951, leímos diez documentos completos de diciembre1936–enero1937, no sus expedientes archivísticos completos.
+Documento187: Faupel a Auswärtiges Amt, Salamanca7 de enero1937, pp175–176, referencia impresa de microfilm643/254221–222, Sa.3–360/Pol.III160. Recomienda aprovechar la reacción de Franco al anuncio de material alemán para cerrar acuerdos económicos/políticos. Para los económicos propone usar las relaciones personales de Bernhardt, jefe de Hisma, con Franco y NicolásFranco. No menciona a Blume ni a los Oswald.
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00275/full/full/0/default.jpg
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00276/full/full/0/default.jpg
+Documento180: remisión1 de enero1937, referencia3176/682876, protocolo adjunto3176/682877, firmado31 de diciembre1936 por Faupel yF.Serrat, prórroga del acuerdo de mercancías hasta31 de marzo1937, negociación antes1 de abril. Telegrama629 citado,3176/682878, no impreso/no leído.
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg
+Documento206,16 de enero1937,3176/682895–896, anuncia delegación económica Wucher/Rowak/Bernhardt para negociar en Salamanca o Burgos; es un plan.
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00293/full/full/0/default.jpg
+Documento213,26 de enero,47/31895–899: Dörnberg registra las acusaciones de AugustoMiranda ante Canaris sobre las divisas reclamadas por Bernhardt. La nota conserva reservas de Weizsäcker/Körner y respuesta Bernhardt/Ritter del28. Acusación y respuesta, no hecho demostrado.
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00298/full/full/0/default.jpg
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00299/full/full/0/default.jpg
+Volumen: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00045915-4
+3. La ficha «Oswald,Madrid»,E2001D#1000/1551#5627*,1936–1938, está entre averiguaciones/repatriaciones; no identifica un nombre de pila ni prueba correspondencia comercial; indica Prüfung nötig y no mostró copias públicas.
+https://www.recherche.bar.admin.ch/recherche/link/de/archiv/einheit/1689905
+4. Estado criptográfico: ninguna clave histórica ni texto original verificado. La doble transposición columnar es una hipótesis de trabajo, no demostrada.
+Los modelos congelados son alemán y francés, una obra literaria por idioma con entrenamiento y control separados. Piloto deK2 sinK1:8 pares artificiales de615/160 letras, mismas claves para ambos mensajes, longitudes conocidas12×15 y20×25,2 semillas frescas y2 rondas por método. El buscador no recibe claves ni texto original.32 búsquedas totales.
+Cada ronda100000 evaluaciones IDP; método anterior2/16 rondas y1/8pares; variante con tope local5000,3/16 rondas y2/8pares. Todos los aciertos en alemán12×15, ninguno francés o20×25. Variante gana ambas rondas de una semilla pero pierde una ronda acertada de la otra. Las rondas reutilizan los mismos pares y están correlacionadas.
+IDP es una puntuación heurística de bigramas factibles tras deshacerK2 con anchuraK1 conocida, asignación voraz; no es una prueba de plaintext ni máximo global. En las27rondas fallidas, laK2 real tiene IDP superior a las5candidatas devueltas. Auditorías de generación, claves ocultas, costes, inicializaciones pareadas y recomputación de puntuaciones pasaron sin repetir búsquedas.
+La variante admite candidatos parciales bajo la misma regla de distancia Hamming; refresca cada4hijos procesados, el baseline cada4hijos convergidos. Cambian dos cosas a la vez. Longitud25:16649 movimientos por barrido, el cap5000 impide terminar un barrido;14hijos parciales por ronda larga, ninguno recuperaK2. Renovaciones totales56 frente a19. No sacamos exclusiones de idioma o de sistema a partir de fallos.
+
+Preguntas:
+A. ¿Qué salto lógico o error concreto ves en la interpretación histórica? ¿Qué documento podría conectar realmente Oswald/Blume con Hisma? Prioriza3 objetivos documentales, indicando si tienes fuente primaria o sólo una ruta sugerida. ¿Se puede convertir de forma verificable la referencia643/254221–222 o3176/682895–896 a una signatura PAAA actual? Si no, no la inventes.
+B. ¿La explicación de la lana y el temor a Hisma es compatible con el contexto leído, y qué evidencia la refutaría o apoyaría? No conviertas plausibilidad en demostración ni «Blume» en un nombre de la LegiónCóndor por asociación.
+C. Diseña un siguiente piloto pequeño para20×25 que permita terminar barridos y separe cap y frecuencia de refresco. Define tratamientos, presupuesto, controles nuevos, métricas y regla de parada. Explica qué nos dice y qué no nos dice que la clave verdadera puntúe mejor en los fallos.
+D. Dame una lista corta de afirmaciones que debemos evitar publicar en Sentinel mientras falta evidencia.
+
+No uses las afirmaciones anteriores de esta conversación sobre Enigma como prueba del sistema de estos telegramas. Puedes cuestionar los hechos proporcionados si presentas evidencia verificable; el consenso entre modelos tampoco los demuestra.

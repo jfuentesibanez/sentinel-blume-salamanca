@@ -1,0 +1,9 @@
+{
+  "protected_files": 804,
+  "unchanged": 804,
+  "missing": [],
+  "changed": [],
+  "all_preserved": true,
+  "algorithm": "SHA256",
+  "new_files_outside_this_phase_not_in_baseline": "No se consideran modificaciones de archivos protegidos."
+}

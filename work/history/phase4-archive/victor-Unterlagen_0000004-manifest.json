@@ -1,0 +1,2191 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json",
+  "label": {
+    "none": [
+      "Unterlagen_0000004"
+    ]
+  },
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000078.jpg",
+      "label": {
+        "none": [
+          "1"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3600,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-1",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-1",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3600,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000078.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000078.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2543
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-1"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2543
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000079.jpg",
+      "label": {
+        "none": [
+          "2"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3605,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-2",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-2",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3605,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000079.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000079.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2551
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-2"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2551
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000080.jpg",
+      "label": {
+        "none": [
+          "3"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3595,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-3",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-3",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3595,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000080.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000080.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2529
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-3"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2529
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000081.jpg",
+      "label": {
+        "none": [
+          "4"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3606,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-4",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-4",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3606,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000081.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000081.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2536
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-4"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2536
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000082.jpg",
+      "label": {
+        "none": [
+          "5"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3602,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-5",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-5",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3602,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000082.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000082.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2524
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-5"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2524
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000083.jpg",
+      "label": {
+        "none": [
+          "6"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3609,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-6",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-6",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3609,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000083.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000083.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2535
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-6"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2535
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000084.jpg",
+      "label": {
+        "none": [
+          "7"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3593,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-7",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-7",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3593,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000084.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000084.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2551
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-7"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2551
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000085.jpg",
+      "label": {
+        "none": [
+          "8"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3611,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-8",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-8",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3611,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000085.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000085.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2555
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-8"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2555
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000086.jpg",
+      "label": {
+        "none": [
+          "9"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3579,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-9",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-9",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3579,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000086.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000086.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2526
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-9"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2526
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000087.jpg",
+      "label": {
+        "none": [
+          "10"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3586,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-10",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-10",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3586,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000087.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000087.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2532
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-10"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2532
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000088.jpg",
+      "label": {
+        "none": [
+          "11"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3603,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-11",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-11",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3603,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000088.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000088.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2549
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-11"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2549
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000089.jpg",
+      "label": {
+        "none": [
+          "12"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3609,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-12",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-12",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3609,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000089.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000089.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2556
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-12"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2556
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000090.jpg",
+      "label": {
+        "none": [
+          "13"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3606,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-13",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-13",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3606,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000090.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000090.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2536
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-13"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2536
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000091.jpg",
+      "label": {
+        "none": [
+          "14"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3608,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-14",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-14",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3608,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000091.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000091.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2541
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-14"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2541
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000092.jpg",
+      "label": {
+        "none": [
+          "15"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3600,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-15",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-15",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3600,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000092.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000092.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2531
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-15"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2531
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000093.jpg",
+      "label": {
+        "none": [
+          "16"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3603,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-16",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-16",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3603,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000093.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000093.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2537
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-16"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2537
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000094.jpg",
+      "label": {
+        "none": [
+          "17"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3603,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-17",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-17",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3603,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000094.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000094.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2540
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-17"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2540
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000095.jpg",
+      "label": {
+        "none": [
+          "18"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3607,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-18",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-18",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3607,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000095.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000095.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2548
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-18"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2548
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000096.jpg",
+      "label": {
+        "none": [
+          "19"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3336,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-19",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-19",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3336,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000096.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000096.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2573
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-19"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2573
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000097.jpg",
+      "label": {
+        "none": [
+          "20"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3341,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-20",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-20",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3341,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000097.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000097.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2588
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-20"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2588
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000098.jpg",
+      "label": {
+        "none": [
+          "21"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3581,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-21",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-21",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3581,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000098.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000098.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2491
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-21"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2491
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000099.jpg",
+      "label": {
+        "none": [
+          "22"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3589,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-22",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-22",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3589,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000099.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000099.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2507
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-22"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2507
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000100.jpg",
+      "label": {
+        "none": [
+          "23"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3596,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-23",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-23",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3596,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000100.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000100.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2540
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-23"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2540
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000101.jpg",
+      "label": {
+        "none": [
+          "24"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3599,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-24",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-24",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3599,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000101.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000101.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2547
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-24"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2547
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000102.jpg",
+      "label": {
+        "none": [
+          "25"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3605,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-25",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-25",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3605,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000102.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000102.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2535
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-25"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2535
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000103.jpg",
+      "label": {
+        "none": [
+          "26"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3605,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-26",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-26",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3605,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000103.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000103.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2542
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-26"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2542
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000104.jpg",
+      "label": {
+        "none": [
+          "27"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1835,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-27",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-27",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1835,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000104.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000104.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2521
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-27"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2521
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000105.jpg",
+      "label": {
+        "none": [
+          "28"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1836,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-28",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-28",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1836,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000105.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000105.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2526
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-28"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2526
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000106.jpg",
+      "label": {
+        "none": [
+          "29"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3581,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-29",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-29",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3581,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000106.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000106.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2530
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-29"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2530
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000107.jpg",
+      "label": {
+        "none": [
+          "30"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3591,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-30",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-30",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3591,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000107.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000107.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2538
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-30"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2538
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000108.jpg",
+      "label": {
+        "none": [
+          "31"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3337,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-31",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-31",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3337,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000108.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000108.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2583
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-31"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2583
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000109.jpg",
+      "label": {
+        "none": [
+          "32"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3344,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-32",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-32",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3344,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000109.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000109.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2594
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-32"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2594
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000110.jpg",
+      "label": {
+        "none": [
+          "33"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3610,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-33",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-33",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3610,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000110.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000110.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2550
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-33"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2550
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000111.jpg",
+      "label": {
+        "none": [
+          "34"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3615,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-34",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-34",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3615,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000111.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000111.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2554
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-34"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2554
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000112.jpg",
+      "label": {
+        "none": [
+          "35"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3590,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-35",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-35",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3590,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000112.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000112.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2527
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-35"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2527
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000113.jpg",
+      "label": {
+        "none": [
+          "36"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3602,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-36",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-36",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3602,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000113.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000113.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2537
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-36"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2537
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000114.jpg",
+      "label": {
+        "none": [
+          "37"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3596,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-37",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-37",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3596,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000114.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000114.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2535
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-37"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2535
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000115.jpg",
+      "label": {
+        "none": [
+          "38"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3609,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-38",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-38",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3609,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000115.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000115.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2539
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-38"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2539
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000116.jpg",
+      "label": {
+        "none": [
+          "39"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3578,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-39",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-39",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3578,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000116.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000116.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2520
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-39"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2520
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000117.jpg",
+      "label": {
+        "none": [
+          "40"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3585,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-40",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-40",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3585,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000117.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000117.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2532
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-40"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2532
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000118.jpg",
+      "label": {
+        "none": [
+          "41"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3585,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-41",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-41",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3585,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000118.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000118.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2527
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-41"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2527
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000119.jpg",
+      "label": {
+        "none": [
+          "42"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3585,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-42",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-42",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3585,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000119.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000119.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2531
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-42"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2531
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000120.jpg",
+      "label": {
+        "none": [
+          "43"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1670,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-43",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-43",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1670,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000120.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000120.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2539
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-43"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2539
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000121.jpg",
+      "label": {
+        "none": [
+          "44"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1673,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-44",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-44",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1673,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000121.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000121.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2544
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-44"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2544
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000122.jpg",
+      "label": {
+        "none": [
+          "45"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3357,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-45",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-45",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3357,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000122.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000122.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2579
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-45"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2579
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000123.jpg",
+      "label": {
+        "none": [
+          "46"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3359,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-46",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-46",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3359,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000123.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000123.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2585
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-46"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2585
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000124.jpg",
+      "label": {
+        "none": [
+          "47"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3585,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-47",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-47",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3585,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000124.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000124.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2525
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-47"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2525
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000125.jpg",
+      "label": {
+        "none": [
+          "48"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3591,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-48",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-48",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3591,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000125.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000125.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2533
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-48"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2533
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000126.jpg",
+      "label": {
+        "none": [
+          "49"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1959,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-49",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-49",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1959,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000126.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000126.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2663
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-49"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2663
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000127.jpg",
+      "label": {
+        "none": [
+          "50"
+        ]
+      },
+      "type": "Canvas",
+      "height": 1960,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-50",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-50",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 1960,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000127.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000127.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2672
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-50"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2672
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000128.jpg",
+      "label": {
+        "none": [
+          "51"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3365,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-51",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-51",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3365,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000128.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000128.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2578
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-51"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2578
+    },
+    {
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/00000129.jpg",
+      "label": {
+        "none": [
+          "52"
+        ]
+      },
+      "type": "Canvas",
+      "height": 3368,
+      "items": [
+        {
+          "@context": "http://iiif.io/api/presentation/3/context.json",
+          "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-page-painting-_02v18dCHmEIYO5a8Nhtg7r-52",
+          "items": [
+            {
+              "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json#annotations-content-painting-_02v18dCHmEIYO5a8Nhtg7r-52",
+              "type": "Annotation",
+              "body": {
+                "format": "image/jpeg",
+                "height": 3368,
+                "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000129.jpg/full/full/0/default.jpg",
+                "service": [
+                  {
+                    "profile": "level2",
+                    "@id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000129.jpg",
+                    "@type": "ImageService2"
+                  }
+                ],
+                "type": "Image",
+                "width": 2587
+              },
+              "motivation": "painting",
+              "target": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/canvasses/_02v18dCHmEIYO5a8Nhtg7r-52"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "width": 2587
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "de": [
+          "Titel"
+        ],
+        "en": [
+          "Title"
+        ],
+        "fr": [
+          "Titre"
+        ],
+        "it": [
+          "Titolo"
+        ],
+        "none": [
+          "Titel"
+        ]
+      },
+      "value": {
+        "de": [
+          "Unterlagen_0000004"
+        ],
+        "en": [
+          "Unterlagen_0000004"
+        ],
+        "fr": [
+          "Unterlagen_0000004"
+        ],
+        "it": [
+          "Unterlagen_0000004"
+        ],
+        "none": [
+          "Unterlagen_0000004"
+        ]
+      }
+    }
+  ],
+  "partOf": [
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/3ad2db78-3938-5400-8984-42d2b055e749.json",
+      "type": "Collection"
+    }
+  ],
+  "rendering": [
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/Vz      3ad2db78-3938-5400-8984-42d2b055e749",
+      "label": {
+        "de": [
+          "Laden Sie die Unterlagen von der Detailansicht herunter"
+        ],
+        "en": [
+          "Download the documents from the detail view"
+        ],
+        "fr": [
+          "Téléchargez les documents depuis l’affichage complet"
+        ],
+        "it": [
+          "Scarica i documenti dalla visualizzazione dei dettagli"
+        ]
+      },
+      "type": "Text",
+      "format": "text/plain"
+    },
+    {
+      "id": "https://www.recherche.bar.admin.ch/recherche/files/ocr/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/Unterlagen_0000004_OCR.txt",
+      "label": {
+        "de": [
+          "Download OCR"
+        ],
+        "en": [
+          "Download OCR"
+        ],
+        "fr": [
+          "Download OCR"
+        ],
+        "it": [
+          "Download OCR"
+        ]
+      },
+      "type": "Text",
+      "format": "text/plain"
+    }
+  ],
+  "service": [
+    {
+      "profile": "http://iiif.io/api/search/1/search",
+      "@id": "https://iiif.recherche.bar.admin.ch/iiif/search/manifest/3ad2db78-393-8-5400-8984--42d2b055e749-Unterlagen_0000004",
+      "@type": "SearchService1"
+    }
+  ],
+  "start": null,
+  "thumbnail": [
+    {
+      "format": "image/jpeg",
+      "id": "https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000078.jpg/full/150,/0/default.jpg",
+      "type": "Image"
+    }
+  ]
+}

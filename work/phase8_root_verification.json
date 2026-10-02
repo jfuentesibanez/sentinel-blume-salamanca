@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "scope": "Independent reconstruction and accounting from saved phase-8 evidence; no solver rerun",
+  "paired_cases": 8,
+  "rows": 16,
+  "ciphertexts_reconstructed": 16,
+  "returned_plaintexts_reconstructed": 32,
+  "candidate_score_checks": 284,
+  "policy_totals": {
+    "single": {
+      "exact": 2,
+      "charged_seconds": 80.275281667,
+      "recorded_proposals": 20900359
+    },
+    "pool5": {
+      "exact": 2,
+      "charged_seconds": 101.588366334,
+      "recorded_proposals": 39856490
+    }
+  },
+  "same_two_successes": true,
+  "failed_pairs_without_true_k2_in_returned_pools": [
+    "de_fold_20x25_20261801",
+    "de_fold_20x25_20261802",
+    "fr_fold_12x15_20261801",
+    "fr_fold_12x15_20261802",
+    "fr_fold_20x25_20261801",
+    "fr_fold_20x25_20261802"
+  ],
+  "crypto_protected_files": 187,
+  "history_protected_files": 20,
+  "phase8_resources_hashed": 49,
+  "isolation_saved_outputs_identical_without_times": true,
+  "history_catalog_metadata_checked": "P-00 C_2522_06, 1937; contents not read",
+  "limits": [
+    "Known widths and one transposition convention; synthetic literary controls only.",
+    "Proposal counters omit initial scoring calls; equal maximum caps are not equal actual costs.",
+    "Returned pools do not record every visited key; absence means not returned, not never visited.",
+    "No historical plaintext, key, language identification or numeric registry-plan interpretation."
+  ],
+  "verification_script_sha256": "744d780046ab032f68043307263483ec5b31528e16e6166ab93b6b20c29771ed"
+}

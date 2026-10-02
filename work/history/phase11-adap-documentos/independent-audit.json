@@ -1,0 +1,23 @@
+{
+  "auditor": "/root/pista_ptt_suiza/auditoria_busquedas_blume",
+  "mode": "Lectura local, sin búsquedas ni escrituras por el auditor.",
+  "inputs": [
+    "ledger.json",
+    "protected-verification.json",
+    "scan-00276.jpg",
+    "scan-00298.jpg",
+    "scan-00299.jpg",
+    "scan-00294.jpg"
+  ],
+  "passed": [
+    "35 escaneos; 10 documentos numerados completos y 4 piezas adicionales; 2 consultas de root, ninguna aquí.",
+    "La controversia de213 se atribuye a Miranda y conserva la respuesta Bernhardt/Ritter.",
+    "Las referencias impresas de microfilm no se presentan como signaturas PAAA actuales.",
+    "No se afirma contrato definitivo ni vínculo BLUME probado."
+  ],
+  "correction": {
+    "doc": 208,
+    "issue": "La palabra libra podía confundirse con unidad de peso.",
+    "applied": "Ledger fact aclara tipo de cambio de42pesetas por una libra esterlina; referencia a moneda, no peso."
+  }
+}

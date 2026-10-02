@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-01",
+  "primary_sources": [
+    {
+      "author": "George Lasry",
+      "title": "A Methodology for the Cryptanalysis of Classical Ciphers with Search Metaheuristics",
+      "year": 2018,
+      "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+      "sections_read": [
+        "5.3.2",
+        "9.4.2",
+        "9.4.3",
+        "9.4.6",
+        "9.4.6.1"
+      ],
+      "printed_pages": [
+        "69–71",
+        "177–178",
+        "183–185"
+      ],
+      "local_text": "work/phase2_crypto/Lasry2018_text.txt",
+      "finding": "Defines equal-length non-overlapping segment swaps, segment slides, and the staged random-pool/left-to-right/IDP-HC/K1-q3/final-K2-q3 attack. Names 3-partite swaps but text examined does not explicitly map them."
+    },
+    {
+      "author": "CrypTool 2 Team",
+      "repository": "https://github.com/CrypToolProject/CrypTool-2",
+      "commit": "bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c",
+      "path": "CrypPlugins/ADFGVXAnalyzer/common/TranspositionTransformations.cs",
+      "url": "https://github.com/CrypToolProject/CrypTool-2/blob/bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c/CrypPlugins/ADFGVXAnalyzer/common/TranspositionTransformations.cs",
+      "raw_url": "https://raw.githubusercontent.com/CrypToolProject/CrypTool-2/bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c/CrypPlugins/ADFGVXAnalyzer/common/TranspositionTransformations.cs",
+      "lines": {
+        "circular_slide": "76–96",
+        "constructor_slides": "210–229",
+        "segment_swaps": "246–268",
+        "three_segment_cycles": "270–297",
+        "all_three_point_cycles": "299–315",
+        "inverse_map": "165–177",
+        "transform": "397–403"
+      },
+      "finding": "Cycles of three disjoint equal-length segments of length1..3 in both directions; all three-distinct-point cycles; circular slides with wrap. Comment refers to original Lasry. Current shared ADFGVX source is not evidence of an identical historical 2014 executable."
+    },
+    {
+      "author": "CrypTool 2 Team",
+      "path": "CrypPlugins/ADFGVXAnalyzer/Algorithm.cs",
+      "url": "https://github.com/CrypToolProject/CrypTool-2/blob/bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c/CrypPlugins/ADFGVXAnalyzer/Algorithm.cs",
+      "lines": "136,154",
+      "finding": "ADFGVX invokes slides=true,swaps=true,inversions=true and randomizes its list. Phase4 intentionally tests the selected non-inverting families with inversions=false."
+    }
+  ],
+  "port_choices": {
+    "key_representation": "source numerical s[plaintext_column]=read_rank; cryptographic boundary inverse(s)",
+    "mapping": "C# stores inverse(temp) and assigns to[list[i]]=from[i]; net candidate equals from[temp[destination]]. Independent Python simulation verifies entire candidate sets for widths3..25.",
+    "identity": "Original includes one identity; phase4 retains it only in geometry and excludes it from strict-improvement search.",
+    "bounds": "Literal source segment swaps limited to w//4, with strict p2<w−len; three-block sizes1..3 use strict endpoints. No silent boundary correction.",
+    "shuffle": "std::shuffle uniform permutation each HC sweep replaces source randomize() successive random swaps; this and its cadence are explicit variants.",
+    "scoring_and_initialization": "Immutable phase3 IDP and K1; same pool1000/keep20/climbs5, left-to-right seed stream, 3outer rounds, q3 selection, and matched walltime/evaluation limits. No planted truth in search.",
+    "source_vs_old": "Neither candidate set contains the other; geometry_check.json records both set differences."
+  },
+  "historical_claims": {
+    "blume_attack_run": false,
+    "historical_plaintext_found": false,
+    "original_2014_binary_reproduced": false,
+    "key_regions_excluded": false
+  },
+  "files": [
+    {
+      "path": "work/phase4_crypto/source_moves.h",
+      "sha256": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed",
+      "bytes": 3812
+    },
+    {
+      "path": "work/phase4_crypto/phase4.cpp",
+      "sha256": "0ac121aa90aed78298b993eb21b743e7cc5f7f2d41f4f61b11c4836271b3ec64",
+      "bytes": 4886
+    },
+    {
+      "path": "work/phase4_crypto/check_source_moves.py",
+      "sha256": "c51a163a5880e95e0f57000379c30f8591fb79eb69a9906373a2bb4bf8f5bbcc",
+      "bytes": 2984
+    },
+    {
+      "path": "work/phase4_crypto/geometry_check.json",
+      "sha256": "9129ec36ebcd1baf057772ff678216efa806e5706f37dd3ef788ed73d853383f",
+      "bytes": 9227
+    },
+    {
+      "path": "work/phase4_crypto/source/TranspositionTransformations.cs",
+      "sha256": "29e71f0700b679f43c1daf0f886758cab3de06018c2cbe51fc14aa55f47613a8",
+      "bytes": 14060
+    },
+    {
+      "path": "work/phase4_crypto/source/Transposition.cs",
+      "sha256": "71634a286c33d71bae85f8f66e17e500ccb5fb78508815b283e094025b94e468",
+      "bytes": 3217
+    },
+    {
+      "path": "work/phase4_crypto/source/Algorithm.cs",
+      "sha256": "5a488546a9ecb123572d6f1a065eb8441b4ebfc91d280124779e5a340e426023",
+      "bytes": 8458
+    },
+    {
+      "path": "work/phase4_crypto/source/TranspositionAnalyser.cs",
+      "sha256": "5181862d65c280834b2ab2c4d4683bc069fed5f81d35778e4cc3cc37c06f463b",
+      "bytes": 53729
+    },
+    {
+      "path": "work/phase4_crypto/source/repo.json",
+      "sha256": "f157d371389cf9161120d13532928c7b8539a36ad9c5219475c662a94c9420b3",
+      "bytes": 6606
+    },
+    {
+      "path": "work/phase4_crypto/source/tree-main.json",
+      "sha256": "5864aa0c13f0a9276a3b8401856f66b48f7d0f803a82ea00117a8afa5bb49de7",
+      "bytes": 5114228
+    },
+    {
+      "path": "work/phase4_crypto/source/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    }
+  ]
+}

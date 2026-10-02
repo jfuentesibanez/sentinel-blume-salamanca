@@ -1,0 +1,20 @@
+{
+  "frozen_source_path": "work/phase10_crypto/population_search.cpp",
+  "frozen_source_sha256": "0cc750150629d24391b333541b6d76f3edc2db1735d8a17bb8b2567900a4eaec",
+  "frozen_binary_path": "work/phase10_crypto/population_search",
+  "frozen_binary_sha256": "7c353d7e1b5de457313ef11e25a7f30cbd446266b1463bd9fdbd38d58e946091",
+  "exact_prefix_bytes": 8540,
+  "exact_prefix_sha256": "bc70ef992bb05a7fff73c712a93f557065ee422eac8a500a0f720aed24d81a54",
+  "exact_prefix_matches": true,
+  "prefix_rule": "Every byte preceding the unique phase10 main declaration; no class or algorithm edits.",
+  "compiler_command": [
+    "/usr/bin/clang++",
+    "-std=c++17",
+    "-O3",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase11_crypto/capped_population_search.cpp",
+    "-o",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase11_crypto/capped_population_search"
+  ],
+  "solver_source_sha256": "2401b8522b80a29b36657f09d5fb97bdf1d3f71e212eae005d1db015522e4aaa",
+  "solver_sha256": "801bac4896e82c39311c97f60f45a722adce765889bd8fcba05960cc60847590"
+}

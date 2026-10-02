@@ -1,0 +1,101 @@
+Sentinel — decisiones para implementar el próximo piloto K2
+2 de octubre de 2026. Especificación de trabajo, sin código sellado ni ejecución.
+
+La revisión de Claude no justifica ejecutar su factorial tal como está. Se
+conserva la propuesta propia de fase 12, con estas reglas antes de programar.
+Este documento no afirma que el nuevo solver exista o haya pasado auditoría.
+
+1. Pregunta medida
+
+Comparar cap local5.000/33.298 y fusión de padres no/sí a50.000 llamadas IDP.
+Los cuatro brazos puntúan el mismo pool de checkpoint y pagan su coste.
+El contraste de fusión incluye la regla congelada de herencia de usos. No
+mide renovación completa frente a dedicar ese coste a escaladas ni permite
+atribuir por separado el efecto a diversidad y a prioridad de selección.
+
+2. Preparación sin efectos de población
+
+Separar generar/puntuar el pool de admitir sus veinte supervivientes. No
+reutilizar prepare() de fase 10 para el control sin fusión: admite padres
+automáticamente. No fusionar/restaurar una población, porque dejaría efectos
+en IDs, secuencias y eventos. Cada llamada cuenta mediante evaluate() y cada
+candidata puntuada se considera para top 5, que conserva sólo cinco claves.
+Las veinte ofertas iniciales se hacen en los cuatro brazos. Sólo el brazo con
+fusión admite el pool de checkpoint, en orden estable, con la misma regla de
+usos de fase10/11. No reiniciar usos al checkpoint.
+
+3. Fronteras y cortes
+
+Cada llamada ya completada debe incorporar su resultado al estado de la
+escalada antes de parar. Al llegar a 50.000, si hubo un barrido completo sin
+mejora, registrar convergencia y ofrecer una sola vez. Si la escalada sigue
+abierta, retornar parcial_checkpoint y aplicar una sola oferta parcial bajo
+la regla común. Distinguir un hijo cuya única evaluación fue la perturbación.
+No contar una perturbación como un barrido o una escalada completada.
+
+Si coinciden límites, la parada global de presupuesto/tiempo tiene prioridad
+sobre checkpoint y cap local. Conserva lo ya evaluado en el archivo; no hace
+admisiones ni nuevas preparaciones. La existencia de un barrido completo se
+registra aparte del motivo de parada. Checkpoint tiene prioridad sobre cap.
+No incrementar usos otra vez al cambiar de etapa ni ofrecer dos veces una
+misma terminación. Una preparación completa cuesta 7.000 llamadas (1.000 claves
+aleatorias y 6.000 movimientos). El checkpoint empieza como máximo una vez.
+Todos sus costes reales cuentan dentro del presupuesto global 100.000, además
+de los costes iniciales. Un corte temporal puede impedir llegar al checkpoint
+o completar un pool. Registrar su estado y coste real sin rellenarlo ni
+reanudarlo fuera de presupuesto. No presentar un pool incompleto como idéntico
+al completo de otro brazo ni una comparación sin checkpoint como su efecto.
+
+4. RNG
+
+El checkpoint usa un generador separado, derivado de la semilla de corrida
+con XOR0x 6a 09e 667f 3bcc 909. Fijar en código el algoritmo y el ancho de la semilla
+antes de sellar. Su resultado no depende de población, IDs, usos o consumo
+previo del recorrido. Guardar sus 1.000 claves y las veinte supervivientes
+para reproducir el pool. Su preparación no consume RNG del recorrido.
+
+Comprobar los límites antes de barajar otra pasada. Es una decisión explícita
+respecto al barajado extra que puede consumir fase 11 al agotar el cap. El
+baseline de este piloto será un nuevo binario común con cap/fusión configurados;
+no debe presentarse como el binario congelado de fase 11. Mantener el resto
+de movimientos, perturbaciones, ofertas y reglas de usos. No añadir nuevos
+flujos RNG por hijo después de observar resultados.
+
+5. Igualdades y prueba externa
+
+Antes de50.000, fusión/no-fusión con el mismo cap deben coincidir en estado
+RNG, archivo, población, usos y secuencia de scores, salvo tiempos. Los cuatro
+brazos con preparación completa deben tener las mismas veinte supervivientes
+del checkpoint. Si no se completó, la comprobación de igualdad queda limitada
+a los estados efectivamente generados y el corte queda explícito. Semillas
+iguales no implican trayectorias iguales entre caps: consumen distintos pasos.
+
+La verdad sigue fuera del solver. Registrar las entradas y cambios del top 5
+para medir externamente la primera entrada de K2, no confundirla con su
+primera evaluación. Separar recuperaciones directas del pool común de las
+obtenidas después en el recorrido. Atribuir estas últimas a padres fusionados
+exigiría registrar su ascendencia; el momento posterior no demuestra ese origen.
+
+6. Casos y coste
+
+Se mantienen cuatro pares sintéticos nuevos 20×25, dos por modelo de idioma,
+dos rondas y cuatro brazos:32 corridas principales de hasta 100.000 llamadas y 30 s
+de protección por corrida. Confirmar antes de ejecutar que las semillas
+20262201/20262202 no se usaron en ensayos anteriores; derivación y orden de
+los brazos se sellan antes de acceder a resultados. No añadir controles
+cercanos a la verdad o nulos sin un manifiesto y presupuesto separados.
+
+7. Interpretación
+
+Informar recuperaciones exactas, empates, pérdidas, costes, parciales y cortes
+por caso/ronda. Una falta de recuperación es un resultado; no cambia después
+la métrica principal. No declarar superioridad estadística con un umbral
+informal6/8. Un nulo alto no es por sí solo un error de implementación. Las
+conclusiones siguen limitadas a K2 sintética con anchos conocidos y a los
+modelos elegidos; no validan una familia de cifrado ni descifran BLUME.
+
+Pendiente obligatorio antes de búsquedas: implementación, auditoría del código
+y contadores, manifiesto completo y comprobación de las igualdades descritas.
+No hay nuevas llamadas de búsqueda, controles privilegiados ni ataque histórico
+en esta fase. Las decisiones se podrán ajustar durante esa revisión, antes
+de sellar y ejecutar, y deberán quedar registradas sin usar resultados nuevos.

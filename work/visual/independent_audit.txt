@@ -1,0 +1,15 @@
+COTEJO VISUAL INDEPENDIENTE (1 octubre 2026)
+Método: originales vistos con view_image; recortes interpolados con PIL para inspeccionar la tipografía. Lectura visual de todas las filas contra ct1.txt y ct2.txt. No se usa el hash como evidencia paleográfica.
+Resultado: ninguna discrepancia detectada; T1 123 grupos/615 letras; T2 32 grupos/160 letras. Las transcripciones y el registro 1-based están en independent_transcription.txt y independent_transcription.json.
+
+Puntos especiales:
+T1 g38 SOLRS, g48 ACCEL y g122 FTULX: certeza alta tras comparar L con I de la misma máquina de escribir. L muestra pie prolongado a derecha. I, por ejemplo en g40 IOEIC, tiene serif simétrico en ambos extremos.
+T1 fila15 (g113-120): RBEEP DRODL NDNOI EONRP PNPIL APCOA CPICE AXLNK. Solo RBEEP conserva reserva: el rojo atraviesa cuatro caracteres. Se leen los rasgos negros como RBEEP, pero hay superposición y esta foto no permite declararlo equivalente en claridad a los restantes grupos. En DRODL el rojo cruza parte de D, pero forma y resto de palabra son claros.
+T1 fila16 (g121-123): IPLAN FTULX REFLX. El rojo afecta el N final de IPLAN; N se lee por su contorno. FTULX y REFLX claros.
+T2: los 32 grupos tienen certeza alta en la imagen disponible, incluidos PMFZC, GRNLN, LRSNA, LFARA, SATOB y REFUD.
+
+Metadatos visibles:
+T1: ZURICH; número oficina 797; número de telegrama 1381; sello -8 JAN -37; hora superior 11 31; reenviado a London Mcl.; hora manuscrita 11 42; palabras manuscritas 125 (compatible con 123 grupos + BLUME + SALAMANCA); sello 49.90 con z final y A*; anotación de ruta angleterre Eastern. Conteos marginales (50) junto g48 ACCEL y (100) junto g98 TNCEN, compatibles con incluir las dos palabras de dirección.
+T2: ZURICH; oficina 910; número 1486; sello -8 JAN -37; hora superior 17 - 34; London Mcl. con 17 40 manuscrito; anotación via angleterre Eastern; sello 14.00 con z final y A*; 14 fr manuscrito; Cde; nota manuscrita parece 34 W (certeza media), compatible con 32 grupos + dos palabras de dirección.
+T2 remitente manuscrito: Absender: Dr ing. W. E. Oswald / Bureau Bahnhofstr 12 / Zürich. Lectura alta de Oswald y dirección; prefijos profesionales conservan posible reserva por cursiva.
+T1 datos de remitente: W. E. Oswald, Bureau / Bahnhofstr 12; el título parece Hr. ing. (reserva). Nota superior Oswald, Bahnhofstr. 12. Nota de teléfono 72150 y ab 9.V.26 o 36 no fijada con certeza, no usar como fecha cierta.

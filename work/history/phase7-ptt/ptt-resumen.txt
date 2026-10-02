@@ -1,0 +1,29 @@
+PTT suiza: vía del productor de la remisión de enero de 1937
+Consulta: 2 de octubre de 2026. Sin contactos, pedidos ni pagos.
+
+La nueva vía es buscar en el PTT-Archiv la documentación del servicio que remitió los telegramas a la Fiscalía. Ya tenemos una referencia interna precisa: 6011.8.3. La carta del 15 de enero de 1937 la coloca bajo «Unsere Zeichen» y lleva el asunto «Neutralität gegenüber Spanien». No es una signatura archivística actual.
+
+Custodio confirmado: PTT-Archiv, Sägestrasse 77, 3098 Köniz, archiv@mfk.ch. Sus fondos se ordenan por procedencia administrativa y regional. La web identifica archivos de la central PTT y de sus unidades regionales; esto permite buscar por productor, además de por nombres.
+https://www.mfk.ch/forschen/ptt-archiv
+https://www.mfk.ch/forschen/ptt-archiv/bestaende
+
+Registro público concreto: T-00 B_0012_09, «Telephonwesen mit Spanien und Portugal», 1937. La ficha lo describe como dossier en francés, sujeto al plazo ordinario de 30 años y pedible al salón de lectura. No muestra un cuerpo digital. Es telefonía: no tenemos un nexo demostrado con BLUME.
+https://mfk.rechercheonline.ch/pttarchiv:74692
+
+Serie padre: T-00 B, Dirección General PTT / departamento técnico o TT, 1935–1946.
+https://mfk.rechercheonline.ch/pttarchiv:252
+
+Al navegar por esa serie con el filtro existente «Spanien», aparecen diez dossiers: telefonía 1937 y 1939–46, y «Telegraphenverkehr mit Spanien und Portugal», T-00 B_0198_08, de 1946. No aparece un dossier telegráfico de 1936–37 en esta lista. Esto no prueba que no exista en otro título, serie o registro.
+https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-t-00-b?sqs_query=Spanien
+
+La búsqueda literal 6011.8.3 no devolvió registros públicos observados. «Neutralität» devolvió un asunto local de Bretzwil de 1911. La búsqueda general «Spanien» tiene 80 resultados según el portal; guardamos la lista inicial renderizada y la lista completa acotada a T-00 B, sin afirmar que hemos leído esos expedientes.
+
+Acceso: el portal enlaza un reglamento y tarifas distintos del reglamento antiguo de 2000 aún indexado en Google. La sala de lectura es gratuita. Las consultas generales son gratuitas; una investigación extensa puede cobrar CHF 120/h, con aviso previo. Para uso no comercial, la tarifa permite digitalizar hasta 20 páginas de un dossier PDF o cinco imágenes TIFF gratuitamente, sujeto a accesibilidad y conservación. El uso comercial tiene otra tarifa. No hemos establecido cómo clasificarían el uso de Sentinel.
+
+Los PDF oficiales se han guardado junto a su texto y sus hashes. El reglamento descargado contiene una página aunque el pie diga «Seite 1 von 2»: no inferimos una segunda página. No usamos el plazo de respuesta de cuatro días del reglamento de 2000 como compromiso actual.
+
+Paso siguiente concreto: buscar la relación entre 6011.8.3 y una signatura actual de los archivos de Dirección General, registros o servicio jurídico. Los localizadores son productor, fecha y asunto. Si se consulta al custodio más adelante, la pregunta útil es si hay expediente administrativo, copia de salida o registro de expedición de esa remisión. Todavía no hemos localizado esa contraparte PTT.
+
+No se ha hallado una norma primaria de conservación que permita afirmar que sobreviven todas las copias de telegramas privados de 1937. Ninguna de estas referencias aporta clave, texto en claro ni identidad de BLUME.
+
+Detalle y trazabilidad: ptt-ledger.json, web-1.json a web-7.json, portal-spanien-results.json, portal-T00B-spanien.json y portal-T00B-parent.json.

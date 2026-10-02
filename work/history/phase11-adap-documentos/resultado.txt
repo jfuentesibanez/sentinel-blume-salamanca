@@ -1,0 +1,27 @@
+La fase aporta documentos comerciales contemporáneos y referencias precisas para buscar sus originales. No identifica a Blume ni vincula a los Oswald con esos documentos.
+
+La fuente es ADAP, serie D, volumen III, edición de 1951, conservada por la Bayerische Staatsbibliothek. Se leen imágenes de una selección editada de documentos diplomáticos, con notas de los editores; no los expedientes originales completos.
+Volumen: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00045915-4
+Manifiesto y metadatos: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00045915/manifest
+
+El documento 187, fechado en Salamanca el 7 de enero de 1937, es la referencia más cercana al día de los BLUME. Faupel propone aprovechar el efecto del material alemán anunciado para cerrar acuerdos económicos. Señala las estrechas relaciones de Bernhardt, jefe de Hisma, con Franco y Nicolas Franco. Referencia impresa: 643/254221–222; Sa.3–360; Pol.III160. Texto completo leído en páginas impresas 175–176, escaneos 275–276.
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00275/full/full/0/default.jpg
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00276/full/full/0/default.jpg
+
+El documento 206, Berlín, 16 de enero, sitúa a Bernhardt en las negociaciones de una delegación económica encabezada por Wucher, con representación de Rowak. Prevé empezar el 25 de enero y pregunta si la sede será Salamanca o Burgos. Es un plan, no el acta de una reunión realizada. Referencia impresa: 3176/682895–896; telegrama 26; W II W.E.355 I. Página 193, escaneo 293.
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00293/full/full/0/default.jpg
+
+El documento 213, Berlín, 26 de enero, registra lo que Miranda dijo ante Canaris y Dörnberg sobre las demandas de Bernhardt respecto a las divisas de Franco. La nota también conserva reservas de Weizsäcker y Körner, y la versión contraria de Bernhardt que recoge Ritter el 28 de enero. Esta lectura permite estudiar una controversia sobre divisas y compras de armas; no demuestra que Miranda tuviera razón. Referencia impresa: 47/31895–899; e.o.Pol.I731g. Páginas 198–199, escaneos 298–299.
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00298/full/full/0/default.jpg
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00299/full/full/0/default.jpg
+
+El documento 208, Salamanca, 20 de enero, informa de una promesa escrita para Hisma de hasta el 60% de la producción de Rio Tinto. Faupel espera el contrato final: ni la promesa original ni ese contrato se han leído. Referencia impresa: 2938/569699; telegrama 34; W II W.E.519a. Página 194, escaneo 294.
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00294/full/full/0/default.jpg
+
+El cotejo visual del índice de personas distingue BLUM, Léon, y no muestra una entrada Blume entre Blomberg y Bohle (página 810, escaneo 910). Tampoco muestra una entrada de apellido Oswald en el tramo Newton–Perth (página 814, escaneo 914). La única coincidencia OCR de Oswald que obtuvo root se cotejó en la página 813, escaneo 913: es nombre de pila de Hoyningen-Huene. Son resultados limitados al índice y al OCR de esta edición, no una ausencia en los archivos originales.
+
+Se leyeron visualmente 35 escaneos únicos de los 919 del volumen. El cuerpo seleccionado incluye diez documentos completos: 163, 180, 181, 187, 196, 205, 206, 207, 208 y 213. Se registran además el protocolo adjunto a 180 y tres notas o comentarios primarios adjuntos a 196/213. El índice cronológico cubre los documentos 136–216 en diciembre de 1936–enero de 1937; no se han leído íntegros los otros 71. Las páginas de navegación de 1939 y los documentos vecinos sólo visibles están delimitados en ledger.json. Root ejecutó dos consultas nuevas, Oswald e Hisma; aquí no se repitió la búsqueda Blume ni se descargó OCR.
+
+Las referencias de película/fotograma impresas sirven para buscar la equivalencia actual en PAAA. Esa equivalencia no se ha verificado. El paso siguiente más concreto sería localizar los originales de 643/254221–222 y 47/31895–899, y el contexto comercial W II referido por 3176/682895–896. Cualquier relación con BLUME deberá aparecer en otro documento; no se puede inferir del tema comercial común.
+
+Se preservaron los 849 archivos históricos del inventario previo, comprobados por SHA-256. No se crearon pestañas ni se tocaron las del usuario. No hubo contactos, cuentas nuevas, pedidos, pagos ni publicación.

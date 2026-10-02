@@ -1,0 +1,400 @@
+{
+  "project": "Sentinel — BLUME SALAMANCA",
+  "phase": 5,
+  "date": "2026-10-01",
+  "objective": "Acceso público al inventario FA-013 y localización de entradas relevantes para enero–abril de 1937; disponibilidad digital BAR #275/#276 y acta del registro C.8/1.",
+  "new_discovery": {
+    "id": "PUBLIC_FA013_DETAILED_INVENTORY",
+    "status": "PDF público descargado; texto de las 26 páginas disponible; cotejo visual de páginas 2, 4, 23 y 26.",
+    "source_url": "https://firmenarchive.ch/uploads/1/4/2/1/142137325/fa-013_portlandzementfabrik_olten_pco_hunziker_ag.pdf",
+    "linking_page": "https://firmenarchive.ch/die-archivbestaumlnde.html",
+    "custodian": "Stadtarchiv Olten",
+    "publisher_of_finding_aid": "Projekt Firmenarchive des Historischen Vereins des Kantons Solothurn",
+    "local_pdf": "work/history/phase5-archive/FA-013-detailed-inventory.pdf",
+    "pages": 26,
+    "pdf_metadata_creation_date": "2023-01-05 14:28:35 CET",
+    "metadata_caution": "Fecha de creación del PDF; no necesariamente fecha de última revisión del inventario.",
+    "update_to_phase4": "La página municipal no enlazaba FA-013 en su lista visible. Fase 5 encuentra el inventario en el sitio del proyecto empresarial; no se ha alterado el informe ni el ZIP de fase 4.",
+    "records": [
+      {
+        "reference": "FA-013-11.65.67",
+        "title": "Verwaltungsrat: Protokolle (Originale)",
+        "dates": "1931–2007",
+        "page": 2,
+        "container_for_1937": "FA-013-NF_0001",
+        "container_dossier_range": "1934–1964",
+        "relevance": "Prioridad: actas del consejo de enero–abril de 1937 y eventuales anexos. El inventario indica anexos esporádicos entre 1931 y 1989. Su contenido no está digitalizado en el inventario."
+      },
+      {
+        "reference": "FA-013-11.65.79",
+        "title": "Geschäftsberichte (teilweise Originale)",
+        "dates": "1932–2004",
+        "page": 2,
+        "container_for_1937": "FA-013-NF_0008",
+        "container_dossier_range": "1932–1950",
+        "relevance": "Informes anuales de 1936 y 1937, para contextualizar actividad y dirigentes. No equivalen a la correspondencia de Hans ni al telegrama."
+      },
+      {
+        "reference": "FA-013-11.66.68",
+        "title": "Generalversammlung: Protokolle (Originale)",
+        "dates": "1931–2007",
+        "page": 2,
+        "container_for_1937": null,
+        "relevance": "Posible apoyo de contexto empresarial. El inventario no da caja concreta en esta entrada."
+      },
+      {
+        "reference": "FA-013-21.77.78",
+        "title": "Revisionsberichte an den Verwaltungsrat und an die Generalversammlung",
+        "dates": "1932–2004",
+        "pages": [
+          3,
+          4
+        ],
+        "relevance": "El inventario dice expresamente que faltan los informes de auditoría de 1937. Esa ausencia sólo afecta a esta serie, no a los informes anuales ni a todo el fondo.",
+        "visual_verification": "Página 4; encabezado y signatura en texto extraído de página 3."
+      },
+      {
+        "reference": "FA-013-32.266",
+        "title": "Kataloge, Broschüren, Flyer (mehrheitlich undatiert)",
+        "dates_as_header": "1935–2007",
+        "dates_as_note": "aproximadamente 1940–2002",
+        "page": 23,
+        "containers": [
+          "FA-013-NF_0053 (I/III)",
+          "FA-013-NF_0054 (II–III/III)"
+        ],
+        "relevance": "Contiene una copia del folleto sobre los 60 años de AG Hunziker & Cie. El inventario no identifica en cuál de los tres dosieres está esa copia. No se ha leído el folleto."
+      },
+      {
+        "reference": "FA-013-61.272",
+        "title": "Firmengeschichte: Sammeldossier",
+        "dates_as_header": "1926–1996",
+        "dates_as_note": "aproximadamente 1931–1996",
+        "page": 26,
+        "container": "FA-013-NF_0041",
+        "relevance": "Contiene el folleto Die Zemente, sobre historia de Hunziker y Portlandcementwerk hasta 1945, y notas históricas manuscritas. Puede identificar otras fuentes; textos aún no leídos."
+      },
+      {
+        "reference": "FA-013-61.351",
+        "title": "1874-1974 Hundert Jahre Hunziker-Unternehmungen: Medaille, Broschüre",
+        "date": "1974",
+        "page": 26,
+        "container": "FA-013-GF_0001",
+        "old_references": [
+          "167",
+          "258"
+        ],
+        "relevance": "Ejemplar de publicación del centenario. Identificación bibliográfica y ubicación, sin lectura del folleto."
+      }
+    ],
+    "negative_searches_limited": {
+      "corpus": "Texto extraído del PDF de 26 páginas",
+      "counts": {
+        "Oswald": 0,
+        "Osswald": 0,
+        "Telegramm": 0,
+        "Briefausgang": 0,
+        "Paris": 0,
+        "Spanien": 0
+      },
+      "limit": "Las ausencias son de las descripciones del inventario, no de los documentos originales conservados. No se ha examinado correspondencia original de FA-013."
+    },
+    "classification_limit": "El inventario no describe una serie inequívoca de correspondencia comercial de Hans Hunziker para enero–abril de 1937. La correspondencia de personal de FA-013-22.92.94 (1931–1995) es otra función; no se equipara a cartas comerciales o telegramas.",
+    "sha256": "03dd28377a6665b4244a31bb2b321dc91661f253df83a2a3ce47199f3013ae5d"
+  },
+  "identity_and_addresses": {
+    "person": "Hans Hunziker, industrial, nacido el 3 de mayo de 1874 en Reinach, padres Johann/Johannes y Elisabeth Galliker.",
+    "primary_bridge": "Interrogatorio BAR #277 imagen 00000499, verificado en fase 4; HLS en fase 4. No repetido.",
+    "company": "AG Hunziker & Cie, Zürich, fábricas Brugg y Olten; carta del 19 de abril de 1937 verificada en fase 4.",
+    "Brugg_office": "Bahnhofplatz 1, Brugg; orden de registro imagen 00000509 cotejada previamente. No atribuir a Zürich.",
+    "distinguish": "No mezclar con Gottlieb Hunziker de Rüti, con el médico Hans Hunziker ni con personas homónimas posteriores."
+  },
+  "BAR_individual_access": [
+    {
+      "method": "HTTP GET vía curl",
+      "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/GetEntity?id=Vz%20%20%20%20%20%20cb9610ea-e7ad-54ce-8d35-623f96a8e191&language=de",
+      "response_file": "work/history/phase5-archive/BAR275-entity.json",
+      "reference": "E4320B#1974/47#275*",
+      "record_id": "Vz      cb9610ea-e7ad-54ce-8d35-623f96a8e191",
+      "title": "Spanische Revolution",
+      "dates": "1936-1937",
+      "aktenzeichen": [
+        "C.08-01.01"
+      ],
+      "access": "Frei zugänglich",
+      "manifestLink": null,
+      "primaryDataLink": null,
+      "canBeOrdered": true,
+      "isDownloadAllowed": false,
+      "scope": "Consulta nueva de la ficha individual y disponibilidad digital; no repetición de la búsqueda transversal de fase 4."
+    },
+    {
+      "method": "HTTP GET vía curl",
+      "source_url": "https://www.recherche.bar.admin.ch/recherche/api/Data/GetEntity?id=3578607&language=de",
+      "response_file": "work/history/phase5-archive/BAR276-entity.json",
+      "reference": "E4320B#1974/47#276*",
+      "record_id": "3578607",
+      "title": "Spanische Revolution (Spanienfahrer etc.)",
+      "dates": "1934 - 1937",
+      "aktenzeichen": [
+        "C.08-01.02"
+      ],
+      "access": "Frei zugänglich",
+      "manifestLink": null,
+      "primaryDataLink": null,
+      "canBeOrdered": true,
+      "isDownloadAllowed": false,
+      "scope": "Consulta nueva de la ficha individual y disponibilidad digital; no repetición de la búsqueda transversal de fase 4."
+    }
+  ],
+  "BAR_current_policy": {
+    "source_url": "https://www.bar.admin.ch/de/online-zugang",
+    "access_date": "2026-10-01",
+    "fact": "BAR ofrece digitalizar los dosieres analógicos bajo pedido y ponerlos en línea gratuitamente.",
+    "corroborating_source": "https://www.bar.admin.ch/de/digitalisierung-on-demand",
+    "limits": "No se ha cursado pedido. La política y los indicadores de las fichas hacen viable solicitar #275/#276; no fijan plazo ni demuestran que esos dosieres contengan el inventario del registro. No se trasladan gratuidad ni reglas BAR al Stadtarchiv Olten.",
+    "old_article_not_used_for_current_limits": "El artículo BIT de 2019 incluía tres dosieres al día y unos 14 días; esos límites históricos no se presentan como vigentes."
+  },
+  "bibliography_access": [
+    {
+      "title": "60 Jahre A. G. Hunziker & Cie., Zürich, Baustoff-Fabriken Brugg und Olten: 1874–1934",
+      "author_as_catalogued": "Hans Hunziker",
+      "year": 1934,
+      "catalogue_pointer": "https://www.econbiz.de/10002280289",
+      "status": "Referencia catalogada en resultado EconBiz; ficha individual no accesible por web.run. Copia confirmada dentro de FA-013-32.266. No se ha encontrado ni leído un escaneo público en esta búsqueda acotada.",
+      "chronology_limit": "Publicado antes de enero–abril de 1937: valor de contexto, sin promesa de documentar esos hechos."
+    },
+    {
+      "title": "Drei Kamine",
+      "journal": "Oltner Neujahrsblätter",
+      "volume": 15,
+      "year": 1957,
+      "pages_from_existing_bibliography": "84–87",
+      "author_as_indexed": "[s.n.]",
+      "doi": "https://doi.org/10.5169/seals-659748",
+      "source_url": "https://www.e-periodica.ch/cntmng?pid=olt-001%3A1957%3A15%3A%3A126",
+      "status": "Búsqueda oficial devuelve metadatos y fragmento indexado de la página 86; no PDF completo verificado. GET devuelve una página HTML Verification required, conservada como .response.html. DOI y visor tampoco accesibles con web.run.",
+      "fragment_value": "El texto indexado describe dos compañías legalmente separadas, compartiendo dirección y recinto en Olten; el origen de Portlandcementwerk en AG Hunziker & Cie. No identifica correspondencia de 1937.",
+      "limit": "No presentar como artículo leído completo ni extraer conclusiones de ausencia de telegramas."
+    },
+    {
+      "title": "Hundert Jahre Hunziker-Unternehmungen, 1874–1974",
+      "year": 1974,
+      "source_url": "https://www.olten.ch/_docn/5587465/25-03-19_do_Verzeichnis_Buchantiquariat.pdf",
+      "status": "Referencia municipal DV 455 y ejemplar archivístico FA-013-61.351; no escaneo público de la publicación localizado en las consultas. No compra ni pedido."
+    },
+    {
+      "title": "Die Zemente",
+      "status": "Descrito en FA-013-61.272 como historia de ambas empresas hasta 1945. Fecha de publicación y contenido aún por verificar."
+    }
+  ],
+  "queries": [
+    {
+      "method": "web.run",
+      "access_date": "2026-10-01",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"FA-013\" \"Hunziker\" inventar"
+          },
+          {
+            "q": "\"Dossierverzeichnis\" \"Hunziker\""
+          },
+          {
+            "q": "\"Stadtarchiv Olten\" \"Archivinformationssystem\""
+          },
+          {
+            "q": "\"Hunziker\" \"60 Jahre\" 1934"
+          }
+        ]
+      },
+      "results_summary": "El sitio del Historischer Verein des Kantons Solothurn remitió a firmenarchive.ch; allí se encontró el inventario detallado. Los restantes resultados aportaban fichas institucionales y una referencia bibliográfica de 1934."
+    },
+    {
+      "request": {
+        "search_query": [
+          {
+            "q": "site.bar.admin.ch \"Digitalisierung\" \"kostenlos\" \"Bestellung\""
+          },
+          {
+            "q": "site.recherche.bar.admin.ch \"Werner Oswald\" \"C.8\""
+          },
+          {
+            "q": "site.suche.staatsarchiv.djiktzh.ch \"Oswald\" \"1937\" \"Hausdurchsuchung\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase5-archive/web-BAR-access-search.json",
+      "method": "web.run",
+      "access_date": "2026-10-01"
+    },
+    {
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.bar.admin.ch/de/online-zugang"
+          },
+          {
+            "ref_id": "https://www.bar.admin.ch/de/digitalisierung-on-demand"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase5-archive/web-BAR-policy-open.json",
+      "method": "web.run",
+      "access_date": "2026-10-01"
+    },
+    {
+      "request": {
+        "search_query": [
+          {
+            "q": "Digitalisierung bestellen kostenlos",
+            "domains": [
+              "bar.admin.ch"
+            ]
+          },
+          {
+            "q": "\"Digitalisierung\" \"vier\" Dossiers",
+            "domains": [
+              "bar.admin.ch"
+            ]
+          },
+          {
+            "q": "\"Digitalisierung\" \"2026\" Bestellung",
+            "domains": [
+              "bar.admin.ch"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase5-archive/web-BAR-policy-search.json",
+      "method": "web.run",
+      "access_date": "2026-10-01"
+    },
+    {
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Drei Kamine\" \"Hunziker\" 1957"
+          },
+          {
+            "q": "\"Hundert Jahre Hunziker-Unternehmungen\" digital"
+          },
+          {
+            "q": "\"60 Jahre A. G. Hunziker\" 1934 digital"
+          },
+          {
+            "q": "\"Die Zemente\" \"Hunziker\" 1945"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase5-archive/web-bibliography-search.json",
+      "method": "web.run",
+      "access_date": "2026-10-01"
+    },
+    {
+      "request": {
+        "search_query": [
+          {
+            "q": "site:e-periodica.ch/cntmng?pid=olt-001 \"1957\" \"Drei Kamine\" \"Autor\""
+          },
+          {
+            "q": "site:e-periodica.ch/cntmng?pid=olt-001 \"1957\" \"Drei Kamine\" \"DOI\""
+          },
+          {
+            "q": "site:econbiz.de \"10002280289\""
+          },
+          {
+            "q": "site:firmenarchive.ch \"Hunziker\" \"Korrespondenz\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase5-archive/web-bibliography-targeted.json",
+      "method": "web.run",
+      "access_date": "2026-10-01"
+    },
+    {
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn178view2",
+            "id": 18
+          },
+          {
+            "ref_id": "turn178view2",
+            "id": 10
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase5-archive/web-fa013-links.json",
+      "method": "web.run",
+      "access_date": "2026-10-01"
+    },
+    {
+      "request": {
+        "open": [
+          "https://firmenarchive.ch",
+          "https://hvso.ch/forschung-historischer-verein-des-kantons-solothurn-827100-567468-384501-131086-294595-444528.html",
+          "https://www.olten.ch/aemter/974",
+          "https://www.e-periodica.ch/cntmng?pid=olt-001%3A1957%3A15%3A%3A126"
+        ]
+      },
+      "result_file": "work/history/phase5-archive/web-open1.json",
+      "method": "web.run",
+      "access_date": "2026-10-01"
+    },
+    {
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn177view0",
+            "id": 6
+          },
+          {
+            "ref_id": "turn177view0",
+            "id": 5
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.econbiz.de/10002280289"
+          },
+          {
+            "ref_id": "https://www.e-periodica.ch/digbib/view?pid=olt-001%3A1957%3A15"
+          }
+        ],
+        "response_length": "long"
+      },
+      "result_file": "work/history/phase5-archive/web-open2.json",
+      "method": "web.run",
+      "access_date": "2026-10-01"
+    }
+  ],
+  "limits": [
+    "No se encontró el acta o inventario del registro de Werner Oswald del 28 de abril de 1937; C.8/1 sigue siendo referencia de investigación, no signatura localizada de un acta.",
+    "No se ha localizado el telegrama recibido desde Zürich antes del 19 de abril de 1937 sobre la imposibilidad de acudir a París.",
+    "Búsquedas web nuevas focalizadas sobre C.8/1 y Hausdurchsuchung no devolvieron un acta identificable; no se ha realizado nueva búsqueda transversal en los catálogos policiales ni reauditoría de imágenes anteriores.",
+    "No contacto, pedido, pago, inscripción ni escritura en una aplicación de correo."
+  ],
+  "proposed_next_action": "Consulta informativa al custodio con las signaturas concretas ya encontradas: actas del consejo enero–abril de 1937, informes anuales 1936/1937 y ubicación de correspondencia Hans/Oswald si pertenece a otro fondo. Borrador local preparado, no enviado.",
+  "local_drafts": {
+    "de": "work/history/phase5-archive/Olten-FA013-draft-de.txt",
+    "es": "work/history/phase5-archive/Olten-FA013-draft-es.txt"
+  },
+  "preservation": {
+    "phase4_and_zip_unchanged": true,
+    "baseline_file": "work/history/phase5-archive/protected-phase4-baseline.json",
+    "verification_file": "work/history/phase5-archive/protected-phase4-verified.json",
+    "contacts_sent": false,
+    "orders_placed": false,
+    "payments_made": false,
+    "email_draft_saved": false,
+    "protected_files_verified": 133
+  },
+  "resource_hashes_file": "work/history/phase5-archive/phase5-resource-hashes.json"
+}

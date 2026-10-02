@@ -1,0 +1,15 @@
+{
+  "source_url": "https://www.gutenberg.org/cache/epub/2000/pg2000.txt",
+  "title": "Don Quijote de la Mancha",
+  "author": "Miguel de Cervantes Saavedra",
+  "retrieved_date": "2026-10-01",
+  "source_sha256": "534f41d59f7142163fa0964076ac6351845c006ea6433778be637fac6d5b04d7",
+  "training": "first 80% of body by Unicode character; strips Gutenberg wrapper",
+  "controls": "final 20% of body; disjoint from training; prose and function-word deletion proxy",
+  "normalization": "NFKD, lowercase, retain a-z only; accents stripped, ñ→n; no whitespace",
+  "smoothing": ".01 count pseudocount per 26^n entry; log10 probability; orders 2,3,4",
+  "train_letters": 1321563,
+  "holdout_letters": 329757,
+  "proxy_letters": 279228,
+  "model_sha256": "d52bbf2f4d8412834e30bcc48758f2e1f4935bca7a0763b7560a36883288ab32"
+}

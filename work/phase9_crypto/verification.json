@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "rows_checked": 32,
+  "archive_idp_scores_checked": 160,
+  "distinct_idp_computations": 130,
+  "six_position_perturbations_checked": 100,
+  "protected_files_checked": 222,
+  "protected_phase8_files_checked": 35,
+  "protected_unchanged": true,
+  "all_calls_metered_source_review": "Every objective call passes Search.evaluate; no truth object or score argument in solver.",
+  "independent_idp": "Direct Cartesian enumeration of feasible offset blocks with NumPy, followed by greedy row/column assignment; no incremental C++ sums.",
+  "artifact_sha256": {
+    "k2_search.cpp": "847b3f5443c7f24eaf8038970d3aea39e113869e054ad78aebc7d15fe5f365cd",
+    "k2_search": "f01ed0e27a3cc90faa6294d1f8204640386341ff840a16f359c08273add63108",
+    "run_comparison.py": "b72bdc82b0f7a9a1186419c634a60b33205199c0fc3b938e259385e0d9a3ae5a",
+    "evaluate_external.py": "b141b22fb88fbf73d331ffc5a933cc5fbf8eba41a38e7a5bfe3c4d1e9678f8b8",
+    "manifest.json": "6df54456d0393f6397b74856d4ee57dcc01730b203184f92d01172b6482775d1",
+    "truth.jsonl": "5143bcac8b37383b2a35801b190eeedb9330d452ea3185053ac264727b13fd05",
+    "search_outputs.jsonl": "f0e550a1854d1575edf080c4cdbb4d146c04d90ebd714d9dfc1ba9bd384a3455",
+    "external_evaluation.jsonl": "e9e5719311164305ea8ecced8c29e646c25bfa59b956fc14918fd95ac2559213",
+    "summary.json": "f9161db179cd34bdee359f5465664e98cae4b05865e0e14894ee855f90c60cb8"
+  }
+}

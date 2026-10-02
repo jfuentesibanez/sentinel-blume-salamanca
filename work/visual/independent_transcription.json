@@ -1,0 +1,1397 @@
+[
+  {
+    "telegram": 1,
+    "group": 1,
+    "row": 1,
+    "column": 1,
+    "text": "SSVCC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 2,
+    "row": 1,
+    "column": 2,
+    "text": "NTEMS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 3,
+    "row": 1,
+    "column": 3,
+    "text": "AEPZE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 4,
+    "row": 1,
+    "column": 4,
+    "text": "UQNOC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 5,
+    "row": 1,
+    "column": 5,
+    "text": "URNRM",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 6,
+    "row": 1,
+    "column": 6,
+    "text": "RSIUO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 7,
+    "row": 1,
+    "column": 7,
+    "text": "BSBHD",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 8,
+    "row": 1,
+    "column": 8,
+    "text": "ONSBB",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 9,
+    "row": 2,
+    "column": 1,
+    "text": "OAOEP",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 10,
+    "row": 2,
+    "column": 2,
+    "text": "MINGA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 11,
+    "row": 2,
+    "column": 3,
+    "text": "CTPOO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 12,
+    "row": 2,
+    "column": 4,
+    "text": "PANPO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 13,
+    "row": 2,
+    "column": 5,
+    "text": "APIEI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 14,
+    "row": 2,
+    "column": 6,
+    "text": "EATTH",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 15,
+    "row": 2,
+    "column": 7,
+    "text": "IUDEE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 16,
+    "row": 2,
+    "column": 8,
+    "text": "ENGIO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 17,
+    "row": 3,
+    "column": 1,
+    "text": "MAREO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 18,
+    "row": 3,
+    "column": 2,
+    "text": "LGMAL",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 19,
+    "row": 3,
+    "column": 3,
+    "text": "EEMNE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 20,
+    "row": 3,
+    "column": 4,
+    "text": "IAPSI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 21,
+    "row": 3,
+    "column": 5,
+    "text": "HLTOS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 22,
+    "row": 3,
+    "column": 6,
+    "text": "NTONI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 23,
+    "row": 3,
+    "column": 7,
+    "text": "AIACA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 24,
+    "row": 3,
+    "column": 8,
+    "text": "UOSSU",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 25,
+    "row": 4,
+    "column": 1,
+    "text": "YSRIT",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 26,
+    "row": 4,
+    "column": 2,
+    "text": "TIERD",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 27,
+    "row": 4,
+    "column": 3,
+    "text": "POAFE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 28,
+    "row": 4,
+    "column": 4,
+    "text": "ENPEA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 29,
+    "row": 4,
+    "column": 5,
+    "text": "OSAOA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 30,
+    "row": 4,
+    "column": 6,
+    "text": "NNOGR",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 31,
+    "row": 4,
+    "column": 7,
+    "text": "UBOOI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 32,
+    "row": 4,
+    "column": 8,
+    "text": "ANDDE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 33,
+    "row": 5,
+    "column": 1,
+    "text": "OEUOR",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 34,
+    "row": 5,
+    "column": 2,
+    "text": "AEATN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 35,
+    "row": 5,
+    "column": 3,
+    "text": "TPICE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 36,
+    "row": 5,
+    "column": 4,
+    "text": "ARARE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 37,
+    "row": 5,
+    "column": 5,
+    "text": "NMOAS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 38,
+    "row": 5,
+    "column": 6,
+    "text": "SOLRS",
+    "certainty": "alta",
+    "note": "SOLRS; L tiene barra inferior que se prolonga hacia la derecha, distinta de I en IOEIC contiguo."
+  },
+  {
+    "telegram": 1,
+    "group": 39,
+    "row": 5,
+    "column": 7,
+    "text": "STBJC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 40,
+    "row": 5,
+    "column": 8,
+    "text": "IOEIC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 41,
+    "row": 6,
+    "column": 1,
+    "text": "DIOND",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 42,
+    "row": 6,
+    "column": 2,
+    "text": "IINPE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 43,
+    "row": 6,
+    "column": 3,
+    "text": "NONCA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 44,
+    "row": 6,
+    "column": 4,
+    "text": "VPTEE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 45,
+    "row": 6,
+    "column": 5,
+    "text": "VDHOS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 46,
+    "row": 6,
+    "column": 6,
+    "text": "PANRO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 47,
+    "row": 6,
+    "column": 7,
+    "text": "OASTE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 48,
+    "row": 6,
+    "column": 8,
+    "text": "ACCEL",
+    "certainty": "alta",
+    "note": "ACCEL; L final tiene asta y pie a la derecha, no serif superior e inferior simétrico de I."
+  },
+  {
+    "telegram": 1,
+    "group": 49,
+    "row": 7,
+    "column": 1,
+    "text": "APITC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 50,
+    "row": 7,
+    "column": 2,
+    "text": "GRONO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 51,
+    "row": 7,
+    "column": 3,
+    "text": "NSSOS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 52,
+    "row": 7,
+    "column": 4,
+    "text": "IPOON",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 53,
+    "row": 7,
+    "column": 5,
+    "text": "EZEAP",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 54,
+    "row": 7,
+    "column": 6,
+    "text": "MOEPA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 55,
+    "row": 7,
+    "column": 7,
+    "text": "IIORT",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 56,
+    "row": 7,
+    "column": 8,
+    "text": "RSPAT",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 57,
+    "row": 8,
+    "column": 1,
+    "text": "CBDDT",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 58,
+    "row": 8,
+    "column": 2,
+    "text": "AOOOK",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 59,
+    "row": 8,
+    "column": 3,
+    "text": "MJEET",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 60,
+    "row": 8,
+    "column": 4,
+    "text": "EEESN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 61,
+    "row": 8,
+    "column": 5,
+    "text": "ANLPS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 62,
+    "row": 8,
+    "column": 6,
+    "text": "DCERC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 63,
+    "row": 8,
+    "column": 7,
+    "text": "EMIOZ",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 64,
+    "row": 8,
+    "column": 8,
+    "text": "NDTOD",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 65,
+    "row": 9,
+    "column": 1,
+    "text": "DTERA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 66,
+    "row": 9,
+    "column": 2,
+    "text": "CBEFR",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 67,
+    "row": 9,
+    "column": 3,
+    "text": "SZRTS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 68,
+    "row": 9,
+    "column": 4,
+    "text": "EDMCC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 69,
+    "row": 9,
+    "column": 5,
+    "text": "ASACT",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 70,
+    "row": 9,
+    "column": 6,
+    "text": "AITDO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 71,
+    "row": 9,
+    "column": 7,
+    "text": "RPONO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 72,
+    "row": 9,
+    "column": 8,
+    "text": "BADMN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 73,
+    "row": 10,
+    "column": 1,
+    "text": "RTXMN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 74,
+    "row": 10,
+    "column": 2,
+    "text": "OUAER",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 75,
+    "row": 10,
+    "column": 3,
+    "text": "URCHR",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 76,
+    "row": 10,
+    "column": 4,
+    "text": "AEMBN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 77,
+    "row": 10,
+    "column": 5,
+    "text": "RINRU",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 78,
+    "row": 10,
+    "column": 6,
+    "text": "NLONO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 79,
+    "row": 10,
+    "column": 7,
+    "text": "REOLP",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 80,
+    "row": 10,
+    "column": 8,
+    "text": "EEIRC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 81,
+    "row": 11,
+    "column": 1,
+    "text": "MOOOE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 82,
+    "row": 11,
+    "column": 2,
+    "text": "EHEOI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 83,
+    "row": 11,
+    "column": 3,
+    "text": "LTSYL",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 84,
+    "row": 11,
+    "column": 4,
+    "text": "QORCE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 85,
+    "row": 11,
+    "column": 5,
+    "text": "ANANX",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 86,
+    "row": 11,
+    "column": 6,
+    "text": "AOTSP",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 87,
+    "row": 11,
+    "column": 7,
+    "text": "OARMT",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 88,
+    "row": 11,
+    "column": 8,
+    "text": "SELAG",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 89,
+    "row": 12,
+    "column": 1,
+    "text": "XMSPN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 90,
+    "row": 12,
+    "column": 2,
+    "text": "TTETI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 91,
+    "row": 12,
+    "column": 3,
+    "text": "RNIMR",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 92,
+    "row": 12,
+    "column": 4,
+    "text": "GRPOU",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 93,
+    "row": 12,
+    "column": 5,
+    "text": "ORMLI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 94,
+    "row": 12,
+    "column": 6,
+    "text": "SEENE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 95,
+    "row": 12,
+    "column": 7,
+    "text": "HDETP",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 96,
+    "row": 12,
+    "column": 8,
+    "text": "DOIMA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 97,
+    "row": 13,
+    "column": 1,
+    "text": "NUHIG",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 98,
+    "row": 13,
+    "column": 2,
+    "text": "TNCEN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 99,
+    "row": 13,
+    "column": 3,
+    "text": "OTNOT",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 100,
+    "row": 13,
+    "column": 4,
+    "text": "INERM",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 101,
+    "row": 13,
+    "column": 5,
+    "text": "AOUAM",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 102,
+    "row": 13,
+    "column": 6,
+    "text": "LIAIN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 103,
+    "row": 13,
+    "column": 7,
+    "text": "CPCSE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 104,
+    "row": 13,
+    "column": 8,
+    "text": "UNCEM",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 105,
+    "row": 14,
+    "column": 1,
+    "text": "BDLSS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 106,
+    "row": 14,
+    "column": 2,
+    "text": "SAAIE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 107,
+    "row": 14,
+    "column": 3,
+    "text": "OAEEA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 108,
+    "row": 14,
+    "column": 4,
+    "text": "FSIEP",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 109,
+    "row": 14,
+    "column": 5,
+    "text": "MATOO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 110,
+    "row": 14,
+    "column": 6,
+    "text": "NSEGC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 111,
+    "row": 14,
+    "column": 7,
+    "text": "OSEPI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 112,
+    "row": 14,
+    "column": 8,
+    "text": "RAEED",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 113,
+    "row": 15,
+    "column": 1,
+    "text": "RBEEP",
+    "certainty": "media",
+    "note": "RBEEP es la lectura preferida. El trazo rojo cruza B, E, E y P; quedan rasgos negros compatibles. No usar como prueba de certeza absoluta ni como letra oculta reconstruida."
+  },
+  {
+    "telegram": 1,
+    "group": 114,
+    "row": 15,
+    "column": 2,
+    "text": "DRODL",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 115,
+    "row": 15,
+    "column": 3,
+    "text": "NDNOI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 116,
+    "row": 15,
+    "column": 4,
+    "text": "EONRP",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 117,
+    "row": 15,
+    "column": 5,
+    "text": "PNPIL",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 118,
+    "row": 15,
+    "column": 6,
+    "text": "APCOA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 119,
+    "row": 15,
+    "column": 7,
+    "text": "CPICE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 120,
+    "row": 15,
+    "column": 8,
+    "text": "AXLNK",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 1,
+    "group": 121,
+    "row": 16,
+    "column": 1,
+    "text": "IPLAN",
+    "certainty": "alta con reserva",
+    "note": "IPLAN; el rojo cruza el pie/diagonal de N, pero el contorno mecanográfico deja leer N."
+  },
+  {
+    "telegram": 1,
+    "group": 122,
+    "row": 16,
+    "column": 2,
+    "text": "FTULX",
+    "certainty": "alta",
+    "note": "FTULX; L con pie a derecha; forma concordante con L de IPLAN y REFLX."
+  },
+  {
+    "telegram": 1,
+    "group": 123,
+    "row": 16,
+    "column": 3,
+    "text": "REFLX",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 1,
+    "row": 1,
+    "column": 1,
+    "text": "NOCUO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 2,
+    "row": 1,
+    "column": 2,
+    "text": "APMOE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 3,
+    "row": 1,
+    "column": 3,
+    "text": "PMFZC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 4,
+    "row": 1,
+    "column": 4,
+    "text": "EEOVO",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 5,
+    "row": 1,
+    "column": 5,
+    "text": "ONRTI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 6,
+    "row": 2,
+    "column": 1,
+    "text": "PEFIC",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 7,
+    "row": 2,
+    "column": 2,
+    "text": "ACFCL",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 8,
+    "row": 2,
+    "column": 3,
+    "text": "GRNLN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 9,
+    "row": 2,
+    "column": 4,
+    "text": "DNSDA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 10,
+    "row": 2,
+    "column": 5,
+    "text": "RTGUL",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 11,
+    "row": 3,
+    "column": 1,
+    "text": "ANAIA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 12,
+    "row": 3,
+    "column": 2,
+    "text": "EAROA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 13,
+    "row": 3,
+    "column": 3,
+    "text": "ITISI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 14,
+    "row": 3,
+    "column": 4,
+    "text": "TNUNS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 15,
+    "row": 3,
+    "column": 5,
+    "text": "LRSNA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 16,
+    "row": 4,
+    "column": 1,
+    "text": "AAOUD",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 17,
+    "row": 4,
+    "column": 2,
+    "text": "EASRG",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 18,
+    "row": 4,
+    "column": 3,
+    "text": "SJTRS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 19,
+    "row": 4,
+    "column": 4,
+    "text": "PIRED",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 20,
+    "row": 4,
+    "column": 5,
+    "text": "BUSNR",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 21,
+    "row": 5,
+    "column": 1,
+    "text": "ROEMI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 22,
+    "row": 5,
+    "column": 2,
+    "text": "FRNVE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 23,
+    "row": 5,
+    "column": 3,
+    "text": "AUMIA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 24,
+    "row": 5,
+    "column": 4,
+    "text": "GREEE",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 25,
+    "row": 5,
+    "column": 5,
+    "text": "AAATI",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 26,
+    "row": 6,
+    "column": 1,
+    "text": "LFARA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 27,
+    "row": 6,
+    "column": 2,
+    "text": "EAETT",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 28,
+    "row": 6,
+    "column": 3,
+    "text": "NOAIS",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 29,
+    "row": 6,
+    "column": 4,
+    "text": "EERNA",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 30,
+    "row": 6,
+    "column": 5,
+    "text": "FHEEN",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 31,
+    "row": 7,
+    "column": 1,
+    "text": "SATOB",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  },
+  {
+    "telegram": 2,
+    "group": 32,
+    "row": 7,
+    "column": 2,
+    "text": "REFUD",
+    "certainty": "alta",
+    "note": "Todos los caracteres de tinta mecanográfica son legibles en el original y recorte ampliado."
+  }
+]

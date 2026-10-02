@@ -1,0 +1,25 @@
+Victor Oswald — telegrama en claro, 9 de mayo de 1938
+
+Transcripción del cuerpo impreso, conservando los saltos de línea:
+
+sehr geehrter herr doktor muss dringenst ins ausland
+reisen und ersuche sie ueber Legation paris
+durchreiseerlaubnis zu erreichen entschuldigen
+sie neue muehewaltung besten dank und gruesse victor oswald +
+
+Traducción al español:
+
+Muy estimado señor doctor: debo viajar urgentemente al extranjero y le pido que obtenga, a través de la legación en París, un permiso de tránsito. Disculpe las nuevas gestiones que le ocasiono. Muchas gracias y saludos. Victor Oswald.
+
+Hendaye → dr froehlicher / bundeshaus berne suisse.
+BAR E2001E#1000/1571#787*, Unterlagen_0000004, canvas 27, imagen 00000104.
+Fecha: sello Telegraph Bern del 9.V.1938 y anotación manuscrita 9.5.38.
+
+Original público:
+https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000104.jpg/full/full/0/default.jpg
+Manifest:
+https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json
+SHA-256 del JPEG original:
+4c917574eb9bdc1fa0cf7d074a4287dd9160b3c0376f46e9c2ea35a8bd839851
+
+Comparación limitada: es un ejemplo auténtico en alemán que incluye saludo y cortesía. No es el telegrama de la cita de París anterior al 19 de abril de 1937 y no aporta una clave, identidad de BLUME ni texto claro conocido para el cifrado.

@@ -1,0 +1,51 @@
+{
+  "scope": "Additional conditioned diagnostic on the same observed wrong K2; not fresh calibration",
+  "command": [
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_crypto/walk_diagnostic",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+    "20",
+    "25",
+    "20261201",
+    "2",
+    "15",
+    "150000",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase5_crypto/known_wrong_k2.txt"
+  ],
+  "wall_seconds": 9.642713069915771,
+  "max_idp_evaluations": 150000,
+  "seconds_limit": 15,
+  "termination": "max_evaluations",
+  "initial_seed": 20261201,
+  "states_recorded": 5,
+  "files": [
+    {
+      "path": "work/phase5_crypto/walk_diagnostic.cpp",
+      "sha256": "c01274b976e7762673f72243e4400fb06f155111ba92148b5726e0314b868d6d"
+    },
+    {
+      "path": "work/phase5_crypto/walk_diagnostic",
+      "sha256": "0aad0ac4bc90c4dc7190a9e429124363c5d5fbc88cd68f015b2df6f19f7df5e9"
+    },
+    {
+      "path": "work/phase5_crypto/escape_search.h",
+      "sha256": "b1dc67202a59e45b12041304e43cf3c8eaf7eb55bcc62dec7791460570374ea7"
+    },
+    {
+      "path": "work/phase5_crypto/known_wrong_k2.txt",
+      "sha256": "7b85cb287c086e2448854c7682f461a417feee85ff794a93e38334295c801c2f"
+    },
+    {
+      "path": "work/phase4_crypto/source_moves.h",
+      "sha256": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed"
+    },
+    {
+      "path": "work/crypto/model_es.bin",
+      "sha256": "d52bbf2f4d8412834e30bcc48758f2e1f4935bca7a0763b7560a36883288ab32"
+    },
+    {
+      "path": "work/crypto/holdout_proxy.txt",
+      "sha256": "8dae5c6fe87646155b3c9495303edf2c508573515f88492308f21a918219119f"
+    }
+  ]
+}

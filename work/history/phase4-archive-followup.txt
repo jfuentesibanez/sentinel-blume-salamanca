@@ -1,0 +1,59 @@
+Sentinel — BLUME SALAMANCA. Seguimiento archivístico, 1 de octubre de 2026.
+
+HALLAZGO DOCUMENTAL NUEVO
+
+En BAR E2001E#1000/1571#787*, «Oswald, Victor, 1912, Madrid», Unterlagen_0000004, canvas 27, imagen 00000104, aparece un telegrama en claro, en alemán, firmado victor oswald. Sale de Hendaye y va a dr froehlicher / bundeshaus berne suisse. El sello y la anotación manuscrita lo sitúan el 9 de mayo de 1938.
+
+Pide ayuda para obtener, a través de la legación en París, un permiso de tránsito por un viaje urgente al extranjero. Incluye saludo y cortesía: permite observar un ejemplo auténtico de estilo telegráfico asociado a Victor, útil para controles en alemán. No demuestra que el cifrado BLUME de 1937 esté en alemán, no aporta clave ni texto claro conocido, y no es el telegrama de la cita de París citado el 19 de abril de 1937.
+
+Original público:
+https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000104.jpg/full/full/0/default.jpg
+Manifest de la pieza:
+https://www.recherche.bar.admin.ch/recherche/files/manifests/3ad2db78-393/8-5400-8984-/42d2b055e749/Unterlagen_0000004/_02v18dCHmEIYO5a8Nhtg7r.json
+Original local:
+work/history/phase4-archive/victor-Unterlagen_0000004-00000104.jpg
+SHA-256:
+4c917574eb9bdc1fa0cf7d074a4287dd9160b3c0376f46e9c2ea35a8bd839851
+Transcripción y traducción: work/history/phase4-victor-telegram1938.txt
+
+La carta de Frölicher del 8 de abril de 1938 (imagen 00000106), dirigida a Victor M. Oswald, Miraconcha 13, 3º, San Sebastián, acusa su carta del 27 de marzo y trata su expulsión de Francia: falta todavía una respuesta vinculante francesa. Es contexto primario de la petición posterior de tránsito, sin determinar motivo o fecha de la expulsión ni relacionarla con la cita de 1937. La imagen 00000103 es un reverso sin texto independiente.
+Original de la carta:
+https://image.recherche.bar.admin.ch/iiif/2/3ad2db78-393%2F8-5400-8984-%2F42d2b055e749%2FUnterlagen_0000004%2F00000106.jpg/full/full/0/default.jpg
+SHA-256:
+3b1ced4c3948249aa34c92c21901959806a1af2044981a029265a352be660d63
+
+El año 1912 del título de catálogo no coincide con el 15.11.1909 de la nota policial de 1937; esa discrepancia sigue abierta.
+
+NUEVO FONDO RELEVANTE: STADTARCHIV OLTEN FA-013
+
+La ficha arCHeco y el resumen municipal de fondos identifican FA-013, PCO Portlandzementfabrik Olten (1931–), con documentación de 1921–1999 y 12 metros lineales. Incluye documentación de Hunziker-Unternehmungen por la relación con AG Hunziker & Cie antes y después de 1931. El resumen oficial lo confirma en la página 11; se ha cotejado la página renderizada.
+
+El puente individual es sólido: el interrogatorio de 1937, imagen 00000499 cotejada por el agente principal, identifica a Hans Hunziker, industrial de Brugg, nacido el 3.V.1874 en Reinach, hijo de Johann y Elisabeth Galliker. El HLS coincide en fecha, lugar, padres Johannes/Elisabeth Galliker y empresa trasladada a Brugg con expansión en Olten. La carta de 19 de abril de 1937, imagen 00000513, lleva el membrete de AG Hunziker & Cie, Zürich, fábricas Brugg y Olten. Esto vincula al empresario investigado con la red empresarial documentada por FA-013. Hans no debe confundirse con Gottlieb Hunziker, Rüti.
+
+Todavía no conocemos el inventario detallado de FA-013 ni sabemos si conserva la correspondencia concreta de 1937. Pregunta propuesta, no enviada: pedir el Dossierverzeichnis detallado y comprobar correspondencia o diarios de Hans Hunziker y de la oficina de Zürich entre enero y abril de 1937, referencia HU/Z, viaje París–Londres y telegrama recibido desde Zürich antes del 19 de abril.
+
+Ficha pública:
+https://ub-archeco24.ub.unibas.ch/index.php/pco-portlandzementfabrik-olten-1931
+Resumen municipal, página 11:
+https://www.olten.ch/_docn/7067200/26-06-08_do_Bestands%C3%BCbersicht_Firmenarchive.pdf
+Custodio:
+https://www.olten.ch/aemter/974
+Contacto verificado: stadtarchiv@olten.ch. No se ha enviado consulta ni pedido copias.
+Biografía HLS:
+https://hls-dhs-dss.ch/de/articles/029551/2008-01-16/
+Primario del interrogatorio:
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000068%2F00000499.jpg/full/full/0/default.jpg
+
+LÍMITES EXACTOS DE LA BÚSQUEDA
+
+Se buscaron identidades y referencias al registro en los 219 archivos OCR locales de BAR #277 y se leyeron las coincidencias de diez piezas vecinas. No surgió una referencia inequívoca nueva al inventario del registro ni al telegrama de París. Esta revisión del OCR no equivale a leer los 219 originales, y no permite descartar un manuscrito o un documento mal reconocido. No se repitió la auditoría de las 22 imágenes adyacentes de la fase anterior.
+
+Se conservaron siete consultas nuevas del catálogo BAR, con peticiones exactas y todas las respuestas. Títulos Hunziker AND Hans: 41 resultados; signatura E4320B#1974/47#27?*: 11; Oswald AND Werner en todos los campos: 20; Hunziker AND Brugg: 5; título Spanische Revolution: 13; Hunziker & Cie: 3; literal 16.3.1904: 0. El último resultado depende del formato de la fecha. No establece ausencia de expedientes.
+
+Las signaturas BAR E4320B#1974/47#275* (1936–1937) y #276* (1934–1937) son candidatos de serie para ampliar la búsqueda: no ofrecen manifest digital en estas respuestas. La cubierta de #277 lleva III, pero no identifica por sí sola #275 y #276 como I y II. El inventario del registro sigue sin localizar; también falta determinar qué archivo policial de Zürich conservó la documentación de la autoridad actuante.
+
+E2200.37-02#1967/49#77*, «Hunziker Hans, Leimbach», 1933–1950, es un candidato individual sin cotejar. Leimbach coincide con el lugar de origen del empresario según HLS; el título no basta para identificarlo. No tiene manifest en la respuesta y requiere revisión de acceso.
+
+Procedencia completa, límites y hashes: work/history/phase4-archive-followup.json
+Nuevos recursos: work/history/phase4-archive/
+No se modificaron originales, paquetes ni fases anteriores.

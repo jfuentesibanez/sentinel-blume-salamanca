@@ -1,0 +1,227 @@
+{
+  "project": "Sentinel — BLUME SALAMANCA",
+  "phase": 10,
+  "date": "2026-10-02",
+  "report": {
+    "path": "outputs/Sentinel_BLUME_fase10_2026-10-02.txt",
+    "sha256": "7794757b179e4018c598b29119b727106a0f792bc613dc3d13a551069050981d"
+  },
+  "email_account": "javier@ncompany.es",
+  "sent_messages_verified": [
+    {
+      "recipient": [
+        "stadtarchiv@olten.ch"
+      ],
+      "subject": "FA-013 / Hunziker & Cie – Korrespondenz mit Oswald, Januar–April 1937",
+      "message_id": "1a0fc45f609a3681",
+      "thread_id": "1a0fc3594ef76d86",
+      "labels": [
+        "SENT"
+      ],
+      "sent_at": "2026-10-02T13:00:38+02:00",
+      "url": "https://mail.google.com/mail/u/?authuser=javier%40ncompany.es#all/1a0fc45f609a3681"
+    },
+    {
+      "recipient": [
+        "regula.bochsler@gmail.com"
+      ],
+      "subject": "«BLUME SALAMANCA»: Anfrage zum Entschlüsselungsversuch von 2020",
+      "message_id": "1a0fc31390140762",
+      "thread_id": "1a0f80d15478697b",
+      "labels": [
+        "SENT"
+      ],
+      "sent_at": "2026-10-02T12:37:59+02:00",
+      "url": "https://mail.google.com/mail/u/?authuser=javier%40ncompany.es#all/1a0fc31390140762"
+    },
+    {
+      "recipient": [
+        "bibliotecacorreosytelegrafos@correos.com"
+      ],
+      "subject": "Consulta histórica: dirección telegráfica «BLUME SALAMANCA» (1937)",
+      "message_id": "1a0fc306ceacb794",
+      "thread_id": "1a0f80d3adada46f",
+      "labels": [
+        "SENT"
+      ],
+      "sent_at": "2026-10-02T12:37:07+02:00",
+      "url": "https://mail.google.com/mail/u/?authuser=javier%40ncompany.es#all/1a0fc306ceacb794"
+    },
+    {
+      "recipient": [
+        "archiv@mfk.ch"
+      ],
+      "subject": "Rechtsdienst 1937: Aktenzeichen 6011.8.3 und Registraturplan",
+      "message_id": "1a0fd24033c64087",
+      "thread_id": "1a0fd16b7add0e62",
+      "labels": [
+        "SENT"
+      ],
+      "sent_at": "2026-10-02T17:03:10+02:00",
+      "url": "https://mail.google.com/mail/u/?authuser=javier%40ncompany.es#all/1a0fd24033c64087"
+    }
+  ],
+  "reply_check_scope": {
+    "thread_snapshots": [
+      {
+        "thread_id": "1a0f80d15478697b",
+        "message_count": 1,
+        "message_ids": [
+          "1a0fc31390140762"
+        ],
+        "labels": [
+          [
+            "SENT"
+          ]
+        ]
+      },
+      {
+        "thread_id": "1a0f80d3adada46f",
+        "message_count": 1,
+        "message_ids": [
+          "1a0fc306ceacb794"
+        ],
+        "labels": [
+          [
+            "SENT"
+          ]
+        ]
+      },
+      {
+        "thread_id": "1a0fc3594ef76d86",
+        "message_count": 1,
+        "message_ids": [
+          "1a0fc45f609a3681"
+        ],
+        "labels": [
+          [
+            "SENT"
+          ]
+        ]
+      }
+    ],
+    "query": "newer_than:7d -in:sent {from:mfk.ch from:olten.ch from:regula.bochsler@gmail.com from:correos.com} {BLUME 6011.8.3 Hunziker Registraturplan}",
+    "message_ids": [],
+    "next_page_token": null,
+    "scope": "Los tres hilos leídos sólo contienen el envío de Javier. La búsqueda acotada no devolvió mensajes entrantes; no es una afirmación sobre todo el buzón."
+  },
+  "historical_sources": [
+    {
+      "url": "https://dodis.ch/27246",
+      "archive_reference_literal": "Archiv UBS : UBS AG; CHA Basel; fonds SBC: 1000014895 . Quartalberichte 1937-1940",
+      "read_level": "UEK catalog record only; no original quarterly report",
+      "limits": "Ems and Havero are indexed; no dated January 1937 or BLUME connection established."
+    },
+    {
+      "url": "https://www.dodis.ch/de/dodis-uek-datenbank",
+      "archive_reference_literal": "E 9500.239-A/2003/54",
+      "read_level": "Official migration explanation",
+      "limits": "General UEK working material reference, not the specific ten-page Ems inventory; historical access conditions not current guarantee."
+    },
+    {
+      "url": "https://politisches-archiv.diplo.de/invenio/direktlink/dbba4fd4-3bda-4ddf-9fd4-54bea4c8ce79/",
+      "archive_reference": "PA AA RZ 214/100004",
+      "read_level": "Catalog only",
+      "limits": "Bernhard Blume and Spain occur under different people in a collective record; no recipient identity."
+    },
+    {
+      "url": "https://politisches-archiv.diplo.de/invenio/direktlink/e9e488d1-00a8-48e1-8e70-be53d9fd3172/",
+      "archive_reference": "PA AA RAV 163/433",
+      "read_level": "Catalog only",
+      "limits": "Plaza de Salamanca in Madrid, 1942; UI translation deformed the broader date field."
+    },
+    {
+      "url": "https://digitale-sammlungen.de/de/view/bsb00045915",
+      "library_reference": "BSB 4 Z 50.281,D-3",
+      "read_level": "1951 bibliographic metadata and OCR queries, not the full volume",
+      "limits": "OCR Blume negative; Salamanca positive control; visual personal index and original documents pending."
+    },
+    {
+      "url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/1689905",
+      "archive_reference": "E2001D#1000/1551#5627*",
+      "title": "Oswald, Madrid",
+      "date_range": "1936–1938",
+      "read_level": "Prior phases catalog metadata reused; no new current availability check or original read",
+      "source_local": "work/history/research-evidence.json"
+    }
+  ],
+  "crypto_result": {
+    "fresh_synthetic_pairs": 8,
+    "rounds_per_method": 16,
+    "K2_hits": {
+      "restart": 3,
+      "population": 4
+    },
+    "same_pairs_with_K2_found": 2,
+    "true_K2_hits_are_rank1": 7,
+    "objective_calls_per_round": 100000,
+    "failed_rounds_truth_IDP_above_all_saved_candidates": 25,
+    "long_width_population_rounds": 8,
+    "long_width_completed_offspring_range": [
+      0,
+      1
+    ],
+    "known_widths": true,
+    "K1_attempted": false,
+    "historical_attack": false,
+    "limits": "Small paired K2-only trial, known widths, shared keys and one literary holdout per language. No language or historical cipher exclusion; Hamming distance does not prove separate useful basins."
+  },
+  "verification": {
+    "phase": 10,
+    "passed": true,
+    "checks": {
+      "phase10_crypto_resources": 29,
+      "diplomatic_resources": 32,
+      "uek_resources": 11,
+      "previous_historical_files": 804,
+      "previous_crypto_files": 252,
+      "phase9_root_report_drafts_and_evidence": 12,
+      "root_score_audit_passed": true,
+      "canonical_ciphertexts_unchanged": 2
+    },
+    "canonical_ciphertexts": [
+      {
+        "path": "work/source/ct1.txt",
+        "raw_sha256": "d442e136d63bfc066c20374e2b454ca5581b164e940b307d5600d0d463df943e",
+        "normalized_sha256": "e266615d92019276513c1b7656f10c4f1a3d1e8eb739d28fd481ae337a434c55",
+        "letters": 615
+      },
+      {
+        "path": "work/source/ct2.txt",
+        "raw_sha256": "d2cdadbefb0bef2fbcdcf83bf6de1b104583e166f14f0a3d2b545024b3188df0",
+        "normalized_sha256": "8fd5cfb82fc3c39fe0ee007b19ada7e74b4ae7747cd9b794d36dce101e17a644",
+        "letters": 160
+      }
+    ],
+    "audit_note": "First hash check confused uppercase-normalized ciphertext SHA with lowercase raw-file SHA. Corrected using the original frozen verification record; no source file changed.",
+    "limits": "Checks hashes and recorded audit; does not rerun the search or establish historical plaintext."
+  },
+  "evidence_files": {
+    "work/phase10_crypto/RESOURCE_HASHES.json": "d27a1695da8f7a8bd88b4d3b85147409f1770f78175142cfcd9f77bdd6c03d40",
+    "work/phase10_crypto/manifest.json": "c1a7bf343ec2d26bcf421e85f87ea899af7f7dbc41e9e4023442b839b21cedc7",
+    "work/phase10_crypto/LEEME.txt": "1e41c40e609e12ef4c5abfb14656b580858257643ba36d6b246f22ffd830b919",
+    "work/phase10_crypto/summary.json": "af1adb4495992f5fc911d8099a53a0eb7730b704437224bd14932327f1d47a50",
+    "work/phase10_crypto/verification.json": "fc6bdd0c8f446bde6b549c15a694be87b894a3e4d81c85b2d42e4b86910f38f6",
+    "work/phase10_root_verification.json": "e6c21f1d100b44db615b19b81d8d13a3b6de25db1d3bd7e1ebce06a144c0add6",
+    "work/verify_blume_phase10.py": "fdf434f49058c2e0589fc3cfc4cd0888984cfad55bee589a09455f02e158f0ee",
+    "work/phase10_final_artifact_verification.json": "7bdb74cb928631c453bb0800c665986d810108ac50e9396d003d1b0c4f9647d3",
+    "work/history/phase10-blume-diplomatico/resource-hashes.json": "13142c9604fb021ad79b522ad9f4a87706aed6b63a01d6b04887ab541b074e97",
+    "work/history/phase10-blume-diplomatico/ledger.json": "a30547739bca287fea175854f2c944dde0b551bc7630b5d3e3334eb282a85797",
+    "work/history/phase10-blume-diplomatico/resultado.txt": "4df7254646acc2332f220a96083fce2e0e14a5b22564dadbfde7a2c6ff505697",
+    "work/history/phase10-uek-dodis/resource-hashes.json": "134f84e1e08e76ae919684ac52c7befca0641a3bbaf4242cfb10c1377738bc51",
+    "work/history/phase10-uek-dodis/ledger.json": "d2e48515b9ad8a7902253239afb70c64f441d8fc3f475325d8c01123640d55a5",
+    "work/history/phase10-uek-dodis/resultado.txt": "7079a3368abe00d6dd5e559cc27a164e2c7b7d76be8025dd55a2e6d1c68dfb08",
+    "outputs/Sentinel_BLUME_estado_correos_fase10_2026-10-02.json": "a3c7a638e66991bdfe47a8f4486ccd040471997c30e27ecf86de4938c5e1f68c",
+    "outputs/Sentinel_BLUME_PTT_2026-10-02/GMAIL_ENVIADO_POR_JAVIER.json": "bf5da0080d0cc07215c2c918d7a8f590629b804272f292bd6321e94f6d6c7579"
+  },
+  "external_actions": {
+    "assistant_email_sends": 0,
+    "new_Gmail_drafts_this_phase": 0,
+    "orders": 0,
+    "payments": 0,
+    "accounts_created": 0,
+    "scheduled_monitoring": false
+  },
+  "next_steps_status": "Documentary reading and budget-sharing pilot are proposed next work; not executed or scheduled by this report.",
+  "historical_status": "No verified plaintext, key or recipient identity."
+}

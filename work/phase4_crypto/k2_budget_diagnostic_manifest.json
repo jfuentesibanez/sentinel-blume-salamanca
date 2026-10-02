@@ -1,0 +1,54 @@
+{
+  "scope": "K2-only one already observed failed synthetic pair; exploratory, not recovery rate or historical attempt",
+  "plant_seed": 20261201,
+  "corpus": "proxy",
+  "widths": [
+    20,
+    25
+  ],
+  "lengths": [
+    615,
+    160
+  ],
+  "messages_scored": 2,
+  "round": 0,
+  "budgets_seconds": [
+    5,
+    15
+  ],
+  "max_evaluations": 300000,
+  "runs": [
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/diagnose_k2",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261201",
+        "2",
+        "5",
+        "0"
+      ],
+      "wall_seconds": 5.7237629890441895,
+      "seconds_limit": 5
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/diagnose_k2",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261201",
+        "2",
+        "15",
+        "0"
+      ],
+      "wall_seconds": 9.222240924835205,
+      "seconds_limit": 15
+    }
+  ],
+  "source_sha256": "9f3f7f31f948b2fc856cf80326ef92716cdd22e715820eef31a944774222599e",
+  "executable_sha256": "67e373ccd0061d2c0bd00bd76ef2c02cdffa57ed4d387abe9809527fc981d6be"
+}

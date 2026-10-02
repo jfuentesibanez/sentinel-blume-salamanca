@@ -1,0 +1,17 @@
+{
+  "phase": 10,
+  "algorithm": "SHA256",
+  "files": {
+    "work/history/phase10-uek-dodis/browser-26153-barch-1945.json": "aa9e2496178c03063f9d17c8575ce14afec5d16f5342a1489bc541827ecb1f65",
+    "work/history/phase10-uek-dodis/browser-27246-sbc-1937-1940.json": "88f45fb0b66ee66c88b11e4d4570862275e4828d00637d88059242fbd48776f7",
+    "work/history/phase10-uek-dodis/browser-27339-ubs-1940-1942.json": "460b8aea0b6a4e879e8e395b1815820a60cd2e0414077e26a716dd898c64b881",
+    "work/history/phase10-uek-dodis/browser-ems-organizacion.json": "1ce81c0c61bbdec7e6e597882c451ca04cda684cb1737889b4aaad6b3600b07e",
+    "work/history/phase10-uek-dodis/browser-hovag-primeros20.json": "f4c04a25fe8026175bf4a1f6e59aa9af92eab274b410ce349a2214302b744e0e",
+    "work/history/phase10-uek-dodis/browser-viktor-persona.json": "bf6646f189eb1981d011edc97d323de1d561c53de98203c59c1a38dc5585e9a7",
+    "work/history/phase10-uek-dodis/ledger.json": "d2e48515b9ad8a7902253239afb70c64f441d8fc3f475325d8c01123640d55a5",
+    "work/history/phase10-uek-dodis/resultado.txt": "7079a3368abe00d6dd5e559cc27a164e2c7b7d76be8025dd55a2e6d1c68dfb08",
+    "work/history/phase10-uek-dodis/web-primeras-tres-consultas.json": "6694a294cc2a7255e6960f063f78b17bd3616118715cff90ae9fad2a1318fecc",
+    "work/history/phase10-uek-dodis/web-uek-archivos.txt": "b8497f41e55dd6d098ed58016e68fe937d8eac3d6205f2c51b91707befba5854",
+    "work/history/phase10-uek-dodis/web-uek-migracion.txt": "b01f09a07d380426340d043f9a8a105db90a4f3b29263c0ae7a2cf9246a2fae8"
+  }
+}

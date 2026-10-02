@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "scope": "Only accounting, permutation validity, preservation and this conditioned diagnostic; not historical plaintext validation",
+  "kick_and_gate_tests": {
+    "check": "disjoint_kicks_and_evaluation_gates",
+    "kick_cases": 6900,
+    "budget_cases": 7,
+    "passed": true
+  },
+  "diagnostic_checks": [
+    {
+      "policy": "source",
+      "counter_equals_event_sum": true,
+      "evaluation_cap_observed": true,
+      "time_cap_observed": true,
+      "best_score_monotonic": true,
+      "best_key_unchanged": true
+    },
+    {
+      "policy": "restart",
+      "counter_equals_event_sum": true,
+      "evaluation_cap_observed": true,
+      "time_cap_observed": true,
+      "best_score_monotonic": true,
+      "best_key_unchanged": true
+    },
+    {
+      "policy": "kick",
+      "counter_equals_event_sum": true,
+      "evaluation_cap_observed": true,
+      "time_cap_observed": true,
+      "best_score_monotonic": true,
+      "best_key_unchanged": true
+    },
+    {
+      "policy": "walk",
+      "counter_equals_event_sum": true,
+      "evaluation_cap_observed": true,
+      "time_cap_observed": true,
+      "best_score_monotonic": true,
+      "best_key_unchanged": true
+    }
+  ],
+  "all_diagnostic_manifest_file_hashes_match": true,
+  "phase4_manifest_files_unchanged": [
+    "work/phase4_crypto/phase4.cpp",
+    "work/phase4_crypto/source_moves.h",
+    "work/phase4_crypto/phase4",
+    "work/phase3_crypto/phase3.cpp",
+    "work/phase3_crypto/ict_search.h",
+    "work/crypto/double_search.cpp",
+    "work/crypto/model_es.bin",
+    "work/crypto/holdout_es.txt",
+    "work/crypto/holdout_proxy.txt"
+  ],
+  "no_fresh_calibration": true,
+  "no_historical_blume_run": true
+}

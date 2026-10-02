@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-02",
+  "phase": "10-blume-diplomatico",
+  "objective": "Identificar BLUME SALAMANCA en una fuente primaria de 1936–1938",
+  "cap": 12,
+  "new_queries_used": 11,
+  "result": "Sin identificación probada. Nueva vía pública PAAA y edición documental ADAP verificadas; homónimos y coocurrencias registrados como falsos positivos.",
+  "previous_preservation": "804 archivos anteriores en protected-baseline.json; verificación SHA256 al cierre.",
+  "audit": {
+    "scope": "Lectura local delegada, sin web ni ediciones",
+    "file": "nota-auditoria-local.txt",
+    "avoid_repeats": "Google Books de Nylon und Napalm, BAR suizo, Correos, fase9 Oswald, intento de descifrado2020"
+  },
+  "queries": [
+    {
+      "n": 1,
+      "type": "web",
+      "q": "Politisches Archiv Auswärtiges Amt Recherche Personen Invenio",
+      "domains": [
+        "auswaertiges-amt.de",
+        "politisches-archiv.diplo.de"
+      ],
+      "file": "web-01.json",
+      "result": "Portal oficial y guía de investigación; no candidato"
+    },
+    {
+      "n": 2,
+      "type": "web",
+      "q": "\"Blume\" \"Salamanca\"",
+      "domains": [
+        "bundesarchiv.de",
+        "deutsche-digitale-bibliothek.de",
+        "politisches-archiv.diplo.de"
+      ],
+      "file": "web-01.json",
+      "result": "No referencia primaria identificadora en la respuesta conjunta del lote"
+    },
+    {
+      "n": 3,
+      "type": "web",
+      "q": "\"Blume\" \"Salamanca\" \"Auswärtiges Amt\"",
+      "file": "web-01.json",
+      "result": "No referencia primaria identificadora en la respuesta conjunta del lote"
+    },
+    {
+      "n": 4,
+      "type": "PAAA Invenio búsqueda simple",
+      "q": "Blume",
+      "laufzeit_from": "1936",
+      "laufzeit_to": "1938",
+      "digital_only": false,
+      "file": "browser-02-blume-1936-1938.json",
+      "result": "20 coincidencias:12central,5misiones,2personal,1colección. No se leyeron los20expedientes.",
+      "read_detail": "P3/370 Ilse Blume, empleo1943–1945; P3/371 Lucie Blume, empleo1942–1943. Sólo metadatos; no vínculo con Salamanca. La fecha introducida en Laufzeit no equivale a fecha de empleo ni excluye registros sin Laufzeit."
+    },
+    {
+      "n": 5,
+      "type": "BSB/MDZ búsqueda OCR dentro del volumen ADAP D3",
+      "q": "Blume",
+      "digital_id": "bsb00045915",
+      "file": "browser-03-adap-blume-negativo.json",
+      "result": "Keine Treffer. No revisión completa ni cotejo visual del índice de personas; negativo acotado al OCR"
+    },
+    {
+      "n": 6,
+      "type": "web",
+      "q": "Bundesarchiv invenio Recherche ohne Anmeldung Suchfunktion",
+      "domains": [
+        "bundesarchiv.de"
+      ],
+      "file": "web-06-bundesarchiv.json",
+      "result": "Guías públicas y aviso15septiembre2026 de restricción temporal sin registro"
+    },
+    {
+      "n": 7,
+      "type": "BSB/MDZ búsqueda OCR dentro del volumen ADAP D3",
+      "q": "Salamanca",
+      "digital_id": "bsb00045915",
+      "file": "browser-07-adap-salamanca-control.json",
+      "result": "Control:50coincidencias iniciales y336más segúnUI. El buscador responde; no garantiza exhaustividad delOCR"
+    },
+    {
+      "n": 8,
+      "type": "web",
+      "q": "\"Blume\" \"Spanien\" \"1937\"",
+      "domains": [
+        "archiv.diplo.de",
+        "bundesarchiv.de",
+        "deutsche-digitale-bibliothek.de"
+      ],
+      "file": "web-09-blume-spanien.json",
+      "result": "Una exposición de Marburgo con coocurrencias irrelevantes; no fuente identificadora"
+    },
+    {
+      "n": 9,
+      "type": "PAAA Invenio búsqueda simple",
+      "q": "Blume Salamanca",
+      "laufzeit_from": "1936",
+      "laufzeit_to": "1938",
+      "file": "browser-08-blume-salamanca.json",
+      "result": "0; avisoUI:La búsqueda no arrojó resultados. No equivale a ausencia en todas las actas"
+    },
+    {
+      "n": 10,
+      "type": "PAAA Invenio búsqueda simple",
+      "q": "Blume Spanien",
+      "laufzeit_from": "1936",
+      "laufzeit_to": "1938",
+      "file": "browser-09-blume-spanien.json",
+      "result": "1:ficha colectiva PA AA RZ214/100004,1937. BernhardBlume aparece con residencia MillsCollege/EE.UU.; España corresponde a otra entrada,HarroSimon/Melilla. Sin vínculo con el destinatario"
+    },
+    {
+      "n": 11,
+      "type": "PAAA Invenio búsqueda simple",
+      "q": "Salamanca",
+      "laufzeit_from": "1936",
+      "laufzeit_to": "1938",
+      "file": "browser-11-salamanca-1936-1938.json",
+      "result": "13:11central,1misión,1Nachlass. Sólo se abrió el fondo de misión y su ficha:PA AA RAV163/433. Salamanca es la plaza madrileña en una entrada de1942. No se revisaron los13expedientes"
+    }
+  ],
+  "reads": [
+    {
+      "source": "Guía oficial PAAA de Invenio",
+      "url": "https://archiv.diplo.de/arc-de/im-archiv-forschen/bestellen-und-zitieren-mit-invenio",
+      "file": "web-02-guias-paaa.json",
+      "scope": "Guía consultada. Búsquedas simple/nombre/avanzada; OCR en fondos digitalizados; algunos fondos no completamente descritos. PAAA y Bundesarchiv son bases distintas; no búsqueda cruzada."
+    },
+    {
+      "source": "Orientación Reich PAAA",
+      "url": "https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-orientierung-1433562",
+      "file": "web-03-portal-bestande.json",
+      "scope": "Guía de procedencia y distribución de documentación; no documento contemporáneo que identifiqueBlume"
+    },
+    {
+      "source": "ADAP D3 España1936–1939",
+      "signature": "BSB4 Z 50.281,D-3",
+      "year_of_edition": 1951,
+      "url": "https://digitale-sammlungen.de/de/view/bsb00045915",
+      "permalink": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00045915-4",
+      "file": "browser-12-adap-ficha-verificada.json",
+      "scope": "Ficha bibliográfica y búsquedasOCR. No volumen completo leído; no índice visual de personas cotejado; selección editorial de documentos históricos."
+    },
+    {
+      "source": "PA AA RZ214/100004",
+      "date": "1937",
+      "title_UI_es": "Desnaturalización",
+      "url": "https://politisches-archiv.diplo.de/invenio/direktlink/dbba4fd4-3bda-4ddf-9fd4-54bea4c8ce79/",
+      "file": "browser-09-blume-spanien.json",
+      "scope": "Metadatos y contiene leídos; páginas del expediente no abiertas. Imagen digitalizada anunciada enUI, no leída.",
+      "assessment": "Falso positivo de coocurrencia entre diferentes personas. BernhardBlume no se propone como destinatario."
+    },
+    {
+      "source": "PA AA RAV163 Embajada de Madrid",
+      "date": "1851–1945",
+      "url": "https://politisches-archiv.diplo.de/invenio/direktlink/95bcbe36-f6cd-461e-9b0a-3e62faa2c3d0/",
+      "file": "browser-13-rav163-madrid.json",
+      "scope": "Ficha padre y árbol leídos. Árbol advierte nueva catalogación y que no todos los archivos están enInvenio."
+    },
+    {
+      "source": "PA AA RAV163/433",
+      "title_UI_es": "Alquiler de terrenos,Madrid",
+      "date_UI_literal": "1938 - 19345",
+      "url": "https://politisches-archiv.diplo.de/invenio/direktlink/e9e488d1-00a8-48e1-8e70-be53d9fd3172/",
+      "file": "browser-14-rav163-salamanca-clasificacion.json",
+      "scope": "Metadatos y contiene leídos, ningún folio. ElUI muestra fecha irregular; entradas contiene abarcan1938–1945. Salamanca es Plaza deSalamanca4,Madrid,en1942.",
+      "assessment": "Topónimo homónimo; no ciudad destinataria del telegrama ni prueba deBlume."
+    },
+    {
+      "source": "Bundesarchiv aviso15sept2026",
+      "url": "https://www.bundesarchiv.de/nachricht/einschraenkungen-bei-online-anwendungen-des-bundesarchivs/",
+      "file": "web-06-bundesarchiv.json",
+      "scope": "Aviso oficial:acceso sin registro restringido temporalmente. ConfirmaciónUI enbrowser-05-bundesarchiv-acceso.json. No se ejecutó búsqueda en su base ni se creócuenta."
+    }
+  ],
+  "constraints": [
+    "Sin contactos/envíos/Gmail",
+    "Sin registro de cuenta",
+    "Sin pedidos/copias/pagos",
+    "Sin publicación",
+    "Sólo archivos de esta fase creados",
+    "No atribuirBlume por coincidencia deapellido",
+    "Sin nuevas consultas después delcierre"
+  ],
+  "limits": [
+    "GoogleTranslate enChrome tradujo parte de la interfaz; nombres propios y signaturas se guardan, algunas fechas parecen deformadas y no se normalizan como hechos.",
+    "Se leyeron fichas de catálogo y listasOCR, no expedientes originales alemanes ni un directorio contemporáneo.",
+    "Los20 y13 resultados no son todos documentos deenero1937 ni todos referentes aSalamanca ciudad; no se leyeron completos.",
+    "ConsultaBlumeSalamanca cero sólo alcanza metadatos públicos de la consulta, no todo el archivo ni contenido de folios.",
+    "RAV163 está en nueva catalogación, por lo que su ausencia deBlume no es concluyente."
+  ],
+  "concrete_public_next_step": "Leer y cotejar visualmente los índices de personas y los documentos de diciembre1936–enero1937 deADAP D3, usando el visor/permalink verificadas. Es una vía de contexto/correspondencia, no una identidad ni una clave encontrada. No se amplía esta ronda.",
+  "screenshots": [
+    "captura-rav163-433-plaza-salamanca.jpg",
+    "captura-bundesarchiv-login.jpg"
+  ],
+  "tabs_cleanup": "Cerrar únicamente ptt10Paaa,ptt10Adap,ptt10SpainBook,ptt10Bundes."
+}

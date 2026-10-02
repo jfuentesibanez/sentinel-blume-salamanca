@@ -1,0 +1,116 @@
+COTEJO DEL INTERROGATORIO DE WERNER OSWALD — 28 DE ABRIL DE 1937
+Nota nueva, 2 de octubre de 2026. Sólo consulta de materiales locales preservados.
+
+Resultado
+
+Werner propone una explicación comercial: una operación de lana permitiría recuperar créditos suizos de exportación congelados en España; el cifrado habría evitado que Hisma conociera sus planes antes de discutirlos con las autoridades de Burgos. Sin embargo, declara expresamente que desconoce el contenido y no posee la clave. El acta documenta su explicación y sus reservas. No demuestra qué dicen los telegramas.
+
+Fuente y alcance del cotejo
+
+Archivo Federal Suizo (BAR), E4320B#1974/47#277*, Subdossier_0000066, Dokument_0000069. Encabezamiento: Schweizerische Bundesanwaltschaft, Polizeidienst; Abhörungsprotokoll / Procès-verbal d’audition; No. C.8,1. Lugar y fecha: Zürich, 28. April 1937, 14.25 Uhr. Compareciente: Oswald Werner Leodegar, Dr. Ingenieur, Teilhaber der Firma Patvag, Bahnhofstr. 12, Zürich.
+
+Se han cotejado visualmente las imágenes locales 501, 503 y 505, que corresponden a las tres páginas de texto (primera página; Blatt No. 2; Blatt No. 3). En el manifiesto son los canvas 1, 3 y 5. Las imágenes intercaladas 502, 504 y 506 no se han vuelto a leer en esta fase. Los números 12335 / 12336 del pie son marcas del documento; no sustituyen a los identificadores de imagen ni a Blatt No. 2 / 3.
+
+El OCR local se usó como ayuda, pero se cotejaron las citas contra las imágenes. Se han normalizado espacios después de signos de puntuación y se han unido palabras partidas al final de línea. No se ha modernizado la ortografía. El OCR lee incorrectamente «Hsma»; la imagen 503 muestra «Hisma».
+
+Un segundo agente cotejó visualmente la imagen 503 de forma independiente. Confirmó los pasajes sobre «dürfte», «Hisma», desconocimiento del contenido y falta de la clave, así como que la pregunta sobre Hunziker no identifica ese proyecto con los telegramas.
+
+Pasajes pertinentes y traducción
+
+1. Actividad en lana declarada por Werner. Imagen 501, primera respuesta.
+
+El acta recoge que en 1932 fundó con su hermano Viktor M. Oswald una sociedad comercial en Madrid. Dice que últimamente ésta se dedicaba principalmente a exportaciones de lana y a operaciones de compensación. Añade que se cerró la oficina de Madrid tras el inicio de la guerra y que Viktor estaba en San Sebastián para continuar el negocio de lana. Esto sigue siendo testimonio de Werner, no un contrato o una contabilidad cotejados.
+
+2. Atribución del envío. Imágenes 501–503, respuesta a la pregunta específica por los dos telegramas cifrados del 8 de enero de 1937, Zürich–Salamanca.
+
+Alemán:
+«Fragliche Telegramme wurden von meinem Bruder anlässlich seines Aufenthaltes in der Schweiz aufgegeben, dieselben tragen seine persönliche Unterschrift.»
+
+Traducción:
+«Los telegramas en cuestión fueron presentados por mi hermano durante su estancia en Suiza; llevan su firma personal.»
+
+Límite: el acta prueba que Werner atribuyó el envío a su hermano. Esta frase por sí sola no constituye una comprobación independiente de autoría o de la firma.
+
+3. Operación de lana y créditos congelados. Imagen 503, parte superior.
+
+Alemán:
+«Als greifbares Geschäft wurde insbesondere die Möglichkeit eines Wollgeschäftes aus dem nationalen Spanien nach der Schweiz geprüft, mit dem Ziele schweizerische Exportguthaben die dort eingefroren sind in die Schweiz herein zu bekommen.»
+
+Traducción:
+«Como operación concreta se estudió, en particular, la posibilidad de un negocio de lana desde la España del bando sublevado hacia Suiza, con el objetivo de recuperar en Suiza créditos de exportación suizos que estaban congelados allí.»
+
+Límite: «geprüft» describe que se estudió la posibilidad. No afirma que esa operación ya se hubiera firmado, pagado o ejecutado. «Exportguthaben» se traduce aquí como créditos o saldos a favor por exportaciones; no es una prueba de préstamo bancario.
+
+4. Conjetura sobre los mensajes y mención explícita de Hisma. Imagen 503, parte superior y central.
+
+Alemán:
+«Da es uns bekannt ist, dass Deutschland alle verfügbaren spanischen Exportgüter mit allen Mitteln zu erfassen trachtet, dürfte es sich bei diesen chiffrierten Telegrammen um Rücksprachen mit seinen spanischen Wolleinkäufern handeln. Er wollte damit vermeiden, dass die sehr gut ausgebaute Handelsorganisation in Spanien, die "Hisma" mit Sitz in Sevilla unterrichtet wird, bevor unsere Absicht mit den spanischen Behörden in Burgos selbst besprochen war.»
+
+Traducción:
+«Como sabemos que Alemania trata de hacerse, por todos los medios, con todos los productos españoles disponibles para exportación, probablemente estos telegramas cifrados fueran consultas con sus compradores de lana en España. Con ello quería evitar que la organización comercial en España, muy desarrollada, “Hisma”, con sede en Sevilla, estuviera informada antes de que nuestra intención se hubiera discutido con las propias autoridades españolas en Burgos.»
+
+Límites: «dürfte es sich ... handeln» expresa una suposición. La intención atribuida al hermano forma parte de la explicación de Werner. La frase sí demuestra que Werner mencionó Hisma en este interrogatorio; no verifica por separado su sede, las prácticas alemanas ni el contenido de los mensajes. «Sevilla» y «Burgos» no son nuevas identificaciones de «Blume».
+
+5. Negación de participación y conjetura sobre la dirección. Imagen 503, parte central.
+
+Alemán:
+«Die Telegramme wurden nicht von mir ausgestellt und auch nicht von mir abgeschickt. Als Absender hat er wohl meine Bureauadresse auf die Telegramme geschrieben, da er hier kein Domizil hat und hier in Zürich sich nur auf der Durchreise befand.»
+
+Traducción:
+«Yo no redacté los telegramas ni los envié. Como dirección del remitente, probablemente escribió la de mi oficina, ya que no tiene domicilio aquí y sólo estaba de paso en Zúrich.»
+
+Límite: «wohl» introduce una conjetura sobre el uso de su dirección. Werner niega haber redactado o enviado esos dos telegramas; no ofrece en este pasaje una comprobación independiente de quién los entregó.
+
+6. Reserva esencial: contenido y clave desconocidos. Imagen 503, inmediatamente antes de la pregunta por Hunziker.
+
+Alemán:
+«Den Inhalt kenne ich nicht, ich vermute dagegen, dass es sich um oben angeführte Rücksprache handelt. Den Schlüssel besitze ich ebenfalls nicht, da ich selbst mit meinem Bruder nicht chiffriert verkehre.»
+
+Traducción:
+«No conozco el contenido; supongo, sin embargo, que se trata de la consulta mencionada antes. Tampoco poseo la clave, ya que yo mismo no me comunico con mi hermano mediante cifrado.»
+
+Límites: «ich vermute» confirma que su explicación es una suposición. No poseer la clave no significa que ésta no existiera, que estuviera destruida o que fuera irrecuperable. La frase sobre su comunicación con su hermano no demuestra que nunca usara cifrado para otros fines.
+
+7. Hunziker y bombas: pregunta distinta en el mismo interrogatorio.
+
+Después de esa reserva empieza otra pregunta sobre las negociaciones con la firma Hunziker, Zürich/Brugg, y tubos de hormigón armado centrifugado que se pretendían emplear como bombas aéreas para el ejército de Franco. La respuesta continúa en la imagen 505. Es un asunto investigado en el mismo acta; el texto no identifica los telegramas cifrados como mensajes sobre ese proyecto. No se ha deducido su contenido a partir de la proximidad de ambas preguntas.
+
+La imagen 505 termina con «Persönlich abgelesen und bestätigt:» y firmas. Esto documenta que el acta se presenta como leída y confirmada personalmente; no es una pericia de autenticidad de las firmas.
+
+Contraste histórico de la respuesta de Claude
+
+Se leyó work/phase13_claude/claude_respuesta1_ax.txt, captura del texto de su primera respuesta. Claude declara una sola consulta pública y que no abrió las imágenes BAR o MDZ. Sus sugerencias de fondos y sus hipótesis no son nuevos documentos localizados por esta nota.
+
+— Es correcto conservar la reserva sobre la lana: Werner supone el contenido y declara no conocerlo. No corresponde presentar su explicación como un descifrado ni como una mentira demostrada. La posible conveniencia de esa explicación para él es un criterio crítico, no una comprobación de falsedad.
+
+— La cercanía entre el documento ADAP 187 (7 de enero) y los telegramas (8 de enero) no prueba una relación. Pero el acta del 28 de abril contiene una mención directa de Hisma por Werner al explicar los telegramas. Conviene conservar ambos hechos: una mención testimonial comprobada y la ausencia de una relación independiente demostrada entre Oswald, Blume, Bernhardt y un negocio concreto.
+
+— Un expediente fiscal que investigue material de guerra no refuta, por sí solo, la posibilidad de que estos dos telegramas trataran de lana. Este mismo interrogatorio trata los telegramas y el proyecto Hunziker en preguntas distintas. Una sospecha investigada, una operación de armas y una operación de lana podrían coexistir.
+
+— Identificar al destinatario como organismo militar o político tampoco refutaría por sí solo la lana: su función no determina el contenido de un mensaje comercial. Haría falta un documento que vincule los mensajes concretos a otra operación, o un descifrado comprobado.
+
+— Un objeto social textil o la prueba de que Viktor comerciaba con lana apoyarían el contexto comercial. No demostrarían el contenido de estos mensajes. Una licencia, contrato o carta con fecha, partes y referencias coincidentes ofrecería un contraste más concreto. La falta de actividad lanera sólo podría afirmarse con evidencia suficiente y alcance definido; no se deduce de un catálogo o una búsqueda negativa parcial.
+
+— «BLUME» sigue sin identificar. Puede ser apellido, empresa, dirección telegráfica o alias. La propuesta de revisar registros de direcciones telegráficas merece conservarse como ruta sugerida. En esta nota no se ha verificado un registro concreto de Salamanca de 1937 ni su custodia en AGA/CDMH.
+
+Referencias directas y preservación
+
+Manifiesto BAR ya preservado; URL copiada del propio manifiesto local, sin nueva consulta externa:
+https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/Subdossier_0000066/Dokument_0000069/_kEy9uWu1p9MZwH671Unxj3.json
+
+Imagen 501 — primera página / canvas 1:
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000501.jpg/full/full/0/default.jpg
+Local: /Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-images/Dokument_0000069-00000501.jpg
+SHA256: 230d20c9e02e529b4585972473be7f2986ac97b591e0565783d940ab00157df1
+
+Imagen 503 — Blatt No. 2 / canvas 3:
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000503.jpg/full/full/0/default.jpg
+Local: /Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-images/Dokument_0000069-00000503.jpg
+SHA256: e5c5235cdc4b0299fcf85a42b8802a7b366d30f3ca19c2e0a66d0f56d85742ad
+
+Imagen 505 — Blatt No. 3 / canvas 5:
+https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000069%2F00000505.jpg/full/full/0/default.jpg
+Local: /Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/history/bar-blume277-images/Dokument_0000069-00000505.jpg
+SHA256: 15fc202f34406ebab8dfb40b91794352593b4af6f82a380515291e51f73c7e41
+
+Los tres hashes coinciden con work/history/bar-blume277-images-source-ledger.json. Las evidencias anteriores sólo se han leído. Se ha creado únicamente esta nota; no se han hecho búsquedas externas, contactos, pedidos, pagos ni operaciones en Claude.

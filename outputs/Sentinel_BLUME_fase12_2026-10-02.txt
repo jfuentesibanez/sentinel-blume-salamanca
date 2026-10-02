@@ -1,0 +1,20 @@
+SENTINEL — Fase12. Contraste con Claude y revisión de los siguientes pasos
+2 de octubre de 2026
+
+La app Claude está abierta en Opus 5.5 Medium. Se localizó la conversación existente «Mensaje BLUME Salamanca» y se preparó una consulta con fuentes públicas y resultados agregados. La revisión automática rechazó el envío; la consulta sigue como borrador y se ha solicitado autorización específica. No hay respuesta nueva de Claude y no se ha realizado un contraste externo todavía.
+
+El texto contiene las referencias de los telegramas de 1937, enlaces a las imágenes documentales y cifras agregadas de los controles sintéticos. No contiene cuerpos completos de los telegramas, mensajes de correo, contraseñas ni datos de contacto del usuario. El nombre consulta_enviada.txt se guardó antes del intento; es un borrador. La copia consulta_preparada.txt conserva el mismo texto.
+
+Trabajo independiente completado mientras se resuelve la autorización:
+
+Historia. La guía oficial del archivo diplomático alemán explica que la documentación anterior a 1945 está repartida entre el Politisches Archiv y el Bundesarchiv. Su tabla general sitúa política comercial de 1936–1945 en el Bundesarchiv. Esto obliga a comprobar ambas vías para los documentos comerciales de nuestra edición ADAP. No demuestra el custodio ni la signatura de un documento individual.
+Fuente cotejada directamente: https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-orientierung-1433562
+
+La conversión de una referencia de película/fotograma a un expediente actual requiere un instrumento de correspondencias. No basta con convertir 643/254221–222 en una búsqueda RZ*. Las equivalencias de los documentos 180, 187 y 206 continúan pendientes.
+
+Criptografía. Se preparó un siguiente piloto, sin ejecutarlo: cuatro políticas 20×25 combinan tope local 5.000/33.298 e incorporación desactivada/activada de nuevas candidatas. Todas pagan una preparación idéntica de 7.000 evaluaciones al llegar a 50.000 llamadas; cambia sólo si esas candidatas pasan a ser padres. El tope largo permite terminar barridos, aunque no garantiza convergencia. La propuesta debe revisarse y sellarse antes de usarla.
+
+La propuesta mantiene 100.000 llamadas por ronda y plantea cuatro casos frescos, dos rondas y cuatro políticas: 32 búsquedas futuras. Permite estudiar el tope y la incorporación de padres por separado. No busca K1 ni ataca BLUME. Ningún experimento se ha ejecutado en esta fase.
+
+Para Claude quedan tres cuestiones concretas: auditar los saltos de la historia; señalar documentos que conecten realmente Oswald/Blume con Hisma; y criticar el diseño de controles largos. El consenso entre modelos no verificará una identidad, clave o texto original.
+

@@ -1,0 +1,30 @@
+{
+  "phase": 11,
+  "passed": true,
+  "new_resource_counts_excluding_manifests": {
+    "work/phase11_crypto/RESOURCE_HASHES.json": 35,
+    "work/history/phase11-adap-documentos/resource-hashes.json": 43,
+    "work/history/phase11-adap-buscador/resource-hashes.json": 5,
+    "work/history/phase11-oswald-madrid/resource-hashes.json": 3,
+    "work/source/phase11-public-state/resource-hashes.json": 5
+  },
+  "previous_historical_files_preserved": 849,
+  "previous_crypto_files_preserved": 282,
+  "previous_phase10_evidence_files_preserved": 16,
+  "previous_phase10_report_and_provenance_preserved": true,
+  "canonical_ciphertexts_preserved": 2,
+  "root_crypto_check_passed": true,
+  "independent_crypto_check_passed": true,
+  "history_visual_documents": 10,
+  "history_visual_scans": 35,
+  "additional_primary_pieces": 4,
+  "root_visual_cotejo": [
+    180,
+    187,
+    213
+  ],
+  "report_sha256": "b46e1d9307980e1d529124acc8e653f21a39e970d8bb72e091c48e7e4781b0a9",
+  "contacts": 0,
+  "new_searches_after_sealed32": 0,
+  "limits": "No verified BLUME plaintext, key or recipient identity. Provenance verifies saved evidence, not historical hypotheses."
+}

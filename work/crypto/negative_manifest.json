@@ -1,0 +1,8 @@
+{
+  "seed": 20261004,
+  "method": "independently shuffle two disjoint heldout Spanish spans with lengths615and160; letters retained, no shared planted key",
+  "sha256": [
+    "80723e1dd427bf6b4ca407a4be595d288c9d568fe2a855322bcbcff9e7a25d8a",
+    "4b8bc852a39d3e69fd001f84307556fa272bf2f4a0703c3e1709c0f0528f758b"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": 548,
+  "date": "2022-11-04T16:30:36",
+  "date_gmt": "2022-11-04T16:30:36",
+  "guid": {
+    "rendered": "http://entretiens-talks.ch/?p=548"
+  },
+  "modified": "2022-12-09T12:17:55",
+  "modified_gmt": "2022-12-09T12:17:55",
+  "slug": "napalm",
+  "status": "publish",
+  "type": "post",
+  "link": "https://entretiens-talks.ch/2022/11/04/napalm/",
+  "title": {
+    "rendered": "Nylon und Napalm &#8211; ein düsteres Kapitel Schweizer Geschichte"
+  },
+  "content": {
+    "rendered": "\n<p>Nyolon und Napalm &#8211; so heisst der TItel eines Buches, das sich mit der Vorgeschichte der Ems-Chemie befasst. Ein Gespräch mit der Autorin.</p>\n\n\n\n<p>Mit viel Bundesgelder wurde im Zweiten Weltkrieg im bündnerischen Ems Holz zu Treibstoff verarbeitet. </p>\n\n\n\n<p>Nach dem Krieg suchte der Firmenleiter Werner Oswald nach neuen Geschäftsfeldern und fand sie in der Produktion von Kunstfasern. Das ist Teil der offiziellen Firmengeschichte. Nicht bekannt war hingegen, dass Oswald unter dem Namen Opalm eine Schweizer Variante von Napalm verkaufte, dass er Raketen mit Flüssigtreibstoff entwickelte und ebenso Zünder verkaufte. Bei der Waffenproduktion stützte er sich auf Nazi-Experten, die bereitwillig für den Schweizer arbeiteten. Einer davon war der Chemiker Heinrich Bütefisch, der nach dem Krieg zu sechs Jahren Gefängnis wegen Versklavung von&nbsp;Zwangsarbeitern verurteilt wurde.</p>\n\n\n\n<p>Die ganze Geschichte hat die Zürcher Historikerin <a href=\"http://regulabochsler.ch/\" target=\"_blank\" rel=\"noreferrer noopener\">Regula Bochsle</a>r in den letzten vier Jahren recherchiert. &#8220;<a href=\"https://www.hierundjetzt.ch/de/catalogue/nylon-und-napalm_2200022/\" target=\"_blank\" rel=\"noreferrer noopener\">Nylon und Napalm</a>&#8221; heisst ihr Buch, das im Oktober 2022 im Zürcher Verlag Hier und Jetzt erschienen ist. Dominik Landwehr hat die Historikerin am 3. November in Zürich getroffen. Länge 62 Minuten.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-soundcloud wp-block-embed-soundcloud wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Nylon und Napalm - die Historikerin Regula Bochsler untersucht die Vorgeschichte der Ems-Chemie by Gespräche - Interviews - Entretiens\" width=\"500\" height=\"400\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?visual=true&#038;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1375854871&#038;show_artwork=true&#038;maxheight=750&#038;maxwidth=500\"></iframe>\n</div></figure>\n\n\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>Nyolon und Napalm &#8211; so heisst der TItel eines Buches, das sich mit der Vorgeschichte&#8230;</p>\n<div class=\"more-link-wrapper\"><a class=\"more-link\" href=\"https://entretiens-talks.ch/2022/11/04/napalm/\">Read the post<span class=\"screen-reader-text\">Nylon und Napalm &#8211; ein düsteres Kapitel Schweizer Geschichte</span></a></div>\n",
+    "protected": false
+  },
+  "author": 3,
+  "featured_media": 564,
+  "comment_status": "open",
+  "ping_status": "open",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "footnotes": ""
+  },
+  "categories": [
+    3,
+    6,
+    5,
+    8
+  ],
+  "tags": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/posts/548"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/users/3"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/comments?post=548"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 6,
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/posts/548/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 561,
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/posts/548/revisions/561"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/media/564"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/media?parent=548"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/categories?post=548"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://entretiens-talks.ch/wp-json/wp/v2/tags?post=548"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

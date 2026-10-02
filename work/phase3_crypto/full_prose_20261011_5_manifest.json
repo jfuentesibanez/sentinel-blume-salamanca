@@ -1,0 +1,137 @@
+{
+  "scope": "synthetic only; exact 615+160; widths given; convention0",
+  "mode": "full",
+  "corpus": "prose",
+  "negative": false,
+  "commands": [
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "12",
+      "15",
+      "20261011",
+      "8",
+      "3.0",
+      "5"
+    ],
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "12",
+      "15",
+      "20261012",
+      "8",
+      "3.0",
+      "5"
+    ],
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "12",
+      "15",
+      "20261013",
+      "8",
+      "3.0",
+      "5"
+    ],
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "12",
+      "15",
+      "20261014",
+      "8",
+      "3.0",
+      "5"
+    ],
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "12",
+      "15",
+      "20261015",
+      "8",
+      "3.0",
+      "5"
+    ],
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "20",
+      "25",
+      "20261011",
+      "8",
+      "3.0",
+      "5"
+    ],
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "20",
+      "25",
+      "20261012",
+      "8",
+      "3.0",
+      "5"
+    ],
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "20",
+      "25",
+      "20261013",
+      "8",
+      "3.0",
+      "5"
+    ],
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "20",
+      "25",
+      "20261014",
+      "8",
+      "3.0",
+      "5"
+    ],
+    [
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase3_crypto/phase3",
+      "full",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+      "20",
+      "25",
+      "20261015",
+      "8",
+      "3.0",
+      "5"
+    ]
+  ],
+  "wall_seconds": 97.96709912503138,
+  "sha256": {
+    "work/phase3_crypto/ict_search.h": "4167f43147969f6d3b2d943fb85a5ad306073098b4344d501d8f05f9e0bb57af",
+    "work/phase3_crypto/phase3.cpp": "2ad5c90f568c4257dd4ca13dca6a61a0809284d5fe1c03cabc5e206fc9f6da3d",
+    "work/phase3_crypto/phase3": "e1b3d1b3c207158d28c64cf4cca0a25fcba45248418e1428d4ddd37f7e16dd40",
+    "work/crypto/holdout_es.txt": "b2d8d84a3d22d18918cd49dad122d8b385cf28ed1602f57ffd22b6d319254c1b",
+    "work/crypto/model_es.bin": "d52bbf2f4d8412834e30bcc48758f2e1f4935bca7a0763b7560a36883288ab32",
+    "work/phase3_crypto/full_prose_20261011_5.jsonl": "16e6974dd51135d0d20c8709a881fcdd20f4ee334d5c230512d783a79574d7de"
+  }
+}

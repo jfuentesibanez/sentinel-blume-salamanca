@@ -1,0 +1,21 @@
+{
+  "code": "fr_fold",
+  "source_url": "https://www.gutenberg.org/cache/epub/4650/pg4650.txt",
+  "catalogue_url": "https://www.gutenberg.org/ebooks/4650",
+  "title": "Candide, ou l’optimisme",
+  "author": "Voltaire",
+  "retrieved_date": "2026-10-01",
+  "source_sha256": "1cc10ab3268a76aa01bd3f9722ae2ae0e5e36b869a18b0bb0832b75bc0327806",
+  "body_start_unicode_offset": 7639,
+  "body_end_unicode_offset": 202351,
+  "opening_anchor": "Il y avait en Vestphalie,",
+  "training": "first80% of narrative by Unicode characters; excludes Gutenberg wrapper and preceding title/publisher/editor preface",
+  "controls": "remaining20% of narrative; training and holdout do not overlap",
+  "normalization": "lowercase; ß→ss, œ→oe, æ→ae; NFKD; retain a-z; no whitespace",
+  "train_letters": 122181,
+  "holdout_letters": 30356,
+  "model_format": "orders2,3,4; complete26^n little-endian float32 log10 probabilities; .01 pseudocount per entry",
+  "model_sha256": "0b16044142ef82e6c809172a4981a1eb838a96da6caf4e301fe810e66143c268",
+  "holdout_sha256": "75d3431c2c204effff5ad366c8f2584cff40f259715a6b8e5258290ef78ebed7",
+  "corpus_limit": "One literary work, not an authentic1937 commercial-telegram corpus; punctuation and numeric material dropped; editorial inline notes remain."
+}

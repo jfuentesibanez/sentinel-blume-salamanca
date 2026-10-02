@@ -1,0 +1,6 @@
+{"band": [12, 15], "seed": 20261011, "mode": "full", "corpus": "proxy", "negative": false, "elapsed": 1.72}
+{"band": [12, 15], "seed": 20261012, "mode": "full", "corpus": "proxy", "negative": false, "elapsed": 3.54}
+{"band": [12, 15], "seed": 20261013, "mode": "full", "corpus": "proxy", "negative": false, "elapsed": 5.23}
+{"band": [20, 25], "seed": 20261011, "mode": "full", "corpus": "proxy", "negative": false, "elapsed": 21.96}
+{"band": [20, 25], "seed": 20261012, "mode": "full", "corpus": "proxy", "negative": false, "elapsed": 39.9}
+{"band": [20, 25], "seed": 20261013, "mode": "full", "corpus": "proxy", "negative": false, "elapsed": 56.91}

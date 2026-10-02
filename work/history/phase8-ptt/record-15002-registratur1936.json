@@ -1,0 +1,13 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Playwright selector deadline exceeded"
+    },
+    {
+      "type": "text",
+      "text": "https://mfk.rechercheonline.ch/de/research/records;ptt;zac2-p-00-c/pttarchiv:15002?sqs_query=Registratur"
+    }
+  ],
+  "isError": true
+}

@@ -1,0 +1,47 @@
+{
+  "checked_date": "2026-10-01",
+  "user_timezone": "Europe/Madrid",
+  "scope": "Actividad pública verificable de investigación de BLUME; no censo de todos los intentos privados",
+  "current_public_activity": [
+    {
+      "name": "Daniel Bourdeau",
+      "role": "Autor del repositorio público dbourdeau/cyphersolver",
+      "name_source": "https://github.com/dbourdeau/cyphersolver",
+      "finding": "Las notas mantienen BLUME en progreso, incorporan el segundo telegrama y anuncian calibración de una búsqueda conjunta.",
+      "status_source": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/NOTES.md",
+      "specific_commit": "https://github.com/dbourdeau/cyphersolver/commit/9226922ffb0663b1d9b95f4ef898d093efd74ef2",
+      "commit_utc": "2026-09-30T22:30:53Z",
+      "commit_madrid": "2026-10-01T00:30:53+02:00",
+      "latest_comment_source": "https://github.com/dbourdeau/cyphersolver/issues/14#issuecomment-5921136428",
+      "comment_utc": "2026-09-30T22:56:02Z",
+      "comment_madrid": "2026-10-01T00:56:02+02:00",
+      "limits": "Declaración de su actividad, no descifrado ni validación por nosotros de sus exclusiones criptográficas."
+    },
+    {
+      "name": "Richard Bean",
+      "source": "https://github.com/dbourdeau/cyphersolver/issues/14",
+      "finding": "Interviene en la revisión de la transcripción y proporciona una vía a la imagen completa del segundo telegrama.",
+      "limits": "No afirma en este hilo tener una solución ni confirma un ataque propio activo."
+    }
+  ],
+  "earlier_public_diffusion": {
+    "name": "Klaus Schmeh",
+    "date_reported_by_author": "2023-09-08",
+    "source": "https://www.nylonundnapalm.ch/medien",
+    "finding": "Bochsler documenta que Schmeh publicó los dos telegramas en Facebook como reto de descifrado.",
+    "limits": "No se ha verificado una búsqueda personal activa actual ni se han leído los comentarios completos de Facebook."
+  },
+  "prior_2020_attempt": {
+    "source": "work/history/legimi-book-note42.json",
+    "names": ["Peter Heinzmann", "Carlo Matteotti", "Patrick Liniger", "Kandiah Viveksanth"],
+    "limits": "Intento previo documentado por el libro; continuidad actual no confirmada."
+  },
+  "secondary_mention_not_presented_as_current_activity": {
+    "name": "William Higinbotham",
+    "basis": "Richard Bean menciona una transcripción suya en Facebook",
+    "limits": "No cotejado directamente; no se trata como prueba de actividad actual."
+  },
+  "issue14_closure": "Corrección de la transcripción, no descifrado",
+  "verified_historical_plaintext_found": false,
+  "external_contact_sent": false
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-02",
+  "research_through_phase": 13,
+  "selection": "Public research snapshot, not the original full working-directory archive.",
+  "inventory_entries": 1720,
+  "copied_files": 605,
+  "copied_bytes": 39533498,
+  "dispositions": {
+    "referenced_only": 928,
+    "included": 605,
+    "duplicate": 187
+  },
+  "original_files_edited": 0,
+  "new_cryptographic_searches": 0,
+  "rules": [
+    "Exact bytes for retained research files; only output-package copies deduplicated. All retained work paths and license files preserved.",
+    "External scans, full recent publications, bulk archival OCR and account/interface operations are referenced rather than republished.",
+    "Models, ciphertexts, holdouts, code, experiment logs, designs, research notes, reports and licensed upstream notes retained.",
+    "Legacy manifests refer to the original larger workspace; use tools/verify_snapshot.py for this selected export."
+  ]
+}

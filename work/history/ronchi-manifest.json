@@ -1,0 +1,2655 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/3578266.json",
+    "label": {
+        "none": [
+            "Ronchi & Konsorten - Waffenschmuggel in Sachen Feindseligkeiten in Spanien"
+        ]
+    },
+    "type": "Collection",
+    "items": [
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Umschlag_0000001/_u4UlaINd2uUc7GdMvwlzwJ.json",
+            "label": {
+                "none": [
+                    "Umschlag_0000001"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUmschlag_0000001%2F00000001.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Subdossier_0000002/_h7r14APrV5xQSgxFm1DELQ.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000002"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000028/_V3gmlqcWS6BFwYt51T0KyO.json",
+            "label": {
+                "none": [
+                    "Dokument_0000028"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000028%2F00000321.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000029/_yP43AyGKOFFpnJugnlNl5K.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000029"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000029%2F00000649.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000030/_Qfg3pIfd2hjko8l0gy7JgY.json",
+            "label": {
+                "none": [
+                    "Dokument_0000030"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000030%2F00000653.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000031/_6vpJM39OV2ItYNjA2XFxb7.json",
+            "label": {
+                "none": [
+                    "Dokument_0000031"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000031%2F00000657.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000032/_Nl96IfEdwdESHZUp2HUzU6.json",
+            "label": {
+                "none": [
+                    "Dokument_0000032"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000032%2F00000659.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000033/_AdQGzOPvgp2A1OpcUbpeNw.json",
+            "label": {
+                "none": [
+                    "Dokument_0000033"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000033%2F00000663.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000034/_rMtxmyD4kpnC80lk0QkHWo.json",
+            "label": {
+                "none": [
+                    "Dokument_0000034"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000034%2F00000667.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000035/_l3iQk4BBEeMxRFTa0sss2Q.json",
+            "label": {
+                "none": [
+                    "Dokument_0000035"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000035%2F00000671.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000036/_vpPcd80xnTVmKU4qb1tld9.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000036"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000036%2F00000679.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000037/_p3XPYyZQsyw1XhQ58rtBwb.json",
+            "label": {
+                "none": [
+                    "Dokument_0000037"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000037%2F00000683.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000038/_cJozAe9MqoGpZjCX7duzvC.json",
+            "label": {
+                "none": [
+                    "Dokument_0000038"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000038%2F00000693.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000039/_JVj4kIgGqD3Jvgei36bqc6.json",
+            "label": {
+                "none": [
+                    "Dokument_0000039"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000039%2F00000699.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000040/_jVCcEEsO0Uh0UWf6WptzOU.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000040"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000040%2F00000703.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000041/_XFcxIP9wzLih0z393d1ucU.json",
+            "label": {
+                "none": [
+                    "Dokument_0000041"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000041%2F00000713.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000042/_6IBVwSfpWMozs2lVupKdL8.json",
+            "label": {
+                "none": [
+                    "Dokument_0000042"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000042%2F00000720.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000043/_d5iZDICiqtBcSRgmD1XKjI.json",
+            "label": {
+                "none": [
+                    "Dokument_0000043"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000043%2F00000732.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000044/_s6fAdGm3Q4DH5Xp4Gvo5wK.json",
+            "label": {
+                "none": [
+                    "Dokument_0000044"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000044%2F00000736.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000045/_zG8H3T9sESXnEsoAPnvCHc.json",
+            "label": {
+                "none": [
+                    "Dokument_0000045"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000045%2F00000738.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000046/_7yilTHt3SV05bAESgaeToR.json",
+            "label": {
+                "none": [
+                    "Dokument_0000046"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000046%2F00000746.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000047/_wke8eh6hjPiTG7k0aGnX4N.json",
+            "label": {
+                "none": [
+                    "Dokument_0000047"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000047%2F00000748.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000048/_RrsAfRKHhyQLgw1PRMPB5k.json",
+            "label": {
+                "none": [
+                    "Dokument_0000048"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000048%2F00000754.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000049/_WNRTjDe3dvaxuFGBLymAFe.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000049"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000049%2F00000760.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000050/_euO7Jz9Dt1x7HImU5zYGcK.json",
+            "label": {
+                "none": [
+                    "Dokument_0000050"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000050%2F00000770.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000051/_7bx7jUgYTeNEUWHwBkTeDG.json",
+            "label": {
+                "none": [
+                    "Dokument_0000051"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000051%2F00000774.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000052/_t29Znn5zpuMrkZshJRfP43.json",
+            "label": {
+                "none": [
+                    "Dokument_0000052"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000052%2F00000778.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000053/_n7niolZXO48ceWUz7fZmTp.json",
+            "label": {
+                "none": [
+                    "Dokument_0000053"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000053%2F00000788.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000054/_j2Q7SSM0FXa2KKk5S6lKC9.json",
+            "label": {
+                "none": [
+                    "Dokument_0000054"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000054%2F00000794.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000055/_wb41vCXnX8Efl0eMXh2L6F.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000055"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000055%2F00000798.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000056/_vXCNIrKXBokCHsNEKYXE87.json",
+            "label": {
+                "none": [
+                    "Dokument_0000056"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000056%2F00000806.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000057/_rC8YDvPsyduIcH2mPwjPzT.json",
+            "label": {
+                "none": [
+                    "Dokument_0000057"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000057%2F00000818.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000058/_ie7g5ZBgOerrHdvWY0CmLy.json",
+            "label": {
+                "none": [
+                    "Dokument_0000058"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000058%2F00000822.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000059/_jRXUr6lBHoIGfCpGAkOmel.json",
+            "label": {
+                "none": [
+                    "Dokument_0000059"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000059%2F00000830.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000060/_DlUlI18ZpGaQnlHcY2XNvw.json",
+            "label": {
+                "none": [
+                    "Dokument_0000060"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000060%2F00000832.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000061/_B2G6CIEsUmeJdHHl5QNBMQ.json",
+            "label": {
+                "none": [
+                    "Dokument_0000061"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000061%2F00000842.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000062/_PVIOiGQheOlAihaE3bBP1Y.json",
+            "label": {
+                "none": [
+                    "Dokument_0000062"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000062%2F00000848.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000063/_s6XCWehl11UhGnqa1c2DVG.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000063"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000063%2F00000852.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000064/_CimnpGntphIbBV8aizVvzV.json",
+            "label": {
+                "none": [
+                    "Dokument_0000064"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000064%2F00000864.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000065/_SmCdhQzq72K0F0nfoU64Jj.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000065"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000065%2F00000868.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000066/_DSiEdaLcXX5xYNWnCKj80T.json",
+            "label": {
+                "none": [
+                    "Dokument_0000066"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000066%2F00000874.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000067/_zmVehAGdf8PXXUPKjDBMUQ.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000067"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000067%2F00000878.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000068/_C8kPH5oCRy5aWZF7FsoBvk.json",
+            "label": {
+                "none": [
+                    "Dokument_0000068"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000068%2F00000890.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000069/_RMYFAxdjYeC8wjjRcOxFLq.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000069"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000069%2F00000894.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000070/_mxI6Hwem9asGxAKhCtFgWD.json",
+            "label": {
+                "none": [
+                    "Dokument_0000070"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000070%2F00000898.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000071/_Bebqg5URMM7IjsdaH0vl0v.json",
+            "label": {
+                "none": [
+                    "Dokument_0000071"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000071%2F00000912.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000072/_uMxzm0Vtenj1u7wTK6DwzT.json",
+            "label": {
+                "none": [
+                    "Dokument_0000072"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000072%2F00000916.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000073/_qEJAIb55xpI34zHuAxhUcX.json",
+            "label": {
+                "none": [
+                    "Dokument_0000073"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000073%2F00000918.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000074/_58xl90MR8w84j6I8hktQ4S.json",
+            "label": {
+                "none": [
+                    "Dokument_0000074"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000074%2F00000928.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000075/_1vPXNv2XhGfh8AN8Rruu5a.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000075"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000075%2F00000936.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000076/_rl9E9ZaQLx44jVCVYYkHfo.json",
+            "label": {
+                "none": [
+                    "Dokument_0000076"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000076%2F00000940.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000077/_wE4w5RTqpRKoBBWYiiD4wA.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000077"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000077%2F00000944.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000078/_R4iaD2mIlOXRKGknL915gA.json",
+            "label": {
+                "none": [
+                    "Dokument_0000078"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000078%2F00000948.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000079/_GQqD8NryI2C3KxSFKBFyTO.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000079"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000079%2F00000958.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000080/_JRZMd6RuxBXbcQ2ZPFNUod.json",
+            "label": {
+                "none": [
+                    "Dokument_0000080"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000080%2F00000968.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000081/_5WmsqYK2J0bgCoHEA3Dl0L.json",
+            "label": {
+                "none": [
+                    "Dokument_0000081"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000081%2F00000970.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000082/_1hLbQubcUxMw4dWFPywsfn.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000082"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000082%2F00000980.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000083/_IeQvh0nWEYmzeNl0IwKyJg.json",
+            "label": {
+                "none": [
+                    "Dokument_0000083"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000083%2F00000998.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000084/_DycWyz7GNpfu2sKzzVnTup.json",
+            "label": {
+                "none": [
+                    "Dokument_0000084"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000084%2F00001018.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000085/_n1yCqZurqYxxUUMmjJvDjV.json",
+            "label": {
+                "none": [
+                    "Dokument_0000085"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000085%2F00001020.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000086/_lJ3YcPdefIxBlgpgovc4bE.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000086"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000086%2F00001048.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000087/_Dad3tHByhvF0WYfecpslwK.json",
+            "label": {
+                "none": [
+                    "Dokument_0000087"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000087%2F00001056.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000088/_JXOnP1HVomgfY5NPLkr3qB.json",
+            "label": {
+                "none": [
+                    "Dokument_0000088"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000088%2F00001060.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000089/_DBnW4Z95jay1kvrVDgfrXj.json",
+            "label": {
+                "none": [
+                    "Dokument_0000089"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000089%2F00001070.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000090/_YSFPZ1L2AoH6FCl0J6CRkB.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000090"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000090%2F00001078.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000091/_OAdG5NPTi9X4Zr7F89GOOv.json",
+            "label": {
+                "none": [
+                    "Dokument_0000091"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000091%2F00001086.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000092/_4W92Ph57rnR0Vh4m8nfhzX.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000092"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000092%2F00001090.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000093/_PjtMDoLkG3QalNMTEC6Q3N.json",
+            "label": {
+                "none": [
+                    "Dokument_0000093"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000093%2F00001098.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000094/_WhMEQ29ZUzpYeyz9pOhxsM.json",
+            "label": {
+                "none": [
+                    "Dokument_0000094"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000094%2F00001104.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000095/_FElRcWfV36RvNVotmd0wtw.json",
+            "label": {
+                "none": [
+                    "Dokument_0000095"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000095%2F00001110.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000096/_IiNTUduCFa9F2IWFTlFo1u.json",
+            "label": {
+                "none": [
+                    "Dokument_0000096"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000096%2F00001117.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000097/_EDjjaU5cHn1tjotpNQM44T.json",
+            "label": {
+                "none": [
+                    "Dokument_0000097"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000097%2F00001121.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000098/_6Loxma0Zft6lElX0rvPg01.json",
+            "label": {
+                "none": [
+                    "Dokument_0000098"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000098%2F00001125.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000099/_WtJagirNkZhHM8EJRinJN3.json",
+            "label": {
+                "none": [
+                    "Dokument_0000099"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000099%2F00001129.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000100/_X5LsPk9fX39VYp6DTEXv9y.json",
+            "label": {
+                "none": [
+                    "Dokument_0000100"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000100%2F00001133.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000101/_ZzDKNVOjWDENONvqjDwxHr.json",
+            "label": {
+                "none": [
+                    "Dokument_0000101"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000101%2F00001135.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000102/_gN7lvFGqnvBb8dgukiX8Gk.json",
+            "label": {
+                "none": [
+                    "Dokument_0000102"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000102%2F00001141.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000103/_aOK7HPL8hoThjS6y9uhztt.json",
+            "label": {
+                "none": [
+                    "Dokument_0000103"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000103%2F00001143.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000104/_cZdYeGgXeGs07KMLpazwOn.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000104"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000104%2F00001147.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000105/_r3FXEyVyBRvDRbqUNh87Mc.json",
+            "label": {
+                "none": [
+                    "Dokument_0000105"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000105%2F00001151.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000106/_oB06VDERNQdOMPF7mCRJdt.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000106"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000106%2F00001157.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000107/_xhDuY3H1JYa0wFP25qWyYH.json",
+            "label": {
+                "none": [
+                    "Dokument_0000107"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000107%2F00001169.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000108/_5NdmJM9R58BsjfiJJyA8ci.json",
+            "label": {
+                "none": [
+                    "Dokument_0000108"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000108%2F00001175.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000109/_KGaT2yLhruFG6nHKvn6OAo.json",
+            "label": {
+                "none": [
+                    "Dokument_0000109"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000109%2F00001177.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000110/_kynfi4WFF6rlUcKUNMK0uC.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000110"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000110%2F00001181.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000111/_8bq3TG2Rxi7R9lGqyxDQ3s.json",
+            "label": {
+                "none": [
+                    "Dokument_0000111"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000111%2F00001191.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000112/_34EOBBlTZIU8gqzYYNIuzJ.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000112"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000112%2F00001195.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000113/_J2XsWvSMbSz58AwhdzUeCp.json",
+            "label": {
+                "none": [
+                    "Dokument_0000113"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000113%2F00001203.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000114/_WbfgI6eO4zsiEXqScrSSG3.json",
+            "label": {
+                "none": [
+                    "Dokument_0000114"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000114%2F00001214.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000115/_knb8iuenbavqUhq7NyW6aC.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000115"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000115%2F00001230.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000116/_zDPG1zlnhDlfZbUFI38vwn.json",
+            "label": {
+                "none": [
+                    "Dokument_0000116"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000116%2F00001234.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000117/_BjXxSYHBvgovt9ZsBo9H51.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000117"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000117%2F00001238.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000118/_D9vJpR2J5PrEbmAsvbC4gl.json",
+            "label": {
+                "none": [
+                    "Dokument_0000118"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000118%2F00001256.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000119/_A9qXPQ9z1MnrkdV6XxHVhX.json",
+            "label": {
+                "none": [
+                    "Dokument_0000119"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000119%2F00001260.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000120/_25Vsw8LfboQW3qqUKkM5eJ.json",
+            "label": {
+                "none": [
+                    "Dokument_0000120"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000120%2F00001262.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000121/_t8mXiFsGcih1EWYBrwlL6N.json",
+            "label": {
+                "none": [
+                    "Dokument_0000121"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000121%2F00001266.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000122/_hlme3tB91mG2IoHnTk0D1s.json",
+            "label": {
+                "none": [
+                    "Dokument_0000122"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000122%2F00001268.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000123/_ueV3lMy1tWq1ClGRm1BkMH.json",
+            "label": {
+                "none": [
+                    "Dokument_0000123"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000123%2F00001272.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000124/_R5O5pto6OEq40hLoPvS6AI.json",
+            "label": {
+                "none": [
+                    "Dokument_0000124"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000124%2F00001274.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000125/_wvsRUd4vNdmQRsnlWTaZn5.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000125"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000125%2F00001278.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000126/_05AnvynrRte7FKvXBuyqOz.json",
+            "label": {
+                "none": [
+                    "Dokument_0000126"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000126%2F00001284.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000127/_oFiPZJStfHOb24eQIjzvuD.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000127"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000127%2F00001290.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000128/_B4w3AYDu4dqmqbbFtavxDG.json",
+            "label": {
+                "none": [
+                    "Dokument_0000128"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000128%2F00001296.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000129/_k54Tg1fgpLlh2uA8AlMy9x.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000129"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000129%2F00001302.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000130/_XUGUuX3NjGZ0nbeu0pGX0g.json",
+            "label": {
+                "none": [
+                    "Dokument_0000130"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000130%2F00001306.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000131/_dh0JFPsyTyGYN7Y8oK1s6q.json",
+            "label": {
+                "none": [
+                    "Dokument_0000131"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000131%2F00001312.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000132/_IprD2Av3pLeqDgIL7y4UXf.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000132"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000132%2F00001316.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000133/_qXtpVpzRL11cvFUV56RY7F.json",
+            "label": {
+                "none": [
+                    "Dokument_0000133"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000133%2F00001322.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000134/_V9PgvRFEhwa2ikY0faLXaP.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000134"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000134%2F00001327.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000135/_91gLry7IyXj715nUqGYbwT.json",
+            "label": {
+                "none": [
+                    "Dokument_0000135"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000135%2F00001331.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000136/_8qoxbD5q4nfXl8QkTl4Wdo.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000136"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000136%2F00001335.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000137/_mxqqLVwczMxVn9BhjJLL3x.json",
+            "label": {
+                "none": [
+                    "Dokument_0000137"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000137%2F00001343.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000138/_goAucjK1IAmcMpIvm2g3pG.json",
+            "label": {
+                "none": [
+                    "Dokument_0000138"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000138%2F00001349.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000139/_N7g3OzX9023aq561j6YCTQ.json",
+            "label": {
+                "none": [
+                    "Dokument_0000139"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000139%2F00001355.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000140/_4bVuNbaqN1cShrCvDYpXDo.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000140"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000140%2F00001359.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Subdossier_0000141/_BpWdSZvBr2lLa9jxEPhZXQ.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000141"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000153/_0IldPqIAEpESNDNHoxWAXu.json",
+            "label": {
+                "none": [
+                    "Dokument_0000153"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000153%2F00001422.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000154/_lFp9lrEawlwIGx74vH1zZa.json",
+            "label": {
+                "none": [
+                    "Dokument_0000154"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000154%2F00001424.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000155/_WycVcD88S44EeUXsRFsZak.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000155"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000155%2F00001430.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000156/_AnEbyxnjho9BsGbgypDrie.json",
+            "label": {
+                "none": [
+                    "Dokument_0000156"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000156%2F00001438.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000157/_3tsfDUAVIIJwnunZNZxMDu.json",
+            "label": {
+                "none": [
+                    "Dokument_0000157"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000157%2F00001442.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000158/_NItTDY3umz998A3MX2XbU4.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000158"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000158%2F00001446.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000159/_6Cv2jYAqjbFcVluTjcSpdH.json",
+            "label": {
+                "none": [
+                    "Dokument_0000159"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000159%2F00001452.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000160/_CfuqpwPnhtxdd1hecU2fBO.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000160"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000160%2F00001458.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000161/_kslgYf1cXse5aHx55hxqNv.json",
+            "label": {
+                "none": [
+                    "Dokument_0000161"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000161%2F00001518.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000162/_4c6sIcaPrJIo4IoOPfYqg4.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000162"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000162%2F00001536.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000163/_bpppEVYJIKI8DFtOkFFvqT.json",
+            "label": {
+                "none": [
+                    "Dokument_0000163"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000163%2F00001540.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000164/_SJaEAPwFrIGF3rWf0wPlnJ.json",
+            "label": {
+                "none": [
+                    "Dokument_0000164"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000164%2F00001550.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000165/_eh3qrv9MtTtL1tZgNwPNUh.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000165"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000165%2F00001554.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000166/_3lD8OcIXPSAFKWf5MnETF0.json",
+            "label": {
+                "none": [
+                    "Dokument_0000166"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000166%2F00001558.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000167/_bZcZLkDLu4GGvLYYIIW85c.json",
+            "label": {
+                "none": [
+                    "Dokument_0000167"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000167%2F00001562.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000168/_wribKms7hUsAVrAy3GawBq.json",
+            "label": {
+                "none": [
+                    "Dokument_0000168"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000168%2F00001564.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000169/_5dmym4ARGYz1V2NglX4FUX.json",
+            "label": {
+                "none": [
+                    "Dokument_0000169"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000169%2F00001568.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000170/_RH51IW6SaT21y35JBut6z1.json",
+            "label": {
+                "none": [
+                    "Dokument_0000170"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000170%2F00001570.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000171/_S8qchzx1Kj80MB01PTCDfy.json",
+            "label": {
+                "none": [
+                    "Dokument_0000171"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000171%2F00001574.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000172/_ZYFg3KNicckPa6ecMnXwej.json",
+            "label": {
+                "none": [
+                    "Dokument_0000172"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000172%2F00001582.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000173/_PeK4VfJib8ugdtKXAoCgtB.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000173"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000173%2F00001586.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000174/_20PXdqLdWDa57940SCBhtZ.json",
+            "label": {
+                "none": [
+                    "Dokument_0000174"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000174%2F00001626.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000175/_Uvc4Jgl4iGuFqPkFNgvur3.json",
+            "label": {
+                "none": [
+                    "Dokument_0000175"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000175%2F00001638.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000176/_wJ9oIPwZB2VIOR0qm1kaIa.json",
+            "label": {
+                "none": [
+                    "Dokument_0000176"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000176%2F00001648.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000177/_Ru0FosOfPSpkDGBUEgtBBk.json",
+            "label": {
+                "none": [
+                    "Dokument_0000177"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000177%2F00001654.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000178/_sB6imMTOnmpsUiZ0Lz2Acp.json",
+            "label": {
+                "none": [
+                    "Dokument_0000178"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000178%2F00001674.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000179/_rGC5SbU8lFiFRjUZ1E9plt.json",
+            "label": {
+                "none": [
+                    "Dokument_0000179"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000179%2F00001694.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000180/_tPnOm4T64M8BxMXj2uRBww.json",
+            "label": {
+                "none": [
+                    "Dokument_0000180"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000180%2F00001696.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000181/_tKuSOwk0wSFkBcedy9xPXf.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000181"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000181%2F00001718.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000182/_urLLTSKz4yf8HjnHjAHWT3.json",
+            "label": {
+                "none": [
+                    "Dokument_0000182"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000182%2F00001724.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000183/_qGJM5L6b7RHxKQO1xhoP28.json",
+            "label": {
+                "none": [
+                    "Dokument_0000183"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000183%2F00001744.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000184/_7yUWHhF73dFcKH47oKpfCZ.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000184"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000184%2F00001748.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000185/_EC1hA8GDhKAeG8zhxlTZI3.json",
+            "label": {
+                "none": [
+                    "Dokument_0000185"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000185%2F00001763.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000186/_1fSC0nMmH18ZstlchYbV8N.json",
+            "label": {
+                "none": [
+                    "Dokument_0000186"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000186%2F00001771.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Dokument_0000187/_s3ko5h6ZAij02x4411aA5g.json",
+            "label": {
+                "none": [
+                    "Dokument_0000187"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FDokument_0000187%2F00001773.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000188/_rlUVAKc7R7tPl90TMnksoS.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000188"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000188%2F00001779.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Subdossier_0000189/_JmMNIK1hch5NDTakGBVBH1.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000189"
+                ]
+            },
+            "type": "Collection"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Unterlagen_0000194/_cE92ifDgvEZa8k12l4yfqr.json",
+            "label": {
+                "none": [
+                    "Unterlagen_0000194"
+                ]
+            },
+            "type": "Manifest",
+            "thumbnail": [
+                {
+                    "format": "image/jpeg",
+                    "id": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8266%2FUnterlagen_0000194%2F00001796.jpg/full/150,/0/default.jpg",
+                    "type": "Image"
+                }
+            ]
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8266/Subdossier_0000195/_hdZHUD8hvsz6O53fFAcO7R.json",
+            "label": {
+                "none": [
+                    "Subdossier_0000195"
+                ]
+            },
+            "type": "Collection"
+        }
+    ],
+    "metadata": [
+        {
+            "label": {
+                "de": [
+                    "Signatur"
+                ],
+                "en": [
+                    "Reference code"
+                ],
+                "fr": [
+                    "Cote"
+                ],
+                "it": [
+                    "Segnatura"
+                ],
+                "none": [
+                    "Signatur"
+                ]
+            },
+            "value": {
+                "de": [
+                    "E4320B#1974/47#102*"
+                ],
+                "en": [
+                    "E4320B#1974/47#102*"
+                ],
+                "fr": [
+                    "E4320B#1974/47#102*"
+                ],
+                "it": [
+                    "E4320B#1974/47#102*"
+                ],
+                "none": [
+                    "E4320B#1974/47#102*"
+                ]
+            }
+        },
+        {
+            "label": {
+                "de": [
+                    "Titel"
+                ],
+                "en": [
+                    "Title"
+                ],
+                "fr": [
+                    "Titre"
+                ],
+                "it": [
+                    "Titolo"
+                ],
+                "none": [
+                    "Titel"
+                ]
+            },
+            "value": {
+                "de": [
+                    "Ronchi & Konsorten - Waffenschmuggel in Sachen Feindseligkeiten in Spanien"
+                ],
+                "en": [
+                    "Ronchi & Konsorten - Waffenschmuggel in Sachen Feindseligkeiten in Spanien"
+                ],
+                "fr": [
+                    "Ronchi & Konsorten - Waffenschmuggel in Sachen Feindseligkeiten in Spanien"
+                ],
+                "it": [
+                    "Ronchi & Konsorten - Waffenschmuggel in Sachen Feindseligkeiten in Spanien"
+                ],
+                "none": [
+                    "Ronchi & Konsorten - Waffenschmuggel in Sachen Feindseligkeiten in Spanien"
+                ]
+            }
+        },
+        {
+            "label": {
+                "de": [
+                    "Entstehungszeitraum"
+                ],
+                "en": [
+                    "Creation period"
+                ],
+                "fr": [
+                    "Date de cr\u00e9ation"
+                ],
+                "it": [
+                    "Periodo di costituzione"
+                ],
+                "none": [
+                    "Entstehungszeitraum"
+                ]
+            },
+            "value": {
+                "de": [
+                    "1937 - 1939"
+                ],
+                "en": [
+                    "1937 - 1939"
+                ],
+                "fr": [
+                    "1937 - 1939"
+                ],
+                "it": [
+                    "1937 - 1939"
+                ],
+                "none": [
+                    "1937 - 1939"
+                ]
+            }
+        },
+        {
+            "label": {
+                "de": [
+                    "Aktenzeichen"
+                ],
+                "en": [
+                    "File reference"
+                ],
+                "fr": [
+                    "R\u00e9f\u00e9rence"
+                ],
+                "it": [
+                    "Riferimento"
+                ],
+                "none": [
+                    "Aktenzeichen"
+                ]
+            },
+            "value": {
+                "de": [
+                    "A.13-247"
+                ],
+                "en": [
+                    "A.13-247"
+                ],
+                "fr": [
+                    "A.13-247"
+                ],
+                "it": [
+                    "A.13-247"
+                ],
+                "none": [
+                    "A.13-247"
+                ]
+            }
+        }
+    ],
+    "rendering": [
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578266",
+            "label": {
+                "de": [
+                    "Laden Sie die Unterlagen von der Detailansicht herunter"
+                ],
+                "en": [
+                    "Download the documents from the detail view"
+                ],
+                "fr": [
+                    "T\u00e9l\u00e9chargez les documents depuis l\u2019affichage complet"
+                ],
+                "it": [
+                    "Scarica i documenti dalla visualizzazione dei dettagli"
+                ]
+            },
+            "type": "Text",
+            "format": "text/plain"
+        },
+        {
+            "id": "https://www.recherche.bar.admin.ch/recherche/files/ocr/0000/0357/8266/OCR-Text-komplett.zip",
+            "label": {
+                "de": [
+                    "Download OCR"
+                ],
+                "en": [
+                    "Download OCR"
+                ],
+                "fr": [
+                    "Download OCR"
+                ],
+                "it": [
+                    "Download OCR"
+                ]
+            },
+            "type": "Zip",
+            "format": "application/zip"
+        }
+    ],
+    "start": null,
+    "service": {
+        "id": "https://iiif.recherche.bar.admin.ch/iiif/search/collection/0000-0357-8266",
+        "type": "SearchService2"
+    }
+}

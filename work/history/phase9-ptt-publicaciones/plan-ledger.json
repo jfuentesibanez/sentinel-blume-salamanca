@@ -1,0 +1,265 @@
+{
+  "date": "2026-10-02",
+  "objective": "Identificar publicación/ejemplar concreto de PTT que pueda conducir a instrucciones vigentes en 1937 de clasificación, control o circulación de cartas/telegramas.",
+  "new_distinct_searches": 12,
+  "queries": [
+    {
+      "n": 1,
+      "surface": "web",
+      "query": "site.recherche.bar.admin.ch \"E51\" \"Registratur\"",
+      "result": "No documento pertinente de 1937 identificado; resultado de índice, no inventario exhaustivo.",
+      "capture": "web-01.json"
+    },
+    {
+      "n": 2,
+      "surface": "web",
+      "query": "site.recherche.bar.admin.ch \"E10454\"",
+      "result": "Resultados devueltos ajenos a la pista; no usados como evidencia histórica.",
+      "capture": "web-01.json"
+    },
+    {
+      "n": 3,
+      "surface": "web",
+      "query": "\"Post\" \"Registratur\" \"Amtsblatt\" \"1937\" Schweiz",
+      "result": "No instrucción pertinente identificada.",
+      "capture": "web-01.json"
+    },
+    {
+      "n": 4,
+      "surface": "web",
+      "query": "\"E10454\" PTT",
+      "domains": [
+        "recherche.bar.admin.ch",
+        "bar.admin.ch"
+      ],
+      "result": "Sin ficha histórica pertinente en los resultados consultados; fondo localizado después por árbol.",
+      "capture": "web-02.json"
+    },
+    {
+      "n": 5,
+      "surface": "web",
+      "query": "\"E51\" Post Registratur",
+      "domains": [
+        "recherche.bar.admin.ch",
+        "bar.admin.ch"
+      ],
+      "result": "Resultados sobre recomendaciones modernas BGA, no fondo histórico E51; no usados para 1937.",
+      "capture": "web-02.json"
+    },
+    {
+      "n": 6,
+      "surface": "web",
+      "query": "\"Amtsblatt\" \"Post\" \"1937\"",
+      "domains": [
+        "helveticat.ch",
+        "swisscovery.slsp.ch",
+        "e-periodica.ch",
+        "nb.admin.ch"
+      ],
+      "result": "Resultados ajenos al boletínPTT; no usados como contenido histórico.",
+      "capture": "web-02.json"
+    },
+    {
+      "n": 7,
+      "surface": "swisscovery Berner Spezialbibliotheken",
+      "query": "Registratur",
+      "observed_total": 181,
+      "PTT_filter_total": 100,
+      "date_filter_attempt": {
+        "requested": "1900–1938",
+        "effective": "1948–2018",
+        "observed_after_effective_filter": 97,
+        "usable_as_negative1900_1938": false
+      },
+      "capture": [
+        "lib-query01-registratur-enter.json",
+        "lib-registratur-1900-1938-bar-e51.json"
+      ]
+    },
+    {
+      "n": 8,
+      "surface": "BAR allData",
+      "query": "E10454",
+      "observed_result": "No ficha encontrada por búsqueda literal; sí encontrada después en árbol. El cero no prueba ausencia.",
+      "capture_note": "bar-query01-e10454.json es una captura anterior a la carga final; el resultado final de cero se leyó en el registro de herramientas, no se guardó en ese archivo."
+    },
+    {
+      "n": 9,
+      "surface": "BAR allData",
+      "query": "E51",
+      "visible_results": 4,
+      "found_signatures": [
+        "E51*",
+        "E8232-14*",
+        "E8232-15*"
+      ],
+      "limit": "Un cuarto resultado es una acción COST moderna, ajena a la pista. El contador de resultados del sitio quedó desactualizado.",
+      "capture": "lib-registratur-1900-1938-bar-e51.json"
+    },
+    {
+      "n": 10,
+      "surface": "swisscovery Berner Spezialbibliotheken",
+      "query": "Aktenplan",
+      "observed_total": 6,
+      "PTT_facet_total": 3,
+      "result": "Los tres registros asociados aPTT son posteriores a 1937; el plan SBB 1957 pertenece a otro productor. No demuestra ausencia en contenido archivístico.",
+      "capture": "lib-query02-aktenplan.json"
+    },
+    {
+      "n": 11,
+      "surface": "swisscovery Berner Spezialbibliotheken",
+      "query": "Amtsblatt",
+      "observed_total": 1498,
+      "first_page_read": true,
+      "result": "Consulta demasiado amplia; se precisó con términos Post y Telegraphen.",
+      "capture": "lib-query03-amtsblatt.json"
+    },
+    {
+      "n": 12,
+      "surface": "swisscovery Berner Spezialbibliotheken",
+      "query": "Amtsblatt Post Telegraphen",
+      "observed_total": 37,
+      "PTT_facet_total": 37,
+      "first_page_read": true,
+      "result": "Identificados boletín 1922–1937, suplemento 1922–1937 y continuadores desde 1938. Dos fichas completas y existencias de 1922–1937 leídas.",
+      "capture": "lib-query04-amtsblatt-post-telegraphen-bar-e10974.json"
+    }
+  ],
+  "periodicals": [
+    {
+      "title": "Schweizerisches Post- und Telegraphen-Amtsblatt = Feuille officielle des postes et des télégraphes suisses = Foglio ufficiale delle poste e dei telegrafi svizzeri",
+      "alma": "alma991363970105527",
+      "current_library_call_number": "MfK P-013-001",
+      "responsible_editor": "Generaldirektion der Post- und Telegraphenverwaltung",
+      "publication": "Bern: Generaldirektion der PTT",
+      "publication_date_field": "1922-",
+      "numbering_field": "1922–1937",
+      "frequency": "wöchentlich",
+      "languages": [
+        "Deutsch",
+        "Französisch",
+        "Italienisch"
+      ],
+      "holdings_literal": "1(1922)-16(1937)56",
+      "availability_literal": "Eventuell verfügbar",
+      "use": "Sólo en sede; keine Fernleihe. Sin descarga digital observada.",
+      "permalink": "https://bsb.swisscovery.slsp.ch/permalink/41SLSP_RBE/859kdn/alma991363970105527",
+      "permalink_source": "Función Link pública del catálogo, pestaña interna seleccionada, no deducido.",
+      "read_level": "Metadatos bibliográficos y existencias; páginas del boletín NO leídas.",
+      "captures": [
+        "library-amtsblatt-main-detail.json",
+        "library-amtsblatt-main-holdings.json",
+        "library-amtsblatt-main-permalink.json"
+      ]
+    },
+    {
+      "title": "Schweizerisches Post- und Telegraphen-Amtsblatt. Beiblatt = Feuille officielle des postes et des télégraphes suisses. Annexe = Foglio ufficiale delle poste e dei telegrafi svizzeri. Annesso",
+      "alma": "alma9957534140105527",
+      "current_library_call_number": "MfK P-013-002",
+      "publication": "Bern: Generaldirektion der Post- und Telegraphenverwaltung",
+      "publication_dates": "1922–1937",
+      "languages": [
+        "Deutsch",
+        "Französisch",
+        "Italienisch"
+      ],
+      "holdings_literal": "(1922)-(1937)96",
+      "availability_literal": "Eventuell verfügbar",
+      "use": "Sólo en sede; keine Fernleihe. Sin descarga digital observada.",
+      "permalink": "https://bsb.swisscovery.slsp.ch/permalink/41SLSP_RBE/859kdn/alma9957534140105527",
+      "permalink_source": "Función Link pública del catálogo, pestaña interna seleccionada, no deducido.",
+      "read_level": "Metadatos bibliográficos y existencias; páginas del suplemento NO leídas.",
+      "captures": [
+        "library-beiblatt-holdings.json",
+        "library-beiblatt-permalink.json"
+      ]
+    }
+  ],
+  "BAR_records": [
+    {
+      "signature": "E51*",
+      "title": "Postwesen",
+      "document_coverage": "1708–1931",
+      "url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/Best%20%20%20%20cbfbc37e-dbd4-5cdd-b3b4-1ce9d073b954",
+      "read_level": "Ficha completa y categorías generales, no expedientes individuales.",
+      "limit": "No plan o registro de 1937 localizado. Normas anteriores no se declaran vigentes en 1937.",
+      "capture": "bar-record-e51-detail.json"
+    },
+    {
+      "signature": "E10454*",
+      "title": "Post-, Telefon- und Telegrafenbetriebe (1961–1997)",
+      "document_coverage": "1894–1998",
+      "visible_child": "E8232-14*, Feldpost",
+      "url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/Best%20%20%20%20fb4ea088-be35-50a2-aee3-030f35e95696",
+      "read_level": "Ficha completa y rama visible; no expedientes individuales.",
+      "limit": "Periodo del productor distinto de cobertura; no excluir documentos de 1937 sólo por título 1961–1997.",
+      "capture": "bar-record-e10454.json"
+    },
+    {
+      "signature": "E10974*",
+      "title": "Generaldirektion der Post-, Telefon- und Telegrafenverwaltung (1930–1961)",
+      "document_coverage": "1894–1964",
+      "visible_child": "E8232-15*",
+      "url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/Best%20%20%20%20c8e97fba-829a-5bca-899b-c7c375dc79db",
+      "read_level": "Ficha completa; no documentos individuales.",
+      "capture": "bar-record-e10974-detail.json"
+    },
+    {
+      "signature": "E8232-15*",
+      "former_signature": "E8231*",
+      "title": "Generaldirektion der Post-, Telefon- und Telegrafenverwaltung: Sammlungen von Verträgen und Telegrammen (1930–1961)",
+      "document_coverage": "1894–1964",
+      "deliveries": [
+        "1000/01160 (1894–1964)",
+        "1000/01161 (1939–1945)"
+      ],
+      "url": "https://www.recherche.bar.admin.ch/recherche/link/de/archiv/einheit/5941",
+      "branches_visible": [
+        "E8232-15#1: contratos/acuerdos",
+        "E8232-15#2: acuerdos complementarios SUVA",
+        "E8232-15#3: telegramas estatales de la Segunda Guerra Mundial"
+      ],
+      "read_level": "Ficha y títulos de tres ramas; contenido de ramas NO leído.",
+      "limit": "No BLUME, enero de 1937 ni referencia 6011.8.3 demostrados.",
+      "capture": "bar-record-5941-collections.json"
+    }
+  ],
+  "primary_gateways": [
+    {
+      "url": "https://www.mfk.ch/forschen/ptt-archiv/bestaende",
+      "observed": "Enlaza catálogo de la biblioteca Swisscovery Berner Spezialbibliotheken ydescribe publicaciones históricas."
+    },
+    {
+      "url": "https://ub-archeco24.ub.unibas.ch/index.php/ptt-generalpostdirektion-und-nachfolger",
+      "observed": "Menciona biblioteca interna y relacionados BAR E51/E10454; no plan 6011."
+    }
+  ],
+  "result": "Dos ejemplares bibliográficos que alcanzan 1937 localizados; ningún plan, instrucción específica ni interpretación de 6011.8.3 leídos.",
+  "limits": [
+    "Contenido de boletín y suplemento no consultado.",
+    "Existencias textuales no garantizan integridad ni disponibilidad de un número concreto.",
+    "Signaturas bibliotecarias no equivalen a referencia interna de 1937.",
+    "Schutzfrist de 30 años no es regla de conservación de 1937.",
+    "Sin atribución de firma a Tuason en 1945.",
+    "Metadatos BAR estaban traducidos automáticamente en parte.",
+    "Campo URL permanente de BAR de E10974/E51 conservó enlace E10454; se usa URL efectiva cotejada con título/signatura.",
+    "No criptograma descifrado, no clave ni identidad de Blume nuevos."
+  ],
+  "custodian_next_step": "Índice de 1937 y referencia de número/página de instrucción de registro del boletín/suplemento; nota local disponible. Root preparará versión nueva local DE/ES de consulta.",
+  "actions": {
+    "Gmail": false,
+    "contact": false,
+    "orders": false,
+    "copies": false,
+    "payments": false,
+    "publication": false,
+    "own_research_tabs_closed": true
+  },
+  "outputs": [
+    "resultado.txt",
+    "nota-para-consulta-local.txt",
+    "plan-ledger.json",
+    "protected-verification.json",
+    "resource-hashes.json"
+  ]
+}

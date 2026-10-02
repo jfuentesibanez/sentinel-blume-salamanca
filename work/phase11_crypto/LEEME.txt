@@ -1,0 +1,182 @@
+Sentinel — BLUME SALAMANCA — reparto del esfuerzo entre candidatas K2
+Fecha: 2 de octubre de 2026
+
+Resultado
+
+Limitar cada escalada a 5.000 propuestas recuperó K2 en 3 de 16 rondas y
+2 de 8 pares. La población congelada de fase10 recuperó K2 en 2 de 16 rondas
+y 1 de 8 pares. Todos los aciertos fueron alemanes con anchos 12×15.
+
+Modelo y anchos        Población congelada       Tope 5.000
+Alemán 12×15                   2/4                   3/4
+Alemán 20×25                   0/4                   0/4
+Francés 12×15                  0/4                   0/4
+Francés 20×25                  0/4                   0/4
+Total                        2/16                  3/16
+
+La variante rescató las dos rondas de la semilla 20262102, pero perdió una
+ronda que el baseline acertó con la semilla 20262101. No mejora todas las
+rondas. Su mejor IDP aumentó en seis comparaciones pareadas, bajó en nueve
+y coincidió en una. Se buscó sólo K2 en textos sintéticos: no se recuperó K1
+ni se atacó el telegrama histórico BLUME.
+
+Diseño y aislamiento
+
+Ocho pares nuevos: de_fold/fr_fold × 12×15/20×25 × semillas 20262101/20262102.
+Dos rondas por método y par. Los mensajes tienen 615 y 160 letras, comparten
+claves y usan conv0: dos transposiciones columnares irregulares directas,
+sin relleno. Los anchos son conocidos. Los textos son holdouts literarios de
+Kafka y Voltaire, separados del entrenamiento; no representan negocios de 1937.
+
+Las rondas están emparejadas. Las mismas semillas comparten claves entre
+modelos de idioma con los mismos anchos. Las 32 filas no son 32 casos
+independientes ni permiten estimar una tasa fiable de recuperación histórica.
+
+El runner generó la verdad fuera del solver y selló truth.jsonl, los 16 textos
+cifrados, las reglas, semillas y 32 comandos antes de la primera búsqueda.
+sealed_design.json conserva ese diseño previo; manifest.json añade ejecuciones
+y hashes finales. El solver recibe sólo método, modelo, dos textos cifrados,
+anchos, semilla, presupuestos y ronda. No recibe claves verdaderas, texto
+original ni sus puntuaciones. La evaluación externa empezó después de acabar
+todas las búsquedas. No hubo ampliación del presupuesto ni ensayos adicionales.
+
+El baseline llama directamente al binario congelado de fase10:
+work/phase10_crypto/population_search
+SHA256: 7c353d7e1b5de457313ef11e25a7f30cbd446266b1463bd9fdbd38d58e946091
+
+La variante importa una cabecera que conserva exactamente todos los bytes de
+population_search.cpp anteriores a su main. Esa cabecera incluye las clases
+congeladas de fase10, la medición de fase9 y los movimientos auditados de
+fase4. No se editó ningún archivo previo. build_record.json registra el prefijo,
+la compilación y los hashes. La fuente del baseline conserva SHA256:
+0cc750150629d24391b333541b6d76f3edc2db1735d8a17bb8b2567900a4eaec
+
+Qué cambia la variante
+
+Ambos métodos comparten objetivo IDP, movimientos, preparación, semilla e
+inicio. Cada preparación puntúa 1.000 claves aleatorias y conserva las veinte
+mejores; hace una pasada de swaps de izquierda a derecha por superviviente.
+La primera escalada parte de la misma mejor superviviente. La evaluación
+comprobó que las veinte ofertas y estados iniciales coinciden exactamente
+en las dieciséis comparaciones pareadas.
+
+El baseline escala hasta converger o agotar el presupuesto global. La variante
+limita CADA escalada, incluida la primera, a 5.000 propuestas IDP. El contador
+local incluye todas las propuestas de esa escalada; su puntuación inicial ya
+se obtuvo y contó en preparación o perturbación. No se repuntúa sin contarlo.
+
+Converged sólo significa una pasada COMPLETA de movimientos sin mejora
+estricta. Cap_local significa escalada parcial: no activa el corte global y
+su candidata se ofrece mediante la misma regla de admisión. Una pasada
+incompleta sin mejora no demuestra convergencia. Los movimientos son 2.840
+para W2=15 y 16.649 para W2=25. Como 5.000 es menor que 16.649, ninguna
+escalada de la variante con W2=25 puede completar su primera pasada.
+
+Se mantienen hasta cinco padres, separados al menos por Hamming numérico
+ceil(0,4×W2), es decir, 6 o 10 posiciones. Un vecino próximo tiene distancia
+menor que el umbral. La candidata debe mejorar estrictamente a TODOS los
+vecinos próximos por más de 1e-12 para reemplazarlos; hereda el máximo de sus
+usos. Sin vecinos próximos entra con uso cero si hay espacio o mejora al peor.
+Se conserva el orden IDP descendente y desempate lexicográfico.
+
+El padre elegido es el menos usado, con desempate por IDP y clave numérica.
+Su uso aumenta al elegirlo, aunque después corte la búsqueda. La perturbación
+hace tres o cinco swaps disjuntos: cambia exactamente seis o diez posiciones.
+
+El baseline renueva tras cuatro hijos convergidos. La variante renueva tras
+cuatro hijos PROCESADOS: cuenta los parciales y rechazados. La primera escalada
+no es hijo. La renovación conserva la preparación y fusión congeladas. Por
+tanto, la variante cambia el reparto del esfuerzo Y la frecuencia de
+renovación; este piloto no aísla un efecto causal de la diversidad.
+
+Antes de la próxima propuesta, el agotamiento global tiene prioridad sobre
+el tope local. Global_cut no admite el hijo terminal ni renueva la población,
+igual que el baseline. El hijo que empezó a escalar sí cuenta como procesado
+y parcial. Los logs registran offered=false y admission_event=-1; si tocaba
+renovar, registran refresh_due sin fingir una renovación realizada. Toda
+candidata ya puntuada sigue disponible para el archivo de resultados.
+
+El archivo final permanece separado de los padres: las cinco mejores claves
+distintas por IDP entre TODAS las propuestas puntuadas, sin filtro de distancia.
+No se almacenan las 100.000 propuestas completas. Ese archivo puede agruparse:
+su distancia mínima fue de dos a cuatro posiciones en la variante, aunque
+todos los estados de padres respetaron el umbral y acabaron con cinco miembros.
+
+Presupuesto y coste real
+
+Cada una de las 32 rondas consumió exactamente 100.000 llamadas IDP, incluidas
+preparación, swaps, escaladas y perturbaciones. Cada método consumió 1.600.000.
+Todas cortaron por evaluaciones; ninguna llegó al límite blando de 30 segundos.
+
+                              Población congelada       Tope 5.000
+Tiempo interno de búsqueda          70,185 s               69,757 s
+Tiempo real de procesos             70,288 s               70,235 s
+
+Igual número de llamadas no implica igual coste de CPU. Estos tiempos son
+mediciones de esta ejecución, no evidencia sólida de mayor velocidad. El orden
+se alternó: baseline primero en ronda 0 y variante primero en ronda 1. El reloj
+interno empieza antes de construir movimientos; incluye preparación, propuestas
+y construcción de trazas. El tiempo de procesos añade carga y emisión/lectura
+de la salida. El límite se comprueba antes de puntuar; no interrumpe una
+puntuación en curso. El mayor setup fue 0,007175 s; no hubo exceso temporal.
+
+El baseline completó 92 hijos: entre ocho y doce por ronda corta y entre cero
+y dos por ronda larga. La variante procesó 242 hijos: dieciséis o diecisiete
+en cada ronda corta y catorce en cada ronda larga. TODOS esos hijos fueron
+parciales; dos de sus dieciséis escaladas iniciales sí convergieron a W2=15.
+
+La variante tuvo 258 escaladas: 246 cortaron por cap_local, dos convergieron
+y diez cortaron globalmente. Ofreció las 246 candidatas de cap_local; los diez
+retornos globales no se ofrecieron. Comenzó 56 renovaciones frente a 19 del
+baseline; seis renovaciones cortaron durante los swaps de preparación.
+Más hijos explorados no produjo recuperación de claves largas en este piloto.
+
+Evaluación y diagnóstico
+
+El evaluador externo Python/NumPy calcula IDP mediante enumeración cartesiana
+directa de límites viables; no usa las sumas incrementales del C++. Reconstruyó
+textos/claves y comprobó 160 puntuaciones del archivo final, 2.376 candidatas
+ofrecidas, 350 perturbaciones disjuntas/elecciones de padres y 13.310 apariciones
+de scores en estados. Verificó admisiones, usos, umbrales, cortes y renovaciones.
+En la variante comprobó 258 escaladas y 516 scores de extremos. Cacheó sólo
+la evaluación externa de 2.325 claves distintas; no hay ese caché en el solver.
+
+En las 27 rondas que no recuperaron K2, la K2 verdadera tuvo mayor IDP que
+todas las candidatas del archivo, con margen de 0,1395 a 0,2998 sobre la mejor.
+En los cinco aciertos fue rango 1. Esto señala el límite observado de búsqueda;
+no demuestra un óptimo global ni identifica el idioma o cifrado de BLUME.
+
+Se comprobaron los 282 archivos criptográficos previos, incluidos los treinta
+de fase10: todos están intactos. Sólo se escribió en work/phase11_crypto.
+La revisión independiente se guarda fuera de esta carpeta por el auditor.
+
+Archivos y reproducción
+
+• capped_population_search.cpp y su binario: variante con tope local fijo.
+• phase10_frozen_classes.h y build_record.json: importación exacta auditada.
+• run_comparison.py: preparar casos y ejecutar exclusivamente comandos sellados.
+• sealed_design.json y manifest.json: diseño previo, verdad sellada, comandos,
+  presupuestos, costes reales y conservación.
+• truth.jsonl: verdad separada, usada sólo para evaluación externa.
+• search_outputs.jsonl: treinta y dos salidas sin verdad; estados y operaciones.
+• evaluate_external.py, external_evaluation.jsonl y verification.json: evaluación.
+• summary.json y run_diagnostics.json: resultados pareados y costes/estados.
+• RESOURCE_HASHES.json: hashes de todos los recursos de esta fase.
+
+Para comprobar resultados guardados, sin volver a buscar:
+/Users/javier/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 work/phase11_crypto/evaluate_external.py
+
+build_solver.py documenta la compilación. Los 32 comandos de sealed_design.json
+permiten reproducir cada búsqueda; el runner rechaza sobrescribir una ejecución.
+Con la misma semilla, binario y biblioteca estándar, la secuencia es reproducible
+si no corta por tiempo. Los tiempos varían con carga y entorno. Una réplica
+debe guardarse aparte, conservando estos archivos y los anteriores.
+
+Siguiente paso útil
+
+Hay un par adicional acertado, junto con una ronda perdida y cero recuperación
+larga. Antes de una búsqueda histórica, conviene comparar en otro piloto sellado
+un reparto que conserve tiempo para completar alguna pasada larga y mida por
+separado la frecuencia de renovación. No se ejecutó ese cambio ni se amplió
+este ensayo. No se obtuvo texto en claro de BLUME y no se descartó ningún
+idioma, cifrado o región de claves a partir de estos controles.

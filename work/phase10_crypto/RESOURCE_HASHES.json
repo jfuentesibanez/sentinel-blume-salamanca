@@ -1,0 +1,150 @@
+{
+  "phase": "10",
+  "files": [
+    {
+      "path": "ATTRIBUTION.txt",
+      "bytes": 699,
+      "sha256": "7a9b586472b5bdd944a454dfbeb0620888d4cc70f01e5a540c818ad6ec290eef"
+    },
+    {
+      "path": "LEEME.txt",
+      "bytes": 9865,
+      "sha256": "1e41c40e609e12ef4c5abfb14656b580858257643ba36d6b246f22ffd830b919"
+    },
+    {
+      "path": "LICENSE-CrypTool-2.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "ciphertexts/de_fold_12x15_20262001_T1.txt",
+      "bytes": 616,
+      "sha256": "78f1fde7b23a5402ce3e32e2db4cb199988552350db63324d97f628040f3d190"
+    },
+    {
+      "path": "ciphertexts/de_fold_12x15_20262001_T2.txt",
+      "bytes": 161,
+      "sha256": "76ebc96d44fac275ddd6afa97cd827f59a1d0f1351d459745eee6350aa7373e9"
+    },
+    {
+      "path": "ciphertexts/de_fold_12x15_20262002_T1.txt",
+      "bytes": 616,
+      "sha256": "13cc9de22d2be897b97c21d674d2af5e4160146c0d912fe7969cb2649e977305"
+    },
+    {
+      "path": "ciphertexts/de_fold_12x15_20262002_T2.txt",
+      "bytes": 161,
+      "sha256": "34c4bb49cb5b88acee47609a691d7098d8adf238c8e3d8f141ea932bf275e9ea"
+    },
+    {
+      "path": "ciphertexts/de_fold_20x25_20262001_T1.txt",
+      "bytes": 616,
+      "sha256": "4a27bc0e2f35e6e5ddbbcf648b655cc6d11067dbea727fe43c450ca082acff75"
+    },
+    {
+      "path": "ciphertexts/de_fold_20x25_20262001_T2.txt",
+      "bytes": 161,
+      "sha256": "4e18e1dbb7b1b8450c639a70625a866b86a01cf6f1eeb28b0ea0f8a02511a683"
+    },
+    {
+      "path": "ciphertexts/de_fold_20x25_20262002_T1.txt",
+      "bytes": 616,
+      "sha256": "6ff1f8035233584aadb56159af236413b135592563ffe77c41541909b73eb839"
+    },
+    {
+      "path": "ciphertexts/de_fold_20x25_20262002_T2.txt",
+      "bytes": 161,
+      "sha256": "99a3fb72d9d202da5cde4345b7de7e33c40972c2eba8f96c1d2b17ac83eb95a9"
+    },
+    {
+      "path": "ciphertexts/fr_fold_12x15_20262001_T1.txt",
+      "bytes": 616,
+      "sha256": "43dbb880071ca968358b970cb38a795c1e5bc7681d94df3564c7c8d5ad46ca84"
+    },
+    {
+      "path": "ciphertexts/fr_fold_12x15_20262001_T2.txt",
+      "bytes": 161,
+      "sha256": "201d2bbb6639397ca3c4ca91bed68e6ee7116081de48d1c1533d679a043c7f8b"
+    },
+    {
+      "path": "ciphertexts/fr_fold_12x15_20262002_T1.txt",
+      "bytes": 616,
+      "sha256": "69ccdf4eb3730626c07dba8b55d8fd89a1eed6f49daf2fb92b26bd4e3246fdbb"
+    },
+    {
+      "path": "ciphertexts/fr_fold_12x15_20262002_T2.txt",
+      "bytes": 161,
+      "sha256": "2600a14e645efe9d82e2007fa5bbbf5a5f2d27584d07346726929662d3cf7b9c"
+    },
+    {
+      "path": "ciphertexts/fr_fold_20x25_20262001_T1.txt",
+      "bytes": 616,
+      "sha256": "f22af269b47b4becd0dbdfc65327e2507d893a7d33854b64d29250eb34ce4c1a"
+    },
+    {
+      "path": "ciphertexts/fr_fold_20x25_20262001_T2.txt",
+      "bytes": 161,
+      "sha256": "93b49988d45a50793cc840b77ea0ab307b04d5345d67d834d65de37c4daf2578"
+    },
+    {
+      "path": "ciphertexts/fr_fold_20x25_20262002_T1.txt",
+      "bytes": 616,
+      "sha256": "ebb14e84b119b891e4920b8ad139ced3b291c383d5fb9cef583cb7756695e461"
+    },
+    {
+      "path": "ciphertexts/fr_fold_20x25_20262002_T2.txt",
+      "bytes": 161,
+      "sha256": "a7fa54912b9a6d6df9158bd09517cdf2eb3f888f8a83515e9f24eb55c0078dbf"
+    },
+    {
+      "path": "evaluate_external.py",
+      "bytes": 18259,
+      "sha256": "a32bdbfbebd6189e69e3d4d7d290671d74577eaf087d38b367d0a7f966695855"
+    },
+    {
+      "path": "external_evaluation.jsonl",
+      "bytes": 12853,
+      "sha256": "9c577b39ac686366390299acb0ca5afc144b4b87c452dd0be5619eebeee6a379"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 146349,
+      "sha256": "c1a7bf343ec2d26bcf421e85f87ea899af7f7dbc41e9e4023442b839b21cedc7"
+    },
+    {
+      "path": "population_search",
+      "bytes": 216750,
+      "sha256": "7c353d7e1b5de457313ef11e25a7f30cbd446266b1463bd9fdbd38d58e946091"
+    },
+    {
+      "path": "population_search.cpp",
+      "bytes": 9547,
+      "sha256": "0cc750150629d24391b333541b6d76f3edc2db1735d8a17bb8b2567900a4eaec"
+    },
+    {
+      "path": "run_comparison.py",
+      "bytes": 7750,
+      "sha256": "ce69a40dee779fa8f52fbfdd25df95373659cdca0ab3f1e101f1d62c8d5733f1"
+    },
+    {
+      "path": "search_outputs.jsonl",
+      "bytes": 1093848,
+      "sha256": "778b2419a87b43c9139b388281fbb1c5e2e18fd226d3a292b73a96a17838f877"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 14089,
+      "sha256": "af1adb4495992f5fc911d8099a53a0eb7730b704437224bd14932327f1d47a50"
+    },
+    {
+      "path": "truth.jsonl",
+      "bytes": 1902,
+      "sha256": "707a327ffe1b8a53bde8327d7f31a67d42996047bf9a1482cd1deecd818de7c1"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1626,
+      "sha256": "fc6bdd0c8f446bde6b549c15a694be87b894a3e4d81c85b2d42e4b86910f38f6"
+    }
+  ]
+}

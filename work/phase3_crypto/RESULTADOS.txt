@@ -1,0 +1,62 @@
+BLUME / SENTINEL — RESULTADOS DE FASE 3 (2026-10-01)
+
+Resultado principal: con K2 sintética proporcionada, K1 q3 recupera las 775
+letras exactamente en 100/100 controles conjuntos y 96/100 usando solo
+el mensaje largo. Son controles de la etapa K1, no un ataque completo.
+
+K1 oracle q3: 25 seeds por corpus y banda, 20261101–20261125.
+  12x15 / prose / mensajes=1: 25/25 exactas
+  12x15 / prose / mensajes=2: 25/25 exactas
+  20x25 / prose / mensajes=1: 24/25 exactas
+  20x25 / prose / mensajes=2: 25/25 exactas
+  12x15 / proxy / mensajes=1: 24/25 exactas
+  12x15 / proxy / mensajes=2: 25/25 exactas
+  20x25 / proxy / mensajes=1: 23/25 exactas
+  20x25 / proxy / mensajes=2: 25/25 exactas
+
+El ataque completo es un piloto exploratorio conocido por ancho: 1/32
+búsquedas recuperan ambas claves y ambos textos; single 1/16, joint 0/16.
+El único éxito es proxy 12x15, seed 20261013, puntuando solo el texto largo.
+Full usa 3 rondas, cada una pool1000→20→5, K1 q3 y refinamiento K2 q3.
+El IDP de la K2 original supera el de la etapa elegida en los 31 resultados
+positivos que fallaron. El componente K2 sigue limitado por la búsqueda.
+Ese contraste no prueba que todas las variantes de IDP o sus máximos globales
+estén bien calibrados, ni que todos los candidatos históricos sean españoles.
+
+  Full 12x15 / prose / mensajes=1: 0/5 exactas
+  Full 12x15 / prose / mensajes=2: 0/5 exactas
+  Full 20x25 / prose / mensajes=1: 0/5 exactas
+  Full 20x25 / prose / mensajes=2: 0/5 exactas
+  Full 12x15 / proxy / mensajes=1: 1/3 exactas
+  Full 12x15 / proxy / mensajes=2: 0/3 exactas
+  Full 20x25 / proxy / mensajes=1: 0/3 exactas
+  Full 20x25 / proxy / mensajes=2: 0/3 exactas
+
+Controles negativos: ciphertext barajado conservando letras/longitud,
+10 pares K1 oracle (20 búsquedas) y 6 pares full (12 búsquedas). Ninguno
+recupera las 775 letras originales. Q4 de full fallido se solapa con null:
+el recifrado correcto de un candidato solamente verifica la inversión.
+
+Coste interno agregado de los lotes definitivos: 224.393 s.
+Sin agotamiento de presupuesto en ninguna de esas 264 búsquedas.
+60 casos de geometría y 6780 movimientos de permutación pasan check.
+
+Source parcial: umbrales con subida 25%, guard estricto de empates y
+variante de 3-partite que permuta bloques de la clave completa. No se reclama
+réplica completa de Lasry/Kopal/Wacker. Full validado conserva snapshot
+exacto phase3_full_validated.cpp; la versión final solo alinea oracle q3
+y añade final_ngram. Los hashes originales se preservan y verifican.
+
+Siguiente hito: establecer el vecindario 3-partite original y mejorar los
+escapes/reinicios del K2-HC con controles nuevos, igual presupuesto y
+matrices irregulares. Solo después, piloto completo de 20–30 pares por
+banda/corpus para elegir un presupuesto histórico basado en evidencia.
+
+No se ejecutó esta versión sobre BLUME. No se ha descifrado BLUME y no se
+descarta ningún ancho, convención ni hipótesis histórica por estos fallos.
+
+Detalles, seeds y hashes: summary.json, METHOD.txt y manifiestos JSON.
+Código final SHA256:
+  phase3.cpp 659d485123aaceb5926177a7c2cc8306cb0c5c5e5964be6e2618e72ff59462df
+  ict_search.h 4167f43147969f6d3b2d943fb85a5ad306073098b4344d501d8f05f9e0bb57af
+  phase3_full_validated.cpp 2ad5c90f568c4257dd4ca13dca6a61a0809284d5fe1c03cabc5e206fc9f6da3d

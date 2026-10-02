@@ -1,0 +1,12 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "ledger.json": "e7def69b9845e2849f13ff44ec94b7379f5072c4df3c5bd0e737d9028e2ff58b",
+    "resultado.txt": "0e889cc6dec1c233f742200c5be773378b651f5ca619bbaca3358110be05712e",
+    "web-01.json": "d84d56b305320897729c69f369ffdb5fe3b5633b40284b754ec6c26b2b0d0d0a",
+    "web-02.json": "4b88a668512eefeae8df65bf8a18c0f05a5ab06eb26883a0d457708b1dbdebca",
+    "web-03.json": "763a31b73d7080b160a7de09ba10d93f3a0d2cb07e311b206995f621a3d01fc1",
+    "web-04.json": "cfa9dc736d2c7461c66a889ef973ee103b3b29c7fa0c44307b971f7059e31f14"
+  },
+  "self_excluded": "resource-hashes.json"
+}

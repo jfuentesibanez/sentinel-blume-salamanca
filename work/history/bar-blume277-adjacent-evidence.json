@@ -1,0 +1,318 @@
+{
+  "project": "Sentinel — BLUME SALAMANCA",
+  "created_date": "2026-10-01",
+  "scope": "Cotejo de originales próximos: Unterlagen_0000068, Unterlagen_0000070, Dokument_0000071 y cubierta Umschlag_0000067. No modifica evidencia de la fase 1 ni paquetes ya entregados.",
+  "archive": {
+    "repository": "Schweizerisches Bundesarchiv / Archives fédérales suisses (BAR)",
+    "reference": "E4320B#1974/47#277*",
+    "entity_id": 3578609,
+    "catalogue_title": "Spanische Revolution (Passvisas etc.)",
+    "catalogue_dates": "1936–1938",
+    "catalogue_url": "https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578609",
+    "subdossier": "Subdossier_0000066",
+    "source_ledgers": [
+      "work/history/bar-blume277-adjacent/manifest-source-ledger.json",
+      "work/history/bar-blume277-adjacent/images-source-ledger.json"
+    ]
+  },
+  "method": {
+    "visual_review": "Lectura de JPEG originales IIIF full/full; originales preservados sin alteración y con hashes SHA-256.",
+    "downloaded_images": 22,
+    "visually_reviewed_image_ids": [
+      "00000491",
+      "00000492",
+      "00000493",
+      "00000494",
+      "00000499",
+      "00000500",
+      "00000507",
+      "00000508",
+      "00000509",
+      "00000510",
+      "00000511",
+      "00000512",
+      "00000513",
+      "00000514",
+      "00000515",
+      "00000516",
+      "00000517",
+      "00000518"
+    ],
+    "downloaded_but_not_visually_reviewed": [
+      "00000495",
+      "00000496",
+      "00000497",
+      "00000498"
+    ],
+    "distinction": "Una lectura visual confirma lo que el documento dice; las declaraciones de sus autores no se convierten por ello en hechos externos corroborados. Las inferencias y ausencias se delimitan abajo."
+  },
+  "findings": [
+    {
+      "id": "APR19_TELEGRAM_REFERENCE",
+      "type": "original_visual_statement",
+      "document": "Carta de Aktiengesellschaft Hunziker & Cie., Zürich, a Herr Osswald en Burgos",
+      "document_date": "1937-04-19",
+      "internal_reference": "HU/Z",
+      "sources": [
+        {
+          "image_id": "00000513",
+          "piece": "Dokument_0000071",
+          "canvas_label": "1",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000071%2F00000513.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Dokument_0000071-00000513.jpg",
+          "sha256": "19e39e233879047fe5396bbfd7d23fa9c4f69acefc734abb62e482d7eeb459b6"
+        }
+      ],
+      "observation": "Hunziker describe un viaje por París y Londres, una reunión esperada con Oswald a su regreso a París y un telegrama llegado desde Zúrich avisando que Oswald no podía venir a París.",
+      "short_literal_quote": "Leider kam dann von Zürich ein Telegramm, dass Sie verhindert seien, nach Paris zu kommen.",
+      "known_content": "Aviso de que el destinatario Oswald no podía acudir a París. Es un resumen semántico de la carta, no el texto literal del telegrama perdido.",
+      "unknown": [
+        "Fecha exacta y número de telegrama",
+        "Remitente explícito",
+        "Dirección y lugar de recepción exactos",
+        "Si el telegrama estaba cifrado",
+        "Si usó el mismo sistema o clave que los telegramas de enero",
+        "Si el original subsiste"
+      ],
+      "date_constraint": "Anterior o, como máximo, contemporáneo a la carta de 19 de abril de 1937; la narración lo presenta como ya recibido.",
+      "inferences": [
+        {
+          "claim": "Hunziker parece haber sido el receptor del aviso en el contexto del viaje.",
+          "status": "inferencia contextual"
+        },
+        {
+          "claim": "París como destino postal del telegrama.",
+          "status": "inferencia; la carta no proporciona dirección de entrega"
+        },
+        {
+          "claim": "Werner Oswald podría haber transmitido el aviso desde Zúrich.",
+          "status": "hipótesis; la carta no identifica remitente"
+        }
+      ],
+      "chronology_caution": "La misma carta menciona una reunión futura en París el día 28 del mes corriente; esa fecha no puede asignarse al telegrama anterior."
+    },
+    {
+      "id": "APR19_ADDRESS_AND_REPLY",
+      "type": "original_visual_statement",
+      "document_date": "1937-04-19",
+      "sources": [
+        {
+          "image_id": "00000513",
+          "piece": "Dokument_0000071",
+          "canvas_label": "1",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000071%2F00000513.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Dokument_0000071-00000513.jpg",
+          "sha256": "19e39e233879047fe5396bbfd7d23fa9c4f69acefc734abb62e482d7eeb459b6"
+        },
+        {
+          "image_id": "00000515",
+          "piece": "Dokument_0000071",
+          "canvas_label": "3",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000071%2F00000515.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Dokument_0000071-00000515.jpg",
+          "sha256": "2444f5b36c031ac1fcc7c02cb4a6650f5b980906850a41df4e7324533ac15976"
+        }
+      ],
+      "literal_address": "Herrn Osswald in Burgos, Banco Guipuzoano / San Sebastian. (Spanien)",
+      "manuscript_addition": "Viktor añadido a mano por autor y en fecha no determinados.",
+      "search_spelling_caution": "Guipuzoano es la grafía literal del documento. Guipuzcoano puede usarse como variante normalizada de búsqueda, sin corregir silenciosamente la transcripción.",
+      "observation": "La negociación se había tramitado por el hermano Dr. Osswald en Zúrich. Al cierre se solicita respuesta dirigida a Zúrich y se indican fotografías adjuntas.",
+      "limit": "Es correspondencia de propuesta/negociación; no acredita una entrega. Se omiten detalles técnicos y cantidades."
+    },
+    {
+      "id": "APR20_IDENTITY_NOTE",
+      "type": "original_visual_administrative_statement",
+      "document": "Nota del Polizeidienst de la Bundesanwaltschaft",
+      "date_as_stamped": "1937-04-20",
+      "sources": [
+        {
+          "image_id": "00000517",
+          "piece": "Dokument_0000071",
+          "canvas_label": "5",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FDokument_0000071%2F00000517.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Dokument_0000071-00000517.jpg",
+          "sha256": "b3e490ff4ce58e938b3a6d94892077af38ed8e3fcd6c6a37e8898d4e2ac5680d"
+        }
+      ],
+      "observation": "Identifica al destinatario como Viktor Oswald, nacido el 15 de noviembre de 1909, empleado bancario en Burgos, y al intermediario en Zúrich como Werner Oswald, Dr. ing., nacido el 16 de marzo de 1904, con oficina en Bahnhofstrasse 12.",
+      "limit": "Esta identificación de la carta no identifica por sí misma a BLUME ni prueba que el telegrama adicional se dirigiera a BLUME."
+    },
+    {
+      "id": "APR19_DIPLOMATIC_COURIER",
+      "type": "original_visual_statement",
+      "document": "Carta de Hunziker & Cie. al Diplomatischen Kurier, Departement des Aeussern, Bern/Bundeshaus",
+      "document_date": "1937-04-19",
+      "sources": [
+        {
+          "image_id": "00000511",
+          "piece": "Unterlagen_0000070",
+          "canvas_label": "5",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000070%2F00000511.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Unterlagen_0000070-00000511.jpg",
+          "sha256": "b0fbf04d5a72d29238c7cc723c3ae0d732ad71ba22e5a6b000968d6e654b1de9"
+        }
+      ],
+      "observation": "Solicita remitir urgentemente a Herr Osswald en Burgos una carta comercial adjunta; permite cargar los costes a la firma o a Oswald. Consta una carta como adjunto.",
+      "later_stamp": "1937-06-09, Bundesanwaltschaft",
+      "case_reference": "C.8.1",
+      "limit": "El 9 de junio corresponde al sello de recepción del archivo administrativo, no a la fecha de redacción. La hoja no aporta número ni texto del telegrama sobre París."
+    },
+    {
+      "id": "APR27_WERNER_SEARCH_ORDER",
+      "type": "original_visual_administrative_statement",
+      "document": "Hausdurchsuchungsbefehl / Mandat de perquisition contra Werner Oswald",
+      "order_date": "1937-04-27",
+      "sources": [
+        {
+          "image_id": "00000507",
+          "piece": "Unterlagen_0000070",
+          "canvas_label": "1",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000070%2F00000507.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Unterlagen_0000070-00000507.jpg",
+          "sha256": "d1493cbf71e2030bfc35213fa675a2624e1eebd72ac7f46e372881b399f56501"
+        }
+      ],
+      "case_reference": "C.8/1",
+      "observation": "Orden federal de registro con oficina Bahnhofstrasse 12 y domicilio Schmelzbergstrasse 22, Zúrich. Se investiga sospecha de infracción de las medidas suizas de 25 de agosto de 1936 sobre participación en las hostilidades en España.",
+      "execution_note": {
+        "date": "1937-04-28",
+        "place": "Despacho de Bahnhofstrasse 12, Zúrich",
+        "result_as_noted": "Registro limitado al despacho y efectuado sin incidente."
+      },
+      "limited_absence": "En esta orden no se ve inventario de papeles incautados ni relación de libros de cifra o claves.",
+      "limit": "Sospecha e investigación, no condena. La ausencia de inventario en esta hoja no prueba que no se hiciera uno en otro documento."
+    },
+    {
+      "id": "APR27_HUNZIKER_SEARCH_ORDER",
+      "type": "original_visual_administrative_statement",
+      "document": "Hausdurchsuchungsbefehl / Mandat de perquisition contra Hans Hunziker",
+      "order_date": "1937-04-27",
+      "sources": [
+        {
+          "image_id": "00000509",
+          "piece": "Unterlagen_0000070",
+          "canvas_label": "3",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000070%2F00000509.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Unterlagen_0000070-00000509.jpg",
+          "sha256": "c03ab81dc4924df8344d2e5c8553e381d0551222973f3bb8d4cd44dd0b686c74"
+        }
+      ],
+      "case_reference": "C.8/1",
+      "observation": "Orden contra Hans Hunziker de Hunziker & Cie. AG, oficina Bahnhofplatz 1, Zúrich, domicilio Brugg.",
+      "limit": "No se ve anotación de ejecución en esta hoja; no se concluye que el registro se ejecutó el 27 o 28 de abril."
+    },
+    {
+      "id": "MAY12_HUNZIKER_TESTIMONY",
+      "type": "original_visual_recorded_testimony",
+      "document": "Interrogatorio de Hans Hunziker, Kriminalpolizei Zürich",
+      "document_date": "1937-05-12",
+      "time": "15:00",
+      "sources": [
+        {
+          "image_id": "00000499",
+          "piece": "Unterlagen_0000068",
+          "canvas_label": "5",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000068%2F00000499.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Unterlagen_0000068-00000499.jpg",
+          "sha256": "3546ca39f2cbcc4ac744490ba351990a3c77e09dbfaec70d05ae9b5621c94ed1"
+        },
+        {
+          "image_id": "00000500",
+          "piece": "Unterlagen_0000068",
+          "canvas_label": "6",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000068%2F00000500.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Unterlagen_0000068-00000500.jpg",
+          "sha256": "584a16a9a9f1bfa13efeee7b50872706ddd29e1468d9bd1c0293b2ed1bc4eed8"
+        }
+      ],
+      "observation": "Ante la carta dirigida a Oswald en Burgos, Hunziker declara haber acudido a Werner en Zúrich por las conexiones del hermano en España. Dice que Werner anunció un encuentro con el hermano en París, que el encuentro no se produjo y que no poseía más documentos relativos a esos negocios; declara que la carta incautada era la primera intercambiada con Oswald.",
+      "explanation_by_witness": "Hunziker interpreta que la carta destinada al correo diplomático había sido controlada/interceptada y por eso Oswald no pudo conocerla.",
+      "limits": [
+        "La explicación del fracaso del encuentro es la interpretación de Hunziker, no una prueba independiente de que Oswald no recibiera la carta.",
+        "La declaración de no tener más documentos no demuestra ausencia en todos los archivos.",
+        "No se identifican automáticamente el encuentro pasado de la carta del 19 de abril, el futuro día 28 ni el relatado el 12 de mayo como una sola cita.",
+        "No aparece una clave de cifrado en estas dos páginas."
+      ],
+      "disambiguation": "Hans Hunziker de Brugg; las páginas 495–498 del mismo objeto corresponden, según OCR aún no cotejado aquí, a otra persona llamada Gottlieb Hunziker y no deben fusionarse con este testimonio."
+    },
+    {
+      "id": "SUBDOSSIER_COVER",
+      "type": "original_visual_administrative_label",
+      "sources": [
+        {
+          "image_id": "00000491",
+          "piece": "Umschlag_0000067",
+          "canvas_label": "1",
+          "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUmschlag_0000067%2F00000491.jpg/full/full/0/default.jpg",
+          "local_path": "work/history/bar-blume277-adjacent/images/Umschlag_0000067-00000491.jpg",
+          "sha256": "35f6322fdcaf8b3d412e514dd2d9019c87bade630bd3d62dd5878279d9849628"
+        }
+      ],
+      "literal_person_labels": [
+        "Hunziker Hans",
+        "Osswald Viktor u. Werner"
+      ],
+      "case_reference": "C8.1",
+      "topic_paraphrase": "Negociaciones sobre suministros militares para España.",
+      "limit": "El agrupamiento archivístico de estas piezas y los telegramas de enero no prueba que el contenido de aquellos telegramas tratara de tales suministros."
+    }
+  ],
+  "limited_negative_observations": [
+    {
+      "scope": "Imágenes 507–518 y 491–494 cotejadas",
+      "observation": "No se localiza otro original de telegrama ni una clave; los reversos contienen transparencia del anverso o marcas sin texto independiente legible."
+    },
+    {
+      "scope": "Imágenes 499–500 cotejadas",
+      "observation": "No se localiza clave ni identificación de BLUME en el interrogatorio de Hans Hunziker."
+    },
+    {
+      "scope": "Búsqueda por OCR de Patvag, Blume, Oswald/Osswald, Salamanca, Wollimport/Wollimporteur y Schlüssel en work/history/bar-blume277-ocr",
+      "observation": "Las coincidencias se concentran en Dokument_0000069, Unterlagen_0000068, Unterlagen_0000070, Dokument_0000071 y Unterlagen_0000072. No se identificó otra pieza por esos términos.",
+      "limit": "No equivale a ausencia de documentos en el expediente: el OCR de manuscritos y cubiertas es defectuoso."
+    }
+  ],
+  "prioritized_followup": [
+    {
+      "priority": 1,
+      "target": "Original o registro del telegrama de Zúrich sobre la reunión de París, recibido antes del 19 de abril de 1937.",
+      "concrete_search_points": [
+        "Correspondencia entrante de Hunziker & Cie., referencia de carta HU/Z, oficina Bahnhofplatz 1",
+        "Correspondencia saliente de Werner Oswald/PATVAG, Bahnhofstrasse 12, Zúrich",
+        "Fechas del viaje París–Londres–París de Hunziker para estrechar la ventana"
+      ],
+      "cryptanalytic_value": "Si se recupera un mensaje cifrado, la carta ofrece el sentido del aviso; antes de usarlo como texto conocido debe establecerse su sistema y relación con los telegramas de enero."
+    },
+    {
+      "priority": 2,
+      "target": "Acta e inventario del registro de la oficina de Werner del 28 de abril de 1937.",
+      "concrete_search_points": [
+        "C.8.1 / C.8/1",
+        "Bahnhofstrasse 12, Zúrich",
+        "Kriminalpolizei Zürich y Bundesanwaltschaft"
+      ],
+      "limit": "La orden confirma ejecución pero no adjunta inventario."
+    },
+    {
+      "priority": 3,
+      "target": "Remisión o control del correo diplomático de la carta de Hunziker del 19 de abril de 1937.",
+      "concrete_search_points": [
+        "Diplomatischen Kurier, Departement des Aeussern, Bern/Bundeshaus",
+        "Destinatario Osswald, Burgos; dirección Banco Guipuzoano/San Sebastian",
+        "Sello de entrada BA del 9 de junio de 1937"
+      ],
+      "limit": "Ruta de búsqueda derivada de fuentes; no se afirma que existan copias adicionales accesibles."
+    }
+  ],
+  "unresolved": [
+    "Identidad de BLUME",
+    "Texto y clave de los telegramas de enero",
+    "Existencia, fecha, remitente, dirección y cifrado del telegrama adicional",
+    "Relación causal entre los telegramas de enero y las negociaciones documentadas en abril"
+  ],
+  "preservation": {
+    "new_sources_directory": "work/history/bar-blume277-adjacent",
+    "existing_phase1_and_delivered_package_modified": false,
+    "downloaded_originals_bytes": 23525688
+  }
+}

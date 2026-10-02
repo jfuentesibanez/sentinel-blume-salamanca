@@ -1,0 +1,32 @@
+{
+  "algorithm": "sha256",
+  "resources": [
+    {
+      "path": "consulta_enviada.txt",
+      "sha256": "b389b73036c7cd9c5df47fcbe74ef96ad31f90b8e4af5bf94426351926309b91",
+      "bytes": 6906
+    },
+    {
+      "path": "consulta_preparada.txt",
+      "sha256": "b389b73036c7cd9c5df47fcbe74ef96ad31f90b8e4af5bf94426351926309b91",
+      "bytes": 6906
+    },
+    {
+      "path": "crypto_propuesta.txt",
+      "sha256": "a7538f07b9d0858f1954a1dddadccbb1d227cee5fb627f2d36fc255c1eb11eef",
+      "bytes": 5859
+    },
+    {
+      "path": "estado_envio.json",
+      "sha256": "141aa8dfc1e41b3fdc7447015d87aff41dabd41503bb5f0256daa691cb410ad6",
+      "bytes": 1176
+    },
+    {
+      "path": "paaa_cotejo_principal.json",
+      "sha256": "5e6f6c58943d510a26e10cb236af2b9237473f8aa94919e5ca76ca932a5c6e54",
+      "bytes": 8429
+    }
+  ],
+  "self_excluded": true,
+  "send_confirmed": false
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "scope": "Independent saved-result audit; no search rerun and no K1 test",
+  "pairs": 8,
+  "rows": 32,
+  "ciphertexts_reconstructed": 16,
+  "archive_scores_checked": 160,
+  "perturbations_checked": 100,
+  "true_scores_higher_in_all_rows_without_key": 25,
+  "totals": {
+    "restart": {
+      "archive_hits_in_rounds": 3,
+      "objective_calls": 1600000,
+      "seconds": 70.712953085,
+      "cases": [
+        "de_fold_12x15_20261901",
+        "de_fold_12x15_20261902"
+      ]
+    },
+    "ils": {
+      "archive_hits_in_rounds": 4,
+      "objective_calls": 1600000,
+      "seconds": 70.894035375,
+      "cases": [
+        "de_fold_12x15_20261901",
+        "de_fold_12x15_20261902"
+      ]
+    }
+  },
+  "protected_previous_crypto_files": 222,
+  "script_sha256": "84f571d12fef4b9f820748e5adbd2b491b60ead5b952ad7d1d10a43ba9160498",
+  "limits": [
+    "K2-only trial, known widths, same literary corpora, new seeds.",
+    "Equal IDP call counts do not establish equal CPU cost.",
+    "Only saved candidates and perturbations were rescored; all proposals are not logged.",
+    "No historical plaintext, key or language finding."
+  ]
+}

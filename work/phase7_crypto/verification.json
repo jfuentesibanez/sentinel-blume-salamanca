@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "rows_checked": 16,
+  "plaintexts_checked": 32,
+  "rng_truth_cases_checked": 8,
+  "independent_score_checks": 64,
+  "protected_input_files_checked": 12,
+  "frozen_inputs_unchanged": true,
+  "truth_not_disclosed_to_solver": "Source reviewed: source_full receives used ciphertext, widths, model, search seed and budgets. Planted truth is accessed only after solver return to evaluate results.",
+  "artifact_sha256": {
+    "run_language_full_controls.py": "ba69dafc596c46a5be6c3917f5fa68b3574a85eee3acbc356adcfeb670dd218e",
+    "regenerate_planted_keys.cpp": "5731a9a660d304a03b5b3dc84e5af2e9793d8109545d17fcf7acf57026b2d2f5",
+    "regenerate_planted_keys": "918dcce58ba8fe6321f866b1bec839345444574db0e2e85df3c168c96a7836af",
+    "verify_language_full_controls.py": "23bf5299d6a8585ebf5bcfea5b67a9a1ce80a2e8d5fc31acbcb67d3970f85677",
+    "full_language_controls.jsonl": "a7b7f5bbf53d74108a0c5b1456a6f9dc7f296dd9cdd5e0e7e770c8410bd05727",
+    "full_language_manifest.json": "fcf25c329f3795a3b2d97b3f39e5e6737cc3a1eac3d85729978d888330e8cfe9",
+    "full_language_summary.json": "3dd8cf408c17ae5ec1a3d0ed3058d9930a89821faff5596b55fcbf3bf811cdbc"
+  }
+}

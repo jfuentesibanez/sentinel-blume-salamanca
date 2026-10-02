@@ -1,0 +1,11 @@
+CrypTool 2 movement-generation algorithm
+Copyright (C) CrypTool 2 Team
+Licensed under Apache License, Version 2.0; see LICENSE-CrypTool-2.txt.
+Pinned commit: bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c
+https://github.com/CrypToolProject/CrypTool-2
+
+The frozen adaptation work/phase4_crypto/source_moves.h is imported unchanged.
+Phase9 adds metered K2 restart/perturbation search, a bounded deduplicated archive
+and operation traces. Its objective is the frozen local IDP implementation,
+inspired by Lasry/Kopal/Wacker and Lasry2018. This pilot does not claim an exact
+reproduction of their complete attack or of every CrypTool search parameter.

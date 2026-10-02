@@ -1,0 +1,200 @@
+{
+  "kind": "oracle stage diagnostic on synthetic controls only",
+  "elapsed_seconds": 66.2267352080089,
+  "true_keys_access": "Conditional oracle objectives explicitly disclose one planted key; original solve is never invoked with truth. No BLUME runs.",
+  "commands": [
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "12",
+        "15",
+        "20261001",
+        "4",
+        "10000",
+        "1000",
+        "2,4,8,6,14,10,0,11,9,3,1,13,7,5,12"
+      ],
+      "source_control_seed": 20261001,
+      "corpus": "holdout_es.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "12",
+        "15",
+        "20261002",
+        "4",
+        "10000",
+        "1000",
+        "13,2,3,12,8,7,6,14,10,1,9,4,11,5,0"
+      ],
+      "source_control_seed": 20261002,
+      "corpus": "holdout_es.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "12",
+        "15",
+        "20261003",
+        "4",
+        "10000",
+        "1000",
+        "14,11,4,8,10,2,5,0,1,12,6,3,9,13,7"
+      ],
+      "source_control_seed": 20261003,
+      "corpus": "holdout_es.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "12",
+        "15",
+        "20261001",
+        "4",
+        "10000",
+        "1000",
+        "3,0,12,4,7,14,8,6,13,11,1,9,10,5,2"
+      ],
+      "source_control_seed": 20261001,
+      "corpus": "holdout_proxy.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "12",
+        "15",
+        "20261002",
+        "4",
+        "10000",
+        "1000",
+        "6,5,9,11,3,12,14,10,1,13,2,0,4,7,8"
+      ],
+      "source_control_seed": 20261002,
+      "corpus": "holdout_proxy.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "12",
+        "15",
+        "20261003",
+        "4",
+        "10000",
+        "1000",
+        "8,11,4,13,5,1,3,0,10,12,6,14,7,2,9"
+      ],
+      "source_control_seed": 20261003,
+      "corpus": "holdout_proxy.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "20",
+        "25",
+        "20261001",
+        "4",
+        "10000",
+        "1000",
+        "20,2,6,4,11,12,16,19,3,15,17,13,5,23,18,9,10,21,8,0,1,22,7,24,14"
+      ],
+      "source_control_seed": 20261001,
+      "corpus": "holdout_es.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "20",
+        "25",
+        "20261002",
+        "4",
+        "10000",
+        "1000",
+        "14,24,10,9,5,12,17,1,22,19,7,20,11,6,16,13,18,21,23,15,3,0,8,2,4"
+      ],
+      "source_control_seed": 20261002,
+      "corpus": "holdout_es.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt",
+        "20",
+        "25",
+        "20261003",
+        "4",
+        "10000",
+        "1000",
+        "10,8,23,14,1,21,11,12,0,5,16,3,22,18,7,6,17,4,15,13,24,19,2,20,9"
+      ],
+      "source_control_seed": 20261003,
+      "corpus": "holdout_es.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261001",
+        "4",
+        "10000",
+        "1000",
+        "16,0,4,20,17,12,10,18,8,9,2,14,22,13,15,7,21,19,23,11,3,5,1,24,6"
+      ],
+      "source_control_seed": 20261001,
+      "corpus": "holdout_proxy.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261002",
+        "4",
+        "10000",
+        "1000",
+        "7,22,24,2,4,10,23,3,21,19,5,20,8,9,11,13,14,6,15,1,0,16,18,12,17"
+      ],
+      "source_control_seed": 20261002,
+      "corpus": "holdout_proxy.txt"
+    },
+    {
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase2_crypto/oracle_diagnostic",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261003",
+        "4",
+        "10000",
+        "1000",
+        "5,15,16,13,20,0,22,3,21,24,23,8,11,12,18,19,1,9,10,7,6,2,14,4,17"
+      ],
+      "source_control_seed": 20261003,
+      "corpus": "holdout_proxy.txt"
+    }
+  ],
+  "base_source_sha256": "445afbaf9f85c17c0661515634ee16a58dced5da80e15e0b54ea8868a093fefe"
+}

@@ -1,0 +1,248 @@
+{
+  "phase": "7",
+  "scope": "Small paired synthetic pilot; no robust recovery calibration, no historical attack",
+  "rows": 16,
+  "planted_pairs": 8,
+  "models": [
+    "de_fold",
+    "fr_fold"
+  ],
+  "keys_disclosed": false,
+  "widths_disclosed": true,
+  "exact_both_plaintexts": 4,
+  "budget_expired_rows": 8,
+  "cells": [
+    {
+      "language_model": "de_fold",
+      "w1": 12,
+      "w2": 15,
+      "messages_scored": 1,
+      "denominator": 2,
+      "exact_both_plaintexts": 1,
+      "exact_k1": 1,
+      "exact_k2": 1,
+      "stage_exact_k2": 1,
+      "budget_expired": 0,
+      "idp_evaluations": 206040,
+      "seconds": 4.479143543,
+      "correct_letters": [
+        [
+          125,
+          32
+        ],
+        [
+          615,
+          160
+        ]
+      ],
+      "true_minus_selected_idp": [
+        0.14767135999999992,
+        0.0
+      ]
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 12,
+      "w2": 15,
+      "messages_scored": 2,
+      "denominator": 2,
+      "exact_both_plaintexts": 1,
+      "exact_k1": 1,
+      "exact_k2": 1,
+      "stage_exact_k2": 1,
+      "budget_expired": 0,
+      "idp_evaluations": 237280,
+      "seconds": 6.937435876,
+      "correct_letters": [
+        [
+          67,
+          17
+        ],
+        [
+          615,
+          160
+        ]
+      ],
+      "true_minus_selected_idp": [
+        0.18747223999999996,
+        0.0
+      ]
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 20,
+      "w2": 25,
+      "messages_scored": 1,
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "exact_k1": 0,
+      "exact_k2": 0,
+      "stage_exact_k2": 0,
+      "budget_expired": 2,
+      "idp_evaluations": 500302,
+      "seconds": 32.66413162,
+      "correct_letters": [
+        [
+          55,
+          12
+        ],
+        [
+          31,
+          8
+        ]
+      ],
+      "true_minus_selected_idp": [
+        0.23945742199999964,
+        0.2055526379999999
+      ]
+    },
+    {
+      "language_model": "de_fold",
+      "w1": 20,
+      "w2": 25,
+      "messages_scored": 2,
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "exact_k1": 0,
+      "exact_k2": 0,
+      "stage_exact_k2": 0,
+      "budget_expired": 2,
+      "idp_evaluations": 482530,
+      "seconds": 33.57026879,
+      "correct_letters": [
+        [
+          40,
+          12
+        ],
+        [
+          50,
+          11
+        ]
+      ],
+      "true_minus_selected_idp": [
+        0.2879734059999999,
+        0.263567836
+      ]
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 12,
+      "w2": 15,
+      "messages_scored": 1,
+      "denominator": 2,
+      "exact_both_plaintexts": 1,
+      "exact_k1": 1,
+      "exact_k2": 1,
+      "stage_exact_k2": 1,
+      "budget_expired": 0,
+      "idp_evaluations": 200360,
+      "seconds": 4.364647457,
+      "correct_letters": [
+        [
+          615,
+          160
+        ],
+        [
+          39,
+          15
+        ]
+      ],
+      "true_minus_selected_idp": [
+        0.0,
+        0.22564316599999978
+      ]
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 12,
+      "w2": 15,
+      "messages_scored": 2,
+      "denominator": 2,
+      "exact_both_plaintexts": 1,
+      "exact_k1": 1,
+      "exact_k2": 1,
+      "stage_exact_k2": 1,
+      "budget_expired": 0,
+      "idp_evaluations": 225920,
+      "seconds": 6.662349665000001,
+      "correct_letters": [
+        [
+          91,
+          22
+        ],
+        [
+          615,
+          160
+        ]
+      ],
+      "true_minus_selected_idp": [
+        0.21269018299999987,
+        0.0
+      ]
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 20,
+      "w2": 25,
+      "messages_scored": 1,
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "exact_k1": 0,
+      "exact_k2": 0,
+      "stage_exact_k2": 0,
+      "budget_expired": 2,
+      "idp_evaluations": 500479,
+      "seconds": 32.45721404,
+      "correct_letters": [
+        [
+          47,
+          11
+        ],
+        [
+          43,
+          14
+        ]
+      ],
+      "true_minus_selected_idp": [
+        0.14695414399999995,
+        0.13728074099999965
+      ]
+    },
+    {
+      "language_model": "fr_fold",
+      "w1": 20,
+      "w2": 25,
+      "messages_scored": 2,
+      "denominator": 2,
+      "exact_both_plaintexts": 0,
+      "exact_k1": 0,
+      "exact_k2": 0,
+      "stage_exact_k2": 0,
+      "budget_expired": 2,
+      "idp_evaluations": 486868,
+      "seconds": 33.73853717,
+      "correct_letters": [
+        [
+          41,
+          27
+        ],
+        [
+          33,
+          16
+        ]
+      ],
+      "true_minus_selected_idp": [
+        0.1950494439999999,
+        0.18104016999999972
+      ]
+    }
+  ],
+  "limits": [
+    "Two seeds per model and band, paired single/joint rows; no independent success-rate estimate.",
+    "Literary holdout from one work per language; no 1937 telegram register coverage.",
+    "Key widths known, conv0 only, shared keys, no padding; easier than unrestricted BLUME search.",
+    "No language-specific shuffled negatives in this pilot.",
+    "Failure does not exclude a language, double transposition, widths or key regions.",
+    "The log's budget_expired flag combines stages and rounds; it does not identify the exhausted stage or cause."
+  ]
+}

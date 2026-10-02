@@ -1,0 +1,121 @@
+Sentinel — comparación crítica con la primera respuesta de Claude
+2 de octubre de 2026. Sin búsquedas ni controles nuevos.
+Fuente: work/phase13_claude/claude_respuesta1_ax.txt, sección C y alcance inicial.
+
+Lo aprovechable
+
+Claude distingue el ranking observado de la verdad de un óptimo global y de
+la validez sobre BLUME. Recomienda casos nuevos, presupuesto fijo, métricas
+externas y contar barridos completos. Los arranques próximos a K2 y los nulos
+pueden ser diagnósticos útiles si se declaran, se presupuestan y se interpretan
+por separado. No confirmó las transcripciones: admite no haber leído las
+imágenes BAR/MDZ y haber hecho una consulta pública. Su respuesta no añade una
+verificación documental de esos originales ni un descifrado.
+
+Su diseño 2×2 no aísla bien el refresco
+
+Propone cap infinito/20.000 y renovación cada cuatro hijos procesados/convergidos.
+Con cap infinito, todo hijo que acaba antes del corte global es convergido.
+Ambos contadores coinciden hasta el terminal, cuando no debe renovarse. Esos
+dos brazos tienen la misma política efectiva, no dos tratamientos distintos.
+Con cap de 20.000, en cambio, la regla puede cambiar la frecuencia de renovación.
+El efecto queda ligado a producir parciales; no es un efecto de refresco
+independiente del cap.
+
+Además, con nuestra convención de excluir la escalada inicial del contador de
+hijos, si todas las escaladas usan 20.000 llamadas, renovar tras cuatro hijos
+exigiría 7.000 de preparación + 20.000 iniciales + 4×(20.000+1 de perturbación)
+= 107.004 llamadas. No cabe en 100.000. Un terminal global puede contar como
+procesado, pero no activa una renovación. Harían falta suficientes convergencias
+tempranas para que la regla llegue a ejecutarse. No sabemos si las habrá en
+casos nuevos. Es posible comparar brazos que nunca llegan a diferenciarse.
+
+Nuestra propuesta de preparación fija a 50.000 con fusión no/sí evita ese
+problema. Todos puntúan el mismo pool y pagan 7.000; sólo cambia incorporarlo
+como padres. Aísla la fusión con su regla de usos, NO la renovación completa
+frente a dedicar esas llamadas a buscar. Su corte de etapa también debe quedar
+declarado como operador común, con las ambigüedades de RNG/uses y de retorno
+terminal resueltas en crypto_revision_interna.txt.
+
+20.000 no garantiza barridos completos en todos los hijos
+
+20.000 permite un barrido de 16.649 desde una escalada con presupuesto suficiente.
+Quedan 3.351 propuestas de una segunda pasada: normalmente un retorno parcial
+si la primera mejoró. Un hijo tardío puede disponer de menos de 16.649 llamadas
+globales; un corte de tiempo también puede impedir terminar. No hay garantía
+de convergencia ni de un barrido por cada escalada.
+
+La regla de abortar por falta de barridos debe indicar si exige al menos uno
+en cada corrida con presupuesto suficiente, o uno por hijo. Lo segundo es
+incompatible con admitir cortes globales legítimos. Un fallo de auditoría
+justifica detener; falta de recuperación o una terminación parcial prevista
+son resultados que registrar, no motivos para redefinir el ensayo.
+
+Controles nuevos: útiles, pero sin presupuesto ni aislamiento
+
+Arrancar a Hamming 2/4/8 de K2 usa información de la verdad. Puede medir
+recuperación local desde un arranque informado; no valida el ataque ciego ni
+una cuenca de atracción general. Hay que fijar número de perturbaciones,
+semillas, geometría, método y llamadas, conservar la construcción fuera del
+solver y marcar su modo como control con arranque privilegiado.
+
+Los nulos requieren fijar qué se baraja, por mensaje, sus semillas y coste
+de búsqueda. Los 32 ensayos principales ya gastan 3.200.000 llamadas. Si cada
+uno de ocho pares añade tres arranques cercanos y un nulo de 100.000 llamadas,
+incluso con un solo método por control, son otras 32 corridas: 6.400.000 en
+total. Con otros presupuestos el coste cambiaría; Claude no los especifica.
+No añadirlos gratis al manifiesto ni reutilizar resultados para elegir seeds.
+
+32 corridas es coherente con ocho pares × cuatro políticas × UNA ronda. No
+incluye dos rondas ni los controles adicionales. Si se necesitan dos rondas
+por par, serían 64 corridas principales. Elegir una estructura antes de correr.
+
+Un nulo alto no invalida por sí solo el scorer
+
+El máximo IDP buscado sobre un ciphertext barajado se compara con una clave
+fija en otro ciphertext. Son objetos distintos y el máximo incorpora selección
+entre muchas propuestas. El IDP es una heurística de ranking, no una prueba
+calibrada de presencia de lenguaje ni una garantía de máximo en la verdad.
+Un nulo que lo supere cuestiona su poder discriminante o una regla de umbral;
+no demuestra por sí solo un error de implementación ni inutilidad universal.
+
+Mostrar distribución de nulos con búsqueda de igual coste y márgenes por caso.
+Si se desea un criterio de descarte, definir exactamente qué capacidad se
+requiere y qué panel de controles la contradice. No abortar todo el piloto
+porque un único nulo supere una puntuación de referencia. Esto es coherente
+con la propia advertencia de Claude de que pueden existir claves falsas con
+IDP mayor que el verdadero.
+
+6/8 no es una prueba de superioridad
+
+Claude propone no declarar ganador sin seis de ocho comparaciones a favor,
+pero no define contraste, empate ni métrica que decide el favor. La regla
+puede ser un umbral práctico previamente elegido; no es una justificación
+estadística. Incluso suponiendo ocho comparaciones independientes, sin empates,
+y bajo la hipótesis de que cada método gane con probabilidad 1/2,
+P(al menos seis victorias)=37/256≈0,145;
+bilateral≈0,289. La selección entre cuatro políticas y varios contrastes exige
+más cautela. La dependencia entre rondas/modelos puede complicarlo aún más.
+
+Informar diferencias pareadas, aciertos, pérdidas, empates y coste. Si todos
+fallan, no sustituir después recuperación exacta por IDP para proclamar ganador.
+Ni cuatro ni ocho pares estiman una tasa fiable del telegrama histórico.
+
+Otra métrica incompleta
+
+«Evaluaciones hasta el primer acierto» necesita instrumentación sin verdad
+en el solver. El archivo final no conserva cuándo apareció una clave. Registrar
+cambios del top5 permite evaluar externamente la primera ENTRADA de la K2
+verdadera en top5, que no es necesariamente su primera evaluación. No pasar
+la verdad al solver para detenerlo antes o medirla durante la búsqueda.
+
+Qué pedir a Claude en la revisión
+
+1. Sustituir la renovación dependiente de hijos por un contraste que realmente
+   opere en ambos caps; especificar su presupuesto y efecto sobre uses/RNG.
+2. Separar ranking heurístico, discriminación frente a nulos y errores de código;
+   retirar el aborto automático por un nulo y justificar cualquier regla 6/8.
+3. Cerrar la cuenta completa de controles/rondas antes de proponer ejecutarlos.
+
+No adoptar este plan tal como está. Resolver el diseño antes de sellar código
+y casos. No se ha ejecutado nada ni se han alterado fases criptográficas previas.

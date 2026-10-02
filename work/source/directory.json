@@ -1,0 +1,210 @@
+[
+  {
+    "name": "NOTES.md",
+    "path": "targets/blume/NOTES.md",
+    "sha": "b0deb18a2180d8be8a06b2a7242045563c6260a8",
+    "size": 18265,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/NOTES.md?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/NOTES.md",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/b0deb18a2180d8be8a06b2a7242045563c6260a8",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/NOTES.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/NOTES.md?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/b0deb18a2180d8be8a06b2a7242045563c6260a8",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/NOTES.md"
+    }
+  },
+  {
+    "name": "ct1.txt",
+    "path": "targets/blume/ct1.txt",
+    "sha": "2dd9fc4c2a602d21e144e23bf05f3d90961af6a9",
+    "size": 615,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/ct1.txt?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/ct1.txt",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/2dd9fc4c2a602d21e144e23bf05f3d90961af6a9",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/ct1.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/ct1.txt?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/2dd9fc4c2a602d21e144e23bf05f3d90961af6a9",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/ct1.txt"
+    }
+  },
+  {
+    "name": "ct2.txt",
+    "path": "targets/blume/ct2.txt",
+    "sha": "4f3619d98e96f63b5d4bbb153f41f46063ffcb3d",
+    "size": 160,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/ct2.txt?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/ct2.txt",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/4f3619d98e96f63b5d4bbb153f41f46063ffcb3d",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/ct2.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/ct2.txt?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/4f3619d98e96f63b5d4bbb153f41f46063ffcb3d",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/ct2.txt"
+    }
+  },
+  {
+    "name": "double.py",
+    "path": "targets/blume/double.py",
+    "sha": "b5881df49e8d3065642e4ea0f3bd55654a7c67e2",
+    "size": 2856,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/double.py?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/double.py",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/b5881df49e8d3065642e4ea0f3bd55654a7c67e2",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/double.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/double.py?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/b5881df49e8d3065642e4ea0f3bd55654a7c67e2",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/double.py"
+    }
+  },
+  {
+    "name": "dt",
+    "path": "targets/blume/dt",
+    "sha": "622ef43919a3e7a4207ad09849ebbeb48e1106dd",
+    "size": 0,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/dt?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/tree/main/targets/blume/dt",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/trees/622ef43919a3e7a4207ad09849ebbeb48e1106dd",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/dt?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/trees/622ef43919a3e7a4207ad09849ebbeb48e1106dd",
+      "html": "https://github.com/dbourdeau/cyphersolver/tree/main/targets/blume/dt"
+    }
+  },
+  {
+    "name": "export_q4.py",
+    "path": "targets/blume/export_q4.py",
+    "sha": "16b15941526db104312a60a84d9c0a512840cb93",
+    "size": 566,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/export_q4.py?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/export_q4.py",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/16b15941526db104312a60a84d9c0a512840cb93",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/export_q4.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/export_q4.py?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/16b15941526db104312a60a84d9c0a512840cb93",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/export_q4.py"
+    }
+  },
+  {
+    "name": "families.py",
+    "path": "targets/blume/families.py",
+    "sha": "b844a6bcd5d8680f811da5f74da16dc881d90c81",
+    "size": 5017,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/families.py?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/families.py",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/b844a6bcd5d8680f811da5f74da16dc881d90c81",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/families.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/families.py?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/b844a6bcd5d8680f811da5f74da16dc881d90c81",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/families.py"
+    }
+  },
+  {
+    "name": "lagscan.py",
+    "path": "targets/blume/lagscan.py",
+    "sha": "7c39326e2cdf2d6a9b5deac71bcdc31a8a607b46",
+    "size": 3054,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/lagscan.py?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/lagscan.py",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/7c39326e2cdf2d6a9b5deac71bcdc31a8a607b46",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/lagscan.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/lagscan.py?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/7c39326e2cdf2d6a9b5deac71bcdc31a8a607b46",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/lagscan.py"
+    }
+  },
+  {
+    "name": "profile.json",
+    "path": "targets/blume/profile.json",
+    "sha": "f4d4b0ee1ce6706e9501cb9f693efea3fdb4f063",
+    "size": 7744,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/profile.json?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/profile.json",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/f4d4b0ee1ce6706e9501cb9f693efea3fdb4f063",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/profile.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/profile.json?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/f4d4b0ee1ce6706e9501cb9f693efea3fdb4f063",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/profile.json"
+    }
+  },
+  {
+    "name": "telegram1.jpg",
+    "path": "targets/blume/telegram1.jpg",
+    "sha": "872c08d7bf8ed8268d38ea81e3baaaa8c8eeb05a",
+    "size": 827996,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/telegram1.jpg?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/telegram1.jpg",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/872c08d7bf8ed8268d38ea81e3baaaa8c8eeb05a",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/telegram1.jpg",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/telegram1.jpg?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/872c08d7bf8ed8268d38ea81e3baaaa8c8eeb05a",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/telegram1.jpg"
+    }
+  },
+  {
+    "name": "telegram2.jpg",
+    "path": "targets/blume/telegram2.jpg",
+    "sha": "2401b029bd920dd3bf1aae5a2ce4b9da03bb072b",
+    "size": 236892,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/telegram2.jpg?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/telegram2.jpg",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/2401b029bd920dd3bf1aae5a2ce4b9da03bb072b",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/telegram2.jpg",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/telegram2.jpg?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/2401b029bd920dd3bf1aae5a2ce4b9da03bb072b",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/telegram2.jpg"
+    }
+  },
+  {
+    "name": "tg.py",
+    "path": "targets/blume/tg.py",
+    "sha": "6f0f08bedd1544b428585fa60370abe772d4c495",
+    "size": 1470,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/tg.py?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/tg.py",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/6f0f08bedd1544b428585fa60370abe772d4c495",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/tg.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/tg.py?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/6f0f08bedd1544b428585fa60370abe772d4c495",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/tg.py"
+    }
+  },
+  {
+    "name": "trans.py",
+    "path": "targets/blume/trans.py",
+    "sha": "df93c9a95ac6fb4e0c828bed93f3c2d4379c36d6",
+    "size": 3802,
+    "url": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/trans.py?ref=main",
+    "html_url": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/trans.py",
+    "git_url": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/df93c9a95ac6fb4e0c828bed93f3c2d4379c36d6",
+    "download_url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/main/targets/blume/trans.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/dbourdeau/cyphersolver/contents/targets/blume/trans.py?ref=main",
+      "git": "https://api.github.com/repos/dbourdeau/cyphersolver/git/blobs/df93c9a95ac6fb4e0c828bed93f3c2d4379c36d6",
+      "html": "https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/trans.py"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+No se ha convertido ninguna de las tres referencias ADAP en una signatura actual de expediente. Sí se ha verificado la ruta oficial de conversión y una razón para comprobar también el Bundesarchiv.
+
+La guía PAAA sobre ADAP explica que las referencias de película se interpretan con los Filmnummernverzeichnisse. La guía de Invenio explica otro paso: una antigua signatura de la Zentrale, como R 71286, se busca en el campo Signatur con RZ*71286 y se obtiene el fondo actual. Esta fórmula se aplica a números de expediente conocidos, no directamente a fotogramas ADAP como 254221 o 682876.
+https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-beispielrecherche-1433554
+https://archiv.diplo.de/arc-de/im-archiv-forschen/bestellen-und-zitieren-mit-invenio
+
+Las páginas finales de la edición de 1951 consultada, páginas impresas 817–819, escaneos 917–919, contienen el glosario. En esas tres páginas no hay una tabla de películas. No se afirma que ninguna otra edición o página pueda contenerla. Para 643/254221–222 (documento 187), 3176/682876–878 (documento 180 y telegrama referido no impreso) y 3176/682895–896 (documento 206) sigue faltando esa equivalencia.
+
+La tabla oficial de procedencias atribuye Handelspolitik de 1936–1945 al Bundesarchiv y Politik al Politisches Archiv. Es una orientación general, no una determinación del custodio de cada documento. Impide dar por hecho que el original comercial de Ritter/W II se encuentre hoy en PAAA.
+https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-orientierung-1433562
+
+Una ruta pública verificable es Invenio del PAAA, con el fondo RZ 211, Politische Abteilung, y sus rangos digitalizados publicados oficialmente. Su existencia no demuestra que contenga el original del documento 187. La ficha RAV 163, Botschaft Madrid, ya leída en fase 10, sirve como contraste complementario; su catalogación era incompleta y no identifica la representación de Salamanca ni un expediente Bernhardt/Hisma.
+https://archiv.diplo.de/arc-de/digitalisierte-und-einsehbare-bestaende-invenio--2404424
+https://politisches-archiv.diplo.de/invenio/direktlink/95bcbe36-f6cd-461e-9b0a-3e62faa2c3d0/
+
+La siguiente consulta de catálogo propuesta sería limitar fechas a 1936–1937 y buscar Hisma, Bernhardt y Rowak, tanto en los metadatos como en la función OCR cuando exista. También conviene navegar por procedencia y leer la historia del fondo. Son términos sugeridos: no se han ejecutado aquí dentro de Invenio ni producido una ficha concreta. Las seis búsquedas web oficiales no entregaron una equivalencia de los tres documentos ni una ficha verificable Bernhardt/Hisma; esto no prueba ausencia en el catálogo o en los archivos.
+
+La pieza pendiente es un Filmnummernverzeichnis o una concordancia fiable que asocie cada película/fotograma con una antigua signatura de expediente. Sólo entonces procede buscar la signatura actual y comprobar custodia, título, fechas y contenido. No se creó cuenta, contacto, pedido o pago. No se usó Claude ni se enviaron documentos. Las fases anteriores se conservaron y se verificaron por SHA-256.

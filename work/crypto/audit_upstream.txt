@@ -1,0 +1,97 @@
+Auditoría técnica de cyphersolver/targets/blume, 1 octubre 2026
+
+Conclusión: los materiales existentes son una buena base de trabajo, pero sus
+resultados negativos no prueban las exclusiones generales que enuncian. No
+hay descifrado validado del objetivo en los archivos consultados. La doble
+transposición y el español deben mantenerse como hipótesis de trabajo.
+
+Fuentes consultadas:
+  NOTES.md, Idp2.cs, Dt.cs, probe.py y probe2.py en main;
+  issue #14 y sus cuatro comentarios, conservados en work/source por root;
+  versión del artículo de 2014 subida por George Lasry en ResearchGate.
+  Fuente para identificar la tesis: catálogo de Kassel/ISBN 0458 y PDF público.
+  La tesisISBN 0426 mencionada inicialmente pertenece a Nils Kopal, no a Lasry;
+  no se debe citar como tesis de Lasry.
+
+La fuente primaria de 2014 distingue sus fases: evaluar todos los comienzos
+factibles de las columnas, elegir vecinos uno a uno mediante selección greedy,
+preseleccionar y mejorar claves iniciales, y explorar slides e intercambios de
+segmentos y tripartitos. Después resuelve K1 y refina K2 usando esa K1. El reto
+de 599 letras usaba 21 × 23. La primera recuperación completa llegó mediante
+palabras parciales que llevaron al libro y a un ataque de texto conocido;
+posteriormente hubo un ataque independiente de diccionario de frases.
+Eso no equivale a una garantía de éxito puramente por IDP en todo mensaje
+de 615 letras ni en todos los pares de 20–25. Fuente: §§4.5–4.8 del artículo:
+https://www.researchgate.net/publication/263286752_Solving_the_Double_Transposition_Challenge_with_a_Divide-and-Conquer_Approach
+DOI: https://doi.org/10.1080/01611194.2014.915269
+
+Hechos del código y consecuencias de nuestra revisión:
+
+1. Idp2.cs está en C#, no C++. El modo por defecto asigna a cada columna su
+   mejor pareja, permitiendo reutilizar columnas destino. IDP_MATCH=1 cambia
+   esto por Hungarian óptimo. Ninguno reproduce la selección greedy publicada.
+   No se debe atribuir el resultado de esos modos al algoritmo exacto del paper.
+
+2. Geo limita el comienzo de cada columna a ±IDP_TOL alrededor de un comienzo
+   esperado; valor por defecto 2. Aunque enumere todas las permutaciones K2,
+   la puntuación no explora todos los comienzos K1 geométricamente admisibles.
+   Simulación separada de 10.000 permutaciones por tamaño, semilla 20261001:
+   para n = 615 y w1=19 se omitió al menos un comienzo real en 729/10.000 casos;
+   w1 = 25: 1.767/10.000; w1 = 35: 3.682/10.000. Es una omisión de alineaciones; por sí
+   misma no demuestra que la clave correcta deje de destacar en el scorer.
+   Véase tolerance_audit.json. Nuestro solver usa rango completo por defecto.
+
+3. El hill climbing de Idp2.cs evalúa intercambios puntuales y reversión; no
+   realiza el vecindario completo de slides/swaps/tripartitos del método citado.
+   La annealing sí mueve bloques aleatorios, pero sigue siendo otra heurística.
+   Los fracasos de local search en estas variantes no refutan el método original.
+
+4. La fase final usa K2 candidata fija y annealing de K1. No realiza el refinamiento
+   posterior de K2 condicionado en la mejor K1 que describe la fuente primaria.
+
+5. ExhaustK2 cuenta en trueRank solo los mejores candidatos conservados que
+   superan trueScore, no todos los evaluados. Si todos los 12 conservados superan
+   el valor verdadero, eso da un límite inferior al rango, no el rango exacto.
+   Que un control sea primero puede verificarse por el máximo; afirmar puesto 13
+   requiere contar más que el subconjunto retenido. El corte top 12 también puede
+   perder una K2 válida en otro lenguaje, género, longitud o realización de claves.
+
+6. Un puñado de controles recuperados valida esos controles, no una exclusión
+   universal por familias. Hay que medir recuperación en conjuntos representativos
+   con claves independientes, variantes incompletas, diferentes posiciones de
+   texto y modelos lingüísticos. Si falla la recuperación plantada, el resultado
+   negativo del objetivo queda sin poder de exclusión en esa configuración.
+
+7. El escaneo de lags ofrece un diagnóstico condicional: depende del sentido
+   específico de llenado/lectura, producto de tamaños, pares supervivientes y
+   modelo de bigramas. Sus simulaciones aportan evidencia contra ciertas
+   variantes, pero la afirmación 'todas las transposiciones simples' excede esa
+   demostración sin extender los controles a otras hipótesis y lenguajes.
+
+8. IC alto y ausencia de estructura local favorecen transposición de letras,
+   pero no establecen por sí solos el sistema exacto ni el idioma. Un modelo de
+   novelas no mide automáticamente telegráfico de 1937; un proxy no sustituye un
+   corpus real. La comparación lingüística independiente de root debe leerse
+   conjuntamente; la frecuencia de letras no justifica descartar otros idiomas.
+
+9. Las correcciones L de issue 14 son sustituciones; conservar posiciones no
+   significa conservar scores exactamente ni acreditar una búsqueda rerun.
+   No cambia la geometría, pero los scores y el orden de candidatos sí pueden
+   cambiar. NOTES menciona nuevas estadísticas de lag/IC; no aporta rerun
+   detallado de todos los antiguos logs de búsqueda sobre el texto corregido.
+   Grupo 113 tachado no se elimina ni cuenta como null sin evidencia independiente.
+
+10. Compartir remitente/día/destinatario no demuestra compartir claves. La
+    variante 615 + 160 se prueba con claves compartidas como hipótesis. No es
+    profundidad clásica de mensajes de igual longitud. Cualquier solución
+    propuesta exige lectura coherente en ambos si se mantiene esa hipótesis.
+
+Decisión práctica: piloto nuevo reproducible, controles exactos 615 + 160 y misma
+par de claves; preservar fracasos y tamaños abiertos. No se anuncian regiones
+descartadas ni plaintext por tener buen score o re-cifrado exacto. El re-cifrado
+comprueba la inversa de la implementación; también se cumple con claves falsas.
+
+Repositorio: https://github.com/dbourdeau/cyphersolver/tree/main/targets/blume
+Código auditado: https://github.com/dbourdeau/cyphersolver/blob/main/targets/blume/dt/Idp2.cs
+Discusión/correcciones: https://github.com/dbourdeau/cyphersolver/issues/14
+Tesis correcta: https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf

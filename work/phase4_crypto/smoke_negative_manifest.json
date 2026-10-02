@@ -1,0 +1,172 @@
+{
+  "data_mode": "synthetic; never BLUME",
+  "hypothesis": "irregular columnar double transposition, conv0, shared keys",
+  "variants": [
+    "old",
+    "source"
+  ],
+  "seeds": [
+    20261221
+  ],
+  "corpora": [
+    "proxy"
+  ],
+  "bands": [
+    [
+      12,
+      15
+    ],
+    [
+      20,
+      25
+    ]
+  ],
+  "lengths": [
+    615,
+    160
+  ],
+  "restarts": 8,
+  "outer_rounds": 3,
+  "k1_seconds_per_round": 3,
+  "k2_seconds_per_round": 5,
+  "max_idp_evals_per_round": 300000,
+  "max_k1_evals_per_round": 2000000,
+  "max_final_k2_evals_per_round": 2000000,
+  "negative": true,
+  "selection": "q3 only; no planted truth used by either solver",
+  "note": "Matched time budgets, not guaranteed matched evaluation counts. Same seed across corpora shares keys. Shuffle is std::shuffle, not original CrypTool successive random swaps. Full old imports frozen phase3 implementation.",
+  "files": [
+    {
+      "path": "work/phase4_crypto/phase4.cpp",
+      "sha256": "0ac121aa90aed78298b993eb21b743e7cc5f7f2d41f4f61b11c4836271b3ec64"
+    },
+    {
+      "path": "work/phase4_crypto/source_moves.h",
+      "sha256": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed"
+    },
+    {
+      "path": "work/phase4_crypto/phase4",
+      "sha256": "539830e0a84b53702c6ecd79459ff5654eb3ac478a8505b2423f581b6b4affee"
+    },
+    {
+      "path": "work/phase3_crypto/phase3.cpp",
+      "sha256": "659d485123aaceb5926177a7c2cc8306cb0c5c5e5964be6e2618e72ff59462df"
+    },
+    {
+      "path": "work/phase3_crypto/ict_search.h",
+      "sha256": "4167f43147969f6d3b2d943fb85a5ad306073098b4344d501d8f05f9e0bb57af"
+    },
+    {
+      "path": "work/crypto/double_search.cpp",
+      "sha256": "445afbaf9f85c17c0661515634ee16a58dced5da80e15e0b54ea8868a093fefe"
+    },
+    {
+      "path": "work/crypto/model_es.bin",
+      "sha256": "d52bbf2f4d8412834e30bcc48758f2e1f4935bca7a0763b7560a36883288ab32"
+    },
+    {
+      "path": "work/crypto/holdout_es.txt",
+      "sha256": "b2d8d84a3d22d18918cd49dad122d8b385cf28ed1602f57ffd22b6d319254c1b"
+    },
+    {
+      "path": "work/crypto/holdout_proxy.txt",
+      "sha256": "8dae5c6fe87646155b3c9495303edf2c508573515f88492308f21a918219119f"
+    }
+  ],
+  "started_at_unix": 1790875578.474067,
+  "runs": [
+    {
+      "corpus": "proxy",
+      "w1": 12,
+      "w2": 15,
+      "seed": 20261221,
+      "variant": "old",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "old",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "12",
+        "15",
+        "20261221",
+        "8",
+        "3",
+        "5",
+        "negative"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 1.686906099319458
+    },
+    {
+      "corpus": "proxy",
+      "w1": 12,
+      "w2": 15,
+      "seed": 20261221,
+      "variant": "source",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "12",
+        "15",
+        "20261221",
+        "8",
+        "3",
+        "5",
+        "negative"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 4.503789901733398
+    },
+    {
+      "corpus": "proxy",
+      "w1": 20,
+      "w2": 25,
+      "seed": 20261221,
+      "variant": "old",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "old",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261221",
+        "8",
+        "3",
+        "5",
+        "negative"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 15.063136100769043
+    },
+    {
+      "corpus": "proxy",
+      "w1": 20,
+      "w2": 25,
+      "seed": 20261221,
+      "variant": "source",
+      "command": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase4_crypto/phase4",
+        "source",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/model_es.bin",
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt",
+        "20",
+        "25",
+        "20261221",
+        "8",
+        "3",
+        "5",
+        "negative"
+      ],
+      "status": "completed",
+      "rows": 2,
+      "wall_seconds": 32.938435077667236
+    }
+  ],
+  "ended_at_unix": 1790875632.668428
+}
