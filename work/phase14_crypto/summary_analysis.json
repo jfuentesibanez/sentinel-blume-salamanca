@@ -1,0 +1,706 @@
+{
+  "status": "completed_evaluated",
+  "date": "2026-10-03",
+  "principal_result": "0exact K2 recoveries in all4arms,8paired case-round units per arm",
+  "cases": 4,
+  "paired_case_round_units": 8,
+  "runs": 32,
+  "true_idp_above_best_archive_rows": 32,
+  "true_idp_minus_best_range": [
+    0.1761347991855522,
+    0.2849491789152747
+  ],
+  "arms": {
+    "A": {
+      "rows": 8,
+      "local_cap": 5000,
+      "checkpoint_merge": false,
+      "exact_top5_recoveries": 0,
+      "exact_rank1_recoveries": 0,
+      "objective_calls": 800000,
+      "solver_seconds": 50.330343625,
+      "process_seconds": 50.765009586000815,
+      "setup_seconds": 0.067410999,
+      "random_pool_calls": 16000,
+      "pair_swap_calls": 96000,
+      "hill_calls": 687864,
+      "perturbation_calls": 136,
+      "parent_choices": 136,
+      "post_checkpoint_parent_choices": 72,
+      "checkpoint_ancestry_parent_choices": 0,
+      "climbs": 144,
+      "stop_reasons": {
+        "cap_local": 128,
+        "checkpoint": 8,
+        "global_cut": 8
+      },
+      "return_statuses": {
+        "cap_local": 128,
+        "partial_checkpoint": 8,
+        "global_cut": 8
+      },
+      "complete_sweeps": 0,
+      "convergences_observed": 0,
+      "convergences_by_role": {},
+      "checkpoint_offers": 0,
+      "checkpoint_admissions": 0,
+      "checkpoint_admission_decisions": {},
+      "checkpoint_new_parent_uses": {},
+      "final_best_origin": {
+        "offspring_climb": 6,
+        "checkpoint_pool": 1,
+        "initial_pool": 1
+      },
+      "final_best_with_checkpoint_parent_ancestry": 0,
+      "checkpoint_pool_ever_improved_top1_rows": 1,
+      "top5_entry_events_from_checkpoint_parent_ancestry": 0
+    },
+    "B": {
+      "rows": 8,
+      "local_cap": 5000,
+      "checkpoint_merge": true,
+      "exact_top5_recoveries": 0,
+      "exact_rank1_recoveries": 0,
+      "objective_calls": 800000,
+      "solver_seconds": 50.237243957000004,
+      "process_seconds": 50.36637970805168,
+      "setup_seconds": 0.061033626,
+      "random_pool_calls": 16000,
+      "pair_swap_calls": 96000,
+      "hill_calls": 687864,
+      "perturbation_calls": 136,
+      "parent_choices": 136,
+      "post_checkpoint_parent_choices": 72,
+      "checkpoint_ancestry_parent_choices": 23,
+      "climbs": 144,
+      "stop_reasons": {
+        "cap_local": 128,
+        "checkpoint": 8,
+        "global_cut": 8
+      },
+      "return_statuses": {
+        "cap_local": 128,
+        "partial_checkpoint": 8,
+        "global_cut": 8
+      },
+      "complete_sweeps": 0,
+      "convergences_observed": 0,
+      "convergences_by_role": {},
+      "checkpoint_offers": 160,
+      "checkpoint_admissions": 10,
+      "checkpoint_admission_decisions": {
+        "replace_worst_diverse": 10
+      },
+      "checkpoint_new_parent_uses": {
+        "0": 10
+      },
+      "final_best_origin": {
+        "offspring_climb": 8
+      },
+      "final_best_with_checkpoint_parent_ancestry": 1,
+      "checkpoint_pool_ever_improved_top1_rows": 1,
+      "top5_entry_events_from_checkpoint_parent_ancestry": 4
+    },
+    "C": {
+      "rows": 8,
+      "local_cap": 33298,
+      "checkpoint_merge": false,
+      "exact_top5_recoveries": 0,
+      "exact_rank1_recoveries": 0,
+      "objective_calls": 800000,
+      "solver_seconds": 50.130028209,
+      "process_seconds": 50.24438949895557,
+      "setup_seconds": 0.059386917,
+      "random_pool_calls": 16000,
+      "pair_swap_calls": 96000,
+      "hill_calls": 687976,
+      "perturbation_calls": 24,
+      "parent_choices": 24,
+      "post_checkpoint_parent_choices": 16,
+      "checkpoint_ancestry_parent_choices": 0,
+      "climbs": 32,
+      "stop_reasons": {
+        "cap_local": 13,
+        "checkpoint": 8,
+        "global_cut": 8,
+        "converged": 3
+      },
+      "return_statuses": {
+        "converged": 11,
+        "partial_checkpoint": 8,
+        "global_cut": 8,
+        "cap_local": 5
+      },
+      "complete_sweeps": 32,
+      "convergences_observed": 11,
+      "convergences_by_role": {
+        "initial": 8,
+        "offspring": 3
+      },
+      "checkpoint_offers": 0,
+      "checkpoint_admissions": 0,
+      "checkpoint_admission_decisions": {},
+      "checkpoint_new_parent_uses": {},
+      "final_best_origin": {
+        "initial_climb": 3,
+        "checkpoint_pool": 1,
+        "offspring_climb": 4
+      },
+      "final_best_with_checkpoint_parent_ancestry": 0,
+      "checkpoint_pool_ever_improved_top1_rows": 1,
+      "top5_entry_events_from_checkpoint_parent_ancestry": 0
+    },
+    "D": {
+      "rows": 8,
+      "local_cap": 33298,
+      "checkpoint_merge": true,
+      "exact_top5_recoveries": 0,
+      "exact_rank1_recoveries": 0,
+      "objective_calls": 800000,
+      "solver_seconds": 50.49521575,
+      "process_seconds": 50.61443729099119,
+      "setup_seconds": 0.05827525,
+      "random_pool_calls": 16000,
+      "pair_swap_calls": 96000,
+      "hill_calls": 687976,
+      "perturbation_calls": 24,
+      "parent_choices": 24,
+      "post_checkpoint_parent_choices": 16,
+      "checkpoint_ancestry_parent_choices": 11,
+      "climbs": 32,
+      "stop_reasons": {
+        "cap_local": 13,
+        "checkpoint": 8,
+        "global_cut": 8,
+        "converged": 3
+      },
+      "return_statuses": {
+        "converged": 11,
+        "partial_checkpoint": 8,
+        "global_cut": 8,
+        "cap_local": 5
+      },
+      "complete_sweeps": 32,
+      "convergences_observed": 11,
+      "convergences_by_role": {
+        "initial": 8,
+        "offspring": 3
+      },
+      "checkpoint_offers": 160,
+      "checkpoint_admissions": 15,
+      "checkpoint_admission_decisions": {
+        "replace_worst_diverse": 15
+      },
+      "checkpoint_new_parent_uses": {
+        "0": 15
+      },
+      "final_best_origin": {
+        "initial_climb": 1,
+        "offspring_climb": 6,
+        "checkpoint_pool": 1
+      },
+      "final_best_with_checkpoint_parent_ancestry": 4,
+      "checkpoint_pool_ever_improved_top1_rows": 1,
+      "top5_entry_events_from_checkpoint_parent_ancestry": 18
+    }
+  },
+  "secondary_paired_idp_contrasts": {
+    "fusion_cap5000": {
+      "treatment": "B",
+      "control": "A",
+      "paired_units": 8,
+      "higher_best_idp": 3,
+      "lower_best_idp": 2,
+      "equal_best_idp": 3,
+      "min_idp_difference": -0.0028054991835042564,
+      "max_idp_difference": 0.025905155664996293,
+      "mean_idp_difference": 0.003897633089831043,
+      "exact_recovery_difference": 0,
+      "limits": "Secondary IDP comparisons; two rounds of4cases, not8independent cases, and no winner criterion."
+    },
+    "fusion_cap33298": {
+      "treatment": "D",
+      "control": "C",
+      "paired_units": 8,
+      "higher_best_idp": 2,
+      "lower_best_idp": 2,
+      "equal_best_idp": 4,
+      "min_idp_difference": -0.011451271490046988,
+      "max_idp_difference": 0.007914205915049433,
+      "mean_idp_difference": -0.0012097031858406826,
+      "exact_recovery_difference": 0,
+      "limits": "Secondary IDP comparisons; two rounds of4cases, not8independent cases, and no winner criterion."
+    },
+    "cap_without_fusion": {
+      "treatment": "C",
+      "control": "A",
+      "paired_units": 8,
+      "higher_best_idp": 4,
+      "lower_best_idp": 3,
+      "equal_best_idp": 1,
+      "min_idp_difference": -0.010715858559859459,
+      "max_idp_difference": 0.00824641067730747,
+      "mean_idp_difference": 0.001232823611874323,
+      "exact_recovery_difference": 0,
+      "limits": "Secondary IDP comparisons; two rounds of4cases, not8independent cases, and no winner criterion."
+    },
+    "cap_with_fusion": {
+      "treatment": "D",
+      "control": "B",
+      "paired_units": 8,
+      "higher_best_idp": 2,
+      "lower_best_idp": 6,
+      "equal_best_idp": 0,
+      "min_idp_difference": -0.01775096309812474,
+      "max_idp_difference": 0.00824641067730747,
+      "mean_idp_difference": -0.0038745126637974026,
+      "exact_recovery_difference": 0,
+      "limits": "Secondary IDP comparisons; two rounds of4cases, not8independent cases, and no winner criterion."
+    }
+  },
+  "per_run_details": [
+    {
+      "case_id": "de_fold_20x25_20262201",
+      "round": 0,
+      "arm": "A",
+      "true_idp": -2.207616630039717,
+      "best_archive_idp": -2.4801966138576206,
+      "true_minus_best_idp": 0.2725799838179035,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 22
+    },
+    {
+      "case_id": "de_fold_20x25_20262201",
+      "round": 0,
+      "arm": "B",
+      "true_idp": -2.207616630039717,
+      "best_archive_idp": -2.4817708909511564,
+      "true_minus_best_idp": 0.27415426091143935,
+      "checkpoint_admissions": 2,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 4,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262201",
+      "round": 0,
+      "arm": "D",
+      "true_idp": -2.207616630039717,
+      "best_archive_idp": -2.487133105491337,
+      "true_minus_best_idp": 0.27951647545161995,
+      "checkpoint_admissions": 2,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 1,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262201",
+      "round": 0,
+      "arm": "C",
+      "true_idp": -2.207616630039717,
+      "best_archive_idp": -2.487133105491337,
+      "true_minus_best_idp": 0.27951647545161995,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262201",
+      "round": 1,
+      "arm": "C",
+      "true_idp": -2.207616630039717,
+      "best_archive_idp": -2.484706720866655,
+      "true_minus_best_idp": 0.2770900908269378,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262201",
+      "round": 1,
+      "arm": "D",
+      "true_idp": -2.207616630039717,
+      "best_archive_idp": -2.4844116163881202,
+      "true_minus_best_idp": 0.27679498634840316,
+      "checkpoint_admissions": 1,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 2,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262201",
+      "round": 1,
+      "arm": "B",
+      "true_idp": -2.207616630039717,
+      "best_archive_idp": -2.4666606532899955,
+      "true_minus_best_idp": 0.2590440232502784,
+      "checkpoint_admissions": 1,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 1,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262201",
+      "round": 1,
+      "arm": "A",
+      "true_idp": -2.207616630039717,
+      "best_archive_idp": -2.492565808954992,
+      "true_minus_best_idp": 0.2849491789152747,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262202",
+      "round": 0,
+      "arm": "B",
+      "true_idp": -2.2087848409226067,
+      "best_archive_idp": -2.4107189407474117,
+      "true_minus_best_idp": 0.20193409982480492,
+      "checkpoint_admissions": 3,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 5,
+      "min_final_archive_hamming_to_true_k2": 24
+    },
+    {
+      "case_id": "de_fold_20x25_20262202",
+      "round": 0,
+      "arm": "C",
+      "true_idp": -2.2087848409226067,
+      "best_archive_idp": -2.4198793814370507,
+      "true_minus_best_idp": 0.21109454051444398,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262202",
+      "round": 0,
+      "arm": "A",
+      "true_idp": -2.2087848409226067,
+      "best_archive_idp": -2.4198793814370507,
+      "true_minus_best_idp": 0.21109454051444398,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262202",
+      "round": 0,
+      "arm": "D",
+      "true_idp": -2.2087848409226067,
+      "best_archive_idp": -2.4198793814370507,
+      "true_minus_best_idp": 0.21109454051444398,
+      "checkpoint_admissions": 5,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 2,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262202",
+      "round": 1,
+      "arm": "D",
+      "true_idp": -2.2087848409226067,
+      "best_archive_idp": -2.4204536936785046,
+      "true_minus_best_idp": 0.21166885275589786,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 24
+    },
+    {
+      "case_id": "de_fold_20x25_20262202",
+      "round": 1,
+      "arm": "A",
+      "true_idp": -2.2087848409226067,
+      "best_archive_idp": -2.428700104355812,
+      "true_minus_best_idp": 0.21991526343320533,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "de_fold_20x25_20262202",
+      "round": 1,
+      "arm": "C",
+      "true_idp": -2.2087848409226067,
+      "best_archive_idp": -2.4204536936785046,
+      "true_minus_best_idp": 0.21166885275589786,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 24
+    },
+    {
+      "case_id": "de_fold_20x25_20262202",
+      "round": 1,
+      "arm": "B",
+      "true_idp": -2.2087848409226067,
+      "best_archive_idp": -2.428700104355812,
+      "true_minus_best_idp": 0.21991526343320533,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "fr_fold_20x25_20262201",
+      "round": 0,
+      "arm": "C",
+      "true_idp": -2.2890204305711546,
+      "best_archive_idp": -2.475871088316566,
+      "true_minus_best_idp": 0.18685065774541165,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "fr_fold_20x25_20262201",
+      "round": 0,
+      "arm": "D",
+      "true_idp": -2.2890204305711546,
+      "best_archive_idp": -2.475871088316566,
+      "true_minus_best_idp": 0.18685065774541165,
+      "checkpoint_admissions": 2,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "fr_fold_20x25_20262201",
+      "round": 0,
+      "arm": "B",
+      "true_idp": -2.2890204305711546,
+      "best_archive_idp": -2.4651552297567068,
+      "true_minus_best_idp": 0.1761347991855522,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "fr_fold_20x25_20262201",
+      "round": 0,
+      "arm": "A",
+      "true_idp": -2.2890204305711546,
+      "best_archive_idp": -2.4651552297567068,
+      "true_minus_best_idp": 0.1761347991855522,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "fr_fold_20x25_20262201",
+      "round": 1,
+      "arm": "A",
+      "true_idp": -2.2890204305711546,
+      "best_archive_idp": -2.4739000991771096,
+      "true_minus_best_idp": 0.18487966860595506,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 24
+    },
+    {
+      "case_id": "fr_fold_20x25_20262201",
+      "round": 1,
+      "arm": "B",
+      "true_idp": -2.2890204305711546,
+      "best_archive_idp": -2.4734048545360565,
+      "true_minus_best_idp": 0.18438442396490196,
+      "checkpoint_admissions": 2,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 6,
+      "min_final_archive_hamming_to_true_k2": 24
+    },
+    {
+      "case_id": "fr_fold_20x25_20262201",
+      "round": 1,
+      "arm": "D",
+      "true_idp": -2.2890204305711546,
+      "best_archive_idp": -2.4735721746557635,
+      "true_minus_best_idp": 0.18455174408460895,
+      "checkpoint_admissions": 1,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 2,
+      "min_final_archive_hamming_to_true_k2": 25
+    },
+    {
+      "case_id": "fr_fold_20x25_20262201",
+      "round": 1,
+      "arm": "C",
+      "true_idp": -2.2890204305711546,
+      "best_archive_idp": -2.467136510265501,
+      "true_minus_best_idp": 0.1781160796943464,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 22
+    },
+    {
+      "case_id": "fr_fold_20x25_20262202",
+      "round": 0,
+      "arm": "D",
+      "true_idp": -2.2535348641244988,
+      "best_archive_idp": -2.4602728470375665,
+      "true_minus_best_idp": 0.20673798291306777,
+      "checkpoint_admissions": 2,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 2,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "fr_fold_20x25_20262202",
+      "round": 0,
+      "arm": "A",
+      "true_idp": -2.2535348641244988,
+      "best_archive_idp": -2.468175277427623,
+      "true_minus_best_idp": 0.21464041330312433,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 22
+    },
+    {
+      "case_id": "fr_fold_20x25_20262202",
+      "round": 0,
+      "arm": "C",
+      "true_idp": -2.2535348641244988,
+      "best_archive_idp": -2.468187052952616,
+      "true_minus_best_idp": 0.2146521888281172,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 23
+    },
+    {
+      "case_id": "fr_fold_20x25_20262202",
+      "round": 0,
+      "arm": "B",
+      "true_idp": -2.2535348641244988,
+      "best_archive_idp": -2.468175277427623,
+      "true_minus_best_idp": 0.21464041330312433,
+      "checkpoint_admissions": 1,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 5,
+      "min_final_archive_hamming_to_true_k2": 22
+    },
+    {
+      "case_id": "fr_fold_20x25_20262202",
+      "round": 1,
+      "arm": "B",
+      "true_idp": -2.2535348641244988,
+      "best_archive_idp": -2.469982554724342,
+      "true_minus_best_idp": 0.21644769059984315,
+      "checkpoint_admissions": 1,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 2,
+      "min_final_archive_hamming_to_true_k2": 21
+    },
+    {
+      "case_id": "fr_fold_20x25_20262202",
+      "round": 1,
+      "arm": "C",
+      "true_idp": -2.2535348641244988,
+      "best_archive_idp": -2.4625194286045273,
+      "true_minus_best_idp": 0.20898456448002856,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 24
+    },
+    {
+      "case_id": "fr_fold_20x25_20262202",
+      "round": 1,
+      "arm": "A",
+      "true_idp": -2.2535348641244988,
+      "best_archive_idp": -2.4671770555408377,
+      "true_minus_best_idp": 0.2136421914163389,
+      "checkpoint_admissions": 0,
+      "post_checkpoint_parent_choices": 9,
+      "checkpoint_ancestry_parent_choices": 0,
+      "min_final_archive_hamming_to_true_k2": 22
+    },
+    {
+      "case_id": "fr_fold_20x25_20262202",
+      "round": 1,
+      "arm": "D",
+      "true_idp": -2.2535348641244988,
+      "best_archive_idp": -2.4739707000945743,
+      "true_minus_best_idp": 0.22043583597007554,
+      "checkpoint_admissions": 2,
+      "post_checkpoint_parent_choices": 2,
+      "checkpoint_ancestry_parent_choices": 2,
+      "min_final_archive_hamming_to_true_k2": 21
+    }
+  ],
+  "objective_calls": 3200000,
+  "solver_seconds": 201.192831541,
+  "process_seconds": 201.99021608399926,
+  "per_run_solver_seconds_range": [
+    6.217234208,
+    6.424424292
+  ],
+  "per_run_process_seconds_range": [
+    6.231591584044509,
+    6.613996000029147
+  ],
+  "cut_causes": {
+    "evaluations": 32
+  },
+  "pre_audit_control_calls_including_failed_attempt": 35253,
+  "complete_initial_pools": 32,
+  "complete_checkpoint_pools": 32,
+  "protected_files": 322,
+  "protected_unchanged": true,
+  "independent_audit": {
+    "passed": true,
+    "scope": "independent saved-log replay and numerical scores; no truth or solver invocation",
+    "checks": {
+      "rows": 32,
+      "archive_scores": 160,
+      "offers": 1280,
+      "parent_choices": 320,
+      "climbs": 352,
+      "perturbations": 320,
+      "archive_events": 2233,
+      "pre_checkpoint_equalities": 16,
+      "common_checkpoint_pools": 8
+    },
+    "distinct_scores_recomputed": 1294,
+    "maximum_absolute_score_error": 1.09798037328801e-09,
+    "score_tolerance": 1e-08,
+    "new_searches": 0,
+    "limitations": [
+      "Archive completeness over unlogged rejected proposals rests on source audit and invariant controls.",
+      "Numerical score tolerance is larger than admission epsilon; decision replay uses exact17digit solver metadata."
+    ]
+  },
+  "new_searches_during_analysis": 0,
+  "new_idp_calls_during_analysis": 0,
+  "source_sha256": {
+    "plan32.json": "c7ceebfde703dfaf267a92ed20334bd81908fd199535022f1755691a2b0efba9",
+    "sealed_design.json": "dd110b27a27c0ade11ae0327f307122d823861658f4b0a3d9ca00c4ae0518940",
+    "manifest.json": "a37899f922059ad09d27228b88c78e8af7a600e7b0c2ec36110ee58090e0dc1a",
+    "search_outputs.jsonl": "4a26f713f779b02b3b93231bd169c59c1881ca1a7cc97e9275a28adf40c3809e",
+    "truth.jsonl": "a56c81b211b974681b3d8d4ef21e5bb4efed41662afa48ac80212017687fa31f",
+    "evaluation.json": "c169d9c07917b7209d21233cfc3ef201b411ab4141dbd6ed21bfbf637e2424e5"
+  },
+  "limits": [
+    "Fresh synthetic double transposition with known20x25 widths,615+160, literary de/fr models; no K1 or historical attack.",
+    "The true score exceeds observed returned candidates; it does not prove a global maximum or model/cipher/idiom validity.",
+    "Fusion includes inherited usages and zero usage for new diverse parents; ancestry is observed history, not isolated counterfactual causation.",
+    "Long-cap22 observed convergences include16initial and6offspring; only2postcheckpoint parents per run were explored.",
+    "Equal actual objective calls do not imply equal CPU time; logged clocks are wall times, not CPU measurements."
+  ]
+}

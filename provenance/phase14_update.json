@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-03",
+  "research_through_phase": 14,
+  "baseline_commit": "e43e6620ddc9cbbbdccdd2f2a76c475c0231ff35",
+  "baseline_inventory_entries": 1720,
+  "new_inventory_entries": 154,
+  "new_included_files": 60,
+  "new_referenced_files": 94,
+  "new_main_searches": 32,
+  "control_objective_calls": 35253,
+  "main_objective_calls": 3200000,
+  "original_research_files_edited": 0,
+  "scope": "Exact copies of selected new code, inputs, logs, evaluation and own notes. Old source inventory and snapshot stay phase13 baseline records. Current checksums also cover new collaborator documentation."
+}

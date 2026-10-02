@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "controls": 3,
+  "objective_calls": 6,
+  "truth_used": false,
+  "main_searches": 0,
+  "fixture": "Uniform model and artificially lowered incumbent score verify last-proposal state update, not recovery or IDP validity",
+  "source_sha256": "3c481143cead06178bd021bde8fba02bc21424fe460325ff8c1e705936796937",
+  "binary_sha256": "53d2ad40422a425cfb785dec818f5bda8e5994da52365d558cd437ee054d2d1e",
+  "outputs_sha256": "deb0ff27aaba694b3f69202c7e838a4fc4f9b59cf991f6a3a94a99a50a1aa8ea",
+  "build_seconds": 2.194664290989749,
+  "costs": [
+    {
+      "fixture": "cap",
+      "objective_calls": 2,
+      "process_seconds": 0.30593491601757705
+    },
+    {
+      "fixture": "checkpoint",
+      "objective_calls": 2,
+      "process_seconds": 0.008111083006951958
+    },
+    {
+      "fixture": "global",
+      "objective_calls": 2,
+      "process_seconds": 0.006753915979061276
+    }
+  ]
+}

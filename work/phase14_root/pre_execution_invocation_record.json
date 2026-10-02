@@ -1,0 +1,7 @@
+{
+  "setup_attempt_before_approval": "root asserted uppercase APTO but report used lowercase apto; assertion failed. Subsequent seal/run attempts were refused by missing approval/manifest.",
+  "new_objective_calls": 0,
+  "new_main_searches": 0,
+  "truth_created": false,
+  "resolved": "Read final report and checked exact final-state phrase before writing approval."
+}

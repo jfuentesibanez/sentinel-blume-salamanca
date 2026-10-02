@@ -1,0 +1,17 @@
+{
+  "status": "failed_harness_fixture",
+  "scenarios_completed": 14,
+  "reported_objective_calls": 17621,
+  "extra_auxiliary_objective_calls": 5,
+  "actual_objective_calls": 17626,
+  "process_seconds": "not preserved in original harness; unavailable",
+  "main_searches": 0,
+  "truth_used": false,
+  "failure": "substring on in long erroneously enabled merge in long_OFF; five extra auxiliary scores not in emitted rows",
+  "resources": {
+    "check_invariants.py": "56f02422cc0a98c12d64c7c92a329c733e732c1b4a5869532f5cd3588472b1f7",
+    "invariant_checks": "16b63e793491682927414e7baebdb50a788dd265dd3a3dc7208f822f51156aae",
+    "invariant_checks.cpp": "3b73abaf5f5845eb0372c9698f11d993da20d0748d47ab51c40ee4b5fe01a98f",
+    "invariant_outputs.jsonl": "e8a6731ffceb5a1f2475608ac596c6ac7e3063f430f613496c2f57794d1ac486"
+  }
+}

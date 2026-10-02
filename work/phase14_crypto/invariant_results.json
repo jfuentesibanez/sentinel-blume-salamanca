@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "controls": 14,
+  "objective_calls": 17621,
+  "main_searches": 0,
+  "truth_used": false,
+  "historical_ciphertexts_used": false,
+  "uniform_model_sha256": "978b10f76261893f0d287bd2a3f02e697fc47e250d8d1b417a05a12ec388c97e",
+  "control_source_sha256": "fbb34915692fcb07525c5cc7603cd5a0d19b839215e2372e11062e7d62f3eef2",
+  "control_binary_sha256": "17d220c4cbe993ec2a7f5f878f032f8033375b87a024610f4d8eeee00a94f395",
+  "solver_source_sha256": "2b6bb193eec7d0c72d1627709f41ee5526ac2d10ceeca7a00cc8f969b10df981",
+  "sha256_helper_sha256": "2e56b037b0d8adb3d94dcb866ef1ba329c7334eb9eaa39bca44564efe001638e",
+  "outputs_sha256": "98c99bc2966b2152be22754c9f6dd1f3021707bf5964b0806d5ed40ff973a733",
+  "build_seconds": 2.1889680409803987,
+  "costs": [
+    {
+      "scenario": "sha",
+      "objective_calls": 0,
+      "process_seconds": 0.31394879100844264
+    },
+    {
+      "scenario": "pair_short_off",
+      "objective_calls": 4000,
+      "process_seconds": 0.03460908296983689
+    },
+    {
+      "scenario": "pair_short_on",
+      "objective_calls": 4000,
+      "process_seconds": 0.022705250012222677
+    },
+    {
+      "scenario": "pair_long_off",
+      "objective_calls": 4000,
+      "process_seconds": 0.01708841696381569
+    },
+    {
+      "scenario": "pair_long_on",
+      "objective_calls": 4000,
+      "process_seconds": 0.018319709051866084
+    },
+    {
+      "scenario": "global_all_tie",
+      "objective_calls": 3,
+      "process_seconds": 0.003907291975338012
+    },
+    {
+      "scenario": "checkpoint_cap_tie",
+      "objective_calls": 3,
+      "process_seconds": 0.0035801249905489385
+    },
+    {
+      "scenario": "cap_only",
+      "objective_calls": 3,
+      "process_seconds": 0.0027679999475367367
+    },
+    {
+      "scenario": "sweep_checkpoint",
+      "objective_calls": 100,
+      "process_seconds": 0.004630458017345518
+    },
+    {
+      "scenario": "sweep_global",
+      "objective_calls": 100,
+      "process_seconds": 0.003448584000580013
+    },
+    {
+      "scenario": "perturbation_checkpoint",
+      "objective_calls": 1410,
+      "process_seconds": 0.008055000042077154
+    },
+    {
+      "scenario": "time_before_first",
+      "objective_calls": 0,
+      "process_seconds": 0.0038572500343434513
+    },
+    {
+      "scenario": "expired_offer",
+      "objective_calls": 1,
+      "process_seconds": 0.00252229196485132
+    },
+    {
+      "scenario": "invalid_offers",
+      "objective_calls": 1,
+      "process_seconds": 0.00302175001706928
+    }
+  ],
+  "limits": "Small geometry3x6 and uniform score validate state/count invariants, not recovery or exact20x25 checkpoints."
+}

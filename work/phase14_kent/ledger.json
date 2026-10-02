@@ -1,0 +1,281 @@
+{
+  "date": "2026-10-03",
+  "scope": "Kent real serial-roll conversion rows and bounded official NARA roll-access check",
+  "read_previous": [
+    "work/phase13_claude/kent/resultado.txt",
+    "work/phase13_claude/kent/ledger.json",
+    "work/phase13_claude/web-nara-citation.json",
+    "sentinel-blume-salamanca/docs/SOURCES.md"
+  ],
+  "bibliography": {
+    "source": "title-page image PP5",
+    "volume": "III",
+    "title": "A Catalog of Files and Microfilms of the German Foreign Ministry Archives, 1920-1945",
+    "editor": "George O. Kent",
+    "publisher": "The Hoover Institution, Stanford University",
+    "year_printed": 1966,
+    "google_HTML_year": 1962,
+    "year_precedence": "the printed title page of this copy",
+    "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PP5",
+    "image": "kent-pp5.png"
+  },
+  "rows": [
+    {
+      "serial": 643,
+      "microcopy": "T-120",
+      "roll": 296,
+      "price_historical": 8,
+      "printed_page": 778,
+      "literal_row": "643 | 296 | 8",
+      "image": "kent-pa778.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA778",
+      "header": "Microcopy No. T-120; Serial / Roll / Price",
+      "asterisk": false,
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA778&img=1&zoom=3&sig=ACfU3U1Gc8rKGAO5_O9V9FouVeTQ1j5kaw"
+    },
+    {
+      "serial": 3176,
+      "microcopy": "T-120",
+      "roll": 1594,
+      "price_historical": 8,
+      "printed_page": 793,
+      "literal_row": "3171-3174, 3176 | 1594 | 8",
+      "image": "kent-pa793.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793",
+      "header": "Microcopy No. T-120; Serial / Roll / Price",
+      "asterisk": false,
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA793&img=1&zoom=3&sig=ACfU3U1Z-MSq_9C-2YSkGVP0dcyatRAMNw"
+    },
+    {
+      "serial": 47,
+      "microcopy": "T-120",
+      "roll": 36,
+      "price_historical": 9,
+      "printed_page": 771,
+      "literal_row": "47 | 36 | 9",
+      "image": "kent-pa771.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA771",
+      "header": "Microcopy No. T-120; Serial / Roll / Price",
+      "asterisk": false,
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA771&img=1&zoom=3&sig=ACfU3U3CKa8GCWyJzKZixjJDRnc7MfmyLA"
+    }
+  ],
+  "image_fetches": [
+    {
+      "url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA770&img=1&zoom=3&sig=ACfU3U0RfEA4EyT2ygv2EZIyJYPFKVF-Ew",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 39525,
+      "page": "PA770",
+      "file": "kent-p770.png",
+      "source_metadata": "kent-p770-fetch.json",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA770&img=1&zoom=3&sig=ACfU3U0RfEA4EyT2ygv2EZIyJYPFKVF-Ew",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA770",
+      "visually_read": true
+    },
+    {
+      "page": "PA771",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA771",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA771&img=1&zoom=3&sig=ACfU3U3CKa8GCWyJzKZixjJDRnc7MfmyLA",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 18482,
+      "source_metadata": "kent-diagnostic-fetch.json",
+      "file": "kent-pa771.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA771",
+      "visually_read": true
+    },
+    {
+      "page": "PA773",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA773",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA773&img=1&zoom=3&sig=ACfU3U3tMKOCmArPrEnjNo16vtyMPkSOAA",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 34843,
+      "source_metadata": "kent-diagnostic-fetch.json",
+      "file": "kent-pa773.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA773",
+      "visually_read": true
+    },
+    {
+      "page": "PA781",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA781",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA781&img=1&zoom=3&sig=ACfU3U0Htrbbw5wsWLYDCFE7_vlqN_zu_Q",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 35792,
+      "source_metadata": "kent-diagnostic-fetch.json",
+      "file": "kent-pa781.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA781",
+      "visually_read": true
+    },
+    {
+      "page": "PP5",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PP5",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PP5&img=1&zoom=3&sig=ACfU3U1mdwb57V5hlro6thJ-jlAe-hZElw",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 17715,
+      "source_metadata": "kent-diagnostic-fetch.json",
+      "file": "kent-pp5.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PP5",
+      "visually_read": true
+    },
+    {
+      "page": "PA777",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA777",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA777&img=1&zoom=3&sig=ACfU3U1G2T_IR8vLrBphxIM4VdY-1B5DHw",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 30816,
+      "source_metadata": "kent-target-fetch.json",
+      "file": "kent-pa777.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA777",
+      "visually_read": true
+    },
+    {
+      "page": "PA778",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA778",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA778&img=1&zoom=3&sig=ACfU3U1Gc8rKGAO5_O9V9FouVeTQ1j5kaw",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 33504,
+      "source_metadata": "kent-target-fetch.json",
+      "file": "kent-pa778.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA778",
+      "visually_read": true
+    },
+    {
+      "page": "PA795",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA795",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA795&img=1&zoom=3&sig=ACfU3U0vB_6hEd3AA3cmYhwVbeDIelcP2Q",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 27992,
+      "source_metadata": "kent-target-fetch.json",
+      "file": "kent-pa795.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA795",
+      "visually_read": true
+    },
+    {
+      "page": "PA798",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA798",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA798&img=1&zoom=3&sig=ACfU3U0TANCDfzODXWUrihNrQNjEvpYgsQ",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 27291,
+      "source_metadata": "kent-target-fetch.json",
+      "file": "kent-pa798.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA798",
+      "visually_read": true
+    },
+    {
+      "page": "PP6",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PP6",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PP6&img=1&zoom=3&sig=ACfU3U2EBw6bJjyq-D19bUCsGk0GsRfi6A",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 12693,
+      "source_metadata": "kent-target-fetch.json",
+      "file": "kent-pp6.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PP6",
+      "visually_read": true
+    },
+    {
+      "page": "PA793",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA793&img=1&zoom=3&sig=ACfU3U1Z-MSq_9C-2YSkGVP0dcyatRAMNw",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 25884,
+      "source_metadata": "kent-3176-fetch.json",
+      "file": "kent-pa793.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793",
+      "visually_read": true
+    },
+    {
+      "page": "PA794",
+      "url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA794",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA794&img=1&zoom=3&sig=ACfU3U3mokrwA3EaTDLa13p-P_ehFozJIw",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 29300,
+      "source_metadata": "kent-3176-fetch.json",
+      "file": "kent-pa794.png",
+      "page_url": "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA794",
+      "visually_read": true
+    },
+    {
+      "page": "PA778",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA778&img=1&zoom=2&sig=ACfU3U1Gc8rKGAO5_O9V9FouVeTQ1j5kaw",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 21549,
+      "file": "kent-pa778-zoom2.png",
+      "source_metadata": "kent-highres-fetch.json",
+      "visually_read": false,
+      "visual_content": "image not available placeholder; not used as evidence"
+    },
+    {
+      "page": "PA793",
+      "image_url": "https://books.google.es/books/content?id=oHAmAQAAMAAJ&hl=es&pg=PA793&img=1&zoom=2&sig=ACfU3U1Z-MSq_9C-2YSkGVP0dcyatRAMNw",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 15567,
+      "file": "kent-pa793-zoom2.png",
+      "source_metadata": "kent-highres-fetch.json",
+      "visually_read": false,
+      "visual_content": "image not available placeholder; not used as evidence"
+    }
+  ],
+  "nara_access": {
+    "query_count": 6,
+    "query_limit": 6,
+    "raw_files": [
+      "nara-rolls-web-01.json",
+      "nara-rolls-web-02.json",
+      "nara-rolls-web-03.json",
+      "nara-rolls-web-04.json"
+    ],
+    "official_publication_page": "https://www.archives.gov/research/captured-german-records/microfilmed-at-whaddon-hall.html",
+    "official_page_HTML": "nara-whaddon-hall.html",
+    "T120_entry_link_present": false,
+    "catalog_search_attempts": [
+      {
+        "url": "https://catalog.archives.gov/search?q=T120%20296",
+        "result": "not accessible via this tool",
+        "roll_record_found": false
+      },
+      {
+        "url": "https://catalog.archives.gov/search?q=T120%201594",
+        "result": "not accessible via this tool",
+        "roll_record_found": false
+      }
+    ],
+    "roll_specific_record_URLs_found": false,
+    "digital_availability_verified": false,
+    "frames_read": false,
+    "absence_of_digitization_claimed": false
+  },
+  "audits": [
+    {
+      "auditor": "root agent",
+      "method": "independent visual read of page images and title page",
+      "confirmed": [
+        "643 -> 296, p778",
+        "3171-3174,3176 -> 1594, p793",
+        "Volume III, 1966"
+      ]
+    }
+  ],
+  "limits": {
+    "current_PAAA_or_Bundesarchiv_signature_inferred": false,
+    "current_original_document_custodian_inferred": false,
+    "people_contacted": false,
+    "accounts_used": false,
+    "full_book_or_roll_downloaded": false,
+    "public_repository_modified": false,
+    "historical_files_modified": false,
+    "all_new_writes": "work/phase14_kent/"
+  }
+}

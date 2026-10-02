@@ -16,6 +16,7 @@ def main():
     targets={
         'phase10_population':ROOT/'work/phase10_crypto/population_search.cpp',
         'phase11_cap5000':ROOT/'work/phase11_crypto/capped_population_search.cpp',
+        'phase14_checkpoint':ROOT/'work/phase14_crypto/checkpoint_population_search.cpp',
         'phase7_regenerate_keys':ROOT/'work/phase7_crypto/regenerate_planted_keys.cpp',
     }
     records=[]

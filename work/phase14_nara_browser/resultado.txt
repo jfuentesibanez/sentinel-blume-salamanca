@@ -1,0 +1,30 @@
+NARA: RUTA DE CONSULTA T120 — 3 de octubre de 2026
+
+Se leyó la ficha pública NAID 6921696 en el catálogo de NARA:
+https://catalog.archives.gov/id/6921696
+Título: Copies of Records of the Reich Foreign Office, 1947 ?–1958.
+Record Group 242. Su descripción corresponde a copias fotográficas en papel
+de documentos de 1934–1945, reunidas después de la guerra.
+
+La sección Additional Resources identifica explícitamente la publicación
+microfilmada T120, Records of the German Foreign Office Received by the
+Department of State. La ficha da como contacto de referencia National Archives
+at College Park – Textual Reference, Archives2reference@nara.gov.
+
+La ficha muestra Not Yet Available Online para esta serie de copias. Eso no
+prueba que todos los rollos T120 carezcan de digitalización. Sus contenedores
+son cajas/volúmenes de papel, no los rollos del microfilm. La ficha no muestra
+los rollos 296 o 1594 ni confirma el acceso a sus fotogramas concretos.
+
+Los rollos se obtuvieron por una fuente distinta: las tablas de conversión
+del catálogo de George O. Kent, volumen III (1966), páginas 778 y 793.
+Serial 643 → T120, rollo 296.
+Serial 3176 → T120, rollo 1594.
+
+La nueva ficha aporta una referencia institucional y una vía precisa para
+consultar el acceso. Aún falta obtener y leer los fotogramas 254221–222,
+682876–878 y 682895–896. No identifica a BLUME ni vincula por sí misma esos
+documentos diplomáticos con los telegramas Oswald.
+
+Se conservaron localmente snapshots de la navegación pública y búsquedas
+por título/serie. No se enviaron correos ni se hicieron solicitudes al archivo.

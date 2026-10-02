@@ -1,0 +1,56 @@
+Fase 14: implementación y controles de invariantes, pendientes de sellado
+
+El solver y el runner están preparados para comparar cap5000/33298 y fusión
+OFF/ON en cuatro casos sintéticos de alemán/francés,20×25, dos rondas:32corridas.
+Cada corrida tendrá100.000 llamadas IDP y30s de protección blanda. El checkpoint
+en50.000 sustituye todos los refrescos periódicos. Las cuatro políticas pagan
+el mismo pool completo de7.000 llamadas y guardan sus propuestas en top5; sólo
+ON ofrece sus20supervivientes a padres, con la regla de usos congelada.
+
+Estado actual: no se ha creado verdad, no hay corridas principales y no se ha
+ejecutado el evaluador externo. Las semillas propuestas son20262201/20262202.
+IMPLEMENTATION_DECISIONS.txt fija las reglas nuevas y sus límites de lectura.
+
+Compilación: build_solver.py. La fuente base y el prefijo importado son exactos,
+sin modificar fases anteriores. build_record.json registra Apple clang12.0.5,
+libc++12000, flags, SHA de fuentes/binario y coste de compilación. Se mantienen
+std::mt19937_64 y std::shuffle heredados; una biblioteca distinta puede cambiar
+sus secuencias. Ver ATTRIBUTION.txt y LICENSE-CrypTool-2.txt.
+
+Controles pequeños ya ejecutados, SIN verdad ni ciphertext histórico:
+-14escenarios de contadores, precedencia, convergencia, RNG, pool, guardias ySHA,
+ con geometría3×6 y modelo uniforme:17.621llamadas IDP.
+-3fixtures con score inicial artificialmente inferior al uniforme para verificar
+ actualización de la última propuesta antes de cap/checkpoint/global:6llamadas.
+-El primer intento falló por un identificador del harness que confundía long
+ con on, y tenía5scores auxiliares omitidos en el recuento emitido. Se preserva
+ íntegro en invariant_attempt1/:17.626llamadas reales. Se corrigió el harness,
+ sin cambiar el solver por un resultado de recuperación.
+Total de controles, incluido ese fallo:35.253llamadas IDP. El primer intento no
+guardó tiempo de cada proceso; el coste temporal queda explícitamente disponible
+sólo para los controles corregidos y los fixtures. Estas pruebas no demuestran
+recuperación ni verifican dinámicamente la geometría principal20×25.
+
+run_comparison.py plan crea plan32.json, sin verdad ni búsquedas. El plan fija
+orden Williams, semillas, comandos, hashes, costes y exclusiones interpretativas.
+seal exige audit_approval.json aprobado por raíz y ligado al SHA del plan. Genera
+la verdad FUERA del solver y sella entradas/hashes antes de la primera corrida.
+run-sealed ejecuta sólo las32órdenes selladas y registra proceso/recorrido.
+validate_no_truth.py comprueba después prefijos, pools y entradas top5 sin verdad.
+evaluate_external.py sólo puede correr tras las32órdenes y la verificación anterior.
+No ejecutar seal, run-sealed o evaluación antes de aprobación y momento indicado.
+
+Datos de auditoría: preparations guarda todas las1000claves aleatorias puntuadas
+y20supervivientes cuando el pool es completo; cada corte parcial conserva su
+prefijo real. pre_checkpoint excluye tiempos e incluye SHA de scores, RNG, orden
+de movimientos, padres/IDs/usos, archivo y contadores. offer_metadata añade17cifras
+a los eventos heredados, que siguen impresos a12. archive_events conserva la
+entrada/reentrada y su estado completo a17cifras; el campo archive final heredado
+usa12. La última archive_after permite reconstruir con precisión ese estado.
+
+Los pares con corte temporal siguen en el recuento bruto y se muestran aparte
+al interpretar fusión. Igual número de llamadas no demuestra igual CPU. Las
+cuatro políticas por caso no son cuatro casos independientes. No se declarará
+ganador estadístico, idioma, familia de cifrado ni plaintext histórico con este
+piloto. Una entrada top5 desde el pool es generación directa común a los brazos;
+ascendencia de un padre de checkpoint no demuestra por sí sola efecto causal.

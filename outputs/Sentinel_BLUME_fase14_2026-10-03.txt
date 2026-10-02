@@ -1,0 +1,122 @@
+SENTINEL — BLUME SALAMANCA, FASE 14
+3 de octubre de 2026
+
+Tenemos una concordancia archivística comprobada y un resultado criptográfico
+negativo. Los seriales antiguos permiten pedir dos rollos concretos de T120.
+El nuevo piloto sintético no recuperó ninguna clave. No hay un descifrado,
+una clave histórica ni una identificación verificada de BLUME.
+
+AVANCE HISTÓRICO
+
+Las imágenes del catálogo de George O. Kent, volumen III, permiten convertir
+serial 643 en T120, rollo 296 (página 778), y serial 3176 en T120, rollo 1594
+(página 793). Esta última fila incluye 3176 junto a 3171–3174. La portada del
+ejemplar leído dice 1966; no debe sustituirse por el año 1962 de su ficha HTML.
+Portada y tablas:
+https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PP5
+https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA778
+https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793
+
+Los siguientes objetivos ya son precisos:
+- T120/296, serial 643, fotogramas 254221–254222: documento 187 de ADAP,
+  Salamanca, 7 de enero de 1937, sobre relaciones de Bernhardt/Hisma y Franco.
+- T120/1594, serial 3176, fotogramas 682876–682878: documento 180 y anexos,
+  carta del 1 de enero y protocolo comercial del 31 de diciembre de 1936.
+  El telegrama adjunto al que remite la edición aún no se ha leído.
+- T120/1594, serial 3176, fotogramas 682895–682896: documento 206,
+  16 de enero de 1937, sobre una delegación económica y negociaciones propuestas.
+Edición ADAP consultada:
+https://digitale-sammlungen.de/de/view/bsb00045915
+
+La concordancia no verifica todavía los fotogramas dentro de T120 ni aporta
+signaturas actuales del PAAA/Bundesarchiv. La proximidad de fechas tampoco
+vincula esos documentos con los mensajes Oswald. NARA explica la conversión:
+https://www.archives.gov/research/captured-german-records/citing-german-microfilm-sources.html
+
+La ficha NARA 6921696, RG242, identifica T120 entre sus recursos adicionales
+y da el contacto de referencia de College Park. Describe copias en papel de
+documentos de 1934–1945 reunidas después de la guerra. Su aviso Not Yet Available
+Online corresponde a esa serie; no resuelve la disponibilidad de los rollos
+296/1594. Hemos preparado una consulta con rollos y fotogramas, sin enviarla.
+https://catalog.archives.gov/id/6921696
+
+En el segundo telegrama se lee claramente Cde. El reglamento de Madrid de
+1932 emplea CDE para la categoría administrativa de lenguaje convenido y
+admite palabras artificiales de hasta cinco letras. La clasificación no
+identifica un libro de códigos ni excluye una transposición. El artículo
+41(c)(3) permite añadir la indicación durante el tránsito o en destino, con
+acuerdo del origen; la ausencia visible en T1 no demuestra otra categoría.
+El reglamento entró en vigor el 1 de enero de 1934. No hemos revisado todas las
+posibles modificaciones anteriores al envío de enero de 1937.
+Artículos 10, 41 y 98; páginas impresas 57–59, 113 y 201:
+https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20151/v151.pdf
+
+Los 123 grupos de T1 más BLUME y SALAMANCA suman las 125 palabras anotadas;
+los 32 de T2 más la dirección suman 34. Las marcas 50/100 de T1 incluyen la
+dirección. Estas cuentas ya eran conocidas; ahora se cotejaron con la norma.
+London Mcl. sigue sin expandirse. No tenemos una tabla de tarifas aplicable
+a la ruta el 8 de enero de 1937. Los importes no permiten decidir el cifrado.
+Originales BAR E4320B#1974/47#277*, subdossier 66, Unterlagen 72, imágenes 527/531:
+https://www.recherche.bar.admin.ch/recherche/#/de/archiv/einheit/3578609
+
+RESULTADO CRIPTOGRÁFICO
+
+El piloto estaba fijado antes de generar la verdad: cuatro pares sintéticos,
+modelos literarios alemán/francés, dos semillas nuevas, anchos conocidos 20×25,
+dos rondas y cuatro brazos. Se buscó sólo K2; no K1 ni los textos históricos.
+Cada corrida tuvo 100.000 llamadas IDP y un límite blando de 30 segundos.
+
+                    Cap local    Admisión pool en 50.000     K2 exacta top5
+Brazo A                5.000              OFF                    0/8
+Brazo B                5.000              ON                     0/8
+Brazo C               33.298              OFF                    0/8
+Brazo D               33.298              ON                     0/8
+
+Todos los brazos puntuaron el pool común del checkpoint; sólo ON ofreció
+sus supervivientes como padres. Se eliminaron los refrescos periódicos.
+Por tanto, la comparación mide esa admisión con usos heredados, no toda la
+utilidad de renovar candidatas ni exclusivamente la diversidad.
+
+Las 32 corridas alcanzaron 100.000 llamadas: 3.200.000 en total, sin cortes de
+tiempo; 201,99 segundos de proceso acumulados. Los controles previos costaron
+35.253 llamadas, incluido un intento fallido del comprobador preservado.
+No se hicieron nuevas búsquedas ni ajustes después de ver los resultados.
+
+La clave verdadera puntuó por encima de todas las claves finales en las 32
+corridas. La diferencia frente a la mejor candidata fue 0,1761–0,2849 IDP.
+Esto muestra una limitación de búsqueda bajo este diseño y presupuesto;
+no demuestra un máximo global ni la calidad del modelo para telegramas reales.
+El cap largo permitió 22 convergencias observadas, frente a cero con el corto,
+pero no produjo recuperaciones. Completar barridos no bastó para este panel.
+
+AUDITORÍA Y COLABORACIÓN
+
+Antes de sellar, otra revisión cotejó código, 22 recursos, 322 archivos protegidos,
+modelos y controles. Tras ejecutar, se repitieron sin verdad las reglas de 1.280
+ofertas, 320 elecciones de padre, 352 escaladas, 320 perturbaciones y 2.233 entradas
+top5. Los 16 pares OFF/ON partieron de estados idénticos al mismo cap; los ocho
+grupos de cuatro brazos compartieron el mismo pool completo del checkpoint.
+Se recomputaron 1.294 scores distintos: error máximo 1,10×10^-9, tolerancia 10^-8.
+La evaluación externa recomprobó los 160 scores finales después de terminar.
+
+Claude revisó el diseño y cinco archivos de referencia publicados. Sus
+observaciones sobre fronteras, RNG, costes, usos y archivo se incorporaron
+antes del sellado. No ejecutó este piloto ni certificó el nuevo binario.
+Los 1.720 archivos de investigación anteriores conservan sus bytes y hashes.
+
+SIGUIENTE PASO
+
+Prioridad histórica: confirmar acceso a los dos rollos y leer los fotogramas,
+en especial el telegrama adjunto. Mantener abierta la búsqueda de un libro
+de códigos o una dirección telegráfica vinculados directamente a los Oswald.
+La marca Cde orienta esa investigación sin decidir el sistema.
+
+Prioridad criptográfica: conservar este fallo como diagnóstico reproducible
+y revisar con Claude dónde pierde la búsqueda la clave plantada. Cualquier
+nuevo método necesitará otro diseño y casos reservados. Este panel no permite
+descartar alemán, francés, libros de códigos ni doble transposición en BLUME.
+
+Archivos: work/phase14_crypto/ contiene plan, código, controles, inputs, logs y
+evaluación. work/phase14_root/ contiene las auditorías y el cotejo histórico.
+Las imágenes externas y capturas de aplicaciones se conservan sólo localmente;
+el repositorio público ofrece las notas propias y enlaces a las fuentes.

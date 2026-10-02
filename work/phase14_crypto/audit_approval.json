@@ -1,0 +1,9 @@
+{
+  "approved": true,
+  "plan_sha256": "c7ceebfde703dfaf267a92ed20334bd81908fd199535022f1755691a2b0efba9",
+  "approved_at_utc": "2026-10-02T22:41:27.215593+00:00",
+  "approved_by": "root with independent code/control/plan review",
+  "root_review_sha256": "df0c93b340c5956951bcaf182fcc7c2ac45997e1504a346ac155c1abfe52fd87",
+  "independent_audit_sha256": "179238f19142c2a78779c6d72b0073a7d2447575412de4e21984546280f5e1bb",
+  "scope": "Four fresh synthetic K2 cases,32predeclared runs; no historical attack or adaptive tuning."
+}

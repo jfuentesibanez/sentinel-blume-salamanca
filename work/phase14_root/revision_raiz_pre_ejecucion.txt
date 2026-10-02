@@ -1,0 +1,44 @@
+REVISIÓN RAÍZ ANTES DE LOS ENSAYOS — FASE 14
+3 de octubre de 2026
+
+Se han leído el solver final, el runner, el evaluador externo, el verificador
+sin verdad, los registros de compilación y los resultados de los controles.
+El plan32 fija cuatro casos nuevos, dos rondas y cuatro brazos. Sus 32 comandos
+contienen modelos, ciphertexts, anchos, semilla de búsqueda y límites; ninguno
+contiene la clave plantada. La verdad y las salidas principales aún no existían
+al hacer esta revisión.
+
+Plan SHA256: c7ceebfde703dfaf267a92ed20334bd81908fd199535022f1755691a2b0efba9.
+Fuente solver SHA256: 2b6bb193eec7d0c72d1627709f41ee5526ac2d10ceeca7a00cc8f969b10df981.
+Binario solver SHA256: 5d64e34deab9d0cd38eefdf26035ec520c2d18b6b14cb60d7fd5a1c0b6941471.
+Se han cotejado por hash los 22 recursos del plan, 322 archivos protegidos y
+cuatro archivos de modelos/holdouts. Coinciden.
+
+Todos los brazos puntúan el mismo pool externo al RNG principal al llegar a
+50.000 llamadas. Sólo ON ofrece sus veinte supervivientes a la población.
+El archivo top5 considera también el pool de OFF. Por tanto, la comparación
+mide la admisión de candidatas como padres, con la regla de usos heredados.
+No mide toda la utilidad de renovar candidatas ni sólo su diversidad.
+
+Los caps 5.000 y 33.298 limitan las propuestas de cada escalada. Un barrido
+W2=25 necesita 16.649 propuestas. El cap corto no puede completarlo; el largo
+permite dos barridos, sin garantizar convergencia. Los cortes y la convergencia
+observada se registran por separado. El tiempo de 30 segundos es un límite
+blando; las comparaciones con corte temporal se mantienen en el recuento bruto
+y se separan de la interpretación de la fusión.
+
+Controles previos: 17 escenarios aprobados, 35.253 llamadas IDP realizadas
+incluyendo el primer intento del harness que falló. El error del harness y
+sus cinco llamadas auxiliares están preservados; no se ocultan ni se cuentan
+como búsquedas principales. Las comprobaciones SHA256 independientes costaron
+cero llamadas IDP. No se ha ajustado el programa con resultados principales.
+
+Se prepara una auditoría de los logs guardados, sin leer la verdad ni invocar
+el solver, para repetir reglas de admisión, padres, perturbaciones, top5,
+igualdad de estados anteriores al checkpoint y scores numéricos. La evaluación
+contra la verdad se hará después de completar las 32 corridas.
+
+Esta revisión se complementa con auditoria_independiente_crypto.txt. La
+aprobación efectiva se registra aparte en audit_approval.json, ligada al hash
+del plan. No se considera descifrado histórico ni prueba del idioma o sistema
+de BLUME SALAMANCA.

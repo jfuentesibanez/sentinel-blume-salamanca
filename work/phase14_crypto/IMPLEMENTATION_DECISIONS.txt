@@ -1,0 +1,78 @@
+Fase14 — decisiones de implementación previas a auditoría, 3 octubre 2026
+
+Especificación de referencia: work/phase13_claude/crypto_decisiones_preimplementacion.txt.
+No se modifica ese archivo ni se declara sellado el experimento mientras su código
+y sus controles de invariantes no pasen revisión. No hay búsquedas principales.
+
+Un binario común configura cap local5000/33298 y fusión OFF/ON. Sustituye los
+refrescos periódicos de fases10/11 por UN checkpoint en50.000 llamadas; no hereda
+la renovación cada cuatro hijos. Admisión, uso máximo heredado de vecinos, elección
+de padre, distancia ceil(0.4W2), perturbaciones disjuntas y movimientos permanecen.
+Importa exactamente el prefijo de clases de fase10 y llama explícitamente al
+objetivo/counter de fase9 mediante su wrapper score(). No llama a prepare(),
+run_population(), kick_parent() o climb() heredados, porque omitirían los nuevos
+límites o los hooks de auditoría. La verdad no aparece en el binario.
+
+Las preparaciones generan/puntúan primero, sin admisión. Veinte supervivientes
+iniciales se ofrecen a todos los brazos. Al checkpoint, sólo ON las ofrece; OFF
+conserva IDs, eventos, población y usos. Las propuestas de TODOS los brazos se
+consideran para top5. Orden IDP descendente/clave numérica lexicográfica. No se
+añade deduplicación de supervivientes distinta de la preparación congelada.
+
+Cada preparación COMPLETA enW2=25 cuesta1000+20*300=7000 llamadas. Pool incompleto
+se conserva como evidencia, con costes reales y sin ofrecer supervivientes.
+Un corte global posterior al último score también impide ofertas, aunque el pool
+se completara. Tiempo se comprueba antes de evaluaciones, fronteras y ofertas;
+es un límite blando: la evaluación/logging actual puede sobrepasarlo. Se conserva
+el tiempo real de proceso por separado del reloj interno. Modelo/lectura inicial
+se incluyen en proceso, pero ocurren antes del constructor del reloj del solver.
+
+Frontera global > checkpoint > cap local. Se procesa SIEMPRE el resultado puntuado
+antes de decidir el corte. stop_reason y convergence_observed son distintos:
+un barrido completo sin mejora puede coincidir con una frontera. En50.000,
+stop_reason=checkpoint y status=converged si ese barrido terminó sin mejora;
+si no, status=partial_checkpoint. Hay una oferta única cuando no hay corte global.
+En100.000 prevalece global_cut y NO hay oferta; convergence_observed conserva
+la evidencia matemática. partial describe la ausencia de esa evidencia, no el
+permiso de admisión. climb_completions cuenta retornos convergidos sin global_cut.
+No se baraja una nueva pasada tras agotar un límite.33.298 permite dos barridos
+de16.649, sin garantizar convergencia.
+
+Si la perturbación es la llamada50.000, status=perturbation_only_checkpoint,
+climb_started=false, hill_calls=0 y se ofrece esa candidata una única vez.
+En corte global, la perturbación ya puntuada queda en archivo pero no se ofrece.
+Una perturbación no puntuada no devuelve una candidata válida ni se admite.
+offspring_processed cuenta hijos con perturbación puntuada cuyo estado terminal
+se ha registrado, incluidos los que no pudieron comenzar un barrido; las trazas
+permiten separarlos de las escaladas iniciadas. Nunca se llama máximo local a
+una perturbación sola ni a un barrido parcial. La inicial no cuenta como hijo.
+
+RNG principal y checkpoint: std::mt19937_64, uint64_t. Checkpoint independiente
+con seed XOR0x6a09e667f3bcc909; no consume/restaura ni reemplaza el RNG principal.
+Se registran los estados RNG,1000 claves puntuadas y20 supervivientes de cada
+preparación, o su prefijo real cuando hay corte. Antes del checkpoint se guarda
+estado de RNG, orden de movimientos, población/IDs/usos, archivo, contadores y
+SHA256 de la secuencia completa de scores. Sin tiempos ni bandera ON/OFF.
+La secuencia se serializa en enteros uint64 little-endian: contador, fase1/2/3/4,
+longitud, cada posición numérica, seguido de bits IEEE754 binary64 del IDP.
+La SHA256 se calcula en memoria incremental; no guarda todas las propuestas.
+
+Archivo top5 separado de población. Se registran TODAS sus entradas/reentradas,
+rango, clave numeric y K2=inverse(numeric), llamada, etapa y ascendencia del padre.
+La ascendencia checkpoint es una anotación; no interviene en selección/puntuación.
+Una recuperación directa en el pool no se atribuye a la fusión. Una recuperación
+posterior puede llevar ascendencia explícita, pero eso tampoco demuestra una
+causa contrafactual individual. Selecciones y eventos completos permiten replay.
+
+Plan principal:4casos de_fold/fr_fold × semillas20262201/02,20×25,
+dos rondas y4brazos,32corridas,100.000 llamadas y30s cada una. Orden y derivación
+de semillas se fijan en el runner/plan antes de crear verdad y ejecutar. Seeds
+20262201/02 aparecen sólo en diseños previos, no en ensayos ejecutados revisados.
+Las parejas con cortes temporales se muestran aparte al interpretar fusión,
+pero permanecen en los recuentos brutos. No se ajustan topes tras resultados.
+No K1, no ciphertext histórico, no inferencia de idioma/cifrado de BLUME.
+
+Los eventos heredados siguen intactos a12cifras. offer_metadata registra cada
+oferta con candidate_idp y estado before/after a17cifras para replay con epsilon
+1e-12. Los otros estados de población nuevos también usan17cifras. Una
+perturbación no puntuada figura en parent_choices/kicks, no offspring_processed.

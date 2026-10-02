@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "scope": "independent saved-log replay and numerical scores; no truth or solver invocation",
+  "checks": {
+    "rows": 32,
+    "archive_scores": 160,
+    "offers": 1280,
+    "parent_choices": 320,
+    "climbs": 352,
+    "perturbations": 320,
+    "archive_events": 2233,
+    "pre_checkpoint_equalities": 16,
+    "common_checkpoint_pools": 8
+  },
+  "distinct_scores_recomputed": 1294,
+  "maximum_absolute_score_error": 1.09798037328801e-09,
+  "score_tolerance": 1e-08,
+  "new_searches": 0,
+  "limitations": [
+    "Archive completeness over unlogged rejected proposals rests on source audit and invariant controls.",
+    "Numerical score tolerance is larger than admission epsilon; decision replay uses exact17digit solver metadata."
+  ]
+}

@@ -1,0 +1,65 @@
+AUDITORÍA INDEPENDIENTE CRYPTO — FASE 14
+3 de octubre de 2026. Estado final: apto para aprobar el plan identificado abajo y ejecutar sus 32 ensayos.
+
+No quedan objeciones dentro del alcance revisado. La lectura del solver, SHA256, runner y controles no ha identificado un fallo que cambie el presupuesto, la prioridad de las fronteras, la selección de padres o el archivo top5. Los controles pasan y el plan final coincide con sus recursos. La aprobación y el sellado corresponden al agente principal. Esta conclusión permite iniciar los ensayos; no anticipa sus resultados.
+
+Alcance
+- Sólo lectura de work/phase14_crypto/checkpoint_population_search.cpp, sha256.h, build_solver.py, run_comparison.py, IMPLEMENTATION_DECISIONS.txt, los harness y sus resultados, validate_no_truth.py y plan32.json. evaluate_external.py se cotejó por hash; su revisión de contenido corresponde al agente principal.
+- Leídos como referencias work/phase13_claude/crypto_decisiones_preimplementacion.txt, work/phase10_crypto/population_search.cpp y work/phase9_crypto/k2_search.cpp.
+- No se leyó la verdad nueva. No se ejecutó el solver, ninguna búsqueda principal ni controles IDP propios.
+- Se compiló un control SHA256 independiente en /private/tmp/sentinel-phase14-independent-sha256. No contiene modelo, ciphertext ni verdad; coste IDP=0.
+- Este agente no modificó código ni archivos históricos. Sólo escribe este informe.
+
+Comprobaciones estáticas
+1. Cada evaluación nueva usa score(), que llama expresamente a phase9::Search::evaluate(). Esta llamada incrementa used, el contador de fase y el archivo top5. La invariante final exige used=pool_calls+swap_calls+climb_calls+kick_calls y used<=maximum.
+2. Una preparación completa W2=25 cuesta 1000+20*25*24/2=7000 llamadas. El checkpoint se prepara con coste global y sin admisión implícita. Sólo ON ofrece sus supervivientes tras completar el pool y mientras el guard global permite ofertas.
+3. boundary() comprueba global, checkpoint, cap y convergencia en ese orden. El resultado ya puntuado actualiza current antes de comprobar la frontera. convergence_observed se conserva aunque la parada obedezca a otra frontera.
+4. La comprobación anterior al std::shuffle impide un barrido adicional después de agotar por llamadas el cap/checkpoint/global. Un tiempo que venza durante el barajado puede producir cero propuestas; eso no contradice comprobar el límite antes del barajado.
+5. Si la perturbación llega al checkpoint, el hijo se registra como perturbation_only_checkpoint, sin escalada. Si la perturbación se puntúa justo en la parada global, permanece en top5 y no se admite. Una perturbación no puntuada no se ofrece y no debe contarse como offspring_processed.
+6. La terminación hace una sola oferta. offer() ahora comprueba global antes de admit(), devuelve el permiso real y valida longitud, permutación y score finito. La traza del hijo registra el resultado real de esa oferta.
+7. La población mantiene la admisión congelada de fase10: distancia ceil(0.4W2), sustitución de todos los vecinos sólo si mejora a todos, herencia del máximo de usos y elección del padre con menos usos. La ascendencia checkpoint sólo se registra como metadato.
+8. El checkpoint usa std::mt19937_64 separado, con semilla de corrida XOR0x6a09e667f3bcc909. make_pool() sólo recibe ese generador. La comprobación de su estado verifica que no consumió el RNG principal.
+9. OFF/ON con el mismo cap no bifurca lógica antes del checkpoint. Su igualdad prevista cubre scores, RNG, orden de movimientos, archivo, población, IDs/usos y secuencias. Caps distintos pueden tener trayectorias distintas. Los cuatro brazos preparan el mismo pool completo del checkpoint con la misma semilla y objetivo.
+10. El archivo top5 es independiente de la población y considera todas las candidatas puntuadas, incluidos el pool OFF y los resultados cortados. Su regla congelada conserva cinco claves distintas, ordenadas por IDP descendente y numeric lexicográfico. archive_events registra entradas con rango, numeric, K2=inverse(numeric), llamada, etapa y ascendencia. La métrica posterior debe ser primera entrada en top5, no primera evaluación.
+11. El runner fija cuatro casos, dos rondas y cuatro brazos; el orden Williams y la derivación de semillas constan antes de generar verdad. Sus comandos de solver no incluyen verdad. El sellado genera ciphertext/verdad externamente sólo después de una aprobación ligada al plan; la ejecución comprueba recursos y hashes.
+
+Observaciones comunicadas al coder y al agente principal
+- Las trazas heredadas de admisión usaban 12 cifras, insuficientes para un replay numérico exacto cerca del umbral1e-12. El coder añadió offer_metadata y estados de población a17cifras sin modificar la admisión congelada. Corrección cotejada.
+- El primer borrador offer() sólo comprobaba cut. El coder añadió global() dentro de offer() y un retorno booleano para no declarar una oferta que el guard denegó. Corrección cotejada.
+- global() reescribía cause/terminal_phase en comprobaciones posteriores al primer corte. El coder añadió if(cut)return true antes de nuevas comprobaciones, por lo que conserva el primer corte. Corrección cotejada.
+- El primer harness ejecutaba cinco puntuaciones auxiliares que no incluía en el coste emitido. Se comunicó y corrigió. El intento fallido se conserva íntegro y el plan registra su coste real de 17626 llamadas IDP. También conserva el fallo del selector de fixture que confundía long_OFF con ON.
+
+Pruebas SHA256 independientes
+La compilación usó /usr/bin/clang++ -std=c++17 e incluyó el sha256.h leído en sólo lectura. update() recibió bloques de hasta17bytes. Cada hex() se pidió dos veces para comprobar que finalizar no altera el estado.
+- Entrada vacía: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855. Coincide.
+- abc: ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad. Coincide.
+- Un millón de letras a: cdc76e5c9914fb9281a1c7e284d73e67f1809a48a497200e046d39ccc7112cd0. Coincide.
+- integer(0x0807060504030201) seguido de floating(1.0): 6454d583f52058766709a5131ef8e654d4a2d645409d378a0cc384282d10552c. Coincide con hashlib.sha256(struct.pack('<Qd',0x0807060504030201,1.0)).
+No hubo llamadas IDP ni clave sintética conocida en estas pruebas.
+
+Controles del coder y comprobación independiente
+Se leyeron el harness, sus resultados y las trazas. Este agente no volvió a ejecutarlos. Son controles sintéticos de geometría 3x6, modelo uniforme y texto periódico, sin verdad ni clave plantada y separados de los 32 ensayos principales.
+- Las 14 pruebas del harness corregido pasan: SHA; parejas OFF/ON con ambos caps; coincidencias global/checkpoint/cap; final exacto de barrido; perturbación sola en checkpoint; pool truncado; tiempo anterior al primer score; oferta con tiempo vencido; y rechazo de ofertas inválidas. Coste: 17621 llamadas IDP.
+- Las tres pruebas last_score pasan: el fixture reduce de forma explícita el score inicial almacenado y fuerza una mejora en la última propuesta. Verifica current y archivo con parada cap, checkpoint y global. Coste: 6 llamadas IDP. No usa verdad.
+- El coste total registrado de controles es 17626 + 17621 + 6 = 35253 llamadas IDP, incluido el primer intento fallido. Las pruebas SHA independientes de este agente añaden 0 llamadas IDP.
+- Las parejas OFF/ON con el mismo cap tienen pre_checkpoint y archivo iguales en los controles. Los cuatro brazos comparten los pools completos y supervivientes del checkpoint. OFF registra cero ofertas del checkpoint y ON veinte.
+
+Un replay independiente, sin evaluar IDP, comprobó 16 filas de controles, 523 ofertas, 196 entradas del archivo y 379 elecciones de padre. Pasaron las sumas de contadores, completed+partial=processed, claves y metadatos, acciones únicas y consecutivas, distancias, replay de admisiones con precisión de 17 cifras, herencia de usos, IDs, elección de padres y orden/unicidad/rangos de top5 e inversión numeric→K2. No hubo ofertas después de alcanzar el corte global por llamadas.
+
+Plan final y hashes
+plan32.json conserva status=draft_for_audit_no_truth_no_main_runs y runs=[]. Contiene cuatro casos DE/FR por semillas 20262201/20262202, dos rondas y cuatro brazos A=5000/OFF, B=5000/ON, C=33298/OFF y D=33298/ON. Son 32 comandos, con las mismas semillas entre los cuatro brazos de cada caso/ronda. El orden Williams hace aparecer cada brazo dos veces en cada posición. Todos los comandos fijan widths=20/25, budget=100000, soft_seconds=30 y checkpoint=50000; ninguno recibe verdad.
+
+Se cotejaron los 22 hashes de recursos, los 322 archivos protegidos (318 crypto y cuatro diseños) y los cuatro hashes de modelos/holdouts. Todos coinciden. La auditoría de semillas del plan y una búsqueda local independiente en los manifiestos anteriores no encontraron uso previo de 20262201 ni 20262202. El prefijo congelado del solver coincide byte a byte con fase10 hasta su main.
+
+SHA256 finales:
+- plan32.json: c7ceebfde703dfaf267a92ed20334bd81908fd199535022f1755691a2b0efba9
+- checkpoint_population_search.cpp: 2b6bb193eec7d0c72d1627709f41ee5526ac2d10ceeca7a00cc8f969b10df981
+- checkpoint_population_search: 5d64e34deab9d0cd38eefdf26035ec520c2d18b6b14cb60d7fd5a1c0b6941471
+- sha256.h: 2e56b037b0d8adb3d94dcb866ef1ba329c7334eb9eaa39bca44564efe001638e
+- phase10_frozen_classes.h: bc70ef992bb05a7fff73c712a93f557065ee422eac8a500a0f720aed24d81a54
+- run_comparison.py: d4ba83379d9231c60daa9b1dd23255a845f45eff08c6786c3372cea21844228f
+- validate_no_truth.py: 15336e67f44e97fecaaed4bbe77fe6b62d63dbc2736511b261d2500747b1bb76
+- evaluate_external.py: 92e1c3fc5b5ec789b3f88e934e060714942f73c15f0b54541dc178b1f5c43ac1
+
+Límites y comprobaciones posteriores
+En el último cotejo no existían truth.jsonl ni search_outputs.jsonl; se comprobó sólo su existencia. No se leyó nueva verdad ni se ejecutó ninguna búsqueda principal. Los controles pequeños verifican las invariantes indicadas; no prueban recuperación a widths=20/25. El runner invoca validate_no_truth.py después de completar las 32 corridas. Su lectura confirma que contrasta contadores, prefijos OFF/ON, pools, supervivientes y replay top5 sin verdad. Aún no puede comprobarse su resultado sobre las corridas principales. Los cortes temporales pueden impedir un checkpoint completo y el validador declara ese alcance. La recuperación y el análisis externo pertenecen a una fase posterior a las 32 corridas completas.

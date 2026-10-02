@@ -1,0 +1,108 @@
+KENT: CONVERSIÓN SERIAL -> ROLLO T120 COMPROBADA EN IMÁGENES
+Fase 14. 3 de octubre de 2026.
+
+RESULTADO
+
+Las filas reales del suplemento de Kent permiten verificar estas conversiones:
+
+Serial 643 -> T120, rollo 296.
+Serial 3176 -> T120, rollo 1594.
+Serial 47 -> T120, rollo 36.
+
+Se leyeron las imágenes completas, con número de página, encabezado y columnas. La portada del ejemplar identifica volumen III y año 1966. La ficha HTML de Google Books da 1962; para este ejemplar, la imagen de la portada es la prueba bibliográfica directa. No se ha inferido ninguna signatura actual del PAAA o del Bundesarchiv.
+
+FUENTE PRIMARIA Y EDICIÓN
+
+A Catalog of Files and Microfilms of the German Foreign Ministry Archives, 1920-1945. Volume III. Compiled and edited by George O. Kent, Historical Office, Department of State. The Hoover Institution, Stanford University, Stanford, California, 1966.
+
+Portada leída: Google Books, ejemplar oHAmAQAAMAAJ, identificador de página PP5.
+URL pública: https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PP5
+Imagen preservada: kent-pp5.png.
+El reverso PP6 da Library of Congress Catalog Card Number 62-19204; ese número no sustituye el año 1966 impreso en la portada.
+
+La página 770 se titula NATIONAL ARCHIVES SUPPLEMENT. Su subtítulo identifica una lista de seriales, rollos y precios para las microcopias de los documentos descritos en el volumen. El texto explica que un serial puede extenderse por más de un rollo y que un rollo puede contener más de un serial. El último párrafo identifica T-120 como el número de microcopia de todos los rollos de la lista. Los precios son datos históricos, no tarifas actuales.
+URL pública: https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA770
+Imagen preservada: kent-p770.png.
+La URL exacta de la imagen descargada está en kent-p770-fetch.json y ledger.json.
+
+FILAS COTEJADAS
+
+1. Página impresa 778.
+   Encabezado: Microcopy No. T-120.
+   Columnas: Serial / Roll / Price.
+   Fila literal: 643 | 296 | 8.
+   Está en la columna izquierda, entre 642 | 343 | 9 y 644 | 344 | 6.
+   No tiene asterisco.
+   URL: https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA778
+   Imagen: kent-pa778.png.
+   URL exacta de imagen: kent-target-fetch.json y ledger.json.
+
+2. Página impresa 793.
+   Encabezado: Microcopy No. T-120.
+   Columnas: Serial / Roll / Price.
+   Fila literal, con el serial distribuido en dos líneas: 3171-3174, 3176 | 1594 | 8.
+   Está en la columna izquierda, entre 3157-3159, 3161-3168 | 1542 | 10 y 3178 | 1574 | 8.
+   El serial 3176 está incluido expresamente en la fila; no se ha extrapolado desde un intervalo vecino.
+   No tiene asterisco.
+   URL: https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793
+   Imagen: kent-pa793.png.
+   URL exacta de imagen: kent-3176-fetch.json y ledger.json.
+
+3. Página impresa 771, lectura auxiliar.
+   Encabezado: Microcopy No. T-120.
+   Columnas: Serial / Roll / Price.
+   Fila literal: 47 | 36 | 9.
+   Está en la columna izquierda, entre 46 | 35 | 9 y 49 | 38 | 3.
+   No tiene asterisco.
+   URL: https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA771
+   Imagen: kent-pa771.png.
+
+El agente principal cotejó independientemente las imágenes de 778, 793 y la portada. Confirmó 643 -> 296; 3171-3174,3176 -> 1594; volumen III, 1966.
+
+APLICACIÓN A LAS REFERENCIAS ADAP DEL PROYECTO
+
+Documento 187, 7 de enero de 1937: serial 643, frames 254221-222. La concordancia comprobada apunta a T120, rollo 296.
+Documento 180/protocolo, 1 de enero de 1937/31 de diciembre de 1936: serial 3176, frames 682876-878. La concordancia comprobada apunta a T120, rollo 1594.
+Documento 206, 16 de enero de 1937: serial 3176, frames 682895-896. La concordancia comprobada apunta a T120, rollo 1594.
+Documento 213, 26 de enero de 1937: serial 47, frames 31895-899. La concordancia comprobada apunta a T120, rollo 36.
+
+Los seriales y los frames ADAP proceden de docs/SOURCES.md y de las lecturas anteriores. Esta ronda verificó la conversión de serial a rollo; no leyó esos frames en los rollos. La concordancia no demuestra una operación Oswald/BLUME, una identidad de BLUME o el contenido de los telegramas.
+
+ACCESO A LOS ROLLOS: COMPROBACIÓN OFICIAL ACOTADA
+
+Se hicieron seis consultas nuevas después de verificar las filas, limitadas a archives.gov y catalog.archives.gov. No se localizó una ficha digital concreta de los rollos 296 o 1594.
+
+Fuente oficial leída:
+https://www.archives.gov/research/captured-german-records/microfilmed-at-whaddon-hall.html
+Identifica Records of the German Foreign Office Received by the Department of State, Microfilm Publication T120, 5,485 rolls. El HTML preservado de esa página contiene la entrada T120 sin enlace a una ficha del catálogo o a los rollos solicitados. Esto no equivale a una afirmación de que los rollos no estén digitalizados.
+
+Se intentaron estas rutas de búsqueda del catálogo oficial:
+https://catalog.archives.gov/search?q=T120%20296
+https://catalog.archives.gov/search?q=T120%201594
+
+Son URLs de búsqueda, no identificadores de rollos. La herramienta web devolvió not accessible via this tool. No se pudieron leer resultados del catálogo mediante esas rutas. El navegador no estaba disponible en esta sesión.
+
+Se abrió además la lista oficial fechada 21 de febrero de 2023:
+https://www.archives.gov/files/nara-digitized-microfilm-updated-2.21.23.pdf
+La búsqueda de texto T120 no devolvió coincidencias. Fue una comprobación de extracción, no una lectura visual completa del PDF ni una prueba de disponibilidad actual. No se usa para concluir que T120 no esté digitalizado.
+
+Estado preciso:
+- Conversión 643/3176 -> rollos T120 verificada.
+- Fuente NARA que identifica la publicación y la custodia de sus microcopias localizada.
+- URL de ficha de rollo, objeto digital y acceso a los frames solicitados: pendientes.
+- No se descargó ningún rollo, se hizo pedido ni se contactó con nadie.
+
+MÉTODO, OBSTÁCULOS Y PRESERVACIÓN
+
+Antes de buscar se revisaron work/phase13_claude/kent/resultado.txt, ledger.json, la guía NARA anterior y sentinel-blume-salamanca/docs/SOURCES.md. La fase 13 sólo había leído metadatos/índice y no las filas.
+
+Google Books presentó captcha para descargar el PDF y error 403 para su vista de texto. La vista HTML pública de cada página sí contenía una URL de imagen del propio libro; se guardaron y leyeron esas imágenes sin usar cuenta ni resolver el captcha. La descarga pública HTTP fue aprobada. El volumen completo no se descargó.
+
+Una petición posterior con zoom=2 devolvió imágenes de sustitución image not available, aunque el estado HTTP era 200. Se conservaron como evidencia del fallo, con nombres terminados en -zoom2.png; no se utilizaron como fuente. Las lecturas válidas proceden de las imágenes de página de 575 píxeles de ancho, suficientemente legibles, conservadas con sus encabezados.
+
+Todas las escrituras de esta ronda están en work/phase14_kent/. No se modificaron informes, entradas históricas ni el repositorio público. Los HTML, respuestas web, metadatos de descarga e imágenes se preservan junto al informe. RESOURCE_HASHES.json registra los hashes de los archivos nuevos, excluyéndose a sí mismo.
+
+PASO CONCRETO PENDIENTE
+
+Leer los objetos digitales oficiales correspondientes a T120/296, frames 254221-222, y T120/1594, frames 682876-878 y 682895-896, una vez localizada una ficha de rollo o una ruta oficial accesible. Hasta esa lectura, las equivalencias de Kent no deben presentarse como cotejo de los documentos originales ni convertirse en signaturas actuales.
+

@@ -1,0 +1,117 @@
+BLUME SALAMANCA — fase 14: cabeceras, recuento y lenguaje convenido
+Fecha de revisión: 3 de octubre de 2026. Trabajo de lectura; sin contactos ni pedidos.
+
+El sello Cde del segundo telegrama acredita su clasificación de servicio como lenguaje
+convenido. Esa categoría de Madrid 1932 admitía palabras artificiales de hasta cinco letras
+formadas de cualquier manera. Por tanto, CDE no identifica un libro de códigos y no permite
+descartar una transposición. La cabecera del primero no muestra CDE en las imágenes 527/529,
+pero art 41 (c)(3) contempla añadir esa indicación en tránsito o destino por acuerdo con origen.
+No sabemos si ocurrió aquí. La anotación marginal Chiffriert tampoco identifica una familia
+criptográfica ni prueba una clasificación técnica conforme al art 11.
+
+Qué se leyó en los originales
+
+Fuente: BAR E4320B#1974/47#277*, subdossier 66, Unterlagen 72. Telegramas del 8 de enero de 1937.
+Los nombres imagen 527/531 son números de escaneo; no son páginas impresas del documento.
+
+T1, imagen 527, canvas 9:
+work/history/bar-blume277-images/Unterlagen_0000072-00000527.jpg
+La cabecera muestra ZÜRICH, 1381 bajo No., 8 JAN 37, 11 31, 125 en Wörter-Mots-Parole,
+49.90 en el sello superior y el número 797 junto a ZÜRICH. No atribuyo al 797 una función
+específica. El sello de expedición dice London Mcl.; junto a él se lee 1142. Mcl. queda sin
+expandir. Encima del texto figura Angleterre Eastern. La indicación mecanografiada de ruta
+VIA VIGOEMDENKABEL está tachada: su presencia no prueba que se usara ese recorrido.
+La dirección legible es BLUME SALAMANCA. En el margen aparece Chiffriert; las palabras
+adjuntas no se transcriben con seguridad. El prefijo y la letra final del sello de importe
+son inciertos. La zona impresa Taxe/Tassa no muestra desglose. No se concluye de ello
+que falten una tasa o un pago: 49.90 aparece en otro lugar de la cabecera.
+
+T1 tiene 123 grupos de cinco letras según la transcripción canónica preservada. Las marcas 50
+y 100 aparecen tras ACCEL (grupo 48) y TNCEN (grupo 98). Al sumar las dos palabras de dirección,
+coinciden con las marcas y con 125. Estas cuentas YA CONSTABAN en work/source/NOTES.md;
+en esta fase se recotejaron en BAR y se añadió la norma de recuento. No son hallazgos nuevos.
+
+Imagen 529, canvas 11: el mismo formulario 1381 se fotografió con el papel del cuerpo plegado.
+Se ven cálculos a lápiz; no se logró leer con seguridad toda la descomposición. No se usan
+esas cifras para reconstruir la tarifa. Tampoco se ve CDE en la parte expuesta.
+
+T2, imagen 531, canvas 13:
+work/history/bar-blume277-images/Unterlagen_0000072-00000531.jpg
+Se lee Cde claramente, ZÜRICH, 1486, 8 JAN 37, 17-34, número 910, 14.00 en el sello y 14 fr
+manuscrito. Una anotación se lee 34 W, con la forma de la W menos segura que las cifras 34.
+La ruta manuscrita se lee Via angleterre Eastern. Abajo figuran London Mcl. y 1740.
+No se expanden Mcl., los prefijos de importe ni las iniciales del empleado.
+La dirección es BLUME SALAMANCA. Hay 32 grupos de cinco letras; 32 + 2 de dirección = 34 es consistente
+con la cuenta, sin añadir CDE ni la ruta al cuerpo cifrado. Las direcciones manuscritas de
+Oswald/Bahnhofstr 12 pertenecen a los datos del remitente; no se toman como firma cifrada.
+No se hace atribución de la mano ni se resuelven por ellas las reservas del interrogatorio.
+
+Imágenes 523/525: se abrieron para comprobar si eran otras copias. Son fotografías de material
+de Hunziker, no telegramas adicionales. No se usan para atribuir al mensaje el tema de armas.
+
+Normativa contemporánea leída
+
+Telegraph Regulations, Madrid 1932, LNTS 151 (1934), n.º 3479:
+https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20151/v151.pdf
+PDF anterior conservado en work/history/telegraph-regulations-madrid1932-lnts151.pdf.
+Esta fase leyó visualmente 11 páginas impresas:57,59,65,67,69,71,81,85,113,119,201.
+En este PDF coinciden con el número de página PDF contando desde 1. Los renders nuevos
+permiten repetir el cotejo. No se leyó el volumen completo ni toda modificación 1934–1937.
+
+Art 10 (pp 57–59): define la categoría, establece CDE y permite palabras artificiales de cinco
+letras. Art 11 (p 59) distingue lenguaje cifrado por otra definición administrativa: no es una
+taxonomía de algoritmos. Art 18 (pp 65–67) incluye dirección en la cuenta y excluye indicación
+de ruta/preámbulo; §4 establece las marcas cada 50 palabras incluyendo dirección en la primera
+sección. Art 19 (p 69) regula las palabras de dirección; art 20 (p 71), palabras y grupos de texto.
+Esto respalda las cuentas 125/34, pero no aporta el contenido ni la clave.
+
+Art 10§4 (p 57) fija la proporción CDE de 7/10 en el régimen europeo y 6/10 en el extraeuropeo.
+Art 25§4 (p 81) condiciona el régimen europeo al recorrido exclusivo por países de ese régimen;
+art 26 incluye componentes terminales, tránsito y cable/radio; art 27 remite al Tableau A.
+Art 30/31 (p 85) permiten redondeo y equivalentes monetarios del franco oro. No se ha encontrado
+una fila de tarifa aplicable al recorrido suizo-español el 8 de enero de 1937 ni su equivalente local.
+No se identifica por división 49.90/125 o 14/34 el precio por palabra ni un descuento efectivo.
+Los archivos llamados tarifas de fase 7 contienen precios actuales de reproducción archivística;
+no son tarifas telegráficas de 1937 y aquí no se usan como tales.
+
+Art 41 (c)(3)(p 113) es el límite al negativo CDE de T1 ya señalado. Art 47 (p 119) permite indicar
+ruta y exige abreviaciones acordadas. No identifica por sí solo Eastern/Mcl. ni acredita
+todas las estaciones efectivamente recorridas. Art 98 (p 201) fija entrada en vigor 1 enero 1934;
+no se usa una definición moderna ni la revisión de 1956 para interpretar 1937.
+
+También se abrió la traducción británica contemporánea conservada por ITU:
+https://search.itu.int/history/HistoryDigitalCollectionDocLibrary/4.5.43.en.101.pdf
+General Post Office/HMSO, Londres 1933; volumen 260 páginas. Su paginación no se mezcla con LNTS.
+La comprobación normativa detallada de este informe usa los renders LNTS enumerados.
+
+Siguiente documento público identificado, con el límite de lectura
+
+El catálogo de publicaciones del Bureau de la Unión, fechado 25 IX 1936 (n.º90), aparece en:
+https://www.itu.int/bibar/ITUJournal/DocLibrary/ITU011-1936-09-fr.pdf
+El resultado de búsqueda reproduce su OCR y enumera un Vocabulaire officiel de 1900/1901,
+cuatro volúmenes y apéndice; también los Documents du Comité d'étude du langage convenu,
+Cortina d'Ampezzo 1926. Son títulos concretos para estudiar formación de códigos comerciales;
+ninguno está relacionado documentalmente con Oswald o BLUME. No se han leído sus palabras.
+El PDF 1936 no pudo abrirse por el límite de tamaño del tool(35.038.330 bytes): ese catálogo
+queda con verificación por OCR del resultado, pendiente de cotejo visual de la página.
+
+Una lectura pública posterior concreta es el Journal télégraphique de enero 1904:
+https://www.itu.int/bibar/ITUJournal/DocLibrary/ITU011-1904-01-fr.pdf
+El fragmento OCR del buscador,p 3, trata el vocabulario oficial y la decisión de Londres 1903
+sobre su obligatoriedad. La apertura agotó el tiempo y luego fue declarada inaccesible por
+el tool: NO se presenta como página visualmente verificada ni como regla vigente en 1937.
+Este artículo sirve para revisar una suposición sobre un vocabulario único; no es una clave.
+
+Para avanzar en la tarifa, la siguiente pieza que exige el propio reglamento es un Tableau A
+y sus modificaciones aplicables el 8 de enero de 1937, o una tarifa PTT de ese periodo que incluya el
+recorrido anotado. Su título general es verificable; todavía no hay edición/fila concreta
+leída. Para identificar BLUME sigue faltando un registro de direcciones o correspondencia
+que lo una a una persona/empresa. La norma española de 20 febrero 1934 y el art 15 ya revisados
+acreditan el servicio de dirección abreviada, pero no una inscripción de BLUME.
+
+Alcance y conservación
+
+Se hicieron 6 búsquedas nuevas,7 llamadas web,7 aperturas URL y 3 find. Los fallos de tamaño o
+tiempo no son negativos documentales. No se crearon cuentas, contactos, pedidos ni pagos.
+Las imágenes BAR y los textos canónicos se leyeron sin modificar. El subrepo público no
+se modificó. Ledger, fuentes crudas, hashes y cotejo de preservación están en esta carpeta.

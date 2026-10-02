@@ -48,9 +48,33 @@ def main():
     assert len(runs)==32 and len(truth)==8
     assert dict(hits)=={'population':2,'cap5000':3}
     assert dict(calls)=={'population':1600000,'cap5000':1600000}
+    update=json.loads((ROOT/'provenance/phase14_update.json').read_text())
+    added=[json.loads(s) for s in (ROOT/'provenance/phase14_source_inventory.jsonl').read_text().splitlines()]
+    assert len(added)==update['new_inventory_entries']
+    assert sum(e['disposition']=='included' for e in added)==update['new_included_files']
+    for e in added:
+        if e['disposition']=='included':
+            assert sha(ROOT/e['repository_path'])==e['sha256'],e['source_path']
+    phase14=ROOT/'work/phase14_crypto'
+    truth14={r['case_id']:r for r in map(json.loads,(phase14/'truth.jsonl').read_text().splitlines())}
+    runs14=list(map(json.loads,(phase14/'search_outputs.jsonl').read_text().splitlines()))
+    evaluation=json.loads((phase14/'evaluation.json').read_text())
+    hits14=Counter();calls14=Counter()
+    for r in runs14:
+        assert r['objective_calls']==100000 and r['periodic_refreshes']==0
+        assert not any(k.startswith(('true_','truth_')) for k in r)
+        hits14[r['arm']]+=int(any(a['k2']==truth14[r['case_id']]['true_k2'] for a in r['archive']))
+        calls14[r['arm']]+=r['objective_calls']
+    assert len(runs14)==32 and len(truth14)==4
+    assert dict(hits14)=={'A':0,'B':0,'C':0,'D':0}
+    assert all(v==800000 for v in calls14.values())
+    assert sum(calls14.values())==update['main_objective_calls']==3200000
+    assert sha(phase14/'search_outputs.jsonl')==evaluation['log_sha256']
+    assert sha(phase14/'truth.jsonl')==evaluation['truth_sha256']
     print(json.dumps({'status':'passed','hashed_repository_files':len(checksums),
         'original_inventory_entries':len(entries),'canonical_ciphertexts':'match',
         'phase11_rows':len(runs),'phase11_archive_recoveries':dict(hits),
+        'phase14_rows':len(runs14),'phase14_archive_recoveries':dict(hits14),
         'new_searches':0,'scope':'selected export integrity and recorded recovery counts'},indent=2))
 
 if __name__=='__main__': main()

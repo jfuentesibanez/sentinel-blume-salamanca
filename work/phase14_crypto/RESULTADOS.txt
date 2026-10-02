@@ -1,0 +1,65 @@
+Sentinel — Fase 14: resultado del piloto K2
+3 de octubre de 2026. Análisis de archivos guardados; sin nuevas búsquedas ni IDP.
+
+Ninguno de los cuatro brazos recuperó K2:0/8 unidades caso-ronda por brazo,
+0/32 corridas en conjunto. Son cuatro casos nuevos de alemán/francés 20 × 25,
+con 615+160 letras, dos rondas y anchos conocidos; no ocho casos independientes.
+La métrica principal era K2 exacta en top 5, y también hubo 0 aciertos en rango 1.
+No se buscó K1 ni se atacó BLUME. IMPLEMENTATION_DECISIONS.txt describe el estado previo al sellado;
+este documento recoge el resultado posterior a ejecución y evaluación externa.
+
+A=cap 5000/OFF; B=cap 5000/ON; C=cap 33298/OFF; D=cap 33298/ON.
+Las 32 corridas consumieron exactamente 100.000 llamadas cada una y cortaron por
+presupuesto, sin cortes temporales. Total:3.200.000 IDP;201,193 s en el reloj del
+solver y 201,990 s de procesos completos. Por corrida:6,217–6,424 s internos,
+6,232–6,614 s de proceso. Cada brazo gastó 800.000 IDP; sus tiempos de proceso
+sumaron A 50,765 s/B 50,366 s/C 50,244 s/D 50,614 s. Son tiempos de pared, no mediciones
+CPU ni prueba de igualdad de coste temporal. Los controles previos costaron
+35.253 IDP adicionales, incluido el primer harness fallido preservado.
+
+La K2 verdadera, puntuada únicamente en evaluación externa, superó al mejor
+archivo de TODAS las 32 corridas. El margen IDP fue 0,176134799–0,284949179.
+Aquí se observa que la búsqueda no llegó a una clave que el objetivo habría
+preferido a las devueltas. Eso no prueba un óptimo global ni la validez del
+modelo para 1937, del idioma supuesto o de la doble transposición histórica.
+
+Los 64 pools iniciales/checkpoint se completaron:7000 llamadas por pool,14.000
+por corrida,448.000 en conjunto. Hubo 16 igualdades OFF/ON de estado previo y 8
+igualdades completas de checkpoint entre los cuatro brazos. Todos pagaron y
+archivaron el pool común. Por eso una mejora directa del pool no es efecto de
+fusionarlo. En una de las ocho unidades el checkpoint mejoró el rango 1 en los
+cuatro brazos. Al final, el mejor archivo procedía directamente de ese pool en
+una corrida A, una C y una D; B siguió buscando y lo superó en esa unidad.
+
+ON hizo 160 ofertas de checkpoint por brazo. B admitió 10 candidatas y D 15;
+todas reemplazaron al peor padre diverso y entraron con uso 0. Ninguna oferta
+de checkpoint activó la herencia por reemplazo de vecinos próximos. La regla
+congelada se conservó, pero ese mecanismo particular no se ejerció ahí.
+Después del checkpoint se eligieron 72 padres por brazo corto y 16 por brazo largo.
+De ellos,23 en B y 11 en D tenían ascendencia de checkpoint. Generaron 4 y 18 entradas
+top 5 con esa ascendencia, respectivamente. El mejor resultado final llevaba
+esa ascendencia en 1/8 corridas B y 4/8 D. Son trayectorias registradas, no prueba
+causal de superioridad: fusionar también cambia prioridades mediante usos.
+
+El cap largo permitió 64 barridos completos y 22 retornos convergidos entre C/D,
+frente a ninguno en A/B. De esas 22 convergencias,16 fueron iniciales y 6 de hijos.
+Pero sólo se eligieron dos padres por corrida larga después del checkpoint,
+frente a nueve con cap corto. Se pagaron exploraciones más largas y hubo pocas
+oportunidades de recorrer distintos padres recién admitidos. Completar barridos
+no bastó para recuperar K2 en estas condiciones.
+
+Como diagnóstico secundario, el mejor IDP de B frente a A subió en 3 unidades,
+bajó en 2 y empató en 3; D frente a C subió en 2, bajó en 2 y empató en 4. El cap largo
+frente al corto subió/bajó/empató 4/3/1 sin fusión y 2/6/0 con fusión. Mejor IDP no
+es recuperación ni una regla de ganador. Los cuatro brazos por caso están
+emparejados y la comparación está condicionada al checkpoint fijo.
+
+La auditoría independiente pasó 1280 ofertas,320 selecciones de padre,
+352 escaladas,2233 entradas top 5 y 1294 scores distintos, con error máximo 1,10e-9.
+Los 322 archivos protegidos permanecieron intactos. La comprobación de ausencia
+de claves privilegiadas en el solver se hizo antes de abrir la verdad; el análisis
+externo se ejecutó después de terminar las 32 corridas. No se cambió el presupuesto, el solver ni el criterio después de ver el fallo.
+
+Fuentes: manifest.json, search_outputs.jsonl, evaluation.json,
+no_truth_verification.json y work/phase14_root/post_run_audit.json.
+summary_analysis.json conserva los agregados y contrastes numéricos por corrida.

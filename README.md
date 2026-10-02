@@ -4,16 +4,18 @@ Historical and cryptanalytic research into two encrypted telegrams sent from
 Zurich to **BLUME SALAMANCA on 8 January 1937**. A project by Javier Fuentes for
 [The Independent Sentinel](https://theindependentsentinel.substack.com/).
 
-**Status, 2 October 2026: unsolved.** No verified plaintext, key or identification
+**Status, 3 October 2026: unsolved.** No verified plaintext, key or identification
 of BLUME. Historical evidence, hypotheses and synthetic experiments are kept
-separate. The current research checkpoint is **phase 13**.
+separate. The current research checkpoint is **phase 14**. Kent's actual table
+rows now map serials 643/3176 to T120 rolls 296/1594. The new synthetic K2 pilot
+completed 32 audited runs and recovered no keys at known widths 20×25.
 
 ## Start here
 
 1. [Context for Claude and other collaborators](docs/CONTEXT_FOR_CLAUDE.md): the
    case, established facts, open questions and the most useful next tasks.
 2. [Current research status](docs/STATUS.md): results and limits of the latest phases.
-3. [Latest detailed report, in Spanish](outputs/Sentinel_BLUME_fase13_2026-10-02.txt).
+3. [Latest detailed report, in Spanish](outputs/Sentinel_BLUME_fase14_2026-10-03.txt).
 4. [Sources and archival references](docs/SOURCES.md).
 5. [Reproduction and verification](docs/REPRODUCIBILITY.md).
 
@@ -66,6 +68,7 @@ Optional numerical recheck of the 160 archived phase-11 IDP scores, using NumPy:
 ```sh
 python3 -m pip install -r requirements.txt
 python3 tools/recheck_phase11.py
+python3 tools/recheck_phase14.py
 ```
 
 See [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) before running any older script.
@@ -86,6 +89,13 @@ correspondence packages, app-interface captures, caches and old ZIP files are
 outside this export. Every original research-workspace file is accounted for in
 [source_inventory.jsonl](provenance/source_inventory.jsonl), with its hash,
 publication decision and retained location or source references where available.
+
+The original phase-13 inventory and snapshot remain baseline records. The
+phase-14 selection is recorded separately in
+[phase14_update.json](provenance/phase14_update.json) and
+[phase14_source_inventory.jsonl](provenance/phase14_source_inventory.jsonl).
+Current checksums cover the updated repository; the original checksum manifest
+is retained as [phase13_file_hashes.json](provenance/phase13_file_hashes.json).
 
 Original research files were not edited to make this export. Retained files
 preserve their bytes. Existing manifests still describe the larger original

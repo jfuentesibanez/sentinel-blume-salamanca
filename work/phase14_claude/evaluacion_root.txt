@@ -1,0 +1,16 @@
+Sentinel — revisión de Claude y decisiones de implementación
+3 de octubre de 2026.
+
+Alcance comprobado en UI: Claude abrió 3 archivos en la consulta de diseño y otros 2 en la consulta de clases. No ejecutó búsquedas criptográficas ni leyó originales históricos. La respuesta es revisión de especificación y código heredado; no certificación del nuevo binario.
+
+1. Refrescos: eliminar periodicidad por hijos en todos los brazos; sólo checkpoint fijo. Era intención de fase12, pero faltaba dejarlo explícito en la especificación autónoma.
+2. Fronteras: mantener prioridad global>checkpoint>cap; incorporar cada resultado completado antes del cierre. No barajar una nueva pasada tras el cap.
+3. Orden: ofrecer retorno una sola vez, puntuar pool, admitirlo sólo ON, comenzar un hijo nuevo. No reanudar escalada interrumpida. Perturbación que alcanza50k: candidata puntuada y oferta única, cero propuestas/barridos.
+4. RNG: mt19937_64 uint64_t y XOR congelado. Mantener operadores heredados y registrar compilador/biblioteca; no afirmar igualdad entre plataformas.
+5. Igualdades: comparar estado previo a checkpoint para OFF/ON de mismo cap, incluyendo población/usos/IDs, motor, archivo y secuencia de puntuaciones. Comparar pool entre los cuatro brazos cuando completo.
+6. Tiempo: registrar cortes y tratar parejas incompletas aparte en interpretación; no borrarlas del recuento bruto.
+7. Herencia: no usar cut/maximum global como checkpoint; no ofrecer claves sin puntuar ni vacías; contar costes separados de ambas preparaciones.
+8. Archivo: registrar entradas/reentradas top5 y comparar K2 en la representación que publica el solver. La primera entrada no equivale a primera evaluación.
+9. Efectos: fusión incluye herencia de usos y pocas oportunidades con cap largo. Un resultado posterior no prueba origen en un padre nuevo.
+
+Todas las precisiones se incorporan antes de sellar el diseño o leer resultados nuevos. El código y los contadores deberán pasar una auditoría independiente.

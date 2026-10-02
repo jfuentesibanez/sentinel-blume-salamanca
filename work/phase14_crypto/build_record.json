@@ -1,0 +1,25 @@
+{
+  "source_base_path": "work/phase10_crypto/population_search.cpp",
+  "source_base_sha256": "0cc750150629d24391b333541b6d76f3edc2db1735d8a17bb8b2567900a4eaec",
+  "exact_prefix_sha256": "bc70ef992bb05a7fff73c712a93f557065ee422eac8a500a0f720aed24d81a54",
+  "exact_prefix_bytes": 8540,
+  "compiler_command": [
+    "/usr/bin/clang++",
+    "-std=c++17",
+    "-O3",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase14_crypto/checkpoint_population_search.cpp",
+    "-o",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase14_crypto/checkpoint_population_search"
+  ],
+  "compiler_version": "Apple clang version 12.0.5 (clang-1205.0.22.11)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "standard_library_macros": [
+    "#define _LIBCPP_VERSION 12000"
+  ],
+  "rng": "std::mt19937_64; uint64_t seed; inherited std::shuffle and distributions",
+  "source_sha256": "2b6bb193eec7d0c72d1627709f41ee5526ac2d10ceeca7a00cc8f969b10df981",
+  "sha256_helper_sha256": "2e56b037b0d8adb3d94dcb866ef1ba329c7334eb9eaa39bca44564efe001638e",
+  "solver_sha256": "5d64e34deab9d0cd38eefdf26035ec520c2d18b6b14cb60d7fd5a1c0b6941471",
+  "build_seconds": 2.315229542029556,
+  "new_objective_calls": 0,
+  "main_searches": 0
+}

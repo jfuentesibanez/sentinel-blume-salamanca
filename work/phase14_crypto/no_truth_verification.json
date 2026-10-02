@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "rows": 32,
+  "paired_prefixes_checked": 16,
+  "pairs_without_two_complete_prefixes": 0,
+  "random_pool_prefix_comparisons": 48,
+  "complete_pool_comparisons": 48,
+  "archive_entries_replayed": 2233,
+  "observed_convergences": 22,
+  "fusion_pairs_with_time_cut": [],
+  "truth_read": false,
+  "new_objective_calls": 0,
+  "limits": "Archive entries/state replay and equality checks only; not full operation audit, independent IDP evaluation, recovery or proof of fairness under time cuts.",
+  "log_sha256": "4a26f713f779b02b3b93231bd169c59c1881ca1a7cc97e9275a28adf40c3809e"
+}

@@ -1,0 +1,16 @@
+CrypTool 2 movement-generation algorithm
+Copyright (C) CrypTool 2 Team
+Apache License 2.0; full text in LICENSE-CrypTool-2.txt.
+Pinned source commit bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c
+https://github.com/CrypToolProject/CrypTool-2
+
+Phase14 imports exactly the phase10 source prefix, already frozen in phase11.
+It retains the phase9 objective/counters and audited phase4 source movements.
+No prior source file is edited. New routines separate preparation from admission,
+share cap/checkpoint configuration, log17-digit offer metadata and archive entry,
+and use an independent checkpoint RNG. Periodic offspring refresh is removed
+in both policies; the single fixed checkpoint replaces it in this new pilot.
+
+The pilot is not the exact phase11 executable or a reproduction of the complete
+Lasry attack. It neither searches K1 nor attacks the historical BLUME messages.
+Literary models retain their separate Project Gutenberg provenance and terms.

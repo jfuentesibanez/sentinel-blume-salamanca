@@ -1,0 +1,46 @@
+REVISIÓN INDEPENDIENTE POSTERIOR A LOS 32 ENSAYOS — FASE 14
+3 de octubre de 2026. Estado: pasa, sin objeciones dentro del alcance comprobado.
+
+Las 32 corridas completaron los comandos aprobados, con los prefijos y pools previstos, el presupuesto exacto y ningún corte temporal. El plan, los recursos, los archivos protegidos y la auditoría previa aprobada conservan sus hashes.
+
+Alcance
+Se leyeron plan32.json, sealed_design.json, manifest.json, audit_approval.json, no_truth_verification.json y search_outputs.jsonl. Se cotejaron hashes de recursos y archivos protegidos. No se abrió truth.jsonl, no se ejecutó solver ni IDP y no se modificó la auditoría previa. El agente principal realiza la comprobación numérica y el replay completo por separado. Esta revisión no afirma recuperación ni descifra documentos históricos.
+
+Ejecución y diseño
+- manifest.completed=true, status=completed; 32 registros completos y stderr vacío en todos.
+- Los 32 comandos y su orden coinciden exactamente con el plan aprobado: cuatro casos, dos rondas y cuatro brazos, sin comandos adicionales.
+- Cada fila corresponde a su caso, brazo, ronda, semilla, cap y opción de fusión. Conserva modo ciphertext_only_k2, dos mensajes de 615/160 caracteres, widths=20/25, presupuesto=100000, checkpoint=50000, tiempo blando=30 y cero refrescos periódicos.
+- Los 16 pares OFF/ON con el mismo cap tienen pre_checkpoint idéntico en todo su contenido: scores, RNG, orden de movimientos, archivo, población, IDs, usos y contadores registrados. Todos los prefijos completos llegan a 50000 llamadas.
+- En los ocho bloques caso/ronda, las seis parejas posibles entre brazos comparten claves aleatorias y supervivientes completos de cada preparación. Son 48 comparaciones de pools iniciales y 48 de pools del checkpoint, todas iguales.
+- Cada corrida completa dos preparaciones de 7000 llamadas: 1000 puntuaciones de pool y 6000 swaps por preparación. El checkpoint va de 50000 a 57000 llamadas y conserva el RNG principal. OFF registra cero ofertas del checkpoint; ON registra veinte.
+
+Costes y cortes
+Las 32 corridas terminan por evaluations en source_hill_climb. Cada una usa exactamente 100000 llamadas IDP y la suma de sus cuatro contadores coincide con objective_calls. No hay sobrepasos de presupuesto ni cortes por tiempo.
+
+Total de las principales: 3200000 llamadas IDP.
+- Pool aleatorio: 64000.
+- Swaps de preparación: 384000.
+- Escaladas: 2751680.
+- Perturbaciones puntuadas: 320.
+
+El coste de controles previo sigue siendo 35253 llamadas IDP, incluido el intento fallido. Esta revisión añade 0 llamadas IDP.
+
+Las 352 trazas de escalada se reparten en 282 cap_local, 32 checkpoint, 32 global_cut y seis converged. Sus llamadas no superan el cap y coinciden con calls_after-calls_before. Cuando coincide una frontera, los registros respetan global antes que checkpoint y checkpoint antes que cap. Se observan 22 flags de convergencia; seis son el motivo final de parada. Los contadores de hijos suman 320 procesados = seis completos + 314 parciales. No aparece ninguna oferta con objective_calls>=100000; hay 1280 ofertas con metadatos correspondientes.
+
+Los tiempos internos registrados van de 6.217234208 a 6.424424292 segundos, por debajo del límite de 30 segundos. La suma de los tiempos de proceso del runner es 201.990216084 segundos.
+
+Validador sin verdad
+no_truth_verification.json declara passed, 32 filas, 16 prefijos completos, cero parejas con prefijos incompletos, 48 comparaciones de prefijos aleatorios, 48 de pools completos, 2233 entradas de archivo reproducidas, 22 convergencias observadas, ninguna pareja cortada por tiempo, truth_read=false y new_objective_calls=0. El hash del log coincide con el del manifiesto y el del validador. Esta revisión confirmó por separado las igualdades, contadores y el número de eventos; la reproducción de esas 2233 entradas corresponde al validador y al replay del agente principal.
+
+Integridad
+Se rehasharon y coincidieron los 22 recursos, los 322 archivos protegidos y los cuatro modelos/holdouts. protected_before=protected_after y ambos coinciden con el plan. El informe previo coincide con independent_audit_sha256 de la aprobación y permanece intacto.
+
+SHA256 comprobados:
+- Auditoría previa: 179238f19142c2a78779c6d72b0073a7d2447575412de4e21984546280f5e1bb
+- Plan aprobado: c7ceebfde703dfaf267a92ed20334bd81908fd199535022f1755691a2b0efba9
+- Diseño sellado: dd110b27a27c0ade11ae0327f307122d823861658f4b0a3d9ca00c4ae0518940
+- Manifiesto completo: a37899f922059ad09d27228b88c78e8af7a600e7b0c2ec36110ee58090e0dc1a
+- Log de las 32 corridas: 4a26f713f779b02b3b93231bd169c59c1881ca1a7cc97e9275a28adf40c3809e
+- Validación sin verdad: 7d8527bfc3b92b52566655f0f2c3b20fcd42da82fea429ef5c83c0ab5792841d
+
+La comprobación local inicial usó los nombres abreviados global/local_cap en lugar de los literales global_cut/cap_local de las trazas. Se corrigió esa comprobación y pasó; no se alteró ningún recurso ni se repitió una búsqueda.

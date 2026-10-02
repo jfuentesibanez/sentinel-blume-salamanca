@@ -1,0 +1,315 @@
+{
+  "phase": "14_history_headers",
+  "date": "2026-10-03",
+  "scope": "Relectura de cabeceras BAR y artículos seleccionados de Madrid1932; búsqueda acotada de publicaciones primarias relacionadas con código comercial y tarifas. Sin identificación de BLUME ni descifrado.",
+  "constraints": {
+    "write_directory": "work/phase14_history_headers",
+    "contacts": false,
+    "orders": false,
+    "accounts": false,
+    "payments": false,
+    "public_repo_edits": false,
+    "temporary_browser_tabs_opened": 0
+  },
+  "prior_sources_reviewed": [
+    "work/phase13_claude/codigo_comercial_cotejo.txt",
+    "work/history/blume-registered-address-lead.json",
+    "work/history/phase7-ptt/ptt-ledger.json",
+    "work/source/NOTES.md",
+    "work/source/ct1.txt",
+    "work/source/ct2.txt"
+  ],
+  "bar_sources": [
+    {
+      "telegram": "T1",
+      "archive": "BAR E4320B#1974/47#277*; Subdossier66; Unterlagen72",
+      "date_of_telegram": "1937-01-08",
+      "scan": 527,
+      "canvas_label": "9",
+      "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000527.jpg",
+      "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000527.jpg/full/full/0/default.jpg",
+      "visual_read": "whole image",
+      "clear": [
+        "ZÜRICH",
+        "1381",
+        "8 JAN 37",
+        "11 31",
+        "125 in Wörter-Mots-Parole",
+        "49.90",
+        "797",
+        "London Mcl.",
+        "1142",
+        "BLUME SALAMANCA",
+        "(50) after ACCEL",
+        "100 after TNCEN"
+      ],
+      "qualified": [
+        "Angleterre Eastern handwritten; not proof of every actual station",
+        "VIA VIGOEMDENKABEL typed and struck through; not an executed route",
+        "Chiffriert legible, accompanying handwriting uncertain",
+        "prefix I/II and final z-like glyph of payment stamp not expanded",
+        "employee initials not identified",
+        "sender initials not attributed by handwriting"
+      ],
+      "negative_bounded": "No visible CDE stamp on the exposed form; not proof of absence throughout transit or on another copy",
+      "count": {
+        "canonical_body_letters": 615,
+        "canonical_body_groups": 123,
+        "address_words": 2,
+        "body_plus_address": 125,
+        "body_group_48": "ACCEL",
+        "body_group_98": "TNCEN",
+        "prior_status": "Count and marks already described in work/source/NOTES.md; recollated here with primary regulation"
+      }
+    },
+    {
+      "telegram": "T1 folded body",
+      "scan": 529,
+      "canvas_label": "11",
+      "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000529.jpg",
+      "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000529.jpg/full/full/0/default.jpg",
+      "visual_read": "whole image",
+      "observation": "Same header1381 with body paper folded; pencil arithmetic is visible but no complete reliable reading of the breakdown. Not used to derive a tariff.",
+      "negative_bounded": "No CDE visible in exposed area"
+    },
+    {
+      "telegram": "T2",
+      "archive": "BAR E4320B#1974/47#277*; Subdossier66; Unterlagen72",
+      "date_of_telegram": "1937-01-08",
+      "scan": 531,
+      "canvas_label": "13",
+      "local_path": "work/history/bar-blume277-images/Unterlagen_0000072-00000531.jpg",
+      "source_url": "https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F8609%2FSubdossier_0000066%2FUnterlagen_0000072%2F00000531.jpg/full/full/0/default.jpg",
+      "visual_read": "whole image twice, second request at original detail",
+      "clear": [
+        "Cde",
+        "ZÜRICH",
+        "1486",
+        "8 JAN 37",
+        "17-34",
+        "910",
+        "14.00",
+        "14 fr",
+        "BLUME SALAMANCA",
+        "London Mcl.",
+        "1740"
+      ],
+      "qualified": [
+        "34 W handwritten: digits34 clearer than final W",
+        "Via angleterre Eastern handwritten; terminal glyphs and actual full route not independently verified",
+        "Mcl. not expanded",
+        "payment prefix and final glyph not expanded",
+        "sender initials uncertain; Oswald/Bahnhofstr12 not treated as transmitted signature"
+      ],
+      "count": {
+        "canonical_body_letters": 160,
+        "canonical_body_groups": 32,
+        "address_words": 2,
+        "body_plus_address": 34,
+        "status": "consistent with count, not a cipher solution"
+      }
+    },
+    {
+      "scans": [
+        523,
+        525
+      ],
+      "visual_read": "whole images",
+      "status": "Hunziker photographic material, not additional telegram copies. No inference about telegram content."
+    }
+  ],
+  "regulation": {
+    "title": "Telegraph Regulations, Madrid1932",
+    "publication": "League of Nations Treaty Series151 (1934), no.3479",
+    "source_url": "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20151/v151.pdf",
+    "local_pdf": "work/history/telegraph-regulations-madrid1932-lnts151.pdf",
+    "page_mapping": "Listed printed pages coincide here with PDF page number counted from1; this does not apply to the separate ITU/HMSO edition",
+    "visual_pages": [
+      57,
+      59,
+      65,
+      67,
+      69,
+      71,
+      81,
+      85,
+      113,
+      119,
+      201
+    ],
+    "visual_page_count": 11,
+    "text_only_other_pages": [
+      73,
+      75,
+      181,
+      183,
+      111
+    ],
+    "articles": [
+      {
+        "article": "10",
+        "printed_pages": [
+          57,
+          59
+        ],
+        "finding": "Administrative code-language category, artificial or real words, words at most five letters formed in any way except accented é; CDE service mark; conditional European7/10 and extra-European6/10 rate; production of code only if requested"
+      },
+      {
+        "article": "11",
+        "printed_pages": [
+          59
+        ],
+        "finding": "Administrative distinction of cypher language; not a cryptographic algorithm classification"
+      },
+      {
+        "article": "18",
+        "printed_pages": [
+          65,
+          67
+        ],
+        "finding": "Address counted, route/preamble excluded subject to stated exceptions; mark each50actual words including address in first section"
+      },
+      {
+        "article": "19",
+        "printed_pages": [
+          69
+        ],
+        "finding": "Count of address words; destination-office standard name counted as a word"
+      },
+      {
+        "article": "20",
+        "printed_pages": [
+          71
+        ],
+        "finding": "Five-letter words/groups counting; grouping alone does not prove a codebook"
+      },
+      {
+        "articles": [
+          25,
+          26,
+          27
+        ],
+        "printed_pages": [
+          81
+        ],
+        "finding": "European regime depends on actual exclusive route; terminal/transit/cable components; TableA is a necessary tariff source not yet identified by edition/row for8Jan1937"
+      },
+      {
+        "articles": [
+          29,
+          30,
+          31
+        ],
+        "printed_pages": [
+          85
+        ],
+        "finding": "Rate-notice rules, permitted rounding and national equivalent to gold franc; not a recovered1937Swiss tariff"
+      },
+      {
+        "article": "41(c)(3)",
+        "printed_pages": [
+          113
+        ],
+        "finding": "Transit/destination can insert missing CDE if needed by agreement with origin; no evidence it happened here"
+      },
+      {
+        "article": "41(c)(3)",
+        "printed_pages": [
+          119
+        ],
+        "finding": "Sender may give route instruction; agreed abbreviations required; does not decode Mcl."
+      },
+      {
+        "article": "98",
+        "printed_pages": [
+          201
+        ],
+        "finding": "Entry into force1Jan1934; full amendments1934–37 not reviewed"
+      }
+    ],
+    "separate_edition_opened": {
+      "url": "https://search.itu.int/history/HistoryDigitalCollectionDocLibrary/4.5.43.en.101.pdf",
+      "editor": "General Post Office/HMSO, London1933",
+      "pdf_pages": 260,
+      "status": "Opened and sections inspected through web text; visual detailed references in this phase use LNTS source instead"
+    }
+  },
+  "external_budget": {
+    "queries": 6,
+    "web_calls": 7,
+    "url_open_requests": 7,
+    "find_requests": 3
+  },
+  "queries": [
+    {
+      "n": 1,
+      "query": "site:itu.int Madrid 1932 Telegraph Regulations CDE European extra-European seven tenths",
+      "raw": "web-01.json"
+    },
+    {
+      "n": 2,
+      "query": "site:mfk.rechercheonline.ch 1937 Telegramm Tarif Spanien",
+      "raw": "web-01.json",
+      "negative_bounded": "No exact tariff item verified in returned search results; no catalogue-wide absence claimed"
+    },
+    {
+      "n": 3,
+      "query": "site:itu.int \"Tableau A\" \"1936\" télégraphiques",
+      "raw": "web-04.json"
+    },
+    {
+      "n": 4,
+      "query": "site:itu.int \"Nomenclature\" \"bureaux télégraphiques\" \"1936\"",
+      "raw": "web-04.json"
+    },
+    {
+      "n": 5,
+      "query": "site:itu.int \"1937\" \"Espagne\" \"Angleterre\" télégraphique tarifs",
+      "raw": "web-04.json"
+    },
+    {
+      "n": 6,
+      "query": "site:itu.int \"Vocabulaire officiel\" \"langage convenu\" 1901",
+      "raw": "web-05.json"
+    }
+  ],
+  "next_public_sources": [
+    {
+      "url": "https://www.itu.int/bibar/ITUJournal/DocLibrary/ITU011-1936-09-fr.pdf",
+      "title": "Journal des télécommunications, September1936, publications list dated25IX1936 no.90",
+      "source_status": "Search result OCR read; full PDF open failed at35,038,330bytes. No visual page verification.",
+      "bibliographic_items": "Official vocabulary1900–01, four volumes and appendice; Documents du Comité d'étude du langage convenu, Cortina d'Ampezzo1926; route lists and submarine-cable nomenclature1934 plus11May1936 supplement.",
+      "limits": "Lists establish titles, not contents or use by Oswald/BLUME. Exact row of1937tariff not read. No recipient directory identified."
+    },
+    {
+      "url": "https://www.itu.int/bibar/ITUJournal/DocLibrary/ITU011-1904-01-fr.pdf",
+      "title": "Journal télégraphique, January1904, printedp3 section on vocabulary and London1903",
+      "source_status": "Search OCR fragment read; open timed out, retry inaccessible. No visual verification.",
+      "limits": "Historical context for the assumption of a single mandatory vocabulary; not a rule for1937 or a key."
+    },
+    {
+      "url": "https://search.itu.int/history/HistoryDigitalCollectionDocLibrary/2.32.62.fr.200.pdf",
+      "title": "Bureau international des Administrations télégraphiques: Rapport de gestion, année1900",
+      "source_status": "Search OCR fragment read, open inaccessible",
+      "limits": "Bibliographic production context only; no actual vocabulary word-list read."
+    }
+  ],
+  "other_open_limits": [
+    {
+      "url": "https://www.itu.int/en/history/Pages/TelegraphRegulations.aspx?reg=1.34",
+      "status": "Did not produce the intended1932collection content; find failed; no documentary absence"
+    },
+    {
+      "url": "https://www.itu.int/bibar/ITUJournal/DocLibrary/ITU011-1936-12-fr.pdf",
+      "status": "Constructed date-based URL; server response confirms large resource,42,488,924bytes; content unread and not used"
+    }
+  ],
+  "conclusions": [
+    "CDE on T2 confirms a code-language service classification; does not prove a commercial dictionary, codebook identity or plaintext.",
+    "T1 lacks visible CDE only within the exposed images. Art41 prevents upgrading this to a categorical exclusion of code language.",
+    "Address-inclusive counts125/34 are consistent with primary word-count rules. Marks50/100 were already known; their recollation is not a new discovery.",
+    "Both forms record London Mcl. and an Angleterre Eastern note, but Mcl. and the full actual network path remain unresolved.",
+    "The complete applicable1937tariff has not been read. Current archival-reproduction tariffs in phase7 are unrelated.",
+    "BLUME remains unidentified; abbreviated-address regulations do not prove a specific registration."
+  ]
+}
