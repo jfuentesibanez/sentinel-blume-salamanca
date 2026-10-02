@@ -1,0 +1,45 @@
+FASE 15: PAISAJE LOCAL Y ARITMÉTICA, SIN BÚSQUEDA
+
+Esta fase compara el IDP heredado con un oráculo entero exacto de los mismos
+valores binary32. Recorre vecindarios de anclas privilegiadas, incluida la K2
+verdadera; no mide la recuperación desde ciphertext-only ni ejecuta K1/BLUME.
+Fase14 y todas las fuentes anteriores quedan intactas.
+
+Estado al preparar el plan: compilación lista, controles artificiales pasados,
+9 llamadas IDP equivalentes (6 legacy y3 exactas),0 verdad nueva y0 panel principal.
+Controles y costes, incluso fallos, se conservan en control_attempts/.
+
+Archivos principales: static_landscape.cpp, run_phase15.py, build.py,
+check_controls.py, evaluate_external.py e IMPLEMENTATION_DECISIONS.txt.
+moves.json conserva orden+tipo+permutación de16.649 movimientos fuente.
+Las fuentes anteriores entran como dependencias de lectura con hashes. Las
+licencias y atribuciones se conservan junto al nuevo código. build usa Apple
+clang12.0.5/libc++12000, -std=c++17 -O3; generate_keys copia un helper externo
+congelado y no lo invoca durante el build.
+
+Pasos previstos (no son resultados):
+1. build.py: compilar ambos ejecutables,0 IDP y0 verdad.
+2. check_controls.py: fixtures artificiales, coste registrado; nunca holdout/trueK2.
+3. run_phase15.py plan: crear plan12.json, cotejar semillas y congelar hashes.
+4. Auditoría raíz e independiente. Ambas aprobaciones deben quedar en
+   audit_approval.json: root_approved:true, independent_approved:true y plan_sha256.
+5. run_phase15.py seal: generar cuatro casos externos, tres anclas por caso y
+   truth.jsonl; sellar recursos y datos. Sólo tras las dos aprobaciones.
+6. run_phase15.py run:12 perfiles estáticos, hasta399.600 backends equivalentes.
+7. Auditoría de registros sin comparación con target, guardada como
+   no_truth_verification.json con status passed y manifest_sha256.
+8. evaluate_external.py: comparar claves y scores guardados,0 nuevos backends.
+
+Cada perfil guarda CSV de16.650 estados como máximo, resumen JSON y calls.log.
+Timeout soft30s por perfil y timeout externo40s: sin retries. El panel puede
+quedar registrado con cortes; all_profiles_complete lo distingue de completed.
+Las claves se reconstruyen con ancla+index en moves.json. Se cobra cada backend
+aunque una misma clave aparezca en otro perfil. El evaluador separa claves únicas
+y llamadas. Las cuatro combinaciones usan dos semillas; las claves pueden ser
+idénticas entre idiomas y se contará ese hecho. Cada ancla y cada estado es
+privilegiado: los rangos/top5 son locales, no una tasa de recuperación sin clave.
+
+Lasry2018 §§9.4.5.2–9.4.6 explica la relajación IDP y estudia fitness-distance
+mediante perturbaciones; el ataque completo añade K1 y refinamiento por texto.
+No extrapolamos sus tasas a este control. Fuente primaria:
+https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf

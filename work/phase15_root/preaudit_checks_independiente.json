@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "plan_sha256": "a3e3fb8e7cb4b212cad95a4d4d1f5d6b79ea44035f383489b0837433afc54128",
+  "resources_checked": 19,
+  "protected_checked": 366,
+  "model_holdout_checked": 4,
+  "cases_checked": 4,
+  "commands_checked": 12,
+  "geometry_order_exact_match": true,
+  "geometry_states_including_anchor": 16650,
+  "geometry_kind_counts": {
+    "0": 6924,
+    "1": 953,
+    "2": 8772
+  },
+  "control_existing_legacy_calls": 6,
+  "control_existing_exact_calls": 3,
+  "control_existing_idp_equivalent_calls": 9,
+  "independent_arithmetic_idp_calls": 0,
+  "new_idp_calls_this_check": 0,
+  "fresh_seed_manifests_checked": [
+    "work/phase10_crypto/manifest.json",
+    "work/phase11_crypto/manifest.json",
+    "work/phase14_crypto/manifest.json",
+    "work/phase9_crypto/manifest.json"
+  ],
+  "not_created_before_approval": {
+    "truth.jsonl": true,
+    "manifest.json": true,
+    "sealed_design.json": true,
+    "evaluation.json": true
+  },
+  "truth_read": false
+}

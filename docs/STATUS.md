@@ -1,8 +1,10 @@
 # Research status — 3 October 2026
 
-**No verified historical plaintext, key or BLUME identity.** Phase 14 verified
-the Kent serial-to-roll conversions and completed an audited synthetic pilot.
-None of its four arms recovered K2.
+**No verified historical plaintext, key or BLUME identity.** Phase 15 completed
+an audited privileged static diagnosis. Its objective has local signal near the
+true synthetic K2, while the tested numerical errors change no measured
+anchor-improvement decisions. This is not unknown-key recovery. Phase 14 remains
+the last search pilot; none of its four arms recovered K2.
 
 | Area | What is established | What remains open |
 | --- | --- | --- |
@@ -13,9 +15,37 @@ None of its four arms recovered K2.
 | German documents | Bounded ADAP readings supply January 1937 context | Direct Oswald/BLUME transaction or current document signatures |
 | Kent | Serial 643 → T120/296, p. 778; serial 3176 → T120/1594, p. 793; volume III, 1966 | Roll access, target frames and current archival signatures |
 | Codebook | Cde in T2 matches the administrative CDE category in the Madrid 1932 regulations | Specific codebook, applicable route tariff or a code request tied to Oswald |
-| Synthetic K2 | Phase 14: 32 audited runs at known widths 20 × 25; zero recoveries | Search failure diagnosis, reserved cases and suitability for historical use |
+| Synthetic K2 | Phase 14: zero recoveries; phase 15: true K2 ranks first from native Hamming-2 anchors in 4/4 synthetic cases | Attraction from distant starts and suitability for historical use |
 
-## Latest synthetic pilot
+## Latest static diagnosis
+
+Phase 15 used four new German/French pairs, two distinct planted key pairs and
+four plaintext offsets. Each case had three privileged fixed anchors: true K2,
+native swap (0,1), omitted swap (1,24), in zero-based numeric positions. It
+evaluated the anchor and all 16,649 source moves without updating the anchor.
+
+All 12 profiles completed: 199,800 states, each evaluated by legacy and exact
+dyadic formulas, for 399,600 backend calls. Artificial controls added 9; the
+independent numerical audit added 48. The recorded total is 399,657, with no
+main cuts or failed scoring attempts. No search or historical attack ran.
+
+True K2 was a strict local maximum in all four true-anchor profiles and ranked
+first in all four native-swap profiles. It is absent from the omitted-swap
+one-step neighbourhood, whose best states still have Hamming 2. Local score
+improvement can increase Hamming distance. These observations do not measure
+attraction from random starts or explain the phase 14 trajectories.
+
+The formulas differed by up to 1.41169e-9 IDP, but changed no anchor-improvement
+flags or greedy edges on these 199,800 states; all local top-five lists matched.
+This is a scoped numerical result, not general equality of the formulas.
+
+Inputs and results: [phase 15](../work/phase15_crypto/).
+Audits: [numerical subset and record replay](../work/phase15_root/post_run_audit.json),
+[independent review](../work/phase15_root/post_ejecucion_independiente.txt).
+Details: [phase 15 report](../outputs/Sentinel_BLUME_fase15_2026-10-03.txt).
+Claude was inaccessible while the Mac was locked; it did not review this phase.
+
+## Last synthetic search pilot
 
 Phase 14 used four fresh German/French synthetic pairs, two rounds and four
 arms: 32 runs, each with exactly 100,000 IDP calls. It searched K2 only at known
@@ -74,16 +104,19 @@ Detailed limits: [phase 11 report](../outputs/Sentinel_BLUME_fase11_2026-10-02.t
 ## Next evidence to obtain
 
 Confirm access to T120/296, frames 254221–254222, and T120/1594, frames
-682876–682878 and 682895–682896. Read those frames, especially the attached
-telegram. The Kent conversion is complete; the original-frame reading is not.
+682876–682878 and 682895–682896. Read those frames, especially the earlier
+telegram 629 of 31 December 1936, cited by ADAP document 180. Its citation does
+not establish a physical attachment. See the [phase 15 erratum](../work/phase15_history/ERRATA.txt).
+The Kent conversion is complete; the original-frame reading is not.
 NARA record 6921696 describes paper copies and lists T120 as an additional
 resource. Its online-availability notice does not establish access to either
 roll.
 
 Keep the codebook and telegraphic-address leads open. CDE is a service category;
 it identifies neither a codebook nor a cipher and does not exclude transposition.
-Before another synthetic search, diagnose the recorded failure and define a new
-design with reserved cases.
+Before another synthetic search, define a fresh design with reserved cases to
+measure attraction beyond the privileged local region. Preserve the completed
+phase 15 panel rather than tuning on its known solutions.
 
 ## Source and version discipline
 

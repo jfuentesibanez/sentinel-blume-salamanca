@@ -1,0 +1,4 @@
+{"fixture":"uniform_greedy_forced_floor","legacy":-3.6666666666666665,"frozen_idp":-3.6666666666666665,"exact_numerator":-55,"exact_denominator":15,"scale":1,"legacy_edges":[1,3,8],"exact_edges":[1,3,8],"legacy_forced":1,"exact_forced":1,"matrix_max_abs_diff":0}
+{"fixture":"uniform_remainder_zero","legacy":-2,"frozen_idp":-2,"exact_numerator":-24,"exact_denominator":12,"scale":1,"legacy_edges":[1,4,11,14],"exact_edges":[1,4,11,14],"legacy_forced":0,"exact_forced":0,"matrix_max_abs_diff":0}
+{"fixture":"float_sliding_rounding","legacy":-5.4986055692036944,"frozen_idp":-5.4986055692036944,"exact_numerator":-69188469,"exact_denominator":12582912,"scale":4194304,"legacy_edges":[5,1,6],"exact_edges":[5,1,6],"legacy_forced":0,"exact_forced":0,"matrix_max_abs_diff":2.384185791015625e-07}
+{"status":"passed","legacy_calls":6,"exact_calls":3,"idp_equivalent_calls":9,"fixtures":3,"epsilon_tests":3,"model_rejections":4,"bound_rejection":true,"source_moves":16649}

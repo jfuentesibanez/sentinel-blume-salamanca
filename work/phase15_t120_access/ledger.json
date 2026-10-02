@@ -1,0 +1,189 @@
+{
+  "phase": "15_t120_access",
+  "date": "2026-10-03",
+  "objective": "Public digital access to T120 rolls296 and1594, frames254221–254222,682876–682878,682895–682896; if unavailable, specify archival target telegram629 without assuming content.",
+  "prior_materials_read": [
+    "work/phase14_kent/nara-rolls-web-01.json",
+    "work/phase14_kent/nara-rolls-web-02.json",
+    "work/phase14_kent/nara-rolls-web-03.json",
+    "work/phase14_kent/nara-rolls-web-04.json",
+    "work/phase14_nara_browser/series_6921696_dom.txt",
+    "work/history/phase11-adap-documentos/ledger.json"
+  ],
+  "queries_limit": 6,
+  "queries_executed": 6,
+  "queries": [
+    {
+      "n": 1,
+      "q": "\"T120\" \"296\" microfilm digital -site:archives.gov",
+      "raw": "web-01.json",
+      "limit": "First returned batch was dominated by unrelated T120 product/printer/motorcycle results; no such hit used as historical evidence."
+    },
+    {
+      "n": 2,
+      "q": "site:archive.org \"T120\"",
+      "raw": "web-01.json",
+      "limit": "Web search engine scope; not direct InternetArchive catalogue search."
+    },
+    {
+      "n": 3,
+      "q": "site:stanford.edu \"German Foreign Office\" microfilm digital",
+      "raw": "web-01.json",
+      "limit": "No target-roll resource verified in returned batch; not an exhaustive holdings search."
+    },
+    {
+      "n": 4,
+      "q": "\"German Foreign Office\" microfilm digital",
+      "raw": "web-02.json",
+      "result": "Institutional CRL digital record884887 and NARA updated-list/page identified."
+    },
+    {
+      "n": 5,
+      "q": "site:archive.org \"German Foreign Office\"",
+      "raw": "web-02.json",
+      "limit": "No target-roll resource verified in returned batch; web search engine scope only."
+    },
+    {
+      "n": 6,
+      "q": "site:searchworks.stanford.edu \"German Foreign Office\"",
+      "raw": "web-02.json",
+      "limit": "No target-roll resource verified in returned batch; no Stanford internal catalogue operation or Hoover contact."
+    }
+  ],
+  "tool_budget": {
+    "web_calls": 4,
+    "url_open_requests": 5,
+    "find_requests": 2,
+    "CLI_public_HTTP_attempts": 1
+  },
+  "primary_institutional_records": [
+    {
+      "institution": "Center for Research Libraries",
+      "url": "https://digitalcollections.crl.edu/record/884887?ln=en",
+      "title_from_search_result": "Records of the German Foreign Office received by the Department of State, Ministere Des Affaires - (May21-Jun3,1940)Done",
+      "creators_from_search_result": [
+        "Germany. Auswärtiges Amt.",
+        "United States. Department of State."
+      ],
+      "imprint_from_search_result": "[Washington, D.C.] : [National Archives], [1966]",
+      "extent_from_search_result": "1 online resource (5026 microfilm reels)",
+      "resolution_from_search_result": "300dpi",
+      "IIIF_control_announced": true,
+      "manifest_URL_obtained": false,
+      "OCLC_from_search_result": "1052782975",
+      "source_status": "Search-result text only, preserved in web-02.json; source page and actual image headers not inspected.",
+      "exact_T120_identification_verified": false,
+      "target_rolls_or_frames_identified": false,
+      "limits": [
+        "Title date range1940 differs from1936–37 target",
+        "General extent not a count of digitized rolls in this object",
+        "No actual scan/frame or manifest read",
+        "No paywall/account requirement inferred from tool failures"
+      ],
+      "access_attempts": [
+        {
+          "url": "https://digitalcollections.crl.edu/record/884887?ln=en",
+          "tool": "web.open",
+          "result": "403Forbidden",
+          "raw": "web-03.json"
+        },
+        {
+          "url": "https://digitalcollections.crl.edu/record/884887",
+          "tool": "web.open",
+          "result": "403Forbidden",
+          "raw": "web-04.json"
+        },
+        {
+          "url": "https://digitalcollections.crl.edu/record/884887?of=marc",
+          "tool": "web.open",
+          "result": "not accessible via this tool",
+          "raw": "web-04.json"
+        },
+        {
+          "url": "https://digitalcollections.crl.edu/record/884887?ln=en",
+          "tool": "CLI urllib public GET",
+          "result": "DNS resolution error; no HTML or scans obtained",
+          "raw": "crl-fetch.json"
+        }
+      ]
+    },
+    {
+      "institution": "NARA",
+      "url": "https://www.archives.gov/research/captured-german-records/foreign-records-seized.html",
+      "section_read": "WhaddonHall listing, lines38–58 of web extraction",
+      "finding": "T120 entry has no direct roll/object link. Separate links to other microfilm publications do not establish an equivalent copy for target documents.",
+      "raw": "web-03.json",
+      "limits": "No absence of T120 digitization inferred; this is not a roll inventory. Paper series6921696 previously known and not confused with digital roll holdings."
+    },
+    {
+      "institution": "NARA",
+      "url": "https://www.archives.gov/files/college-park/digitized-microfilm-in-catalog-as-of-1.27.25-1.pdf",
+      "date_of_list": "2025-01-27",
+      "PDF_pages": 39,
+      "opened": true,
+      "visually_read_in_full": false,
+      "text_find": [
+        {
+          "pattern": "T120",
+          "result": "no matching extracted text"
+        },
+        {
+          "pattern": "T-120",
+          "result": "no matching extracted text"
+        }
+      ],
+      "raw_files": [
+        "web-03.json",
+        "web-04.json"
+      ],
+      "limit": "Text-only bounded result for dated list; not current catalogue-wide absence or a statement of October2026availability."
+    }
+  ],
+  "telegram629_recotejo": {
+    "edition": "ADAP, SeriesD, VolumeIII,1951; selected published edition, not original roll",
+    "volume_url": "https://digitale-sammlungen.de/de/view/bsb00045915",
+    "document": 180,
+    "printed_page": 170,
+    "scan": 270,
+    "local_image": "work/history/phase11-adap-documentos/scan-00270.jpg",
+    "image_url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg",
+    "visual_read": "Whole page, concentrating on opening reference, letterdate, protocol heading and footnote1.",
+    "letter_date": "1937-01-01",
+    "letter_registration": "Sa.10–322",
+    "letter_signature_printed": "I.V.; gez.Schwendemann",
+    "letter_microfilm_reference": "3176/682876",
+    "protocol_microfilm_reference": "3176/682877",
+    "short_quote_opening": "Im Anschluß an den Drahtbericht vom 31. v. M. Nr. 629¹)",
+    "short_quote_footnote": "(1) Nicht gedruckt (3176/682878).",
+    "target_inference": "Telegram629 dated31December1936 is an earlier report referenced by letter180; footnote links it to serial3176/frame682878. Known Kent conversion points to T120/1594 but frame remains unread.",
+    "attribution_limit": "Letter180 reports forwarding a protocol announced in prior telegram; no exact content or names of unread telegram629 inferred.",
+    "correction_to_phase14_draft": "attached telegram/telegrama adjunto should become earlier telegram referenced in document180/telegrama anterior citado en el documento180. Physically attaching a copy is not established by this reference.",
+    "phase14_changed": false,
+    "root_notified": true,
+    "other_image_opened": {
+      "scan": 271,
+      "printed_page": 171,
+      "status": "Navigation page opened first; unrelated doc181 and beginning182; no finding about629 derived."
+    },
+    "source_quote_limit": "Only opening phrase and footnote are quoted; no full transcription of the edition or bulk OCR created."
+  },
+  "result": {
+    "digital_roll_URL_verified": false,
+    "digital_frames_read": false,
+    "new_institutional_candidate": "CRL record884887,1940-date title and unverified relation to requested rolls",
+    "no_digitization_claimed": false,
+    "next_concrete_document": "T120/1594, serial3176, frame682878, telegram629 dated31December1936; exact original content still unread",
+    "no_new_PAAA_signature": true
+  },
+  "preservation": {
+    "only_new_writes": "work/phase15_t120_access/",
+    "phase14_edited": false,
+    "public_repo_edited": false,
+    "contacts": false,
+    "orders": false,
+    "payments": false,
+    "accounts": false,
+    "captchas_solved": false,
+    "browser_UI_tabs_opened": 0
+  }
+}

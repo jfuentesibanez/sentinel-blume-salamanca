@@ -1,0 +1,89 @@
+FASE 15 — AUDITORÍA INDEPENDIENTE ANTES DE VERDAD Y EJECUCIÓN
+3 de octubre de 2026. Dictamen: APTO para sellar y ejecutar el plan concreto.
+
+Plan aprobado:
+a3e3fb8e7cb4b212cad95a4d4d1f5d6b79ea44035f383489b0837433afc54128
+Archivo: work/phase15_crypto/plan12.json.
+Fuente: 4552eafdc98cc4e3d075ed8b092945510d4eb1ff67a31dfa1e30e8662f85ed4a.
+Ejecutable: 475d300778d585b695900b9cb787c4bd5479b663748bc2645b16bedfd4f71029.
+No se aprueba por extensión una modificación posterior de recursos o parámetros.
+
+Alcance comprobado
+Leí static_landscape.cpp, las tres dependencias transitivas congeladas, build.py,
+check_controls.py, run_phase15.py, generate_keys.cpp, evaluate_external.py y la
+especificación. Cotejé los 19 recursos, los 366 archivos protegidos, las cuatro
+entradas de modelos y holdout y los 12 comandos contra sus hashes y contenidos.
+Los conjuntos protegidos actuales coinciden completos con el plan. No se cambió
+ningún archivo del experimento ni de fases anteriores.
+
+Son cuatro casos DE/FR, dos semillas nuevas 20262301 y 20262302, anchos 20 × 25,
+longitudes 615 + 160 y convención 0. Cada caso tiene tres anclas: inverse(true_k2),
+swap de posiciones numéricas (0, 1) y swap (1, 24), con índices desde cero. El
+orden de anclas alterna según el caso. Los 12 comandos piden 16.650 estados cada
+uno, sin escaladas ni reinicios. Cada estado puntúa una vez en cada backend:
+199.800 legacy + 199.800 exactas = 399.600 llamadas principales como máximo.
+
+Reconstruí en Python el vecindario completo, sin scorer, y cotejé todos los tipos,
+índices y permutaciones de moves.json en su orden. Coinciden exactamente los
+16.649 movimientos: 6.924 de tipo 0, 953 de tipo 1 y 8.772 de tipo 2. La identidad
+se añade sólo como índice 0. No hay estados repetidos dentro de un perfil. El
+swap (0, 1) está y el swap (1, 24) falta. El programa aplica cada movimiento a la
+misma ancla; no actualiza el estado ni baraja el recorrido.
+
+Aritmética y controles
+La vía legacy conserva la resta binary32 antes de acumular en double, la selección
+greedy estricta en orden de filas y el floor de la arista final forzada. El oráculo
+convierte exactamente los mismos 676 valores binary32 a enteros dyádicos y conserva
+rangos, recurrence, normalización, floor y desempate. Los límites se comprueban
+antes de los cálculos; la diferencia y el contraste contra 1/10^12 usan __int128.
+Para ambos modelos reales la escala es 2^23 y el normalizador de filas es 760.
+La retícula normalizada es aproximadamente 1,56854 × 10^-10: todo incremento
+entero no nulo supera epsilon. Esto es una propiedad de estas tablas y longitudes.
+
+Los tres controles artificiales guardados comparan legacy con idp() congelada,
+comprueban dos scores enteros conocidos y detectan una discrepancia de sliding
+de 2^-22 en la matriz. Sus nueve llamadas existentes están completas y enlazadas
+por hash: seis legacy y tres exactas. Los nueve marcadores stderr son monótonos
+y cuadran con el resultado final. No repetí esos controles.
+
+Mi comprobación aritmética separada, ya guardada en phase15_design, cotejó los
+1.352 numeradores reales contra Fraction.from_float y probó el umbral racional,
+los extremos de int64 y una resta float que pierde 2^-22. Usa únicamente conversión
+y comparación; no ejecuta matrix(), idp(), legacy_trace() ni exact_trace(). Coste:
+0 nuevas llamadas IDP. La fuente comprobada es la misma fuente final del plan.
+
+Fronteras y evaluación
+Los contadores se cargan y vacían a stderr antes de entrar en cada backend; los
+wrappers conservan fallos, stdout, stderr y CSV parcial. El reloj comienza antes
+de la carga y preparación. Se comprueba antes de cada par; un par comenzado
+termina ambos backends y declara el exceso. Límite soft de 30 s, timeout externo
+de 40 s, sin repetición ni ampliación. completed significa 12 perfiles registrados;
+all_profiles_complete exige los 12 vecindarios enteros. Un corte puede dejar cero
+filas y denominador de resumen cero, sin inventar scores ni rangos completos.
+
+El generador sólo se invoca al sellar tras ambas aprobaciones y los hashes. La
+existencia de truth.jsonl, manifest.json, sealed_design.json y evaluation.json fue
+comprobada como falsa al cerrar esta auditoría; no leí verdad nueva. Las semillas
+no aparecen en campos de semillas de los cuatro manifests históricos cotejados.
+
+El evaluador externo requiere no_truth_verification.json con status passed y el
+hash exacto del manifest. Lee sólo los scores guardados, reconstruye candidatos
+con ancla e índice, ordena por score y clave numérica lexicográfica y separa rango
+observado de rango completo. No ejecuta el scorer. No divide por el denominador
+cero en perfiles vacíos. El ancla verdadera y todos los vecindarios se presentan
+como diagnóstico privilegiado, sin tasa de recuperación sin clave.
+
+Límites de interpretación
+Los dos idiomas pueden compartir las mismas parejas de claves por semilla; el
+evaluador cuenta esa dependencia. Los dos swaps afectan columnas distintas y no
+aíslan sólo distancia de grafo. Este panel distingue diferencias aritméticas y
+señal local del scorer; por sí solo no demuestra la causa de los 0/32 de fase 14,
+atracción desde arranques aleatorios, óptimo global, K1, plaintext ni BLUME.
+
+Cierre y seguimiento
+No hay objeción pendiente para el plan SHA indicado. La aprobación está limitada
+a ese plan y esos hashes. Mi auditoría añade 0 llamadas IDP y 0 verdad nueva.
+Evidencia de cierre: work/phase15_root/preaudit_checks_independiente.json y
+work/phase15_design/arith_only_result.json. Tras el principal revisaré trazas,
+CSV, costes, cortes y hashes sin comparar con el objetivo; sólo después se podrá
+usar la evaluación externa. Esta nota preejecución debe conservarse íntegra.

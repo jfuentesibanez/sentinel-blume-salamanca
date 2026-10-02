@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "all_profiles_complete": true,
+  "profiles": 12,
+  "rows_replayed": 199800,
+  "checks": [
+    {
+      "case_id": "de_fold_20x25_20262301",
+      "anchor": "true",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        7668
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "de_fold_20x25_20262301",
+      "anchor": "native",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        6349
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "de_fold_20x25_20262301",
+      "anchor": "omitted",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        16182
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "de_fold_20x25_20262302",
+      "anchor": "omitted",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        16152
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "de_fold_20x25_20262302",
+      "anchor": "native",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        6349
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "de_fold_20x25_20262302",
+      "anchor": "true",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        6356
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "fr_fold_20x25_20262301",
+      "anchor": "true",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        7870
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "fr_fold_20x25_20262301",
+      "anchor": "native",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        6349
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "fr_fold_20x25_20262301",
+      "anchor": "omitted",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        16149
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "fr_fold_20x25_20262302",
+      "anchor": "omitted",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        5822
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "fr_fold_20x25_20262302",
+      "anchor": "native",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        6349
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    },
+    {
+      "case_id": "fr_fold_20x25_20262302",
+      "anchor": "true",
+      "rows_replayed": 16650,
+      "independent_scored_indices": [
+        0,
+        6361
+      ],
+      "improvement_discrepancies": 0,
+      "edge_discrepancies": 0,
+      "distinct_numeric_keys_in_profile": 16650
+    }
+  ],
+  "audit_backend_calls": {
+    "legacy": 24,
+    "exact": 24
+  },
+  "audit_IDP_equivalent_calls": 48,
+  "new_searches": 0,
+  "audit_policy": "Fixed-anchor replay of every row; independent scoring of anchor and highest exact-scoring non-anchor per profile. Integer matrix uses direct offset enumeration, not sliding.",
+  "manifest_sha256": "344113ffafdf0004d887d92f408974ce7b1b2e81cc1ff0a819811f858d0879a0",
+  "truth_sha256": "8d25ac30b792678c92c8c8ff25a4950e1f0b28fe8966c6c2fe56b9bf92f696d3",
+  "seconds": 2.075864916027058
+}

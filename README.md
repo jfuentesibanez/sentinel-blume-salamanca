@@ -6,16 +6,20 @@ Zurich to **BLUME SALAMANCA on 8 January 1937**. A project by Javier Fuentes for
 
 **Status, 3 October 2026: unsolved.** No verified plaintext, key or identification
 of BLUME. Historical evidence, hypotheses and synthetic experiments are kept
-separate. The current research checkpoint is **phase 14**. Kent's actual table
-rows now map serials 643/3176 to T120 rolls 296/1594. The new synthetic K2 pilot
-completed 32 audited runs and recovered no keys at known widths 20×25.
+separate. The current research checkpoint is **phase 15**. Its privileged static
+diagnostic finds a useful local score signal near the true synthetic K2, with
+no measured change of anchor-improvement decisions between numerical formulas.
+It performs no unknown-key search. Phase 14 remains the last search pilot:
+32 audited runs and zero K2 recoveries at known widths 20×25. Kent's verified
+serial-to-roll mapping stands; a new erratum corrects the description of the
+earlier telegram 629 as an attachment.
 
 ## Start here
 
 1. [Context for Claude and other collaborators](docs/CONTEXT_FOR_CLAUDE.md): the
    case, established facts, open questions and the most useful next tasks.
 2. [Current research status](docs/STATUS.md): results and limits of the latest phases.
-3. [Latest detailed report, in Spanish](outputs/Sentinel_BLUME_fase14_2026-10-03.txt).
+3. [Latest detailed report, in Spanish](outputs/Sentinel_BLUME_fase15_2026-10-03.txt).
 4. [Sources and archival references](docs/SOURCES.md).
 5. [Reproduction and verification](docs/REPRODUCIBILITY.md).
 
@@ -71,6 +75,14 @@ python3 tools/recheck_phase11.py
 python3 tools/recheck_phase14.py
 ```
 
+Standard-library replay of phase 15's recorded static keys, scores, ranks and costs:
+
+```sh
+python3 tools/recheck_phase15.py
+```
+
+This replay performs no objective scoring or new search. Its anchors are privileged.
+
 See [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) before running any older script.
 Some frozen scripts check files or executable hashes from the original Mac
 workspace, or contain its absolute paths. They are not portable entry points.
@@ -96,6 +108,9 @@ phase-14 selection is recorded separately in
 [phase14_source_inventory.jsonl](provenance/phase14_source_inventory.jsonl).
 Current checksums cover the updated repository; the original checksum manifest
 is retained as [phase13_file_hashes.json](provenance/phase13_file_hashes.json).
+The phase 15 addition has its own [inventory](provenance/phase15_source_inventory.jsonl)
+and [update record](provenance/phase15_update.json). The previous checksum record
+is preserved as [phase14_file_hashes.json](provenance/phase14_file_hashes.json).
 
 Original research files were not edited to make this export. Retained files
 preserve their bytes. Existing manifests still describe the larger original

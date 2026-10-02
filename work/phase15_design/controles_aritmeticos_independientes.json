@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-03",
+  "scope": "Independent primitive arithmetic fixtures; not IDP evaluations or candidate scoring",
+  "new_IDP_calls": 0,
+  "new_searches": 0,
+  "sliding_rows1_fixture": {
+    "old_binary32": -6.898953914642334,
+    "new_binary32": -2.495816469192505,
+    "legacy_old_plus_float_difference": -2.495816707611084,
+    "promoted_old_plus_double_difference": -2.495816469192505,
+    "exact_new_rational": "-10468213/4194304",
+    "legacy_error_rational": "-1/4194304",
+    "expected_promoted_error": 0,
+    "meaning": "Updating a one-term window must equal its new binary32 value exactly; float subtraction violates this."
+  },
+  "models": [
+    {
+      "model": "de_fold",
+      "path": "work/phase5_language/de_fold/model.bin",
+      "sha256": "ef650af02cfccb10ccafe5ccc69148e28c8d525cc52f816ef0a1a6f47576294b",
+      "binary32_count": 676,
+      "common_denominator": 8388608,
+      "gcd_of_numerators": 1,
+      "normalization": 760,
+      "exact_IDP_lattice": "1/6375342080",
+      "nonzero_lattice_step": 1.5685432835629111e-10,
+      "maximum_abs_numerator_sum_bound": 43983191200,
+      "epsilon_comparison_abs_difference_product_bound": 87966382400000000000000
+    },
+    {
+      "model": "fr_fold",
+      "path": "work/phase5_language/fr_fold/model.bin",
+      "sha256": "0b16044142ef82e6c809172a4981a1eb838a96da6caf4e301fe810e66143c268",
+      "binary32_count": 676,
+      "common_denominator": 8388608,
+      "gcd_of_numerators": 1,
+      "normalization": 760,
+      "exact_IDP_lattice": "1/6375342080",
+      "nonzero_lattice_step": 1.5685432835629111e-10,
+      "maximum_abs_numerator_sum_bound": 45182203680,
+      "epsilon_comparison_abs_difference_product_bound": 90364407360000000000000
+    }
+  ],
+  "rational_epsilon": "1/1000000000000",
+  "strict_comparison_fixtures": [
+    {
+      "difference_numerator": 1,
+      "difference_denominator": 999999999999,
+      "label": "above_epsilon",
+      "strict_improvement_expected": true
+    },
+    {
+      "difference_numerator": 1,
+      "difference_denominator": 1000000000000,
+      "label": "equal_epsilon",
+      "strict_improvement_expected": false
+    },
+    {
+      "difference_numerator": 1,
+      "difference_denominator": 1000000000001,
+      "label": "below_epsilon",
+      "strict_improvement_expected": false
+    }
+  ],
+  "unsupported_inputs_to_reject": [
+    "NaN",
+    "Infinity",
+    "denominator/scale or cross products outside checked integer bounds"
+  ],
+  "note": "The rational comparator fixtures are unit inputs, not attainable IDP samples; no table/epsilon tuning is proposed."
+}

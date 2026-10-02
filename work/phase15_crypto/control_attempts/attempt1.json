@@ -1,0 +1,15 @@
+{
+  "attempt": 1,
+  "returncode": 0,
+  "stderr_path": "control_attempts/calls1.log",
+  "seconds": 0.27834912500111386,
+  "timed_out": false,
+  "source_sha256": "4552eafdc98cc4e3d075ed8b092945510d4eb1ff67a31dfa1e30e8662f85ed4a",
+  "binary_sha256": "475d300778d585b695900b9cb787c4bd5479b663748bc2645b16bedfd4f71029",
+  "idp_equivalent_calls": 9,
+  "legacy_calls": 6,
+  "exact_calls": 3,
+  "status": "passed",
+  "output_sha256": "6ecb00861b5e4603648c7409198bab56f0903a0911e6c50ac428940407cee85c",
+  "calls_sha256": "2ea1b12814559496f5510c71857c6ac2ea0466301c73ceb016880606fbed59b1"
+}

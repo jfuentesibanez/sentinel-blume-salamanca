@@ -1,0 +1,14 @@
+{
+  "root_approved": true,
+  "independent_approved": true,
+  "plan_sha256": "a3e3fb8e7cb4b212cad95a4d4d1f5d6b79ea44035f383489b0837433afc54128",
+  "root_report": {
+    "path": "work/phase15_root/pre_execution_review.txt",
+    "sha256": "27b738669c9f12d3c9ff2b2e974de5914346b4fe8c12943211eae68b1ee0a486"
+  },
+  "independent_report": {
+    "path": "work/phase15_root/pre_ejecucion_independiente.txt",
+    "sha256": "75af88f71071a82a19d9201e418ef59acf2ec6691ff52a451b989c959d042576"
+  },
+  "scope": "Privileged static diagnostic only; no new search or historical decipherment"
+}

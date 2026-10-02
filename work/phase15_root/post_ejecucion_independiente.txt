@@ -1,0 +1,61 @@
+FASE 15 — AUDITORÍA INDEPENDIENTE DESPUÉS DEL PRINCIPAL
+3 de octubre de 2026. Dictamen: PASS, sin comparación con el objetivo.
+
+Manifest auditado:
+344113ffafdf0004d887d92f408974ce7b1b2e81cc1ff0a819811f858d0879a0
+Plan conservado:
+a3e3fb8e7cb4b212cad95a4d4d1f5d6b79ea44035f383489b0837433afc54128
+Guardia para el evaluador: work/phase15_crypto/no_truth_verification.json,
+status passed y manifest_sha256 exacto. No ejecuté el evaluador externo.
+
+Comprobé las 199.800 filas de los 12 CSV. Cada perfil tiene exactamente 16.650
+estados distintos: el ancla y los 16.649 movimientos, sin actualización del ancla.
+Reconstruí cada clave con el ancla de entrada y el índice de moves.json. Comprobé
+permutación, índice, tipo y ausencia de duplicados dentro de cada perfil. No comparé
+ninguna clave con una clave objetivo ni entre perfiles para identificar el objetivo.
+
+Revisé los 399.600 marcadores de entrada a backend. Cada estado registra primero
+legacy y después exacta, con incremento unitario y sin saltos. Los marcadores,
+resúmenes, CSV y manifest coinciden: 199.800 legacy + 199.800 exactas = 399.600
+llamadas principales. Los 12 procesos salieron con código 0; no hubo timeouts,
+cortes temporales ni perfiles fallidos. completed y all_profiles_complete son true.
+
+Todas las flags de mejora coinciden con el score guardado y el ancla del mismo
+perfil: double + 1e-12 para legacy y comparación entera contra 1/10^12 para exacta.
+Todas las aristas están en rango y forman las 20 asignaciones greedy, sin repetición
+de fila o columna. La arista diagonal sólo aparece al final cuando forced_count
+vale 1. Los bounds enteros, escala 2^23, denominador 760 × 2^23, máximos de error,
+contadores de discrepancias y tiempos coinciden con los resúmenes.
+
+Resultado aritmético observado: 0 discrepancias de decisión de mejora y
+0 discrepancias de aristas greedy entre backends en las 199.800 filas. El mayor
+error absoluto del score es 1.4116889879289829e-09; el mayor
+error de matriz es 8.3446502685546875e-07. Estos errores son
+reales, pero no cambiaron esas decisiones ni esas aristas en este panel. Este
+cotejo no prueba igualdad general del scorer ni explica los 0/32 de fase 14.
+
+Los 19 recursos, 366 archivos protegidos y cuatro hashes de modelos/holdout siguen
+intactos. Cases y perfiles conservan los campos del plan y del sellado; ciphertexts,
+anclas, resúmenes, CSV y calls.log coinciden con sus hashes. El informe preejecución
+conserva exactamente su SHA 75af88f71071a82a19d9201e418ef59acf2ec6691ff52a451b989c959d042576.
+No leí truth.jsonl ni plaintext, y no ejecuté IDP, solver ni generador.
+
+La auditoría numérica separada de raíz también pasó y queda enlazada por hash en
+la guardia. Recalculó 24 estados fijos, el ancla y el mejor vecino exacto de cada
+perfil, con dos fórmulas independientes: 24 legacy + 24 exactas = 48 llamadas.
+La referencia entera enumera directamente todos los pares de offsets, sin usar la
+recurrence sliding. Coinciden numerador, aristas, floor y valor legacy guardado.
+Un intento, cero fallos, recibo preservado. No repetí esas evaluaciones.
+
+Coste conocido antes de comparación externa: 399.600 principal + 9 controles
+artificiales + 48 auditoría numérica = 399.657 backends equivalentes. Mi revisión
+añade 0 IDP. Suma de tiempo de procesos principal: 22.860372 s; cronómetros internos
+de scorer: 12.762518 s legacy y 9.020273 s exacta. Son métricas diferentes.
+
+Script reproducible de esta revisión:
+work/phase15_root/audit_saved_static_records_independiente.py.
+SHA: 86d9021c402f4c88a5b5f79ec6cdd70eed74d95f0e51baeb4d8d637ba1557f83.
+La guardia autoriza pasar a comparación externa de scores ya guardados, con
+0 nuevos backends, tras el PASS numérico separado de raíz. Los rangos posteriores
+seguirán siendo locales y privilegiados; no son recuperación desde arranques
+aleatorios, prueba de K1, plaintext ni solución BLUME.

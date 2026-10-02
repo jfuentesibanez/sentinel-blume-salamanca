@@ -1,0 +1,24 @@
+{
+  "file": "work/phase15_history/para_informe.txt",
+  "sha256": "0fa7e0ed6d35e49e87134467f23831420f1ca42e1d3f3a84f70beb94a2ab515a",
+  "verified_URLs": [
+    "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg",
+    "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA778",
+    "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793",
+    "https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PP5",
+    "https://digitalcollections.crl.edu/record/884887?ln=en",
+    "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20151/v151.pdf"
+  ],
+  "comparison": "Exact match to public-source URLs already preserved in phase14/15 ledgers; no network verification or new searches",
+  "prior_phase15_files_unchanged": {
+    "work/phase15_history/ERRATA.txt": true,
+    "work/phase15_history/solicitud_nara_corregida.txt": true
+  },
+  "reference_values_verified": [
+    "Kent serial643 -> T120/296, p778",
+    "Kent serial3176 -> T120/1594, p793",
+    "Kent coverVolumeIII1966, PP5",
+    "ADAP180 prior telegram629,31Dec1936; frame3176/682878; protocol3176/682877"
+  ],
+  "external_operations": 0
+}

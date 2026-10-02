@@ -1,0 +1,171 @@
+BLUME SALAMANCA — AVANCE NOCTURNO, FASE 15
+The Independent Sentinel · Javier Fuentes · 3 de octubre de 2026
+
+Seguimos sin texto, clave o identidad de BLUME verificados. Esta ronda sí aclara
+un problema concreto del descifrado experimental: cerca de la clave correcta,
+la puntuación tiene señal útil en los cuatro casos sintéticos nuevos. El pequeño
+error numérico heredado no cambia las decisiones medidas en este panel. Eso no
+explica todavía cómo llegar a esa región desde una clave aleatoria ni resuelve
+los telegramas de 1937.
+
+También corregimos una descripción histórica: el telegrama 629 del 31 de
+diciembre de 1936 está citado por una carta posterior, no demostrado como adjunto.
+Claude no pudo participar en esta ronda porque el Mac estaba bloqueado. Dos
+revisiones internas independientes del plan y el código precedieron al ensayo.
+
+QUÉ SE PROBÓ
+
+El piloto de fase 14 queda intacto: 32 búsquedas sintéticas, cero recuperaciones
+de K2 a anchos conocidos 20×25. Esta fase no repite esa búsqueda. Evalúa vecindarios
+estáticos de claves privilegiadas para comprobar el objetivo y su aritmética.
+
+Cuatro casos: modelos literarios alemán/francés × semillas nuevas 20262301/20262302;
+615+160 letras, anchos 20×25 y convención 0. La generación dio DOS parejas de claves
+distintas, compartidas entre idiomas, y cuatro offsets de texto distintos. No son
+cuatro claves o corpus independientes. Los textos de evaluación y modelos se
+mantuvieron separados del entrenamiento y conservaron sus hashes anteriores.
+
+Por caso se fijaron tres anclas: la K2 verdadera en representación numeric,
+esa clave con intercambio (0,1), y con intercambio (1,24). Índices desde cero.
+Las dos alteradas difieren en dos posiciones de la verdad. (0,1) se corrige en
+un movimiento nativo; (1,24) requiere dos. Afectan columnas distintas, por lo que
+el contraste no aísla causalmente sólo el número de pasos.
+
+Cada ancla y sus 16.649 movimientos fuente se puntuaron sin actualizar el ancla.
+Dos fórmulas recibieron exactamente las mismas candidatas: legacy, que conserva
+la resta binary32 antes de acumular en double, y una referencia entera exacta de
+los mismos valores binary32. Conserva rangos de offsets, greedy, floor, orden de
+desempate y normalización. No se cambiaron modelo, movimientos ni epsilon.
+
+Es un diagnóstico PRIVILEGIADO: la entrada contiene anclas derivadas de la verdad,
+incluida la clave correcta. No es ciphertext-only, búsqueda de K1, recorrido de
+escalada, prueba de recuperación desde azar o ataque al texto histórico.
+
+RESULTADOS LOCALES
+
+En los cuatro vecindarios de la clave verdadera, ésta fue el máximo estricto:
+16.649 vecinos inferiores, ninguno igual o superior. En los cuatro vecindarios
+del intercambio nativo (0,1), la clave verdadera apareció y fue primera. Ambas
+fórmulas coinciden en esos resultados y en los top5 de los doce perfiles.
+
+En el intercambio omitido (1,24), la verdad no es una candidata de un paso.
+Los cuatro perfiles tienen mejoras sobre el ancla, pero su mejor vecina todavía
+está a Hamming 2. Todas sus candidatas siguen por debajo de la verdad.
+
+Caso/semilla    Mejoras sobre (0,1)  Mejoras sobre (1,24)  Verdad - mejor vecina omitida
+DE 20262301            10                  3.204                  0,058623907 IDP
+DE 20262302            20                      3                  0,068197950 IDP
+FR 20262301            19                  5.137                  0,061581611 IDP
+FR 20262302             4                     17                  0,073871338 IDP
+
+Entre las mejoras desde el ancla omitida, 3.162/3.204 en DE 20262301 y
+5.098/5.137 en FR 20262301 aumentan Hamming respecto a la verdad. Mejorar IDP no
+equivale a acercarse en Hamming. Hamming tampoco es distancia del grafo de
+movimientos. No ejecutamos una trayectoria para medir qué ruta elegiría un solver.
+
+Una lectura geométrica POSTERIOR del mejor vecino ya puntuado muestra corrección
+nativa directa hasta la verdad en tres de los cuatro casos. En DE 20262301 ese
+mejor vecino conserva un intercambio omitido (16,24). Este análisis exploratorio
+usa scores guardados, añade 0 IDP y no era una métrica primaria preregistrada.
+No prueba que la búsqueda first-improvement de fase 14 siga esas rutas.
+Evidencia: work/phase15_root/saved_paths_posthoc.json.
+
+ARITMÉTICA Y LÍMITES
+
+Se compararon 199.800 estados por cada fórmula: 0 cambios en decisiones de mejora
+respecto al ancla fija y 0 cambios de aristas greedy. El mayor error absoluto del
+score legacy frente al exacto fue 1,41168898793e-9; el de matriz, 8,34465026855e-7.
+Los errores existen. Este panel no demuestra igualdad general ni certifica todos
+los casi empates de una trayectoria distinta.
+
+Los modelos tienen retícula exacta 1/(760×2^23) = 1,56854328356e-10 IDP,
+mayor que epsilon 1e-12. Un cambio exacto no nulo ya supera el umbral. La suma y
+el greedy se verificaron con enteros dyádicos, bounds y comparación racional.
+La auditoría anterior con tolerancia 1e-8 no bastaba por sí sola para certificar
+decisiones alrededor de epsilon; esta ronda aporta una comprobación concreta.
+
+El vecindario fuente omite 22 de los 300 intercambios simples de anchura 25:
+(1,24) hasta (22,24). Cada omitido tiene distancia exacta dos, no desconexión
+del grafo. Los hallazgos no atribuyen a esas omisiones ni al redondeo las cero
+recuperaciones de fase 14. La señal cerca de la verdad no prueba atracción desde
+las regiones lejanas visitadas por aquella búsqueda, ni máximo global.
+
+COSTES, REVISIÓN Y CONSERVACIÓN
+
+Los 12 perfiles completaron sus 16.650 estados, sin cortes o fallos. Coste:
+199.800 legacy + 199.800 exactas = 399.600 backends principales. Se cobraron
+duplicados entre anclas; hay 49.565 claves distintas por caso, 198.260 combinaciones
+caso-clave y 99.130 claves numeric distintas entre los cuatro casos.
+
+Controles artificiales: 6 legacy + 3 exactas = 9, un intento, sin fallo de IDP.
+Auditoría numérica independiente de raíz: 24 legacy + 24 exactas = 48, un intento,
+sin fallo. TOTAL conocido: 399.657 backends equivalentes. No implica igual CPU.
+Suma de tiempo de procesos principales: 22,860372 s; cronómetros internos:
+12,762518 s legacy y 9,020273 s exacta. El coste de undo2 y de escritura también
+entra en el tiempo total, fuera de los cronómetros individuales de scorer.
+
+La evaluación externa, el replay independiente de registros, el análisis de
+geometría y la revisión de 1.352 numeradores añaden 0 IDP. Un wrapper aritmético
+tuvo un error de compilación corregido antes de ejecutarse, con coste 0 IDP;
+su incidente está documentado. No hubo reintentos del principal ni ajuste del
+diseño tras los resultados. Se comprobó todo el CSV y todos los marcadores de
+entrada, y se recalcularon dos estados por perfil con fórmulas independientes.
+La referencia entera de raíz enumera directamente los pares de offsets, sin la
+recurrence sliding del C++. La comparación con la verdad vino después del PASS
+de los registros y de la comprobación numérica.
+
+Plan sellado SHA-256:
+a3e3fb8e7cb4b212cad95a4d4d1f5d6b79ea44035f383489b0837433afc54128
+Fuente C++ SHA-256:
+4552eafdc98cc4e3d075ed8b092945510d4eb1ff67a31dfa1e30e8662f85ed4a
+Los 366 archivos protegidos del plan se conservaron. El cotejo más amplio de
+raíz cubre 1.874 archivos previos. Ningún informe o experimento anterior se
+reescribe: la corrección histórica queda en una nota nueva y documentos vigentes.
+
+HISTORIA Y ARCHIVO
+
+La carta de Salamanca del 1 de enero de 1937, ADAP D III documento 180, cita el
+telegrama 629 del 31 de diciembre. La nota lo declara no impreso y da
+3176/682878. El protocolo reproducido como anexo lleva 3176/682877. La cita no
+demuestra un telegrama físicamente adjunto. Todavía no hemos leído el texto del
+629 ni establecido una relación documental con BLUME. Fuente primaria publicada,
+página 170, escaneo 270:
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg
+
+Kent, volumen III, 1966: serial 643 → T120/296, p. 778; serial 3176 → T120/1594,
+p. 793. La equivalencia sigue verificada, pero los fotogramas no se han leído y
+no constituyen una signatura actual del PAAA. Objetivos: 254221–254222 en rollo
+296; 682876–682878 y 682895–682896 en rollo 1594. Fuentes:
+https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA778
+https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793
+
+Seis consultas de acceso digital no proporcionaron un objeto verificable de los
+rollos. La ficha CRL encontrada remite, en metadatos del buscador, a mayo–junio
+de 1940; abrirla devolvió 403. No se obtuvo manifiesto, escaneo o relación con
+los rollos solicitados. No es una prueba de ausencia de digitalización o de pago.
+https://digitalcollections.crl.edu/record/884887?ln=en
+
+El borrador NARA corregido sigue local y sin enviar. Esta ronda no contactó
+personas, pidió reproducciones, compró material ni modificó cuentas. Cde mantiene
+su alcance anterior de categoría administrativa compatible con el reglamento:
+no identifica un libro de códigos ni el procedimiento de cifrado.
+
+CONTINUACIÓN CONCRETA
+
+En criptografía, el paso siguiente puede medir atracción mediante recorridos
+desde perturbaciones mayores, con casos reservados, presupuesto y métricas
+fijados antes de generar verdad. La corrección exacta puede conservarse como
+control; no se debe afinar el método con estas cuatro soluciones conocidas.
+En historia, necesitamos acceso a los fotogramas y respuestas documentales
+independientes sobre PTT, Oswald y el destinatario, sin repetir búsquedas agotadas.
+
+Javier autorizó el trabajo autónomo nocturno y compartir el proyecto público con
+Claude. El bloqueo del Mac impidió una consulta nueva; hay que retomarla mediante
+Computer Use cuando la aplicación sea accesible. No se eludió el bloqueo ni se
+presenta una revisión interna como respuesta de Claude.
+
+Archivos auditables: work/phase15_crypto/plan12.json, manifest.json, evaluation.json,
+landscapes/, no_truth_verification.json; work/phase15_root/pre_execution_review.txt,
+pre_ejecucion_independiente.txt, post_run_audit.json, post_ejecucion_independiente.txt;
+work/phase15_history/ERRATA.txt. El export público incluye código, datos propios,
+registros y notas; enlaza los facsímiles externos en vez de redistribuirlos.

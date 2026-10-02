@@ -1,0 +1,69 @@
+{
+  "scope": "Post-hoc reading of fixed pre-scored states and source geometry; not preregistered as a primary metric.",
+  "evaluation_sha256": "f219f2ccb7812388e17c0328bfb72bce6e1d3d66006b23d5359859cb7105f6e2",
+  "new_IDP_calls": 0,
+  "new_searches": 0,
+  "records": [
+    {
+      "case_id": "de_fold_20x25_20262301",
+      "first_move_index": 16182,
+      "best_neighbor_hamming": 2,
+      "remaining_wrong_positions": [
+        16,
+        24
+      ],
+      "native_correction_exists": false,
+      "second_move_index": null,
+      "target_exact_minus_best_neighbor": 0.05862390681316978,
+      "first_step_improves_exact": true,
+      "second_step_improves_exact": false,
+      "scores_source": "First step: best saved omitted-profile state. Second step: target score already saved in true-anchor profile, not a new evaluation."
+    },
+    {
+      "case_id": "de_fold_20x25_20262302",
+      "first_move_index": 16152,
+      "best_neighbor_hamming": 2,
+      "remaining_wrong_positions": [
+        1,
+        8
+      ],
+      "native_correction_exists": true,
+      "second_move_index": 7652,
+      "target_exact_minus_best_neighbor": 0.06819795025022406,
+      "first_step_improves_exact": true,
+      "second_step_improves_exact": true,
+      "scores_source": "First step: best saved omitted-profile state. Second step: target score already saved in true-anchor profile, not a new evaluation."
+    },
+    {
+      "case_id": "fr_fold_20x25_20262301",
+      "first_move_index": 16149,
+      "best_neighbor_hamming": 2,
+      "remaining_wrong_positions": [
+        1,
+        5
+      ],
+      "native_correction_exists": true,
+      "second_move_index": 7649,
+      "target_exact_minus_best_neighbor": 0.06158161084902914,
+      "first_step_improves_exact": true,
+      "second_step_improves_exact": true,
+      "scores_source": "First step: best saved omitted-profile state. Second step: target score already saved in true-anchor profile, not a new evaluation."
+    },
+    {
+      "case_id": "fr_fold_20x25_20262302",
+      "first_move_index": 5822,
+      "best_neighbor_hamming": 2,
+      "remaining_wrong_positions": [
+        0,
+        1
+      ],
+      "native_correction_exists": true,
+      "second_move_index": 6349,
+      "target_exact_minus_best_neighbor": 0.07387133821060783,
+      "first_step_improves_exact": true,
+      "second_step_improves_exact": true,
+      "scores_source": "First step: best saved omitted-profile state. Second step: target score already saved in true-anchor profile, not a new evaluation."
+    }
+  ],
+  "limits": "No trajectory executed. Does not show that the phase14 first-improvement search chooses this path, or that a random start reaches these anchors."
+}

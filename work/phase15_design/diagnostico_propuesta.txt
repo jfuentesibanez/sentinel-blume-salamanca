@@ -1,0 +1,96 @@
+FASE 15 — DIAGNÓSTICO PROPUESTO, ANTES DE IMPLEMENTAR Y SELLAR
+3 de octubre de 2026. No se han generado casos ni evaluado nuevas IDP.
+
+Propongo medir el paisaje local del objetivo, con anclas privilegiadas y sin
+búsqueda. La raíz ha elegido esta primera etapa estática: cuatro casos nuevos,
+tres anclas por caso y dos fórmulas numéricas para las mismas claves. No repetimos
+el factorial de caps y checkpoints de fase 14. Fase 14 queda congelada.
+
+Pregunta concreta: cerca de la K2 verdadera, ¿el objetivo tiene un paso favorable
+hacia ella? ¿Cambian esa respuesta las operaciones float heredadas? La identidad
+de la clave verdadera sólo sirve al diagnóstico externo. Este control no mide
+la capacidad de encontrarla desde un pool aleatorio.
+
+CASOS Y ANCLAS
+
+Cuatro casos: de_fold/fr_fold × semillas de generación 20262301/20262302,
+anchos conocidos 20×25, mensajes de 615 y 160 letras y convención 0. Se conservarán
+modelos y separación de textos de entrenamiento/holdout. Son claves y casos
+nuevos del mismo corpus, no cuatro corpus independientes. Antes del sellado se
+cotejará que las semillas no se hayan usado. No se genera verdad en esta propuesta.
+
+Las tres anclas de cada caso serán numeric = inverse(true_k2), y esa permutación
+con swaps de posiciones (0,1) y (1,24), con índices desde cero. Ambos swaps dejan
+Hamming 2 respecto a la verdad. (0,1) tiene una corrección nativa de un paso;
+(1,24) requiere dos movimientos fuente. La geometría independiente demuestra
+esa factorización. El swap omitido no rompe la conectividad del grafo. Las anclas
+difieren también en las columnas afectadas: no constituyen un experimento causal
+que cambie únicamente el número de pasos.
+
+Por cada ancla se puntuará su estado y sus 16.649 vecinos fuente distintos.
+El ancla permanecerá FIJA; ninguna mejora modificará las propuestas siguientes.
+No se ampliará el conjunto de movimientos ni se elegirá otra perturbación tras
+ver resultados. El coste máximo del panel principal será 12 × 16.650 × 2 =
+399.600 evaluaciones IDP equivalentes: 199.800 por fórmula. Se registrarán también
+claves únicas, coincidencias entre anclas y llamadas efectivas a cada backend.
+
+FÓRMULAS Y CONTROL NUMÉRICO
+
+Legacy: fórmula congelada, incluida la resta de operandos float antes de acumular
+en double. Referencia: los mismos 676 valores binary32 convertidos a enteros
+dyádicos a denominador común. Se sumarán exactamente matriz, greedy y floor,
+con los mismos límites de offsets, desempate por orden y normalización. Se
+comprobarán los límites de int64; las comparaciones racionales usarán __int128.
+La raíz fija epsilon exacto 1/10^12 para la referencia; el backend heredado conserva
+su constante double 1e-12. No cambia el objetivo ni se busca otro umbral.
+
+Los CSV guardarán índice de movimiento, score legacy a 17 cifras y numerador
+exacto. Las claves se reconstruirán a partir del ancla y el movimiento. El
+diagnóstico registrará diferencias de aristas greedy y decisiones de mejora,
+con costes y tiempos separados. Código, controles artificiales, generador,
+evaluador externo y manifiesto ejecutable irán en work/phase15_crypto. El panel
+principal y la verdad sólo se podrán generar/ejecutar después de dos aprobaciones
+y del sellado de recursos. Los controles artificiales no usarán verdad nueva.
+
+MÉTRICAS Y PARADAS
+
+El evaluador externo distinguirá: rango local de la verdad, presencia como vecino,
+posición en top5 local y candidata de mayor IDP. No se llamará recuperación a
+puntuar directamente el ancla verdadera. Para las otras anclas se contará si la
+verdad aparece en el vecindario y si resulta elegida por score, sin usarla para
+ordenar. También se medirán vecinos superiores/iguales/inferiores, márgenes y
+distancias Hamming de candidatos que mejoran o empeoran el objetivo.
+
+Se detendrá antes de interpretar el panel si fallan la convención/inversa, el
+hash o recuento del vecindario, los límites enteros o la integridad de recursos.
+Un corte de protección temporal quedará como panel incompleto; no provocará
+reintentos ni ampliación oportunista. La protección concreta se fijará en el
+manifiesto antes de generar casos. Una discrepancia numérica o un score superior
+al de la verdad son RESULTADOS del diagnóstico, no motivos para ocultar casos,
+cambiar parámetros o abortar su registro.
+
+INTERPRETACIÓN PREVIA
+
+Si cambian decisiones alrededor de epsilon, la auditoría de scores con tolerancia
+1e-8 no certifica ese paisaje local. Ello no demuestra que el ruido explique los
+gaps de 0,176–0,285 IDP de fase 14. Si la verdad pierde ante vecinos o la corrección
+nativa no es favorable, queda cuestionada una premisa local del objetivo en estos
+casos. Si la corrección nativa sí es clara, se confirma señal cerca de la solución;
+no se demuestra que un arranque aleatorio llegue a esa región. El ancla omitida
+puede mostrar una barrera de un paso; para estudiar atracción mediante recorridos
+haría falta una fase posterior, presupuestada y preregistrada por separado.
+
+FUENTES PRIMARIAS LEÍDAS
+
+Lasry (2018), §§9.4.5.2–9.4.6, pp. 181–185: IDP es una relajación greedy y su
+fitness-distance se estudia por perturbaciones de una clave correcta. El ataque
+publicado incluye además K1 y refinamiento de K2 con texto/trigramas. Nuestro
+control K2 no reproduce ese ataque completo ni sus tasas publicadas.
+https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf
+
+CrypTool, TranspositionTransformations.cs, commit congelado
+bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c; work/phase4_crypto/source_moves.h;
+work/crypto/double_search.cpp; controles y logs congelados de fase 14.
+https://github.com/CrypToolProject/CrypTool-2/blob/bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c/CrypPlugins/ADFGVXAnalyzer/common/TranspositionTransformations.cs
+
+No hubo consultas web nuevas ni nuevas evaluaciones IDP para redactar esta nota.

@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-03",
+  "status": "passed_static_coverage_check",
+  "width": 25,
+  "indexing": "zero-based numeric key positions",
+  "source_move_count_without_identity": 16649,
+  "neighbourhood_sha256_including_identity": "11fade65c2c64b718fd4cf91b61a6df6b7ab6182b1183ca857fc2fc643f5c9ff",
+  "reference": "Pure literal_source() from the independent phase4 Python geometry reference; no imported top-level execution",
+  "matches_prior_Cpp_set_record": true,
+  "reference_source_sha256": "c51a163a5880e95e0f57000379c30f8591fb79eb69a9906373a2bb4bf8f5bbcc",
+  "Cpp_source_sha256": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed",
+  "geometry_record_sha256": "9129ec36ebcd1baf057772ff678216efa806e5706f37dd3ef788ed73d853383f",
+  "simple_transpositions_possible": 300,
+  "simple_transpositions_present": 278,
+  "simple_transpositions_missing": 22,
+  "missing_pairs": [
+    [
+      1,
+      24
+    ],
+    [
+      2,
+      24
+    ],
+    [
+      3,
+      24
+    ],
+    [
+      4,
+      24
+    ],
+    [
+      5,
+      24
+    ],
+    [
+      6,
+      24
+    ],
+    [
+      7,
+      24
+    ],
+    [
+      8,
+      24
+    ],
+    [
+      9,
+      24
+    ],
+    [
+      10,
+      24
+    ],
+    [
+      11,
+      24
+    ],
+    [
+      12,
+      24
+    ],
+    [
+      13,
+      24
+    ],
+    [
+      14,
+      24
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      19,
+      24
+    ],
+    [
+      20,
+      24
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      22,
+      24
+    ]
+  ],
+  "last_position_present_pairs": [
+    [
+      0,
+      24
+    ],
+    [
+      23,
+      24
+    ]
+  ],
+  "reason": "Frozen strict p2 < width - length excludes swaps ending at last position; circular slides retain adjacent (23,24) and wrap (0,24).",
+  "new_IDP_calls": 0,
+  "new_searches": 0,
+  "interpretation": "Missing one-step swap does not mean a disconnected permutation space and does not explain zero macro recoveries by itself.",
+  "missing_swap_source_graph_distance": 2,
+  "missing_swaps_with_two_step_factorization": 22,
+  "two_step_factorization_rule": "For missing T=(a,24), a=1..22: choose P=(0,a), native; Q[i]=P[T[i]], native 3-cycle. P[Q[i]]=T[i].",
+  "two_step_example": {
+    "missing_pair": [
+      1,
+      24
+    ],
+    "first_destination_to_source": [
+      1,
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "second_destination_to_source": [
+      1,
+      24,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0
+    ]
+  },
+  "two_step_limit": "Reachability in two source moves does not guarantee an improving intermediate IDP, so strict hill climbing may still be blocked."
+}

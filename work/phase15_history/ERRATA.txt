@@ -1,0 +1,47 @@
+Corrección de la referencia al telegrama 629
+3 de octubre de 2026
+
+El borrador NARA de fase 14 llamó al telegrama 629 un telegrama adjunto. Esa descripción
+excede lo que acredita la página de ADAP. La formulación correcta es: telegrama anterior
+del 31 de diciembre de 1936, citado por la carta de Salamanca del 1 de enero de 1937,
+publicada como documento 180 de ADAP, serie D, volumen III.
+
+Se ha recotejado visualmente la página impresa 170, escaneo 270. La carta remite al
+Drahtbericht del día 31 del mes anterior, número 629. La nota editorial indica que no
+está impreso y da la referencia 3176/682878. El protocolo que sí se reproduce como anexo
+lleva otra referencia: 3176/682877. La cita de un telegrama anterior no demuestra que una
+copia estuviera físicamente adjunta a la carta. No se ha leído el texto del telegrama 629.
+
+Página digital que sostiene la corrección, facsímil de la edición ADAP:
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg
+Volumen:
+https://digitale-sammlungen.de/de/view/bsb00045915
+Imagen local preservada, leída sin modificar:
+work/history/phase11-adap-documentos/scan-00270.jpg
+
+3176/682878 es una referencia de serial y fotograma impresa en ADAP; no es una signatura
+actual del PAAA. La concordancia de Kent, volumen III, 1966, página 793, incluye expresamente
+el serial 3176 en el rollo 1594 de T120:
+https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793
+Esa equivalencia está comprobada. El contenido del fotograma 682878 dentro de T120/1594,
+su acceso digital y cualquier referencia archivística actual siguen pendientes de cotejo.
+La carta 180 vincula el telegrama anterior con la comunicación del protocolo comercial;
+no permite atribuirle un texto exacto ni relacionarlo con BLUME.
+
+El intento de acceso digital de fase 15 agotó seis consultas. Apareció una ficha del
+Center for Research Libraries cuyo título sitúa los documentos en mayo–junio de 1940:
+https://digitalcollections.crl.edu/record/884887?ln=en
+Sólo se pudieron leer metadatos reproducidos por el buscador; las aperturas dieron 403
+o inaccesibilidad. No se obtuvo un manifiesto, un escaneo ni una relación con los rollos
+296/1594. No se concluye que los rollos carezcan de digitalización ni que CRL exija pago.
+
+Los siguientes pasos concretos son revisar y, cuando se autorice, enviar la consulta
+corregida a NARA sobre los dos rollos y fotogramas. Una respuesta o un catálogo de rollos
+de la institución permitiría localizar el objeto correcto sin repetir las seis búsquedas
+generales agotadas. Si se obtiene una ruta digital oficial, primero se comprobarán el
+número del rollo, el serial y el fotograma; después se leerá el documento. Los metadatos
+completos o el manifiesto de la ficha CRL podrían aclarar su relación con una colección,
+pero la ficha de 1940 no sustituye al documento de 1936 que buscamos.
+
+Esta errata y el borrador corregido son archivos nuevos. No se han modificado la fase 14,
+las imágenes ni el repositorio público. No se ha enviado ningún correo ni pedido copias.

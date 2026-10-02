@@ -1,0 +1,92 @@
+T120: acceso digital a rollos 296 y 1594
+Fase 15, 3 de octubre de 2026. Seis consultas nuevas; sin contactos, cuentas ni pagos.
+
+No se obtuvo una copia digital verificable de T120/296 o T120/1594 ni de los fotogramas
+254221–254222, 682876–682878 o 682895–682896. La concordancia de Kent ya comprobada en
+fase 14 se conserva como punto de partida; no se repitió su búsqueda. El resultado de
+esta ronda es una localización institucional posible, con límites claros, y una
+precisión en la referencia al telegrama 629. No es una prueba de ausencia de digitalización.
+
+1. Localización digital nueva en Center for Research Libraries(CRL)
+
+https://digitalcollections.crl.edu/record/884887?ln=en
+
+El resultado del buscador reproduce una ficha titulada Records of the German Foreign
+Office received by the Department of State, Ministere Des Affaires - (May 21-Jun 3, 1940)Done.
+La ficha atribuye el material a Germany. Auswärtiges Amt y United States. Department of State.
+Declara resolución 300 dpi, ofrece un control IIIF y describe una versión digital de un
+registro bibliográfico de microfilmes. Su campo de extensión menciona 5026 rollos, dato
+general que NO se toma como número de rollos digitalizados en este objeto.
+
+El rango del título es de 1940. En el fragmento leído no se identifica el rollo 296 o 1594,
+los seriales 643/3176 ni los fotogramas buscados. No se afirma que esta ficha cubra 1937,
+que sea exactamente T120, o que los 5026 rollos estén disponibles digitalmente. Su valor
+es señalar una institución con un recurso digital relacionado y un enlace de colección
+anunciado; falta acceder a sus metadatos completos o manifiesto para seguir esa relación.
+
+La apertura de la URL con y sin ln=en devolvió 403 Forbidden; el formato de metadatos
+of=marc resultó inaccesible para la herramienta. Un intento HTTP de lectura pública en
+CLI falló al resolver el nombre de dominio. No se cambió de cuenta ni se intentó resolver
+un captcha. No puede deducirse de esos fallos que CRL exija pago o autenticación: no se
+leyó una página que explicara una condición de acceso. No se descargaron scans ni un
+manifiesto de CRL. El título y los campos citados proceden del OCR/texto del resultado
+de búsqueda, preservado en web-02.json, no de una inspección visual del documento.
+
+2. NARA: comprobación acotada de información más reciente
+
+https://www.archives.gov/research/captured-german-records/foreign-records-seized.html
+
+Se leyó la sección Whaddon Hall del directorio oficial. T120 figura como publicación
+de 5485 rollos; esa entrada no proporciona enlace a un objeto de los rollos buscados.
+La página enlaza digitalizaciones de otras publicaciones, como T136. Esas publicaciones
+no se sustituyen por T120 sin comprobar una concordancia documental específica.
+
+https://www.archives.gov/files/college-park/digitized-microfilm-in-catalog-as-of-1.27.25-1.pdf
+
+Este listado está fechado 27 de enero de 2025 y tiene 39 páginas. Las operaciones find sobre su
+extracción de texto no localizaron T120 ni T-120. No se leyó visualmente cada página,
+ni se usa ese resultado para afirmar la situación completa del catálogo en octubre de 2026.
+La ficha 6921696, ya leída en fase 14, describe copias fotográficas en papel. No se volvió
+a utilizar su aviso de disponibilidad como si describiera los rollos 296/1594.
+
+Las consultas dirigidas a Internet Archive y Stanford fueron búsquedas del motor web.
+No produjeron un enlace verificable de los rollos objetivo en los resultados obtenidos.
+No equivalen a una búsqueda exhaustiva del catálogo interno de ninguna institución.
+
+3. Telegrama 629: precisión documental para el siguiente paso
+
+Se recotejó visualmente ADAP, D III, documento 180, página impresa 170, scan 270:
+https://digitale-sammlungen.de/de/view/bsb00045915
+https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg
+Imagen local anterior, leída sin modificar:
+work/history/phase11-adap-documentos/scan-00270.jpg
+
+La carta está fechada en Salamanca el 1 de enero de 1937, firmada I.V.Schwendemann y registrada
+Sa.10–322. Su referencia impresa es 3176/682876. La primera frase remite a un Drahtbericht
+anterior: «Im Anschluß an den Drahtbericht vom 31. v. M. Nr. 629¹)». La nota editorial dice:
+«(1) Nicht gedruckt (3176/682878).» El párrafo posterior informa de que la carta envía
+el texto del protocolo anunciado en aquel telegrama; el protocolo impreso es 3176/682877.
+
+Por la fecha de la carta, 31. v. M. señala 31 de diciembre de 1936. Esta referencia permite fijar
+el objetivo archivístico como telegrama 629 del 31 de diciembre de 1936, fotograma 682878 del
+serial 3176, que la concordancia de Kent sitúa en T120/1594. No se ha leído ese telegrama.
+La carta vincula el informe anterior con la comunicación de un protocolo comercial;
+no se atribuye al telegrama un texto exacto, nombres adicionales ni relación con BLUME.
+
+La referencia es a un telegrama ANTERIOR citado en la carta, no prueba que una copia
+estuviera físicamente adjunta a ella. El borrador local de consulta de fase 14 llamó a 629
+attached telegram/telegrama adjunto. Debe corregirse en una nueva versión antes de enviar:
+earlier telegram referenced in document 180/telegrama anterior citado en el documento 180.
+Esta fase no modifica aquel borrador ni las evidencias anteriores. El agente principal
+recibió el matiz y la ruta de la imagen para su cotejo independiente.
+
+4. Alcance y preservación
+
+Se hicieron exactamente 6 consultas, 4 llamadas web, 5 aperturas URL, 2 find y 1 intento HTTP local.
+Se leyeron visualmente los scans 270 y 271 de la edición ADAP ya preservada; 271 fue una
+página de navegación y no se usa para inferir nada sobre 629. No se consultaron nuevos
+originales, rollos o fotogramas. No hubo contactos, pedidos, pagos, cuentas ni captchas.
+Todas las escrituras de este agente en la ronda están en work/phase15_t120_access/.
+Los fallos de acceso y los resultados no pertinentes se registran sin convertirlos en
+negativos generales. Ledger, fuentes crudas, verificación de inputs y hashes permiten
+repetir el alcance de esta ronda. No se modificó fase 14 ni el repositorio público.

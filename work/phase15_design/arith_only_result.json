@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "binary32_numerators_compared_with_independent_Fraction": 1352,
+  "legacy_sliding_error": "-1/4194304",
+  "promoted_sliding_error": 0,
+  "epsilon_comparator_cases": 3,
+  "extreme_signed_cases": 2,
+  "new_IDP_calls": 0,
+  "new_searches": 0,
+  "first_wrapper_compilation": "Failed before execution: used missing quoted() instead of std::quoted(); corrected wrapper only, zero IDP",
+  "hashes": {
+    "work/phase15_design/arith_only_audit.cpp": "b64ef41ad2bcb5da50d155be9734f3fedeb44052bb4cac7bb568e0fcc2133ed7",
+    "work/phase15_design/arith_only_audit": "d655c461b9b464c8c30b00441c2ed60648ff8a2b70d660494d184f430e481160",
+    "work/phase15_design/arith_only_outputs.jsonl": "09d45f4d927b77201b493965f80a84178a87da64502bce7bf9116bd03b279b78",
+    "work/phase15_crypto/static_landscape.cpp": "4552eafdc98cc4e3d075ed8b092945510d4eb1ff67a31dfa1e30e8662f85ed4a"
+  }
+}

@@ -49,6 +49,13 @@ series; it does not establish whether rolls 296 or 1594 are accessible online.
 No current German archival signature or custodian of an individual original
 has been inferred from the conversion.
 
+Phase 15 corrected an overstatement in the phase 14 report. ADAP document 180
+of 1 January 1937 cites the earlier telegram 629 of 31 December 1936 at
+3176/682878. Its printed attachment is the protocol at 682877; the citation does
+not establish that the telegram itself was physically attached. The telegram
+text remains unread and no BLUME link is established. The earlier report is
+preserved; use the [new erratum](../work/phase15_history/ERRATA.txt).
+
 The official German archive guide assigns 1936–1945 trade-policy records to the
 Bundesarchiv as a general orientation. Political records also require the PAAA
 route. This does not establish the present custodian of an individual document.
@@ -74,7 +81,7 @@ widths**, using literary German/French models. They do not recover K1 and are
 not attacks on the historical ciphertexts. A literary model is not a validated
 model of commercial telegram language in 1937.
 
-Phase 14 is the latest completed pilot. Four fresh synthetic German/French pairs
+Phase 14 is the last completed search pilot. Four fresh synthetic German/French pairs
 at widths 20 × 25, two rounds and four arms produced 32 runs of 100,000 IDP
 calls. A/B used cap 5,000 with checkpoint admission OFF/ON; C/D used cap 33,298
 with OFF/ON. Each arm recorded **0/8** exact K2 recoveries in the final top five.
@@ -94,6 +101,33 @@ is a search limitation on this panel, not proof of a global optimum or validatio
 of the model for historical commercial telegrams. No method or parameter was
 changed after seeing these results. See the [phase 14 report](../outputs/Sentinel_BLUME_fase14_2026-10-03.txt)
 and [frozen experiment records](../work/phase14_crypto/).
+
+Phase 15 is the latest completed diagnosis, a privileged STATIC landscape test.
+Four fresh cases at 20×25 used two distinct key pairs and four plaintext offsets.
+It received planted-key-derived anchors: true K2, native swap (0,1), omitted swap
+(1,24). Each anchor and its 16,649 source neighbours were scored without moving
+the anchor, by legacy and exact dyadic formulas. No unknown-key search ran.
+
+The 12 complete profiles cost 399,600 backends, plus 9 artificial controls and
+48 independently recomputed audit backends. True K2 was the strict local maximum
+from all four true anchors and first-ranked from all four native swaps. It cannot
+appear in the omitted-swap one-step set. Best omitted-profile states still have
+Hamming 2; higher IDP can move farther away in Hamming. Hamming is not graph distance.
+
+The formula error reached 1.41169e-9 IDP, above epsilon, but no measured
+anchor-improvement decision or greedy edge changed across 199,800 states, and
+the local top-five lists matched. This scopes the arithmetic concern; it does
+not rule out effects in another trajectory. The exact lattice spacing is
+1/(760×2^23), larger than 1e-12. The source set omits 22 simple swaps but each
+omitted swap is reachable in two steps; the graph is connected. No causal
+explanation of phase 14's failures or historical cipher exclusion follows.
+
+Read [the phase 15 report](../outputs/Sentinel_BLUME_fase15_2026-10-03.txt),
+[frozen plan](../work/phase15_crypto/plan12.json),
+[evaluation](../work/phase15_crypto/evaluation.json) and
+[independent post-run audit](../work/phase15_root/post_ejecucion_independiente.txt).
+The additional two-step reading in the report is explicitly post-hoc geometry
+of saved states, not a preregistered primary metric or an executed trajectory.
 
 Phase 11 remains an earlier diagnostic panel: eight synthetic pairs, two rounds,
 two methods, 32 runs of 100,000 IDP calls. The population baseline recovered K2
@@ -120,19 +154,24 @@ binary. Read [the earlier decisions](../work/phase13_claude/crypto_decisiones_pr
 and [saved-log audit](../work/phase14_root/post_run_audit.json) before proposing
 another search. Preserve the failed result and use reserved cases for a new design.
 
+No fresh Claude consultation occurred in phase 15: Computer Use could not access
+the locked Mac. Its plan/code and saved records were independently reviewed by
+the internal team. Do not attribute those reviews or the phase 15 run to Claude.
+
 ## Useful next tasks
 
 1. Confirm access to T120/296, frames 254221–254222, and T120/1594, frames
-   682876–682878 and 682895–682896. Read the frames, especially the attached
-   telegram. The Kent rows are already verified. Keep serial, roll, frame and
+   682876–682878 and 682895–682896. Read the frames, especially the earlier
+   telegram 629 cited by ADAP document 180. The Kent rows are already verified. Keep serial, roll, frame and
    current archive signature distinct.
 2. Investigate the telegraphic-address interpretation and CDE/tariff evidence,
    or locate a specific codebook tied to Oswald. Cite direct sources and state
    what was read, rather than extrapolating from generic five-letter grouping.
-3. Diagnose the phase 14 search failure using its saved logs.
-   Any new method needs a new design and reserved cases before another search.
-   Keep truth outside the solver and count all objective calls, cuts and preparation
-   costs. Avoid tuning on this panel or substituting score for recovery.
+3. Use the phase 15 local-signal result to design a bounded attraction test from
+   larger perturbations or distant starts, with new reserved cases. Count all
+   objective calls, cuts, preparation and failed attempts. Declare privileged
+   starts explicitly; separate them from ciphertext-only recovery. Do not tune
+   on this completed panel or substitute score for unknown-key recovery.
 
 When reporting: give exact paths or primary URLs, separate facts/testimony/
 hypotheses, scope negative findings, and identify what would verify a proposed

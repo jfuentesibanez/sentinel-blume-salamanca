@@ -1,0 +1,67 @@
+FASE 15 — DECISIONES ANTES DE SELLAR
+3 de octubre de 2026.
+
+Diagnóstico ESTÁTICO y PRIVILEGIADO. El programa recibe anclas derivadas de la
+verdad, incluida la clave verdadera. No recibe una segunda clave objetivo para
+comparar ni su nombre lógico, y no toma decisiones usando Hamming o true_k1.
+La separación consiste en generación externa y evaluación del objetivo externa.
+No es un ataque ciphertext-only ni una validación de recuperación sin clave.
+
+Cuatro casos de_fold/fr_fold × semillas 20262301/20262302, 20×25, 615+160, conv0.
+Mismos modelos y holdout congelados. La semilla puede dar las mismas claves en
+ambos idiomas porque la generación usa el mismo RNG; se informarán parejas de
+claves distintas y offsets, sin afirmar cuatro claves independientes.
+
+Tres anclas: inverse(true_k2), y swaps de posiciones numeric (0,1)/(1,24).
+Índices desde cero. (0,1) corrige en un paso fuente; (1,24) en dos pasos fuente.
+No añadir los swaps omitidos. Esas anclas afectan columnas distintas y no aíslan
+causalmente sólo la distancia del grafo. Para cada ancla, estado+16.649 movimientos
+en orden original, aplicados siempre a la misma ancla. No RNG de recorrido,
+reinicios, caps de escalada, checkpoint, admisiones, K1 ni BLUME.
+
+Legacy llama matrix() congelada y copia literalmente su selección greedy para
+emitir aristas. El selftest compara su score con idp() congelada, contando ambas
+llamadas. Conserva la resta float antes de double y double1e-12. La referencia
+reduce cada binary32 a un dyádico exacto, detecta una escala común e incluye el
+floor7 en esa escala. Usa los mismos rangos y recurrence con enteros exactos.
+El greedy conserva comparación estricta y recorrido row-major, incluso el floor
+de la arista final forzada. Numerador y normalizador son int64, con bounds antes
+del cálculo; las diferencias y comparación contra 1/10^12 son __int128. Las tablas
+reales caben; se rechazan explícitamente NaN/Inf, escala fuera de rango y overflow.
+El denominador es escala × filas_totales × w1. Numeradores de claves distintas
+pueden coincidir. No se adapta epsilon ni se añade ruido de desempate.
+
+Cada backend emite @calls legacy exact, flushed ANTES de entrar. Así se cuentan
+también llamadas interrumpidas, que se distinguirán de estados completos. Catch
+emite un JSON de fallo con contadores; wrappers preservan stdout/stderr y CSV
+parcial. Timeout externo de40s marca failed_no_retry; no se vuelve a ejecutar.
+El reloj soft30s empieza antes de leer modelo, CT, ancla y construir movimientos.
+Comprueba la frontera antes de cada par; un par comenzado completa los dos
+backends y puede sobrepasar el soft limit. Se informan exceso y costes reales.
+completed significa12 perfiles registrados. all_profiles_complete significa
+que los12 tienen16.650 estados y stop_reason complete. No son equivalentes.
+
+CSV índice0=ancla; índice1..16.649=índice de moves.json. Se guardan score legacy
+17g, numerador exacto, mejora sobre ancla para ambos backends, aristas greedy
+codificadas a*w1+b, forced_count y error máximo de matriz. Las claves se pueden
+reconstruir sin más IDP. Diferencias de aristas, numeradores y decisiones se
+registran como resultados, no como motivo para modificar casos o parámetros.
+
+No hay caché de scores principal. Puede haber claves compartidas entre anclas o
+casos; se cobran ambas fórmulas por cada estado. La evaluación informa conjuntos
+de claves únicas, claves únicas por caso y combinaciones caso-clave. El máximo
+principal es199.800 legacy+199.800 exactas=399.600 IDP equivalentes. Es un contador
+de backends, no una afirmación de igual CPU. Undo2 se comparte dentro del par y
+su coste entra en tiempo total, fuera de los dos cronómetros de scorer.
+
+El evaluador externo lee sólo los CSV guardados:0 IDP adicionales. Requiere un
+no_truth_verification.json independiente con status passed y hash del manifest.
+Ordena por score y luego numeric lexicográfico; cuenta presencia/rango/top5 local
+de la verdad, y marca el ancla verdadera como privilegiada. No llama recuperación
+sin clave a puntuarla ni al contraste de sus vecinos. Las clasificaciones de rango
+completo sólo existen para perfiles completos. No genera una tasa general con
+cuatro casos ni explica por sí solo los0/32 de fase14.
+
+Antes de seal se exigen root_approved e independent_approved, hash de plan y
+recursos/protección intactos. Aquí sólo build y controles artificiales se permiten
+antes de aprobación. La generación de verdad y el principal quedan con raíz.

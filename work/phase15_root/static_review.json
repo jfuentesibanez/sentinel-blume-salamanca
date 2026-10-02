@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "source_geometry_hash": "11fade65c2c64b718fd4cf91b61a6df6b7ab6182b1183ca857fc2fc643f5c9ff",
+  "source_moves": 16649,
+  "present_single_swaps": 278,
+  "missing_single_swaps": [
+    [
+      1,
+      24
+    ],
+    [
+      2,
+      24
+    ],
+    [
+      3,
+      24
+    ],
+    [
+      4,
+      24
+    ],
+    [
+      5,
+      24
+    ],
+    [
+      6,
+      24
+    ],
+    [
+      7,
+      24
+    ],
+    [
+      8,
+      24
+    ],
+    [
+      9,
+      24
+    ],
+    [
+      10,
+      24
+    ],
+    [
+      11,
+      24
+    ],
+    [
+      12,
+      24
+    ],
+    [
+      13,
+      24
+    ],
+    [
+      14,
+      24
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      19,
+      24
+    ],
+    [
+      20,
+      24
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      22,
+      24
+    ]
+  ],
+  "missing_swap_graph_distance": 2,
+  "models": [
+    {
+      "model": "de_fold",
+      "sha256": "ef650af02cfccb10ccafe5ccc69148e28c8d525cc52f816ef0a1a6f47576294b",
+      "bigram_count": 676,
+      "common_denominator": 8388608,
+      "gcd_numerators": 1,
+      "absolute_total_bound": 43983191200,
+      "int64_sum_bound_passed": true,
+      "int128_epsilon_bound_passed": true
+    },
+    {
+      "model": "fr_fold",
+      "sha256": "0b16044142ef82e6c809172a4981a1eb838a96da6caf4e301fe810e66143c268",
+      "bigram_count": 676,
+      "common_denominator": 8388608,
+      "gcd_numerators": 1,
+      "absolute_total_bound": 45182203680,
+      "int64_sum_bound_passed": true,
+      "int128_epsilon_bound_passed": true
+    }
+  ],
+  "normalizer": 760,
+  "exact_score_lattice_spacing": 1.5685432835629111e-10,
+  "lattice_spacing_over_epsilon": 156.85432835629112,
+  "new_IDP_calls": 0,
+  "new_truth_generated": false,
+  "new_searches": 0,
+  "interpretation": "One-step omissions do not disconnect the graph. Nonzero exact score differences exceed epsilon; legacy float arithmetic may still change comparisons."
+}

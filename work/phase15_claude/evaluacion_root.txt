@@ -1,0 +1,22 @@
+Claude en la ronda nocturna de fase 15
+3 de octubre de 2026
+
+Javier autorizó continuar de forma autónoma el proyecto y la colaboración con
+Claude. Se volvió a intentar leer la aplicación mediante Computer Use. La
+herramienta informó que el Mac estaba bloqueado y que no podía desbloquearlo.
+No se intentó eludir el bloqueo. No se envió una consulta nueva a Claude en esta
+ronda, ni se atribuye a Claude la revisión del código o los resultados de fase 15.
+
+Los comentarios de Claude anteriores a la ejecución de fase 14 siguen documentados
+en sus registros propios. Una revisión nueva del plan y código de fase 15 se
+encarga a un agente independiente y a la raíz antes de generar los casos nuevos.
+Esa revisión interna no sustituye ni simula una respuesta de Claude.
+
+Se conservará una consulta nueva, con enlaces públicos válidos e inmutables,
+para una futura interacción cuando la aplicación vuelva a ser accesible. No se
+debe enviar literalmente el borrador antiguo de fase 14: contiene espacios
+insertados dentro del hash y de algunos enlaces. Aquel archivo se conserva sin
+modificar como registro previo; la consulta nueva se guardará por separado.
+
+Esta nota registra un límite operativo. El bloqueo no constituye un resultado
+histórico o criptográfico y no impide continuar las tareas independientes.

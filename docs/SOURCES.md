@@ -30,7 +30,7 @@ and [BAR image 531](https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F86
 
 | Document | Date | Old serial/frame reference | Reading |
 | --- | --- | --- | --- |
-| 180 | 1 January 1937, with 31 December 1936 protocol | 3176/682876–878 | Document/protocol read; telegram 629 not reproduced in edition |
+| 180 | 1 January 1937, with 31 December 1936 protocol | Letter 3176/682876; protocol 682877; earlier telegram 629 cited as 682878 | Letter/protocol read in edition; cited telegram of 31 December 1936 not reproduced or read |
 | 187 | 7 January 1937 | 643/254221–222 | German material announcement, Hisma/Bernhardt and intended deals |
 | 206 | 16 January 1937 | 3176/682895–896 | Planned trade delegation; plan is not proof a meeting occurred |
 | 213 | 26 January 1937 | 47/31895–899 | Meeting report and disputed accusations; accusations are not established facts |
@@ -40,15 +40,25 @@ and [BAR image 531](https://image.recherche.bar.admin.ch/iiif/2/0000%2F0357%2F86
 | Old serial | T120 roll | Kent evidence | Target frames |
 | --- | ---: | --- | --- |
 | 643 | 296 | [p. 778](https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA778), row 643 / 296 | 254221–254222, ADAP document 187 |
-| 3176 | 1594 | [p. 793](https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793), row 3171–3174, 3176 / 1594 | 682876–682878, document 180 and attachments; 682895–682896, document 206 |
+| 3176 | 1594 | [p. 793](https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793), row 3171–3174, 3176 / 1594 | 682876 letter 180; 682877 protocol; 682878 earlier telegram 629; 682895–682896 document 206 |
 
 The page images include the T-120 header and Serial / Roll / Price columns.
 These are verified serial-to-roll conversions, not readings of the target frames.
 The next task is to establish access to those rolls and read those frames,
-especially the attached telegram. No roll-specific digital record or present
+especially the earlier telegram 629 of 31 December 1936 cited by document 180.
+The citation does not show that a copy was physically attached to the letter.
+See the [phase 15 erratum](../work/phase15_history/ERRATA.txt) and the
+[original printed page](https://api.digitale-sammlungen.de/iiif/image/v2/bsb00045915_00270/full/full/0/default.jpg).
+No roll-specific digital record or present
 PAAA/Bundesarchiv signature has been verified. NARA's paper-copy record cannot
 resolve roll availability. See the [Kent reading and access limits](../work/phase14_kent/resultado.txt)
 and [source ledger](../work/phase14_kent/ledger.json).
+
+Six phase 15 access queries found no verified object for the target rolls. A
+[CRL record](https://digitalcollections.crl.edu/record/884887?ln=en) describes
+May–June 1940 in search metadata; opening it returned 403. No manifest, scan or
+roll match was obtained. This is a bounded access result, not proof that the
+rolls have never been digitized. See the [access note](../work/phase15_t120_access/resultado.txt).
 
 Do not use a serial as a T120 roll or a frame as a current R/RZ signature.
 The conversion and temporal proximity do not establish an Oswald/BLUME link.
@@ -62,6 +72,9 @@ available. It remains unchanged with [snapshot.json](../provenance/snapshot.json
 [phase14_source_inventory.jsonl](../provenance/phase14_source_inventory.jsonl)
 records the new phase 14 sources; [phase14_update.json](../provenance/phase14_update.json)
 records the addition and its scope. These are separate baseline and update records.
+[phase15_source_inventory.jsonl](../provenance/phase15_source_inventory.jsonl)
+and [phase15_update.json](../provenance/phase15_update.json) record the next
+diagnostic and historical erratum without replacing earlier sources.
 Source URLs are navigation aids extracted from a recorded file; co-occurrence does not prove
 that each URL is the origin of every byte in that file. For exact mappings,
 use the institution's manifests and our source ledgers.

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "attempt": 1,
+  "audit_backend_calls": {
+    "legacy": 24,
+    "exact": 24
+  },
+  "audit_IDP_equivalent_calls": 48,
+  "seconds": 2.079027333005797,
+  "source_sha256": "d2f00f3c27ec1bef5523b7d47c16d21b9d0c2e3cd37e4204c401c9445d6d2253"
+}

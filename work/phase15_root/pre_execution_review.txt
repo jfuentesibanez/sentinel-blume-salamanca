@@ -1,0 +1,64 @@
+REVISIÓN DE LA RAÍZ ANTES DE GENERAR VERDAD — FASE 15
+3 de octubre de 2026. Aprobación técnica, dentro de la autorización de Javier.
+
+APTO para el diagnóstico estático fijado en plan12.json, condicionado a una
+segunda aprobación independiente del mismo hash. No se ha generado la verdad
+nueva ni ejecutado el panel principal durante esta revisión.
+
+Plan SHA-256:
+a3e3fb8e7cb4b212cad95a4d4d1f5d6b79ea44035f383489b0837433afc54128
+Fuente C++ SHA-256:
+4552eafdc98cc4e3d075ed8b092945510d4eb1ff67a31dfa1e30e8662f85ed4a
+
+Leí el C++ final, dependencias congeladas, generador externo, runner, evaluador,
+decisiones, controles y plan. Comprobé por código la correspondencia de los 19
+recursos y 366 archivos protegidos del plan, las 12 órdenes, límites y ausencia
+de truth.jsonl/manifest.json nuevos. El cotejo separado de 1.874 archivos previos
+también pasó: ninguno cambió ni desapareció. Esos cotejos costaron 0 IDP.
+
+La raíz reprodujo la geometría mediante la función pura de la referencia Python
+independiente de fase 4. Hay 16.649 movimientos no identidad, 278 intercambios
+simples presentes y 22 omitidos; cada omitido tiene una factorización nativa de
+dos pasos. Reproduje la retícula exacta de ambos modelos con as_integer_ratio():
+676 valores por modelo, denominador 2^23, gcd de numeradores 1. Las sumas y sus
+productos de comparación caben en int64/int128. Evidencia: static_review.json.
+No hubo nuevas evaluaciones de claves ni lecturas de verdad para ese análisis.
+
+El estado base permanece fijo en cada perfil. La fórmula legacy llama la matriz
+original y conserva el greedy, floor y desempates por orden; los tres fixtures
+contrastan su score con idp() congelada. El control de sliding exige el error
+conocido y el numerador exacto esperado. Un único intento artificial pasó con
+6 llamadas legacy y 3 exactas; no hubo intento fallido de IDP en esos controles.
+Los marcadores de invocación y el timeout conservan los costes y los parciales.
+
+La referencia usa los mismos binary32 como enteros dyádicos, los mismos rangos
+de offsets y el mismo greedy, incluido el floor de la última arista forzada.
+La comparación exacta contra 1/10^12 usa __int128. No se cambian tabla, vecindario
+ni epsilon tras observar resultados. El control de aritmética independiente
+del revisor contrasta 1.352 numeradores con Fraction sin invocar IDP.
+
+El runner exige dos aprobaciones con hash de plan y recursos intactos. La semilla
+se coteja en los manifiestos anteriores. La generación externa y el cifrado
+producen cuatro casos DE/FR, longitudes 615+160, convención 0, anchos 20×25 y
+semillas 20262301/20262302. Las claves pueden repetirse entre idiomas. La entrada
+al programa es deliberadamente privilegiada: contiene anclas derivadas de la
+verdad, incluida la propia clave. El programa no recibe una segunda clave
+objetivo para comparar ni adapta el recorrido. Esto no es ciphertext-only.
+
+Se presupuestan 199.800 estados y 399.600 llamadas de backend, más los controles
+y las posteriores comprobaciones independientes declaradas por separado. Cada
+perfil tiene 30 s soft y 40 s de protección externa. No se amplían ni repiten
+perfiles tras un corte. completed y all_profiles_complete quedan separados.
+El evaluador sólo clasifica registros guardados después de una auditoría
+separada; presencia, rango local y top5 no se confunden con recuperación sin clave.
+
+Límites de interpretación: no hay trayectorias, prueba de atracción desde azar,
+prueba de máximo global ni explicación causal de los 0/32 de fase 14. El ancla
+nativa y la omitida cambian también columnas distintas. Un cambio de aristas
+greedy puede ser mayor que el error elemental de acumulación; ambas secuencias
+quedan registradas para medirlo. No se prueban K1, textos ni claves históricos.
+
+Después del panel, la raíz comprobará todos los registros y recomputará dos
+estados por perfil con fórmulas independientes: ancla y mejor vecino según el
+numerador exacto guardado. Ese coste previsto es 24 legacy + 24 exactas, separado
+del principal. Los fallos de esta auditoría también tendrán recibos de coste.

@@ -71,10 +71,28 @@ def main():
     assert sum(calls14.values())==update['main_objective_calls']==3200000
     assert sha(phase14/'search_outputs.jsonl')==evaluation['log_sha256']
     assert sha(phase14/'truth.jsonl')==evaluation['truth_sha256']
+    update15=json.loads((ROOT/'provenance/phase15_update.json').read_text())
+    added15=[json.loads(s) for s in (ROOT/'provenance/phase15_source_inventory.jsonl').read_text().splitlines()]
+    assert len(added15)==update15['new_inventory_entries']
+    assert sum(e['disposition']=='included' for e in added15)==update15['new_included_files']
+    for e in added15:
+        if e['disposition']=='included':
+            assert sha(ROOT/e['repository_path'])==e['sha256'],e['source_path']
+    phase15=ROOT/'work/phase15_crypto'
+    manifest15=json.loads((phase15/'manifest.json').read_text())
+    evaluation15=json.loads((phase15/'evaluation.json').read_text())
+    assert manifest15['completed'] and manifest15['all_profiles_complete']
+    assert len(manifest15['runs'])==12 and manifest15['legacy_calls']==manifest15['exact_calls']==199800
+    assert evaluation15['totals']['idp_equivalent_calls']==399600
+    assert evaluation15['manifest_sha256']==sha(phase15/'manifest.json')
+    assert evaluation15['new_legacy_calls']==evaluation15['new_exact_calls']==0
+    assert evaluation15['totals']['distinct_planted_keypairs']==2
     print(json.dumps({'status':'passed','hashed_repository_files':len(checksums),
         'original_inventory_entries':len(entries),'canonical_ciphertexts':'match',
         'phase11_rows':len(runs),'phase11_archive_recoveries':dict(hits),
         'phase14_rows':len(runs14),'phase14_archive_recoveries':dict(hits14),
+        'phase15_static_profiles':len(manifest15['runs']),
+        'phase15_recorded_principal_backend_calls':399600,
         'new_searches':0,'scope':'selected export integrity and recorded recovery counts'},indent=2))
 
 if __name__=='__main__': main()

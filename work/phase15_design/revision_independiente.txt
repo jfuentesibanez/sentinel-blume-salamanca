@@ -1,0 +1,138 @@
+FASE 15 — REVISIÓN INDEPENDIENTE DEL FALLO DE FASE 14
+3 de octubre de 2026. Estado: análisis externo; 0 nuevas IDP y 0 búsquedas.
+
+No he demostrado un error que explique las cero recuperaciones. Sí hay un
+problema de resolución numérica y una restricción concreta del vecindario.
+Propongo medirlos antes de otra búsqueda, con las mismas claves y dos fórmulas.
+Repetir el factorial con más presupuesto no separaría estas explicaciones.
+
+1. PRECISIÓN: PASAR EL RECHECK NO CERTIFICA DECISIONES CASI EMPATADAS
+
+work/crypto/double_search.cpp guarda la tabla como float. La recurrencia de
+matrix() hace s += m.b[nuevo] - m.b[antiguo]: la resta se redondea como float
+antes de añadirse al acumulador double. La referencia independiente suma las
+entradas convertidas a double. El máximo error auditado, 1.09798037328801e-9 IDP,
+pasa tolerancia 1e-8, pero supera el umbral de mejora del solver, 1e-12.
+Por tanto, esa auditoría no certifica todas las decisiones de mejora/convergencia.
+
+Las 676 entradas de ambos modelos son múltiplos de 2^-23. Con normalizador 760,
+la retícula IDP exacta es 1/(8388608×760) = 1.5685432835629111e-10. Toda mejora
+exacta no nula supera epsilon 1e-12; este umbral es 156.85 veces menor que un
+paso de la retícula. Un casi empate por debajo de ese paso no aporta resolución
+del modelo. Las sumas de numeradores y sus productos por 10^12 caben con margen
+en __int128 para estos inputs; hay que validar esa cota en el oráculo nuevo.
+
+Un control de aritmética, sin calcular IDP, confirmó que ambas tablas permiten
+error de 2.384185791015625e-7 en una sola resta binary32. Ejemplo alemán:
+-2.495816469192505 menos -6.898953914642334 da 4.403137445449829 como diferencia
+exacta, frente a 4.40313720703125 al redondear la resta. Dividir ese error por
+760 = (floor(615/20)+floor(160/20))×20 da 3.1370865671258223e-10.
+
+Esto no explica por sí solo el gap 0.176–0.285 entre verdad y mejores archivos.
+No encontré ofertas decisivas ni escaladas que cambiaran clave con mejora total
+positiva menor de 1e-8. Los logs no guardan cada mejora/propuesta rechazada
+interna: no permiten atribuir ni excluir un efecto numérico local.
+
+2. MOVIMIENTOS: DOS CLAVES A HAMMING 2 PUEDEN EXIGIR DISTINTOS PASOS
+
+Verificación estática de source_moves para width 25, sin solver ni IDP:
+- 16649 movimientos no identidad.
+- 278 de los 300 swaps simples presentes.
+- Faltan exactamente (1,24), (2,24), ..., (22,24), índices desde cero.
+- (0,24) y (23,24) sí aparecen por slides circular/adyacente.
+
+La causa es el límite heredado p2 < width - length para swaps de segmentos.
+El conjunto coincide por hash con geometry_check.json de fase 4, que ya había
+cotejado C++ con la referencia independiente. No es un fallo nuevo de fase 14.
+Una convergencia source no certifica todos los swaps simples.
+
+Los 22 swaps omitidos tienen distancia EXACTA dos en el grafo source. Para
+T=(a,24), P=(0,a) es nativo y Q[i]=P[T[i]] es un 3-cycle nativo; P[Q[i]]=T[i].
+Verifiqué los 22. El grafo no está desconectado, pero el intermedio puede no
+mejorar el score. Comparar swap nativo (0,1) y omitido (1,24), ambos Hamming 2,
+distingue un retorno de un paso de la necesidad de un intermedio favorable.
+Evidencia: cobertura_swaps_independiente.json, en esta misma carpeta.
+
+3. LÍMITES DEL DIAGNÓSTICO ACTUAL
+
+A/B hicieron 18 escaladas y 17 selecciones de padre por corrida; C/D hicieron
+cuatro y tres. El cap largo cambia profundidad Y exposición a nuevos arranques.
+Las 22 convergencias (11 C y 11 D) no demuestran que arreglara la búsqueda.
+
+restart_starts=2 cuenta preparaciones, no dos reinicios independientes. Sólo
+el mejor superviviente inicial se escala directamente. Todo padre seleccionado,
+incluidos los del checkpoint, recibe una perturbación de diez posiciones antes
+de escalar. ON mide admisión con usos heredados y perturbación, no probar veinte
+nuevos iniciales intactos. B tuvo 23/72 selecciones posteriores con ascendencia
+checkpoint; D, 11/16.
+
+Las claves con convergencia observada tienen Hamming 23–25 respecto a la verdad.
+Ninguna clave guardada en pools, extremos de escaladas, perturbaciones o entradas
+top5 está a un movimiento source de ella. Esto no cubre rechazadas sin registrar,
+y Hamming no es distancia en el grafo de movimientos.
+
+El IDP greedy es una relajación con ciclos y offsets óptimos independientes por
+pareja/mensaje; no exige una K1 conjunta realizable. Ver la verdad por encima de
+los archivos finales no prueba pendiente útil desde el pool ni máximo global.
+El piloto tampoco reproduce el ataque publicado completo: falta resolver K1 y
+refinar K2 con plaintext/trigramas. No encontré nueva evidencia de inversión
+incorrecta, mezcla de RNG, ofertas perdidas al corte o costes ocultos.
+
+4. CONTROL CRÍTICO: VECINDARIOS FIJOS, LEGACY CONTRA REFERENCIA EXACTA
+
+El agente principal eligió esta puerta estática, aún sin ejecutar: cuatro casos nuevos DE/FR,
+dos por modelo, widths 20×25 y longitudes 615+160. Fijar semillas, inputs,
+movimientos y métricas antes de generar/evaluar verdad. Cotejar que las semillas
+propuestas 20262301/20262302 no se usaron previamente.
+
+Por caso, construir fuera del solver tres anclas: verdad, verdad con swap
+nativo (0,1) y verdad con swap omitido (1,24). Puntuar el ancla y sus 16649 vecinos SIN mover el ancla durante
+el barrido. Evaluar exactamente las mismas claves con:
+- Legacy congelada, incluida la resta float.
+- Referencia exacta de la MISMA tabla binary32: sumas de enteros dyádicos a
+  denominador común, mismo greedy, rangos, floor, desempates y normalización;
+  mejoras comparadas como racionales al mismo umbral especificado.
+
+Promover a double antes de la resta corrige el punto concreto, pero el oráculo
+exacto es el control del empate. No buscar un epsilon que mejore recuperación.
+Registrar rango local de verdad, vecinos superiores/iguales/inferiores, margen
+de mejora y decisiones que cruzan epsilon entre fórmulas. Target visitado,
+en top5 y final son métricas distintas; radio cero mide estabilidad, no recovery.
+
+Presupuesto: 12×16650×2 = 399600 evaluaciones IDP equivalentes, 199800 por fórmula.
+Declarar ambos backends, llamadas, claves únicas y cualquier caché. No se ha
+hecho ninguna de esas evaluaciones en esta revisión.
+
+Decisiones fijadas antes de resultados:
+- Si las fórmulas cambian decisiones estrictas, corregir/auditar representación
+  numérica en versión nueva antes de interpretar otra búsqueda.
+- Si la verdad no es máximo local o el vecino nativo prefiere candidatas mejores
+  que ella, falla una premisa local del objetivo; no atribuirlo a reinicios.
+- Si coinciden y el vecino nativo tiene señal hacia verdad, sólo queda acreditada
+  señal local. No demuestra acceso desde iniciales aleatorios.
+
+La fase elegida NO hace escaladas, población, pool ni checkpoint. El contraste
+nativo/no nativo tiene Hamming 2 en ambos casos y distancia source uno/dos. El
+vecindario omitido también contiene el intermedio de la factorización canónica,
+de modo que puede comprobarse ese camino de dos pasos usando los scores del
+intermedio y de la ancla verdadera, sin otra llamada. No prueba todos los caminos.
+Es diagnóstico privilegiado, separado de recuperación sin clave. Una etapa de
+atracción o nuevo método requerirá otro plan; la evaluación ciega usará casos
+reservados. Auditaré implementación y plan antes de generar nueva verdad.
+
+FUENTES Y ALCANCE
+
+Leídos código/logs/evaluación/verdad de fase 14; primitivas de work/crypto;
+source_moves.h, check_source_moves.py y geometry_check.json de fase 4; auditorías
+post_run_audit.json y post_ejecucion_independiente.txt de fase 14.
+
+Fuente de movimientos congelada:
+https://github.com/CrypToolProject/CrypTool-2/blob/bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c/CrypPlugins/ADFGVXAnalyzer/common/TranspositionTransformations.cs
+
+Lasry (2018), §§9.4.5.2–9.4.6, pp. 181–185, leídos en la extracción local
+work/phase2_crypto/Lasry2018_text.txt. Fuente primaria del texto:
+https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf
+
+Se extrajo sólo la función pura literal_source() mediante AST; no se ejecutó
+el nivel superior del verificador antiguo. No hubo nueva consulta web ni nueva
+lectura visual del PDF. No se modificó fase 14 ni el repositorio público.

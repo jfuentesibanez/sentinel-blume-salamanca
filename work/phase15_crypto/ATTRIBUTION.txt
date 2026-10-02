@@ -1,0 +1,17 @@
+CrypTool 2 movement-generation algorithm
+Copyright (C) CrypTool 2 Team
+Apache License 2.0; full text in LICENSE-CrypTool-2.txt.
+Pinned source commit bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c
+https://github.com/CrypToolProject/CrypTool-2
+
+Phase15 reads the frozen phase4 source_moves.h port and phase3 dependencies.
+It calls the frozen matrix() in work/crypto/double_search.cpp. Its legacy greedy
+trace copies that objective's selection, preserving row-major ties and floor.
+The integer oracle is new diagnostic code for the same binary32 table and ranges.
+generate_keys.cpp is copied exactly from the external phase7 planting helper;
+that helper never forms part of the landscape evaluator's input/decision logic.
+All earlier phase files remain unchanged.
+
+This is a privileged static diagnostic, not a reproduction of the complete
+Lasry attack, an unknown-key recovery benchmark, or a historical BLUME attack.
+Literary models keep their existing Project Gutenberg provenance and terms.
