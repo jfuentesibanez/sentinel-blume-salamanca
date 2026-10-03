@@ -1,0 +1,86 @@
+FASE 16 — AUDITORÍA INDEPENDIENTE ANTES DE GENERAR VERDAD
+3 de octubre de 2026. Dictamen: APTO. Sin objeciones pendientes.
+
+Apruebo exclusivamente el plan SHA-256:
+6613573bf1216923452b44982f7af1c4d7db21dd6400a3cbce3c9e11f9da9d9a
+Archivo: work/phase16_crypto/plan20.json.
+Fuente final: 385524298a44e31e28f461bbc60c7383cb59c5e87c9026580d8a96f971fe132c.
+Ejecutable: 534a4a5788d7aa32e7c7eafab59a97d0a8a094f112925485cc5642f587bdba1a.
+Header exacto: 781845de2dcf55b24ed342fb74f24590d8e6e7d33c1b78756d6cbe78defcb097.
+La aprobación no se extiende a modificaciones posteriores ni a otros casos/caps.
+
+Leí pregunta, decisiones, programa completo, builder, wrapper de controles,
+runner/generador y evaluador externo. Cotejé 23 recursos, 2.793 archivos protegidos,
+cuatro modelos/holdout y los 20 comandos contra el plan. Todos conservan sus hashes.
+Los tres fragmentos de scorer son literalmente los de la fuente auditada de fase 15;
+helper, movimientos y licencia son copias idénticas. No ejecuté ningún solver,
+control callback, IDP, generador ni evaluador. No modifiqué fases anteriores.
+
+Las cuatro semillas DE 20262401/20262402 y FR 20262403/20262404 no tienen uso previo
+en el inventario completo. La única mención anterior está en la propuesta conceptual.
+El audit de semillas del plan coincide con mi cotejo independiente. Semillas
+distintas no garantizan cuatro parejas independientes: la evaluación contará las
+parejas y offsets reales, sin sustituir casos por resultados o colisiones.
+
+Hay 16 trayectorias principales y cuatro controles científicos separados, después
+del principal. Los ocho pares A/B comparten el mismo archivo de comienzo. H4/H8
+usan dos/cuatro swaps disjuntos fijados sin score; los cuatro swaps son movimientos
+nativos, índices 6.349, 6.351, 6.353 y 6.355 de moves.json. Hamming es 4/8 y sólo
+hay cotas superiores de distancia source. Orden de A/B alternado y recorrido fuente
+fijo, sin shuffle, RNG de HC, caché, pool o checkpoint.
+
+A acepta inmediatamente y continúa el mismo barrido. B conserva el comienzo fijo,
+elige mayor numerador con primer índice fuente en empate y acepta sólo al completar
+el barrido. El contraste cambia selección y actualización; no sólo orden. A hereda
+esa regla de actualización, pero no reproduce el shuffle de source_hc o fase 14.
+
+El inicial y cada propuesta se cobran, ofrecen al top5 único y registran. B puede
+mejorar el archivo en un parcial sin cambiar current. La última propuesta de un
+barrido completo se procesa antes de parar, incluida la aceptación de B. No se
+repuntúa current al aceptar. Convergencia sólo tras barrido completo sin mejora.
+Se conserva una bandera de convergencia independiente de stop_reason: prioridad
+call_limit > time_limit > converged > sweep_limit. Alcanzar tiempo en un cierre
+completo no se confunde con stop temporal en las métricas externas. Un barrido
+sin ninguna propuesta no genera evento ni cuenta parcial. Un inicial no puntuado
+produce archivo vacío y score final null, sin llamadas inventadas.
+
+Los 16 fixtures artificiales finales pasaron con 59 callbacks, 0 IDP real. El primer
+intento con ocho fixtures y 19 callbacks se conserva íntegro: total 78 callbacks,
+dos intentos pasados y 0 IDP. Cubren selección A/B, último score, parcial B, empate,
+convergencia al cap, tiempo antes/durante score, cierre B al vencer tiempo, repetición
+cobrada, poda top5 y orden lexicográfico. No los repetí. Los controles positivos de
+un swap son resultados científicos, no un assert de acierto ni puerta para el panel.
+
+Techos: principal 799.168 exactas, positivos 66.600, conjunto 865.768. Auditoría
+numérica posterior hasta 40 exactas adicionales: techo conocido 865.808, sin legacy.
+Inicial + tres barridos = 49.948 por principal; inicial + uno = 16.650 por positivo.
+Soft de 30 s desde antes del setup; hard de 40 s por proceso, sin reintentos ni
+ampliaciones. Caps iguales no aseguran iguales llamadas efectivas o CPU. El timer
+score_seconds incluye undo2 y scorer. Todo score iniciado puede superar el soft
+limit y queda cobrado por marcador flushed antes de entrar al backend.
+
+Verifiqué escala 2^23, denominador 6.375.342.080 y bounds enteros para ambos modelos;
+int64 almacena scores y __int128 basta para el contraste racional 1/10^12. Son las
+mismas tablas binary32 y longitudes de fase 15, sin cambios de EPS o desempates.
+
+También revisé la auditoría posterior de raíz: replay de todas las filas sin target
+y rescoring exacto directo del inicial y último evaluado por perfil, duplicados
+cobrados. Fuente SHA 4199647757123900bcf922373c23d39a4a4ce1049d2a10fe4be6999661957f2a;
+wrapper SHA 5bd8f2344a9becac2e2a32c7d4c8a2b926289bd78a32a48735a47f590e14beaf.
+El recibo exclusivo preserva un solo intento, fallo/timeout y contador; hard 40 s.
+Los eventos vacíos ya están excluidos del programa y del replay. Esa auditoría y
+la independiente deben pasar y vincularse al hash de manifest antes de leer target.
+
+El evaluador externo sólo usa registros guardados, 0 IDP nuevos. Separa visitado,
+primer coste de visita, entrada/top5 final, aceptación/current y Hamming descriptivo.
+No puntúa la verdad por fuera de los logs. No permite que el solver use objetivo,
+plaintext, Hamming o stop por acierto. Al cierre de esta revisión todavía no existen
+truth.jsonl, manifest.json, sealed_design.json ni evaluation.json de fase 16.
+
+Esto sigue siendo diagnóstico local privilegiado, cuatro casos pareados de dos
+proxy literarios. No demuestra recuperación desde azar, cuenca global, máximo
+ global, K1/plaintext, solución BLUME ni causa retrospectiva de los 0/32. Un fracaso
+bajo cap no demuestra ausencia de ruta ascendente; dos casos por idioma no dan una
+tasa fiable. Con esas condiciones explícitas, el plan concreto es APTO para sellar
+y ejecutar después de la aprobación de raíz. Coste añadido por mi revisión: 0 IDP,
+0 callbacks y 0 verdad nueva. Evidencia: preaudit_checks_independiente.json.

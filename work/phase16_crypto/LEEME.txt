@@ -1,0 +1,42 @@
+FASE 16: TRAYECTORIAS PRIVILEGIADAS CERCA DE K2
+
+Compara A (actualización inmediata en orden fuente) y B (mejor mejora de un
+vecindario fijo), con scorer entero exacto fase15. Sin shuffle, caché, K1 o
+telegramas BLUME. Cuatro nuevos casos de dos corpus literarios anteriores.
+Cada arranque se deriva de la verdad; no es recuperación ciphertext-only.
+
+Plan previsto:16trayectorias Hamming4/8, máximo49.948 llamadas cada una,
+y4controles positivos B de Hamming2, máximo16.650 llamadas cada uno. Techo
+principal799.168 y controles66.600, con30s soft y40s hard por proceso. El éxito
+del positivo no se usa como gate. No retries, ampliaciones o claves nuevas tras
+resultados. Auditoría root posterior hasta40 llamadas exactas separadas.
+
+Código/controles: trajectory.cpp usa Core con callback; exact_scorer.h copia
+tres fragmentos frozen de fase15 sin cambios. build.py registra esos hashes,
+compiler/libc++ y dependencias. policy-controls usa sólo callbacks artificiales,
+0 IDP; las pruebas exactas anteriores del scorer se conservan y no se repiten.
+Control_attempts conserva cada ejecución/fallo y mock_calls, separados de IDP.
+Los originales anteriores quedan protegidos por el baseline2793archivos de raíz.
+
+Pasos, aún sujetos a aprobación antes de datos reales:
+1. build.py: copias locales de scorer/helper/moves/licencia y compilación,0 IDP.
+2. check_controls.py: lógica de política con callback artificial,0 IDP/verdad.
+3. run_phase16.py plan: auditar usos de semillas sobre baseline completo y crear
+   plan20.json con comandos/recursos/hashes, sin generar verdad.
+4. Doble auditoría exacta. audit_approval.json debe declarar root_approved:true,
+   independent_approved:true y plan_sha256 coincidente.
+5. run_phase16.py seal: generar verdad externa/ciphertext/start una sola vez.
+6. run_phase16.py run:16principales y4positivos, conservar CSV/JSON/calls.log.
+7. Dos auditorías de registros antes de target; guardia no_truth_verification.json.
+8. evaluate_external.py: métricas target desde logs,0 IDP; grupos/contrastes
+   pareados y separación main/positive_control.
+
+Cada llamada se puntúa y registra, incluidas repeticiones. B nunca acepta mejor
+parcial. B sí acepta cierre completo incluso si alcanza el cap. Convergencia
+observada sólo con pasada entera sin mejora; puede coexistir con stop cap/time.
+Métricas visited/top5/final distinguen evaluar target de adoptarlo. Las fases
+anteriores y el repo público no se modifican por este código.
+
+Fuente metodológica primaria: Lasry2018 §§3.3 y9.4.5–9.4.6; discusión local de
+scorer y política no reproduce el ataque completo ni sus resultados publicados.
+https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf

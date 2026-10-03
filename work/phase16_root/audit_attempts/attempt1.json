@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "attempt": 1,
+  "maximum_attempts": 1,
+  "hard_timeout_seconds": 40,
+  "source_sha256": "4199647757123900bcf922373c23d39a4a4ce1049d2a10fe4be6999661957f2a",
+  "wrapper_sha256": "5bd8f2344a9becac2e2a32c7d4c8a2b926289bd78a32a48735a47f590e14beaf",
+  "started_at_unix": 1790988061.6271732,
+  "returncode": 0,
+  "timed_out": false,
+  "seconds": 6.61304454196943,
+  "exact_reference_calls_started": 40,
+  "legacy_reference_calls_started": 0,
+  "stdout_sha256": "62937f39b9dca81e5bf29e2507ea067423fb5d07b81c62ad8682225fc3998225",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "new_searches": 0,
+  "result_sha256": "bbd6c21c769f210755dbd00090bbd4941d4f95cc78455106c948d2b689c83ca2",
+  "progress_sha256": "0500f367606a6ff0b01e59b5c3a42ebc8f90a231a8283e8eebf388bc662a870f"
+}

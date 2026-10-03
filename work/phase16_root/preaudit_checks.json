@@ -1,0 +1,32 @@
+{
+  "status": "passed_before_truth",
+  "plan_sha256": "6613573bf1216923452b44982f7af1c4d7db21dd6400a3cbce3c9e11f9da9d9a",
+  "protected_files": 2793,
+  "resources_checked": 23,
+  "exact_fragments_byte_identical": true,
+  "native_pair_move_indices": [
+    6349,
+    6351,
+    6353,
+    6355
+  ],
+  "control_attempts": 2,
+  "new_IDP_calls": 0,
+  "new_keys_generated": 0,
+  "model_bound_checks": [
+    {
+      "path": "work/phase5_language/de_fold/model.bin",
+      "scale": 8388608,
+      "absolute_numerator_bound": 44627394560,
+      "minimum_exact_score_step": "1/6375342080"
+    },
+    {
+      "path": "work/phase5_language/fr_fold/model.bin",
+      "scale": 8388608,
+      "absolute_numerator_bound": 45182203680,
+      "minimum_exact_score_step": "1/6375342080"
+    }
+  ],
+  "root_post_audit_source_sha256": "4199647757123900bcf922373c23d39a4a4ce1049d2a10fe4be6999661957f2a",
+  "root_post_audit_wrapper_sha256": "5bd8f2344a9becac2e2a32c7d4c8a2b926289bd78a32a48735a47f590e14beaf"
+}

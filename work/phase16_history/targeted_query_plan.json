@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-10-03T00:13:30.421811+00:00",
+  "parent_plan": "plan.json",
+  "change": "One metadata-only targeted internal catalogue query after HTTP200 demonstrated legitimate direct access. Authorized by root after first GET result; no revision to old plan or ledger.",
+  "query": "(identifier:T120* OR identifier:T-120* OR title:T120 OR title:\"Records of the German Foreign Office\") AND mediatype:texts",
+  "url": "https://archive.org/advancedsearch.php?q=%28identifier%3AT120%2A+OR+identifier%3AT-120%2A+OR+title%3AT120+OR+title%3A%22Records+of+the+German+Foreign+Office%22%29+AND+mediatype%3Atexts&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=100&page=1&output=json",
+  "request_number": 4,
+  "distinct_query_number": 2,
+  "network_GET_attempts_allowed": 1,
+  "timeout_seconds": 20,
+  "redirects_followed": 0,
+  "cookies": false,
+  "accounts": false,
+  "fields": [
+    "identifier",
+    "title",
+    "creator",
+    "date"
+  ],
+  "rows": 100,
+  "page": 1,
+  "max_body_bytes": 4194304,
+  "stop": "Do not open result objects or execute further queries regardless of result; notify root if target-roll identifier appears.",
+  "running_total_after_execution_expected": {
+    "requests": 4,
+    "distinct_queries": 2,
+    "web_open_attempts": 2,
+    "direct_HTTP_GET_attempts": 2,
+    "item_objects_opened": 0
+  }
+}

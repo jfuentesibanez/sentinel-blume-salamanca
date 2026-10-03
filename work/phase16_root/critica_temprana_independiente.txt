@@ -1,0 +1,56 @@
+FASE 16 — CRÍTICA TEMPRANA INDEPENDIENTE
+3 de octubre de 2026. Sin verdad nueva, principal ni llamadas IDP adicionales.
+
+La pregunta es útil y acotada: comparar trayectorias ascendentes desde perturbaciones
+privilegiadas nuevas, con arranques idénticos, scorer exacto y recurso fijado. El
+contraste A/B cambia conjuntamente selección y actualización del vecindario; no
+mide sólo orden. A usa orden fuente fijo, acepta inmediatamente y sigue el barrido.
+Hereda esa actualización de source_hc, pero NO reproduce su shuffle ni fase 14.
+B mantiene el estado fijo en cada barrido y acepta la mayor mejora al cerrarlo;
+un empate entre candidatas conserva el primer índice fuente.
+
+Recuentos previstos: un inicial más tres veces 16.649 propuestas da 49.948 llamadas
+por trayectoria. Las 16 principales tienen techo 799.168. Los cuatro controles B de
+un swap nativo y un barrido cuestan hasta 66.600, separados del principal. Techo
+conjunto 865.768 antes de controles artificiales o auditorías adicionales. Toda
+propuesta repetida cuenta: no debe haber caché ni repuntuación innecesaria del
+current ya evaluado. Registrar entradas al backend antes de calcular, incluso
+fallos/interrupciones. Distinguir entradas, propuestas completadas y barridos.
+
+Puntos que deben quedar explícitos antes del sellado:
+- Completar oferta al top5 y aceptación de A para el último score antes de parar.
+  B ofrece también las candidatas parciales al archivo, pero no cambia current
+  hasta completar el barrido. Si la última propuesta completa un barrido, B debe
+  aceptar su mejor mejora aun cuando coincida con el cap; no exige otra llamada.
+- Convergencia sólo tras un barrido completo sin mejora. Tres barridos agotados
+  con mejora no son convergencia. Fijar precedencia y flags de fronteras simultáneas.
+- top5 único se ordena por numerador y clave numérica; esto puede diferir del
+  desempate por primer movimiento de B, y debe permanecer documentado.
+- A/B comparten inicialmente input y scores. Sus propuestas divergen desde la
+  primera aceptación de A; no exigir igualdad de todo el primer barrido.
+- Un corte antes del inicial deja score ausente y archivo vacío, sin llamadas
+  inventadas. Un corte parcial de B no convierte su mejor candidata en final.
+
+Los controles de un swap nativo son positivos científicos privilegiados. Su acierto
+externo en claves frescas NO es una garantía de implementación. Un fallo de target
+no autoriza repetir, sustituir casos o ajustar parámetros, ni debería impedir el
+principal por sí solo. La puerta técnica sí exige permutaciones, convención,
+contadores, aritmética exacta y trazas correctas. Sus aciertos no se suman a las
+16 trayectorias principales.
+
+Cuatro semillas nuevas no garantizan cuatro claves distintas: comprobar e informar
+las parejas realmente generadas, sin reemplazos oportunistas. Las perturbaciones
+de dos y cuatro swaps nativos disjuntos garantizan Hamming 4 y 8 y cotas de distancia
+source, no distancias exactas. Fijar posiciones por regla externa sin score; nunca
+usar las soluciones o rutas conocidas de fase 15 para seleccionar las nuevas.
+
+Resultados principales separados: target visitado, en top5 y final; primer acierto
+por llamadas; aceptación y score por coste; parada/convergencia/corte. Solver sin
+clave objetivo, Hamming, plaintext ni stop por éxito. Comparación target sólo tras
+auditoría de registros sin verdad. Un score de verdad externo tiene coste explícito.
+
+Límites: sigue siendo atracción local privilegiada en corpus proxy, sin azar,
+tamaño global de cuenca, tasa fiable por idioma, K1/plaintext o solución BLUME.
+No atribuir los 0/32 anteriores a política, swaps, aritmética o checkpoint. Exacta
+elimina esa ambigüedad numérica del nuevo diagnóstico; no certifica retrospectivamente
+la trayectoria legacy. Un fallo bajo cap no demuestra ausencia de ruta ascendente.

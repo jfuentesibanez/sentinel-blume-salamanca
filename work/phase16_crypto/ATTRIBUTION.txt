@@ -1,0 +1,18 @@
+CrypTool 2 movement-generation algorithm
+Copyright (C) CrypTool 2 Team
+Apache License2.0; complete text copied as LICENSE-CrypTool-2.txt.
+Pinned source commit bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c
+https://github.com/CrypToolProject/CrypTool-2
+
+Phase16 reads frozen source_moves.h/ict_search.h/crypt primitives as dependencies.
+It copies byte-for-byte three exact-integer sections of phase15/static_landscape.cpp
+into exact_scorer.h. build_record identifies source and fragment hashes. Only
+that exact scorer is called, with an adapter retaining its charge_backend(false)
+entry. No legacy scorer is executed. The new Core implements two policy rules
+without target recognition. Source-order A keeps immediate acceptance but removes
+the source HC shuffle; it is not a reproduction of the full source algorithm.
+
+generate_keys.cpp and moves.json are exact local copies of phase15 own external
+helper/geometry. Older sources/files are never modified. Literary models and
+holdouts keep their previous Gutenberg provenance and separate terms. The pilot
+does not reproduce the full Lasry attack or attack the historical BLUME telegrams.

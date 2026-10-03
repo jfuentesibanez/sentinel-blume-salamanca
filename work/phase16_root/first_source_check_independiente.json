@@ -1,0 +1,11 @@
+{
+  "status": "passed_initial_source_review_not_final_approval",
+  "source_sha256": "651ddb25bbb17924bb16f1fcd0e49c4f52daf91de2660e773b96b36d455b607b",
+  "binary_sha256": "810add85399d72c567256fd19d59565f847ab5d427f6691d6513389336ce59fa",
+  "exact_header_sha256": "781845de2dcf55b24ed342fb74f24590d8e6e7d33c1b78756d6cbe78defcb097",
+  "exact_phase15_fragments_unchanged": true,
+  "helper_geometry_license_copies_unchanged": true,
+  "new_idp_calls": 0,
+  "new_truth_read": false,
+  "main_executed": false
+}

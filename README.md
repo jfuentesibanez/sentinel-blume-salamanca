@@ -6,20 +6,23 @@ Zurich to **BLUME SALAMANCA on 8 January 1937**. A project by Javier Fuentes for
 
 **Status, 3 October 2026: unsolved.** No verified plaintext, key or identification
 of BLUME. Historical evidence, hypotheses and synthetic experiments are kept
-separate. The current research checkpoint is **phase 15**. Its privileged static
-diagnostic finds a useful local score signal near the true synthetic K2, with
-no measured change of anchor-improvement decisions between numerical formulas.
-It performs no unknown-key search. Phase 14 remains the last search pilot:
-32 audited runs and zero K2 recoveries at known widths 20×25. Kent's verified
-serial-to-roll mapping stands; a new erratum corrects the description of the
-earlier telegram 629 as an attachment.
+separate. The current research checkpoint is **phase 16**. From privileged
+Hamming-4/8 starts on four new synthetic cases, best-improvement policy B ended
+at K2 in **8/8** main trajectories and immediate-update A in **6/8**. B used
+about 20% more main calls; four separate positive controls ended at K2 in 4/4.
+This is local evidence from starts derived from the truth, not recovery from
+unknown keys. The known phase 16 cost is 799,212 IDP calls including controls
+and the numerical audit. The earlier phase 15 static diagnosis and phase 14
+pilot with 32 runs and zero K2 recoveries remain preserved. Kent's verified
+serial-to-roll mapping and the telegram-629 erratum stand; bounded Internet
+Archive catalogue queries supplied no new target document.
 
 ## Start here
 
 1. [Context for Claude and other collaborators](docs/CONTEXT_FOR_CLAUDE.md): the
    case, established facts, open questions and the most useful next tasks.
 2. [Current research status](docs/STATUS.md): results and limits of the latest phases.
-3. [Latest detailed report, in Spanish](outputs/Sentinel_BLUME_fase15_2026-10-03.txt).
+3. [Latest detailed report, in Spanish](outputs/Sentinel_BLUME_fase16_2026-10-03.txt).
 4. [Sources and archival references](docs/SOURCES.md).
 5. [Reproduction and verification](docs/REPRODUCIBILITY.md).
 
@@ -75,13 +78,16 @@ python3 tools/recheck_phase11.py
 python3 tools/recheck_phase14.py
 ```
 
-Standard-library replay of phase 15's recorded static keys, scores, ranks and costs:
+Standard-library replays of recorded keys, decisions, ranks and costs:
 
 ```sh
 python3 tools/recheck_phase15.py
+python3 tools/recheck_phase16.py
 ```
 
-This replay performs no objective scoring or new search. Its anchors are privileged.
+These replays perform no objective scoring or new search. Phase 15 anchors and
+phase 16 starts are privileged. The phase 16 replay reconstructs all trajectory
+events and target metrics from saved records; it does not repeat the numerical audit.
 
 See [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) before running any older script.
 Some frozen scripts check files or executable hashes from the original Mac
@@ -111,6 +117,10 @@ is retained as [phase13_file_hashes.json](provenance/phase13_file_hashes.json).
 The phase 15 addition has its own [inventory](provenance/phase15_source_inventory.jsonl)
 and [update record](provenance/phase15_update.json). The previous checksum record
 is preserved as [phase14_file_hashes.json](provenance/phase14_file_hashes.json).
+The phase 16 trajectories and catalogue-access notes have a separate
+[inventory](provenance/phase16_source_inventory.jsonl) and
+[update record](provenance/phase16_update.json). The phase 15 checksum record is
+preserved as [phase15_file_hashes.json](provenance/phase15_file_hashes.json).
 
 Original research files were not edited to make this export. Retained files
 preserve their bytes. Existing manifests still describe the larger original

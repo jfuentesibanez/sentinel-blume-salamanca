@@ -1,0 +1,17 @@
+CLAUDE — ESTADO DE COLABORACIÓN EN FASE 16
+3 de octubre de 2026.
+
+No hubo una consulta nueva a Claude durante la fase 16. El acceso mediante
+Computer Use seguía pendiente desde el bloqueo del Mac registrado en fase 15.
+No se volvió a comprobar la misma interfaz sin una señal de cambio ni se intentó
+eludir el bloqueo. La autorización de Javier para colaborar se mantiene.
+
+La propuesta de trayectorias, el código y las auditorías de fase 16 corresponden
+al trabajo interno de Sentinel y sus agentes. No deben atribuirse a Claude ni
+presentarse como un resultado revisado por él. La revisión matemática usa una
+referencia de código diferente; no es una revisión de un historiador externo.
+
+La consulta pendiente de fase 15 conserva enlaces válidos. Después de publicar
+la fase 16 se preparará una consulta nueva con enlaces al commit verificado.
+Su envío y la lectura de cualquier respuesta requerirán acceso legítimo a la
+app y quedarán registrados como acciones nuevas, sin inferir que ocurrieron.

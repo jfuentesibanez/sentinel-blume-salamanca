@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-03",
+  "research_through_phase": 16,
+  "baseline_commit": "cfd2a4c5ef27c6f50a911220eb2e3164293b4682",
+  "new_inventory_entries": 173,
+  "new_included_files": 164,
+  "new_referenced_files": 9,
+  "main_privileged_trajectories": 16,
+  "scientific_positive_control_trajectories": 4,
+  "total_privileged_trajectories": 20,
+  "unknown_key_searches": 0,
+  "historical_attacks": 0,
+  "main_objective_calls": 732572,
+  "positive_objective_calls": 66600,
+  "numerical_audit_objective_calls": 40,
+  "known_total_IDP_calls": 799212,
+  "mock_control_callbacks": 78,
+  "mock_control_IDP_calls": 0,
+  "original_research_files_edited": 0,
+  "scope": "New privileged synthetic trajectories and limited historical catalogue access; own selected records. All phase15 and earlier research frozen; current entry documentation intentionally updated."
+}

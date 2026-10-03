@@ -1,0 +1,18 @@
+Resultado de la segunda consulta interna dirigida
+3 de octubre de 2026
+
+La consulta dirigida también devolvió HTTP 200 JSON. Sus 26 resultados son ajenos a los registros diplomáticos buscados: principalmente manuales de equipos T120, además de títulos científicos, un texto tibetano y un libro de puentes. No identificó un rollo de la publicación NARA T120 ni los fotogramas buscados. Se recibieron los 26 metadatos declarados para esta consulta, sin abrir sus páginas.
+
+El agente principal autorizó una única consulta adicional tras el acceso HTTP 200 de la primera. La adaptación se fijó antes del GET en targeted_query_plan.json. Consulta literal:
+(identifier:T120* OR identifier:T-120* OR title:T120 OR title:"Records of the German Foreign Office") AND mediatype:texts
+
+Se pidieron sólo identifier, title, creator y date; 100 resultados como máximo, página 1. No se pidieron descripciones ni contenidos. Hubo una sola petición, timeout de 20 segundos, sin redirecciones, cookies, autenticación o reintentos. El cuerpo recibido contiene 3307 bytes; su SHA-256 es 3790caf720ec50df09a5e1fa7cb084e7ec84f308d70b45b386c54ba76e3315bc. El recibo y los metadatos completos están en targeted_receipt.json y targeted_catalogue_summary.json.
+
+La primera consulta genérica devolvió 139 resultados y se recibieron 50 metadatos. Esta segunda consulta dirigida devolvió 26 resultados y se recibieron los 26. No se mezclan esos conjuntos ni se afirma que el catálogo entero esté agotado. Esta búsqueda limitada por campos y sintaxis no demuestra ausencia de digitalización bajo otros identificadores, títulos o colecciones.
+
+El avance comprobado es el acceso público por HTTP al catálogo interno. No se obtuvo contenido nuevo del telegrama 629, no se identificó a BLUME y no se verificaron los objetivos T120/296 y T120/1594. Se aplica ahora la parada: ninguna consulta adicional y ninguna página de objeto abierta.
+
+Recuento acumulado de esta ronda: cuatro solicitudes sobre dos textos de consulta; dos aperturas web sin acceso y dos GET HTTP con JSON. Cero imágenes, fotogramas o telegramas leídos; cero contactos, cuentas, pedidos o compras. FINAL_receipt.json verifica que los 13 archivos cubiertos por los dos manifiestos anteriores conservan sus bytes. Todas las escrituras de esta ronda siguen en work/phase16_history/.
+
+URL pública exacta de la segunda consulta:
+https://archive.org/advancedsearch.php?q=%28identifier%3AT120%2A+OR+identifier%3AT-120%2A+OR+title%3AT120+OR+title%3A%22Records+of+the+German+Foreign+Office%22%29+AND+mediatype%3Atexts&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=100&page=1&output=json

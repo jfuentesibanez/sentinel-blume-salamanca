@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "audit_kind": "Independent saved-record replay, not objective evaluation",
+  "record_replays": 2,
+  "first_replay_status": "passed with SyntaxWarning, preserved in independent_records_attempt1/",
+  "source_repair": "Whitespace after integer literal; parsed AST identical; second replay passed without warning. No experimental source or data changed.",
+  "new_IDP_calls_all_replays": 0,
+  "main_processes_started": 0,
+  "new_truth_read": false,
+  "result_path": "work/phase16_root/post_records_check_independiente.json",
+  "result_sha256": "3579df6be024a8080aed768fe0387c1b37280dc952398f9df0f49477c8e599fb",
+  "script_sha256": "12075c730da43279685fcd58c19902f2971e55d35db81d4aaaba8c2a74c7c85c"
+}

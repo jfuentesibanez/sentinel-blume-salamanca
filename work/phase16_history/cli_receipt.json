@@ -1,0 +1,28 @@
+{
+  "started_at_utc": "2026-10-03T00:11:47.655905+00:00",
+  "request": {
+    "url": "https://archive.org/advancedsearch.php?q=%22German%20Foreign%20Office%22&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=description&rows=50&page=1&output=json",
+    "method": "GET",
+    "timeout_seconds": 20,
+    "redirects_followed": 0,
+    "cookies": false,
+    "authentication": false,
+    "body_limit_bytes": 4194304,
+    "query": "\"German Foreign Office\"",
+    "request_number": 3,
+    "reason": "One direct public catalogue GET after web wrapper returned not accessible without a real HTTP status. Root-authorized bounded clarification; no new query, no item opening."
+  },
+  "network_get_attempts": 1,
+  "status": 200,
+  "body_read": true,
+  "outcome": "HTTP response received",
+  "content_type": "application/json",
+  "content_length": null,
+  "body_truncated": false,
+  "body_bytes": 587348,
+  "body_sha256": "9ad327081c8859f1a351147e2f30d4fd0abb2dc7a860021d1ef4d17585af7648",
+  "json_parsed": true,
+  "numFound": 139,
+  "docs_returned": 50,
+  "finished_at_utc": "2026-10-03T00:11:49.515714+00:00"
+}

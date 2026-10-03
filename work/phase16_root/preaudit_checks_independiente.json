@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "plan_sha256": "6613573bf1216923452b44982f7af1c4d7db21dd6400a3cbce3c9e11f9da9d9a",
+  "source_sha256": "385524298a44e31e28f461bbc60c7383cb59c5e87c9026580d8a96f971fe132c",
+  "binary_sha256": "534a4a5788d7aa32e7c7eafab59a97d0a8a094f112925485cc5642f587bdba1a",
+  "exact_header_sha256": "781845de2dcf55b24ed342fb74f24590d8e6e7d33c1b78756d6cbe78defcb097",
+  "resources_checked": 23,
+  "protected_baseline_files_checked": 2793,
+  "models_holdouts_checked": 4,
+  "commands_checked": 20,
+  "main_profiles": 16,
+  "positive_profiles": 4,
+  "paired_starts_checked": 8,
+  "native_indices": [
+    6349,
+    6351,
+    6353,
+    6355
+  ],
+  "scorer_literal_fragments_preserved": true,
+  "controls_attempts": 2,
+  "controls_latest_fixtures": 16,
+  "all_mock_callbacks": 78,
+  "all_control_actual_IDP_calls": 0,
+  "all_new_independent_IDP_calls": 0,
+  "model_scale_bound_checks": {
+    "de_fold": {
+      "scale": 8388608,
+      "denominator": 6375342080,
+      "absolute_score_numerator_bound": 44627394560
+    },
+    "fr_fold": {
+      "scale": 8388608,
+      "denominator": 6375342080,
+      "absolute_score_numerator_bound": 45182203680
+    }
+  },
+  "no_truth_or_main_before_approval": {
+    "truth.jsonl": true,
+    "manifest.json": true,
+    "sealed_design.json": true,
+    "evaluation.json": true
+  },
+  "root_post_audit_sha256": "4199647757123900bcf922373c23d39a4a4ce1049d2a10fe4be6999661957f2a",
+  "root_post_wrapper_sha256": "5bd8f2344a9becac2e2a32c7d4c8a2b926289bd78a32a48735a47f590e14beaf",
+  "root_post_audit_extra_exact_calls_max": 40,
+  "truth_read": false
+}

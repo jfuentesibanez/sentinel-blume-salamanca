@@ -1,0 +1,14 @@
+Ampliación de acceso: una lectura HTTP pública del catálogo
+3 de octubre de 2026
+
+El endpoint público de Internet Archive SÍ respondió mediante una única petición HTTP de lectura con Python urllib: HTTP 200, Content-Type application/json. Esto aclara el límite de la nota anterior: falló el acceso mediante la herramienta web; no se comprobó un bloqueo del catálogo de Internet Archive. El agente principal autorizó esta aclaración acotada después de recibir la primera nota.
+
+Se hizo exactamente un GET adicional de la misma consulta «German Foreign Office», con timeout de 20 segundos, sin cookies, autenticación, cuenta, reintentos ni redirecciones seguidas. Se guardó el cuerpo recibido completo: 587348 bytes, SHA-256 9ad327081c8859f1a351147e2f30d4fd0abb2dc7a860021d1ef4d17585af7648. El recibo cli_receipt.json conserva tiempos, URL y estado HTTP.
+
+La respuesta declara 139 resultados; se recibieron sólo los 50 primeros, sin abrir sus páginas. Sus títulos incluyen prensa histórica, documentos CIA y libros o colecciones generales. En los 50 metadatos recibidos no se localizó una mención explícita de T120 ni una identificación expresa de rollo 296 o 1594. Esto no evalúa los 89 resultados no recibidos, otras consultas, OCR completo ni todo Internet Archive. No es prueba de ausencia de los rollos.
+
+El identificador InterceptedMessagesOfGermanForeignOfficeBostonSeriesRegardingActivitiesInPortuga tiene título referido a mensajes interceptados de 1944. No se abrió el objeto ni se consideró una copia de los telegramas de 1937. Los demás identificadores y títulos recibidos están en cli_doc_identifiers.json; la respuesta cruda queda local.
+
+La conclusión positiva es una ruta pública técnicamente accesible para una futura consulta de catálogo más dirigida. Esta ronda no la ejecutó y no leyó ninguna imagen, fotograma o texto de telegrama 629. Tampoco identificó a BLUME.
+
+Recuento acumulado: tres solicitudes sobre un único texto de consulta; dos aperturas fallidas mediante web y un GET HTTP exitoso. Cero páginas de objetos abiertas, cero scans, cero contactos, cuentas, compras o pedidos. Se conservaron exactamente los cinco archivos cubiertos por los hashes de la nota inicial; la nueva verificación está en old_files_preserved_after_cli.json. No se modifica su plan, ledger ni resultado.

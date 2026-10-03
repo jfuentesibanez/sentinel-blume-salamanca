@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-10-03T00:14:21.402339+00:00",
+  "sha256": {
+    "targeted_query_plan.json": "d49fd982d92525a05b6ae32a7cf2989acdc94a9f72feb398c81fba9ecee6f23b",
+    "targeted_one_get.py": "9bab6dc32978a19000c1488c99233f129630e4af81946d45a880668198954639",
+    "targeted_response_body.bin": "3790caf720ec50df09a5e1fa7cb084e7ec84f308d70b45b386c54ba76e3315bc",
+    "targeted_catalogue_summary.json": "a86e019f803a75377b7af01c98bc681035700cba210f866d4e85deb0bd089233",
+    "targeted_receipt.json": "129823b4c3c49e0b08949ae5e989130b6071f02466164e5d2df8e892eebcf7d9",
+    "FINAL_receipt.json": "b03874254cef6c662dabd41c2ac98850898d3dac0b71e568cc5fb61eaaf23e1b",
+    "FINAL_resultado.txt": "ca4980f4939f39f183ba8c9b53cab769f0df7af34f0f9c7fc62f2ffa225187b3"
+  }
+}

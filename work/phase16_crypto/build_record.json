@@ -1,0 +1,44 @@
+{
+  "source_sha256": "385524298a44e31e28f461bbc60c7383cb59c5e87c9026580d8a96f971fe132c",
+  "binary_sha256": "534a4a5788d7aa32e7c7eafab59a97d0a8a094f112925485cc5642f587bdba1a",
+  "exact_header_sha256": "781845de2dcf55b24ed342fb74f24590d8e6e7d33c1b78756d6cbe78defcb097",
+  "frozen_exact_source_sha256": "4552eafdc98cc4e3d075ed8b092945510d4eb1ff67a31dfa1e30e8662f85ed4a",
+  "exact_fragments_sha256": [
+    "a192e99c2ca2a3237321f465dfabf41d999b206e63ba7dc33cf8f24f0cb685d0",
+    "9156f399055fa5a552bc432876d0cf8e8aff46471bdbf6eee7644873ac74f32c",
+    "e9020888cb30c50a70dfd91213b283f2d816e203aa658ee513cae11d5e409eb0"
+  ],
+  "helper_source_sha256": "5731a9a660d304a03b5b3dc84e5af2e9793d8109545d17fcf7acf57026b2d2f5",
+  "helper_binary_sha256": "8303f3aafc6b1bee249baf7313107c050c0a2de3b00350d81b19c1d6efbd5db7",
+  "frozen_dependencies": {
+    "work/crypto/double_search.cpp": "445afbaf9f85c17c0661515634ee16a58dced5da80e15e0b54ea8868a093fefe",
+    "work/phase3_crypto/ict_search.h": "4167f43147969f6d3b2d943fb85a5ad306073098b4344d501d8f05f9e0bb57af",
+    "work/phase4_crypto/source_moves.h": "67a616c8911eea84dbcd77c8c0bb7b8fd0197809f8d6d0ffdbedb17a5a71c2ed"
+  },
+  "compiler_commands": [
+    [
+      "/usr/bin/clang++",
+      "-std=c++17",
+      "-O3",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase16_crypto/trajectory.cpp",
+      "-o",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase16_crypto/trajectory"
+    ],
+    [
+      "/usr/bin/clang++",
+      "-std=c++17",
+      "-O3",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase16_crypto/generate_keys.cpp",
+      "-o",
+      "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase16_crypto/generate_keys"
+    ]
+  ],
+  "compiler_version": "Apple clang version 12.0.5 (clang-1205.0.22.11)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "standard_library_macros": [
+    "#define _LIBCPP_VERSION 12000"
+  ],
+  "seconds": 1.999155834026169,
+  "new_IDP_calls": 0,
+  "truth_generated": false,
+  "main_trajectories": 0
+}

@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "manifest_sha256": "e8cd13a542210d248ef19a7c7a04384c543e97faf8b7aa66d29664f2af93fa35",
+  "plan_sha256": "6613573bf1216923452b44982f7af1c4d7db21dd6400a3cbce3c9e11f9da9d9a",
+  "scope": "Independent grouped-sweep replay of all saved proposals, archives, acceptance events, keys, counters and hashes; no scorer or target comparison",
+  "profiles_checked": 20,
+  "main_rows_checked": 732572,
+  "positive_rows_checked": 66600,
+  "rows_checked": 799172,
+  "markers_checked": 799172,
+  "resources_checked": 23,
+  "protected_files_checked": 2793,
+  "models_holdouts_hashes_checked": 4,
+  "paired_starts_checked": 8,
+  "stop_counts": {
+    "converged": 4,
+    "call_limit": 16
+  },
+  "convergence_flags": 11,
+  "partial_sweeps": 0,
+  "time_stop_profiles": 0,
+  "time_limit_reached_profiles": 0,
+  "cross_profile_same_case_score_consistency": true,
+  "distinct_keys_per_case": {
+    "de_fold_20x25_20262401": 144781,
+    "de_fold_20x25_20262402": 177884,
+    "fr_fold_20x25_20262403": 160516,
+    "fr_fold_20x25_20262404": 122967
+  },
+  "new_IDP_calls": 0,
+  "new_exact_IDP_calls": 0,
+  "new_legacy_IDP_calls": 0,
+  "truth_read": false,
+  "plaintext_read": false,
+  "target_compared": false,
+  "preaudit_preserved_sha256": "41f19b0080be9f22d168b72bc9fe7f05cb5248441aa48bbbfc7813427a753a87",
+  "main_launcher_receipt_sha256": "0730607a62a287557dd05c294ab9cb4c84e1afd25544eb1b360a33941eb9e81b",
+  "launcher_parse_failure_IDP_calls": 0,
+  "separate_root_numerical_audit": {
+    "path": "work/phase16_root/post_run_audit.json",
+    "sha256": "bbd6c21c769f210755dbd00090bbd4941d4f95cc78455106c948d2b689c83ca2",
+    "receipt_path": "work/phase16_root/audit_attempts/attempt1.json",
+    "receipt_sha256": "a20270ed6e1caf76a891bec2b286bb98a2ea3fe70680c344eef7f54750a7c111",
+    "status": "passed",
+    "exact_IDP_calls": 40,
+    "legacy_IDP_calls": 0,
+    "attempts": 1
+  },
+  "independent_records_audit": {
+    "path": "work/phase16_root/post_records_check_independiente.json",
+    "sha256": "3579df6be024a8080aed768fe0387c1b37280dc952398f9df0f49477c8e599fb",
+    "script_sha256": "12075c730da43279685fcd58c19902f2971e55d35db81d4aaaba8c2a74c7c85c",
+    "receipt_path": "work/phase16_root/independent_records_receipt.json",
+    "receipt_sha256": "d6ac801843701a92236ffc60a9cc145dd65cdaa43d723e0677df48e94330ba26",
+    "new_IDP_calls": 0,
+    "record_replays": 2
+  },
+  "total_known_phase16_IDP_calls": 799212,
+  "synthetic_control_mock_callbacks": 78,
+  "synthetic_control_actual_IDP_calls": 0
+}

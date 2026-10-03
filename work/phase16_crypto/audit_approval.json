@@ -1,0 +1,12 @@
+{
+  "root_approved": true,
+  "independent_approved": true,
+  "plan_sha256": "6613573bf1216923452b44982f7af1c4d7db21dd6400a3cbce3c9e11f9da9d9a",
+  "root_review_path": "work/phase16_root/pre_execution_review.txt",
+  "root_review_sha256": "5672e679e8f449830fea8e2ae9e021cdbddb1e3115cbd1f104f6c04f2bd3abfc",
+  "independent_review_path": "work/phase16_root/pre_ejecucion_independiente.txt",
+  "independent_review_sha256": "41f19b0080be9f22d168b72bc9fe7f05cb5248441aa48bbbfc7813427a753a87",
+  "approved_at_utc": "2026-10-03T00:38:00.678240+00:00",
+  "new_truth_generated_before_approval": false,
+  "main_IDP_calls_before_approval": 0
+}

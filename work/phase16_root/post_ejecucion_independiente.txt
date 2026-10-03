@@ -1,0 +1,53 @@
+FASE 16 — AUDITORÍA INDEPENDIENTE POSTERIOR
+3 de octubre de 2026. Dictamen: PASS, sin verdad ni comparación con objetivo.
+
+Manifest: e8cd13a542210d248ef19a7c7a04384c543e97faf8b7aa66d29664f2af93fa35
+Plan: 6613573bf1216923452b44982f7af1c4d7db21dd6400a3cbce3c9e11f9da9d9a
+Guardia creada: work/phase16_crypto/no_truth_verification.json. Status passed,
+hash de manifest y hashes de ambas auditorías y sus recibos. El evaluador externo
+no se ejecutó por esta revisión.
+
+Comprobé las 799.172 filas y los 799.172 marcadores de entrada exacta: 732.572
+principales y 66.600 positivos, 0 legacy. Los 20 procesos salieron con código 0.
+No hay timeouts hard, stops temporales, deadline alcanzado ni barridos parciales.
+16 stop call_limit, cuatro stop converged, 11 convergence_observed. Una bandera
+de convergencia puede coexistir con stop por cap tras un barrido completo; no
+clasifiqué cap como ausencia automática de convergencia.
+
+Mi checker agrupa filas por barrido y reconstruye cada base y candidata desde el
+movimiento fuente. Reproduce por separado A inmediata y B fija, selección por
+primer índice en empate, ofertas al top5 único, aceptaciones y cierres. Coinciden
+todos los flags, eventos, scores guardados, final_numeric y archivo. No recalcula
+IDP. También comprobé igualdad de inputs e iniciales A/B y consistencia del score
+de toda clave repetida dentro del mismo caso, incluso entre perfiles distintos.
+Esto añade una comprobación que no depende del rescoring de raíz.
+
+Plan, aprobación doble, informe previo, sellado, 23 recursos, 2.793 archivos
+protegidos, cuatro modelos/holdout y todos los hashes de inputs/CSV/resúmenes/trazas
+siguen intactos. El informe previo conserva SHA 41f19b0080be9f22d168b72bc9fe7f05cb5248441aa48bbbfc7813427a753a87.
+No abrí truth.jsonl ni plaintext, no deshice las perturbaciones para obtener un
+objetivo y no calculé Hamming. Las anclas se trataron sólo como entradas.
+
+El recibo del launcher corresponde a un único panel real y enlaza los 20 logs y
+el manifest final. La incidencia anterior fue SyntaxError antes de ejecutar el
+launcher inline, con 0 procesos e IDP según su recibo preservado. No se alteraron
+casos, presupuesto ni recursos científicos y no se repitió ningún perfil.
+
+La auditoría numérica de raíz pasó en un intento con 40 referencias enteras
+directas, 0 legacy y hard 40 s. Inicial y último evaluado por perfil coinciden con
+los numeradores guardados. La guardia liga su resultado y su recibo por hash.
+Mi revisión añade 0 IDP. Coste conocido de fase 16: 799.172 panel + 40 auditoría =
+799.212 backends exactos. Los 78 callbacks de controles artificiales no son IDP.
+
+Mi primer replay pasó con una advertencia de sintaxis por falta de espacio junto
+a un entero. Conservé fuente, resultado y recibo. Corregí sólo ese espacio,
+comprobé que el AST era idéntico y repetí el replay; volvió a pasar sin advertencia.
+Son dos lecturas de registros, 0 IDP adicionales, ningún reintento experimental.
+Evidencia: independent_records_attempt1/, independent_records_receipt.json y
+post_records_check_independiente.json. Checker: audit_records_independiente.py,
+SHA 12075c730da43279685fcd58c19902f2971e55d35db81d4aaaba8c2a74c7c85c.
+
+No se emitió ninguna conclusión sobre acierto de K2. Esa comparación corresponde
+al evaluador externo después de los dos PASS. Sus resultados seguirán siendo
+locales y privilegiados: no prueban búsqueda desde azar, cuenca global, K1,
+plaintext, solución BLUME ni una causa retrospectiva del fallo de fase 14.

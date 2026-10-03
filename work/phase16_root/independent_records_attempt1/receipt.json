@@ -1,0 +1,7 @@
+{
+  "status": "passed_with_syntax_warning",
+  "new_IDP_calls": 0,
+  "source_sha256": "8c23ed98bb414ccd2b72b33fb117eae5de1018d5c84fde65f3b1d60daac06cf1",
+  "result_sha256": "aeb0bf5fb10ae060bb7c76dafa0cd74cebe4375cd7f75eade3110eb5e9c18ee7",
+  "repair": "Added whitespace after integer literal; parsed AST unchanged; experimental sources unchanged."
+}

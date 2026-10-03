@@ -1,0 +1,55 @@
+{
+  "phase": "16_history",
+  "finished_at_utc": "2026-10-03T00:10:15.696225+00:00",
+  "plan_sha256": "2c7411c770db66898acda146962e5a3771a127f7bd218c995257ab2f344e85cb",
+  "route": "Internet Archive internal public catalogue",
+  "limits": {
+    "queries_max": 4,
+    "opens_max": 5
+  },
+  "executed": {
+    "query_requests": 2,
+    "distinct_query_texts": 1,
+    "url_open_requests": 2,
+    "search_engine_queries": 0,
+    "primary_item_reads": 0,
+    "digital_roll_or_frames_read": 0
+  },
+  "requests": [
+    {
+      "n": 1,
+      "query": "\"German Foreign Office\"",
+      "operation": "web.open public AdvancedSearch JSON endpoint",
+      "url": "https://archive.org/advancedsearch.php?q=%22German%20Foreign%20Office%22&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=description&rows=50&page=1&output=json",
+      "raw": "web-01.json",
+      "outcome": "URL not accessible via this tool; no catalogue content returned"
+    },
+    {
+      "n": 2,
+      "query": "\"German Foreign Office\"",
+      "operation": "web.open normal public catalogue search; one permitted clarification after endpoint failure",
+      "url": "https://archive.org/search?query=%22German%20Foreign%20Office%22",
+      "raw": "web-02.json",
+      "outcome": "URL not accessible via this tool; no catalogue content returned"
+    }
+  ],
+  "stopped": "Both the public catalogue API and the normal catalogue URL were unavailable to web tool. Stop rule applies; no repeat, fallback retries or unrelated queries.",
+  "result": {
+    "target_catalogue_item_verified": false,
+    "target_roll_verified": false,
+    "target_frame_read": false,
+    "absence_of_digitization_established": false,
+    "new_identification_of_Blume": false,
+    "new_content_of_telegram629": false
+  },
+  "preservation": {
+    "only_new_writes": "work/phase16_history/",
+    "old_files_modified": false,
+    "public_repo_modified": false,
+    "contacts": 0,
+    "accounts": 0,
+    "purchases": 0,
+    "orders": 0,
+    "locked_UI_attempts": 0
+  }
+}

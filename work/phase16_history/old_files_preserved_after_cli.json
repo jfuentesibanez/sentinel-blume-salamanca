@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-03T00:12:44.667699+00:00",
+  "baseline": "resource-hashes.json",
+  "checks": {
+    "ledger.json": true,
+    "plan.json": true,
+    "resultado.txt": true,
+    "web-01.json": true,
+    "web-02.json": true
+  },
+  "all_preserved": true
+}

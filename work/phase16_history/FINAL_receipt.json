@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-10-03T00:14:21.402045+00:00",
+  "prior_manifests": [
+    "resource-hashes.json",
+    "cli_resource_hashes.json"
+  ],
+  "prior_files_verified": 13,
+  "all_prior_bytes_preserved": true,
+  "checks": {
+    "ledger.json": true,
+    "plan.json": true,
+    "resultado.txt": true,
+    "web-01.json": true,
+    "web-02.json": true,
+    "cli_one_get.py": true,
+    "cli_request.json": true,
+    "cli_receipt.json": true,
+    "cli_response_body.bin": true,
+    "cli_catalogue_summary.json": true,
+    "cli_doc_identifiers.json": true,
+    "old_files_preserved_after_cli.json": true,
+    "ADDENDUM_cli.txt": true
+  },
+  "cumulative": {
+    "distinct_query_texts": 2,
+    "requests": 4,
+    "web_open_attempts": 2,
+    "direct_HTTP_GET_attempts": 2,
+    "HTTP_200_JSON_responses": 2,
+    "item_objects_opened": 0,
+    "images_frames_or_telegrams_read": 0,
+    "human_contacts": 0,
+    "accounts": 0,
+    "orders_or_purchases": 0
+  },
+  "query2": {
+    "numFound": 26,
+    "docs_returned": 26,
+    "target_rolls_identified": false,
+    "target_frames_identified": false,
+    "history_pertinent_items_identified": false
+  },
+  "stop": "Root-prescribed stop after this single targeted query. No further catalogue queries or result-object openings."
+}

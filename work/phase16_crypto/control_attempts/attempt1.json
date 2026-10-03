@@ -1,0 +1,23 @@
+{
+  "attempt": 1,
+  "returncode": 0,
+  "timed_out": false,
+  "seconds": 0.3288035000441596,
+  "source_sha256": "651ddb25bbb17924bb16f1fcd0e49c4f52daf91de2660e773b96b36d455b607b",
+  "binary_sha256": "810add85399d72c567256fd19d59565f847ab5d427f6691d6513389336ce59fa",
+  "exact_header_sha256": "781845de2dcf55b24ed342fb74f24590d8e6e7d33c1b78756d6cbe78defcb097",
+  "status": "passed",
+  "actual_legacy_IDP_calls": 0,
+  "actual_exact_IDP_calls": 0,
+  "output_sha256": "8cb4ea660d89412a018d2f898fadde0faf8bbc3c435f82e1b3823cf62f54c822",
+  "trace_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "fixture_record": {
+    "status": "passed",
+    "policy_fixtures": 8,
+    "new_exact_IDP_calls": 0,
+    "new_legacy_IDP_calls": 0,
+    "mock_callback_calls": 19,
+    "truth_read": false,
+    "truth_generated": false
+  }
+}

@@ -8,6 +8,7 @@
 | NARA citation guide | [Citing captured German microfilms](https://www.archives.gov/research/captured-german-records/citing-german-microfilm-sources.html) | Explains serial/roll distinction and Kent supplements; the conversions below were read in Kent |
 | Kent catalogue, volume III | [Title page](https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PP5), [supplement, p. 770](https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA770), [p. 778](https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA778), [p. 793](https://books.google.com/books?id=oHAmAQAAMAAJ&pg=PA793) | Title page and conversion rows read as images, with headers. This copy says 1966; the HTML year 1962 is not its verified publication year |
 | NARA paper-copy collection | [Record 6921696](https://catalog.archives.gov/id/6921696) | RG 242, Copies of Records of the Reich Foreign Office, 1947?–1958; describes paper copies of 1934–1945 records and lists T120. Its online-availability notice does not establish access to rolls 296/1594 |
+| Internet Archive public catalogue API | [Exact targeted JSON query](https://archive.org/advancedsearch.php?q=%28identifier%3AT120%2A+OR+identifier%3AT-120%2A+OR+title%3AT120+OR+title%3A%22Records+of+the+German+Foreign+Office%22%29+AND+mediatype%3Atexts&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=100&page=1&output=json) | Phase 16 obtained catalogue metadata, not target-roll content; recorded replies and limits are described below |
 | Madrid Telegraph Regulations, 1932 | [League of Nations Treaty Series, volume 151](https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20151/v151.pdf) | Articles 10, 18–20, 41 and 98, printed pp. 57–59, 65–71, 113 and 201: CDE service classification and word counting. In force from 1 January 1934; later changes and applicable route tariffs not fully checked |
 | German archive orientation | [Reich: Orientierung in den Beständen](https://archiv.diplo.de/arc-de/im-archiv-forschen/rechercheleitfaeden/reich-orientierung-1433562) | General PAAA/Bundesarchiv distribution; individual custody still needs checking |
 | “Oswald, Madrid” record | [BAR 1689905](https://www.recherche.bar.admin.ch/recherche/link/de/archiv/einheit/1689905), E2001D#1000/1551#5627* | 1936–1938 investigations/repatriations; no first-name identification or commercial correspondence proved |
@@ -60,6 +61,21 @@ May–June 1940 in search metadata; opening it returned 403. No manifest, scan o
 roll match was obtained. This is a bounded access result, not proof that the
 rolls have never been digitized. See the [access note](../work/phase15_t120_access/resultado.txt).
 
+Phase 16 confirmed public HTTP access to Internet Archive's catalogue API.
+Two inaccessible web-tool openings were followed by two GETs returning JSON,
+over two query texts: four requests in total. The generic query declared 139
+results and supplied the first 50 metadata records. The targeted title/identifier
+query supplied all 26 declared records, unrelated to the target diplomatic rolls.
+No object page, scan, frame or telegram was opened. T120/296 and T120/1594 remain
+unverified digital objects, and telegram 629 remains unread.
+
+This limited query syntax and these fields do not exhaust other identifiers,
+titles or collections, so the result is not a finding of general digital absence.
+See the [final access note](../work/phase16_history/FINAL_resultado.txt) and
+[query ledger](../work/phase16_history/ledger.json). Raw external response bodies
+are omitted from this export; own notes, request receipts and hashes preserve
+the documented scope. No contact, copy order, payment or account operation occurred.
+
 Do not use a serial as a T120 roll or a frame as a current R/RZ signature.
 The conversion and temporal proximity do not establish an Oswald/BLUME link.
 
@@ -75,6 +91,10 @@ records the addition and its scope. These are separate baseline and update recor
 [phase15_source_inventory.jsonl](../provenance/phase15_source_inventory.jsonl)
 and [phase15_update.json](../provenance/phase15_update.json) record the next
 diagnostic and historical erratum without replacing earlier sources.
+[phase16_source_inventory.jsonl](../provenance/phase16_source_inventory.jsonl)
+and [phase16_update.json](../provenance/phase16_update.json) record the next
+privileged trajectories and catalogue-access notes. All earlier research
+reports and source inventories retain their bytes.
 Source URLs are navigation aids extracted from a recorded file; co-occurrence does not prove
 that each URL is the origin of every byte in that file. For exact mappings,
 use the institution's manifests and our source ledgers.

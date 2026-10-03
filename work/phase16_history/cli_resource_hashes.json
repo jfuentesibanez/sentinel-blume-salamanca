@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-10-03T00:12:44.667927+00:00",
+  "sha256": {
+    "cli_one_get.py": "a8292cd576f0dc6b5316fb30d7c13ba0a104ff8932cc8656477711672c2b5987",
+    "cli_request.json": "931c791903456551d06cdb5880d9ffaa6cd05f28005dd5f396b4da8afab82284",
+    "cli_receipt.json": "be8d2804b922bcd105b932168e02d9f10c96a61ee186fe034b89828407cd08ba",
+    "cli_response_body.bin": "9ad327081c8859f1a351147e2f30d4fd0abb2dc7a860021d1ef4d17585af7648",
+    "cli_catalogue_summary.json": "15cf39ddbdcf80fcbcee7c292f3951c33b715e7e4cd1f1a3460c0f4e8f67e83a",
+    "cli_doc_identifiers.json": "e2046c367a7816d523831ed89e853f645cf4ea03fe6be016af06052222115dda",
+    "old_files_preserved_after_cli.json": "899667ccb5dfd154b3676f33d91f0aad067d5df768906ded13f19e26339ecf23",
+    "ADDENDUM_cli.txt": "256cf7e79922dcd720508960fe89e87b1104e68a9b2d1f4224654daf582dffb0"
+  }
+}

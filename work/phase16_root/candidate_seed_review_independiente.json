@@ -1,0 +1,36 @@
+{
+  "status": "passed_no_prior_use_found",
+  "candidate_seeds": [
+    20262401,
+    20262402,
+    20262403,
+    20262404
+  ],
+  "reserved_by_this_check": false,
+  "baseline_scope": "All pre-phase16 local work and outputs plus public work/outputs/data/resources; current docs/tools/provenance and continuation state excluded intentionally",
+  "baseline_files_checked": 2793,
+  "baseline_sha256": "8969d07aa83dcc58618682caf24fe03834e82ceac467e1ba2288101268f7263f",
+  "unchanged_prior_files": true,
+  "content_mentions": [
+    {
+      "path": "work/phase15_root/next_diagnostic_review.txt",
+      "seed": 20262401
+    },
+    {
+      "path": "work/phase15_root/next_diagnostic_review.txt",
+      "seed": 20262402
+    },
+    {
+      "path": "work/phase15_root/next_diagnostic_review.txt",
+      "seed": 20262403
+    },
+    {
+      "path": "work/phase15_root/next_diagnostic_review.txt",
+      "seed": 20262404
+    }
+  ],
+  "case_path_mentions": [],
+  "interpretation": "All prior inventory bytes and paths checked; sole mention is previous conceptual proposal. No prior generated case, planting record or executed input found. Future reservation still requires a sealed design.",
+  "new_idp_calls": 0,
+  "new_truth_generated": false
+}

@@ -1,0 +1,71 @@
+FASE 16 — DECISIÓN DE DISEÑO DE RAÍZ, ANTES DE CREAR VERDAD
+3 de octubre de 2026. Propuesta para revisión, NO aprobación de ejecución.
+
+Pregunta: ¿la señal favorable alrededor de K2 permite recorridos ascendentes
+desde perturbaciones Hamming 4 y 8 en casos nuevos, y cambia el resultado cuando
+se cambia la política de aceptación/actualización con el mismo orden fuente?
+La fase 15 examinó vecindarios estáticos. Sus observaciones posteriores sirven
+para formular esta pregunta, pero no son trayectorias ni confirmaciones.
+
+Comparación elegida: A acepta inmediatamente una mejora y continúa el mismo
+barrido; B evalúa el vecindario del comienzo del barrido y acepta su mejor mejora
+al cerrar un barrido completo, con primer índice del orden fuente para empates.
+Ambas usan el mismo orden fuente, sin barajar. El HC de la fuente sí baraja;
+A hereda su regla de actualización, pero no reproduce ese algoritmo completo.
+El contraste cambia selección y actualización, no aísla sólo el orden.
+
+Cuatro casos propuestos: DE 20262401/20262402 y FR 20262403/20262404. Candidatos
+todavía sujetos al cotejo completo de usos anteriores y a la doble auditoría.
+Semillas distintas entre idiomas eliminan la reutilización deliberada de las
+claves de fase 15, sin asegurar por sí solas independencia estadística del texto.
+Se conservan anchos 20 y 25, longitudes 615 y 160, convención 0, los modelos
+binary32 y los corpus/holdouts anteriores. No hay datos nuevos de telegramas.
+
+Perturbaciones deterministas, independientes de scores/resultados:
+H4: swaps nativos de posiciones (0,1) y (2,3) sobre numeric=inverse(true_K2).
+H8: añade (4,5) y (6,7). Comprobar movimientos y posiciones disjuntas antes.
+El número de swaps sólo da una cota superior de la distancia en el grafo.
+Cada pareja A/B recibe exactamente el mismo comienzo. Sin caché ni RNG de HC.
+
+16 trayectorias principales, máximo tres barridos: 1 + 3*16649 = 49948
+evaluaciones exactas por trayectoria; techo principal 799168. Límite soft 30 s
+desde antes del setup, hard 40 s por proceso. Cada evaluación se cobra antes
+de entrar y se guarda; no retries, extensiones ni casos reemplazados.
+Si B termina un barrido justo al alcanzar el cap, cierra y acepta su mejora
+antes de parar. Si el barrido es parcial, no acepta su mejor propuesta parcial.
+Ninguna política certifica convergencia con un barrido parcial.
+
+Cuatro controles positivos científicos separados: un swap (0,1), política B,
+un barrido como máximo, 16650 evaluaciones cada uno y 66600 en total. No son
+invariantes con éxito garantizado. Un fracaso de recuperación se informa y no
+autoriza modificar, reemplazar ni excluir el caso o impedir el panel principal.
+Las puertas técnicas son integridad del scorer, permutaciones, límites y logs.
+
+Métricas externas fijadas: objetivo evaluado alguna vez (incluido inicial),
+primer coste de evaluación del objetivo, objetivo en top5 único y clave final
+exacta. Separar control positivo y H4/H8; agrupar por caso y política. Guardar
+scores, base/candidata o reconstrucción equivalente, cada aceptación, orden,
+barridos completos y parciales, costes, convergencia y motivo de parada.
+Hamming se calcula fuera y nunca guía aceptación, parada o selección.
+No calcular gap frente al score verdadero si ese score no figura en los logs;
+no se aprueban evaluaciones adicionales de verdad para ese propósito.
+
+Auditoría posterior de raíz prevista: reconstrucción de registros sin verdad y
+dos rescoring exactos por trayectoria/control (inicial y último evaluado),
+40 evaluaciones adicionales separadas, incluso si la clave se repite. Referencia
+Python directa que enumera pares de límites factibles, sin el sliding de C++.
+Una ejecución, hard 40 s; contar entrada e interrupciones. El revisor independiente
+audita todas las filas y costes sin leer la verdad ni crear nuevas evaluaciones.
+Sólo después puede hacerse evaluación externa de aciertos, sin llamadas nuevas.
+
+El solver recibe textos cifrados, anchos y comienzo privilegiado; no otra clave
+objetivo, plaintext, Hamming, etiquetas ni stop por acierto. Esto sigue siendo
+un diagnóstico privilegiado local. Ningún resultado demuestra recuperación desde
+azar, cuenca global, máxima globalidad, recuperación K1/plaintext o solución BLUME.
+Los fracasos bajo cap no prueban ausencia de una ruta; dos casos por idioma no
+dan una tasa fiable ni representan lenguaje diplomático. No atribuir los 0/32
+de fase 14 a una causa única sin un contraste específico de aquella causa.
+
+Fuentes anteriores: bytes protegidos en frozen_before.json (2793 archivos).
+Antes de generar verdad, raíz y revisor independiente deben aprobar código,
+plan, controles y hashes exactos. Este documento no sustituye esas aprobaciones.

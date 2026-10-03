@@ -3,9 +3,10 @@
 ## Read-only checks
 
 `python3 tools/verify_snapshot.py` checks the current export's file hashes, the
-phase 13 baseline and phase 14/15 publication inventories, canonical ciphertexts,
-recorded phase 11/14 recovery counts and phase 15 static metadata. It does not call a solver, modify frozen data or fetch
-sources.
+phase 13 baseline and phase 14/15/16 publication inventories, canonical ciphertexts,
+recorded phase 11/14 recovery counts, phase 15 static metadata and phase 16
+privileged trajectory metadata. It does not call a solver, modify frozen data
+or fetch sources.
 
 With NumPy installed, `python3 tools/recheck_phase11.py` regenerates synthetic
 ciphertexts from the sealed truth and holdout positions, and recomputes all 160
@@ -36,6 +37,30 @@ greedy choice. The fuller numerical audit recomputed two states per profile and
 is preserved separately, with its 48 backend calls. Every phase 15 anchor is
 privileged; these ranks are not a recovery benchmark from unknown keys.
 
+## Phase 16 recorded-trajectory replay
+
+`python3 tools/recheck_phase16.py` uses only the standard library and writes no
+files. It checks selected resource hashes and accounts for omitted original
+executables through the export inventory. It checks the sealed plan, both
+approvals, completed manifest, audit guard, saved audit receipts and evaluation;
+regenerates the eight synthetic ciphertexts from saved keys and holdout offsets;
+and reconstructs every proposal, acceptance, sweep event, archive and backend
+marker from the twenty CSVs. It compares all external Hamming and target metrics,
+group totals and eight policy contrasts with the recorded evaluation.
+
+This performs **zero new IDP evaluations or solver trajectories**. It does not
+recreate RNG keys, mathematically rescore candidates, repeat the independent
+audit or reproduce a search. Its source-copy replay assertions require running
+Python without `-O`. Every start is privileged. Main B 8/8 versus A 6/8 and
+positive B 4/4 are separate denominators, not unknown-key recovery rates.
+
+The fuller [numerical audit](../work/phase16_root/post_run_audit.json) sampled
+the initial and last evaluated state of each profile: forty exact evaluations,
+charged even when a key repeats. It used a direct feasible-offset reference.
+All 799,172 trajectory rows were replayed, not all mathematically rescored.
+Known cost remains 732,572 main + 66,600 scientific positives + 40 audit =
+799,212 IDP-equivalent calls; mock policy controls and the public replay add zero.
+
 ## Publication records
 
 [source_inventory.jsonl](../provenance/source_inventory.jsonl) and
@@ -58,6 +83,13 @@ diagnostic and historical correction. The phase 14 checksum record is preserved
 as [phase14_file_hashes.json](../provenance/phase14_file_hashes.json). Current
 entry documents intentionally differ; frozen earlier research files do not.
 
+[phase16_source_inventory.jsonl](../provenance/phase16_source_inventory.jsonl)
+and [phase16_update.json](../provenance/phase16_update.json) record the trajectories,
+audits and bounded catalogue-access notes. The previous checksum record is
+preserved as [phase15_file_hashes.json](../provenance/phase15_file_hashes.json).
+Phase 16 protected 2,793 files in the original local baseline, including existing
+public copies. That count does not describe the number of files in this export.
+
 ## Building portable solvers
 
 Requires a C++17 compiler with `__int128` support (GCC or Clang), available as
@@ -68,10 +100,11 @@ python3 tools/build_solvers.py
 ```
 
 Builds the phase 10 baseline, phase 11 capped variant, phase 14 checkpoint
-variant, phase 15 static evaluator and phase 7 key-regeneration helper into `.repro/bin/`. It never replaces
+variant, phase 15 static evaluator, phase 16 trajectory evaluator and phase 7
+key-regeneration helper into `.repro/bin/`. It never replaces
 the frozen sources, headers, manifests or original recorded results. It runs no search. The new binaries
 will generally have different hashes from the original Mac binaries. The original
-phase 14/15 compiled executables are not republished; their hashes remain in the
+phase 14/15/16 compiled executables are not republished; their hashes remain in the
 frozen build and experiment records.
 
 Frozen search commands, seeds, widths and budgets are in each phase's manifests.

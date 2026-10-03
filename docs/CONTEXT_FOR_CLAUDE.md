@@ -56,6 +56,15 @@ not establish that the telegram itself was physically attached. The telegram
 text remains unread and no BLUME link is established. The earlier report is
 preserved; use the [new erratum](../work/phase15_history/ERRATA.txt).
 
+Phase 16 established HTTP access to Internet Archive's public catalogue API.
+Two query texts led to four requests: two inaccessible web-tool openings and
+two successful JSON GETs. The generic query declared 139 results and returned
+50 metadata records; the targeted query returned all 26 declared records,
+unrelated to the diplomatic rolls. No object page, scan or target telegram was
+opened. This is a bounded catalogue result, not proof of general digital absence.
+See the [final access note](../work/phase16_history/FINAL_resultado.txt) and
+[sources](SOURCES.md). T120/296 and T120/1594 remain unverified digital objects.
+
 The official German archive guide assigns 1936–1945 trade-policy records to the
 Bundesarchiv as a general orientation. Political records also require the PAAA
 route. This does not establish the present custodian of an individual document.
@@ -76,12 +85,56 @@ a different category. The regulations took effect on 1 January 1934; all possibl
 changes before January 1937 have not been reviewed. The route tariff remains
 unverified. Sources and page references are in [SOURCES.md](SOURCES.md).
 
-The recent experiments search **K2 only on synthetic message pairs with known
+The recent experiments examine **K2 only on synthetic message pairs with known
 widths**, using literary German/French models. They do not recover K1 and are
 not attacks on the historical ciphertexts. A literary model is not a validated
 model of commercial telegram language in 1937.
 
-Phase 14 is the last completed search pilot. Four fresh synthetic German/French pairs
+Phase 16 is the latest completed experiment: privileged local trajectories
+from Hamming-4/8 starts derived from true K2, on four fresh cases at widths
+20 × 25. Four distinct seeds produced four key pairs and four text offsets.
+Each case has two nested starts and two policies, so sixteen main trajectories
+form eight paired comparisons on four cases, not sixteen independent samples.
+
+A accepts strict exact-score improvements immediately and continues the sweep.
+B scores neighbours of a fixed sweep-start key and accepts the greatest strict
+improvement at the end of a complete sweep, with the first source index on ties.
+Both use the same fixed order of 16,649 source moves, without shuffle. Selection
+and updating change together; the test does not isolate order or reproduce the
+source's shuffled HC or the phase 14 algorithm. Hamming counts differing positions;
+two/four construction swaps give upper bounds on graph distance, not exact distances.
+
+B ended at K2 in **8/8 main trajectories**, A in **6/8**: B 4/4 and A 3/4
+at each start class. All recorded target-visited and final-top-five outcomes
+coincided with those final-key outcomes in this panel; the metrics remain
+separate. Four one-swap positive controls, B 4/4, are excluded from 8/8.
+Their success was not an execution gate or grounds for changing the main cases.
+
+A used 332,988 main exact calls; B 399,584, about 20% more. Main calls totalled
+732,572; positives added 66,600 and the direct numerical audit 40: **799,212
+known IDP-equivalent calls**. Mock controls used 78 callbacks and zero IDP;
+external evaluation and record replay used zero IDP. All twenty trajectories
+completed without time cuts, process failures or partial sweeps. Every row and
+backend marker was replayed; only the fixed forty selections were mathematically
+rescored by the independent direct-offset reference.
+
+Two final-key comparisons favoured B and six succeeded with both policies.
+The failed A paths observed complete sweeps without improvement; K2 was never
+evaluated there. A adopted K2 earlier in all six pairs where both succeeded;
+B evaluated it earlier in two of them. Its H8 successes
+had three improving sweeps and no subsequent stable sweep, so success does not
+certify convergence. Eleven convergence flags differ from the four `converged`
+stop reasons; sixteen stops were call limits. These are separate recorded facts.
+
+This supports local paths under this panel, not random-key attraction, general
+superiority of B, language-specific rates, global optimality, an explanation of
+the phase 14 failures, K1/plaintext recovery or historical decipherment. Literary
+holdouts and distinct offsets are not authenticated commercial telegram models
+or guarantees of linguistic independence. Read the [phase 16 report](../outputs/Sentinel_BLUME_fase16_2026-10-03.txt),
+[plan](../work/phase16_crypto/plan20.json), [evaluation](../work/phase16_crypto/evaluation.json)
+and [independent review](../work/phase16_root/post_ejecucion_independiente.txt).
+
+Phase 14 is an earlier search pilot. Four fresh synthetic German/French pairs
 at widths 20 × 25, two rounds and four arms produced 32 runs of 100,000 IDP
 calls. A/B used cap 5,000 with checkpoint admission OFF/ON; C/D used cap 33,298
 with OFF/ON. Each arm recorded **0/8** exact K2 recoveries in the final top five.
@@ -102,7 +155,7 @@ of the model for historical commercial telegrams. No method or parameter was
 changed after seeing these results. See the [phase 14 report](../outputs/Sentinel_BLUME_fase14_2026-10-03.txt)
 and [frozen experiment records](../work/phase14_crypto/).
 
-Phase 15 is the latest completed diagnosis, a privileged STATIC landscape test.
+Phase 15 is an earlier privileged STATIC landscape test.
 Four fresh cases at 20×25 used two distinct key pairs and four plaintext offsets.
 It received planted-key-derived anchors: true K2, native swap (0,1), omitted swap
 (1,24). Each anchor and its 16,649 source neighbours were scored without moving
@@ -157,6 +210,9 @@ another search. Preserve the failed result and use reserved cases for a new desi
 No fresh Claude consultation occurred in phase 15: Computer Use could not access
 the locked Mac. Its plan/code and saved records were independently reviewed by
 the internal team. Do not attribute those reviews or the phase 15 run to Claude.
+No new Claude consultation occurred in phase 16 either. The Mac remained locked,
+and there was no new attempt to access it. Phase 16 design, execution and audits
+are internal Sentinel work; no Claude approval or certification is claimed.
 
 ## Useful next tasks
 
@@ -167,11 +223,12 @@ the internal team. Do not attribute those reviews or the phase 15 run to Claude.
 2. Investigate the telegraphic-address interpretation and CDE/tariff evidence,
    or locate a specific codebook tied to Oswald. Cite direct sources and state
    what was read, rather than extrapolating from generic five-letter grouping.
-3. Use the phase 15 local-signal result to design a bounded attraction test from
-   larger perturbations or distant starts, with new reserved cases. Count all
-   objective calls, cuts, preparation and failed attempts. Declare privileged
-   starts explicitly; separate them from ciphertext-only recovery. Do not tune
-   on this completed panel or substitute score for unknown-key recovery.
+3. Study entry to the local region from starts without a known key, or describe
+   the two saved failed A paths before defining another experiment. Any new
+   scoring needs a fresh design and reserved cases. Count all calls, cuts,
+   preparation and failed attempts. Declare privileged starts and keep them
+   separate from ciphertext-only recovery. Preserve phase 15/16 budgets, swaps
+   and move orders; do not tune on their known solutions.
 
 When reporting: give exact paths or primary URLs, separate facts/testimony/
 hypotheses, scope negative findings, and identify what would verify a proposed

@@ -1,0 +1,18 @@
+Fase 16: intento acotado del catálogo interno de Internet Archive
+3 de octubre de 2026
+
+No se obtuvo una ficha de catálogo ni una imagen nueva. Esta ronda aporta un límite de acceso documentado, no una conclusión sobre si los rollos están digitalizados.
+
+La fase 15 había buscado Internet Archive sólo mediante el motor web. Por eso se fijó una ruta distinta antes de consultar: el catálogo interno público. El plan permitía hasta cuatro consultas y cinco aperturas; prohibía cuentas, contactos, pagos y repeticiones de un endpoint fallido.
+
+Se intentó una consulta, «German Foreign Office», en dos formatos de catálogo: AdvancedSearch JSON y la página normal de búsqueda. Ambas aperturas devolvieron que la URL no era accesible mediante la herramienta web. No devolvieron contenido de catálogo, fichas, metadatos ni manifiestos. Los textos crudos se conservan en web-01.json y web-02.json. No se interpreta este fallo de la herramienta como un bloqueo de Internet Archive, una exigencia de cuenta ni la ausencia de material.
+
+URLs intentadas:
+https://archive.org/advancedsearch.php?q=%22German%20Foreign%20Office%22&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=description&rows=50&page=1&output=json
+https://archive.org/search?query=%22German%20Foreign%20Office%22
+
+Se aplicó la parada prevista tras el fallo del endpoint y una sola aclaración con la página normal. Hubo dos peticiones de consulta sobre el mismo texto y dos aperturas; cero búsquedas de motor web, cero objetos archivísticos leídos y cero nuevos scans. Las otras tres consultas candidatas no se ejecutaron. No se reintentó CRL ni se volvió a consultar un Mac bloqueado.
+
+Los objetivos siguen siendo T120/296, fotogramas 254221–254222, y T120/1594, fotogramas 682876–682878 y 682895–682896. El telegrama 629 es el informe anterior del 31 de diciembre de 1936 citado por ADAP 180. Esta ronda no leyó su texto, no probó que fuera anexo físico y no estableció vínculo con Oswald o BLUME.
+
+Todas las escrituras nuevas de esta ronda están en work/phase16_history/. No se modificaron las fases anteriores ni el repositorio. No se realizaron contactos, compras, pedidos, altas o cambios de cuenta. La ruta queda pendiente de una herramienta con acceso legítimo al catálogo; no justifica búsquedas repetidas mientras siga el mismo estado.

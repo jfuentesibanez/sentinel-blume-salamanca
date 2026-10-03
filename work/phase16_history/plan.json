@@ -1,0 +1,36 @@
+{
+  "phase": "16_history",
+  "created_at_utc": "2026-10-03T00:09:10.086437+00:00",
+  "new_route": "Internet Archive internal public catalogue, rather than search-engine site: queries used in phase15",
+  "rationale": "Phase15 ledger explicitly limits its Internet Archive searches to a web search engine and did not query the internal catalogue. Internal catalogue metadata can identify digitized microfilm items without registration or payment.",
+  "objective": "Find a catalogue item for T120 roll296 or1594, or German Foreign Office film holdings that identify these rolls and original frames. Telegram629 is the earlier31Dec1936 telegram referenced in ADAP180; no BLUME association presumed.",
+  "prior_read": [
+    "work/OVERNIGHT_STATE.json",
+    "work/phase15_t120_access/ledger.json",
+    "work/phase15_t120_access/resultado.txt",
+    "work/history/phase12-paaa/resultado.txt",
+    "prior ledger/resultado/evidence text search for archive.org advancedsearch or internal catalogue evidence"
+  ],
+  "budget": {
+    "queries_max": 4,
+    "url_opens_max": 5,
+    "account_actions": 0,
+    "orders": 0,
+    "human_contacts": 0
+  },
+  "query_candidates": [
+    "\"German Foreign Office\"",
+    "\"T120\" AND (\"296\" OR \"1594\")",
+    "\"Records of the German Foreign Office\"",
+    "\"Captured German\" AND (\"296\" OR \"1594\")"
+  ],
+  "rules": [
+    "Preserve requests and raw responses for every attempt.",
+    "Use public catalogue API advancedsearch with JSON metadata only, no account.",
+    "If transport/parser access fails, at most one normal catalogue search URL can clarify; do not retry the same failed endpoint.",
+    "Stop once no new identifiable primary catalogue route appears or budget reached. Do not open unrelated keyword hits.",
+    "If target item exists, verify item metadata/scan label within remaining open budget before claiming roll or frame equivalence.",
+    "No absence of digitization inferred from empty results or unavailable endpoints.",
+    "No writes outside new work/phase16_history directory; frozen earlier work and public repo remain untouched."
+  ]
+}

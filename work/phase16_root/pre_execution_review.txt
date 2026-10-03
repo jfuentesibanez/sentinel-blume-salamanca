@@ -1,0 +1,63 @@
+FASE 16 — AUDITORÍA DE RAÍZ ANTES DE VERDAD
+3 de octubre de 2026. APROBACIÓN CONDICIONADA A LA SEGUNDA AUDITORÍA.
+
+Plan aprobado por raíz:
+6613573bf1216923452b44982f7af1c4d7db21dd6400a3cbce3c9e11f9da9d9a
+
+Lectura manual de trajectory.cpp, exact_scorer.h, build.py, check_controls.py,
+run_phase16.py, evaluate_external.py, decisiones, instrucciones y atribución.
+La comprobación preaudit_checks.py pasó: 23 recursos coinciden con el plan,
+2793 archivos previos mantienen hash, no hay verdad/ciphertexts/starts reservados,
+los tres fragmentos exactos son idénticos byte por byte y el helper de claves
+es copia de la fuente anterior. Los pares fijados están en los índices fuente
+6349, 6351, 6353 y 6355. La auditoría completa no encontró usos previos de semillas.
+
+Dos registros de controles artificiales se conservan, ambos con 0 IDP. La
+versión final pasa 16 fixtures, con 59 callbacks simulados. No se han creado
+claves ni ejecutado trayectorias principales o positivas. Estos fixtures prueban
+políticas, archivos, repeticiones y fronteras; la aritmética exacta se conserva
+de fase 15, cuya validación no se repite ni se atribuye como coste nuevo.
+
+Cada modelo tiene escala 8388608 y denominador IDP 6375342080. Los límites
+int64 de almacenamiento/suma y el producto __int128 del EPS son seguros para
+estas longitudes y anchos. La cota absoluta de numerador es 44627394560 para
+DE y 45182203680 para FR. Se conserva la tabla binary32 y el EPS racional.
+
+Las políticas están implementadas como se fijaron: A actualiza inmediatamente
+y continúa; B conserva el comienzo del barrido, selecciona el primer máximo
+fuente y sólo acepta tras cerrarlo completo. El archivo top5 es único y usa
+desempate numérico lexicográfico. Cada repetición se vuelve a puntuar. CSV y
+marcadores previos al scorer permiten reconstruir llamadas, claves y decisiones.
+Las fronteras completas se cierran antes del cap; una pasada parcial B no
+admite su mejor propuesta. Un corte antes de primera propuesta no crea evento
+vacío. Convergencia observada y causa física de parada se informan por separado.
+
+Se permiten sólo 16 trayectorias principales con cap 49948 y tres barridos,
+seguidas de cuatro positivos B separados con cap 16650 y un barrido. El positivo
+es un resultado científico, no una puerta de acierto. Caps 799168 y 66600,
+soft 30 s y hard 40 s por proceso, sin retries o sustituciones. No hay RNG de
+recorrido, caché, plaintext, otra clave objetivo, Hamming ni stop por acierto
+en el solver. Las cuatro semillas son nuevas; dos perturbaciones anidadas y
+dos políticas por caso son medidas pareadas, no 16 casos independientes.
+
+Esta A omite el shuffle del algoritmo fuente. El contraste mide una política
+compuesta de selección y actualización, no sólo orden ni réplica de fase 14.
+El diagnóstico privilegiado no prueba acceso desde azar, cuenca global,
+recuperación de K1/plaintext o solución BLUME. El límite de tres barridos también
+limita a B a tres aceptaciones completas; no convierte un fracaso bajo cap en
+prueba de ausencia de ruta o superioridad general de A.
+
+Auditoría posterior de raíz fijada: dos estados guardados por perfil (inicial y
+último evaluado), máximo 40 entradas exactas de referencia directa; repetidos
+cobrados. Replay de todas las propuestas, decisiones, archivo, eventos y trazas
+sin comparar target. Fuente post_run_audit.py:
+4199647757123900bcf922373c23d39a4a4ce1049d2a10fe4be6999661957f2a
+Wrapper run_post_audit.py:
+5bd8f2344a9becac2e2a32c7d4c8a2b926289bd78a32a48735a47f590e14beaf
+Ambos contienen protección de intento único y recibos; hard 40 s del wrapper.
+El revisor independiente debe validar registros sin verdad, 0 nuevas IDP,
+y vincular ambas auditorías al manifest antes de la evaluación externa.
+
+La raíz aprueba esta versión y estos límites; seal/run sólo después de la
+aprobación independiente ligada al mismo hash. Ninguna lectura de resultados
+autoriza cambiar el plan, presupuesto, casos o código científico congelado.

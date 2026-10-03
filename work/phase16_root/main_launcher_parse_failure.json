@@ -1,0 +1,10 @@
+{
+  "status": "launcher_parse_failure_before_execution",
+  "error": "SyntaxError in inline launcher: else0 instead of else 0",
+  "script_code_executed": false,
+  "main_processes_started": 0,
+  "new_IDP_calls": 0,
+  "sealed_data_changed": false,
+  "recorded_at_utc": "2026-10-03T00:39:32.210148+00:00",
+  "panel_attempts_before_repair": 0
+}

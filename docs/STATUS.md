@@ -1,10 +1,10 @@
 # Research status — 3 October 2026
 
-**No verified historical plaintext, key or BLUME identity.** Phase 15 completed
-an audited privileged static diagnosis. Its objective has local signal near the
-true synthetic K2, while the tested numerical errors change no measured
-anchor-improvement decisions. This is not unknown-key recovery. Phase 14 remains
-the last search pilot; none of its four arms recovered K2.
+**No verified historical plaintext, key or BLUME identity.** Phase 16 completed
+audited privileged trajectories on four new synthetic cases. Best-improvement B
+ended at true K2 in 8/8 main trajectories; immediate-update A in 6/8. This is
+local evidence from truth-derived starts, not unknown-key recovery or a historical
+decipherment. B used about 20% more main calls. Earlier phases remain preserved.
 
 | Area | What is established | What remains open |
 | --- | --- | --- |
@@ -15,9 +15,64 @@ the last search pilot; none of its four arms recovered K2.
 | German documents | Bounded ADAP readings supply January 1937 context | Direct Oswald/BLUME transaction or current document signatures |
 | Kent | Serial 643 → T120/296, p. 778; serial 3176 → T120/1594, p. 793; volume III, 1966 | Roll access, target frames and current archival signatures |
 | Codebook | Cde in T2 matches the administrative CDE category in the Madrid 1932 regulations | Specific codebook, applicable route tariff or a code request tied to Oswald |
-| Synthetic K2 | Phase 14: zero recoveries; phase 15: true K2 ranks first from native Hamming-2 anchors in 4/4 synthetic cases | Attraction from distant starts and suitability for historical use |
+| Synthetic K2 | Phase 16: B 8/8 versus A 6/8 main privileged trajectories; positive controls B 4/4 separately | Attraction from unknown-key starts and suitability for historical use |
+| Digital access | Phase 16 accessed the public Internet Archive catalogue API | A verified object for T120/296 or T120/1594 and the target frames |
 
-## Latest static diagnosis
+## Latest privileged trajectories
+
+Phase 16 used four fresh German/French cases at known widths 20 × 25, with
+four distinct planted key pairs and four text offsets. Each case supplied
+Hamming-4 and Hamming-8 starts derived from inverse(true K2), shared by A/B.
+These are eight paired starts on four cases, not sixteen independent cases.
+
+A accepts strict improvements immediately and continues the sweep. B scores
+the whole neighbourhood of the sweep's starting key, then accepts its best
+strict improvement. Both traverse the same 16,649 source moves in fixed order.
+The contrast changes selection and updating; it does not isolate order alone.
+Neither policy reproduces the source HC's shuffle or the phase 14 search.
+
+| Main start / policy | Trajectories | Target visited | Target in final top five | Final key = K2 | Exact calls |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| H4 / A | 4 | 3 | 3 | 3 | 166,494 |
+| H4 / B | 4 | 4 | 4 | 4 | 199,792 |
+| H8 / A | 4 | 3 | 3 | 3 | 166,494 |
+| H8 / B | 4 | 4 | 4 | 4 | 199,792 |
+
+Four separate positive B controls from one native swap, Hamming 2, all ended
+at K2. They cost 66,600 calls and are excluded from the 8/8 main denominator.
+Their success was a scientific outcome, not a gate for replacing cases.
+
+A used 332,988 main calls and B 399,584: B used 66,596 more, about 20%.
+The main total was 732,572; positive controls added 66,600 and the independent
+direct numerical audit 40. **Known total: 799,212 IDP-equivalent calls.** Mock
+controls used 78 artificial callbacks and zero IDP; external evaluation and
+record replay also added zero IDP. No trajectory failed or hit a time cut.
+
+Two pairs favoured B in the final key; six succeeded with both policies.
+The two failed A trajectories observed a complete sweep without improvement
+and never evaluated K2. In all six pairs where both succeeded, A adopted K2
+earlier; B evaluated it earlier in two of those pairs. Its four H8
+trajectories ended at K2 after three improving sweeps but had no subsequent
+stable sweep to establish convergence. Across all twenty profiles, eleven
+convergence flags and four `converged` stop reasons are separate observations;
+the remaining sixteen stops were call limits. No partial sweep occurred.
+
+This panel supports local paths under these starts, policies and models. It
+does not establish a reliable language-specific rate, general superiority of B,
+attraction from random keys, global optimality or the cause of phase 14's failures.
+Hamming counts differing positions; the construction swaps bound graph distance
+from above. Literary texts and four offsets do not establish independent
+samples or a model of commercial telegram language in 1937.
+
+Inputs: [phase 16](../work/phase16_crypto/), [sealed plan](../work/phase16_crypto/plan20.json)
+and [external evaluation](../work/phase16_crypto/evaluation.json).
+Audits: [record replay and 40 numerical samples](../work/phase16_root/post_run_audit.json),
+[independent review](../work/phase16_root/post_ejecucion_independiente.txt).
+Details: [phase 16 report](../outputs/Sentinel_BLUME_fase16_2026-10-03.txt).
+No new Claude consultation occurred in phase 16; the internal team designed
+and audited it while the Mac remained locked.
+
+## Earlier static diagnosis
 
 Phase 15 used four new German/French pairs, two distinct planted key pairs and
 four plaintext offsets. Each case had three privileged fixed anchors: true K2,
@@ -45,7 +100,7 @@ Audits: [numerical subset and record replay](../work/phase15_root/post_run_audit
 Details: [phase 15 report](../outputs/Sentinel_BLUME_fase15_2026-10-03.txt).
 Claude was inaccessible while the Mac was locked; it did not review this phase.
 
-## Last synthetic search pilot
+## Earlier phase 14 search pilot
 
 Phase 14 used four fresh German/French synthetic pairs, two rounds and four
 arms: 32 runs, each with exactly 100,000 IDP calls. It searched K2 only at known
@@ -114,9 +169,19 @@ roll.
 
 Keep the codebook and telegraphic-address leads open. CDE is a service category;
 it identifies neither a codebook nor a cipher and does not exclude transposition.
-Before another synthetic search, define a fresh design with reserved cases to
-measure attraction beyond the privileged local region. Preserve the completed
-phase 15 panel rather than tuning on its known solutions.
+
+Phase 16 reached Internet Archive's public catalogue API through two GETs after
+two web-tool openings failed: four requests over two query texts. The generic
+query returned 139 declared results and the first 50 metadata records; the
+targeted query returned all 26 declared records, unrelated to the target rolls.
+No object page, scan, frame or telegram was opened. This does not demonstrate
+absence of digitization under other identifiers or collections. See the
+[final access note](../work/phase16_history/FINAL_resultado.txt).
+
+Before another synthetic test, define a fresh design with reserved cases to
+study starts beyond the privileged region or the two saved failed A routes.
+Preserve the completed phase 15/16 panels rather than changing their budgets,
+swaps or move order after seeing the solutions.
 
 ## Source and version discipline
 

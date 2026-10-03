@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "source_sha256": "385524298a44e31e28f461bbc60c7383cb59c5e87c9026580d8a96f971fe132c",
+  "binary_sha256": "534a4a5788d7aa32e7c7eafab59a97d0a8a094f112925485cc5642f587bdba1a",
+  "exact_header_sha256": "781845de2dcf55b24ed342fb74f24590d8e6e7d33c1b78756d6cbe78defcb097",
+  "policy_fixtures": 16,
+  "actual_exact_IDP_calls_all_attempts": 0,
+  "actual_legacy_IDP_calls_all_attempts": 0,
+  "scorer_validation_reused": "Phase15 frozen exact functions and its passed artificial controls; no new scoring",
+  "truth_generated": false,
+  "main_runs": 0,
+  "latest_attempt": {
+    "attempt": 2,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 0.29472879198146984,
+    "source_sha256": "385524298a44e31e28f461bbc60c7383cb59c5e87c9026580d8a96f971fe132c",
+    "binary_sha256": "534a4a5788d7aa32e7c7eafab59a97d0a8a094f112925485cc5642f587bdba1a",
+    "exact_header_sha256": "781845de2dcf55b24ed342fb74f24590d8e6e7d33c1b78756d6cbe78defcb097",
+    "status": "passed",
+    "actual_legacy_IDP_calls": 0,
+    "actual_exact_IDP_calls": 0,
+    "output_sha256": "016d42f4ed8eebb28d18e8a4d2739e6bb87a01d41242ac9edfd9771b7d91a80b",
+    "trace_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fixture_record": {
+      "status": "passed",
+      "policy_fixtures": 16,
+      "new_exact_IDP_calls": 0,
+      "new_legacy_IDP_calls": 0,
+      "mock_callback_calls": 59,
+      "truth_read": false,
+      "truth_generated": false
+    }
+  }
+}

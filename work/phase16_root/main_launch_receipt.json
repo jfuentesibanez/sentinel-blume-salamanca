@@ -1,0 +1,141 @@
+{
+  "status": "completed",
+  "attempt": 1,
+  "maximum_attempts": 1,
+  "plan_sha256": "6613573bf1216923452b44982f7af1c4d7db21dd6400a3cbce3c9e11f9da9d9a",
+  "sealed_manifest_sha256": "8aa1826ff7a3536e2e93e104e2a903d6ea0ebf4ba54287acd0f1690837e2e70f",
+  "launcher_sha256": "704f5efd171d37f40d7d9c5ed0d2b5b7624c58874df35909dab0e05eef4a2a3a",
+  "started_at_utc": "2026-10-03T00:39:37.769587+00:00",
+  "outer_hard_seconds": 850,
+  "per_process_hard_seconds": 40,
+  "returncode": 0,
+  "timed_out": false,
+  "seconds": 45.347190624976065,
+  "manifest_sha256": "e8cd13a542210d248ef19a7c7a04384c543e97faf8b7aa66d29664f2af93fa35",
+  "stdout_sha256": "88c4f73a1b3ac632a49e4995828aba0ab7df1e02361398ee5b085ace09a58cdc",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "persisted_call_logs": [
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h4_A.calls.log",
+      "sha256": "b8b25d0d2f5c2b8379c0b0ab1959daabf68410603f960de52815133cb2e41c1f",
+      "legacy_started": 0,
+      "exact_started": 33299
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h4_B.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_A.calls.log",
+      "sha256": "b8b25d0d2f5c2b8379c0b0ab1959daabf68410603f960de52815133cb2e41c1f",
+      "legacy_started": 0,
+      "exact_started": 33299
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_B.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262401_positive_B.calls.log",
+      "sha256": "f2638c3691ed23f16f6a92af1740d6a58ccae706b0cbb0093d91dad6294a5eb7",
+      "legacy_started": 0,
+      "exact_started": 16650
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_A.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_B.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h8_A.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h8_B.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/de_fold_20x25_20262402_positive_B.calls.log",
+      "sha256": "f2638c3691ed23f16f6a92af1740d6a58ccae706b0cbb0093d91dad6294a5eb7",
+      "legacy_started": 0,
+      "exact_started": 16650
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262403_h4_A.calls.log",
+      "sha256": "b8b25d0d2f5c2b8379c0b0ab1959daabf68410603f960de52815133cb2e41c1f",
+      "legacy_started": 0,
+      "exact_started": 33299
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262403_h4_B.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262403_h8_A.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262403_h8_B.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262403_positive_B.calls.log",
+      "sha256": "f2638c3691ed23f16f6a92af1740d6a58ccae706b0cbb0093d91dad6294a5eb7",
+      "legacy_started": 0,
+      "exact_started": 16650
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262404_h4_A.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262404_h4_B.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262404_h8_A.calls.log",
+      "sha256": "b8b25d0d2f5c2b8379c0b0ab1959daabf68410603f960de52815133cb2e41c1f",
+      "legacy_started": 0,
+      "exact_started": 33299
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262404_h8_B.calls.log",
+      "sha256": "a4f70ad00a0494d257e49b36514a1b97cb8d5bfffc21fa1cb9faf47efbeec00a",
+      "legacy_started": 0,
+      "exact_started": 49948
+    },
+    {
+      "file": "work/phase16_crypto/trajectories/fr_fold_20x25_20262404_positive_B.calls.log",
+      "sha256": "f2638c3691ed23f16f6a92af1740d6a58ccae706b0cbb0093d91dad6294a5eb7",
+      "legacy_started": 0,
+      "exact_started": 16650
+    }
+  ],
+  "exact_calls_started": 799172,
+  "legacy_calls_started": 0
+}

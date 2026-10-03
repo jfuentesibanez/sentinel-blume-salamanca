@@ -1,0 +1,166 @@
+BLUME SALAMANCA — FASE 16
+Trayectorias cerca de una clave conocida y acceso al catálogo de Internet Archive
+3 de octubre de 2026. Sentinel para Javier Fuentes.
+
+La fase 16 aporta una diferencia concreta entre dos formas de avanzar: elegir
+la mejor mejora al terminar un barrido recuperó K2 en 8 de 8 trayectorias;
+aceptar cada mejora durante el barrido, en 6 de 8. Son casos sintéticos nuevos
+y comienzos derivados de la clave verdadera. El resultado demuestra recorridos
+locales favorables en este panel; no demuestra recuperación desde una clave
+al azar ni descifra los telegramas históricos. BLUME sigue sin identificación
+verificada y no tenemos plaintext ni clave histórica comprobados.
+
+QUÉ PREGUNTAMOS Y QUÉ FIJAMOS ANTES
+
+La fase 15 había medido vecindarios estáticos. Encontró señal local cerca de
+K2, sin diferencias de decisiones entre los cálculos numéricos comparados.
+Faltaba observar trayectorias desde perturbaciones mayores. Esta fase formula
+esa pregunta con casos nuevos; no vuelve a ajustar los paneles de fases 14 y 15.
+
+El plan se cerró y recibió dos auditorías antes de generar verdad. Su SHA-256 es
+6613573bf1216923452b44982f7af1c4d7db21dd6400a3cbce3c9e11f9da9d9a.
+Se conservaron modelos y holdouts literarios anteriores, anchos 20 × 25,
+longitudes 615 + 160 y convención 0. Las semillas DE 20262401/20262402 y
+FR 20262403/20262404 no habían sido usadas en los registros previos revisados.
+La generación produjo cuatro parejas de claves distintas y cuatro offsets
+distintos. Eso no convierte los textos de un mismo corpus en muestras
+estadísticamente independientes ni valida lenguaje comercial de 1937.
+
+Cada caso tuvo dos comienzos principales, compartidos exactamente por A y B.
+Sobre numeric=inverse(true_K2), H4 intercambia (0,1) y (2,3); H8 añade (4,5)
+y (6,7), con índices cero. Son posiciones disjuntas y movimientos nativos,
+fijados sin mirar scores. Hamming 4 y 8 cuenta posiciones distintas, no la
+distancia mínima en el grafo de movimientos. Dos o cuatro swaps de construcción
+dan sólo cotas superiores de esa distancia.
+
+A acepta una mejora estricta inmediatamente y continúa el mismo barrido.
+B conserva el comienzo durante el barrido y luego acepta la propuesta de mayor
+score; un empate conserva el primer movimiento del orden fuente. Ambas usan
+los mismos 16.649 movimientos en orden fijo. A hereda la regla de actualización
+de la fuente, pero omite su barajado: no reproduce el algoritmo completo ni
+la fase 14. El contraste cambia selección y actualización, no sólo orden.
+
+Sólo se usa el cálculo entero exacto de los mismos coeficientes binary32 de
+fase 15. Los tres fragmentos del scorer son copias idénticas byte por byte,
+con atribución y hashes. No hay caché, RNG de recorrido ni evaluación legacy.
+El solver recibe los textos cifrados y un comienzo privilegiado. No recibe
+otra clave objetivo, plaintext, Hamming ni una parada por acierto.
+
+Cada una de las 16 trayectorias principales podía evaluar el inicial y tres
+barridos: máximo 49.948 llamadas, techo conjunto 799.168. Cuatro controles
+positivos B separados empiezan con un solo swap (0,1), Hamming 2, y permiten
+un barrido: 16.650 llamadas cada uno. Sus aciertos no eran una puerta técnica
+ni autorizaban cambiar el principal. Soft 30 s desde antes del setup y hard
+40 s por proceso, sin ampliaciones, reintentos o sustituciones de casos.
+
+RESULTADOS
+
+Grupo                 Trayectorias  K2 evaluada  K2 top5 final  K2 final  Llamadas
+H4, inmediata A             4            3             3           3     166.494
+H4, mejor mejora B          4            4             4           4     199.792
+H8, inmediata A             4            3             3           3     166.494
+H8, mejor mejora B          4            4             4           4     199.792
+Positivos H2, B             4            4             4           4      66.600
+
+En estos grupos, evaluar la clave objetivo, verla alguna vez en top5 y
+conservarla en el top5 final coincidieron con terminar exactamente en ella.
+Esas métricas siguen separadas en los datos: puntuar una clave no equivale
+por definición a aceptarla o conservarla. Los positivos no se suman a 8/8.
+
+Dos de los ocho contrastes pareados favorecieron B en la clave final:
+DE 20262401 desde H8 y DE 20262402 desde H4. En los otros seis, ambas llegaron
+a la clave. Ningún contraste favoreció A en ese criterio. Las dos trayectorias
+A fallidas convergieron en un vecindario completo sin haber evaluado K2.
+El contraste DE 20262402/H4 gastó 49.948 llamadas en ambas políticas; en
+DE 20262401/H8, A paró tras 33.299 y B usó 49.948. Los techos eran comunes,
+pero los costes reales no siempre fueron iguales.
+
+La recuperación más frecuente de B no significa que llegara siempre antes.
+A gastó 332.988 llamadas principales y B 399.584: B usó un 20 % más.
+En los seis pares donde ambas acertaron, A adoptó K2 antes que B.
+Por ejemplo, FR 20262404/H8 evaluó y adoptó K2 en la llamada 7.743 con A.
+B la evaluó en 40.924 y la adoptó al cerrar el barrido, en 49.948. Debemos
+distinguir robustez observada, primera evaluación, adopción y coste.
+
+Las cuatro H8 de B llegaron a K2 tras tres aceptaciones completas. Sus rutas
+registradas dan una cota superior de tres movimientos, aunque el comienzo
+se construyera con cuatro swaps. No prueban la distancia mínima. Terminaron
+por cap y no observaron un barrido estable posterior; recuperar la clave no
+certifica convergencia. Las cuatro H4 de B sí observaron convergencia en el
+tercer barrido, aunque la causa física de parada también fuera el cap.
+
+En total hubo 11 banderas de convergencia observada y sólo 4 stop_reason
+converged. Otras 16 paradas fueron call_limit, incluidos los positivos.
+No hubo cortes por tiempo ni barridos parciales. No confundimos el motivo
+físico de parada con la observación de un vecindario completo sin mejoras.
+
+COSTES, AUDITORÍA Y CONSERVACIÓN
+
+El principal gastó 732.572 evaluaciones exactas y los positivos 66.600:
+799.172 propuestas evaluadas, incluidas repeticiones. La auditoría numérica
+de raíz añadió 40 entradas exactas de referencia, inicial y última propuesta
+por cada uno de los 20 perfiles; todas coincidieron. Total conocido de fase 16:
+799.212 IDP equivalentes. Cero llamadas legacy y cero scoring en la evaluación
+externa. Los dos controles técnicos conservados costaron 78 callbacks
+artificiales, 0 IDP; la versión final pasó 16 fixtures.
+
+La raíz y el revisor interno independiente reconstruyeron todas las filas,
+claves, propuestas, decisiones, cierres, archivos top5 y marcadores de entrada
+al backend antes de comparar con la verdad. La referencia matemática de raíz
+enumera pares de límites factibles directamente, sin el sliding de C++.
+No se recalcularon numéricamente las 799.172 filas: se releyeron todas y se
+repuntuaron las 40 selecciones fijadas. La segunda revisión añadió 0 IDP.
+La guardia quedó ligada al manifest final antes de la evaluación externa.
+
+Se conserva un error de sintaxis del lanzador que ocurrió antes de ejecutar
+instrucciones o arrancar procesos: 0 IDP y ninguna alteración del diseño.
+El único panel real tuvo 20 perfiles sin fallos. El checker independiente
+también conservó su primera lectura con una advertencia de sintaxis; corrigió
+un espacio con AST idéntico y repitió sólo lectura, ambas veces PASS y 0 IDP.
+Estos registros no se ocultan ni se cuentan como intentos de recuperación.
+
+Los 2.793 archivos del baseline local previo mantienen sus hashes; esa cifra
+incluye copias públicas anteriores. El export público selecciona material
+propio o redistribuible y deja binarios nativos, respuestas externas y UI fuera.
+Su verificador comprueba el subconjunto publicado; no afirma que el baseline
+local completo se distribuya. Los CSV permiten reproducir decisiones y costes
+sin ejecutar de nuevo la búsqueda. Los datos están en work/phase16_crypto/;
+las auditorías y recibos, en work/phase16_root/.
+
+LÍNEA HISTÓRICA Y CLAUDE
+
+Una ruta nueva confirmó acceso público por HTTP al catálogo interno de Internet
+Archive. Dos aperturas de la herramienta web habían fallado sin contenido.
+Un GET de la misma consulta genérica devolvió HTTP 200, 139 resultados y los
+primeros 50 metadatos. Una consulta dirigida a títulos e identificadores
+devolvió HTTP 200 y 26 metadatos, todos ajenos a los rollos diplomáticos.
+Fueron dos textos de consulta y cuatro solicitudes, cero objetos abiertos,
+escaneos o telegramas nuevos. La ronda se cerró con el límite previsto.
+
+El resultado demuestra una vía de acceso al catálogo, no ausencia general
+de digitalización. No se verificaron T120/296 ni T120/1594. Sus fotogramas
+objetivo siguen pendientes. El telegrama 629, de 31 de diciembre de 1936,
+es anterior y está citado en ADAP 180; no se ha leído ni está demostrado como
+anexo físico. La errata de fase 15 sigue vigente. No hubo contactos, pedidos,
+pagos o cambios de cuentas. Los recibos están en work/phase16_history/.
+
+No hubo consulta nueva a Claude: el Mac seguía bloqueado y no había una señal
+de cambio. No se repitió el acceso ni se eludió el bloqueo. Diseño y auditorías
+son trabajo interno de Sentinel; no llevan una aprobación de Claude. Quedará
+preparada una consulta con enlaces al commit público verificado.
+
+QUÉ PERMITE HACER AHORA
+
+Podemos distinguir señal local de trayectoria: en estos casos, una política
+de mejor mejora consigue llegar desde perturbaciones H4/H8. Los resultados
+justifican estudiar la entrada a esa región desde comienzos sin clave conocida,
+o describir las dos rutas A fallidas usando sus logs ya pagados. Cualquier
+prueba confirmatoria necesita un diseño nuevo y casos reservados antes de verdad;
+no se amplían los barridos de estos casos tras ver sus resultados.
+
+Cuatro casos, dos comienzos anidados y dos políticas no son 16 réplicas
+independientes. No dan una tasa fiable por idioma, un tamaño global de cuenca,
+superioridad general de B, una causa única de los 0/32 de fase 14 o un ataque
+histórico válido. La familia de cifrado, los anchos e idiomas reales siguen
+abiertos. La evidencia de archivos y la búsqueda del destinatario conservan
+su propio recorrido, sin convertir los éxitos sintéticos en historia recuperada.

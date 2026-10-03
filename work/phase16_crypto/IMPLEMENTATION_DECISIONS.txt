@@ -1,0 +1,94 @@
+FASE 16 — DECISIONES ANTES DE GENERAR VERDAD
+
+Pregunta: ¿llega una trayectoria ascendente a K2 desde perturbaciones mayores,
+y cambia la observación entre dos políticas de selección/actualización?
+Es un diagnóstico PRIVILEGIADO. El solver recibe una clave inicial derivada de
+la verdad, pero no recibe otra clave objetivo, plaintext, Hamming ni stop por
+acierto. No prueba recuperación desde azar, K1/plaintext ni BLUME.
+
+Cuatro casos nuevos: de_fold20262401/20262402 y fr_fold20262403/20262404;
+anchos20×25,615+160 y conv0. Los modelos/holdout son los anteriores. Semillas
+distintas entre idiomas evitan compartir deliberadamente las claves de fase15;
+se cuentan las parejas reales y los offsets después, sin prometer independencia
+de textos. Antes del plan se inspeccionan los2793 archivos previos del baseline,
+sus bytes y todos los JSON/JSONL para uso/casos previos de estas semillas. Sólo
+se admite la mención conceptual en next_diagnostic_review.txt. No se genera
+verdad durante plan/build/controles.
+
+Perturbaciones, fijadas sin score: pares nativos(0,1),(2,3),(4,5),(6,7) con
+índices cero. H4 usa los dos primeros; H8 los cuatro; positivo usa el primero.
+Todos son disjuntos y su pertenencia al conjunto fuente se comprueba antes.
+Numeric=inverse(true_K2). Hamming4/8/2 es exacto; los2/4/1 pasos sólo son cotas
+superiores de distancia del grafo. A/B reciben un mismo archivo inicial y hash.
+
+A: source-order immediate-update sweep. Acepta una mejora exacta inmediata y
+continúa con el siguiente movimiento del MISMO barrido. B: best-improvement
+en vecindario fijo del inicio de cada barrido. Elige mayor numerador; empate
+se conserva en el primer índice fuente. Sólo acepta cuando termina el barrido.
+Ambas usan el mismo orden fuente16.649, sin RNG/shuffle de recorrido. A hereda
+la regla de actualización, pero no reproduce el HC fuente/14, que sí baraja.
+El contraste cambia selección y actualización; no aísla exclusivamente orden.
+
+Scorer: tres fragmentos exactos fase15 copiados byte a byte, con hash y fuente
+congelada. La misma tabla binary32, offsets, recurrence entero, greedy/floor,
+denominador y EPS racional1/10^12. Sólo se llama exact_trace; nunca legacy_trace
+ni idp() legacy, aunque las dependencias criptográficas históricas se incluyen.
+No hay caché: cada inicial/propuesta, incluso repetida, vuelve a puntuar.
+Se reutiliza la validación técnica congelada del scorer; fixtures de política
+usan un callback artificial entero y cuestan0 IDP. Los fallos/intentos se guardan.
+
+Panel principal:4casos×2perturbaciones×2políticas=16trayectorias; cada una puede
+puntuar inicial+3barridos completos=49.948 llamadas. Techo799.168 exactas.
+Controles positivos científicos separados:4casos×B×unswap, un barrido como
+máximo,16.650 llamadas cada uno, techo66.600. Pueden fallar; no son un gate de
+éxito ni se reemplazan. Se ejecutan después de las16 principales y se evalúan
+al final. Techo conjunto865.768; sin extensiones, reintentos ni resampling.
+
+El reloj soft30s empieza antes de modelo/inputs/source_moves/Core setup; proceso
+externo hard40s. Antes de cada score se comprueba cupo/tiempo. exact_trace emite
+un marcador flushed ANTES de su backend; oferta al top5 y registro de propuesta
+se completan antes de considerar el corte siguiente. Un score iniciado puede
+sobrepasar soft30s; se mide el exceso. score_seconds incluye undo2+scorer exacto;
+total_seconds incluye setup, top5 y registros. Caps iguales no prueban igual CPU.
+
+Al completar un barrido, B acepta su mejor mejora y se observa convergencia
+ANTES de revisar límite global. Última propuesta justo en cap no invalida el
+cierre. Un barrido parcial B conserva archivo/propuestas pero no cambia current.
+A conserva sus aceptaciones anteriores al corte parcial. Convergencia sólo si
+un barrido COMPLETO no aceptó mejora. Bandera convergence_observed independiente
+de stop_reason; prioridad call_limit > time_limit > converged > sweep_limit.
+Puede haber convergencia observada en un cierre que también alcanza cap/tiempo.
+Si vence el reloj antes de la primera propuesta, ese barrido no se registra ni
+cuenta parcial: evita reutilizar un end_call sin llamadas nuevas.
+
+CSV: cada inicial/propuesta guarda call,sweep,move_index,move_kind,base_numerator,
+numerator,base_numeric,candidate_numeric,improves_base,accepted_immediate,
+archive_changed. Numeric como posiciones separadas por ':'. Inicial call1,
+sweep0/move0. Cada base/candidata es reconstruible; A puede cambiar base en
+medio del barrido. Evento B distingue selected_call (score elegido) de call
+(cierre/aceptación); no repuntúa current ni la mejor candidata al aceptar.
+
+Top5 global único, numerador descendente y desempate lexicográfico de numeric;
+su desempate es distinto al primero-fuente de B. Se ofrecen TODAS las claves
+puntadas, incluido inicial y última propuesta. visited_unique cuenta todas
+las claves puntadas distintas. No se almacena/reconoce target en solver.
+
+Root postaudit previsto: replay de cada fila sin target y rescoring directo
+exacto de inicial/último por20perfiles, hasta40llamadas separadas, incluso si
+selecciones repiten clave. Referencia Python con pares factibles directos, un
+intento/hard40s, cobrando antes de entrar. Revisor independiente:0 IDP nuevos,
+sin truth. Los dos resultados deben habilitar no_truth_verification.json ligada
+al manifest. Sólo entonces evaluate_external.py compara target y lee scores
+guardados,0 llamadas nuevas. No calcula gaps si verdad no figuró en los logs.
+
+Métricas separadas: target visitado/first_target_call (incluye inicial), target
+alguna vez top5/primera entrada, rank del target en top5 final y current final
+exacta. first_current_target_call distingue aceptación de evaluación. Hamming
+mínimo se calcula sólo externamente sobre propuestas y current registrados.
+Controles positivos separados del panel. Comparaciones A/B pareadas conservan
+costes/cortes reales; cuatro casos y dos starts por caso no son16independientes.
+
+Antes de seal se exigen dos aprobaciones y el mismo hash de plan20/resources,
+2793bytes anteriores intactos y scorer/helper/licencia copiados. No tocar fase15
+ni repo. Controles mock, compilación y plan son lo único autorizado antes de
+dobleauditoría. La verdad y las20trayectorias quedan pendientes de esa puerta.

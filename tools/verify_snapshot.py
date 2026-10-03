@@ -87,12 +87,40 @@ def main():
     assert evaluation15['manifest_sha256']==sha(phase15/'manifest.json')
     assert evaluation15['new_legacy_calls']==evaluation15['new_exact_calls']==0
     assert evaluation15['totals']['distinct_planted_keypairs']==2
+    update16=json.loads((ROOT/'provenance/phase16_update.json').read_text())
+    added16=[json.loads(s) for s in (ROOT/'provenance/phase16_source_inventory.jsonl').read_text().splitlines()]
+    assert len(added16)==update16['new_inventory_entries']
+    assert sum(e['disposition']=='included' for e in added16)==update16['new_included_files']
+    assert sum(e['disposition']=='referenced_only' for e in added16)==update16['new_referenced_files']
+    for e in added16:
+        if e['disposition']=='included':
+            p=ROOT/e['repository_path']
+            assert sha(p)==e['sha256'] and p.stat().st_size==e['bytes'],e['source_path']
+    phase16=ROOT/'work/phase16_crypto'
+    manifest16=json.loads((phase16/'manifest.json').read_text())
+    evaluation16=json.loads((phase16/'evaluation.json').read_text())
+    guard16=json.loads((phase16/'no_truth_verification.json').read_text())
+    assert manifest16['completed'] and manifest16['status']=='completed'
+    assert len(manifest16['runs'])==20 and manifest16['main_exact_calls']==732572
+    assert manifest16['positive_exact_calls']==66600 and manifest16['total_exact_calls']==799172
+    assert evaluation16['manifest_sha256']==guard16['manifest_sha256']==sha(phase16/'manifest.json')
+    assert guard16['status']=='passed' and guard16['total_known_phase16_IDP_calls']==update16['known_total_IDP_calls']==799212
+    assert evaluation16['totals']['distinct_planted_keypairs']==4
+    hits16=Counter()
+    for p in evaluation16['profiles']:
+        if p['category']=='main':
+            assert p['privileged'] and not p['unknown_key_recovery_test']
+            hits16[p['policy']]+=int(p['final_numeric_is_target'])
+    assert dict(hits16)=={'A':6,'B':8}
     print(json.dumps({'status':'passed','hashed_repository_files':len(checksums),
         'original_inventory_entries':len(entries),'canonical_ciphertexts':'match',
         'phase11_rows':len(runs),'phase11_archive_recoveries':dict(hits),
         'phase14_rows':len(runs14),'phase14_archive_recoveries':dict(hits14),
         'phase15_static_profiles':len(manifest15['runs']),
         'phase15_recorded_principal_backend_calls':399600,
+        'phase16_main_privileged_trajectories':16,
+        'phase16_main_exact_K2_recoveries':dict(hits16),
+        'phase16_recorded_total_IDP_calls':799212,
         'new_searches':0,'scope':'selected export integrity and recorded recovery counts'},indent=2))
 
 if __name__=='__main__': main()

@@ -1,0 +1,20 @@
+{
+  "started_at_utc": "2026-10-03T00:13:38.776430+00:00",
+  "plan_sha256": "d49fd982d92525a05b6ae32a7cf2989acdc94a9f72feb398c81fba9ecee6f23b",
+  "url": "https://archive.org/advancedsearch.php?q=%28identifier%3AT120%2A+OR+identifier%3AT-120%2A+OR+title%3AT120+OR+title%3A%22Records+of+the+German+Foreign+Office%22%29+AND+mediatype%3Atexts&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=creator&fl%5B%5D=date&rows=100&page=1&output=json",
+  "method": "GET",
+  "attempts": 1,
+  "redirects_followed": 0,
+  "cookies": false,
+  "authentication": false,
+  "status": 200,
+  "body_read": true,
+  "content_type": "application/json",
+  "body_truncated": false,
+  "body_bytes": 3307,
+  "body_sha256": "3790caf720ec50df09a5e1fa7cb084e7ec84f308d70b45b386c54ba76e3315bc",
+  "json_parsed": true,
+  "numFound": 26,
+  "docs_returned": 26,
+  "finished_at_utc": "2026-10-03T00:13:39.628519+00:00"
+}
