@@ -1,0 +1,7 @@
+{
+  "access_started_lower_bound_utc": "2026-10-03T05:15:00.780127+00:00",
+  "global_deadline_utc": "2026-10-03T05:25:00.780127+00:00",
+  "plan_sha256": "f915c858ee3cd46be2666597e055e0ce80c881ea6a9ddfcd89583eda15a3fc70",
+  "external_requests_before_plan": 0,
+  "new_IDP_calls": 0
+}

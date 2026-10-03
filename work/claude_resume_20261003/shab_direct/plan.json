@@ -1,0 +1,46 @@
+{
+  "created_at_utc": "2026-10-03T05:15:00.618Z",
+  "status": "root_approved_before_external_access",
+  "directory": "work/claude_resume_20261003/shab_direct",
+  "question": "Contemporary PATVAG Zurich register notice, identity/office/object, not telegram contents.",
+  "independent_novelty_and_plan": "work/claude_resume_20261003/novelty_shab_review.txt",
+  "novelty": "Earlier three external-index queries closed; direct corpus search not found in checked records. Not entirely new SHAB idea.",
+  "period": {
+    "from": "1930-01-01",
+    "to": "1938-12-31"
+  },
+  "first_source": "https://www.nb.admin.ch/dam/en/sd-web/Idy-UNQ4fWWs/shab-info.pdf",
+  "access": {
+    "institution_or_interface_readings_max": 3,
+    "including_initial_guide": true,
+    "corpora_max": 1,
+    "follow_only_observed_links": true,
+    "queries_max": 2,
+    "first_query": "PATVAG",
+    "optional_second_query": "Oswald, same period, Zurich only if documented native geographical filter or conjunction available; otherwise omit.",
+    "metadata_read_max": 20,
+    "additional_result_pages": 0,
+    "original_notices_max": 2,
+    "original_notice_pages_max": 4,
+    "guide_pages_max": 2,
+    "observable_external_read_requests_max": 7,
+    "hidden_tool_requests_not_separately_known": true
+  },
+  "selection": "Explicit PATVAG first; then Oswald linked to PATVAG or Bahnhofstrasse12, closest date to1937-01-08, then source order. Homonyms/cooccurrence elsewhere do not qualify.",
+  "time": {
+    "minutes_max": 10,
+    "start": "Conservative UTC clock immediately before first external access, deadline derived and shared by all stages.",
+    "reset_allowed": false
+  },
+  "stop": [
+    "Any relevant request/reading/time ceiling",
+    "Blocking, account requirement or public interface not observed within3 access readings",
+    "No pertinent reference under fixed selection"
+  ],
+  "prohibitions": [
+    "No index-query repeats or new terms/date extensions after results",
+    "No bypasses, contacts, purchases, orders or account changes",
+    "No scoring, solver, truth evaluation or scientific panel modification"
+  ],
+  "new_IDP_calls": 0
+}

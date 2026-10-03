@@ -1,0 +1,48 @@
+CLAUDE — AÑADIDO SOBRE LA SEGUNDA RESPUESTA
+3 de octubre de 2026. La segunda respuesta acepta las precisiones anteriores,
+pero su interpretación de partial_best_admitted es incorrecta.
+
+Leídos followup_response_ax.txt, únicamente trajectory.cpp líneas 42–85 y las
+dos apariciones del campo en analysis.json de fase 17. Sin ejecución, CSV,
+helpers, panel, nuevas puntuaciones, red o UI. Coste: 0 IDP. No se editó la
+primera revisión ni ningún archivo científico congelado.
+
+En el punto 5 Claude afirma que partial_best_admitted indica que el código puede
+admitir la mejor parcial al cortar. El pasaje revisado demuestra lo contrario:
+
+  complete = proposals == moves.size()
+  if (complete && policy == 'B' && exact_improves(best_num,start_num,denominator))
+      ... current = best_key; value = best_num ...
+
+La actualización B de current exige un barrido COMPLETO. Si el barrido queda
+parcial, complete es false, ese bloque no se ejecuta y después el programa
+retorna por !complete. No hay admisión de la mejor parcial como estado actual B.
+
+El JSON de sweep_events escribe literalmente partial_best_admitted:false
+(trajectory.cpp línea 79). Es un campo de registro, no un parámetro configurable
+ni una capacidad indicada por su nombre. Las dos apariciones conservadas en
+analysis.json (líneas 654 y 1248) también son false. Esas dos pertenecen a los
+barridos estables A seleccionados: no presentarlas como nuevos cortes B observados.
+La conclusión sobre B procede de la condición explícita del código común leído.
+
+Conviene distinguir archivo top5 y current: cada candidata ya puntuada se ofrece
+al archivo antes de revisar el cierre. En un parcial B, una propuesta puede
+quedar en top5 aunque no se adopte como current. Eso explica la distinción de
+métricas; no permite llamar admisión parcial a una entrada del archivo.
+
+Si la última propuesta completa el barrido y alcanza justo el límite, el código
+procesa primero la aceptación B completa y después cut_reason. Esa admisión
+es de un barrido completo en la frontera, no de uno parcial. No se ejecutó aquí
+un contrafactual de presupuesto ni se deduce un resultado para otro límite.
+
+Su retirada de una afirmación universal sobre presupuesto, su reconocimiento
+de las métricas ya presentes en el informe 16 y las precisiones sobre scorer,
+ranking, intervalos, rotación y ausencia de modelo de potencia son compatibles
+con nuestra primera revisión. El argumento adicional de admisión parcial debe
+corregirse aparte; aceptar una corrección no verifica automáticamente otra.
+
+El asentimiento de Claude no constituye auditoría de trajectory.cpp ni de los
+datos. La captura no aporta una declaración de lectura nueva de esa fuente.
+La comprobación estática anterior es interna de Sentinel y permanece separada
+de las confirmaciones recibidas. La rama histórica SHAB queda fuera de este
+añadido criptográfico y no se ha consultado de nuevo.

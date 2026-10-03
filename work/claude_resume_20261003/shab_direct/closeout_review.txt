@@ -1,0 +1,81 @@
+Revisión independiente del cierre SHAB/FOSC
+3 de octubre de 2026
+APTO para publicar las notas propias con los límites indicados
+
+El apartado histórico de outputs/Sentinel_BLUME_revision_Claude_2026-10-03.txt
+coincide con la revisión de novedad, el plan y los recibos. No se obtuvo un asiento
+de PATVAG, una identidad nueva o un dato sobre el contenido de los telegramas.
+El resultado es una guía institucional leída y un acceso posterior fallido, no
+una búsqueda negativa de una empresa en el corpus SHAB.
+
+Novedad y fuente
+
+La nota conserva la distinción correcta: tres búsquedas externas sobre PATVAG
+y SHAB/Handelsamtsblatt ya figuraban en fase 9; una consulta directa del corpus
+no apareció en los registros locales revisados. No se presenta toda la idea SHAB
+como nueva. La diferencia pendiente era leer asientos contemporáneos.
+
+La respuesta local guide_web_response.json contiene texto de las dos páginas
+de la guía de la Biblioteca Nacional suiza. Su fecha de actualización declarada
+es 20 de marzo de 2026. Describe SHAB 1883–2001 y la serie posterior en E-Periodica,
+con búsqueda textual declarada para 1883–2020, y colecciones en e-Helvetica.
+Así, 1930–1938 cabe en la cobertura descrita. Esto no verifica el acceso actual
+a un número, la respuesta del buscador, su OCR o un asiento sobre Oswald/PATVAG.
+La nota de raíz mantiene esa separación. No se leyó visualmente el PDF guía ni
+se obtuvieron sus anotaciones de enlace.
+
+Plan, reloj y contabilidad
+
+El plan se creó a las 05:15:00.618 UTC, antes del inicio conservador de acceso
+a las 05:15:00.780 UTC. El plazo global terminaba a las 05:25:00.780 UTC.
+El segundo intento empezó a las 05:16:37.811 UTC y el cierre se registró a las
+05:20:13.958 UTC: unos cinco minutos y trece segundos desde el inicio, sin reiniciar
+el reloj ni agotar el tiempo restante.
+
+Hubo una apertura observable con web, que devolvió el texto de la guía, y una
+petición HTTP propia de lectura de la misma guía para recuperar href exactos.
+Esta segunda lectura está contada como intento 2; no es gratis ni una consulta
+empresarial. Terminó en RemoteDisconnected. El recibo conserva URL, fecha,
+finalidad y error; no hay cuerpo de respuesta recibido y guardado para ese intento.
+Los dos son intentos observables, no un recuento del tráfico interno de web.
+
+Totales coincidentes entre ledger y relato: dos intentos de acceso, una petición
+HTTP propia fallida, cero corpus abiertos, cero consultas directas, cero metadatos
+de empresas, cero asientos originales y cero páginas visuales de la guía.
+Se leyeron dos páginas de texto de la guía mediante la extracción de web. No hubo
+reintento del fallo, plataforma alternativa, endpoint supuesto, contacto, compra,
+pedido, cuenta, solver o IDP. El plan tenía techos de tres lecturas de acceso,
+dos consultas, veinte metadatos y dos asientos/cuatro páginas; cerrar antes de
+consumirlos respeta la condición de parada por fallo de acceso.
+
+Se comprobaron los hashes del plan y del recibo de fallo mediante lectura local:
+plan.json
+f915c858ee3cd46be2666597e055e0ce80c881ea6a9ddfcd89583eda15a3fc70
+guide_link_receipt.json
+8cfaff9f08da316360ac00c896019d463cf555e2ee60cf8bbb9747e7c7ed6cb4
+Ambos coinciden con los valores referidos por access_started.json y ledger.json.
+
+Límite de la conclusión
+
+La formulación adecuada es que no se llegó al corpus ni se ejecutó la consulta
+prevista. No decir que PATVAG no aparece en SHAB, que no existen esos registros,
+que el corpus completo está bloqueado o que hace falta una cuenta. La guía describe
+una vía; el fallo impide comprobarla en esta ronda.
+
+También es correcto reducir el valor del objeto social a contexto empresarial
+declarado. Ni una mención a lana ni su ausencia probarían compras reales, trato
+con Salamanca, verdad o falsedad del testimonio ni contenido de los telegramas.
+No se encontró aquí un objeto social nuevo que contrastar.
+
+Alcance de esta revisión
+
+Se leyeron novelty_shab_review.txt, shab_direct/plan.json, access_started.json,
+guide_web_response.json, guide_link_receipt.json, ledger.json y el informe citado.
+Sólo se revisó el componente histórico y su contabilidad; no se certificaron aquí
+el cálculo criptográfico, la interfaz de Claude o el envío de sus mensajes.
+La última corrección preparada para Claude no debe contarse como enviada.
+
+Esta revisión creó únicamente esta nota nueva. No abrió red, PDF o UI, no creó
+imágenes, no ejecutó OCR, helpers, consultas o IDP y no modificó congelados.
+No requiere ampliar la ruta. Cuerpos externos y capturas UI permanecen locales;
+las notas propias completas pueden pasar a la revisión de publicación.

@@ -269,6 +269,32 @@ and there was no new attempt to access it. Phase 16 design, execution and audits
 are internal Sentinel work; no Claude approval or certification is claimed.
 The phase 17 saved-log reading and audits also had no fresh Claude consultation.
 
+## Consultation after those frozen phases — 3 October 2026
+
+The thirteen-link packet was sent once after Javier said Claude was ready.
+Two exchanges completed in the existing Opus 5.5 Medium chat. Claude declared
+reading only the phase 17 report, its analysis JSON and the Gazeta note; it did
+not certify phase 16 code, plans, CSVs or the prior internal audits. Sentinel
+checked the critique by static reads and arithmetic on saved numerators, with
+zero new objective calls, searches or CSV replays.
+
+The accepted corrections limit exclusive search-versus-objective claims,
+probability/power language, inclusive call endpoints and universal budget claims.
+The first A move rotates last-to-front, changing 25 positions relative to the
+previous state: one graph move, not distance to K2 or a demonstrated failure cause.
+The second reply introduced a new error: partial_best_admitted is literally false
+in the writer and B adoption requires a complete sweep. Sentinel corrected that
+claim in a static-code addendum. The final short prompt remains unsent after Mac
+relocking. Do not resend the initial packet or the completed follow-up. See the
+[own checked review](../outputs/Sentinel_BLUME_revision_Claude_2026-10-03.txt).
+
+The SHAB idea has partial novelty: phase 9 had three external-index queries.
+A bounded direct-access attempt read the institutional guide; an own HTTP
+request to recover its exact PDF links failed. Zero corpus queries or notices
+were read. Guide coverage and a declared company object do not prove actual
+wool transactions or telegram contents. No extended SHAB round or scoring plan
+is approved by this review.
+
 ## Useful next tasks
 
 1. Confirm access to T120/296, frames 254221–254222, and T120/1594, frames

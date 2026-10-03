@@ -32,6 +32,14 @@ was checked on two pages. This approximate search supplies no BLUME identity
 or corpus-absence finding. It added zero IDP calls or cryptanalytic experiments.
 See the [direct Gazeta note](work/primary_history_20261003/resultado_directo_gazeta.txt).
 
+A later [review with Claude, in Spanish](outputs/Sentinel_BLUME_revision_Claude_2026-10-03.txt)
+checked its critique against saved values and static code with zero new scoring.
+Two exchanges completed; Claude declared reading three files, not the phase 16
+source or all thirteen supplied links. A final short correction remains unsent
+after the Mac relocked. The proposed SHAB/FOSC route yielded an institutional
+guide and one failed follow-up HTTP request; no corpus query or commercial
+notice was read. This adds no historical identity or cryptanalytic experiment.
+
 ## Start here
 
 1. [Context for Claude and other collaborators](docs/CONTEXT_FOR_CLAUDE.md): the
@@ -167,3 +175,8 @@ repository or our conclusions.
 
 Code and data have several licences. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 No single licence is applied to every external item or to the entire research collection.
+
+The later Claude review and SHAB access attempt have a separate
+[inventory](provenance/claude_review_20261003_source_inventory.jsonl) and
+[update record](provenance/claude_review_20261003_update.json). The Gazeta checksum
+is preserved as [gazeta_20261003_file_hashes.json](provenance/gazeta_20261003_file_hashes.json).

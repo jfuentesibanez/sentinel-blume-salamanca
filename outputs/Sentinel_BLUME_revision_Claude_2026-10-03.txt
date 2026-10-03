@@ -1,0 +1,107 @@
+BLUME SALAMANCA — REVISIÓN CON CLAUDE Y SEGUIMIENTO SHAB
+3 de octubre de 2026. Nota posterior a las fases científicas congeladas.
+
+Seguimos sin destinatario BLUME, clave o texto claro históricos verificados.
+Esta revisión no añade experimento, recuperación independiente, puntuación IDP,
+trayectoria o búsqueda criptográfica. Los datos e informes anteriores se conservan.
+
+CONSULTA Y ALCANCE
+
+Javier avisó «Claude listo». Computer Use encontró la app en el chat correcto,
+con Opus 5.5 Medium visible. Se envió una vez la consulta preparada y revisada,
+con trece enlaces inmutables. Claude declaró leer tres archivos: informe de
+fase 17, analysis.json y nota Gazeta. No declaró leer las fuentes de fase 16,
+su scorer/solver, planes, auditorías o CSV. Su respuesta es una crítica de esos
+registros, no una certificación externa de los experimentos.
+
+El equipo cotejó sus afirmaciones por lectura de registros, fuentes estáticas
+y aritmética de numeradores ya guardados. Hubo un segundo mensaje de precisiones
+y una segunda respuesta. Claude aceptó las correcciones principales, pero añadió
+una inferencia errónea sobre una bandera de admisión parcial. La última corrección
+está preparada; el Mac volvió a bloquearse antes de pegarla o enviarla. No se
+sondeó de nuevo el bloqueo. Las capturas AX y el diálogo observado quedan locales;
+no se presentan como un export original Markdown de Claude.
+
+QUÉ SE COMPROBÓ
+
+En los dos pares alemanes seleccionados post hoc, el score guardado del final B,
+identificado como K2 por la evaluación externa anterior, supera al final A:
+
+Par DE                    Diferencia de numeradores / 6375342080
+20262401 / H8             1981015023 / 6375342080 = 0,310730781
+20262402 / H4             1837756674 / 6375342080 = 0,288260089
+
+La primera aceptación B también supera esos finales A, por 0,130593363 y
+0,176267366. Son restas de scores existentes, con aproximaciones para mostrar;
+no se volvió a puntuar K2. Esto demuestra la ordenación de esos estados conocidos.
+No demuestra que K2 sea máximo global, que toda clave falsa puntúe menos o que
+el objetivo no contribuya al paisaje que dificulta la búsqueda. No explica
+los resultados de fase 14 ni valida el objetivo para los telegramas históricos.
+
+La condición numérica que Claude dejó pendiente se resolvió por lectura de
+exact_scorer.h: el objetivo se calcula con enteros que representan exactamente
+los coeficientes binary32 congelados, su greedy y floor. No es exactitud respecto
+a probabilidades reales sin cuantización. El denominador guardado es fijo;
+no se recalculó el panel para verificarlo. Los máximos locales estrictos siguen
+siendo relativos al catálogo fuente y a ese objetivo.
+
+La primera aceptación A, movimiento 1/kind 0, es una rotación que lleva el último
+elemento al frente. Cambia las 25 posiciones frente al estado anterior, aunque
+es un paso del grafo. Ese Hamming 25 no es la distancia a K2 ni prueba una causa
+del fracaso. No se ampliaron movimientos o rutas para buscar un éxito retrospectivo.
+
+Una precisión de la respuesta de Claude: los últimos barridos estables A contienen
+las propuestas (16650,33299] y (33299,49948], 16649 cada uno. Los start_call son
+fronteras anteriores; incluirlas como propuestas añadiría una llamada de más.
+Esta precisión corrige la respuesta, sin alterar los archivos congelados.
+
+En DE 20262401/H8, B evaluó K2 y la incorporó al top5 en la llamada 41006;
+la adoptó como estado actual en 49948. El informe 16 ya distingue evaluación,
+top5 y estado final. No se probó otro presupuesto. En el código congelado B
+acepta al completar el barrido: la condición exige complete y el registro escribe
+partial_best_admitted:false. La segunda respuesta de Claude infería de esa bandera
+una capacidad de aceptar la mejor parcial; la lectura estática la contradice.
+
+La ausencia de una unión directa sólo cubre el testigo fijado y los estados B
+guardados. Claude retiró «casi imposible» y «poca potencia»: no hay distribución
+o modelo probabilístico que cuantifique esas expresiones. El análisis 17 sigue
+siendo descriptivo post hoc, con dos fallos seleccionados y sin réplicas nuevas.
+Su pregunta para un experimento futuro no constituye un plan aprobado.
+
+SHAB/FOSC: NOVEDAD PARCIAL Y LÍMITE DE ACCESO
+
+Claude propuso el registro mercantil suizo para precisar la firma, responsables,
+domicilio y objeto social de PATVAG. La fase 9 ya registró tres consultas en un
+índice externo sobre PATVAG/1936/Handelsamtsblatt/SHAB, sin obtener un asiento.
+En los registros locales revisados no se encontró una consulta directa del corpus.
+Esa distinción permitió fijar un intento acotado antes del acceso: tres lecturas
+institucionales/de interfaz, dos consultas máximas, veinte metadatos, dos asientos
+y diez minutos globales, sin variantes posteriores o reintentos de bloqueo.
+
+La guía de la Biblioteca Nacional suiza, actualizada el 20 de marzo de 2026,
+describe búsqueda de texto completo en E-Periodica para 1883–2020 y también
+colecciones en e-Helvetica. El periodo 1930–1938 está dentro de esa cobertura
+declarada. Se leyeron las dos páginas de texto de la guía; no se accedió al corpus.
+Fuente: https://www.nb.admin.ch/dam/en/sd-web/Idy-UNQ4fWWs/shab-info.pdf
+
+La herramienta web pudo leer la guía. Una petición HTTP propia para recuperar
+los href exactos de su PDF terminó en RemoteDisconnected, sin respuesta o bytes.
+Se cerró el intento: un web-open observable y una petición propia fallida,
+dos intentos de acceso, cero consultas directas, cero metadatos de empresas y
+cero asientos originales. No hubo descarga de un número histórico ni lectura
+visual de asientos. No se inventaron endpoints o enlaces para continuar.
+Este fallo no prueba que falten registros o que toda la plataforma sea inaccesible.
+
+Un objeto social aportaría contexto empresarial declarado. No demostraría compras
+de lana, trato con Salamanca o contenido cifrado. Tampoco su ausencia probaría
+que el testimonio de Werner fuera falso. No se obtuvo aquí un nuevo dato de PATVAG.
+
+EVIDENCIA Y CONTINUIDAD
+
+Los cotejos propios están en work/claude_resume_20261003/crypto_claims_review.txt
+y novelty_shab_review.txt. El plan y los recibos de acceso están en shab_direct/.
+El diálogo exacto observado, sus hashes y capturas UI se conservan sólo localmente.
+La afirmación nueva sobre admisión parcial se recoge en un addendum separado.
+La corrección pendiente no equivale a un envío. Cero IDP, solvers, contactos
+humanos, compras, pedidos o cambios de cuenta. Nuevas consultas o puntuaciones
+requieren otra pregunta y sus límites fijados antes; este panel sigue cerrado.

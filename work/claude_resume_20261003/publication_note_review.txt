@@ -1,0 +1,82 @@
+CLAUDE Y SHAB — REVISIÓN DE LA NOTA PARA PUBLICACIÓN
+3 de octubre de 2026
+
+DICTAMEN: PASS / APTO. Sin errores materiales ni correcciones obligatorias.
+Informe: outputs/Sentinel_BLUME_revision_Claude_2026-10-03.txt
+SHA-256: 50455c2061523d5149619a874e1fb8336ce0de16cfaae3dc77c3d0657b9dcf0d
+
+Cotejo sólo de lectura contra las seis notas/JSON propios propuestos y el recibo
+local de corrección pendiente. No UI/red, ejecución de helpers/scripts, CSV,
+modelos, truth, scorer, solver ni nueva puntuación. No modifiqué el repo.
+
+Consulta Claude
+La nota distingue dos intercambios completos de una tercera corrección preparada
+pero no enviada. El recibo pendiente confirma un get_state fallido por bloqueo,
+cero envíos/clicks/pegados y cero intentos posteriores sin señal de cambio.
+No se presenta ese prompt como recibido o aceptado por Claude. El modelo visible,
+consulta inicial única y trece enlaces corresponden al relato propio de raíz;
+esta revisión no reabre capturas UI para verificar esas operaciones.
+
+La lectura declarada de Claude alcanza tres archivos: informe17, analysis y
+notaGazeta. No se convierte en una auditoría externa de scorer/solver, fuente16,
+planes, datos, CSV o experimentos. Se distinguen crítica recibida, cotejo interno,
+correcciones aceptadas y nueva inferencia parcial incorrecta. La captura exacta
+AX y el derivado textual no se presentan como un export original Markdown.
+
+Cifras y lógica
+- Diferencias guardadas Bfinal−A: 1.981.015.023 y1.837.756.674 sobre6.375.342.080;
+  decimales0,310730781/0,288260089 correctos. PrimeraB−Afinal0,130593363/0,176267366
+  coincide con la revisión. Son restas de registros, no IDP nuevas ni scoreK2 nuevo.
+- Binary32 exacto significa el racional del objetivo cuantizado y su greedy/floor,
+  no probabilidades reales. Máximos locales se limitan al catálogo y al objetivo.
+  Que dos finales incorrectos puntúen menos que K2 no excluye problemas del
+  paisaje/objetivo ni fija una causa exclusiva, óptimo global o validez histórica.
+- Primera A es movimiento1/kind0, rotación último→frente; Hamming25 frente al
+  anterior, un paso del grafo. No es Hamming aK2 ni causa demostrada del fallo.
+- Fronteras correctas:(16650,33299] y(33299,49948], cada una16649 propuestas.
+  Los start_call no se incluyen como propuestas del barrido posterior.
+- DE20262401/H8 B: evaluación/top5 en41006 y adopción49948, sin nuevo presupuesto.
+  Las métricas ya estaban distinguidas en informe16; no se atribuye una omisión
+  absoluta ni invariancia universal de top5 bajo otro límite.
+- El addendum contradice la inferencia de Claude sobre partial_best_admitted:
+  la condición B exige complete; false es registro fijo, no capacidad configurable.
+  Archivo top5 y current son distintos; no se convierte entrada de archivo en
+  admisión parcial del estado actual. No hubo cortes B o contrafactual nuevos.
+- Sin uniones directas no se estima probabilidad, potencia o barrera global.
+  Sigue siendo lectura post hoc de dos fallos seleccionados; no añade réplicas,
+  tasa, fase criptográfica, scoring o plan experimental aprobado.
+
+SHAB/FOSC
+La novedad es parcial: tres consultas previas de índice externo en fase9, no
+consulta directa encontrada del corpus en los registros revisados. No se afirma
+que nadie lo consultara alguna vez. El plan se fijó antes del acceso:3lecturas,
+2consultas máximas,20metadatos,2asientos y10minutos compartidos; los máximos no
+se presentan como cuotas consumidas. No se añade un reloj o plataforma de relevo.
+
+Contabilidad final cotejada y hashes de plan/recibo ligados al ledger:
+1web-open observable de guía +1HTTP propio fallido =2intentos de acceso;
+0HTTP éxitos,0corpus abiertos,0consultas directas,0metadatos de empresas,
+0asientos comerciales originales;2páginas de texto de guía y0páginas visuales.
+RemoteDisconnected ocurrió sin respuesta/bytes. No se transforma lectura de
+una guía institucional en lectura de asiento comercial o nuevo dato PATVAG.
+Se preserva desconocimiento de peticiones internas del web tool.
+
+La guía declara full-text1883–2020(incluido Sogc posterior;SHAB digitalizado1883–2001)
+y e-Helvetica;1930–1938 está en ese ámbito declarado. No se verificó el buscador
+ni disponibilidad presente del corpus. Fallo de extracción de href no equivale
+a ausencia de registros o inaccesibilidad universal. Objeto social sería contexto
+empresarial declarado, no prueba de compras de lana, Salamanca o plaintext; ni
+su ausencia probaría que Werner mintió. Estas limitaciones constan en el informe.
+
+Selección pública propuesta:7archivos propios exactos: informe y las seis notas/
+JSON cotejados. No copiar AX/raw web, derivados de respuesta exacta, capturas,
+prompts/recibos de operación UI ni corrección preparada. Sin helper nuevo.
+La nota own puede resumir la consulta y su crítica sin publicar conversación
+original ni elevar asentimientos a evidencia histórica. Conservar fases
+científicas y sus fuentes/planes/recibos/resultados íntegros.
+
+Pendiente tras esta revisión: tres enlaces actuales, selección final, destinos,
+hashes de copias y checksum. Este PASS corresponde a la nota y al ámbito propuesto,
+no afirma haber realizado un export nuevo o una consulta adicional.
+
+Guardado UTC:2026-10-03T05:30:43.546021+00:00

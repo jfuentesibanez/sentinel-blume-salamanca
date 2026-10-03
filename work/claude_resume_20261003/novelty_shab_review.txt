@@ -1,0 +1,93 @@
+Novedad local de la propuesta SHAB/FOSC de Claude
+3 de octubre de 2026. Propuesta pendiente; no ejecutada
+
+La novedad es parcial. Ya se ensayó el SHAB como pista mediante búsquedas web
+externas sobre PATVAG. No encontré una consulta directa registrada del corpus
+SHAB/FOSC o e-Helvetica ni una lectura de un asiento comercial contemporáneo
+de PATVAG. Ese aspecto pendiente puede ser útil y debe distinguirse del intento
+anterior. No se justifica decir que todo el SHAB era una idea nueva.
+
+Evidencia local concreta
+
+work/history/phase9-oswald-complemento/ledger.json, de 2 de octubre, registra:
+- Consulta 9: «Patvag» «1936» site:e-periodica.ch.
+- Consulta 11: «Patvag» «Handelsamtsblatt».
+- Consulta 19: «Patvag» «1936» «SHAB».
+La lista figura en las líneas 13, 15 y 23 del JSON. Su apartado outcome dice que
+no se obtuvo el asiento comercial PATVAG de 1936. No registra la consulta del
+buscador interno de esos periódicos ni un asiento o número original leído.
+
+E-Periodica aparece además en fases 5/6 para publicaciones sobre Hunziker,
+«Drei Kamine» y fuentes industriales, y en fases 7–9 para asuntos PTT. Algunas
+aperturas devolvieron verificación, Cache miss o errores. Son títulos y objetos
+distintos del SHAB: no prueban una consulta del registro comercial ni autorizan
+eludir un bloqueo si el nuevo objeto también lo presenta. La búsqueda de corpus
+criptográficos arrojó coincidencias léxicas ajenas a esta pista y se descartaron.
+
+Se usaron rg -l y rg -M 500 en work y outputs, sin el clon del repositorio,
+capturas UI, cache o esta nota. Las copias exportadas de outputs no se contaron
+como intentos distintos; se leyeron los registros fuente de work/history. Las
+líneas extensas de respuestas web se identificaron como coincidencias, sin
+transformarlas en una lectura nueva del periódico. La revisión se limita a los
+registros encontrados; no demuestra que nunca se consultara SHAB fuera de ellos.
+
+Respuesta de Claude leída: response_text_derived.txt, pasaje de líneas 64–69,
+y el vínculo visible en response_ax.txt. Claude declara que no abrió números de
+1930–1938 ni consultó Oswald. Su enlace propuesto es:
+https://www.nb.admin.ch/dam/en/sd-web/Idy-UNQ4fWWs/shab-info.pdf
+No abrí ese PDF ni verifiqué aquí sus afirmaciones de cobertura y acceso. El
+primer paso externo, si raíz lo aprueba, debe comprobar esa fuente institucional.
+
+Qué puede aportar y qué no
+
+Un asiento SHAB contemporáneo puede fijar denominación legal, domicilio,
+administradores, firmantes, cambios y objeto social publicados de una firma.
+Es una fuente primaria para esos datos. Puede contrastarse con PATVAG y la
+dirección Bahnhofstrasse 12 de los formularios; un Oswald aislado no establece
+que sea uno de los hermanos ni que su firma enviara estos telegramas.
+
+El objeto social informa de la actividad declarada o permitida. No demuestra
+actividad efectiva, compra de lana, trato con Salamanca ni contenido cifrado.
+Una mención expresa a lana sería contexto comercial compatible, no confirmación
+del testimonio. Su ausencia o un objeto genérico tampoco probarían que Werner
+mintió. Por tanto, «contrasta directamente el testimonio de la lana», como dice
+Claude, debe reducirse a un contraste indirecto del contexto empresarial.
+
+Plan breve propuesto para raíz, sin ejecución
+
+Pregunta: ¿hay un asiento primario que documente la firma o un cambio de PATVAG
+en Zúrich entre 1930 y 1938 y permita precisar actores, domicilio y objeto social?
+Mantener el periodo 1930-01-01 a 1938-12-31; no extenderlo tras los resultados.
+
+Acceso: máximo tres lecturas institucionales/de interfaz, incluida la información
+BN citada, una colección SHAB/FOSC enlazada por ella y su buscador o ayuda. Seguir
+sólo href observados; no inventar identificadores, endpoints o parámetros. Elegir
+un solo corpus: el primero que ofrezca controles verificables de texto y fecha.
+Si falta acceso público, aparece bloqueo/cuenta o se agota ese techo, cerrar;
+no abrir otra plataforma para reintentar un bloqueo.
+
+Consultas directas: máximo dos. Primera, PATVAG en el campo de texto del corpus
+con esas fechas. Segunda, Oswald con el mismo periodo y Zúrich si la interfaz
+ofrece un filtro geográfico documentado o conjunción textual comprobable. Si no
+lo ofrece, omitir la segunda, sin inventar variantes de ciudad o del apellido.
+No repetir consultas web-index anteriores ni agregar términos tras resultados.
+Registrar los campos exactos y distinguir filtro de metadatos de texto completo.
+
+Lectura: máximo veinte metadatos en total entre ambas consultas, sin paginación
+adicional. Máximo dos asientos originales y cuatro páginas pertinentes en total.
+Priorizar PATVAG explícita; después Oswald con domicilio o cargo conectado a esa
+firma o al domicilio del formulario, fecha más próxima al 8 de enero de 1937 y
+orden de fuente en caso de empate. La ciudad en otra entrada del mismo número
+no es un vínculo. Si un asiento se corta al final de página, su continuación
+consume el mismo límite; no recorrer todo el número.
+
+Límite global: diez minutos desde el primer acceso externo, compartidos por
+acceso, consultas y lectura; comprobarlo antes de cada petición y no reiniciarlo.
+Parar al alcanzar cualquier techo o sin referencia pertinente. Conservar costes,
+fallos, criterios, URLs, fechas y evidencia; originales/capturas externos locales,
+notas propias revisables. Cero contactos, pedidos, cuentas, compras, solvers o
+IDP. Los negativos quedan limitados a campos, sintaxis, periodo y lectura real.
+
+No ejecuté este plan. Esta revisión hizo sólo lecturas locales y creó esta nota;
+no modificó congelados. No se seleccionó todavía ningún número, asiento, empresa
+o persona nuevos como hallazgo.

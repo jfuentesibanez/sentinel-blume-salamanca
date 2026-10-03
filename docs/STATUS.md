@@ -228,6 +228,27 @@ Own [result](../work/primary_history_20261003/resultado_directo_gazeta.txt),
 [independent review](../work/primary_history_20261003/review_final.txt) and
 [visual-read receipt](../work/primary_history_20261003/control_read_receipt.json).
 
+## Later Claude review and SHAB access — 3 October 2026
+
+Two Claude exchanges completed after Javier supplied a legitimate Mac-access
+signal. Claude declared reading the phase 17 report, its analysis JSON and the
+Gazeta note. Sentinel checked saved scores and static code with zero new IDP,
+solver runs or CSV replays. Known B finals outrank the two selected A failures,
+without proving a global optimum or excluding objective landscape problems.
+Earlier metric distinctions and B's complete-sweep requirement remain valid.
+Claude accepted the main corrections but then misread partial_best_admitted:
+the frozen code requires complete and records false. A final short correction
+is prepared but unsent because the Mac relocked.
+
+SHAB was queried through an external index in phase 9; a direct corpus route
+was not found in the checked local records. A bounded follow-up read the official
+Swiss National Library guide; one own HTTP request to recover its exact PDF
+links failed. No company query, metadata or commercial notice was read, and no
+absence of records follows. The round is closed, without a new cryptanalytic
+phase. See the [own review note](../outputs/Sentinel_BLUME_revision_Claude_2026-10-03.txt),
+[static-code correction](../work/claude_resume_20261003/addendum_second_response.txt)
+and [access ledger](../work/claude_resume_20261003/shab_direct/ledger.json).
+
 ## Next evidence to obtain
 
 Confirm access to T120/296, frames 254221–254222, and T120/1594, frames

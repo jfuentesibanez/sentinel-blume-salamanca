@@ -1,0 +1,148 @@
+CLAUDE — COTEJO LÓGICO DE LAS AFIRMACIONES CRIPTOGRÁFICAS
+3 de octubre de 2026. Dictamen: cifras principales correctas; varias inferencias
+requieren limitarse. No es una nueva auditoría numérica ni autorización experimental.
+
+Leí response_ax.txt (captura AX exacta), response_text_derived.txt (derivado, no
+export Markdown), analysis.json de fase 17, informes propios de fases 16/17 y
+exact_scorer.h de fase 16. Consulté exclusivamente el primer objeto registrado
+de moves.json, sin leer ni recorrer los demás movimientos. Sólo resté/dividí
+numeradores existentes y comparé arrays guardados. No abrí CSV, modelos o truth,
+ni ejecuté helpers, scorers, solvers o trayectorias. Sin red/UI. Coste: 0 IDP nuevas.
+
+1. Alcance real de la revisión de Claude
+
+Claude declara haber leído tres documentos: informe fase 17, analysis.json y
+nota Gazeta. Declara NO haber abierto fuentes de fase 16, scorer, trayectoria,
+plan, postaudit o CSV. La captura dice «Read 3 pages, searched the web»; no la
+convierto en comprobación independiente de código, datos, auditorías o búsqueda.
+La respuesta es una crítica de registros publicados con límites de lectura
+explícitos, no certificación externa de todos los cálculos.
+
+2. Máximos locales y fronteras de llamadas
+
+Correcto: cada final A tiene 16649 propuestas y vecinos distintos, todos de
+numerador inferior; cero iguales y superiores. El máximo local es estricto
+para ESE catálogo de movimientos y scorer, no para todas las permutaciones o
+otro vecindario. El cruce registrado produce cero uniones a estados actuales B.
+
+Corrección menor de endpoints: los start_call son 16650 (H8) y 33299 (H4), pero
+las propuestas del último barrido son 16651–33299 y 33300–49948, respectivamente.
+Las fronteras se escriben (16650,33299] y (33299,49948]. Si sus rangos se leen
+como inclusivos, añaden una llamada del barrido anterior. No altera el resultado.
+
+3. La condición sobre racionales queda resuelta por lectura estática
+
+dyadic extrae exactamente los bits del coeficiente binary32. ExactModel los
+convierte a enteros con escala común potencia de dos, con comprobaciones de
+overflow. Matrices, máximos, selección greedy, floor y suma se realizan en
+enteros. exact_trace devuelve numerator y denominator = scale * nr * width.
+En estos registros denominator es 6375342080. No es un float IDP redondeado
+convertido después a entero: es el racional exacto del objetivo con los
+coeficientes binary32 congelados, su greedy y floor. No certifica coeficientes
+reales sin cuantización ni la validez histórica del modelo.
+
+La comparación exact_improves conserva epsilon 1/10^12. Fase 17 cuenta igualdad
+por numeradores idénticos; con este denominador, la diferencia mínima no nula
+1/6375342080 supera epsilon. Por tanto, no hay una igualdad numérica pendiente
+por el redondeo que Claude dejó sin verificar al no abrir el header.
+
+4. Diferencias de scores guardados: correctas
+
+Par    Final B (K2 según evaluación previa)   Final A       B final − A / 6375342080
+H8     −14161822201                          −16142837224  1981015023 / 6375342080 = 0.310730781
+H4     −14393791376                          −16231548050  1837756674 / 6375342080 = 0.288260089
+
+La primera aceptación B también supera al final A:
+H8: −15310259863 − (−16142837224) = 832577361; cociente 0.130593363.
+H4: −15107783297 − (−16231548050) = 1123764753; cociente 0.176267366.
+Las aproximaciones 0.311/0.288 y 0.131/0.176 de Claude son correctas.
+Son aritmética de scores existentes, no evaluaciones nuevas de K2.
+
+La identificación del final B como K2 viene del campo final_numeric_is_target
+de la evaluación externa anterior. Sus adopciones coinciden con
+first_current_target_call: 49948 para este H8 y 33299 para este H4. No se hizo
+otra comparación con truth ni se puntuó una clave fuera de los registros.
+
+«Fallo de búsqueda y no de la función objetivo» es demasiado exclusivo. Sí se
+puede afirmar que estos finales incorrectos NO superan el score conocido de
+K2, y que A no alcanzó una clave de mayor score que B sí alcanzó. No demuestra
+que K2 sea máximo global, que todas las claves falsas puntúen menos, o que el
+objetivo no contribuya al paisaje de máximos/barreras. El scorer puede favorecer
+K2 frente a estos dos finales y seguir teniendo otros problemas. No explica
+los 0/32 de fase 14 ni valida un objetivo para telegramas históricos.
+
+5. Rotación: comprobada, con precisión sobre Hamming
+
+El único movimiento consultado es index 1, kind 0,
+p = [24,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23].
+Con candidate[i] = base[p[i]], es la rotación que lleva el último elemento al
+frente. Los from_numeric/to_numeric de la primera aceptación A la confirman
+en ambos pares, call 2. Cambia las 25 posiciones porque son permutaciones.
+Ese Hamming 25 es respecto al estado inicial anterior, NO una distancia a K2.
+Es un paso del grafo y una descripción útil. No prueba que esa rotación cause
+por sí sola el fracaso posterior de A o que evitarla mejoraría otros casos.
+
+6. Presupuesto, adopción y top5
+
+49948 es correcto: 1 + 3 * 16649. No aparece un error 49498 en la respuesta.
+En DE 20262401/H8, first_target_call y first_target_top5_call son 41006; la
+adopción de K2 es 49948 y su rango final top5 es 1. Recuperación y convergencia
+siguen siendo cosas distintas: este B no tuvo barrido estable posterior.
+En DE 20262402/H4, evaluación/top5 son 23001, adopción 33299 y hay convergencia
+observada aunque stop_reason sea call_limit.
+
+Es válido señalar que B decide al cierre completo. No es válido convertir
+«presupuesto no alineado» en un cambio universal del acierto o una invariancia
+universal del top5. El recorte debe permitir la evaluación del objetivo para
+que figure en el archivo; un límite anterior también puede perder ese acierto.
+Un límite que aún permite los cierres necesarios puede mantener el resultado.
+No se ejecutó ningún contrafactual de presupuesto. 41006 corresponde a este
+DE/H8: no es la llamada de entrada top5 de todos los H8; el informe 16 da, por
+ejemplo, 40924 para FR 20262404/H8.
+
+La supuesta omisión de métricas del informe 16 necesita corrección: su tabla
+ya separa K2 evaluada, K2 top5 final y K2 final, y explica que coincidieron en
+estos datos sin equivaler por definición. También distingue primera evaluación,
+adopción, costes, cap y convergencia. Una tabla adicional de tiempos por perfil
+puede ser una sugerencia editorial; no es una omisión absoluta ni nueva evidencia.
+
+7. «Casi imposible» y «poca potencia» no están demostrados
+
+La regla de testigo es estrecha: vecinos de un final A contra cuatro estados
+actuales B en H8 y tres en H4. Esa cobertura limitada está documentada. Pero
+no hay distribución de estados, hipótesis alternativa, efecto o cálculo de
+potencia que justifique «a priori casi imposible». Son trayectorias estructuradas
+del mismo caso/comienzo, no estados uniformes independientes en 25! permutaciones.
+La apreciación de utilidad es una opinión metodológica, no probabilidad medida.
+
+La lectura fase 17 no se presentó como test confirmatorio de potencia estadística;
+buscaba un testigo finito barato en registros ya pagados. Su ausencia sólo
+descarta esa forma de testigo en esos estados, y el informe ya limita barreras
+globales, otras rutas y la rama no vacía sin ejercitar. No ampliar el panel para
+buscar retrospectivamente un positivo ni convertir la opinión en diagnóstico causal.
+
+8. Propuesta experimental: pregunta posible, no plan ejecutable
+
+Preguntar si un final A incorrecto supera/iguala el score de K2 es una comparación
+falsable de rankings terminales. Los dos fallos A existentes ya son todos los
+fallos A de fase 16 y ambos quedan por debajo de K2; este cotejo no necesita
+ninguna llamada IDP adicional. Un final mayor sería un contraejemplo de ranking;
+uno igual, una ambigüedad sin discriminación estricta. Ninguno excluye a la vez
+limitaciones de búsqueda: no asignar automáticamente una causa exclusiva.
+
+Antes de una prueba futura harían falta pregunta, casos/semillas no usados,
+construcción de comienzos, política, métricas para todos los casos, criterios de
+empate/fallo, controles, presupuestos y reglas de corte fijados antes de verdad,
+más auditoría de plan/código. Todo scoring externo de K2, errores o reintentos
+debería contarse. No se reservó/generó ningún caso ni se aprobó ese gasto aquí.
+Una respuesta correcta de este diagnóstico tampoco validaría globalmente el
+objetivo, la recuperación desde azar, independencia de réplicas o BLUME.
+
+La ruta SHAB/FOSC pertenece a historia. La captura AX conserva un enlace suizo
+que el derivado textual omite. No abrí ese enlace ni comprobé sus fondos/OCR,
+periodo o novedad completa; no convertir la propuesta y las comprobaciones que
+Claude declara en un original histórico ya leído por Sentinel.
+
+Se creó únicamente esta revisión local; los datos científicos congelados siguen
+sin modificación. Los datos útiles añadidos son comparaciones de scores ya
+guardados y la identificación precisa de la primera rotación; no nuevos resultados.
