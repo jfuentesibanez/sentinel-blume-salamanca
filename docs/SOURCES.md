@@ -79,6 +79,26 @@ the documented scope. No contact, copy order, payment or account operation occur
 Do not use a serial as a T120 roll or a frame as a current R/RZ signature.
 The conversion and temporal proximity do not establish an Oswald/BLUME link.
 
+## Bounded phase 17 BOE nominal search
+
+Three literal web queries sought BLUME with Salamanca or 1936/1937 under the
+BOE Gazeta route. They used two web calls and opened zero original documents.
+Most results fell outside the requested route. The sole observed Gazeta URL
+was [18 October 1856](https://www.boe.es/gazeta/dias/1856/10/18/pdfs/GMD-1856-1384T.pdf)
+and was not opened because it lay outside the period. Other appearances of
+1936/1937 included registration numbers and retrospective references; they
+were not treated as candidates from those years.
+
+There was no direct historical-database query or reading of a local Salamanca
+register, and the search tool did not strictly respect the path filter. Corpus
+coverage was not tested. This supplies no BLUME identity and no evidence that
+the name is absent from the Gazeta or telegraphic-address registers.
+See our [bounded result](../work/phase17_history/resultado.txt),
+[fixed queries](../work/phase17_history/plan.json),
+[ledger](../work/phase17_history/ledger.json) and
+[receipt](../work/phase17_history/receipt.json). Raw external responses are
+referenced by hash and source URL rather than republished.
+
 ## File-level catalogues
 
 [source_inventory.jsonl](../provenance/source_inventory.jsonl) accounts for the
@@ -95,6 +115,10 @@ diagnostic and historical erratum without replacing earlier sources.
 and [phase16_update.json](../provenance/phase16_update.json) record the next
 privileged trajectories and catalogue-access notes. All earlier research
 reports and source inventories retain their bytes.
+[phase17_source_inventory.jsonl](../provenance/phase17_source_inventory.jsonl)
+and [phase17_update.json](../provenance/phase17_update.json) record the next
+post hoc saved-log descriptors and bounded BOE search without replacing earlier
+research or publishing external response bodies.
 Source URLs are navigation aids extracted from a recorded file; co-occurrence does not prove
 that each URL is the origin of every byte in that file. For exact mappings,
 use the institution's manifests and our source ledgers.

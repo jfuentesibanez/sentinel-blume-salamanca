@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-10-03T01:33:12.381649+00:00",
+  "status": "passed",
+  "analysis_sha256": "41f736527275bf704de10f00ad36e93f6228cf3b23a89f098009a5303b980db1",
+  "comparison_sha256": "d8d69307fa730af6fa4e8a1917c2ef35b9ed97788a3aa7ca1b2a98e00c415b18",
+  "run_receipt_sha256": "a1b6c14ad9596223711219236779fc781f11113c10e8cf38c54cfc8976fb6cab",
+  "protected_files_checked": 3151,
+  "protected_errors": [],
+  "stable_rows_independently_counted_by_root": 33298,
+  "checks": [
+    {
+      "case_id": "de_fold_20x25_20262401",
+      "perturbation": "h8",
+      "stable_rows_checked": 16649,
+      "unique_neighbours": 16649,
+      "counts": {
+        "greater": 0,
+        "equal": 0,
+        "lower": 16649
+      },
+      "maximum_saved_neighbour": -16146031050,
+      "direct_joins": 0
+    },
+    {
+      "case_id": "de_fold_20x25_20262402",
+      "perturbation": "h4",
+      "stable_rows_checked": 16649,
+      "unique_neighbours": 16649,
+      "counts": {
+        "greater": 0,
+        "equal": 0,
+        "lower": 16649
+      },
+      "maximum_saved_neighbour": -16241161604,
+      "direct_joins": 0
+    }
+  ],
+  "new_IDP_calls": 0,
+  "new_solver_trajectories": 0,
+  "scope": "Root independent count of two final-A complete stored neighbourhoods and direct intersections; not rescoring. Full descriptor/table check delegated separately."
+}

@@ -1,0 +1,17 @@
+{
+  "phase": "17-history",
+  "planned_at_utc": "2026-10-03T01:14:21Z",
+  "objective": "Buscar una mención identificadora de BLUME en documentos contemporáneos oficiales españoles, limitada a resultados indexados de Gazeta/BOE que puedan vincular nombre, empresa o dirección con Salamanca en 1936–1938.",
+  "route": "Gazeta histórica del BOE: documentos oficiales de la época; búsquedas web limitadas al dominio/ruta y apertura de un documento original sólo si el resultado ofrece un vínculo de época comprobable.",
+  "route_novelty": "Se revisaron README, docs/SOURCES.md, blume-registered-address-lead.json, blume-user-search-screenshot-audit.json y phase10-blume-diplomatico/ledger.json. El proyecto ya leyó una orden telegráfica general de 1934 y el decreto de la Junta de Defensa de 1936 en BOE; no se identificó una consulta previa de BLUME en el corpus oficial Gazeta. No se repiten PAAA, Correos, BAR, T120 ni Internet Archive.",
+  "limits": {"web_queries": 3, "web_opens": 3, "score_calls": 0, "contacts": 0, "purchases": 0},
+  "queries_in_order": [
+    "site:boe.es/gazeta/ \"Blume\" \"Salamanca\"",
+    "site:boe.es/gazeta/ \"Blume\" \"1937\"",
+    "site:boe.es/gazeta/ \"Blume\" \"1936\""
+  ],
+  "decision_rule": "Abrir sólo un resultado oficial con una fecha o descripción contemporánea potencialmente pertinente. Un apellido aislado no identifica al destinatario. Si no hay resultado pertinente en estas tres consultas, cerrar como negativo acotado a la indexación web y esta sintaxis; no inferir ausencia del apellido en el corpus ni ausencia de registro telegráfico.",
+  "preservation": "Sólo archivos nuevos en work/phase17_history; respuestas y escaneos externos quedan locales. Las notas propias podrán revisarse para publicación.",
+  "time_limit": "Una ronda cerrada, sin extensión tras resultados y sin reintentar bloqueos.",
+  "forbidden": ["solvers", "nuevas puntuaciones", "correo o mensajes a personas", "pedidos", "cuentas", "UI", "consultas de rutas agotadas"]
+}

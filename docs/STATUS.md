@@ -1,7 +1,9 @@
 # Research status — 3 October 2026
 
-**No verified historical plaintext, key or BLUME identity.** Phase 16 completed
-audited privileged trajectories on four new synthetic cases. Best-improvement B
+**No verified historical plaintext, key or BLUME identity.** The latest checkpoint,
+phase 17, describes four saved phase 16 paths with zero new IDP or trajectories.
+Phase 16 remains the latest experiment: audited privileged trajectories on
+four new synthetic cases. Best-improvement B
 ended at true K2 in 8/8 main trajectories; immediate-update A in 6/8. This is
 local evidence from truth-derived starts, not unknown-key recovery or a historical
 decipherment. B used about 20% more main calls. Earlier phases remain preserved.
@@ -16,7 +18,48 @@ decipherment. B used about 20% more main calls. Earlier phases remain preserved.
 | Kent | Serial 643 → T120/296, p. 778; serial 3176 → T120/1594, p. 793; volume III, 1966 | Roll access, target frames and current archival signatures |
 | Codebook | Cde in T2 matches the administrative CDE category in the Madrid 1932 regulations | Specific codebook, applicable route tariff or a code request tied to Oswald |
 | Synthetic K2 | Phase 16: B 8/8 versus A 6/8 main privileged trajectories; positive controls B 4/4 separately | Attraction from unknown-key starts and suitability for historical use |
+| Saved paths | Phase 17: both selected final A keys are strict source-neighbourhood maxima; no recorded direct join to B | Other routes, broader attraction and a global barrier |
 | Digital access | Phase 16 accessed the public Internet Archive catalogue API | A verified object for T120/296 or T120/1594 and the target frames |
+| BOE nominal search | Phase 17: three query texts, two web calls, zero original documents opened | BLUME identity and historical-corpus coverage |
+
+## Latest saved-log reading
+
+Phase 17 read 183,143 existing rows from two failed A paths and their paired
+successful B paths in phase 16: German case 20262401/H8 and 20262402/H4.
+The cases were selected after their outcomes were known. The descriptive plan
+was fixed before aggregation; this remains an exploratory post hoc reading,
+not a new experiment, recovery-rate estimate or independent case panel.
+
+Both final A keys are strict local maxima over the complete saved source
+neighbourhood: 16,649 distinct neighbours per case, all lower in score, zero
+equal and zero higher. Any first step from these keys using a nonidentity source
+move would lower the score. This establishes no global barrier height, minimum-loss
+escape route, global optimum or cause of the earlier phase 14 failures.
+
+At the common initial key, A accepted source move 1 at call 2 in both cases.
+B selected move 3,418 in H8 and 6,349 in H4, evaluated at calls 3,419 and 6,350,
+and adopted at call 16,650 after the full initial sweep. The scored prefixes are
+comparable only through A's first acceptance; later indices have different bases.
+
+Among recorded B current states, A visited only B's initial state. There were
+zero shared later current states and zero direct joins from either final A
+neighbourhood to a recorded B current state. No finite route witness was found
+within that recorded intersection. This does not exclude routes through other
+states or establish a shortest route or global barrier.
+
+Plan, code and both audits bind the saved hashes. This reading and its audits
+added **zero IDP evaluations, truth-score calculations, solver trajectories or
+searches**; the known phase 16 cost remains 799,212. No truth file or model was
+read for these descriptors. Phase 16's B 8/8 versus A 6/8 main result and separate
+positive controls retain their original scope and denominators.
+
+Records: [fixed plan](../work/phase17_records/plan.json),
+[analysis](../work/phase17_records/analysis.json),
+[comparison table](../work/phase17_records/comparison.csv),
+[execution receipt](../work/phase17_records/run_receipt.json).
+Audits: [independent replay](../work/phase17_review/post_ejecucion_independiente.json),
+[root neighbourhood count](../work/phase17_review/postaudit_root.json).
+Details: [phase 17 report](../outputs/Sentinel_BLUME_fase17_2026-10-03.txt).
 
 ## Latest privileged trajectories
 
@@ -178,10 +221,15 @@ No object page, scan, frame or telegram was opened. This does not demonstrate
 absence of digitization under other identifiers or collections. See the
 [final access note](../work/phase16_history/FINAL_resultado.txt).
 
+Phase 17 made three BOE web queries over two calls and opened zero original
+documents. Returned results mostly lay outside the requested Gazeta route;
+the sole Gazeta URL was from 1856 and was not opened. No BLUME identity follows,
+and corpus absence was not tested. See the [bounded note](../work/phase17_history/resultado.txt).
+
 Before another synthetic test, define a fresh design with reserved cases to
-study starts beyond the privileged region or the two saved failed A routes.
-Preserve the completed phase 15/16 panels rather than changing their budgets,
-swaps or move order after seeing the solutions.
+study starts beyond the privileged region or routes beyond the recorded phase 17
+intersections. Preserve the completed phase 15/16 panels and phase 17 descriptors
+without changing their budgets, swaps or move order after seeing the solutions.
 
 ## Source and version discipline
 

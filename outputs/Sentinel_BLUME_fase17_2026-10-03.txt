@@ -1,0 +1,156 @@
+BLUME SALAMANCA — FASE 17
+Dos máximos locales incorrectos en los registros de la fase 16
+3 de octubre de 2026. Sentinel para Javier Fuentes.
+
+Los dos recorridos fallidos de A terminaron en máximos locales estrictos del
+conjunto de movimientos usado: cada uno de sus 16.649 vecinos guardados tiene
+menor puntuación. No hay empate que permita un primer paso sin perder score.
+Esto describe esos dos estados concretos. No demuestra una barrera global,
+una tasa de recuperación, una explicación de la fase 14 ni un descifrado.
+BLUME sigue sin identificación, clave histórica o plaintext verificados.
+
+La lectura empleó sólo registros ya puntuados. No ejecutó un solver, calculó
+IDP nuevas, generó claves o amplió barridos. La fase 16 sigue siendo el experimento
+más reciente; esta fase es una exploración posterior de sus dos fallos A y
+sus B pareadas. La selección se hizo por resultados conocidos, no al azar.
+
+PREGUNTA, FUENTES Y PLAN DE LECTURA
+
+Se seleccionaron DE 20262401 desde H8 y DE 20262402 desde H4. Son cuatro CSV,
+cuatro resúmenes, la geometría de movimientos y la evaluación externa de fase 16:
+diez entradas fijadas por hash y tamaño. Los comienzos originales eran
+privilegiados, derivados de la clave verdadera, con anchos conocidos 20 × 25
+y un modelo/holdout literario alemán. No son telegramas comerciales auténticos.
+
+El plan descriptivo se fijó antes de agregar los registros, con SHA-256
+c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f.
+Se declararon la selección posterior y la inspección previa de esquema:
+resúmenes y notas anteriores, más el encabezado y dos filas de un CSV leídos
+por raíz. No se presenta ese cierre como una preregistración confirmatoria.
+
+Las preguntas fueron: dónde aparece la primera decisión distinta; qué estados
+actuales de B llegó a puntuar o adoptar A; cómo es el último vecindario estable
+de A; y si alguno de sus vecinos coincide con un estado actual de B que permita
+usar el sufijo B ya registrado como camino testigo. Si había varias uniones,
+se informarían todas y se elegiría representante por el criterio fijado: mayor
+score del primer paso, después menos aristas y desempates por índices guardados.
+
+Se reconstruyeron movimientos y comparaciones de enteros existentes. Validar
+una candidata registrada no crea ni puntúa otro estado. Los cocientes de gaps
+usan numeradores y denominadores guardados; tampoco son nuevas evaluaciones IDP.
+El código no lee truth.jsonl, modelos, holdouts o ciphertexts ni usa RNG o red.
+Los aciertos y primeras llamadas al objetivo provienen de la evaluación externa
+cerrada en fase 16, sin comparar de nuevo claves con una verdad generada.
+
+PRIMERA DIVERGENCIA Y ESTADOS VISITADOS
+
+En ambos pares, A acepta el primer movimiento de la fuente en la llamada 2.
+B puntúa esa misma propuesta, pero conserva su comienzo durante el barrido.
+Por eso sólo el inicial y esa primera propuesta forman aquí un prefijo
+comparable de claves, bases y scores. Desde la siguiente propuesta, A cambia
+la base y no debemos alinear las filas por índice como si fueran equivalentes.
+
+Par               A: movimiento/evaluación/adopción  B: movimiento/evaluación/adopción
+DE 20262401, H8             1 / 2 / 2                     3.418 / 3.419 / 16.650
+DE 20262402, H4             1 / 2 / 2                     6.349 / 6.350 / 16.650
+
+En H8, el margen de la primera aceptación A sobre el inicial fue
+350.190.735 / 6.375.342.080, aproximadamente 0,054929 IDP. La elegida por B
+tuvo 1.859.166.789 / 6.375.342.080, aproximadamente 0,291618. En H4 fueron
+337.261.749 / 6.375.342.080, aproximadamente 0,052901, y
+1.725.359.553 / 6.375.342.080, aproximadamente 0,270630.
+Son descripciones de mejoras guardadas, no una regla aprendida para otros casos.
+
+Los estados actuales B considerados son su inicial y sus tres aceptaciones
+en H8, o dos en H4. A sólo visitó el inicial común, una vez. No llegó a puntuar
+ninguno de los estados posteriores que B adoptó. Eso no equivale a decir que
+los dos conjuntos completos de propuestas estén separados: sólo se cotejó
+la relación concreta fijada entre candidatas A y estados actuales B.
+
+VECINDARIOS FINALES
+
+Se tomó exclusivamente el último barrido A completo, con base igual al final,
+sin aceptación y con convergencia observada. Cada movimiento fuente aparece
+una vez. Las 16.649 propuestas de cada barrido también son 16.649 claves
+distintas; no se confunden llamadas con candidatos únicos.
+
+Par                Vecinos superiores   Empates   Inferiores   Mejor vecino − final A
+DE 20262401, H8             0               0       16.649      −3.193.826 / 6.375.342.080
+DE 20262402, H4             0               0       16.649      −9.613.554 / 6.375.342.080
+
+Las menores pérdidas de un primer paso source son, respectivamente,
+aproximadamente 0,000500965 y 0,001507928 IDP. Todas las aristas de ese primer
+paso bajan score en esos finales. Esto verifica máximos locales estrictos del
+conjunto fuente. Continuar desde la misma clave con los mismos movimientos y
+aceptación estricta no ofrece una mejora inmediata. No determina la profundidad
+o altura de una barrera global, ni la pérdida mínima de una ruta completa.
+
+Ninguna candidata de esos dos vecindarios coincide con un estado actual B.
+Tampoco coinciden A final y un estado actual B. Por tanto, las uniones directas
+previstas no producen un camino testigo. No se buscaron puentes de más pasos,
+caminos por otras propuestas B o estados ausentes. La falta de este testigo
+no prueba que ninguna salida o ruta a la clave correcta exista.
+
+COSTE Y CONVERGENCIA SIGUEN SIENDO DISTINTOS
+
+En DE 20262401/H8, A tuvo 18 aceptaciones, 33.299 llamadas y parada converged.
+B tuvo tres aceptaciones y 49.948 llamadas; evaluó K2 en 41.006 y la adoptó
+en 49.948. No quedó un barrido estable posterior que certificara convergencia B.
+
+En DE 20262402/H4, A tuvo diez aceptaciones y 49.948 llamadas, igual coste
+real que B. Ambas pararon por call_limit y observaron un barrido estable.
+B tuvo dos aceptaciones, evaluó K2 en 23.001 y la adoptó en 33.299.
+A no evaluó K2. Una bandera de convergencia y una parada por límite pueden
+coincidir; son campos distintos, no resultados contradictorios.
+
+La comparación combina selección y actualización con orden fijo. No demuestra
+el efecto exclusivo del orden ni una causa de los fallos de fase 14. Las políticas
+no reproducen todo el HC barajado. Estos dos pares no añaden réplicas al panel.
+
+AUDITORÍA Y CONSERVACIÓN
+
+Plan y código recibieron aprobación independiente y de raíz antes del primer
+procesamiento. Se corrigió una guardia de intentos durante esa revisión,
+antes de ejecutar: un intento inicial y como máximo dos reparaciones. La fuente
+aprobada es 28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232.
+
+El análisis real pasó en un intento, con 183.143 filas reconstruidas y sin
+corte temporal. Un checker independiente, que no importa compute del analizador,
+reconstruyó esas filas y cotejó descriptores, visitas, vecindarios, posibles
+uniones y tabla completa. La raíz contó por separado las 33.298 filas de los
+dos vecindarios finales y comprobó conservación de 3.151 archivos anteriores.
+La rama de testigos no vacíos no se ejercitó: sólo se revisó su código, al no
+haber uniones en estos datos.
+Los tiempos de esos programas están en recibos separados del resultado
+determinista. No hubo reparaciones de resultados o reintentos de análisis.
+
+Coste nuevo de fase 17: 0 IDP, 0 puntuaciones de verdad y 0 trayectorias de solver.
+Los costes originales de fase 16 siguen siendo 799.212 IDP equivalentes; releer
+filas no vuelve a cobrarlas como puntuaciones. El replay público reconstruye
+descriptores sin recalcular scores. El baseline local completo y el subconjunto
+público son coberturas distintas, descritas en sus inventarios y recibos.
+
+HISTORIA Y CLAUDE
+
+La nueva ronda histórica buscó una mención identificadora en resultados web
+indexados del BOE/Gazeta: tres consultas fijadas y dos llamadas al buscador.
+No abrió documentos originales. Los resultados salieron en gran parte de la
+ruta histórica solicitada; la única URL Gazeta observada lleva 1856 en su ruta.
+No hubo una referencia contemporánea pertinente ni identificación nueva.
+
+Esto no fue una consulta directa del corpus oficial. El filtro de ruta no se
+cumplió estrictamente y no se comprobó la cobertura del buscador. No podemos
+afirmar que BLUME no figure en Gazeta o que no existiera una empresa o dirección
+telegráfica. La ronda se cerró, sin repetir T120, PAAA, Correos o Internet Archive.
+Los cuerpos externos quedan locales; las notas, planes y recibos propios son
+material revisable. Los fotogramas y el telegrama 629 siguen sin leerse.
+
+No hubo nueva consulta a Claude ni sondeo del Mac sin señal de desbloqueo.
+Las auditorías son internas de Sentinel. La consulta de fase 16 permanece
+preparada y no enviada; cualquier complemento posterior debe conservar sus
+referencias verificadas y explicar el carácter exploratorio de esta lectura.
+
+Esta fase cierra sus preguntas acotadas. No propone ampliar los barridos,
+retocar swaps u orden hasta acertar estos casos, ni ejecutar otra prueba sin
+una pregunta y un diseño nuevos. La identificación histórica del destinatario
+y el acceso a documentación primaria siguen siendo necesarios.

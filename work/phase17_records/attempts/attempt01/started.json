@@ -1,0 +1,14 @@
+{
+  "phase": 17,
+  "attempt": 1,
+  "status": "started",
+  "source_sha256": "28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232",
+  "plan_sha256": "c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f",
+  "approval_sha256": "77d4b7337f53fa4844de961af16a2912afc54a7e4b25b05e1d58e5351dc65d88",
+  "new_IDP_calls": 0,
+  "new_truth_score_evaluations": 0,
+  "new_solver_trajectories": 0,
+  "new_searches": 0,
+  "maximum_analysis_seconds": 60,
+  "start_unix": 1790990998.733938
+}

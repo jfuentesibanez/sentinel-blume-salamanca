@@ -1,0 +1,50 @@
+{
+  "phase": "17-history",
+  "status": "complete_bounded_negative",
+  "query_texts": 3,
+  "web_request_calls": 2,
+  "document_opens": 0,
+  "IDP": 0,
+  "raw_responses_saved": 2,
+  "own_files_ready_for_review": 4,
+  "old_files_modified": false,
+  "files": [
+    {
+      "path": "work/phase17_history/build_ledger.py",
+      "sha256": "0cd8e740eaf4501a2a4b834f7180632109bbbb54db5d25bdaf1b2de5caf4b06c",
+      "bytes": 3102,
+      "publication_disposition": "own_material_for_review"
+    },
+    {
+      "path": "work/phase17_history/ledger.json",
+      "sha256": "4ebce5641e0381f02231cd08973cb715606ba9c5a1a643978f1b4d2bd71c6399",
+      "bytes": 5281,
+      "publication_disposition": "own_material_for_review"
+    },
+    {
+      "path": "work/phase17_history/plan.json",
+      "sha256": "f5f2615487da76a2ddcf79b45faf9ba8c3f865357444f9ba513710eec184930e",
+      "bytes": 2013,
+      "publication_disposition": "own_material_for_review"
+    },
+    {
+      "path": "work/phase17_history/resultado.txt",
+      "sha256": "5ed65935cd35288373b127d88e1db29de60277a9487cd784d2a3565c793b7938",
+      "bytes": 2140,
+      "publication_disposition": "own_material_for_review"
+    },
+    {
+      "path": "work/phase17_history/web_queries2_3.json",
+      "sha256": "bf4b7382173c0371ec92cbbc034dea2d239b8f9db9e268a6dbe15b3dfca252b2",
+      "bytes": 25333,
+      "publication_disposition": "referenced_only"
+    },
+    {
+      "path": "work/phase17_history/web_query1.json",
+      "sha256": "2bbd2df4c080c964744a61bc5de33e48059273c79ae09927b3a745cedb8595c1",
+      "bytes": 26078,
+      "publication_disposition": "referenced_only"
+    }
+  ],
+  "limits": "No direct official-database search or original document reading; results escaped the requested Gazeta path. No identification or corpus-absence claim."
+}

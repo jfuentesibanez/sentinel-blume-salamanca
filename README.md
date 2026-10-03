@@ -6,8 +6,13 @@ Zurich to **BLUME SALAMANCA on 8 January 1937**. A project by Javier Fuentes for
 
 **Status, 3 October 2026: unsolved.** No verified plaintext, key or identification
 of BLUME. Historical evidence, hypotheses and synthetic experiments are kept
-separate. The current research checkpoint is **phase 16**. From privileged
-Hamming-4/8 starts on four new synthetic cases, best-improvement policy B ended
+separate. The current research checkpoint is **phase 17**, a post hoc reading
+of two selected failed A paths and their paired B paths saved in phase 16.
+It read 183,143 existing rows with zero new IDP calls or trajectories. Both
+final A keys are strict local maxima over the 16,649 source neighbours, with
+no direct joins to recorded B current states; this does not establish a global
+barrier or exclude other routes. **Phase 16 remains the latest experiment.**
+From privileged Hamming-4/8 starts on four new synthetic cases, best-improvement policy B ended
 at K2 in **8/8** main trajectories and immediate-update A in **6/8**. B used
 about 20% more main calls; four separate positive controls ended at K2 in 4/4.
 This is local evidence from starts derived from the truth, not recovery from
@@ -15,14 +20,17 @@ unknown keys. The known phase 16 cost is 799,212 IDP calls including controls
 and the numerical audit. The earlier phase 15 static diagnosis and phase 14
 pilot with 32 runs and zero K2 recoveries remain preserved. Kent's verified
 serial-to-roll mapping and the telegram-629 erratum stand; bounded Internet
-Archive catalogue queries supplied no new target document.
+Archive catalogue queries supplied no new target document. Three bounded
+phase 17 BOE web queries, over two calls and zero document openings, supplied
+no BLUME identification and do not establish absence from the historical corpus.
 
 ## Start here
 
 1. [Context for Claude and other collaborators](docs/CONTEXT_FOR_CLAUDE.md): the
    case, established facts, open questions and the most useful next tasks.
 2. [Current research status](docs/STATUS.md): results and limits of the latest phases.
-3. [Latest detailed report, in Spanish](outputs/Sentinel_BLUME_fase16_2026-10-03.txt).
+3. [Latest checkpoint report, in Spanish](outputs/Sentinel_BLUME_fase17_2026-10-03.txt);
+   [latest experiment report](outputs/Sentinel_BLUME_fase16_2026-10-03.txt).
 4. [Sources and archival references](docs/SOURCES.md).
 5. [Reproduction and verification](docs/REPRODUCIBILITY.md).
 
@@ -51,6 +59,7 @@ Group 113 is `RBEEP`. The address is outside these body lengths.
 | `work/source/` | Canonical ciphertexts and upstream provenance |
 | `work/history/` | Selected research notes, catalogue metadata, source ledgers and archival references |
 | `work/crypto/`, `work/phase*_crypto/` | Code, designs, recorded experiments, evaluation results and audits |
+| `work/phase17_records/`, `work/phase17_review/` | Post hoc descriptors of four saved phase 16 paths; plan, approvals and audits |
 | `work/phase5_language/`, `work/languages/` | Literary language models, holdouts and additional corpus data |
 | `work/phase12_claude/`, `work/phase13_claude/` | Proposed next experiment and our critical review of Claude's suggestions |
 | `outputs/` | Research reports and selected earlier deliverables |
@@ -83,11 +92,14 @@ Standard-library replays of recorded keys, decisions, ranks and costs:
 ```sh
 python3 tools/recheck_phase15.py
 python3 tools/recheck_phase16.py
+python3 tools/recheck_phase17.py
 ```
 
 These replays perform no objective scoring or new search. Phase 15 anchors and
 phase 16 starts are privileged. The phase 16 replay reconstructs all trajectory
 events and target metrics from saved records; it does not repeat the numerical audit.
+The phase 17 helper verifies the selected export and recomputes saved-log
+descriptors only, without truth, models, RNG, scorers or the complete local baseline.
 
 See [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) before running any older script.
 Some frozen scripts check files or executable hashes from the original Mac
@@ -121,6 +133,10 @@ The phase 16 trajectories and catalogue-access notes have a separate
 [inventory](provenance/phase16_source_inventory.jsonl) and
 [update record](provenance/phase16_update.json). The phase 15 checksum record is
 preserved as [phase15_file_hashes.json](provenance/phase15_file_hashes.json).
+The phase 17 saved-log reading and bounded BOE notes have their own
+[inventory](provenance/phase17_source_inventory.jsonl) and
+[update record](provenance/phase17_update.json). The phase 16 checksum record is
+preserved as [phase16_file_hashes.json](provenance/phase16_file_hashes.json).
 
 Original research files were not edited to make this export. Retained files
 preserve their bytes. Existing manifests still describe the larger original

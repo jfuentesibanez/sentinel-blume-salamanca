@@ -1,0 +1,24 @@
+{
+  "reviewed_at_utc": "2026-10-03T01:20:27.269255+00:00",
+  "status": "passed",
+  "plan_sha256": "f5f2615487da76a2ddcf79b45faf9ba8c3f865357444f9ba513710eec184930e",
+  "receipt_sha256": "bfdbe8f7de106e2d5a351ec69098cca6ab4eacd8ffa9f6eca61025d9a83126cd",
+  "files_checked": [
+    "work/phase17_history/build_ledger.py",
+    "work/phase17_history/ledger.json",
+    "work/phase17_history/plan.json",
+    "work/phase17_history/resultado.txt",
+    "work/phase17_history/web_queries2_3.json",
+    "work/phase17_history/web_query1.json"
+  ],
+  "query_texts": 3,
+  "web_calls": 2,
+  "documents_opened": 0,
+  "URLs_observed": 30,
+  "pertinent_Gazeta_period_URLs": 0,
+  "scope": "Web-index path/date filtering did not produce a pertinent original; no direct database query, no corpus-absence or recipient inference. Route closed.",
+  "publication": "Own plan/builder/ledger/result/receipt eligible. Two raw external responses referenced-only.",
+  "new_requests_in_root_review": 0,
+  "new_IDP_calls": 0,
+  "new_solver_trajectories": 0
+}

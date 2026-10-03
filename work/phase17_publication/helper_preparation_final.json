@@ -1,0 +1,20 @@
+{
+  "approved_plan_sha256": "c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f",
+  "approved_source_sha256": "28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232",
+  "at_utc": "2026-10-03T01:42:19.677628+00:00",
+  "checks_performed": [
+    "Helper AST syntax",
+    "Pure-compute dependency closure by AST only",
+    "All selected imports in csv/hashlib/io/json/pathlib/typing",
+    "Literal global assignments",
+    "Actual metadata schemas read without invoking helper or compute"
+  ],
+  "compute_executions": 0,
+  "helper_executions": 0,
+  "helper_sha256": "cee888ba2b3529e230a7628f94f9cd7fd944a2202f91c0bf6af9ac14ab2fa740",
+  "new_IDP_calls": 0,
+  "new_solver_trajectories": 0,
+  "pending": "Root review/export and one public helper check",
+  "phase": 17,
+  "status": "final_schema_bound_ast_checked_waiting_for_export"
+}

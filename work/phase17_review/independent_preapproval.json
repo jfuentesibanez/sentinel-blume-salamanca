@@ -1,0 +1,18 @@
+{
+  "phase": 17,
+  "status": "approved_before_csv_processing",
+  "independent_approved": true,
+  "plan_sha256": "c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f",
+  "source_sha256": "28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232",
+  "report_path": "work/phase17_review/pre_ejecucion_independiente.txt",
+  "CSV_processing_performed": false,
+  "compute_executed": false,
+  "truth_read": false,
+  "new_IDP_calls": 0,
+  "new_truth_score_evaluations": 0,
+  "AST_passed": true,
+  "resolved_objection": "Enforce one initial analysis attempt plus at most two repairs, as fixed in the plan.",
+  "remaining_objections": [],
+  "post_execution_independent_check_required": true,
+  "baseline_guard_by_root": true
+}

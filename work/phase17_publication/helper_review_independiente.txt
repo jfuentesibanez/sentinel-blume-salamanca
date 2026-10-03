@@ -1,0 +1,49 @@
+FASE 17 — REVISIÓN ESTÁTICA DEL HELPER PÚBLICO
+3 de octubre de 2026. Dictamen: APTO para el ámbito declarado.
+
+Archivo revisado: work/phase17_publication/recheck_phase17.py
+SHA256 cotejado: cee888ba2b3529e230a7628f94f9cd7fd944a2202f91c0bf6af9ac14ab2fa740
+Plan ligado: c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f
+Analista ligado: 28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232
+
+Leí el helper completo y comprobé su hash. No lo ejecuté, no importé compute y
+no procesé CSV durante esta revisión. No modifiqué archivos congelados ni repo.
+Coste: 0 IDP y 0 evaluaciones de verdad.
+
+La regeneración usa únicamente compute(root) del analista exacto ya aprobado.
+El plan tiene hash fijo y el helper exige sus diez inputs: cuatro CSV, sus cuatro
+summaries, geometría congelada y evaluación externa guardada. Valida hashes y
+tamaños antes de regenerar. El compute revisado también fija las dos parejas y
+su allowlist exacta; no puede ampliar el conjunto mediante otro plan. Se comparan
+el JSON determinista entero y el texto completo de comparison.csv con los guardados.
+
+El cargador AST selecciona las funciones alcanzables desde compute, la clase Row,
+constantes literales e imports de biblioteca estándar utilizados. Excluye main y
+write_new, rechaza sus llamadas, procesos externos y operaciones de escritura.
+El exec del helper carga esas definiciones de la fuente ligada por SHA; no ejecuta
+el main del analista ni importa su módulo y no genera su caché de importación.
+La fuente aprobada calcula descriptores sobre numeradores guardados; no contiene
+en esa ruta un scorer, solver, RNG, modelo, ciphertext, truth o acceso a red.
+
+El helper enlaza aprobación raíz e independiente, preauditoría, recibo principal,
+fuente preservada del intento, recibos inicial/final, launcher y stdout/stderr.
+También liga ambos postaudit, el resultado independiente y su fuente/recibo,
+incluidos hashes de analysis.json y comparison.csv. Valida los límites temporales,
+el intento real registrado y los campos de coste cero. Lee estos registros como
+evidencia conservada: no ejecuta nuevamente ninguno de los auditores.
+
+No exige los 3151 archivos de la baseline local. check_inventory comprueba sólo
+entradas incluidas en la selección pública. Las referenced_only sólo requieren
+una razón de omisión. La baseline, si está presente, se coteja como un único
+manifiesto; no se recorren sus recursos. protected_files_checked es expresamente
+un control histórico guardado, no una condición de conservación del clon actual.
+Sí exige la selección pública completada, sus inventarios y los recibos indicados.
+
+No hay escrituras de archivos: los accesos son lectura, hash y parseo, y la salida
+es un JSON por stdout. La nota de ámbito conserva selección post hoc, coste cero
+y los límites sobre caminos y barreras. Este helper reproduce el analista aprobado;
+la independencia corresponde al audit previo que enlaza, no a un segundo algoritmo
+de análisis ejecutado por el helper. La prueba de funcionamiento en el clon público
+queda a raíz: este dictamen es estático y no afirma haber ejecutado esa prueba.
+
+Sin objeciones pendientes para este hash.

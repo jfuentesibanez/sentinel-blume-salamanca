@@ -1,0 +1,122 @@
+{
+  "phase": 17,
+  "created_at_utc": "2026-10-03T01:15:24.761451+00:00",
+  "status": "fixed_descriptive_plan_before_aggregation",
+  "scope": "Exploratory posthoc selection of two failed A paths and paired successful B paths from phase16; no confirmatory experiment, score calculation or solver trajectory.",
+  "baseline_commit": "9cb73e9d8775d785903aee29661986ef41cf4bfd",
+  "pairs": [
+    {
+      "case_id": "de_fold_20x25_20262401",
+      "perturbation": "h8",
+      "profiles": {
+        "A": {
+          "csv_path": "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_A.csv",
+          "summary_path": "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_A.json"
+        },
+        "B": {
+          "csv_path": "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_B.csv",
+          "summary_path": "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_B.json"
+        }
+      }
+    },
+    {
+      "case_id": "de_fold_20x25_20262402",
+      "perturbation": "h4",
+      "profiles": {
+        "A": {
+          "csv_path": "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_A.csv",
+          "summary_path": "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_A.json"
+        },
+        "B": {
+          "csv_path": "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_B.csv",
+          "summary_path": "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_B.json"
+        }
+      }
+    }
+  ],
+  "inputs": {
+    "work/phase16_crypto/moves.json": {
+      "sha256": "75fb40f3eccf7f41c310c588e4ea8b38da77192dd324bb11afc68ed61ff64277",
+      "bytes": 1587273
+    },
+    "work/phase16_crypto/evaluation.json": {
+      "sha256": "3a3ae74ec452b29dd66d3651ca72d32238a48106d1ec2a5222bf6231313fa6c2",
+      "bytes": 28825
+    },
+    "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_A.csv": {
+      "sha256": "dd758d264e7afbfb1711ee1f47b1d061f819951b6023775ec3c7cd134d7df75b",
+      "bytes": 5894038
+    },
+    "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_A.json": {
+      "sha256": "dc4722516eb746f3885cc17da6eb8212882ad276a5f2c1b65499ab9a83c2c242",
+      "bytes": 7456
+    },
+    "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_B.csv": {
+      "sha256": "e839ebccc2551ead3c73e7d60dd6ec1e1e19a0e55bbfc23df89c604877f395d5",
+      "bytes": 8846454
+    },
+    "work/phase16_crypto/trajectories/de_fold_20x25_20262401_h8_B.json": {
+      "sha256": "eaf385dbb5b4fed90ab05760e8fe78fc4b31ca5043b9ae32696192f5d2962ace",
+      "bytes": 3766
+    },
+    "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_A.csv": {
+      "sha256": "fb7f99aef7546f668456809faf0763316ac4e5ed68ca3bf35dd2da29dd055180",
+      "bytes": 8846454
+    },
+    "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_A.json": {
+      "sha256": "fc864697d99d6b2f0d84a75cb9133771bcad855b7fadea89b87af827becd5e95",
+      "bytes": 5709
+    },
+    "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_B.csv": {
+      "sha256": "75f71c8a7cd24bab33a2b76552b27221f92aac398bafa5af045bf4c24b12b562",
+      "bytes": 8846454
+    },
+    "work/phase16_crypto/trajectories/de_fold_20x25_20262402_h4_B.json": {
+      "sha256": "5ffb026468fab6652f374f9b984e71ab14d02008bf92519d1fa2e33c1d06053c",
+      "bytes": 3473
+    }
+  },
+  "preinspection": "Root and coder read the four selected summaries/previous reports for schema; root additionally viewed header and first two rows of one selected CSV and the beginning of evaluation, and geometry file. No descriptive aggregation or witness extraction before this plan. Cases were already selected by known outcomes.",
+  "questions": [
+    "First accepted decisions from identical initial A/B states: movement index, proposal selected_call, adoption call, saved integer score and rational margin above initial; compare prefix only up to first immediate A acceptance.",
+    "For each B current state (initial plus accepted to_numeric), report first/any visits in A recorded candidates, A base score and acceptance flag there; distinguish evaluated candidates from A accepted/current states.",
+    "Final complete stable A neighbourhood only: greater/equal/lower integer scores, best-neighbour score and rational gap from A final; tie counts exact integers, no tolerance added.",
+    "All direct joins from final A recorded candidates to B current states, with stored scores and legal recorded B suffix to final B. Absence is lack of a recorded witness only.",
+    "Describe real calls, first target evaluation/adoption from saved phase16 external evaluation, accepted changes and complete sweep/stop metadata; do not read truth.jsonl or compute a target score."
+  ],
+  "policy_and_geometry": "Recorded candidate must equal tuple(base[p[i]]); geometry solely validates recorded movements/known edges, never enumerate/score missing states. EPS improvement is (candidate_numerator-base_numerator)*10^12 > recorded denominator.",
+  "stable_A_definition": "Unique last sweep_event that is complete, has no improvement_accepted, convergence_observed true, same start/final numeric and numerator as summary final. Inspect CSV calls (start_call,end_call], exactly16649 proposals and move indices1..16649, no accepted flags, base final.",
+  "witness_definition": "Each recorded final-A neighbour matching B initial or accepted current state yields first recorded edge plus all subsequent recorded B accept_events to final. Scores and keys must match across logs. Include all joins and all witness keys/edges with their original call/move evidence. No unseen bridge or alternative B continuation.",
+  "witness_presentation": "Report all joins in ascending B state index then source move index. Representative, only if nonempty: highest saved first-step numerator; ties fewer total witness edges, then B state index, then source move index. Report min score along each finite witness and loss from final A as rational max(0,A_final_num-min_witness_num)/denominator. No shortest/global minimum barrier claim.",
+  "witness_same_current_corner": "If A final equals B current, report shared-state coincidence separately; no invented identity move; use only already recorded B suffix.",
+  "saved_score_gap_representation": "All margins/gaps/losses store exact numerator and positive denominator plus descriptive float only; no new objective evaluation.",
+  "coverage": "Four CSVs/summaries plus frozen geometry and saved external evaluation only. Validate schema/call sequence, known-move legality and selected event evidence. No models, holdouts, ciphertexts, true-key file, RNG, network, subprocess, numerical scorer or solver imports. Hashing protected earlier evidence is allowed.",
+  "costs": {
+    "new_IDP_calls": 0,
+    "new_truth_score_evaluations": 0,
+    "new_solver_trajectories": 0,
+    "new_searches": 0,
+    "maximum_analysis_seconds": 60,
+    "maximum_independent_audit_seconds": 60,
+    "maximum_repair_attempts": 2,
+    "failed_analysis_attempts_also_logged": true
+  },
+  "outputs": [
+    "analysis.json",
+    "comparison.csv",
+    "run_receipt.json",
+    "independent audit/receipt in phase17_review",
+    "new own report/notes"
+  ],
+  "execution_gate": "Root and independent plan/code reviews first; approval binds plan and analysis source hashes. Any source fixes after an execution must use preserved versions/receipts, never alter old data.",
+  "limits": [
+    "Posthoc outcome selection; no recovery-rate competition.",
+    "Only final one-step neighbourhood is exhaustive for stored move set.",
+    "A witness is finite recorded route, not shortest/minimum-loss or global barrier; no witness does not prove no route.",
+    "A/B combine selection and update with fixed order, not pure order/shuffled HC/phase14 cause.",
+    "No random-start basin, historical family/language/BLUME, K1/plaintext or new historical claim."
+  ],
+  "frozen_baseline_path": "work/phase17_records/frozen_before.json",
+  "frozen_baseline_sha256": "60c222687b2b81cc749a97b04539dccdce54b511caa0f619164b8965bbc9f4e5",
+  "protected_files": 3151
+}

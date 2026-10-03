@@ -65,6 +65,14 @@ opened. This is a bounded catalogue result, not proof of general digital absence
 See the [final access note](../work/phase16_history/FINAL_resultado.txt) and
 [sources](SOURCES.md). T120/296 and T120/1594 remain unverified digital objects.
 
+Phase 17 made three literal BOE web queries over two calls, seeking BLUME with
+Salamanca or 1936/1937 in the Gazeta route. It opened zero original documents.
+Most results were outside that route; the sole Gazeta URL was from 1856 and
+was not opened. No BLUME identity or absence from the historical corpus follows.
+Neither the historical database nor a local Salamanca register was read directly.
+See the [bounded BOE note](../work/phase17_history/resultado.txt) and
+[query ledger](../work/phase17_history/ledger.json).
+
 The official German archive guide assigns 1936–1945 trade-policy records to the
 Bundesarchiv as a general orientation. Political records also require the PAAA
 route. This does not establish the present custodian of an individual document.
@@ -89,6 +97,35 @@ The recent experiments examine **K2 only on synthetic message pairs with known
 widths**, using literary German/French models. They do not recover K1 and are
 not attacks on the historical ciphertexts. A literary model is not a validated
 model of commercial telegram language in 1937.
+
+Phase 17 is the latest research checkpoint. It describes the two failed A paths
+and their paired successful B paths already saved in phase 16: German case
+20262401/H8 and 20262402/H4. These outcome-selected cases make this an exploratory
+post hoc reading. Its plan was fixed before aggregation; it is not a new
+confirmatory experiment or recovery-rate panel.
+
+The reading checked 183,143 existing CSV rows. Each final A key is a strict local
+maximum over all 16,649 distinct source neighbours: all lower, none equal or
+higher. Any nonidentity first source move lowers the score at these keys. The
+recorded comparison found no direct join from those final neighbourhoods to B's
+recorded current states; A visited only B's initial state, with no shared later
+current state. No recorded route witness was found. These facts do not prove
+no escape route, a global barrier height, minimum-loss route or global optimum.
+
+Both A paths first accepted source move 1 at call 2. B's first choices were
+moves 3,418 and 6,349, evaluated at calls 3,419 and 6,350 and adopted at call
+16,650. The common scored prefix ends with A's first acceptance; later row
+indices use different bases. Selection and updating remain intertwined.
+
+The approved source, plan, receipts and independent audit all bind their hashes.
+No IDP, truth-score calculation, RNG, solver trajectory or search was added,
+and no truth/model input was read. The known phase 16 cost remains 799,212;
+its outcomes and positive-control denominator are unchanged. Read the
+[phase 17 report](../outputs/Sentinel_BLUME_fase17_2026-10-03.txt),
+[fixed reading plan](../work/phase17_records/plan.json),
+[analysis](../work/phase17_records/analysis.json),
+[comparison table](../work/phase17_records/comparison.csv) and
+[independent audit](../work/phase17_review/post_ejecucion_independiente.json).
 
 Phase 16 is the latest completed experiment: privileged local trajectories
 from Hamming-4/8 starts derived from true K2, on four fresh cases at widths
@@ -213,6 +250,7 @@ the internal team. Do not attribute those reviews or the phase 15 run to Claude.
 No new Claude consultation occurred in phase 16 either. The Mac remained locked,
 and there was no new attempt to access it. Phase 16 design, execution and audits
 are internal Sentinel work; no Claude approval or certification is claimed.
+The phase 17 saved-log reading and audits also had no fresh Claude consultation.
 
 ## Useful next tasks
 
@@ -223,12 +261,12 @@ are internal Sentinel work; no Claude approval or certification is claimed.
 2. Investigate the telegraphic-address interpretation and CDE/tariff evidence,
    or locate a specific codebook tied to Oswald. Cite direct sources and state
    what was read, rather than extrapolating from generic five-letter grouping.
-3. Study entry to the local region from starts without a known key, or describe
-   the two saved failed A paths before defining another experiment. Any new
-   scoring needs a fresh design and reserved cases. Count all calls, cuts,
-   preparation and failed attempts. Declare privileged starts and keep them
-   separate from ciphertext-only recovery. Preserve phase 15/16 budgets, swaps
-   and move orders; do not tune on their known solutions.
+3. Study entry to the local region from starts without a known key, or routes
+   beyond the intersections described in phase 17. Any new scoring needs a fresh
+   design and reserved cases. Count all calls, cuts, preparation and failed
+   attempts. Declare privileged starts and keep them separate from ciphertext-only
+   recovery. Preserve phase 15/16 budgets, swaps and move orders and phase 17
+   descriptors; do not tune on their known solutions.
 
 When reporting: give exact paths or primary URLs, separate facts/testimony/
 hypotheses, scope negative findings, and identify what would verify a proposed

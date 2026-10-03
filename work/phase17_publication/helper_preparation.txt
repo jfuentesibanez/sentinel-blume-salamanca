@@ -1,0 +1,22 @@
+FASE 17 — HELPER DE PUBLICACIÓN CERRADO, PENDIENTE DE EXPORT
+
+El helper stdlib recheck_phase17.py ya vincula el esquema real: plan, fuente,
+doble aprobación y reviews, preaudit, recibos de ejecución e intento, launcher,
+audit independiente y recibo, y post-audit raíz. Comprueba los hashes de la
+selección publicada y los diez inputs originales. Los 3.151 archivos protegidos
+se documentan como guardia local; no son un requisito del clone público.
+
+Carga mediante AST sólo compute y sus funciones dependientes, constantes
+literales y Row/NamedTuple; imports csv/hashlib/io/json/pathlib/typing. Excluye
+main/write_new y los imports de CLI signal/sys/time/argparse. No import del
+analizador, cache nuevo, scoring, RNG, modelos, truth, red ni subprocess.
+
+La comprobación AST pasó. No he ejecutado el helper ni compute. Se espera el
+export completo y el aviso de raíz para cualquier ejecución. El recibo
+helper_preparation_final.json conserva hashes y comprobaciones.
+
+Los cinco borradores de entrada se guardan en entry_drafts; draft_receipt.json
+registra sus hashes y los originales. No se cambiaron archivos públicos.
+Fase 17 es el checkpoint descriptivo post hoc de dos pares seleccionados;
+fase 16 sigue siendo el experimento más reciente. BOE: tres consultas, dos
+llamadas, cero originales abiertos; sin identidad ni prueba de ausencia general.

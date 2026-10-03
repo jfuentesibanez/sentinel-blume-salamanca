@@ -1,0 +1,43 @@
+{
+  "analysis_receipt_sha256": "a1b6c14ad9596223711219236779fc781f11113c10e8cf38c54cfc8976fb6cab",
+  "analysis_sha256": "41f736527275bf704de10f00ad36e93f6228cf3b23a89f098009a5303b980db1",
+  "analyst_imported": false,
+  "analyst_source_sha256": "28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232",
+  "comparison_sha256": "d8d69307fa730af6fa4e8a1917c2ef35b9ed97788a3aa7ca1b2a98e00c415b18",
+  "method": "Independent grouping and decision replay; independent joins, forward suffixes, complete witness minima, representative and CSV table.",
+  "new_IDP_calls": 0,
+  "new_truth_score_evaluations": 0,
+  "pairs": [
+    {
+      "case_id": "de_fold_20x25_20262401",
+      "join_count": 0,
+      "perturbation": "h8",
+      "representative_index": null,
+      "rows_replayed": 83247,
+      "stable_counts": {
+        "equal": 0,
+        "greater": 0,
+        "lower": 16649
+      },
+      "stable_unique_neighbors": 16649
+    },
+    {
+      "case_id": "de_fold_20x25_20262402",
+      "join_count": 0,
+      "perturbation": "h4",
+      "representative_index": null,
+      "rows_replayed": 99896,
+      "stable_counts": {
+        "equal": 0,
+        "greater": 0,
+        "lower": 16649
+      },
+      "stable_unique_neighbors": 16649
+    }
+  ],
+  "phase": 17,
+  "plan_sha256": "c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f",
+  "rows_replayed": 183143,
+  "status": "passed",
+  "truth_read": false
+}

@@ -3,9 +3,9 @@
 ## Read-only checks
 
 `python3 tools/verify_snapshot.py` checks the current export's file hashes, the
-phase 13 baseline and phase 14/15/16 publication inventories, canonical ciphertexts,
-recorded phase 11/14 recovery counts, phase 15 static metadata and phase 16
-privileged trajectory metadata. It does not call a solver, modify frozen data
+phase 13 baseline and phase 14/15/16/17 publication inventories, canonical ciphertexts,
+recorded phase 11/14 recovery counts, phase 15 static metadata, phase 16
+privileged trajectory metadata and phase 17 saved-log descriptor metadata. It does not call a solver, modify frozen data
 or fetch sources.
 
 With NumPy installed, `python3 tools/recheck_phase11.py` regenerates synthetic
@@ -61,6 +61,35 @@ All 799,172 trajectory rows were replayed, not all mathematically rescored.
 Known cost remains 732,572 main + 66,600 scientific positives + 40 audit =
 799,212 IDP-equivalent calls; mock policy controls and the public replay add zero.
 
+## Phase 17 saved-log descriptor replay
+
+`python3 tools/recheck_phase17.py` uses only the standard library and writes no
+files. It checks the selected phase 17 inventory, the fixed plan's ten input
+hashes, approved source, both pre-execution reviews, execution/launcher receipts,
+and saved root and independent audits. It loads only the approved `compute(root)`
+definitions and their dependencies from source text, without running the writer
+CLI or creating bytecode caches. It recomputes deterministic descriptors from
+four saved CSVs, four summaries, saved geometry and phase 16's external evaluation,
+then compares `analysis.json` and `comparison.csv` with those results.
+
+The replay reads **no truth file, model or ciphertext** and invokes no RNG,
+scorer, solver, subprocess or network. It adds **zero IDP evaluations, truth-score
+calculations, trajectories or searches**. The recorded root guard protected
+3,151 files in the original workspace; the public replay checks only the exported
+selection and original read hashes, not the complete local baseline. The saved
+baseline manifest may be checked as a preservation record without requiring all
+its listed files in the clone. Run Python without `-O`.
+
+This is a post hoc descriptive reading of two outcome-selected failed A paths
+and their paired B paths, totalling 183,143 existing rows. It introduces no new
+recovery rate and does not establish a global barrier or rule out other routes.
+The source move catalogue has 16,649 distinct neighbours at each final A key;
+all are lower in score and no direct join to a recorded B current state was found.
+Phase 16 remains the latest experiment and its known total stays 799,212.
+See the [fixed plan](../work/phase17_records/plan.json),
+[analysis receipt](../work/phase17_records/run_receipt.json) and
+[independent audit](../work/phase17_review/post_ejecucion_independiente.json).
+
 ## Publication records
 
 [source_inventory.jsonl](../provenance/source_inventory.jsonl) and
@@ -89,6 +118,13 @@ audits and bounded catalogue-access notes. The previous checksum record is
 preserved as [phase15_file_hashes.json](../provenance/phase15_file_hashes.json).
 Phase 16 protected 2,793 files in the original local baseline, including existing
 public copies. That count does not describe the number of files in this export.
+
+[phase17_source_inventory.jsonl](../provenance/phase17_source_inventory.jsonl)
+and [phase17_update.json](../provenance/phase17_update.json) record the saved-log
+reading, approvals, audits and bounded BOE notes. The previous checksum record
+is preserved as [phase16_file_hashes.json](../provenance/phase16_file_hashes.json).
+Frozen phase 16 inputs, sources, plans, results and earlier research retain their bytes;
+only current entry documents and public verification tools receive new versions.
 
 ## Building portable solvers
 

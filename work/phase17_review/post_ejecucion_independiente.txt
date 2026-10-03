@@ -1,0 +1,62 @@
+FASE 17 — COTEJO INDEPENDIENTE DE REGISTROS Y DESCRIPTORES
+3 de octubre de 2026. Dictamen: PASS, sin discrepancias.
+
+Plan: c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f
+Analista: 28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232
+Analysis: 41f736527275bf704de10f00ad36e93f6228cf3b23a89f098009a5303b980db1
+Comparison: d8d69307fa730af6fa4e8a1917c2ef35b9ed97788a3aa7ca1b2a98e00c415b18
+Recibo del análisis: a1b6c14ad9596223711219236779fc781f11113c10e8cf38c54cfc8976fb6cab
+
+Cotejador propio: work/phase17_review/audit_saved_descriptors.py
+SHA: 20e7a34a06adc0299e7974a23e4009fcaa91f294c2d64b3821a2a5b2408bdf42
+Resultado: work/phase17_review/post_ejecucion_independiente.json
+SHA: 87bad3dca5c042efd8c10923b9c009edba05d97d2d0c103d3c5bb44372e02d3e
+Recibo: work/phase17_review/attempts/attempt01/receipt.json
+SHA: ef9a7eb0135a5081b48176192aed81444657c3250829e72769fd765117a7bd18
+
+Un intento, 1.48 segundos de auditoría frente al máximo de 60. Se preservaron
+fuente, recibo inicial y recibo final del intento. No hubo fallo ni reparación.
+Coste adicional: 0 IDP, 0 evaluaciones de verdad y 0 trayectorias. No importé
+compute ni el analista. No leí truth, modelos, holdouts o ciphertexts, ni usé
+solver, scorer, RNG, subprocess o red. Los scores son enteros ya guardados.
+
+Verifiqué los hashes y tamaños de los diez inputs, el plan, la aprobación doble,
+la fuente del analista y los outputs ligados a su recibo completado. El cotejador
+reconstruyó las 183143 filas de los cuatro CSV: 83247 para DE 20262401/H8 y 99896
+para DE 20262402/H4. Agrupó por cierres registrados y reprodujo A y B de forma
+independiente: bases, moved(base,p), flags, aceptaciones, selección B con empate
+por primer índice, archivo top5 único, claves repetidas y numeradores consistentes.
+Los eventos, estados finales, costes y flags de convergencia coinciden.
+
+Coinciden todos los descriptores de las primeras decisiones y el prefijo común
+hasta la primera aceptación A. En ambos pares A acepta movimiento 1 en call 2.
+B selecciona movimiento 3418 en call 3419 para DE 20262401/H8, y movimiento 6349
+en call 6350 para DE 20262402/H4; adopta esas primeras selecciones en call 16650.
+Las candidatas posteriores a call 2 no se alinean por índice como bases iguales.
+Se cotejaron todas las visitas A a estados actuales B y su distinción frente a
+estados aceptados A, sin ampliar B a propuestas no adoptadas ni entradas top5.
+
+Cada último barrido estable A contiene 16649 propuestas y 16649 vecinos distintos.
+Todos son inferiores al final: 0 superiores, 0 iguales y 16649 inferiores en cada
+caso. El mejor vecino está por debajo en 3193826/6375342080 para DE 20262401/H8,
+y en 9613554/6375342080 para DE 20262402/H4. Por ello, cualquier primer movimiento
+del conjunto source desde esos finales concretos pierde score. Esta afirmación
+es sólo local de un paso y no determina una barrera global ni su pérdida mínima.
+
+El cruce independiente con TODOS los estados actuales B encuentra 0 uniones
+directas y 0 coincidencias del estado actual en ambos pares. No hay representante
+ni camino testigo de la forma fijada. Esto no demuestra que no exista otra ruta.
+El procedimiento de sufijos/minimos se revisó antes de ejecutar; aquí su rama
+no vacía no fue ejercitada por datos, pues no apareció ninguna unión.
+
+La tabla completa coincide, incluidos costes y etiquetas de acierto tomadas de
+la evaluación anterior. DE 20262401/H8 tiene 33299 llamadas A frente a 49948 B;
+DE 20262402/H4 tiene 49948 en ambos. En el segundo par los dos stop_reason son
+call_limit y los dos flags de convergencia son true. El cap no borra ese hecho.
+
+Se mantiene la selección posterior de dos fallos A. Este cotejo confirma la
+lectura de sus registros, no una prueba prospectiva, competición de tasas,
+barrera exhaustiva, cuenca desde arranques aleatorios, efecto exclusivo de orden
+o explicación causal de los resultados de fase 14. No añade evidencia sobre K1,
+plaintext o BLUME. La conservación de la baseline completa corresponde a raíz;
+mi cotejo de conservación cubre los inputs y recursos aquí ligados a hashes.

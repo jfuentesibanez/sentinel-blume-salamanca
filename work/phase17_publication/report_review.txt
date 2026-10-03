@@ -1,0 +1,44 @@
+FASE 17 — REVISIÓN DEL INFORME
+3 de octubre de 2026
+
+DICTAMEN: PASS. No hay errores materiales ni correcciones obligatorias.
+La selección y el checksum públicos siguen pendientes de revisión tras export.
+
+Informe revisado: outputs/Sentinel_BLUME_fase17_2026-10-03.txt
+SHA-256: 7868525100b12112aca233af70ac90515baf33995e924ac2888e3e5450d0a572
+
+El informe coincide con analysis.json, comparison.csv y los recibos de análisis,
+launcher y auditoría independiente. Comprobé la cadena de hashes de plan, fuente,
+aprobación, salidas y recibo; todos coinciden. Hay un intento de análisis completo,
+sin corte temporal. No ejecuté compute, el helper, un solver ni un scorer.
+
+Cotejo de cifras y alcance:
+- DE 20262401/H8 y DE 20262402/H4 son los dos pares elegidos después de conocer
+  los resultados. Cuatro CSV, cuatro summaries, geometría y evaluation: diez inputs.
+- 83.247 + 99.896 = 183.143 filas previas. El plan se fijó antes de agregación,
+  con la inspección de esquema declarada; no se presenta como confirmatorio.
+- Primeras aceptaciones A: movimiento 1, evaluación/adopción 2. B: índices
+  3.418 y 6.349, evaluaciones 3.419 y 6.350, ambas adopciones 16.650. Los cuatro
+  numeradores de mejora, denominador 6.375.342.080 y decimales redondeados coinciden.
+- Últimos vecindarios A: 16.649 propuestas y claves distintas cada uno;
+  0 superiores, 0 iguales y 16.649 inferiores. Gaps −3.193.826 y −9.613.554
+  sobre 6.375.342.080 coinciden; las pérdidas de primer paso están bien acotadas.
+- A visita sólo B inicial entre los estados B corrientes definidos. Cero
+  uniones directas y coincidencias corrientes posteriores; ausencia de testigo
+  guardado no se convierte en imposibilidad de otra ruta o barrera global.
+- A/B H8: 18/3 aceptaciones, 33.299/49.948 llamadas; B evalúa/adopta objetivo
+  en 41.006/49.948, sin convergencia observada B. H4: 10/2 aceptaciones, ambos
+  49.948 calls y call_limit con convergencia observada; B 23.001/33.299.
+- Se mantienen cero IDP nuevos, cero puntuaciones nuevas de verdad y cero
+  trayectorias nuevas. Releer registros no aumenta el coste fase16 799.212.
+- Se distingue selección + actualización de orden exclusivo/HC barajado;
+  no se añaden casos o tasas, ni explicación causal de fase14 ni solución histórica.
+- La comprobación raíz de 33.298 filas y 3.151 protegidos corresponde al recibo
+  local; el informe distingue esa guardia de la cobertura del export público.
+- La rama de testigos no vacíos queda declarada como no ejercitada.
+- BOE: tres consultas, dos llamadas, cero documentos originales. URL1856 no
+  abierta, filtro imperfecto y cobertura sin comprobar: sin identidad ni ausencia
+  general. Cuerpos externos locales; sin nueva atribución de revisión a Claude.
+
+Pendiente: selección pública final, enlaces efectivos y preservación del
+checkpoint16; esta revisión no emite todavía el PASS final del export.

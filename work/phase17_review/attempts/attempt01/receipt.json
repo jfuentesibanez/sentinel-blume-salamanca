@@ -1,0 +1,16 @@
+{
+  "attempt": 1,
+  "ended_unix": 1790991162.302117,
+  "maximum_seconds": 60,
+  "new_IDP_calls": 0,
+  "new_truth_score_evaluations": 0,
+  "phase": 17,
+  "plan_sha256": "c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f",
+  "result_sha256": "87bad3dca5c042efd8c10923b9c009edba05d97d2d0c103d3c5bb44372e02d3e",
+  "rows_replayed": 183143,
+  "seconds": 1.4797584160114639,
+  "source_sha256": "20e7a34a06adc0299e7974a23e4009fcaa91f294c2d64b3821a2a5b2408bdf42",
+  "started_unix": 1790991160.8222878,
+  "status": "passed",
+  "truth_read": false
+}

@@ -112,6 +112,29 @@ def main():
             assert p['privileged'] and not p['unknown_key_recovery_test']
             hits16[p['policy']]+=int(p['final_numeric_is_target'])
     assert dict(hits16)=={'A':6,'B':8}
+    update17=json.loads((ROOT/'provenance/phase17_update.json').read_text())
+    added17=[json.loads(s) for s in (ROOT/'provenance/phase17_source_inventory.jsonl').read_text().splitlines()]
+    assert len(added17)==update17['new_inventory_entries']
+    assert sum(e['disposition']=='included' for e in added17)==update17['new_included_files']
+    assert sum(e['disposition']=='referenced_only' for e in added17)==update17['new_referenced_files']
+    for e in added17:
+        if e['disposition']=='included':
+            p=ROOT/e['repository_path']
+            assert sha(p)==e['sha256'] and p.stat().st_size==e['bytes'],e['source_path']
+    phase17=ROOT/'work/phase17_records'
+    analysis17=json.loads((phase17/'analysis.json').read_text())
+    receipt17=json.loads((phase17/'run_receipt.json').read_text())
+    approval17=json.loads((phase17/'audit_approval.json').read_text())
+    audit17=json.loads((ROOT/'work/phase17_review/post_ejecucion_independiente.json').read_text())
+    assert approval17['root_approved'] and approval17['independent_approved']
+    assert analysis17['posthoc_outcome_selection'] and analysis17['CSV_rows_checked']==183143
+    assert receipt17['outputs']['analysis.json']==sha(phase17/'analysis.json')
+    assert receipt17['outputs']['comparison.csv']==sha(phase17/'comparison.csv')
+    assert audit17['status']=='passed' and audit17['rows_replayed']==183143
+    assert audit17['analysis_sha256']==sha(phase17/'analysis.json')
+    for field in ('new_IDP_calls','new_truth_score_evaluations','new_solver_trajectories','new_searches'):
+        assert analysis17[field]==receipt17[field]==0
+    assert update17['new_IDP_calls']==update17['new_solver_trajectories']==0
     print(json.dumps({'status':'passed','hashed_repository_files':len(checksums),
         'original_inventory_entries':len(entries),'canonical_ciphertexts':'match',
         'phase11_rows':len(runs),'phase11_archive_recoveries':dict(hits),
@@ -121,6 +144,9 @@ def main():
         'phase16_main_privileged_trajectories':16,
         'phase16_main_exact_K2_recoveries':dict(hits16),
         'phase16_recorded_total_IDP_calls':799212,
+        'phase17_existing_CSV_rows':183143,
+        'phase17_selected_saved_paths':4,
+        'phase17_new_IDP_calls':0,
         'new_searches':0,'scope':'selected export integrity and recorded recovery counts'},indent=2))
 
 if __name__=='__main__': main()

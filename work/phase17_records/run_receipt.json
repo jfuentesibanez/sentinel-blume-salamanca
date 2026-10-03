@@ -1,0 +1,21 @@
+{
+  "CSV_rows_checked": 183143,
+  "approval_sha256": "77d4b7337f53fa4844de961af16a2912afc54a7e4b25b05e1d58e5351dc65d88",
+  "attempt": 1,
+  "end_unix": 1790991000.4727318,
+  "maximum_analysis_seconds": 60,
+  "new_IDP_calls": 0,
+  "new_searches": 0,
+  "new_solver_trajectories": 0,
+  "new_truth_score_evaluations": 0,
+  "outputs": {
+    "analysis.json": "41f736527275bf704de10f00ad36e93f6228cf3b23a89f098009a5303b980db1",
+    "comparison.csv": "d8d69307fa730af6fa4e8a1917c2ef35b9ed97788a3aa7ca1b2a98e00c415b18"
+  },
+  "phase": 17,
+  "plan_sha256": "c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f",
+  "seconds": 1.7386045000166632,
+  "source_sha256": "28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232",
+  "start_unix": 1790990998.733938,
+  "status": "completed"
+}

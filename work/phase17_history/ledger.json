@@ -1,0 +1,117 @@
+{
+  "phase": "17-history",
+  "status": "closed_bounded_negative",
+  "recorded_at_utc": "2026-10-03T01:14:58Z",
+  "plan": {
+    "path": "plan.json",
+    "sha256": "f5f2615487da76a2ddcf79b45faf9ba8c3f865357444f9ba513710eec184930e",
+    "bytes": 2013
+  },
+  "queries": [
+    {
+      "n": 1,
+      "query": "site:boe.es/gazeta/ \"Blume\" \"Salamanca\"",
+      "domains": [
+        "boe.es"
+      ]
+    },
+    {
+      "n": 2,
+      "query": "site:boe.es/gazeta/ \"Blume\" \"1937\"",
+      "domains": [
+        "boe.es"
+      ]
+    },
+    {
+      "n": 3,
+      "query": "site:boe.es/gazeta/ \"Blume\" \"1936\"",
+      "domains": [
+        "boe.es"
+      ]
+    }
+  ],
+  "request_calls": 2,
+  "query_texts": 3,
+  "document_open_calls": 0,
+  "responses": [
+    {
+      "query_numbers": [
+        1
+      ],
+      "raw_response": {
+        "path": "web_query1.json",
+        "sha256": "2bbd2df4c080c964744a61bc5de33e48059273c79ae09927b3a745cedb8595c1",
+        "bytes": 26078
+      },
+      "source_urls": [
+        "https://www.boe.es/boe/dias/2022/05/06/pdfs/BOE-A-2022-7464.pdf",
+        "https://www.boe.es/gazeta/dias/1856/10/18/pdfs/GMD-1856-1384T.pdf",
+        "https://www.boe.es/boe/dias/1994/05/04/pdfs/A13751-13751.pdf",
+        "https://www.boe.es/borme/dias/2021/08/26/pdfs/BORME-A-2021-164-09.pdf",
+        "https://www.boe.es/boe/dias/1988/10/10/pdfs/A29372-29374.pdf",
+        "https://www.boe.es/boe/dias/1988/10/07/pdfs/A29176-29177.pdf",
+        "https://www.boe.es/boe/dias/2021/03/15/",
+        "https://www.boe.es/boe/dias/2007/10/15/",
+        "https://www.boe.es/boe/dias/2021/07/12/",
+        "https://www.boe.es/boe/dias/2016/05/07/",
+        "https://www.boe.es/boe/dias/2021/07/12/index.php?lang=es",
+        "https://www.boe.es/boe/dias/2014/03/29/",
+        "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-13597",
+        "https://boe.es/boe/dias/2021/07/12/",
+        "https://www.boe.es/boe/dias/1999/12/22/",
+        "https://www.boe.es/boe/dias/2018/01/20/",
+        "https://www.boe.es/boe/dias/1996/08/24/index.php",
+        "https://www.boe.es/boe/dias/2006/03/17/"
+      ],
+      "distinct_source_urls": 18,
+      "gazeta_source_urls": [
+        "https://www.boe.es/gazeta/dias/1856/10/18/pdfs/GMD-1856-1384T.pdf"
+      ],
+      "gazeta_target_period_urls": [],
+      "result_limit": "Results are a search-engine response, not a direct query of the BOE historical database. The second response combines two query texts, so URLs are not attributed to one of those two queries individually."
+    },
+    {
+      "query_numbers": [
+        2,
+        3
+      ],
+      "raw_response": {
+        "path": "web_queries2_3.json",
+        "sha256": "bf4b7382173c0371ec92cbbc034dea2d239b8f9db9e268a6dbe15b3dfca252b2",
+        "bytes": 25333
+      },
+      "source_urls": [
+        "https://www.boe.es/boe/dias/1998/01/28/pdfs/A02993-02998.pdf",
+        "https://www.boe.es/boe/dias/1972/12/02/pdfs/A21561-21582.pdf",
+        "https://www.boe.es/boe/dias/1996/10/08/pdfs/B19042-19133.pdf",
+        "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2020-69-04",
+        "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2015-195-41",
+        "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2024-36-28",
+        "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2017-49-35&lang=es",
+        "https://www.boe.es/borme/dias/2015/10/13/pdfs/BORME-A-2015-195-41.pdf",
+        "https://boe.es/diario_borme/txt.php?id=BORME-A-2011-101-35",
+        "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2021-85-35",
+        "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2017-32-08",
+        "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2022-13-28&lang=es"
+      ],
+      "distinct_source_urls": 12,
+      "gazeta_source_urls": [],
+      "gazeta_target_period_urls": [],
+      "result_limit": "Results are a search-engine response, not a direct query of the BOE historical database. The second response combines two query texts, so URLs are not attributed to one of those two queries individually."
+    }
+  ],
+  "interpretation": "No identifying reference from 1936–1938 was observed in these returned results. The search engine returned BOE/BORME pages outside the requested historical path; the sole Gazeta URL belongs to 1856. No page, original document, scan or registry was opened.",
+  "negative_scope": "This is a failed bounded web-index route, not a negative search of the complete official corpus. Neither full-text coverage nor enforcement of the path filter was verified. The dates 1936/1937 can occur as unrelated numbers or retrospective references in modern pages.",
+  "identity": "No BLUME candidate identified. No modern names or companies are attributed to the 1937 recipient.",
+  "costs": {
+    "IDP": 0,
+    "solver_runs": 0,
+    "contacts": 0,
+    "orders": 0,
+    "purchases": 0,
+    "account_changes": 0,
+    "UI_calls": 0
+  },
+  "closure": "No further requests, syntax changes or retries in this round. A later route needs genuinely new primary evidence or a separately planned direct official-database search.",
+  "publication": "Raw response JSON strings contain externally supplied search excerpts and remain local/reference-only. This script, plan, ledger and own result note are eligible for review and publication."
+}

@@ -1,0 +1,34 @@
+BLUME SALAMANCA: ronda acotada en resultados web del BOE
+3 de octubre de 2026
+
+No se identificó al destinatario. Las tres consultas fijadas antes de buscar
+intentaron localizar el nombre BLUME en la Gazeta histórica del BOE, con Salamanca
+o los años 1936 y 1937. Se hicieron dos llamadas al buscador: una consulta primero
+y las dos restantes juntas. No se abrió ningún documento original.
+
+Esta ruta difiere de las lecturas anteriores del proyecto en BOE: aquellas
+comprobaron una norma general de direcciones telegráficas de 1934 y el decreto de
+constitución de la Junta de Defensa Nacional de 1936. La ronda actual buscó una
+mención nominal identificadora en fuentes oficiales indexadas. No repitió las
+consultas a PAAA, BAR, Correos, T120 ni Internet Archive.
+
+La herramienta devolvió muchos resultados BOE/BORME fuera de la ruta /gazeta/
+solicitada. La única URL Gazeta observada corresponde al 18 de octubre de 1856:
+https://www.boe.es/gazeta/dias/1856/10/18/pdfs/GMD-1856-1384T.pdf
+No se abrió: su fecha quedaba fuera del periodo buscado. Las páginas restantes
+mostraban publicaciones posteriores, nombres comerciales modernos, deportistas
+o calles. Las cadenas 1936 y 1937 aparecían también como números de registro o
+referencias retrospectivas. No se convirtieron en candidatos de 1937.
+
+Este resultado sólo delimita las respuestas obtenidas con esa sintaxis. No hubo
+consulta directa de la base de datos histórica ni lectura de un registro local
+de Salamanca. El buscador no respetó estrictamente el filtro de ruta, y no se
+comprobó su cobertura del corpus. Por tanto, no permite decir que BLUME no figure
+en la Gazeta, que no existiera una empresa con ese nombre ni que no hubiera una
+dirección telegráfica registrada.
+
+La ronda queda cerrada con tres textos de consulta, dos llamadas web y cero
+aperturas de documentos. No hubo puntuaciones IDP, solvers, contactos, pedidos,
+compras, cuentas o UI. Las respuestas externas se conservan sólo localmente;
+ledger.json registra sus URLs, tamaños y hashes. El plan, el código y estas notas
+son propios. No se amplía la ronda con más variantes de búsqueda.

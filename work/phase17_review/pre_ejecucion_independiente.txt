@@ -1,0 +1,54 @@
+FASE 17 — REVISIÓN INDEPENDIENTE ANTES DE PROCESAR CSV
+3 de octubre de 2026. Dictamen: APTO para el análisis descriptivo fijado.
+
+Plan aprobado: c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f
+Fuente final aprobada: 28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232
+Fuente: work/phase17_records/analyze_saved_paths.py.
+
+Leí el plan completo, la nota conceptual propia de fase 16, dos summaries para
+confirmar el schema y los 620 renglones de la fuente inicial. Revisé después la
+corrección final y comprobé el AST y ambos hashes. No abrí ni procesé CSV, no
+ejecuté compute, no leí truth.jsonl y no ejecuté scorer, solver, modelo o RNG.
+Coste de esta revisión: 0 nuevas IDP y 0 evaluaciones de verdad.
+
+El programa verifica exactamente los diez inputs permitidos. La reconstrucción
+usa candidate[i] = base[p[i]], sin invertir la permutación. Reproduce A con
+actualización inmediata y B con base fija, selección de mayor numerador y primer
+índice en empates. Distingue selected_call de la llamada de adopción al cierre B.
+También coteja eventos, archivo top5 único y scores iguales de claves repetidas.
+
+El prefijo comparable termina en la primera aceptación A, inclusive. No alinea
+candidatas de bases distintas después. Los estados B usados son únicamente el
+inicial puntuado y los estados adoptados; una propuesta o entrada top5 no crea
+una unión. Se separan visitas puntuadas A y ocurrencias como estado actual A.
+
+El barrido A seleccionado debe ser el último, completo y único estable, con
+convergence_observed, sin aceptación y con base y numerador finales constantes.
+La cobertura exige 16649 propuestas, índices 1 a 16649 una vez. La salida separa
+recuentos por propuesta y por estado vecino distinto. Empates y gaps usan los
+enteros guardados y el denominador positivo, sin nueva tolerancia ni score.
+
+Cada testigo va de A final a una candidata registrada que coincide con un estado
+actual B y continúa hacia delante por sus accept_events. Se verifican claves y
+numeradores de cada unión. El mínimo incluye A final, unión y sufijo completo.
+Se conservan todas las uniones en el orden fijado; el representante se elige por
+primer numerador máximo, menos aristas, índice de estado B e índice de movimiento.
+Una coincidencia del propio estado actual se presenta aparte, sin arista identidad.
+
+La selección de los dos fallos A es explícitamente posterior a los resultados.
+Las etiquetas de acierto proceden de evaluation.json ya pagado, no de una nueva
+comparación con verdad. Una unión demuestra sólo ese camino registrado. No es
+camino más corto, pérdida global mínima, barrera exhaustiva, prueba confirmatoria,
+tasa de recuperación, réplica del shuffle ni explicación causal de fase 14.
+
+La objeción encontrada quedó corregida ANTES de procesar datos: main permitía
+intentos ilimitados pese al máximo de dos reparaciones del plan. La fuente final
+exige index <= 1 + maximum_repair_attempts antes de crear el directorio del intento.
+Exige doble aprobación ligada a hashes, preserva fuente/recibos por intento y
+abre las salidas en modo exclusivo. No hay retry automático. El timer de análisis
+es de 60 segundos; compute no escribe y la conservación de los 3151 archivos
+previos corresponde a la guardia externa de raíz, declarada antes de ejecución.
+
+No quedan objeciones concretas. Esta aprobación vale sólo para los hashes arriba.
+La concordancia de resultados, testigos y tabla requiere el cotejo independiente
+posterior sobre los cuatro CSV. Esta revisión estática no sustituye ese cotejo.

@@ -1,0 +1,56 @@
+FASE 17 — CHECKLIST PREVIO DE PUBLICACIÓN
+3 de octubre de 2026. Preparación; resultados y esquema de ejecución pendientes.
+
+Conservar el checkpoint público fase 16:
+9cb73e9d8775d785903aee29661986ef41cf4bfd. Copiar su manifiesto vigente a
+phase16_file_hashes.json antes de cambiar las entradas actuales. No alterar
+ningún work/, outputs/, fuente, plan, resultado o inventario anterior.
+
+Añadir inventario y update fase 17 por fichero: ruta origen, SHA-256, tamaño,
+included/referenced_only, destino incluido o motivo concreto de exclusión.
+La selección debe conservar intentos fallidos, revisiones, aprobaciones y
+recibos relevantes. Hash/tamaño de cada copia deben coincidir con el origen.
+No publicar ejecutables, cache, UI, datos de cuenta, correo humano o respuestas
+externas brutas. No duplicar los diez inputs previos ya incluidos en el export.
+
+Incluir, cuando estén cerrados: plan fijado y hash, analizador propio, revisiones
+de plan/código, aprobación que vincula ambos hashes, todos los recibos/versiones
+de ejecución pertinentes, analysis.json/comparison.csv, auditoría independiente
+y recibo, comprobación de conservación, informe nuevo y helper público.
+Plan de lectura fijado SHA-256:
+c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f.
+
+El lector público debe comprobar sólo los recursos incluidos, el inventario
+y los hashes de los diez inputs del plan: cuatro CSV, cuatro summaries,
+geometría y evaluación externa fase 16. Los 3.151 archivos del baseline local
+se documentan como ámbito de conservación; el clone no tiene que contenerlos.
+No ejecutar herramientas congeladas que verifiquen el workspace completo.
+
+Interpretación obligatoria: lectura exploratoria post hoc de dos rutas A fallidas
+y sus dos B pareadas, elegidas por resultados conocidos. No es un panel nuevo,
+competición de tasas, confirmación preregistrada o diagnóstico de todo fase 16.
+Se fijó el plan descriptivo antes de agregar; la selección ya era post hoc.
+Sólo el último vecindario estable de A está completo para el catálogo guardado.
+Separar propuestas evaluadas, estados corrientes aceptados y adopción al cierre.
+Una ruta testigo es finita y guardada: no es mínima, ni barrera global. Falta de
+testigo no demuestra ausencia de ruta. Los gaps racionales usan scores previos,
+sin calcular IDP o un score verdadero nuevo. No atribuir causalidad a fase 14.
+
+Helper candidato: regenerar únicamente descriptores de registros mediante el
+compute(root) revisado del analizador, con su hash aprobado. No scorer, RNG,
+truth.jsonl, modelos/holdouts, ciphertexts, red o subprocess. Comprobar planes,
+inputs, fuentes, aprobaciones, reviews, recibos y salidas, sin escribir archivos.
+No ejecutar el helper hasta el export completo y el aviso de raíz.
+
+Historia BOE: seleccionar notas/planes/ledger/recibos propios y enlaces precisos.
+Excluir web_*.json y cualquier facsímil/cuerpo externo bruto. Conservar el
+presupuesto y las lecturas realmente hechas; una coincidencia nominal o una
+búsqueda limitada no identifica a BLUME ni demuestra ausencia general de datos.
+Esperar el resultado histórico final para redactar sus hechos y límites exactos.
+
+Antes del cierre: revisar informe/entradas vigentes frente a analysis y auditorías,
+enlaces locales existentes, URLs sin espacios, hashes origen/destino, preservación
+de fase 16 y alcance de licencias. Crear checksum vigente sólo después de las
+ediciones; hacer verificación del subconjunto y replay sin IDP una sola vez.
+Todavía no hay dictamen de resultados, recuento final de selección o ejecución
+de helper; esta preparación añade 0 IDP y 0 trayectorias.

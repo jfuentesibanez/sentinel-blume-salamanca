@@ -1,0 +1,12 @@
+{
+  "phase": 17,
+  "attempt": 1,
+  "status": "started",
+  "plan_sha256": "c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f",
+  "source_sha256": "20e7a34a06adc0299e7974a23e4009fcaa91f294c2d64b3821a2a5b2408bdf42",
+  "new_IDP_calls": 0,
+  "new_truth_score_evaluations": 0,
+  "truth_read": false,
+  "maximum_seconds": 60,
+  "started_unix": 1790991160.8222878
+}

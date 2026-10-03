@@ -1,0 +1,44 @@
+FASE 17 — REVISIÓN DE RAÍZ ANTES DE AGREGAR LOS CSV
+3 de octubre de 2026
+
+APTO. La fuente 28bebca8650461b807612f2b2aef9c2c54a0b9edd89eac8782e689e569b02232
+implementa el plan descriptivo fijo
+c3c81e29da5e0d54dbd42706e4feeb4414324d091d2d9cd3a759fe114f42036f.
+La revisión independiente está cerrada y no tiene objeciones pendientes.
+
+La selección es posterior a los resultados: dos A fallidas y sus B pareadas.
+El plan se fijó antes de las agregaciones, no antes de conocer esos resultados.
+Las preinspecciones de esquema se declaran en el plan. No se afirma una prueba
+confirmatoria ni un panel nuevo de recuperación.
+
+compute lee sólo el plan y sus diez entradas verificadas por hash/tamaño.
+Reconstruye las candidatas ya registradas para cotejar su relación con el
+movimiento guardado; no enumera intermedios faltantes. Compara numeradores
+existentes y calcula cocientes descriptivos. No importa scorers, solvers,
+modelos, holdouts, ciphertexts, truth.jsonl, RNG, red o subprocess. El wrapper
+de ejecución y sus relojes quedan fuera del resultado determinista.
+
+Las primeras decisiones usan la misma clave inicial. El prefijo comparable
+termina en la primera aceptación inmediata A; las bases posteriores no se
+alinean por índice. Las visitas A a B se cotejan sólo con estados actuales B,
+inicial y aceptaciones, distinguiendo candidatas de adopciones.
+
+El último barrido estable A debe ser completo, fijo en el estado final y sin
+aceptación, con todos los 16.649 movimientos guardados. Se cuentan propuestas
+y claves distintas por separado y empates exactos. Una unión usa sólo una
+candidata guardada desde A final y un estado actual B con igual clave/score.
+El sufijo B es contiguo y legal; el mínimo incluye A final y todo el camino.
+Todas las uniones se informan, con el representante fijado antes de procesar.
+Ningún testigo se llama mínimo global; su ausencia no implica imposibilidad.
+
+El wrapper exige aprobación ligada a plan/fuente, rechaza sobrescrituras y
+conserva fuente y recibo por intento. La guardia permite uno inicial más las
+dos reparaciones del plan. Se corrigió antes de cualquier agregación CSV; no
+hubo intento de análisis fallido al efectuar esa corrección. Límite 60 segundos
+para el análisis y guardia externa de raíz, sin ampliar después del resultado.
+
+preaudit_root.json confirma hashes de las diez entradas, AST/imports permitidos
+y conservación de 3.151 archivos anteriores. Esa cobertura local no describe
+el subconjunto público. Tras ejecutar, se requieren revisión independiente de
+los descriptores, nueva conservación y revisión de interpretación antes de
+publicar. Esta revisión añade 0 IDP y 0 trayectorias de solver.
