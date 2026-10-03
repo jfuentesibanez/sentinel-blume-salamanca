@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-03",
+  "addition": "gazeta_20261003",
+  "research_through_phase": 17,
+  "baseline_commit": "bb4ec732f6b5af624975bf045efd19897c366df0",
+  "new_inventory_entries": 34,
+  "new_included_files": 22,
+  "new_referenced_files": 12,
+  "web_tool_requests_observed": 2,
+  "own_HTTP_requests": 5,
+  "interface_reads_total": 4,
+  "direct_queries": 2,
+  "original_documents": 1,
+  "PNG_pages_rendered_local": 2,
+  "control_declared_results": 2471,
+  "control_received_records": 50,
+  "control_metadata_records_read": 20,
+  "new_IDP_calls": 0,
+  "new_solver_trajectories": 0,
+  "original_scientific_files_changed": 0,
+  "scope": "Historical direct Gazeta form query only, separate from phase17 web index. Approximate Texto/DOC with publication-date FPU1936\u20131938; no BLUME identity or corpus-absence/OCR-sensitivity claim."
+}

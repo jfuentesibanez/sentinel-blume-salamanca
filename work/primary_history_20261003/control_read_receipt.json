@@ -1,0 +1,19 @@
+{
+  "status": "two_control_pages_read_visually",
+  "record_index": 19,
+  "reference": "BOE-A-1938-14911",
+  "role": "Response control only; no BLUME identity",
+  "PDF_pages": 2,
+  "printed_pages": [
+    3079,
+    3080
+  ],
+  "header_verified": "BOE number175,22December1938",
+  "Salamanca_verified_in_body": true,
+  "visual_context": "University affiliations on page3080; not related to Oswald or telegrams",
+  "source_sha256": "728e79cc23e24831ba33ee504aeb04505113874d88121da8db753ec3c1e32009",
+  "read_at_utc": "2026-10-03T02:29:16.423105+00:00",
+  "network_requests_for_read": 0,
+  "PNG_pages_rendered": 2,
+  "new_IDP_calls": 0
+}

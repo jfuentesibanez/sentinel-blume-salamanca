@@ -199,6 +199,35 @@ That is an observed search limitation, not proof of a global optimum.
 Inputs and results: [phase 11](../work/phase11_crypto/).
 Detailed limits: [phase 11 report](../outputs/Sentinel_BLUME_fase11_2026-10-02.txt).
 
+## Direct Gazeta follow-up — 3 October 2026
+
+A later historical round queried the official Gazeta form directly, separate
+from phase 17's external web index. BLUME in Texto/DOC, with publication-date
+FPU filters submitted for 1 January 1936–31 December 1938, returned no documents.
+The form itself describes historical text results as approximate; its OCR
+coverage and sensitivity to BLUME were not independently measured.
+
+The fixed Salamanca response control declared 2,471 results. The first page
+delivered 50 records; only the first 20 metadata records were read. One control
+PDF, ordinal 19, BOE-A-1938-14911 of 22 December 1938, was checked visually on
+printed pages 3079–3080. Its university affiliations include Salamanca. It
+supplies no link to BLUME, Oswald or the telegrams and does not validate all OCR.
+
+Two declared access stages used two initial web openings and two later HTML
+GETs: four interface readings. Two direct queries and one PDF made five own
+HTTP requests; with the initial web openings, seven observable access actions.
+The internal requests of the web tool and redirects are not separately known.
+A failed local preflight guard used zero HTTP and is preserved. Both stages
+shared the original 02:29:44 UTC deadline. No IDP, UI, contacts, account operation
+or new cryptanalytic experiment occurred; phases 16 and 17 remain frozen.
+
+This is a negative for that term, field, submitted filters and response. It
+does not show that BLUME is absent from originals or telegraphic-address registers.
+Own [result](../work/primary_history_20261003/resultado_directo_gazeta.txt),
+[ledger](../work/primary_history_20261003/ledger.json),
+[independent review](../work/primary_history_20261003/review_final.txt) and
+[visual-read receipt](../work/primary_history_20261003/control_read_receipt.json).
+
 ## Next evidence to obtain
 
 Confirm access to T120/296, frames 254221–254222, and T120/1594, frames

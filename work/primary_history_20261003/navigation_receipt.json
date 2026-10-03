@@ -1,0 +1,18 @@
+{
+  "status": "navigation_stage_closed_at_fixed_limit",
+  "interface_openings": 2,
+  "web_tool_calls": 2,
+  "observable_web_requests": 2,
+  "tool_internal_HTTP_requests": "Not exposed",
+  "direct_queries": 0,
+  "original_documents_opened": 0,
+  "new_IDP_calls": 0,
+  "UI_attempts": 0,
+  "observed_entry": "https://www.boe.es/",
+  "observed_homepage_link": {"ref": "turn301view0", "link_id": 45, "label": "Colección histórica: Gazeta (1661-1959)"},
+  "observed_collection_url": "https://www.boe.es/diario_gazeta/",
+  "observed_query_link": {"ref": "turn302view0", "link_id": 27, "label": "consulta de Gazeta", "exact_href": "Not exposed in parsed response"},
+  "finding": "The official entry exists and links a public query form; the form itself has not been opened and no name or dates have been submitted.",
+  "stop_reason": "Two planned interface openings reached the presentation page rather than the actual form. Original navigation plan remains closed and unchanged.",
+  "negative_limit": "Not a search negative or evidence of absence. No corpus coverage assessed."
+}

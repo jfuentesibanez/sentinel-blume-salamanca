@@ -73,6 +73,23 @@ Neither the historical database nor a local Salamanca register was read directly
 See the [bounded BOE note](../work/phase17_history/resultado.txt) and
 [query ledger](../work/phase17_history/ledger.json).
 
+A later direct Gazeta round on 3 October 2026 reached the official form and
+submitted Texto/DOC with publication-date FPU filters 1936-01-01–1938-12-31.
+BLUME returned no documents; the fixed Salamanca control declared 2,471 results.
+Only 20 metadata records from the first 50 delivered were read. One 1938 control
+PDF, BOE-A-1938-14911, was checked on two pages and contains Salamanca university
+affiliations, with no BLUME or Oswald link. The service warns of approximate
+historical text results. Neither absence from originals nor OCR sensitivity or
+telegraphic-register coverage follows.
+
+The two declared access stages totalled four interface readings, two direct
+queries and one original: two observable web openings and five own HTTP requests.
+A failed preflight guard added zero HTTP; the original global deadline was retained.
+This historical follow-up added zero IDP or cryptanalytic experiments and does
+not supersede phases 16/17. See the [direct note](../work/primary_history_20261003/resultado_directo_gazeta.txt),
+[ledger](../work/primary_history_20261003/ledger.json) and
+[independent review](../work/primary_history_20261003/review_final.txt).
+
 The official German archive guide assigns 1936–1945 trade-policy records to the
 Bundesarchiv as a general orientation. Political records also require the PAAA
 route. This does not establish the present custodian of an individual document.

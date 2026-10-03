@@ -1,0 +1,65 @@
+{
+  "status": "bounded_direct_query_closed",
+  "root_closed_at_utc": "2026-10-03T02:29:16.423105+00:00",
+  "web_tool_requests_observed": 2,
+  "own_HTTP_requests": 5,
+  "interface_reads_total": 4,
+  "direct_queries": 2,
+  "original_documents": 1,
+  "PNG_pages_rendered": 2,
+  "control_result_declared_total": 2471,
+  "control_page_delivered_records": 50,
+  "control_metadata_read_records": 20,
+  "BLUME_response": "No documents satisfying submitted criteria",
+  "field": "Texto/DOC approximate search",
+  "publication_dates_submitted": [
+    "1936-01-01",
+    "1938-12-31"
+  ],
+  "local_preflight_failures": 1,
+  "local_preflight_HTTP_requests": 0,
+  "new_IDP_calls": 0,
+  "UI_attempts": 0,
+  "external_response_files_local": {
+    "homepage_web_response.json": {
+      "sha256": "1fae817af569fea56ae8857a23c91a99647812c4f785d40c9554a5dcc818f4b4",
+      "bytes": 5224
+    },
+    "gazeta_form_web_response.json": {
+      "sha256": "aa62064c27c960fd4022fed12a32feb906c83f6c9c6e7b1715c51dd964934860",
+      "bytes": 3315
+    },
+    "collection_raw.html": {
+      "sha256": "45f600bb16778bd018662b61c0b18e0b5ee54fc5324730c83708a41f4c699067",
+      "bytes": 13189
+    },
+    "form_raw.html": {
+      "sha256": "0d3eb2f031dbe8bcce2b6dc81174d0b22df3ba295caea39ff483e6af00c2e570",
+      "bytes": 31810
+    },
+    "query1_raw.html": {
+      "sha256": "384f777e08b0aba6d035fd334a6b5d7d4764bcc54b43d3df64767412c31dd400",
+      "bytes": 12787
+    },
+    "query2_raw.html": {
+      "sha256": "f5f2a06fed2df1173ed26968a4caea0df063a172139ca4c5e2b2504389bea24b",
+      "bytes": 53502
+    },
+    "control_original.pdf": {
+      "sha256": "728e79cc23e24831ba33ee504aeb04505113874d88121da8db753ec3c1e32009",
+      "bytes": 537504
+    },
+    "control_external_text.txt": {
+      "sha256": "10fb43bdd06a21022a7f0928eb93673422c85d0c074c2c65ddb1710a369149aa",
+      "bytes": 11341
+    },
+    "control-page-1.png": {
+      "sha256": "b2c4794db5ec7a11d3b51de829d8b2d87ffb185a868ad70e3cf674c8158dd2a7",
+      "bytes": 374765
+    },
+    "control-page-2.png": {
+      "sha256": "65ae7f311b9328221f5b2fc1530ea642e49dfcbce8a83af572ed053c104e57f7",
+      "bytes": 447625
+    }
+  }
+}

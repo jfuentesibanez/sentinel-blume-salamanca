@@ -1,0 +1,10 @@
+{
+  "first_external_access_time_lower_bound_utc": "2026-10-03T02:14:44Z",
+  "exact_first_request_timestamp": "Not exposed by web tool; the previous clock value is a conservative lower bound.",
+  "latest_stop_at_utc": "2026-10-03T02:29:44Z",
+  "interface_openings_started": 1,
+  "entry": "https://www.boe.es/",
+  "tool": "web.open",
+  "new_IDP_calls": 0,
+  "UI_attempts": 0
+}

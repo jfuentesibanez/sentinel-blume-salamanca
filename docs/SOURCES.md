@@ -99,6 +99,37 @@ See our [bounded result](../work/phase17_history/resultado.txt),
 [receipt](../work/phase17_history/receipt.json). Raw external responses are
 referenced by hash and source URL rather than republished.
 
+## Direct Gazeta form follow-up — 3 October 2026
+
+The later route used the official [Gazeta presentation](https://www.boe.es/diario_gazeta/)
+and its observed [query form](https://www.boe.es/buscar/gazeta.php). The GET form's
+Texto field is DOC and its publication-date filter is FPU. BLUME with submitted
+FPU dates 1936-01-01–1938-12-31 returned no documents. The fixed Salamanca control
+declared 2,471 results; 50 first-page records arrived and only 20 metadata records
+were read. These are approximate historical text results; OCR completeness and
+sensitivity to BLUME were not measured.
+
+One [official control PDF](https://www.boe.es/datos/pdfs/BOE//1938/175/A03079-03080.pdf),
+BOE-A-1938-14911 of 22 December 1938, was checked on printed pages 3079–3080.
+Salamanca university affiliations occur on the second page. That commission
+supplies no BLUME or Oswald connection and is not used to reconstruct the messages.
+Publication date and the act's date are separate fields.
+
+The initial navigation closed at two web openings; the separately reviewed form
+stage added two HTML GETs, two query GETs and one PDF GET. Four interface readings
+and seven observable access actions are counted, with one zero-HTTP preflight
+failure preserved. This count does not include hidden web-tool requests or
+urllib redirects. The original deadline was shared across both stages.
+
+Read our [bounded result](../work/primary_history_20261003/resultado_directo_gazeta.txt),
+[ledger](../work/primary_history_20261003/ledger.json),
+[query receipt](../work/primary_history_20261003/query1_receipt.json),
+[control receipt](../work/primary_history_20261003/control_receipt.json) and
+[independent review](../work/primary_history_20261003/review_final.txt).
+External bodies, PDF/text/PNG, the extracted form structure and the twenty
+external titles remain local and are referenced by hash/URL. No full-corpus
+absence finding, telegraphic-register check or recipient identification follows.
+
 ## File-level catalogues
 
 [source_inventory.jsonl](../provenance/source_inventory.jsonl) accounts for the
@@ -119,6 +150,9 @@ reports and source inventories retain their bytes.
 and [phase17_update.json](../provenance/phase17_update.json) record the next
 post hoc saved-log descriptors and bounded BOE search without replacing earlier
 research or publishing external response bodies.
+The [direct Gazeta inventory](../provenance/gazeta_20261003_source_inventory.jsonl)
+and [update](../provenance/gazeta_20261003_update.json) cover the subsequent
+historical query separately from phase 17 and preserve that earlier record.
 Source URLs are navigation aids extracted from a recorded file; co-occurrence does not prove
 that each URL is the origin of every byte in that file. For exact mappings,
 use the institution's manifests and our source ledgers.

@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-03T02:21:27.312727+00:00",
+  "status": "local_preflight_guard_failed_before_network",
+  "source_sha256": "54bc8980c256d49faf09936f9d147a1b1343d1390be350fd2473ab383e1eb430",
+  "reason": "Guard expected literal APTO, but the saved independent note expressed favorable conditional approval without that token. No HTTP/UI/query executed.",
+  "own_HTTP_attempts": 0,
+  "direct_queries": 0,
+  "new_IDP_calls": 0
+}

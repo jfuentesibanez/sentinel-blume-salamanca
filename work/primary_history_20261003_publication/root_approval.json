@@ -1,0 +1,13 @@
+{
+  "approved_at_utc": "2026-10-03T02:35:16.065865+00:00",
+  "status": "closed_own_notes_root_approved",
+  "independent_review_path": "work/primary_history_20261003/review_final.txt",
+  "independent_review_sha256": "459d4f6c785cdf587d2210e295a96027f16ccec5562a4e11e6750d278d8ec0b3",
+  "report_path": "work/primary_history_20261003/resultado_directo_gazeta.txt",
+  "report_sha256": "f9fd2533861b61b788e2a74513870b51629282be6bc0b980b5ccf4d4cd247f28",
+  "minor_editorial_change": "nominales replaced by directas as suggested by independent reviewer; no method/count change.",
+  "new_IDP_calls": 0,
+  "new_UI_attempts": 0,
+  "original_scientific_files_changed": 0,
+  "scope": "Negative limited to submitted official historical form criteria; response control is not full OCR validation or BLUME identity."
+}

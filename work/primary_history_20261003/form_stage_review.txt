@@ -1,0 +1,67 @@
+Revisión de una etapa nueva para el formulario oficial Gazeta
+3 de octubre de 2026, 02:19 UTC
+Sólo revisión local; no se ha ejecutado esta etapa
+
+La continuación tiene utilidad concreta y evidencia nueva: la página oficial
+https://www.boe.es/diario_gazeta/ distingue la presentación de la colección y el
+formulario de consulta. En la respuesta guardada aparece «consulta de Gazeta»
+como enlace 27. La página presenta ese formulario como vía para buscar contenidos
+de la colección. Todavía no se verificaron su href, sus campos o su acceso.
+
+No es una repetición de consulta nominal: no se ha consultado BLUME ni Salamanca
+directamente en esta navegación. Tampoco justifica aumentar esas consultas,
+reabrir el índice web o repetir bloqueos. Es una etapa de acceso fundada en un
+enlace nuevo observado dentro del sitio oficial.
+
+El plan inicial fijó dos aperturas y ambas se consumieron: página BOE principal
+y presentación Gazeta. Debe cerrarse como navegación sin llegar al formulario,
+con cero consultas y cero originales. La etapa nueva no cumple retroactivamente
+ese plan ni conserva su presupuesto de interfaz como si hubiera quedado saldo.
+Si raíz la aprueba, requiere un plan y recibo nuevos y debe declarar el total
+acumulado: dos aperturas iniciales más hasta dos GET HTML adicionales. No debe
+llamarse una ejecución del plan inicial dentro de sus dos aperturas.
+
+Condiciones para una continuación útil
+
+1. Primer GET: sólo la fuente HTML de la presentación ya observada, para extraer
+   el href exacto del enlace «consulta de Gazeta». Es una segunda lectura de la
+   misma página por otra representación, y debe contarse así. El GET no debe
+   tratarse como petición gratis, consulta nominal o descubrimiento de endpoint.
+2. Segundo GET: únicamente el href obtenido del enlace oficial, resuelto contra
+   esa misma página. Leer el formulario público y documentar action, método y
+   campos visibles; no construir servicios o parámetros por conjetura.
+3. Conservar el techo global de dos consultas directas, veinte registros de la
+   primera página, dos originales pertinentes y cuatro páginas renderizadas.
+   Usar exactamente la consulta BLUME y la regla opcional fijada para Salamanca;
+   no añadir apellidos, variantes, fechas u otros términos tras los resultados.
+4. Conservar el cierre global de 2026-10-03T02:29:44Z. Esta etapa comparte el reloj
+   iniciado a las 02:14:44; no recibe quince minutos nuevos. Si no se verifica
+   el filtro temporal y el campo de búsqueda a tiempo, cerrar sin consulta.
+5. Bloqueo, cuenta, error HTTP o falta de controles verificables: cerrar, sin
+   reintento ni otro canal para eludir el resultado. La página inicial respondió;
+   por tanto, el primer GET propuesto no está rehaciendo una petición bloqueada.
+
+El criterio de documentos y las limitaciones negativas siguen siendo los del
+plan inicial: fecha de publicación 1936–1938, vínculo comprobable en una misma
+entrada y atribución prudente. Un resultado cero se limita al campo y filtros
+efectivamente usados. No prueba ausencia en registros telegráficos o municipales.
+
+Mi valoración es favorable a esta etapa separada bajo esas condiciones. La
+evidencia nueva permite llegar al formulario con un límite concreto y sin ampliar
+la investigación nominal. La valoración no autoriza una cadena de etapas nuevas
+si el formulario conduce a más interfaces: consumir los dos GET o el plazo sin
+acceso verificable cierra la ruta.
+
+Archivos locales leídos para esta revisión
+
+work/primary_history_20261003/plan.json
+work/primary_history_20261003/access_started.json
+work/primary_history_20261003/homepage_web_response.json
+  SHA256 1fae817af569fea56ae8857a23c91a99647812c4f785d40c9554a5dcc818f4b4
+work/primary_history_20261003/gazeta_form_web_response.json
+  SHA256 aa62064c27c960fd4022fed12a32feb906c83f6c9c6e7b1715c51dd964934860
+
+Se leyeron los planes y fragmentos de las respuestas guardadas correspondientes
+a los enlaces 45 y 27. No se abrió la web, no se usó UI, no se consultó ningún
+corpus y no se modificaron archivos anteriores. El href del formulario y las
+condiciones actuales de acceso permanecen pendientes de lectura.

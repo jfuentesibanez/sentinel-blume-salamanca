@@ -1,0 +1,13 @@
+{
+  "status": "fixed_before_form_stage_access_pending_independent_review",
+  "prior_stage_receipt": "work/primary_history_20261003/navigation_receipt.json",
+  "reason": "Navigation newly observed an official collection page and its public query-form link. Two initial navigation openings were closed, not silently increased. No nominal query result has yet been seen.",
+  "entry_url": "https://www.boe.es/diario_gazeta/",
+  "access": "Read this known collection's HTML once to recover the observed consultation href; follow exactly that public href once to inspect its form controls. No guessed path/action/parameters. No retries, block bypass, account or UI.",
+  "queries": "Keep the original two-query rule, terms,1936–1938 filters and selection unchanged. BLUME first; Salamanca control only if zero, or added term only if more than20 and syntax observed. No query until date/text controls verified.",
+  "limits": {"form_stage_HTML_GETs": 2, "direct_queries_across_both_stages": 2, "original_documents_across_both_stages": 2, "document_page_renders_across_both_stages": 4, "first_page_records_read_max": 20, "latest_stop_utc": "2026-10-03T02:29:44Z", "maximum_own_HTTP_requests_this_stage": 6, "new_IDP_calls": 0, "UI_attempts": 0, "contacts": 0, "purchases": 0},
+  "guards": "Stop before every next request if UTC deadline reached or its category cap exhausted. Preserve all failed requests, redirects if exposed, raw external bodies local only, and exact control semantics. No new nominal variants or widened years after responses.",
+  "root_approved": true,
+  "independent_approval": "Pending new read-only review before form-stage access",
+  "interpretation": "A staged interface investigation, not a second ciphertext experiment or repeated index query. Neither initial navigation nor a later query establishes full OCR coverage or an identified recipient without primary text."
+}

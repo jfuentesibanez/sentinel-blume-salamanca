@@ -1,0 +1,64 @@
+GAZETA 2026-10-03 — REVISIÓN ESTÁTICA DEL HELPER PÚBLICO
+3 de octubre de 2026. Dictamen: APTO para el contrato declarado.
+
+Helper: work/primary_history_20261003_publication/recheck_gazeta_20261003.py
+SHA256: 3a710aff21424eaec8d124a2a7c7e86020ebb9a3b0b7e199df15917c1037745a
+
+Leí la fuente completa, inventario/update candidatos, root_approval y preparación,
+los dos planes, los recibos propios de acceso, navegación, formulario, consultas,
+control, lectura, fallo local y ledger. Leí informe y revisión final propios.
+No ejecuté el helper ni los scripts históricos, no abrí raw externos, PDF, PNG,
+OCR o CSV de fase 17. Sin red, UI, scorer, solver o IDP nuevas. Sólo se crea esta nota.
+
+El contrato coincide con los esquemas guardados. El helper lee JSON/JSONL propios,
+hashes y tamaños de la selección incluida. Las doce fuentes externas se exigen
+como referenced_only y se cotejan mediante metadatos; no se abren ni se requiere
+que estén presentes en el clon. La selección candidata contiene 33 entradas:
+21 incluidas y 12 referencias. Incluye los planes, fuentes propias, notas y
+recibos requeridos, además del helper público. No incluye CSV de fase 17.
+
+Los siete hashes constantes de plan, etapa, revisiones y scripts coinciden con
+los archivos propios. También cotejé el hash de la fuente preflight fallida y
+del informe ligado a aprobación. La baseline SHA256
+9b35b54c9eb067397d2c543d0ec8e57f30cdf7103382a420c579e7f41dc85672
+coincide con el checksum público fase 17 todavía actual. El export debe conservar
+esos mismos bytes como provenance/phase17_file_hashes.json antes de actualizar
+el checksum vigente. El helper comprueba ese archivo de hashes, no recorre ni
+exige sus recursos ni reabre experimentos anteriores.
+
+Las comprobaciones de contabilidad conservan la separación de etapas: dos
+aperturas web observables iniciales, dos GET de formulario, dos consultas y un
+PDF: cinco HTTP propios y cuatro lecturas de interfaz en total. No presentan
+esto como conteo de posibles HTTP internos no expuestos. Las consultas usan
+Texto/DOC, fecha de publicación FPU 1936-01-01 a 1938-12-31 y exactamente los
+campos/orden/page_hits guardados; Salamanca sólo cambia el término del control.
+urlsplit y parse_qs analizan cadenas locales, no abren esas URLs.
+
+El plazo permanece en 02:29:44 UTC, quince minutos desde el límite inferior de
+primer acceso. Las cinco solicitudes HTTP propias, la lectura visual y el cierre
+guardados están antes de ese plazo. Se comprueba el mismo reloj entre planes y
+recibos, sin conceder quince minutos nuevos a la segunda etapa.
+
+El control tiene ordinal 19, referencia BOE-A-1938-14911, un PDF y dos páginas
+impresas 3079–3080. Su recibo de lectura liga el hash del PDF y las dos páginas,
+sin releerlas. El helper conserva los 2471 resultados declarados, cincuenta
+recibidos y veinte metadatos leídos como cantidades distintas. El fallo local
+preflight queda ligado a su fuente, con cero HTTP y cero consultas: no se suma
+como consulta BLUME ni se oculta. Los campos new_IDP_calls de todos los recibos
+son compatibles y se exige cero.
+
+La fuente sólo importa biblioteca estándar. No ejecuta ni importa las fuentes
+históricas que hashea, no usa subprocess, red o OCR, y no escribe archivos.
+Su salida es JSON por stdout. Los paths de lectura se resuelven dentro del
+export. La aprobación liga revisión e informe finales; los metadatos externos
+del ledger se enlazan con inventario y recibos HTTP sin volver a validar la web.
+
+Su PASS significa integridad y concordancia de registros propios publicados.
+No sería una nueva búsqueda, lectura visual u OCR, ni una prueba independiente
+de sensibilidad del formulario, ausencia de BLUME en el corpus o identificación.
+El texto de scope/limits lo declara. La conservación científica completa queda
+como evidencia histórica de la aprobación raíz, sin recalcularla en este helper.
+
+No hay objeción concreta para el hash revisado. El funcionamiento del export
+completado y del clon público requiere la ejecución de raíz posterior; no se
+afirma haber hecho esa prueba aquí. Ningún archivo congelado o del repo se cambió.

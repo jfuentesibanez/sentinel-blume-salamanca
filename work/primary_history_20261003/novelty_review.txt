@@ -1,0 +1,103 @@
+Revisión local de novedad: acceso directo a Gazeta histórica del BOE
+3 de octubre de 2026, 02:13 UTC
+Propuesta sin ejecutar
+
+La consulta directa del formulario oficial sería una ruta nueva respecto de lo
+documentado en los registros revisados. La fase 17 hizo búsquedas en un índice
+web externo, no en el corpus del BOE. Sus resultados fuera de /gazeta/ y del
+periodo no sustituyen una consulta directa con fechas.
+
+Qué se comprobó localmente
+
+Se localizaron menciones mediante rg -l y se leyeron con rg -M 500 los registros
+pertinentes. Se inspeccionaron además los campos estructurados de los dos JSON
+de pistas anteriores. La ruta correcta del ledger diplomático es
+work/history/phase10-blume-diplomatico/ledger.json; no existe un directorio
+work/phase10-blume-diplomatico.
+
+1. work/history/blume-registered-address-lead.json: orden de 1934 sobre el
+   servicio general de direcciones telegráficas; cinco consultas en el catálogo
+   de Correos. No enumera abonados ni registra una consulta directa en Gazeta.
+   Describe BNE con verificación humana y BVPH con Too Many Requests; esos corpus
+   no se consultaron. No se propone reabrir esas rutas.
+2. work/history/blume-user-search-screenshot-audit.json: lectura del decreto de
+   la Junta de Defensa publicado el 25 de julio de 1936 para corregir la ciudad
+   de constitución. Es una lectura de documento concreto, sin búsqueda nominal.
+3. work/history/phase10-blume-diplomatico/ledger.json y resultado.txt: consultas
+   PAAA, Bundesarchiv y OCR de ADAP. No hay consulta directa de Gazeta.
+4. work/phase17_history/plan.json, ledger.json y resultado.txt: tres textos de
+   consulta externa, dos llamadas web y cero aperturas. El resultado se cerró
+   como fallo acotado de esa ruta de índice. No se repetirá.
+
+También se buscaron los términos gazeta, Gaceta y boe.es en los ledgers y notas
+de resultado/resumen de work/history. No apareció otra búsqueda directa del
+formulario histórico oficial. Esta revisión alcanza registros propios de
+investigación; no certifica que nadie haya usado ese formulario fuera de dichos
+registros ni que todas las capturas de terceros hayan sido examinadas. No se
+releyeron los corpus OCR completos.
+
+Plan breve propuesto para aprobación de raíz
+
+Límites totales: 15 minutos desde la primera apertura; como máximo dos aperturas
+de interfaz o documentación oficial, dos consultas directas y dos documentos
+pertinentes. No son cuotas a agotar. Cero índice web externo, contactos, pedidos,
+pagos, cuentas, puntuaciones IDP o solvers.
+
+Acceso: abrir la página pública principal de BOE y seguir sólo un enlace visible
+observado hacia Gazeta histórica/búsqueda. Esa navegación consume las dos
+aperturas de interfaz. Si el formulario ya estuviera abierto legítimamente,
+puede destinarse la apertura restante a su ayuda enlazada. Se anotarán los href,
+campos y controles observados. No se inventarán endpoints, parámetros, URLs de
+consulta o servicios internos. Si falta la búsqueda pública, exige cuenta,
+aparece bloqueo o no se verifican los campos necesarios dentro del límite,
+cerrar sin eludir ni reintentar.
+
+Consulta 1: término BLUME en el campo de texto completo que ofrezca el formulario,
+con fechas de publicación 1 de enero de 1936 a 31 de diciembre de 1938 si el
+formulario permite fijarlas. Registrar qué campo se usó, sintaxis, filtros,
+recuento declarado y la primera página, con máximo veinte registros descritos.
+Un campo de título o índice debe identificarse como tal; no se presentará como
+búsqueda del texto completo. Si no hay filtro temporal verificable, cerrar y
+anotar el límite, sin convertir el experimento en una búsqueda de todos los años.
+
+Consulta 2, opcional y con criterio fijado antes: si la primera produce más de
+veinte resultados, añadir Salamanca como segundo término mediante los controles
+documentados del formulario. Si produce cero resultados, usar Salamanca sola
+con las mismas fechas como control de respuesta del buscador. Si produce uno a
+veinte resultados o el segundo término exige una sintaxis no documentada,
+omitir esta consulta. Un control positivo no valida toda la cobertura OCR.
+
+Documentos: abrir como máximo dos resultados que correspondan al periodo y cuyo
+título o fragmento apunte a una persona, empresa, registro o dirección pertinente
+con BLUME. Priorizar vínculo explícito con Salamanca; después, mayor proximidad
+al 8 de enero de 1937 y orden visible en caso de empate. Guardar el contexto que
+permita distinguir una misma entrada de coocurrencias en listas separadas.
+Ningún homónimo se atribuirá al destinatario sin vínculo documental. Un documento
+sin BLUME podrá abrirse únicamente como control indicado por la consulta 2,
+declarando ese uso y consumiendo el mismo límite de dos documentos.
+
+Cierre: guardar consultas, recuentos, alcance de lectura, URLs, fechas y hashes.
+Las capturas y documentos externos permanecen locales; las notas propias pueden
+revisarse para publicación. Cualquier negativo se limita al campo y filtro
+usados. No demuestra ausencia de destinatario, de dirección telegráfica o de
+registro municipal. No hay ampliación de presupuesto ni variantes adicionales.
+
+Fuentes locales y hashes al revisar
+
+work/history/blume-registered-address-lead.json
+9bbc36491f0f73bf0fd7698ebcaf0de1f910a09bf56a0a36c0e8ae618397c3e5
+work/history/blume-user-search-screenshot-audit.json
+d4a6ae3c3d85ac491cfbbbb90beccca12440eff619ee38b3e7d3fae92bb23483
+work/history/phase10-blume-diplomatico/ledger.json
+a30547739bca287fea175854f2c944dde0b551bc7630b5d3e3334eb282a85797
+work/history/phase10-blume-diplomatico/resultado.txt
+4df7254646acc2332f220a96083fce2e0e14a5b22564dadbfde7a2c6ff505697
+work/phase17_history/plan.json
+f5f2615487da76a2ddcf79b45faf9ba8c3f865357444f9ba513710eec184930e
+work/phase17_history/ledger.json
+4ebce5641e0381f02231cd08973cb715606ba9c5a1a643978f1b4d2bd71c6399
+work/phase17_history/resultado.txt
+5ed65935cd35288373b127d88e1db29de60277a9487cd784d2a3565c793b7938
+
+Esta continuación realizó sólo lecturas locales y creó esta nota. No ejecutó
+el plan, ninguna consulta web ni acciones de interfaz; no modificó anteriores.

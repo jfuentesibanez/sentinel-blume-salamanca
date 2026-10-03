@@ -6,7 +6,7 @@ Zurich to **BLUME SALAMANCA on 8 January 1937**. A project by Javier Fuentes for
 
 **Status, 3 October 2026: unsolved.** No verified plaintext, key or identification
 of BLUME. Historical evidence, hypotheses and synthetic experiments are kept
-separate. The current research checkpoint is **phase 17**, a post hoc reading
+separate. The latest numbered research checkpoint is **phase 17**, a post hoc reading
 of two selected failed A paths and their paired B paths saved in phase 16.
 It read 183,143 existing rows with zero new IDP calls or trajectories. Both
 final A keys are strict local maxima over the 16,649 source neighbours, with
@@ -23,6 +23,14 @@ serial-to-roll mapping and the telegram-629 erratum stand; bounded Internet
 Archive catalogue queries supplied no new target document. Three bounded
 phase 17 BOE web queries, over two calls and zero document openings, supplied
 no BLUME identification and do not establish absence from the historical corpus.
+
+A separate **3 October 2026 historical follow-up** reached the official Gazeta
+form directly: Texto/DOC with submitted publication dates 1936–1938 returned
+no BLUME documents. Salamanca as a response control declared 2,471 results;
+50 records arrived, 20 metadata records were read, and one 1938 control PDF
+was checked on two pages. This approximate search supplies no BLUME identity
+or corpus-absence finding. It added zero IDP calls or cryptanalytic experiments.
+See the [direct Gazeta note](work/primary_history_20261003/resultado_directo_gazeta.txt).
 
 ## Start here
 
@@ -93,6 +101,7 @@ Standard-library replays of recorded keys, decisions, ranks and costs:
 python3 tools/recheck_phase15.py
 python3 tools/recheck_phase16.py
 python3 tools/recheck_phase17.py
+python3 tools/recheck_gazeta_20261003.py
 ```
 
 These replays perform no objective scoring or new search. Phase 15 anchors and
@@ -100,6 +109,8 @@ phase 16 starts are privileged. The phase 16 replay reconstructs all trajectory
 events and target metrics from saved records; it does not repeat the numerical audit.
 The phase 17 helper verifies the selected export and recomputes saved-log
 descriptors only, without truth, models, RNG, scorers or the complete local baseline.
+The Gazeta helper checks own saved receipts, counters and published hashes;
+it reads no referenced external bodies or images and performs no HTTP request.
 
 See [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) before running any older script.
 Some frozen scripts check files or executable hashes from the original Mac
@@ -137,6 +148,10 @@ The phase 17 saved-log reading and bounded BOE notes have their own
 [inventory](provenance/phase17_source_inventory.jsonl) and
 [update record](provenance/phase17_update.json). The phase 16 checksum record is
 preserved as [phase16_file_hashes.json](provenance/phase16_file_hashes.json).
+The subsequent direct Gazeta query has a separate
+[inventory](provenance/gazeta_20261003_source_inventory.jsonl) and
+[update record](provenance/gazeta_20261003_update.json), without a new cryptanalytic phase.
+The phase 17 checksum is preserved as [phase17_file_hashes.json](provenance/phase17_file_hashes.json).
 
 Original research files were not edited to make this export. Retained files
 preserve their bytes. Existing manifests still describe the larger original

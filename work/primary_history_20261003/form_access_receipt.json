@@ -1,0 +1,30 @@
+{
+  "status": "public_form_read_no_queries_submitted",
+  "requests": [
+    {
+      "requested_url": "https://www.boe.es/diario_gazeta/",
+      "started_at_utc": "2026-10-03T02:21:30.168561+00:00",
+      "query_submitted": false,
+      "status": 200,
+      "final_url": "https://www.boe.es/diario_gazeta/",
+      "bytes": 13189,
+      "sha256": "45f600bb16778bd018662b61c0b18e0b5ee54fc5324730c83708a41f4c699067"
+    },
+    {
+      "requested_url": "https://www.boe.es/buscar/gazeta.php",
+      "started_at_utc": "2026-10-03T02:21:30.223356+00:00",
+      "query_submitted": false,
+      "status": 200,
+      "final_url": "https://www.boe.es/buscar/gazeta.php",
+      "bytes": 31810,
+      "sha256": "0d3eb2f031dbe8bcce2b6dc81174d0b22df3ba295caea39ff483e6af00c2e570"
+    }
+  ],
+  "own_HTTP_attempts": 2,
+  "form_stage_HTML_GETs": 2,
+  "form_url": "https://www.boe.es/buscar/gazeta.php",
+  "redirect_internal_requests": "Not counted separately by urllib; requested and final URLs recorded.",
+  "direct_queries": 0,
+  "new_IDP_calls": 0,
+  "UI_attempts": 0
+}

@@ -1,0 +1,19 @@
+{
+  "status": "fixed_before_first_external_access",
+  "planned_at_utc": "2026-10-03T02:14:44Z",
+  "question": "Does a direct dated query of the official Gazeta interface expose a contemporaneous BLUME identity or a pertinent original document?",
+  "novelty_review": "work/primary_history_20261003/novelty_review.txt",
+  "prior_route_closed": "Phase17 used only an external web index. Earlier BOE readings checked specific general documents. No direct Gazeta query found in the reviewed own ledgers.",
+  "entry_url": "https://www.boe.es/",
+  "access_rule": "Open the official homepage once and follow only an observed Gazeta/search href. Read the linked public form once, through HTTP if needed to inspect action/controls. At most two interface/help openings total; no guessed endpoints, parameters or services. Close on block, account requirement or unverifiable controls.",
+  "queries": [
+    {"term": "BLUME", "publication_date_from": "1936-01-01", "publication_date_to": "1938-12-31", "field": "Observed text field, declaring exact scope. Do not call title/index text a complete body search.", "required": "Verifiable date controls and form syntax."},
+    {"optional_rule": "If first query returns more than20 results, add Salamanca using observed supported controls. If zero, query Salamanca alone with the same dates as a response control. If1–20 or syntax unverifiable, omit.", "maximum_queries_total": 2}
+  ],
+  "limits": {"interface_or_help_openings": 2, "direct_queries": 2, "first_page_records_read_max": 20, "original_documents": 2, "rendered_document_pages_max": 4, "elapsed_minutes_from_first_access": 15, "new_IDP_calls": 0, "new_solver_trajectories": 0, "UI_attempts": 0, "contacts": 0, "purchases": 0, "accounts": 0},
+  "document_rule": "Only period1936–1938 records whose title/fragment indicates BLUME identity, firm, registry or address. Prioritize explicit Salamanca link, then distance to8Jan1937, then source order. A control-only document must be declared and consumes the same cap. A bare homonym or separate-list cooccurrence does not identify the recipient.",
+  "preservation": "New files only in work/primary_history_20261003. Record exact requested URLs/fields, declared counts, actual read scope, response hashes and errors. External bodies/scans remain local. Distinguish observable tool requests from any unknown tool-internal network work; no retries or budget extensions.",
+  "negative_limit": "A negative is limited to the field, filters, interface and records actually inspected. It does not establish absence from the full corpus, telegraphic-address registers or Salamanca archives.",
+  "root_approved": true,
+  "execution_started": false
+}

@@ -1,0 +1,24 @@
+{
+  "role": "Control document only; no BLUME identity attribution",
+  "selected_control_record_index": 19,
+  "ranking": "Explicit Salamanca in metadata first; then absolute date distance to8Jan1937; then source order among20 inspected records.",
+  "metadata": {
+    "text": "Orden constituyendo una comisión encargada de demostrar la ilegitimidad de los poderes actuantes en la República de Española en 18 de julio de 1936. Boletín Oficial del Estado: núm. 175, de 22/12/1938, páginas 3079 a 3080 Departamento: Ministerio del Interior PDF (Referencia BOE-A-1938-14911)",
+    "links": [
+      {
+        "href": "/datos/pdfs/BOE//1938/175/A03079-03080.pdf",
+        "title": "Documento PDF (Ref. BOE-A-1938-14911)"
+      }
+    ]
+  },
+  "requested_url": "https://www.boe.es/datos/pdfs/BOE//1938/175/A03079-03080.pdf",
+  "started_at_utc": "2026-10-03T02:25:56.511995+00:00",
+  "own_HTTP_attempts": 1,
+  "new_IDP_calls": 0,
+  "UI_attempts": 0,
+  "HTTP_status": 200,
+  "final_url": "https://www.boe.es/datos/pdfs/BOE//1938/175/A03079-03080.pdf",
+  "bytes": 537504,
+  "sha256": "728e79cc23e24831ba33ee504aeb04505113874d88121da8db753ec3c1e32009",
+  "status": "original_saved_pending_read"
+}

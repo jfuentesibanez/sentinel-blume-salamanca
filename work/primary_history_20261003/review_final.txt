@@ -1,0 +1,132 @@
+Revisión independiente del acceso y las consultas directas a Gazeta
+3 de octubre de 2026, 02:28 UTC
+Resultado: APTO como negativo acotado de una consulta, sin identificación
+
+Se verificaron por lectura local los formularios, los scripts, los recibos y las
+respuestas guardadas. No hubo web, UI, nuevas consultas, nuevos renders, solvers
+o puntuaciones en esta revisión.
+
+Acceso y semántica
+
+El enlace «consulta de Gazeta» se recuperó de la presentación oficial. Su href
+resuelve a https://www.boe.es/buscar/gazeta.php. El formulario usa GET sobre
+gazeta.php. DOC corresponde al campo Texto; FPU corresponde a fecha de
+publicación, con controles de fecha ISO. FPU no es fecha de disposición: el
+formulario tiene controles distintos para esta última.
+
+La información oficial del campo Texto limita su funcionamiento al periodo
+1836–1959 y advierte de resultados aproximados por tratarse de una publicación
+histórica. Esa advertencia impide convertir una respuesta cero en ausencia
+comprobada del nombre en todos los originales.
+
+Las URLs pedidas y los recibos conservan BLUME, fecha de publicación desde
+1936-01-01 hasta 1938-12-31, orden por fecha descendente y referencia ascendente,
+y cincuenta resultados por página, opción observada por defecto. La segunda
+consulta cambia únicamente dato[4] de BLUME a Salamanca; conserva todo lo demás.
+Los scripts no construyen un endpoint distinto del action observado.
+
+Resultado y control
+
+La primera respuesta HTTP 200 dice que no se encontraron documentos que
+satisficieran los criterios. No contiene registros de resultado. La consulta
+de control Salamanca declaró 2.471 documentos y entregó cincuenta entradas en
+la primera página. Se cotejaron sólo los veinte metadatos seleccionados contra
+el HTML; la cifra cincuenta se verificó contando marcadores, sin analizar los
+otros treinta registros. Los veinte metadatos muestran fechas de publicación
+del 22 al 31 de diciembre de 1938, compatibles con el filtro solicitado.
+
+El documento de control es el registro ordinal 19 de esos veinte. Se verificó
+la selección: priorizar Salamanca explícita en los metadatos, luego distancia
+al 8 de enero de 1937 y orden fuente. Ningún título/metadato de esos veinte tenía
+Salamanca explícita; la fecha más próxima era 22 de diciembre de 1938 y el
+ordinal 19 precedía al otro de esa fecha.
+
+Se comprobó el hash del PDF y se leyeron visualmente sus dos PNG ya existentes.
+La cabecera muestra BOE número 175 de 22 de diciembre de 1938, páginas 3079–3080.
+La orden del Ministerio del Interior continúa desde el pie de la primera página
+y constituye una comisión sobre la legitimidad de los poderes republicanos en
+julio de 1936. En la segunda página su lista incluye cargos vinculados a la
+Universidad de Salamanca. La firma de la orden está fechada en Burgos el 21 de
+diciembre de 1938. Esto confirma una aparición de Salamanca en ese original y
+la distinción entre fecha de publicación y fecha del acto. No ofrece un vínculo
+con BLUME, Oswald o los telegramas de enero de 1937. Los juicios políticos del
+preámbulo pertenecen a la fuente y no se adoptan como conclusiones del proyecto.
+
+Costes, fallos y conservación
+
+La navegación inicial agotó sus dos aperturas y se cerró con cero consultas y
+cero originales. La etapa separada añadió dos GET de HTML, dos GET de consultas
+y un GET de PDF: cinco peticiones HTTP propias. Sumadas a las dos aperturas web
+observables iniciales, hay siete peticiones observables de acceso; las posibles
+peticiones internas del web tool no están expuestas. Las consultas directas
+totales son dos, el original descargado uno y las páginas renderizadas dos.
+
+Se conserva preflight_attempts/attempt01_source.py y su recibo: el primer guard
+exigía el literal APTO, ausente en la aprobación favorable condicionada, y falló
+antes de la red. Cero HTTP, consultas o IDP en ese fallo. El diff con el lector
+ejecutado sólo cambia ese guard por el hash exacto de la nota y la comprobación
+de su frase favorable; no cambia peticiones, límites o acciones. Se comprobó el
+hash de la fuente fallida y el parseo AST de los cuatro scripts conservados.
+No se oculta ese primer intento ni se lo cuenta como consulta fallida de BLUME.
+
+Los hashes y tamaños de colección HTML, formulario HTML, ambas respuestas y PDF
+coinciden con sus recibos. Las cinco peticiones HTTP propias empezaron antes del
+límite global 02:29:44 UTC; el PDF empezó a las 02:25:56 UTC. La etapa no recibió un
+reloj nuevo. Los planes previos conservan sus bytes y estado inicial; los
+recibos posteriores documentan ejecución y cierre sin reescribirlos.
+
+Redacción recomendada
+
+«El formulario oficial Gazeta no devolvió documentos para BLUME en el campo
+Texto con fecha de publicación entre 1936 y 1938. La consulta de control Salamanca
+respondió y se verificó esa palabra en un documento de 1938. El propio formulario
+advierte que la búsqueda histórica ofrece resultados aproximados. No hemos
+identificado al destinatario ni demostrado ausencia del nombre en los originales.»
+
+El control confirma respuesta del servicio y un ejemplo de contenido de época;
+no calibra sensibilidad, cobertura OCR, tokenización, exhaustividad de años,
+todos los documentos con BLUME o registros telegráficos de Salamanca. La ruta
+queda cerrada; no hacen falta variantes nominales, páginas adicionales o más
+documentos de control para describir lo obtenido.
+
+Fuentes de esta revisión
+
+plan.json; form_stage_plan.json; access_started.json; navigation_receipt.json;
+form_access_receipt.json; observed_controls.json; collection_raw.html;
+form_raw.html; query1_raw.html; query1_receipt.json; query2_raw.html;
+query2_receipt.json; read_observed_form.py; query_observed_form.py;
+query2_control.py; preflight_attempts/attempt01_source.py y attempt01_receipt.json;
+control_records.json; control_receipt.json; control_original.pdf; las dos páginas
+PNG de control ya guardadas. Los cuerpos externos y las imágenes quedan locales.
+
+Hash PDF control:
+728e79cc23e24831ba33ee504aeb04505113874d88121da8db753ec3c1e32009
+Hash respuesta BLUME:
+384f777e08b0aba6d035fd334a6b5d7d4764bcc54b43d3df64767412c31dd400
+Hash respuesta Salamanca:
+f5f2a06fed2df1173ed26968a4caea0df063a172139ca4c5e2b2504389bea24b
+
+Esta nota es propia. Esta revisión añadió cero peticiones HTTP, cero consultas,
+cero renders y cero IDP. No modificó archivos de etapas anteriores.
+
+Cotejo de cierre de raíz
+
+Se leyeron después control_read_receipt.json, ledger.json y
+resultado_directo_gazeta.txt. Sus cifras y límites coinciden con lo revisado:
+cuatro lecturas de interfaz acumuladas, dos consultas directas, un PDF, dos PNG,
+dos solicitudes web observables y cinco HTTP propias. Se verificaron también
+los diez tamaños/hashes de fuentes externas registrados por el ledger final,
+sin errores. La lectura visual y el cierre de raíz están registrados a las
+02:29:16 UTC, antes de las 02:29:44 UTC. No hubo nuevas peticiones para este
+cotejo local posterior.
+
+control_records.json conserva original_documents_read=0 porque describe los
+metadatos antes de descargar y leer el PDF. La lectura posterior de un original
+está documentada por control_receipt.json, control_read_receipt.json y ledger.json;
+no se usa el primer contador como total final de la ronda.
+
+La nota final de raíz expresa correctamente el negativo y el alcance del control.
+La palabra «nominales» aplicada a las dos consultas puede cambiarse por «directas»
+para expresar mejor que Salamanca fue un control. Es una mejora de claridad,
+sin cambio de conteo, método o conclusión. No hay objeción material para publicar
+las notas propias revisadas, conservando cuerpos externos y escaneos locales.

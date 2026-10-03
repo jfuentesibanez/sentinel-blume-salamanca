@@ -90,6 +90,22 @@ See the [fixed plan](../work/phase17_records/plan.json),
 [analysis receipt](../work/phase17_records/run_receipt.json) and
 [independent audit](../work/phase17_review/post_ejecucion_independiente.json).
 
+## Direct Gazeta receipt check — 3 October 2026
+
+`python3 tools/recheck_gazeta_20261003.py` uses only the standard library and
+writes no files. It checks the selected inventory's included hashes, preserved
+phase 17 checksum, fixed plans/source/reviews, root approval, query fields,
+saved UTC deadlines, local preflight failure, control-read receipt and counters.
+It compares recorded external hashes with inventory references without requiring
+or reading external HTML, responses, OCR text, PDF, PNG or extracted metadata.
+
+It invokes no historical request script, HTTP, scorer, solver or phase 17 CSV
+replay. It verifies own recorded provenance, not the search service's sensitivity
+or a new reading of the 1938 control. The source access scripts remain historical
+records that depend on omitted external files. No cryptanalytic phase or cost
+is added. After this publication, checking `verify_snapshot.py` and this helper
+is sufficient for the new historical addition; earlier phase 17 inputs retain bytes.
+
 ## Publication records
 
 [source_inventory.jsonl](../provenance/source_inventory.jsonl) and
@@ -125,6 +141,13 @@ reading, approvals, audits and bounded BOE notes. The previous checksum record
 is preserved as [phase16_file_hashes.json](../provenance/phase16_file_hashes.json).
 Frozen phase 16 inputs, sources, plans, results and earlier research retain their bytes;
 only current entry documents and public verification tools receive new versions.
+
+[gazeta_20261003_source_inventory.jsonl](../provenance/gazeta_20261003_source_inventory.jsonl)
+and [gazeta_20261003_update.json](../provenance/gazeta_20261003_update.json) record
+the later direct historical form query, with source bodies and extracted titles
+referenced instead of copied. Its earlier checksum record is preserved as
+[phase17_file_hashes.json](../provenance/phase17_file_hashes.json). All previous
+scientific plans, inputs, code, results and reports retain their bytes.
 
 ## Building portable solvers
 
