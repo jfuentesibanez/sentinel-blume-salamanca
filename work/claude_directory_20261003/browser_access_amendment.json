@@ -1,0 +1,30 @@
+{
+  "record_type": "Prospective access-method amendment before browser actions; original web stage closed with both failures preserved",
+  "reason": "Newly observed: web open returned403 for BNE and tool-access error for Madrid. These are tool observations, not actual catalogue page content or proven authentication. Verify same exact supplied source IDs through supported browser UI, no new source/search/period.",
+  "original_plan": "verification_plan.json",
+  "original_web_stage": {
+    "requests": 2,
+    "succeeded": 0,
+    "closed": true,
+    "original_pages": 0
+  },
+  "deadline_utc": "2026-10-03 08:58:34 UTC",
+  "added_budget": {
+    "browser_goto_requests": 4,
+    "browser_dom_reads": 4,
+    "original_pages_read_total": 4,
+    "original_editions_total": 1,
+    "extra_sky_UI": 0,
+    "HTTP": 0,
+    "IDP": 0
+  },
+  "total_access_cap": "Two completed web opens + up to four browser goto requests = six source navigation requests. No unused original plan budget added; no time reset.",
+  "entry_targets": [
+    "https://datos.bne.es/resource/Mise0000039089",
+    "http://servpub.madrid.es/cgi-bin/hemeroteca?TITN=22628"
+  ],
+  "order": "Same two fixed catalogue entries, no other catalogue/domain except exact original/digital links exposed by those pages; up to two remaining followed links.",
+  "stop": "No repeated browser goto per URL. Stop each source on error/login/security/CAPTCHA; no bypass, solving challenge, credentials or guessed endpoints. No resubmission to web engine, no variants/new editions beyond one1930–36. If both entries inaccessible close all access.",
+  "interpretation": "Preserve change from original no-retry/no-extraUI plan in this dated amendment. Tool-surface fallback is exploratory access, not an experiment or a confirmation of Claude holdings/fields.",
+  "status": "pending independent review before browser actions"
+}

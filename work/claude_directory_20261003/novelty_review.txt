@@ -1,0 +1,89 @@
+BLUME SALAMANCA — novedad local de la propuesta de anuario de Claude
+3 de octubre de 2026. Revisión acotada; ninguna consulta externa.
+
+RESULTADO
+
+La propuesta es una pieza bibliográfica concreta que no aparece en las notas,
+ledgers y metadatos locales examinados: Anuario General de España
+(Bailly-Baillière-Riera), con una edición de los años treinta como posible
+directorio de firmas y direcciones telegráficas. No encontré una consulta previa
+registrada a ese título, BNE Mise0000039089 o Madrid TITN=22628. Esto es novedad
+respecto de los registros revisados, no una garantía de exhaustividad del proyecto.
+
+La consulta bibliográfica de Correos sí mostró Guía de Salamanca, de Juan Ramón
+Brotons: Madrid, El País/Aguilar, D.L. 1990. Es otra obra, fuera del periodo.
+Sólo se observó su ficha entre los resultados; no prueba consulta de un anuario
+comercial de los años treinta ni lectura de un ejemplar de Bailly-Baillière-Riera.
+
+FUENTE DE LA PROPUESTA; DISPONIBILIDAD SIN VERIFICAR
+
+La respuesta de Claude está conservada en messages23_24_ax.local.txt. Propone:
+- BNE: https://datos.bne.es/resource/Mise0000039089
+- Hemeroteca Municipal de Madrid:
+  http://servpub.madrid.es/cgi-bin/hemeroteca?TITN=22628
+
+Aquí no se abrieron esas URL. Las afirmaciones de Claude sobre años, tomos,
+fondos declarados y digitalización no quedan comprobadas por esta revisión.
+Tampoco se ha visto una portada de 1936, una sección de Salamanca o un campo
+de dirección telegráfica. No atribuir una edición, tomo o alcance provincial
+al ejemplar hasta leer su catálogo y sus páginas originales.
+
+PREGUNTA Y PLAN PROPUESTO, NO EJECUTADO
+
+Pregunta inicial: «¿Una edición oficialmente enlazada del Anuario General de
+España de 1930–1939 contiene campos de dirección telegráfica en sus entradas
+comerciales, y permite identificar el alcance de su sección de Salamanca?»
+
+Una sola ronda, diez minutos desde el primer acceso. Máximo dos fichas de
+catálogo oficiales y un ejemplar original de 1930–1939, con cuatro páginas
+originales como máximo. Priorizar 1936 si la ficha ofrece esa edición; no
+inventar año, tomo, enlace de escaneo o endpoint.
+
+1. Leer la ficha BNE indicada y sus enlaces expresos. Registrar literalmente
+   título, años y existencias, separando fechas de edición y alcance de la serie.
+2. Si falta un ejemplar público pertinente, leer la ficha Madrid indicada.
+   No usar buscadores generales ni reabrir búsquedas nominales de BLUME.
+3. Sólo seguir un enlace oficial explícito a un ejemplar de los años treinta.
+   Seleccionar las páginas por la portada, índice, esquema o navegación del
+   ejemplar. Comprobar primero identidad de edición y encabezados de campos;
+   después una página comercial de Salamanca si se puede localizar dentro
+   del mismo límite. Una capital distinta sirve únicamente para observar
+   el esquema, no para atribuir a Salamanca idéntico contenido o cobertura.
+
+Parar ante bloqueo, falta de enlace oficial público, edición fuera de los años
+treinta, falta de identidad verificable del ejemplar, límite de páginas o tiempo.
+Si las páginas seleccionadas no presentan direcciones telegráficas, cerrar
+esta prueba de viabilidad y describir sólo lo observado. No concluir que ninguna
+edición o sección del anuario las contiene. Si sí aparecen, proponer una ronda
+separada para la sección pertinente, sin ampliarla en esta misma ronda.
+
+Un vínculo BLUME + firma/persona + Salamanca de época sería una pista comprobable,
+pero necesitaría contraste independiente. Un apellido coincidente, el objeto
+social o la presencia de negocios de lana no prueban identidad del destinatario
+ni contenido de los telegramas. El anuario tampoco proporciona por sí mismo
+la clave o el codebook.
+
+La referencia secundaria al Censo-Guía/Burgos no se convierte en una ruta para
+Salamanca. No acredita registros equivalentes en esta ciudad; queda fuera del plan.
+
+ALCANCE LOCAL Y COSTE
+
+Se buscaron con rg los términos Bailly, Baillière/Bailliere, Anuario General de
+España, Anuario Riera, Mise0000039089 y TITN=22628 en notas/ledgers/metadatos
+históricos, docs del repositorio y notas propias recientes; se excluyeron
+corpus, PDF, cuerpos web masivos, paneles y duplicados. Se hizo un cotejo adicional
+de los nombres e identificadores en informes propios de outputs.
+
+Para el tipo de obra se buscaron anuario/directorio comercial/guía comercial
+en los ledgers y resúmenes propios. Se cotejaron las cinco páginas de metadatos
+locales de las consultas previas de Correos mediante búsqueda textual acotada;
+la única guía pertinente al nombre de Salamanca observada es la de Brotons
+de 1990. Se leyó solamente el fragmento de su ficha, no el libro.
+
+Otras referencias de control: blume-registered-address-lead.json;
+research-evidence.json; phase9-oswald-complemento/ledger.json;
+phase10-blume-diplomatico/ledger.json; history_novelty_plan.txt de la revisión
+manual; docs/SOURCES.md; y los fragmentos de la respuesta actual de Claude.
+
+Cero web, HTTP, UI, OCR, pruebas criptográficas o originales históricos nuevos.
+Sólo esta nota nueva; ningún registro anterior modificado.

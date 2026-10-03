@@ -4,6 +4,10 @@ Historical and cryptanalytic research into two encrypted telegrams sent from
 Zurich to **BLUME SALAMANCA on 8 January 1937**. A project by Javier Fuentes for
 [The Independent Sentinel](https://theindependentsentinel.substack.com/).
 
+A new [Anuario lead note](outputs/Sentinel_BLUME_pista_Anuario_2026-10-03.txt) verifies a BNE catalogue reference for the commercial
+directory proposed by Claude. This is a holdings lead; no original entry or
+telegraphic field has been read. Earlier research remains frozen.
+
 **Status, 3 October 2026: unsolved.** No verified plaintext, key or identification
 of BLUME. Historical evidence, hypotheses and synthetic experiments are kept
 separate. The latest numbered research checkpoint is **phase 17**, a post hoc reading

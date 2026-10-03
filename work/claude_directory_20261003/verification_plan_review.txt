@@ -1,0 +1,44 @@
+REVISIÓN PREVIA DEL PLAN DE VERIFICACIÓN DEL ANUARIO
+3 de octubre de 2026.
+
+DICTAMEN: APTO, con el alcance limitado que fija el plan. Sin corrección material.
+
+Las dos entradas coinciden con los enlaces e identificadores observados en AX:
+BNE Mise0000039089 y Madrid TITN=22628. Son referencias propuestas por Claude;
+esta revisión local no verifica sus fondos, ediciones, digitalización o campos.
+La novedad declarada se limita a notas propias seleccionadas; la ficha-guía de
+Salamanca anterior no equivale a una consulta de estos títulos/IDs. No se afirma
+haber buscado todos los artefactos previos. La cronología general y la ruta
+secundaria Burgos/Pontevedra no forman parte de este acceso autorizado.
+
+Utilidad: comprobar primero el título y los fondos, después si un ejemplar
+accesible de 1930–1936 declara campos telegráficos. Preferir 1936 o el ejemplar
+más reciente accesible del intervalo según enlaces oficiales observados; sólo
+un ejemplar. Metadatos o tenencia no identifican BLUME ni prueban la relación
+con Salamanca, lana o los telegramas. Un paréntesis no significa incompletitud
+sin leyenda. No atribuir a Claude verificación de campos que declara supuestos.
+
+Máximo seis solicitudes web de apertura/click en total: dos entradas fijas,
+tres navegaciones oficiales observadas y un documento original. Cero búsquedas
+web. Hasta cuatro páginas originales: título/contenido/abreviaturas y una página
+provincial comercial. Un eventual negativo se limita a esas páginas leídas;
+no excluye campos en el resto del ejemplar, otras ediciones o corpus.
+
+Una sola tentativa HTTP propia de descarga, separada del límite de seis web,
+sólo si el PDF está enlazado explícitamente y no es obviamente grande o un
+conjunto multivolumen. No inventar URLs o endpoints ni abrir otra edición.
+La lectura UI ya realizada (una) no autoriza lectura o mutación UI adicional.
+Cero IDP, solvers, correo, compras, pedidos o cambios de cuenta.
+
+Reloj fijo desde 08:43:34 hasta 08:58:34 UTC, sin reinicio por revisión o fallo.
+Cada fallo consume solicitud y no se reintenta esa ruta. La segunda entrada
+fija e independiente es admisible tras fallar la primera, dentro del mismo
+reloj; no es un fallback inventado. Agotado tiempo/caps o sin original accesible,
+cerrar al nivel de catálogo sin variantes, plataformas o periodos alternativos.
+
+Revisión exclusivamente local del plan y fragmento AX. No web, HTTP, UI,
+solver, helper, panel o CSV. No se modificó la propuesta, informe previo o repo.
+
+SHA-256 plan: 4e6aa2cd3d1bff292af1f2369b8fc8b191de3711878ea74b51a75d9bece8a2e5
+SHA-256 AX local: 6388020b992d63f8637336561b13ca1346599fc0cb460580cf126375a8ffd939
+Guardado UTC: 2026-10-03T08:44:56.452447+00:00

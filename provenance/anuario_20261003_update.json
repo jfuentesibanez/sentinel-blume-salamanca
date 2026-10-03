@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-03",
+  "addition": "anuario_20261003",
+  "baseline_commit": "aeaabfa6915c763b0fe6b1ce54ff09ba5981546f",
+  "research_through_phase": 17,
+  "new_inventory_entries": 18,
+  "new_included_files": 8,
+  "new_referenced_files": 9,
+  "new_excluded_files": 1,
+  "new_IDP_calls": 0,
+  "new_solver_trajectories": 0,
+  "originals_read": 0,
+  "new_web_search_queries": 0,
+  "source_navigation_requests": 5,
+  "browser_DOM_reads": 4,
+  "catalogue_search_navigations": 1,
+  "assistant_messages_sent": 0,
+  "scope": "Own bibliographic lead verification, not a cryptanalytic phase. BNE linked-data holdings only; fields, completeness, recipient and plaintext unverified."
+}

@@ -160,3 +160,13 @@ use the institution's manifests and our source ledgers.
 The export does not claim that omitted files were unavailable, private, false,
 or legally unusable. It records why we chose references instead of republishing
 them. No access licence has been inferred from a hash or a publicly reachable URL.
+
+## Commercial directory
+
+[BNE linked-data record](https://datos.bne.es/resource/Mise0000039089),
+Anuario General de España (Bailly-Bailliere-Riera). Holdings metadata was read
+in the browser, including ZR/332; catalogue data do not prove an original entry.
+The [own note](../outputs/Sentinel_BLUME_pista_Anuario_2026-10-03.txt) and
+[selected inventory](../provenance/anuario_20261003_source_inventory.jsonl)
+preserve scope and local references. Raw UI/DOM remains local. The preceding
+checksum is archived in [claude_final_20261003_file_hashes.json](../provenance/claude_final_20261003_file_hashes.json).

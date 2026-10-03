@@ -293,3 +293,12 @@ recorded copy, not that its contents are true or freely redistributable.
 The research reports were kept unchanged. Some contain obsolete local paths or
 private-chat references from their original context. Those are historical
 provenance, not public primary evidence. Use [SOURCES.md](SOURCES.md) for source access.
+
+## Commercial-directory lead — 3 October 2026
+
+The BNE linked-data record for the Anuario General de España includes 1936
+in the holdings statement under ZR/332. Parentheses, exact volumes, digitisation
+and telegraphic-address fields remain unverified; zero original pages were read.
+Madrid did not open; the current BNE catalogue showed only an interface shell
+in the captured DOM. See the [own note](../outputs/Sentinel_BLUME_pista_Anuario_2026-10-03.txt).
+No new cryptanalytic phase or recipient identification follows.

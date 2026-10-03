@@ -1,0 +1,61 @@
+{
+  "closed_at_utc": "2026-10-03 08:53:10 UTC",
+  "start_utc": "2026-10-03 08:43:34 UTC",
+  "deadline_utc": "2026-10-03 08:58:34 UTC",
+  "status": "closed_at_DOM_cap_catalogue_lead_verified_no_original",
+  "original_plan": "verification_plan.json",
+  "prospective_amendment": "browser_access_amendment.json",
+  "amendment_review": "amendment_review.txt",
+  "web_stage": {
+    "open_requests": 2,
+    "catalogues_read": 0,
+    "outcomes": [
+      "BNE403Forbidden",
+      "Madrid tool inaccessible"
+    ]
+  },
+  "browser_stage": {
+    "goto_requests": 3,
+    "DOM_reads": 4,
+    "in_page_expansions": 1,
+    "tab_list_calls": 1,
+    "created_tabs": 3,
+    "outcomes": [
+      "BNE linked-data record read; expanded holdings read",
+      "Madrid net::ERR_BLOCKED_BY_CLIENT; empty DOM",
+      "BNE current catalogue linked search shell read; no item/result/holding displayed in captured DOM"
+    ],
+    "further_source_navigation": false
+  },
+  "costs": {
+    "web_search_queries": 0,
+    "web_open_calls": 1,
+    "web_open_requests": 2,
+    "browser_goto_requests": 3,
+    "total_source_navigation_requests": 5,
+    "DOM_reads": 4,
+    "official_catalogue_search_navigations": 1,
+    "original_editions_read": 0,
+    "original_pages_read": 0,
+    "own_HTTP": 0,
+    "downloads": 0,
+    "sky_UI_reads": 1,
+    "sky_UI_mutations": 0,
+    "messages_sent": 0,
+    "IDP": 0,
+    "solvers": 0
+  },
+  "verified": "BNE linked-data record title Anuario general de España (Bailly-Bailliere-Riera), publisher and annual serial metadata. ZR/332 holdings string explicitly includes (1936;1940); REVMICRO/1142 is also listed. This is holdings metadata, not page content or complete1936 holding proof.",
+  "unverified": [
+    "Interpretation of parentheses",
+    "Which1936 volumes cover Salamanca and are preserved",
+    "Madrid holdings asserted byClaude",
+    "Public digitisation or page access for1930–1936",
+    "Telegraphic-address fields or BLUME entry",
+    "Registered-holder identity, original recipient or plaintext"
+  ],
+  "source_url": "https://datos.bne.es/resource/Mise0000039089",
+  "update_notice": "Page says periodically updated, not live official catalogue mirror; displayed update17June2026.",
+  "stop_reason": "All four DOM reads used; no original exposed in read pages. Closed without another snapshot, goto, alternative source or new edition.",
+  "raw_status": "UI/DOM/tool responses local only. Own summary distinct from external bodies."
+}

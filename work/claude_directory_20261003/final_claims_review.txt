@@ -1,0 +1,55 @@
+REVISIÓN INDEPENDIENTE DE LAS AFIRMACIONES FINALES DEL ANUARIO
+3 de octubre de 2026.
+
+DICTAMEN: APTO para las afirmaciones de la nota propia. No se detecta error
+material en sus resultados o límites. La selección pública aún debe revisarse.
+
+El DOM BNE expandido confirma el título Anuario general de España, editorial
+Anuarios Bailly-Bailliere y Riera Reunidos, publicación seriada anual y signaturas
+ZR/332 y REVMICRO/1142. La mención textual de fondos de ZR/332 incluye
+1935(1936;1940). Sin leyenda, no se interpreta la puntuación ni se demuestra
+conservación completa o tomos concretos de 1936. El aviso sobre actualización
+periódica y la fecha 17/06/2026 aparecen en el DOM conservado.
+
+El navegador pudo leer esa ficha tras el 403 web; no se presenta como éxito
+de la primera etapa. Madrid devolvió net::ERR_BLOCKED_BY_CLIENT y DOM vacío:
+no confirma sus fondos ni acceso. El enlace al catálogo actual coincide con
+el expuesto en la ficha BNE y lleva el mismo ID. Su DOM muestra sólo capa de
+búsqueda, sin resultado/ejemplar; no equivale a una búsqueda con cero resultados.
+
+Recibo: dos solicitudes web en una llamada fallida y tres goto = cinco
+navegaciones a fuentes. Cuatro DOM, uno después de la expansión de ejemplares.
+Registra además una expansión, una lista de tabs y tres tabs creadas; el total
+de cinco es de navegación, no de todas las operaciones del navegador.
+La expansión muestra metadata y no descarga o pide un ejemplar. Cierre a las
+08:53:10 UTC por límite DOM, antes de 08:58:34, sin otro acceso posterior.
+Cero originales/páginas, descargas, HTTP propio, IDP, solvers o mensajes nuevos.
+Una lectura Sky/Computer Use fue la captura de la respuesta pedida por Javier,
+no otra consulta enviada por root ni lectura original del anuario.
+
+La enmienda previa conserva y declara el cambio de método del plan inicial,
+sin reiniciar tiempo o añadir presupuesto. La nota de novedad contiene una
+propuesta previa de 1930–1939/10 minutos marcada no ejecutada; no sustituye al
+plan aplicado de 1930–1936/15 minutos. Mantener esa secuencia en la procedencia.
+
+No se verificaron digitalización, campos telegráficos, BLUME, Salamanca, lana,
+registro de titular, destinatario, texto claro o clave. La sugerencia de leer
+páginas originales es una pieza futura, no una autorización o resultado nuevo.
+La nota no crea fase criptográfica ni modifica los resultados congelados.
+
+CRITERIO PARA LA SELECCIÓN: observed_response_receipt.json contiene el enlace
+privado del chat y metadatos de UI. Mantenerlo local/sólo referenciado junto con
+AX, estado de app, DOM y respuestas de herramientas. No copiarlo por ser un
+recibo propio. Si se necesita un resumen público de captura, crear una nota
+nueva sin enlace privado; conservar el recibo original. Planes, revisiones y
+verification_receipt.json propios pueden seleccionarse sin copiar cuerpos.
+
+Cotejo exclusivamente local: no web, UI, HTTP, helper, test, panel, solver o CSV.
+No se modificó informe anterior ni archivo del repo.
+
+SHA-256 outputs/Sentinel_BLUME_pista_Anuario_2026-10-03.txt: c5e44f2d50cba219b75ba9ef30fb5b0d202be492fd8a5005ad0df95fd1c548d7
+SHA-256 work/claude_directory_20261003/verification_receipt.json: c814044e5141643b70dfb039acf2dd519a4f72de7018810219537af03119f43a
+SHA-256 work/claude_directory_20261003/bne_browser_expanded.local.txt: 43dcba9c5d44e4bea44b20a493d2bc22bc573edd3d1ae1b300d437424839ebf9
+SHA-256 work/claude_directory_20261003/madrid_navigation_receipt.local.json: 4a428fa9f7d0bb5654079d753c7a6c5f38212741c767b25260f3b3df96f0198d
+SHA-256 work/claude_directory_20261003/bne_current_catalogue_navigation.local.json: 75e12e19fc1e3d994fae21fc5465bc579edb41454619ad9fa271540534427d2e
+Guardado UTC: 2026-10-03T08:55:59.149507+00:00

@@ -1,0 +1,42 @@
+SENTINEL — Pista del Anuario General de España
+3 octubre 2026. Nota propia de verificación histórica.
+
+Claude propuso consultar el Anuario General de España (Bailly-Baillière-Riera)
+de 1936. La hipótesis es que un directorio comercial pueda asociar «BLUME»
+con una firma de Salamanca mediante un campo de dirección telegráfica.
+La propuesta todavía no identifica al destinatario ni confirma ese campo.
+
+Se leyó en el navegador la ficha de datos enlazados de la BNE:
+https://datos.bne.es/resource/Mise0000039089
+Confirma el título y la editorial. La signatura ZR/332 incluye 1936 entre
+paréntesis en su mención de fondos; también figura REVMICRO/1142. No se ha
+interpretado ese paréntesis sin una leyenda ni comprobado qué tomos de 1936
+se conservan. La página advierte que sus datos no reflejan en tiempo real
+el catálogo oficial; muestra actualización de 17 junio 2026.
+
+Los fallos iniciales de la herramienta web se conservaron. Antes del acceso
+en navegador se fijó y revisó una enmienda explícita del método, conservando
+el plazo global y el presupuesto total. No se presenta como ejecución sin
+cambios del plan inicial. Madrid quedó bloqueado en navegador. El enlace al
+catálogo actual de la BNE mostró sólo la interfaz de búsqueda en el DOM
+capturado, sin resultados ni ejemplares; no se declara una búsqueda vacía.
+
+Coste: dos aperturas web fallidas; tres navegaciones de navegador y cuatro
+lecturas DOM, una de ellas tras expandir datos de ejemplares. Total: cinco
+solicitudes de navegación a fuentes. Cero búsquedas web nuevas, descargas,
+HTTP propio, originales leídos, IDP o solvers. Una lectura de Claude, cero
+mensajes enviados por el asistente. Javier había enviado la consulta.
+
+La verificación termina al nivel de catálogo. No se ha leído una edición
+de los años treinta ni probado digitalización, campos telegráficos, entrada
+BLUME, cobertura de Salamanca o relación con lana. Encontrar una empresa
+en un directorio tampoco bastaría para probar que recibió los telegramas.
+
+Siguiente pieza concreta: páginas originales de un único ejemplar de los
+años treinta que permitan comprobar su esquema de entradas; después, si
+incluye direcciones telegráficas, el tomo/sección correspondiente a Salamanca.
+Las signaturas sirven para precisar una futura consulta bibliográfica,
+sin hacer ahora pedidos, compras o mensajes a personas.
+
+Respuesta exacta observada, DOM y fallos conservados sólo localmente en
+work/claude_directory_20261003. Las fases anteriores no se han modificado.

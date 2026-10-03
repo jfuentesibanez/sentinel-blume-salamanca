@@ -1,0 +1,29 @@
+{
+  "question": "Do the two official catalogue records cited by Claude identify the1936 Anuario General de España and an accessible1930–1936 edition with explicit telegraphic-address entries?",
+  "start_utc": "2026-10-03 08:43:34 UTC",
+  "external_access_limit_minutes": 15,
+  "basis": "Human-requested newly observed Message24 of24 in existing Claude chat. Concrete BNE ID Mise0000039089 and Madrid TITN22628. Claude asserts catalogue holdings but explicitly leaves telegraphic fields, digitisation and relevance unverified.",
+  "scope": "Only Anuario General de España (Bailly-Baillière-Riera), editions1930–1936.1936 preferred; if an official record exposes more than one accessible edition in that interval select latest. One edition maximum. No nominal BLUME/Oswald search, no commercial/cipher conclusions from metadata.",
+  "entry_urls": [
+    "https://datos.bne.es/resource/Mise0000039089",
+    "http://servpub.madrid.es/cgi-bin/hemeroteca?TITN=22628"
+  ],
+  "caps": {
+    "web_search_queries": 0,
+    "web_open_or_click_requests": 6,
+    "entry_catalogue_records": 2,
+    "observed_official_navigation_pages": 3,
+    "original_edition_documents": 1,
+    "original_pages_read": 4,
+    "UI_reads_current_task": 1,
+    "UI_mutations": 0,
+    "own_HTTP_download_attempts": 1,
+    "IDP": 0,
+    "solvers": 0
+  },
+  "allocation": "Entry records count within the six web requests. After records, only exact links returned by official records may be followed within four remaining requests. No invented endpoints or URLs. A single document download if a directly linked PDF is exposed counts separately as at most one own HTTP request; no download if obviously large/whole multi-volume.",
+  "relevance": "Catalogues can establish title/holdings only. Read coverage/year/volume if supplied; parenthesised holdings cannot be interpreted without a legend. A scan/text of original pages needed to establish telegraphic fields. At most title/contents/abbreviation and one provincial-commercial page, four total. If inaccessible, stop with catalogue-level lead.",
+  "stop": "Fifteen minutes or caps; stop earlier on inaccessible editions/no linked original. Each access failure counts and is not retried; the second independently fixed entry record remains admissible. No platform/period/query variants, CAPTCHA solving, browser-security bypass, credential changes, mail, orders, purchases or old-route reopenings.",
+  "publication": "Raw UI/dialogue/captures/external bodies local. Own checked useful summary may be saved/published after root and independent review. Existing frozen phases and public snapshot unchanged until a separately reviewed addition.",
+  "status": "awaiting local novelty and independent plan review before web access"
+}

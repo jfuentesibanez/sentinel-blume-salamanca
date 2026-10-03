@@ -1,0 +1,39 @@
+REVISIÓN PREVIA DE LA ENMIENDA DE MÉTODO DE ACCESO
+3 de octubre de 2026.
+
+DICTAMEN: APTO como enmienda prospectiva explícita, no como cumplimiento sin
+cambios del plan original. No requiere corrección material.
+
+Los dos fallos web quedan conservados y esa etapa está cerrada: BNE 403 y
+Madrid no accesible por la herramienta; cero catálogos y originales leídos.
+Volver a las mismas URLs en navegador constituye otro intento de acceso.
+La enmienda reconoce expresamente el cambio de la regla anterior sin reintentos
+ni UI adicional. Se revisa antes de acciones en navegador y no adapta la
+pregunta o el método científico después de observar páginas o datos.
+
+Es razonable ensayar el navegador soportado para esos dos IDs concretos. Un
+403 no demuestra autenticación ni confirma el catálogo; tampoco autoriza
+sortear la barrera. Si el navegador muestra error, login, CAPTCHA o seguridad,
+cerrar esa fuente sin repetir, credenciales, solución de reto o bypass. La
+segunda entrada fija sigue siendo independiente; no habilita otras plataformas.
+
+Contabilidad cerrada: dos aperturas web consumidas más hasta cuatro goto en
+navegador = seis solicitudes de navegación. Hasta cuatro lecturas DOM, contando
+las fallidas; como máximo dos enlaces posteriores observados y oficiales.
+Un ejemplar 1930–1936 y cuatro páginas sólo si caben en esos límites. Cada
+acceso fallido consume presupuesto. No reutilizar el presupuesto de descarga
+del plan original: cero HTTP propio/descargas, IDP, solvers o Sky/Computer Use
+extra. El tráfico normal del navegador queda dentro de sus goto, no se presenta
+como ausencia de tráfico HTTP subyacente.
+
+Plazo único 08:58:34 UTC, sin reinicio o ampliación. Sin búsquedas, URL inventadas,
+variantes de periodo o nuevos ejemplares. Metadatos/fondos no establecen campos
+telegráficos ni identidad; paréntesis requieren leyenda. Si ambas entradas
+fallan, cierre total. Mantener los resultados de etapas separados y describir
+este cambio de acceso al cerrar; no afirmar confirmación por los fallos previos.
+
+Revisión sólo local de la enmienda. No web, UI, HTTP, helper, panel, solver o CSV.
+No se cambió el plan, la enmienda o el repo.
+
+SHA-256 enmienda: 796b971cc6453ace3ecdaa462f5b07a999223ada812f56ea38aa69080233e9fb
+Guardado UTC: 2026-10-03T08:49:03.591860+00:00
