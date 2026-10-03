@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-03",
+  "addition": "claude_final_20261003",
+  "research_through_phase": 17,
+  "baseline_commit": "95fc281f3acba0f852ff5a0345016c746f13373b",
+  "new_inventory_entries": 3,
+  "new_included_files": 2,
+  "new_referenced_files": 1,
+  "completed_Claude_exchanges": 3,
+  "final_correction_sent": true,
+  "final_correction_send_attempts": 1,
+  "new_UI_state_reads": 4,
+  "new_UI_clicks": 2,
+  "new_UI_pastes": 1,
+  "new_UI_action_attempts": 7,
+  "derived_response_word_count": 53,
+  "new_IDP_calls": 0,
+  "new_solver_trajectories": 0,
+  "new_historical_queries": 0,
+  "CSV_replays": 0,
+  "original_scientific_files_changed": 0,
+  "scope": "Delivery once after new user access signal; accepted correction agrees with prior internal static read. No new code audit by Claude or experiment. Prior reports preserved."
+}

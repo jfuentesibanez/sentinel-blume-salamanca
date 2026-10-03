@@ -237,8 +237,10 @@ solver runs or CSV replays. Known B finals outrank the two selected A failures,
 without proving a global optimum or excluding objective landscape problems.
 Earlier metric distinctions and B's complete-sweep requirement remain valid.
 Claude accepted the main corrections but then misread partial_best_admitted:
-the frozen code requires complete and records false. A final short correction
-is prepared but unsent because the Mac relocked.
+the frozen code requires complete and records false. The final short correction was pending when that note was written. It has
+now been sent once after a new user access signal, and Claude withdrew the
+incorrect inference. See the [later closure](../outputs/Sentinel_BLUME_cierre_revision_Claude_2026-10-03.txt). Three exchanges are complete; no
+prompt remains pending and no new source audit or experiment follows.
 
 SHAB was queried through an external index in phase 9; a direct corpus route
 was not found in the checked local records. A bounded follow-up read the official

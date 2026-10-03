@@ -1,0 +1,35 @@
+BLUME SALAMANCA — CIERRE DE LA REVISIÓN CON CLAUDE
+3 de octubre de 2026. Nota posterior al informe de revisión conservado.
+
+Javier avisó «Ya despierto. Claude listo». Con esa nueva señal legítima de acceso,
+Computer Use abrió el estado actual de la app y comprobó el chat BLUME y el modelo
+Opus 5.5 Medium. Se envió una vez sólo la corrección breve que había quedado
+pendiente. No se repitieron la consulta de trece enlaces ni el seguimiento anterior.
+
+Claude aceptó la corrección: su inferencia a partir del nombre del campo
+partial_best_admitted era errónea. En el código de fase 16 la aceptación B exige
+complete && policy=='B'; el registro escribe false. B no admite la mejor parcial
+como estado actual en ese código. Claude mantiene la retirada del contrafactual
+sobre presupuesto porque no se probó, sin apoyarla ya en aquel argumento falso.
+
+Esta respuesta coincide con el addendum estático que Sentinel ya había comprobado.
+El asentimiento no es una nueva auditoría de fuentes o código por Claude. No
+hay declaración nueva de lectura de esa fuente ni una puntuación o prueba nueva.
+El cotejo de cierre usa el addendum y los registros de interacción, sin ejecutar
+helpers, scorers, solvers, trayectorias o replay de CSV. Cero IDP adicionales.
+
+Se observaron un envío y una respuesta completa de 53 palabras en el cuerpo
+textual derivado de AX. Operación de esta reanudación: cuatro lecturas de estado,
+dos clicks y un pegado; el click de envío está incluido entre los dos clicks.
+Las capturas, prompt exacto, respuesta AX y recibo de entrega permanecen locales.
+La captura AX es texto observado de interfaz, no un export original Markdown.
+No se verifican operaciones internas ni costes de inferencia del proveedor.
+
+La consulta queda cerrada con tres intercambios completos. El informe previo
+conserva que el último prompt estaba pendiente entonces; esta nota registra su
+entrega posterior, sin reescribir ese informe o los resultados científicos.
+Las fases 15–17 y las rondas Gazeta y SHAB quedan cerradas y congeladas. No se
+abrió una nueva consulta histórica ni experimento. Seguimos sin identidad BLUME,
+clave o texto claro históricos verificados. No hay contactos humanos, compras,
+pedidos o cambios de cuenta. Cualquier búsqueda nueva necesita una pregunta
+concreta y límites propios; esta aceptación no aprueba otra prueba o búsqueda.

@@ -284,8 +284,9 @@ The first A move rotates last-to-front, changing 25 positions relative to the
 previous state: one graph move, not distance to K2 or a demonstrated failure cause.
 The second reply introduced a new error: partial_best_admitted is literally false
 in the writer and B adoption requires a complete sweep. Sentinel corrected that
-claim in a static-code addendum. The final short prompt remains unsent after Mac
-relocking. Do not resend the initial packet or the completed follow-up. See the
+claim in a static-code addendum. The final short prompt, pending then, was later sent once after Javier supplied
+a new access signal; Claude accepted it. See the [closure](../outputs/Sentinel_BLUME_cierre_revision_Claude_2026-10-03.txt). Three exchanges are complete.
+Do not resend any of the three messages or poll UI without a new concrete task. See the
 [own checked review](../outputs/Sentinel_BLUME_revision_Claude_2026-10-03.txt).
 
 The SHAB idea has partial novelty: phase 9 had three external-index queries.

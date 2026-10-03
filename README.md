@@ -35,8 +35,8 @@ See the [direct Gazeta note](work/primary_history_20261003/resultado_directo_gaz
 A later [review with Claude, in Spanish](outputs/Sentinel_BLUME_revision_Claude_2026-10-03.txt)
 checked its critique against saved values and static code with zero new scoring.
 Two exchanges completed; Claude declared reading three files, not the phase 16
-source or all thirteen supplied links. A final short correction remains unsent
-after the Mac relocked. The proposed SHAB/FOSC route yielded an institutional
+source or all thirteen supplied links. The final short correction, pending then, was later sent once and accepted
+after Javier supplied a new access signal. See the [closure note](outputs/Sentinel_BLUME_cierre_revision_Claude_2026-10-03.txt). The proposed SHAB/FOSC route yielded an institutional
 guide and one failed follow-up HTTP request; no corpus query or commercial
 notice was read. This adds no historical identity or cryptanalytic experiment.
 
@@ -180,3 +180,7 @@ The later Claude review and SHAB access attempt have a separate
 [inventory](provenance/claude_review_20261003_source_inventory.jsonl) and
 [update record](provenance/claude_review_20261003_update.json). The Gazeta checksum
 is preserved as [gazeta_20261003_file_hashes.json](provenance/gazeta_20261003_file_hashes.json).
+
+The later delivery closure has its own [inventory](provenance/claude_final_20261003_source_inventory.jsonl)
+and [update record](provenance/claude_final_20261003_update.json). The preceding
+review checksum is preserved as [claude_review_20261003_file_hashes.json](provenance/claude_review_20261003_file_hashes.json).
