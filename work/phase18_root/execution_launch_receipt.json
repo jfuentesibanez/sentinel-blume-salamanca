@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "plan_sha256": "97b8d8ef0c90cf58c2787410cf62a6193ee6ab3fe0d7ac91d9512fa4e095b717",
+  "command": [
+    "python3",
+    "work/phase18_crypto/experiment.py",
+    "execute"
+  ],
+  "requested_at_unix": 1791042287.540304,
+  "attempt": 1,
+  "maximum_attempts": 1,
+  "truth_before_launch": false,
+  "new_IDP_before_launch": 0,
+  "returncode": 0,
+  "manifest_status": "completed",
+  "manifest_started_at_unix": 1791042288.8199081,
+  "manifest_ended_at_unix": 1791042317.8430789,
+  "runs": 12,
+  "main_IDP": 482829,
+  "positive_IDP": 66600
+}

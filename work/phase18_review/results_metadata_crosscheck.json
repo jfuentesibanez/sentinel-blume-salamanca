@@ -1,0 +1,43 @@
+{
+  "status": "saved_metadata_crosscheck_passed",
+  "evaluation_sha256": "eea7e24674e1072e90c7db36c7be7b62cad024eb7a81dc918396e230b7d7f8f2",
+  "evaluator_sha256": "82c8a73c4387ce6f1bc7e87b17a73d4f69957f49783024539e0ed06dfeded965",
+  "target_gate_sha256": "03d583a1b9f4793499892bb7fc119f4c989b281b1ee0cf28f93294aade6c4680",
+  "profiles_checked": 12,
+  "case_key_pairs_distinct": 4,
+  "main_initial_keys_distinct": 8,
+  "main_initial_hamming_range": [
+    23,
+    25
+  ],
+  "main_minimum_scored_hamming_range_reported": [
+    17,
+    20
+  ],
+  "main_sweeps_distribution": {
+    "3": 4,
+    "4": 3,
+    "5": 1
+  },
+  "totals": {
+    "main_profiles": 8,
+    "main_cases": 4,
+    "main_final_top5": 0,
+    "main_ever_scored": 0,
+    "main_final_current": 0,
+    "positive_profiles": 4,
+    "positive_final_top5": 4,
+    "positive_final_current": 4,
+    "main_IDP": 482829,
+    "positive_IDP": 66600,
+    "reference_IDP": 24,
+    "mock_callbacks": 59,
+    "total_IDP": 549453
+  },
+  "new_IDP": 0,
+  "new_RNG": 0,
+  "CSV_rows_read_this_review": 0,
+  "truth_file_read_this_review": false,
+  "planted_targets_in_saved_evaluation_read": true,
+  "regeneration_check_scope": "static source assertions before evaluated save; not rerun"
+}

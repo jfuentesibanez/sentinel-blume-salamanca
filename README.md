@@ -12,26 +12,29 @@ A [later item note](outputs/Sentinel_BLUME_tomos_Anuario_1936_2026-10-03.txt) re
 T.1, T.3 and T.4. Their Salamanca coverage and telegraphic-address fields remain
 unverified; no original pages were read. A bibliographic inquiry draft remains unsent.
 
-**Status, 3 October 2026: unsolved.** No verified plaintext, key or identification
-of BLUME. Historical evidence, hypotheses and synthetic experiments are kept
-separate. The latest numbered research checkpoint is **phase 17**, a post hoc reading
-of two selected failed A paths and their paired B paths saved in phase 16.
-It read 183,143 existing rows with zero new IDP calls or trajectories. Both
-final A keys are strict local maxima over the 16,649 source neighbours, with
-no direct joins to recorded B current states; this does not establish a global
-barrier or exclude other routes. **Phase 16 remains the latest experiment.**
-From privileged Hamming-4/8 starts on four new synthetic cases, best-improvement policy B ended
-at K2 in **8/8** main trajectories and immediate-update A in **6/8**. B used
-about 20% more main calls; four separate positive controls ended at K2 in 4/4.
-This is local evidence from starts derived from the truth, not recovery from
-unknown keys. The known phase 16 cost is 799,212 IDP calls including controls
-and the numerical audit. The earlier phase 15 static diagnosis and phase 14
-pilot with 32 runs and zero K2 recoveries remain preserved. Kent's verified
-serial-to-roll mapping and the telegram-629 erratum stand; bounded Internet
-Archive catalogue queries supplied no new target document. Three bounded
-phase 17 BOE web queries, over two calls and zero document openings, supplied
-no BLUME identification and do not establish absence from the historical corpus.
+**Status, 3 October 2026: unsolved.** No verified historical plaintext, key or
+identification of BLUME. **Phase 18 is the latest completed experiment.**
+Eight uniform-shuffle pseudorandom starts, nested on four fresh synthetic cases,
+produced **0/8** exact K2 findings with fixed-neighbourhood best-improvement B:
+none scored K2, retained it in the final top five or ended at it. Four separate
+privileged Hamming-2 controls did all three in **4/4**. Known widths, convention
+and literary models were supplied; K1 and historical plaintext were not recovered.
 
+All eight main routes stopped as converged after complete sweeps, without call
+or time cuts or partial sweeps. The known phase 18 cost is **549,453 IDP calls**:
+482,829 main, 66,600 positives and 24 charged numerical references. The result
+is limited to these starts, cases, objective and policy; it is neither a language
+rate nor a proof of global impossibility or an explanation of phase 14.
+
+Phases 16/17 remain frozen. Phase 16's privileged Hamming-4/8 starts gave B 8/8
+versus immediate-update A 6/8, with about 20% more main calls for B and 799,212
+known IDP calls. Phase 17 read 183,143 saved rows with zero new IDP or trajectories:
+two outcome-selected final A keys were strict source-neighbourhood maxima,
+without a direct join to recorded B current states; no global barrier follows.
+The phase 15 static diagnosis and phase 14's 32-run pilot remain preserved.
+Kent's verified serial-to-roll mapping and the telegram-629 erratum stand;
+bounded catalogue/BOE queries supplied no BLUME identification or corpus-absence
+finding.
 A separate **3 October 2026 historical follow-up** reached the official Gazeta
 form directly: Texto/DOC with submitted publication dates 1936–1938 returned
 no BLUME documents. Salamanca as a response control declared 2,471 results;
@@ -53,8 +56,9 @@ notice was read. This adds no historical identity or cryptanalytic experiment.
 1. [Context for Claude and other collaborators](docs/CONTEXT_FOR_CLAUDE.md): the
    case, established facts, open questions and the most useful next tasks.
 2. [Current research status](docs/STATUS.md): results and limits of the latest phases.
-3. [Latest checkpoint report, in Spanish](outputs/Sentinel_BLUME_fase17_2026-10-03.txt);
-   [latest experiment report](outputs/Sentinel_BLUME_fase16_2026-10-03.txt).
+3. [Latest experiment report, in Spanish](outputs/Sentinel_BLUME_fase18_2026-10-03.txt);
+   [saved-path reading](outputs/Sentinel_BLUME_fase17_2026-10-03.txt) and
+   [earlier privileged experiment](outputs/Sentinel_BLUME_fase16_2026-10-03.txt).
 4. [Sources and archival references](docs/SOURCES.md).
 5. [Reproduction and verification](docs/REPRODUCIBILITY.md).
 
@@ -128,6 +132,19 @@ descriptors only, without truth, models, RNG, scorers or the complete local base
 The Gazeta helper checks own saved receipts, counters and published hashes;
 it reads no referenced external bodies or images and performs no HTTP request.
 
+The phase 18 metadata check validates hashes, recorded costs, summary metrics and
+source-bound audit/evaluation receipts. It adds zero IDP, RNG or solver runs and
+does not replay CSV rows or repeat the 24 charged numerical references:
+
+```sh
+python3 tools/recheck_phase18.py
+```
+
+The two prior saved-record audits and the sealed external evaluation remain the
+evidence for descriptors that require trajectory rows. Private full seed/baseline
+metadata and compiled executables are referenced by hash, without requiring them
+or the 3,569 local baseline files in a public clone.
+
 See [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) before running any older script.
 Some frozen scripts check files or executable hashes from the original Mac
 workspace, or contain its absolute paths. They are not portable entry points.
@@ -192,3 +209,7 @@ is preserved as [gazeta_20261003_file_hashes.json](provenance/gazeta_20261003_fi
 The later delivery closure has its own [inventory](provenance/claude_final_20261003_source_inventory.jsonl)
 and [update record](provenance/claude_final_20261003_update.json). The preceding
 review checksum is preserved as [claude_review_20261003_file_hashes.json](provenance/claude_review_20261003_file_hashes.json).
+
+The phase 18 addition has a separate [inventory](provenance/phase18_source_inventory.jsonl)
+and [update record](provenance/phase18_update.json). The preceding 1,081-entry
+checksum is preserved byte for byte as [phase18_file_hashes.json](provenance/phase18_file_hashes.json).

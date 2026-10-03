@@ -1,0 +1,31 @@
+{
+  "attempt": 1,
+  "returncode": 0,
+  "timed_out": false,
+  "status": "passed",
+  "seconds": 0.3350872499868274,
+  "source_sha256": "2904465da7df67f6d503ea3b8864125e95fcfe31d9377075b349bd63ea9bdaf8",
+  "binary_sha256": "c20b81b9cfee4811217394632bbf6c03f2fa12b32b6fbbd7d9e94f8552ff16c4",
+  "exact_header_sha256": "781845de2dcf55b24ed342fb74f24590d8e6e7d33c1b78756d6cbe78defcb097",
+  "actual_legacy_IDP_calls": 0,
+  "actual_exact_IDP_calls": 0,
+  "mock_callback_calls": 59,
+  "total_mock_callback_budget": 200,
+  "output_sha256": "016d42f4ed8eebb28d18e8a4d2739e6bb87a01d41242ac9edfd9771b7d91a80b",
+  "trace_sha256": "81c57d4bb9ae277583ddc79024b2b6c5618ddf10fe7f1a42cd3536efe95594db",
+  "fixture_record": {
+    "status": "passed",
+    "policy_fixtures": 16,
+    "new_exact_IDP_calls": 0,
+    "new_legacy_IDP_calls": 0,
+    "mock_callback_calls": 59,
+    "truth_read": false,
+    "truth_generated": false
+  },
+  "truth_generated": false,
+  "main_runs": 0,
+  "policy_fixtures": 16,
+  "actual_exact_IDP_calls_all_attempts": 0,
+  "actual_legacy_IDP_calls_all_attempts": 0,
+  "inherited_controls_byte_equivalent_except_charge_instrumentation": true
+}

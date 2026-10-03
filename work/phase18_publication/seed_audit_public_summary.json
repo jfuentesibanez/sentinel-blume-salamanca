@@ -1,0 +1,15 @@
+{
+  "record_type": "safe_public_summary_of_local_seed_reservation",
+  "status": "reserved_before_truth",
+  "source_path": "work/phase18_root/seed_reservation.json",
+  "source_sha256": "ab167b82c481d915f9184245fa800c7e3657cc9b829afd81dde918e5b38d85bb",
+  "source_bytes": 2636575,
+  "case_seeds": [20262801, 20262802, 20262803, 20262804],
+  "start_seeds": [831004001, 831004002, 831004003, 831004004, 831004005, 831004006, 831004007, 831004008],
+  "prior_use_hits_count": 0,
+  "scanned_metadata_count": 752,
+  "prior_seed_fields_count": 13538,
+  "scope": "Recorded local metadata/source/filename seed audit; not proof of all undocumented uses or physical independence. Full paths and old field contents are retained locally because some refer to correspondence or private UI.",
+  "new_RNG_calls_in_this_summary": 0,
+  "new_IDP_calls_in_this_summary": 0
+}

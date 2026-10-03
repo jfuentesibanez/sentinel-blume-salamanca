@@ -1,0 +1,19 @@
+CrypTool 2 movement-generation algorithm
+Copyright (C) CrypTool 2 Team
+Apache License 2.0; complete text copied as LICENSE-CrypTool-2.txt.
+Pinned source commit bbcc87bb77f9b3f83c4ded7cb563029b0fbb081c
+https://github.com/CrypToolProject/CrypTool-2
+
+Phase18 reads frozen source_moves.h/ict_search.h/crypt primitives as dependencies.
+exact_scorer.h, moves.json and the license are byte-identical copies of phase16.
+Core is byte-identical to phase16, preserving source catalogue order, exact
+acceptance, fixed-anchor best improvement and refusal of partial B admission.
+The normal CLI admits B only; inherited A/B mock controls retain their policies.
+Mock charging instrumentation adds a callback budget/trace outside Core.
+The scorer sees only model/ciphertexts/geometry/current key. No truth, plaintext,
+planting seed, target recognition or success-based stopping enters the solver.
+No key generator is included or executed by build.py. The separate root design
+will reserve independent starts and synthetic cases before any truth generation.
+This preparation and its mechanical mocks do not test recovery or historical BLUME.
+Older sources and files are never modified. Literary model/holdout provenance
+and terms remain separate. This code does not reproduce the full Lasry attack.

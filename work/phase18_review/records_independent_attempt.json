@@ -1,0 +1,8 @@
+{
+  "status": "started",
+  "source_sha256": "b79ed4899d92478d2f9c0dcba54d8bc1d279b4b415defb7e507c2a9c52b7e82b",
+  "started_at_unix": 1791042384.734415,
+  "truth_read": false,
+  "new_IDP": 0,
+  "new_solver_runs": 0
+}

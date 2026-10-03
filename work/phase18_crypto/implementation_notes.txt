@@ -1,0 +1,15 @@
+FASE18 — PREPARACIÓN DEL SOLVER, ANTES DE VERDAD
+Core y exact_scorer.h son idénticos a fase16. El CLI normal admite B sólo y
+escribe mode=phase18_k2_trajectory. Se conservan el archivo top5, CSV de
+propuestas, eventos, marcadores IDP y reglas de barrido completo/partialB.
+Los16mocks heredados utilizan A/B internamente con el mismo cuerpo de control
+excepto el cobro externo charge_mock(): marca cada llamada y limita a200.
+Un único intento del programa mock pasó16fixtures y59callbacks,0IDP.
+No se generaron claves/verdad ni se ejecutó RNG, solver normal o IDP.
+La primera validación Python posterior al programa falló al exigir78callbacks.
+78era el acumulado de dos preparaciones antiguas16:19+59; la suite actual es59.
+Se corrigió la expectativa y se validaron stdout/traza ya guardados, sin
+recompilar el binario o repetir callbacks. Ambos pasos están declarados en
+control_postprocess_correction.json y el intento original se conserva.
+No se incorporó generador de claves ni entrada de verdad al buscador.
+Pendiente auditoría independiente del plan/código y aprobación de raíz.

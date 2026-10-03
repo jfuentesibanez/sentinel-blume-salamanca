@@ -1,0 +1,68 @@
+FASE 18 — COTEJO ESTÁTICO DE RESERVA Y ADAPTADOR
+3 de octubre de 2026.
+
+DICTAMEN: APTO para la correspondencia de reserva/prepare y el first-fit.
+Este cotejo no aprueba el plan completo ni una ejecución o publicación.
+
+Se recomputaron las ventanas desde previous_interval_evidence, deduplicando
+intervalos por idioma y añadiendo los dos intervalos numéricos de de_digraph
+como precaución alemana. Se enumeró cada offset entero desde cero, aceptando
+el primero cuya ventana de 775 no solapa ninguna previa o ya reservada.
+Es una implementación independiente por enumeración exhaustiva, sin utilizar
+prior_excluded_union o el salto/merge del algoritmo de reserva. Coincide:
+DE 2242 y 3017, límite 19764; FR 0 y 775, límite 30356.
+Las cuatro ventanas son las primeras elegibles, no tienen solapamiento con
+intervalos documentados ni entre las dos del mismo holdout. Los extremos
+adyacentes son válidos por la convención semiabierta.
+
+MAPPING ESTÁTICO DE PREPARE
+
+de_fold: offset 2242, plant_seed 20262801, start_seeds 831004001 / 831004002.
+de_fold: offset 3017, plant_seed 20262802, start_seeds 831004003 / 831004004.
+fr_fold: offset 0, plant_seed 20262803, start_seeds 831004005 / 831004006.
+fr_fold: offset 775, plant_seed 20262804, start_seeds 831004007 / 831004008.
+
+El adaptador itera de_fold antes de fr_fold, consume los dos reserved_windows
+por idioma y asigna CASE_SEEDS y pares START_SEEDS en ese orden. Comprueba hash
+del holdout, longitud 775, límite y exclusión previa. Su normalizador filtra
+ASCII y pasa a minúsculas; coincide con los holdouts ya ASCII a-z verificados
+en la reserva. Se leyó/analizó el fuente; no se importó ni ejecutó prepare,
+el compilador, el generador o ninguna función de experimento.
+
+TRAIN/HOLDOUT E INDEPENDENCIA
+
+La provenance fase 5 declara primeros 80% de la narrativa Unicode para train
+y últimos 20% para holdout. La línea de preparación separa text[:cut] y
+text[cut:] ANTES de normalizar ambas partes: no hay solapamiento de posiciones
+fuente documentado entre train y holdout. No se releyó la narrativa ni train;
+esta comprobación es de provenance y código, no una auditoría textual nueva.
+Los tamaños/hash de holdout coinciden con la reserva; modelos binarios intactos
+sin lectura, scoring o reentrenamiento en este cotejo.
+
+Cautela sustantiva: el holdout completo ya se usó en diagnósticos descriptivos
+unigram de fase 5 (ventanas recorridas por prepare_languages.py). Por tanto,
+los offsets son nuevos frente a plantas previas auditadas de 775, pero el
+corpus no es un conjunto nunca analizado. No afirmar un holdout intacto hasta
+esta prueba. La reserva excluye los usos de plantas con sample_position; no
+borra la exposición previa de diagnósticos o todos los usos de otra normalización.
+
+Además, las dos ventanas de cada idioma son contiguas y proceden de la misma
+obra literaria que train. Disyunción de posiciones no equivale a independencia
+lingüística, de tema o autor. Hay dos obras, cuatro plaintexts deterministas y
+ocho starts anidados, no ocho casos independientes ni una tasa por idioma.
+Las nuevas semillas literales son corrientes pseudorandom separadas previstas;
+no certifican IID físico ni muestreo aleatorio de plaintexts. Este cotejo sólo
+comprueba su mapping; la auditoría de uso previo de semillas queda separada.
+
+No se usa información de puntuación o éxito previo para first-fit. Ninguna
+cautela requiere cambiar los cuatro offsets; requiere conservar ese alcance
+en el plan y su interpretación. La identidad BLUME, clave/texto histórico,
+K1, lenguaje comercial y posibilidad general de descifrado no se validan aquí.
+
+No se modificó la reserva, método o fuente. Sólo este nuevo archivo.
+Cero RNG, IDP, solvers, CSV, contenido de holdout/train, UI o red.
+
+SHA-256 segment_reservation.json: a9f9928faeeba003f4ba51b18d315d0d252c68ba66c4e4830c25f6fe30ef306f
+SHA-256 experiment.py leído: 86ce4478500941476b6c80ce483a492dfc30696b4f538f72cc359515974328f5
+SHA-256 prepare_languages.py: 8282e65f0dd7a1be8fe88247d385402ef145b6370150fa1fdcfeec0b1fa81474
+Guardado UTC: 2026-10-03T14:58:58.465718+00:00

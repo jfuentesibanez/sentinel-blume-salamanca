@@ -1,0 +1,46 @@
+FASE 18 — RESERVA DE SEGMENTOS ANTES DE CLAVES
+
+Reserva determinista pendiente de auditoría del plan completo.
+DE de_fold: offsets 2242 y 3017; límite del holdout 19764.
+FR fr_fold: offsets 0 y 775; límite del holdout 30356.
+Longitud de cada ventana: 775 ASCII a-z; intervalos semiabiertos base cero.
+No se generó caso, clave, truth o RNG. Cero IDP y solvers.
+
+Se extrajeron sólo idioma/modelo, sample_position, case_id y localizador.
+La evidencia JSON conserva path exacto, SHA-256, offset y records de cada
+intervalo previo, incluidas las copias byte-idénticas. Los cases de manifests
+sin offset se enlazan por case_id/idioma con truth. El aislamiento fase 8
+usa el mismo par sellado, sin segmento adicional. No se inspeccionan ni copian
+claves, puntuaciones o valores de perfiles; no se recorren protected_before,
+protected_after o baselines de hashes. Se contó cada campo sample_position
+hallado para comprobar cobertura de su extracción directa.
+
+Cobertura: controles fase 5/7; truth fases 8/9/10/11/14/15/16; cases directos
+de metadata de evaluación y manifests; copias visibles en work, outputs y
+export. Cada holdout fold tiene 18 offsets previos distintos. Los registros
+prose/proxy fase 3/4 usan otros holdouts españoles/proxy según metadata de
+entrada. Ocho archivos piloto antiguos, originales/copias, omiten idioma:
+16 rows con offset 84123, fuera de ambos holdouts. Se conserva esa ambigüedad;
+no se adivina idioma, y no puede afectar una ventana válida en estas coordenadas.
+
+Los controles de de_digraph tienen otro hash/normalización. Sus offsets 6195
+y 18004 se excluyeron además numéricamente en alemán. La reserva demuestra
+no solapamiento en los holdouts fold auditados; no demuestra novedad textual
+a través de otras normalizaciones, corpus, Git histórico o usos no documentados.
+
+Los holdouts leídos ya son ASCII a-z. Se normalizaron sólo para longitud/hash
+y se cotejaron contra provenance. No se mostraron, inspeccionaron o puntuaron
+contenidos de ventanas; no se leyeron modelos binarios.
+
+Algoritmo: construir [offset,offset+775) por uso previo, ordenar y unir
+intervalos solapados o contiguos. Empezar candidato=0; si candidato+775 cabe
+antes del siguiente intervalo, elegirlo. Si solapa, saltar al extremo final.
+Tras todos, exigir candidato+775<=longitud. Añadir la ventana elegida a las
+exclusiones y repetir desde 0 para la segunda. Extremos iguales son admisibles.
+La elección no depende del contenido, resultados previos, puntuación o semillas.
+
+Hay espacio suficiente y no se sustituyó corpus. Los dos archivos se guardan
+antes de nuevas claves/truth; no autorizan ejecutar fase 18. Root cerrará
+baseline y auditoría de semillas, y otro revisor auditará el plan completo.
+Sólo lectura de metadata/holdouts y escritura de esta reserva y método:
+ningún archivo antiguo alterado, sin red, UI, scoring, RNG o solver.

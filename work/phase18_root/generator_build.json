@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/usr/bin/clang++",
+    "-std=c++17",
+    "-O3",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase18_crypto/generate.cpp",
+    "-o",
+    "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/phase18_crypto/generate"
+  ],
+  "returncode": 0,
+  "seconds": 9.095541584014427,
+  "stdout": "",
+  "stderr": "",
+  "source_sha256": "a237d26206d43e2afde9d54751fa11a46e5a1def1eed26acd49b37c15b92a19e",
+  "rng_executions": 0,
+  "IDP_calls": 0
+}

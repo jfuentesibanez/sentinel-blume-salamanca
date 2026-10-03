@@ -1,0 +1,12 @@
+{
+  "root_approved": true,
+  "independent_approved": true,
+  "manifest_sha256": "328e23b301f2739e4cc6a4a23645c8fdb2b5931d63e203db7f4ba8beac039976",
+  "plan_sha256": "97b8d8ef0c90cf58c2787410cf62a6193ee6ab3fe0d7ac91d9512fa4e095b717",
+  "records_root_sha256": "6a40936552c535a04f6817d7dd4f3101f4e2ddeecf560480b63e645d2cd0f21c",
+  "records_independent_sha256": "995e6a92017126da55b8db679d949f358e9adbdc02f57b01622945b5059341e9",
+  "numeric_sha256": "6f753485dde1e1ecdd0aa29163a47da140cd2a126ad028cb5ec6f847df179234",
+  "independent_conformity_sha256": "86eae56e0f71b0bf745cf023c48cdc88615013aed18722c0ee61bd3c3cfdaf0e",
+  "target_comparison_attempts_authorized": 1,
+  "new_IDP_authorized": 0
+}

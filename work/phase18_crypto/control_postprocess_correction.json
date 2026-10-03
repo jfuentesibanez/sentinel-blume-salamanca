@@ -1,0 +1,23 @@
+{
+  "status": "wrapper_expectation_corrected_from_saved_output_only",
+  "initial_wrapper_expectation": 78,
+  "actual_single_mock_attempt_callbacks": 59,
+  "phase16_total_callbacks": 78,
+  "phase18_mock_attempts": 1,
+  "phase18_callbacks_known_total": 59,
+  "original_mock_program_exit_code": 0,
+  "original_mock_fixtures_passed": 16,
+  "initial_python_wrapper_exit_code": 1,
+  "initial_wrapper_failure": "AssertionError: expected78 callbacks but successful inherited suite emits59;78 was cumulative phase16 19+59",
+  "solver_source_changed_by_correction": false,
+  "solver_rebuilt": false,
+  "new_callbacks_during_correction": 0,
+  "new_IDP_calls": 0,
+  "controls_byte_identical_except_charge_instrumentation": true,
+  "phase18_stdout_matches_phase16_successful_stdout": true,
+  "build_wrapper_changed": true,
+  "earlier_phase16_preparation_callbacks": 19,
+  "earlier_phase16_preparation_fixtures": 8,
+  "earlier_phase16_preparation_status": "passed",
+  "explanation": "78 is cumulative phase16 preparation19 plus final suite59. Phase18 single suite59 passed; only Python expected-count validation failed and was corrected from saved bytes without rerun."
+}

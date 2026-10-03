@@ -1,0 +1,37 @@
+Fase 18: revisión independiente prospectiva
+Fecha UTC: 2026-10-03 15:43:56 UTC
+Revisor: /root/history_phase17
+Plan aprobado: 97b8d8ef0c90cf58c2787410cf62a6193ee6ab3fe0d7ac91d9512fa4e095b717
+
+Resultado
+Aprobación estática para el plan exacto y sus 39 recursos. No quedan defectos pendientes de los señalados durante esta revisión. Esta aprobación se limita a ejecutar el intento acotado después de la aprobación de raíz que coincide en hashes. La comparación con verdad exige los recibos posteriores; no está aprobada por este documento.
+
+Trabajo realizado
+Lectura estática del plan, runner, generador, política B, evaluador externo, referencias numéricas, reservas y comprobaciones de registros. Los 39 hashes del plan final se comprobaron con shasum; todos coinciden. El validador independiente se escribió antes de generar verdad y sólo se comprobó su sintaxis mediante AST. No se ejecutó el módulo ni se leyeron CSV científicos, verdad o resultados nuevos. Coste nuevo de esta revisión: 0 RNG, 0 IDP, 0 callbacks de mocks.
+
+Correcciones verificadas antes de verdad
+- El evaluador usa work/phase18_truth/truth.jsonl y comprueba su ruta y hash.
+- El gate de verdad exige hashes del plan y manifiesto, además de los tres recibos posteriores de auditoría de registros de raíz, auditoría independiente y referencia numérica.
+- La referencia numérica salta muestras inexistentes con coste 0; no inventa puntuaciones.
+- El runner conserva recibos y motivos de límites incluso cuando un proceso termina entre comprobaciones. Los límites de tiempo global persistidos usan monotonic y wall; no se reinician.
+- El ledger conserva el prefijo de marcadores íntegros y fragmentos. En salida no cero, guard_stop o validación incompleta, no atribuye conteo exacto: conserva límite inferior observado y límite superior igual al cap fijado. El cierre exterior marca como fallida la última ruta sin summary incluso si returncode fue 0. No se permiten repeticiones.
+- Plantado y verdad quedan fuera del cwd vacío del solver. Los nombres de casos de entrada son opacos; los comienzos principales se generan por streams separados sin leer verdad ni puntuar.
+
+Política y límites
+Se revisó B de mejor mejora sobre vecindario fijo, con orden fuente fijo y actualización después del vecindario completo. No adopta el mejor parcial; la llamada inicial cuenta. Empates siguen el primer índice fuente. El archivo top5 incluye estados puntuados y usa orden numérico lexicográfico para desempatar.
+
+Hay cuatro casos, ocho comienzos principales anidados en esos casos y cuatro controles privilegiados H2 separados. El techo principal es 1 331 928 llamadas; los positivos, 66 600; la referencia, hasta 24. El techo conjunto es 1 398 552 IDP equivalentes. La ventana científica de 600 segundos incluye generación, rutas, auditoría raíz y referencia. La lectura independiente tiene un límite propio de 120 segundos y 0 IDP; no amplía la ventana científica. El guard de disco observa 512 MiB con polling y reserva para recibos; puede existir un exceso entre comprobaciones y debe registrarse, sin afirmar un límite instantáneo perfecto.
+
+Corrección de preparación
+El programa de mocks se ejecutó una vez: 16 fixtures, 59 callbacks, 0 IDP y 0 verdad. El wrapper esperaba por error 78, cifra acumulada de fase 16 (19 + 59), y falló. Se corrigió la expectativa usando la salida conservada, sin repetir mocks, recompilar ni cambiar el solver. No describimos esa primera ejecución del wrapper como aprobada.
+
+Límites de interpretación
+Las ventanas nuevas no se solapan con los usos de plantado documentados para esta representación; no afirmamos corpus nunca visto. Los holdouts ya se usaron descriptivamente y proceden de las mismas obras literarias que entrenamiento. Las ventanas por idioma son adyacentes. Los comienzos son permutaciones pseudorandom uniformes por el método fijado, no observaciones físicamente IID ni réplicas de ocho casos. El solver recibe geometría, convención y modelo; no hay inferencia de descifrado histórico. La conservación de 3 569 archivos anteriores es una comprobación de raíz comunicada a este revisor; aquí se verificaron independientemente los 39 recursos sellados.
+
+Recibos propios
+work/phase18_review/expected_resources_final.sha256
+work/phase18_review/independent_syntax_receipt.json
+work/phase18_review/independent_records.py
+SHA del validador: b79ed4899d92478d2f9c0dcba54d8bc1d279b4b415defb7e507c2a9c52b7e82b
+
+Las revisiones previas de plan archivadas no reciben esta aprobación. Toda ejecución posterior necesita conservar el plan y los recursos exactos. No hubo publicación ni acceso externo en esta revisión.

@@ -1,0 +1,3943 @@
+{
+  "record_type": "pre-key deterministic plaintext-segment reservation",
+  "phase": 18,
+  "created_at_utc": "2026-10-03T14:50:00.274625+00:00",
+  "status": "reserved_pending_complete_plan_audit",
+  "window_length": 775,
+  "offset_convention": "0-based normalized ASCII a-z characters; half-open [sample_position,sample_position+775)",
+  "algorithm": {
+    "language_order": [
+      "de_fold",
+      "fr_fold"
+    ],
+    "rank_order": [
+      1,
+      2
+    ],
+    "merge_rule": "Sort intervals and merge overlap or touching endpoints.",
+    "first_fit": "Begin candidate=0. Return if candidate+775<=next excluded start; on overlap advance candidate to excluded end. After exclusions require candidate+775<=holdout length. Add each chosen window to exclusions and restart at 0 for rank2.",
+    "selection_uses": [
+      "previous interval endpoints",
+      "holdout length"
+    ],
+    "selection_does_not_use": [
+      "plaintext content",
+      "scores",
+      "old success or failures",
+      "keys",
+      "RNG"
+    ]
+  },
+  "reservations": {
+    "de_fold": {
+      "holdout": {
+        "holdout_path": "work/phase5_language/de_fold/holdout.txt",
+        "holdout_sha256": "b2e409c67bb6fee689fdc2f90dfb30726afff06a59a351bfeadcd78af0616d6a",
+        "normalized_sha256": "b2e409c67bb6fee689fdc2f90dfb30726afff06a59a351bfeadcd78af0616d6a",
+        "normalized_length": 19764,
+        "provenance_path": "work/phase5_language/de_fold/provenance.json",
+        "provenance_sha256": "ba06f68601c29ebb1c09eed5951f87983d9175be05071beefee5f5b3364eb371",
+        "normalization_metadata": "lowercase; ß→ss, œ→oe, æ→ae; NFKD; retain a-z; no whitespace",
+        "model_path": "work/phase5_language/de_fold/model.bin",
+        "model_sha256_from_provenance": "ef650af02cfccb10ccafe5ccc69148e28c8d525cc52f816ef0a1a6f47576294b",
+        "model_binary_read": false
+      },
+      "prior_exact_holdout_offsets": [
+        520,
+        922,
+        937,
+        1467,
+        4467,
+        4838,
+        5049,
+        6886,
+        9586,
+        9919,
+        10942,
+        11926,
+        13822,
+        14829,
+        17486,
+        17727,
+        18171,
+        18592
+      ],
+      "additional_conservative_same_language_offsets": [
+        6195,
+        18004
+      ],
+      "prior_excluded_union": [
+        [
+          520,
+          2242
+        ],
+        [
+          4467,
+          5824
+        ],
+        [
+          6195,
+          7661
+        ],
+        [
+          9586,
+          10694
+        ],
+        [
+          10942,
+          11717
+        ],
+        [
+          11926,
+          12701
+        ],
+        [
+          13822,
+          14597
+        ],
+        [
+          14829,
+          15604
+        ],
+        [
+          17486,
+          19367
+        ]
+      ],
+      "reserved_windows": [
+        {
+          "rank": 1,
+          "sample_position": 2242,
+          "length": 775,
+          "interval_half_open": [
+            2242,
+            3017
+          ]
+        },
+        {
+          "rank": 2,
+          "sample_position": 3017,
+          "length": 775,
+          "interval_half_open": [
+            3017,
+            3792
+          ]
+        }
+      ]
+    },
+    "fr_fold": {
+      "holdout": {
+        "holdout_path": "work/phase5_language/fr_fold/holdout.txt",
+        "holdout_sha256": "75d3431c2c204effff5ad366c8f2584cff40f259715a6b8e5258290ef78ebed7",
+        "normalized_sha256": "75d3431c2c204effff5ad366c8f2584cff40f259715a6b8e5258290ef78ebed7",
+        "normalized_length": 30356,
+        "provenance_path": "work/phase5_language/fr_fold/provenance.json",
+        "provenance_sha256": "439e2da5126db2601d8b3deee17e668122f4a826c06cbc26f68716412599ea7a",
+        "normalization_metadata": "lowercase; ß→ss, œ→oe, æ→ae; NFKD; retain a-z; no whitespace",
+        "model_path": "work/phase5_language/fr_fold/model.bin",
+        "model_sha256_from_provenance": "0b16044142ef82e6c809172a4981a1eb838a96da6caf4e301fe810e66143c268",
+        "model_binary_read": false
+      },
+      "prior_exact_holdout_offsets": [
+        2356,
+        4555,
+        5314,
+        7248,
+        9304,
+        12389,
+        12910,
+        13048,
+        14880,
+        15978,
+        19433,
+        20880,
+        22673,
+        26460,
+        27447,
+        27632,
+        27648,
+        28993
+      ],
+      "additional_conservative_same_language_offsets": [],
+      "prior_excluded_union": [
+        [
+          2356,
+          3131
+        ],
+        [
+          4555,
+          6089
+        ],
+        [
+          7248,
+          8023
+        ],
+        [
+          9304,
+          10079
+        ],
+        [
+          12389,
+          13823
+        ],
+        [
+          14880,
+          15655
+        ],
+        [
+          15978,
+          16753
+        ],
+        [
+          19433,
+          20208
+        ],
+        [
+          20880,
+          21655
+        ],
+        [
+          22673,
+          23448
+        ],
+        [
+          26460,
+          27235
+        ],
+        [
+          27447,
+          28423
+        ],
+        [
+          28993,
+          29768
+        ]
+      ],
+      "reserved_windows": [
+        {
+          "rank": 1,
+          "sample_position": 0,
+          "length": 775,
+          "interval_half_open": [
+            0,
+            775
+          ]
+        },
+        {
+          "rank": 2,
+          "sample_position": 775,
+          "length": 775,
+          "interval_half_open": [
+            775,
+            1550
+          ]
+        }
+      ]
+    }
+  },
+  "previous_interval_evidence": [
+    {
+      "source_path": "outputs/Sentinel_BLUME_inventario_y_controles_2026-10-01/work/phase5_language/oracle_controls.jsonl",
+      "sha256": "3aedb220a95e6b0a1afb576a1fb92fb0ed33028a873870392b8659e95d115895",
+      "intervals": [
+        {
+          "language_model": "de_digraph",
+          "sample_position": 6195,
+          "interval_half_open": [
+            6195,
+            6970
+          ],
+          "record_locators": [
+            "line:9",
+            "line:10",
+            "line:13",
+            "line:14"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_digraph",
+          "sample_position": 18004,
+          "interval_half_open": [
+            18004,
+            18779
+          ],
+          "record_locators": [
+            "line:11",
+            "line:12",
+            "line:15",
+            "line:16"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 5049,
+          "interval_half_open": [
+            5049,
+            5824
+          ],
+          "record_locators": [
+            "line:1",
+            "line:2",
+            "line:5",
+            "line:6"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 9586,
+          "interval_half_open": [
+            9586,
+            10361
+          ],
+          "record_locators": [
+            "line:3",
+            "line:4",
+            "line:7",
+            "line:8"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 9304,
+          "interval_half_open": [
+            9304,
+            10079
+          ],
+          "record_locators": [
+            "line:19",
+            "line:20",
+            "line:23",
+            "line:24"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 28993,
+          "interval_half_open": [
+            28993,
+            29768
+          ],
+          "record_locators": [
+            "line:17",
+            "line:18",
+            "line:21",
+            "line:22"
+          ],
+          "case_ids": []
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase5_language/oracle_controls.jsonl",
+      "duplicate_of": "work/phase5_language/oracle_controls.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase10_crypto/truth.jsonl",
+      "sha256": "707a327ffe1b8a53bde8327d7f31a67d42996047bf9a1482cd1deecd818de7c1",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 4838,
+          "interval_half_open": [
+            4838,
+            5613
+          ],
+          "record_locators": [
+            "line:1",
+            "line:3"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20262001",
+            "de_fold_20x25_20262001"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 10942,
+          "interval_half_open": [
+            10942,
+            11717
+          ],
+          "record_locators": [
+            "line:2",
+            "line:4"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20262002",
+            "de_fold_20x25_20262002"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 12910,
+          "interval_half_open": [
+            12910,
+            13685
+          ],
+          "record_locators": [
+            "line:6",
+            "line:8"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20262002",
+            "fr_fold_20x25_20262002"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 27632,
+          "interval_half_open": [
+            27632,
+            28407
+          ],
+          "record_locators": [
+            "line:5",
+            "line:7"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20262001",
+            "fr_fold_20x25_20262001"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase10_crypto/truth.jsonl",
+      "duplicate_of": "work/phase10_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase11_crypto/truth.jsonl",
+      "sha256": "9268c72d8cf69f59e9979b1c11635b535c620df9cc2ba53d61f6a825c1251c23",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 6886,
+          "interval_half_open": [
+            6886,
+            7661
+          ],
+          "record_locators": [
+            "line:2",
+            "line:4"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20262102",
+            "de_fold_20x25_20262102"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 18171,
+          "interval_half_open": [
+            18171,
+            18946
+          ],
+          "record_locators": [
+            "line:1",
+            "line:3"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20262101",
+            "de_fold_20x25_20262101"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 22673,
+          "interval_half_open": [
+            22673,
+            23448
+          ],
+          "record_locators": [
+            "line:5",
+            "line:7"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20262101",
+            "fr_fold_20x25_20262101"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 26460,
+          "interval_half_open": [
+            26460,
+            27235
+          ],
+          "record_locators": [
+            "line:6",
+            "line:8"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20262102",
+            "fr_fold_20x25_20262102"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase11_crypto/truth.jsonl",
+      "duplicate_of": "work/phase11_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase14_crypto/truth.jsonl",
+      "sha256": "a56c81b211b974681b3d8d4ef21e5bb4efed41662afa48ac80212017687fa31f",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 14829,
+          "interval_half_open": [
+            14829,
+            15604
+          ],
+          "record_locators": [
+            "line:2"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262202"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 17727,
+          "interval_half_open": [
+            17727,
+            18502
+          ],
+          "record_locators": [
+            "line:1"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262201"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 4555,
+          "interval_half_open": [
+            4555,
+            5330
+          ],
+          "record_locators": [
+            "line:3"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262201"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 19433,
+          "interval_half_open": [
+            19433,
+            20208
+          ],
+          "record_locators": [
+            "line:4"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262202"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase14_crypto/truth.jsonl",
+      "duplicate_of": "work/phase14_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase15_crypto/evaluation.json",
+      "sha256": "f219f2ccb7812388e17c0328bfb72bce6e1d3d66006b23d5359859cb7105f6e2",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 520,
+          "interval_half_open": [
+            520,
+            1295
+          ],
+          "record_locators": [
+            "$.cases[\"de_fold_20x25_20262301\"]"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262301"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 11926,
+          "interval_half_open": [
+            11926,
+            12701
+          ],
+          "record_locators": [
+            "$.cases[\"de_fold_20x25_20262302\"]"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262302"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 13048,
+          "interval_half_open": [
+            13048,
+            13823
+          ],
+          "record_locators": [
+            "$.cases[\"fr_fold_20x25_20262302\"]"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262302"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 27648,
+          "interval_half_open": [
+            27648,
+            28423
+          ],
+          "record_locators": [
+            "$.cases[\"fr_fold_20x25_20262301\"]"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262301"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase15_crypto/evaluation.json",
+      "duplicate_of": "work/phase15_crypto/evaluation.json"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase15_crypto/truth.jsonl",
+      "sha256": "8d25ac30b792678c92c8c8ff25a4950e1f0b28fe8966c6c2fe56b9bf92f696d3",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 520,
+          "interval_half_open": [
+            520,
+            1295
+          ],
+          "record_locators": [
+            "line:1"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262301"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 11926,
+          "interval_half_open": [
+            11926,
+            12701
+          ],
+          "record_locators": [
+            "line:2"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262302"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 13048,
+          "interval_half_open": [
+            13048,
+            13823
+          ],
+          "record_locators": [
+            "line:4"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262302"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 27648,
+          "interval_half_open": [
+            27648,
+            28423
+          ],
+          "record_locators": [
+            "line:3"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262301"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase15_crypto/truth.jsonl",
+      "duplicate_of": "work/phase15_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase16_crypto/evaluation.json",
+      "sha256": "3a3ae74ec452b29dd66d3651ca72d32238a48106d1ec2a5222bf6231313fa6c2",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 937,
+          "interval_half_open": [
+            937,
+            1712
+          ],
+          "record_locators": [
+            "$.cases[\"de_fold_20x25_20262402\"]"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262402"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 1467,
+          "interval_half_open": [
+            1467,
+            2242
+          ],
+          "record_locators": [
+            "$.cases[\"de_fold_20x25_20262401\"]"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262401"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 5314,
+          "interval_half_open": [
+            5314,
+            6089
+          ],
+          "record_locators": [
+            "$.cases[\"fr_fold_20x25_20262403\"]"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262403"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 20880,
+          "interval_half_open": [
+            20880,
+            21655
+          ],
+          "record_locators": [
+            "$.cases[\"fr_fold_20x25_20262404\"]"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262404"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase16_crypto/evaluation.json",
+      "duplicate_of": "work/phase16_crypto/evaluation.json"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase16_crypto/truth.jsonl",
+      "sha256": "96e04771e780934f2a057f19f1012f5dedb2a0147761908db1e0b24129eaa4de",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 937,
+          "interval_half_open": [
+            937,
+            1712
+          ],
+          "record_locators": [
+            "line:2"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262402"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 1467,
+          "interval_half_open": [
+            1467,
+            2242
+          ],
+          "record_locators": [
+            "line:1"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262401"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 5314,
+          "interval_half_open": [
+            5314,
+            6089
+          ],
+          "record_locators": [
+            "line:3"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262403"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 20880,
+          "interval_half_open": [
+            20880,
+            21655
+          ],
+          "record_locators": [
+            "line:4"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262404"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase16_crypto/truth.jsonl",
+      "duplicate_of": "work/phase16_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase5_language/oracle_controls.jsonl",
+      "sha256": "3aedb220a95e6b0a1afb576a1fb92fb0ed33028a873870392b8659e95d115895",
+      "intervals": [
+        {
+          "language_model": "de_digraph",
+          "sample_position": 6195,
+          "interval_half_open": [
+            6195,
+            6970
+          ],
+          "record_locators": [
+            "line:9",
+            "line:10",
+            "line:13",
+            "line:14"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_digraph",
+          "sample_position": 18004,
+          "interval_half_open": [
+            18004,
+            18779
+          ],
+          "record_locators": [
+            "line:11",
+            "line:12",
+            "line:15",
+            "line:16"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 5049,
+          "interval_half_open": [
+            5049,
+            5824
+          ],
+          "record_locators": [
+            "line:1",
+            "line:2",
+            "line:5",
+            "line:6"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 9586,
+          "interval_half_open": [
+            9586,
+            10361
+          ],
+          "record_locators": [
+            "line:3",
+            "line:4",
+            "line:7",
+            "line:8"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 9304,
+          "interval_half_open": [
+            9304,
+            10079
+          ],
+          "record_locators": [
+            "line:19",
+            "line:20",
+            "line:23",
+            "line:24"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 28993,
+          "interval_half_open": [
+            28993,
+            29768
+          ],
+          "record_locators": [
+            "line:17",
+            "line:18",
+            "line:21",
+            "line:22"
+          ],
+          "case_ids": []
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase5_language/oracle_controls.jsonl",
+      "duplicate_of": "work/phase5_language/oracle_controls.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase7_crypto/full_language_controls.jsonl",
+      "sha256": "a7b7f5bbf53d74108a0c5b1456a6f9dc7f296dd9cdd5e0e7e770c8410bd05727",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 922,
+          "interval_half_open": [
+            922,
+            1697
+          ],
+          "record_locators": [
+            "line:3",
+            "line:4",
+            "line:7",
+            "line:8"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 9919,
+          "interval_half_open": [
+            9919,
+            10694
+          ],
+          "record_locators": [
+            "line:1",
+            "line:2",
+            "line:5",
+            "line:6"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 2356,
+          "interval_half_open": [
+            2356,
+            3131
+          ],
+          "record_locators": [
+            "line:11",
+            "line:12",
+            "line:15",
+            "line:16"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 12389,
+          "interval_half_open": [
+            12389,
+            13164
+          ],
+          "record_locators": [
+            "line:9",
+            "line:10",
+            "line:13",
+            "line:14"
+          ],
+          "case_ids": []
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase7_crypto/full_language_controls.jsonl",
+      "duplicate_of": "work/phase7_crypto/full_language_controls.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase8_crypto/planted_truth.jsonl",
+      "sha256": "5d67498954c149d55231cdc6be7d1d92418bbc9c6119b672ae4e7f4d4fd97e08",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 13822,
+          "interval_half_open": [
+            13822,
+            14597
+          ],
+          "record_locators": [
+            "line:1",
+            "line:3"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20261801",
+            "de_fold_20x25_20261801"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 17486,
+          "interval_half_open": [
+            17486,
+            18261
+          ],
+          "record_locators": [
+            "line:2",
+            "line:4"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20261802",
+            "de_fold_20x25_20261802"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 14880,
+          "interval_half_open": [
+            14880,
+            15655
+          ],
+          "record_locators": [
+            "line:5",
+            "line:7"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20261801",
+            "fr_fold_20x25_20261801"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 15978,
+          "interval_half_open": [
+            15978,
+            16753
+          ],
+          "record_locators": [
+            "line:6",
+            "line:8"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20261802",
+            "fr_fold_20x25_20261802"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase8_crypto/planted_truth.jsonl",
+      "duplicate_of": "work/phase8_crypto/planted_truth.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase9_crypto/truth.jsonl",
+      "sha256": "5143bcac8b37383b2a35801b190eeedb9330d452ea3185053ac264727b13fd05",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 4467,
+          "interval_half_open": [
+            4467,
+            5242
+          ],
+          "record_locators": [
+            "line:1",
+            "line:3"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20261901",
+            "de_fold_20x25_20261901"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 18592,
+          "interval_half_open": [
+            18592,
+            19367
+          ],
+          "record_locators": [
+            "line:2",
+            "line:4"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20261902",
+            "de_fold_20x25_20261902"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 7248,
+          "interval_half_open": [
+            7248,
+            8023
+          ],
+          "record_locators": [
+            "line:6",
+            "line:8"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20261902",
+            "fr_fold_20x25_20261902"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 27447,
+          "interval_half_open": [
+            27447,
+            28222
+          ],
+          "record_locators": [
+            "line:5",
+            "line:7"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20261901",
+            "fr_fold_20x25_20261901"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase9_crypto/truth.jsonl",
+      "duplicate_of": "work/phase9_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "work/phase10_crypto/truth.jsonl",
+      "sha256": "707a327ffe1b8a53bde8327d7f31a67d42996047bf9a1482cd1deecd818de7c1",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 4838,
+          "interval_half_open": [
+            4838,
+            5613
+          ],
+          "record_locators": [
+            "line:1",
+            "line:3"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20262001",
+            "de_fold_20x25_20262001"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 10942,
+          "interval_half_open": [
+            10942,
+            11717
+          ],
+          "record_locators": [
+            "line:2",
+            "line:4"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20262002",
+            "de_fold_20x25_20262002"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 12910,
+          "interval_half_open": [
+            12910,
+            13685
+          ],
+          "record_locators": [
+            "line:6",
+            "line:8"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20262002",
+            "fr_fold_20x25_20262002"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 27632,
+          "interval_half_open": [
+            27632,
+            28407
+          ],
+          "record_locators": [
+            "line:5",
+            "line:7"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20262001",
+            "fr_fold_20x25_20262001"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase10_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "work/phase11_crypto/truth.jsonl",
+      "sha256": "9268c72d8cf69f59e9979b1c11635b535c620df9cc2ba53d61f6a825c1251c23",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 6886,
+          "interval_half_open": [
+            6886,
+            7661
+          ],
+          "record_locators": [
+            "line:2",
+            "line:4"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20262102",
+            "de_fold_20x25_20262102"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 18171,
+          "interval_half_open": [
+            18171,
+            18946
+          ],
+          "record_locators": [
+            "line:1",
+            "line:3"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20262101",
+            "de_fold_20x25_20262101"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 22673,
+          "interval_half_open": [
+            22673,
+            23448
+          ],
+          "record_locators": [
+            "line:5",
+            "line:7"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20262101",
+            "fr_fold_20x25_20262101"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 26460,
+          "interval_half_open": [
+            26460,
+            27235
+          ],
+          "record_locators": [
+            "line:6",
+            "line:8"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20262102",
+            "fr_fold_20x25_20262102"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase11_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "work/phase14_crypto/truth.jsonl",
+      "sha256": "a56c81b211b974681b3d8d4ef21e5bb4efed41662afa48ac80212017687fa31f",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 14829,
+          "interval_half_open": [
+            14829,
+            15604
+          ],
+          "record_locators": [
+            "line:2"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262202"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 17727,
+          "interval_half_open": [
+            17727,
+            18502
+          ],
+          "record_locators": [
+            "line:1"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262201"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 4555,
+          "interval_half_open": [
+            4555,
+            5330
+          ],
+          "record_locators": [
+            "line:3"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262201"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 19433,
+          "interval_half_open": [
+            19433,
+            20208
+          ],
+          "record_locators": [
+            "line:4"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262202"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase14_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "work/phase15_crypto/evaluation.json",
+      "sha256": "f219f2ccb7812388e17c0328bfb72bce6e1d3d66006b23d5359859cb7105f6e2",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 520,
+          "interval_half_open": [
+            520,
+            1295
+          ],
+          "record_locators": [
+            "$.cases[\"de_fold_20x25_20262301\"]"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262301"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 11926,
+          "interval_half_open": [
+            11926,
+            12701
+          ],
+          "record_locators": [
+            "$.cases[\"de_fold_20x25_20262302\"]"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262302"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 13048,
+          "interval_half_open": [
+            13048,
+            13823
+          ],
+          "record_locators": [
+            "$.cases[\"fr_fold_20x25_20262302\"]"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262302"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 27648,
+          "interval_half_open": [
+            27648,
+            28423
+          ],
+          "record_locators": [
+            "$.cases[\"fr_fold_20x25_20262301\"]"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262301"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase15_crypto/evaluation.json"
+    },
+    {
+      "source_path": "work/phase15_crypto/truth.jsonl",
+      "sha256": "8d25ac30b792678c92c8c8ff25a4950e1f0b28fe8966c6c2fe56b9bf92f696d3",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 520,
+          "interval_half_open": [
+            520,
+            1295
+          ],
+          "record_locators": [
+            "line:1"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262301"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 11926,
+          "interval_half_open": [
+            11926,
+            12701
+          ],
+          "record_locators": [
+            "line:2"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262302"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 13048,
+          "interval_half_open": [
+            13048,
+            13823
+          ],
+          "record_locators": [
+            "line:4"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262302"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 27648,
+          "interval_half_open": [
+            27648,
+            28423
+          ],
+          "record_locators": [
+            "line:3"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262301"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase15_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "work/phase16_crypto/evaluation.json",
+      "sha256": "3a3ae74ec452b29dd66d3651ca72d32238a48106d1ec2a5222bf6231313fa6c2",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 937,
+          "interval_half_open": [
+            937,
+            1712
+          ],
+          "record_locators": [
+            "$.cases[\"de_fold_20x25_20262402\"]"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262402"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 1467,
+          "interval_half_open": [
+            1467,
+            2242
+          ],
+          "record_locators": [
+            "$.cases[\"de_fold_20x25_20262401\"]"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262401"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 5314,
+          "interval_half_open": [
+            5314,
+            6089
+          ],
+          "record_locators": [
+            "$.cases[\"fr_fold_20x25_20262403\"]"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262403"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 20880,
+          "interval_half_open": [
+            20880,
+            21655
+          ],
+          "record_locators": [
+            "$.cases[\"fr_fold_20x25_20262404\"]"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262404"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase16_crypto/evaluation.json"
+    },
+    {
+      "source_path": "work/phase16_crypto/truth.jsonl",
+      "sha256": "96e04771e780934f2a057f19f1012f5dedb2a0147761908db1e0b24129eaa4de",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 937,
+          "interval_half_open": [
+            937,
+            1712
+          ],
+          "record_locators": [
+            "line:2"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262402"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 1467,
+          "interval_half_open": [
+            1467,
+            2242
+          ],
+          "record_locators": [
+            "line:1"
+          ],
+          "case_ids": [
+            "de_fold_20x25_20262401"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 5314,
+          "interval_half_open": [
+            5314,
+            6089
+          ],
+          "record_locators": [
+            "line:3"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262403"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 20880,
+          "interval_half_open": [
+            20880,
+            21655
+          ],
+          "record_locators": [
+            "line:4"
+          ],
+          "case_ids": [
+            "fr_fold_20x25_20262404"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase16_crypto/truth.jsonl"
+    },
+    {
+      "source_path": "work/phase5_language/oracle_controls.jsonl",
+      "sha256": "3aedb220a95e6b0a1afb576a1fb92fb0ed33028a873870392b8659e95d115895",
+      "intervals": [
+        {
+          "language_model": "de_digraph",
+          "sample_position": 6195,
+          "interval_half_open": [
+            6195,
+            6970
+          ],
+          "record_locators": [
+            "line:9",
+            "line:10",
+            "line:13",
+            "line:14"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_digraph",
+          "sample_position": 18004,
+          "interval_half_open": [
+            18004,
+            18779
+          ],
+          "record_locators": [
+            "line:11",
+            "line:12",
+            "line:15",
+            "line:16"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 5049,
+          "interval_half_open": [
+            5049,
+            5824
+          ],
+          "record_locators": [
+            "line:1",
+            "line:2",
+            "line:5",
+            "line:6"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 9586,
+          "interval_half_open": [
+            9586,
+            10361
+          ],
+          "record_locators": [
+            "line:3",
+            "line:4",
+            "line:7",
+            "line:8"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 9304,
+          "interval_half_open": [
+            9304,
+            10079
+          ],
+          "record_locators": [
+            "line:19",
+            "line:20",
+            "line:23",
+            "line:24"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 28993,
+          "interval_half_open": [
+            28993,
+            29768
+          ],
+          "record_locators": [
+            "line:17",
+            "line:18",
+            "line:21",
+            "line:22"
+          ],
+          "case_ids": []
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase5_language/oracle_controls.jsonl"
+    },
+    {
+      "source_path": "work/phase7_crypto/full_language_controls.jsonl",
+      "sha256": "a7b7f5bbf53d74108a0c5b1456a6f9dc7f296dd9cdd5e0e7e770c8410bd05727",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 922,
+          "interval_half_open": [
+            922,
+            1697
+          ],
+          "record_locators": [
+            "line:3",
+            "line:4",
+            "line:7",
+            "line:8"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 9919,
+          "interval_half_open": [
+            9919,
+            10694
+          ],
+          "record_locators": [
+            "line:1",
+            "line:2",
+            "line:5",
+            "line:6"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 2356,
+          "interval_half_open": [
+            2356,
+            3131
+          ],
+          "record_locators": [
+            "line:11",
+            "line:12",
+            "line:15",
+            "line:16"
+          ],
+          "case_ids": []
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 12389,
+          "interval_half_open": [
+            12389,
+            13164
+          ],
+          "record_locators": [
+            "line:9",
+            "line:10",
+            "line:13",
+            "line:14"
+          ],
+          "case_ids": []
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase7_crypto/full_language_controls.jsonl"
+    },
+    {
+      "source_path": "work/phase8_crypto/planted_truth.jsonl",
+      "sha256": "5d67498954c149d55231cdc6be7d1d92418bbc9c6119b672ae4e7f4d4fd97e08",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 13822,
+          "interval_half_open": [
+            13822,
+            14597
+          ],
+          "record_locators": [
+            "line:1",
+            "line:3"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20261801",
+            "de_fold_20x25_20261801"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 17486,
+          "interval_half_open": [
+            17486,
+            18261
+          ],
+          "record_locators": [
+            "line:2",
+            "line:4"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20261802",
+            "de_fold_20x25_20261802"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 14880,
+          "interval_half_open": [
+            14880,
+            15655
+          ],
+          "record_locators": [
+            "line:5",
+            "line:7"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20261801",
+            "fr_fold_20x25_20261801"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 15978,
+          "interval_half_open": [
+            15978,
+            16753
+          ],
+          "record_locators": [
+            "line:6",
+            "line:8"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20261802",
+            "fr_fold_20x25_20261802"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase8_crypto/planted_truth.jsonl"
+    },
+    {
+      "source_path": "work/phase9_crypto/truth.jsonl",
+      "sha256": "5143bcac8b37383b2a35801b190eeedb9330d452ea3185053ac264727b13fd05",
+      "intervals": [
+        {
+          "language_model": "de_fold",
+          "sample_position": 4467,
+          "interval_half_open": [
+            4467,
+            5242
+          ],
+          "record_locators": [
+            "line:1",
+            "line:3"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20261901",
+            "de_fold_20x25_20261901"
+          ]
+        },
+        {
+          "language_model": "de_fold",
+          "sample_position": 18592,
+          "interval_half_open": [
+            18592,
+            19367
+          ],
+          "record_locators": [
+            "line:2",
+            "line:4"
+          ],
+          "case_ids": [
+            "de_fold_12x15_20261902",
+            "de_fold_20x25_20261902"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 7248,
+          "interval_half_open": [
+            7248,
+            8023
+          ],
+          "record_locators": [
+            "line:6",
+            "line:8"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20261902",
+            "fr_fold_20x25_20261902"
+          ]
+        },
+        {
+          "language_model": "fr_fold",
+          "sample_position": 27447,
+          "interval_half_open": [
+            27447,
+            28222
+          ],
+          "record_locators": [
+            "line:5",
+            "line:7"
+          ],
+          "case_ids": [
+            "fr_fold_12x15_20261901",
+            "fr_fold_20x25_20261901"
+          ]
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase9_crypto/truth.jsonl"
+    }
+  ],
+  "manifest_case_links": [
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase10_crypto/manifest.json",
+      "sha256": "c1a7bf343ec2d26bcf421e85f87ea899af7f7dbc41e9e4023442b839b21cedc7",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_12x15_20262001",
+          "language_model": "de_fold",
+          "resolved_sample_position": 4838,
+          "interval_half_open": [
+            4838,
+            5613
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_12x15_20262002",
+          "language_model": "de_fold",
+          "resolved_sample_position": 10942,
+          "interval_half_open": [
+            10942,
+            11717
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "de_fold_20x25_20262001",
+          "language_model": "de_fold",
+          "resolved_sample_position": 4838,
+          "interval_half_open": [
+            4838,
+            5613
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "de_fold_20x25_20262002",
+          "language_model": "de_fold",
+          "resolved_sample_position": 10942,
+          "interval_half_open": [
+            10942,
+            11717
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[4]",
+          "case_id": "fr_fold_12x15_20262001",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27632,
+          "interval_half_open": [
+            27632,
+            28407
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[5]",
+          "case_id": "fr_fold_12x15_20262002",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 12910,
+          "interval_half_open": [
+            12910,
+            13685
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[6]",
+          "case_id": "fr_fold_20x25_20262001",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27632,
+          "interval_half_open": [
+            27632,
+            28407
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[7]",
+          "case_id": "fr_fold_20x25_20262002",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 12910,
+          "interval_half_open": [
+            12910,
+            13685
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase10_crypto/manifest.json",
+      "duplicate_of": "work/phase10_crypto/manifest.json"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase11_crypto/manifest.json",
+      "sha256": "af1ddb7d2b85853e4601fd1942a2ce153439c1d88959c9111835be8b08277d00",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_12x15_20262101",
+          "language_model": "de_fold",
+          "resolved_sample_position": 18171,
+          "interval_half_open": [
+            18171,
+            18946
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_12x15_20262102",
+          "language_model": "de_fold",
+          "resolved_sample_position": 6886,
+          "interval_half_open": [
+            6886,
+            7661
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "de_fold_20x25_20262101",
+          "language_model": "de_fold",
+          "resolved_sample_position": 18171,
+          "interval_half_open": [
+            18171,
+            18946
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "de_fold_20x25_20262102",
+          "language_model": "de_fold",
+          "resolved_sample_position": 6886,
+          "interval_half_open": [
+            6886,
+            7661
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[4]",
+          "case_id": "fr_fold_12x15_20262101",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 22673,
+          "interval_half_open": [
+            22673,
+            23448
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[5]",
+          "case_id": "fr_fold_12x15_20262102",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 26460,
+          "interval_half_open": [
+            26460,
+            27235
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[6]",
+          "case_id": "fr_fold_20x25_20262101",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 22673,
+          "interval_half_open": [
+            22673,
+            23448
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[7]",
+          "case_id": "fr_fold_20x25_20262102",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 26460,
+          "interval_half_open": [
+            26460,
+            27235
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase11_crypto/manifest.json",
+      "duplicate_of": "work/phase11_crypto/manifest.json"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase14_crypto/manifest.json",
+      "sha256": "a37899f922059ad09d27228b88c78e8af7a600e7b0c2ec36110ee58090e0dc1a",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_20x25_20262201",
+          "language_model": "de_fold",
+          "resolved_sample_position": 17727,
+          "interval_half_open": [
+            17727,
+            18502
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_20x25_20262202",
+          "language_model": "de_fold",
+          "resolved_sample_position": 14829,
+          "interval_half_open": [
+            14829,
+            15604
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "fr_fold_20x25_20262201",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 4555,
+          "interval_half_open": [
+            4555,
+            5330
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "fr_fold_20x25_20262202",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 19433,
+          "interval_half_open": [
+            19433,
+            20208
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase14_crypto/manifest.json",
+      "duplicate_of": "work/phase14_crypto/manifest.json"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase15_crypto/manifest.json",
+      "sha256": "344113ffafdf0004d887d92f408974ce7b1b2e81cc1ff0a819811f858d0879a0",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_20x25_20262301",
+          "language_model": "de_fold",
+          "resolved_sample_position": 520,
+          "interval_half_open": [
+            520,
+            1295
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_20x25_20262302",
+          "language_model": "de_fold",
+          "resolved_sample_position": 11926,
+          "interval_half_open": [
+            11926,
+            12701
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "fr_fold_20x25_20262301",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27648,
+          "interval_half_open": [
+            27648,
+            28423
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "fr_fold_20x25_20262302",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 13048,
+          "interval_half_open": [
+            13048,
+            13823
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase15_crypto/manifest.json",
+      "duplicate_of": "work/phase15_crypto/manifest.json"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase16_crypto/manifest.json",
+      "sha256": "e8cd13a542210d248ef19a7c7a04384c543e97faf8b7aa66d29664f2af93fa35",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_20x25_20262401",
+          "language_model": "de_fold",
+          "resolved_sample_position": 1467,
+          "interval_half_open": [
+            1467,
+            2242
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_20x25_20262402",
+          "language_model": "de_fold",
+          "resolved_sample_position": 937,
+          "interval_half_open": [
+            937,
+            1712
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "fr_fold_20x25_20262403",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 5314,
+          "interval_half_open": [
+            5314,
+            6089
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "fr_fold_20x25_20262404",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 20880,
+          "interval_half_open": [
+            20880,
+            21655
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase16_crypto/manifest.json",
+      "duplicate_of": "work/phase16_crypto/manifest.json"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase8_crypto/comparison_manifest.json",
+      "sha256": "23ee4feeda0218f5e8585b06f3709af964b1b86093dc9933716320423ec87d1e",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_12x15_20261801",
+          "language_model": "de_fold",
+          "resolved_sample_position": 13822,
+          "interval_half_open": [
+            13822,
+            14597
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_12x15_20261802",
+          "language_model": "de_fold",
+          "resolved_sample_position": 17486,
+          "interval_half_open": [
+            17486,
+            18261
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "de_fold_20x25_20261801",
+          "language_model": "de_fold",
+          "resolved_sample_position": 13822,
+          "interval_half_open": [
+            13822,
+            14597
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "de_fold_20x25_20261802",
+          "language_model": "de_fold",
+          "resolved_sample_position": 17486,
+          "interval_half_open": [
+            17486,
+            18261
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[4]",
+          "case_id": "fr_fold_12x15_20261801",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 14880,
+          "interval_half_open": [
+            14880,
+            15655
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[5]",
+          "case_id": "fr_fold_12x15_20261802",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 15978,
+          "interval_half_open": [
+            15978,
+            16753
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[6]",
+          "case_id": "fr_fold_20x25_20261801",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 14880,
+          "interval_half_open": [
+            14880,
+            15655
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[7]",
+          "case_id": "fr_fold_20x25_20261802",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 15978,
+          "interval_half_open": [
+            15978,
+            16753
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase8_crypto/comparison_manifest.json",
+      "duplicate_of": "work/phase8_crypto/comparison_manifest.json"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase9_crypto/manifest.json",
+      "sha256": "6df54456d0393f6397b74856d4ee57dcc01730b203184f92d01172b6482775d1",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_12x15_20261901",
+          "language_model": "de_fold",
+          "resolved_sample_position": 4467,
+          "interval_half_open": [
+            4467,
+            5242
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_12x15_20261902",
+          "language_model": "de_fold",
+          "resolved_sample_position": 18592,
+          "interval_half_open": [
+            18592,
+            19367
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "de_fold_20x25_20261901",
+          "language_model": "de_fold",
+          "resolved_sample_position": 4467,
+          "interval_half_open": [
+            4467,
+            5242
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "de_fold_20x25_20261902",
+          "language_model": "de_fold",
+          "resolved_sample_position": 18592,
+          "interval_half_open": [
+            18592,
+            19367
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[4]",
+          "case_id": "fr_fold_12x15_20261901",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27447,
+          "interval_half_open": [
+            27447,
+            28222
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[5]",
+          "case_id": "fr_fold_12x15_20261902",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 7248,
+          "interval_half_open": [
+            7248,
+            8023
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[6]",
+          "case_id": "fr_fold_20x25_20261901",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27447,
+          "interval_half_open": [
+            27447,
+            28222
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[7]",
+          "case_id": "fr_fold_20x25_20261902",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 7248,
+          "interval_half_open": [
+            7248,
+            8023
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase9_crypto/manifest.json",
+      "duplicate_of": "work/phase9_crypto/manifest.json"
+    },
+    {
+      "source_path": "work/phase10_crypto/manifest.json",
+      "sha256": "c1a7bf343ec2d26bcf421e85f87ea899af7f7dbc41e9e4023442b839b21cedc7",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_12x15_20262001",
+          "language_model": "de_fold",
+          "resolved_sample_position": 4838,
+          "interval_half_open": [
+            4838,
+            5613
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_12x15_20262002",
+          "language_model": "de_fold",
+          "resolved_sample_position": 10942,
+          "interval_half_open": [
+            10942,
+            11717
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "de_fold_20x25_20262001",
+          "language_model": "de_fold",
+          "resolved_sample_position": 4838,
+          "interval_half_open": [
+            4838,
+            5613
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "de_fold_20x25_20262002",
+          "language_model": "de_fold",
+          "resolved_sample_position": 10942,
+          "interval_half_open": [
+            10942,
+            11717
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[4]",
+          "case_id": "fr_fold_12x15_20262001",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27632,
+          "interval_half_open": [
+            27632,
+            28407
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[5]",
+          "case_id": "fr_fold_12x15_20262002",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 12910,
+          "interval_half_open": [
+            12910,
+            13685
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[6]",
+          "case_id": "fr_fold_20x25_20262001",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27632,
+          "interval_half_open": [
+            27632,
+            28407
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[7]",
+          "case_id": "fr_fold_20x25_20262002",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 12910,
+          "interval_half_open": [
+            12910,
+            13685
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase10_crypto/manifest.json"
+    },
+    {
+      "source_path": "work/phase11_crypto/manifest.json",
+      "sha256": "af1ddb7d2b85853e4601fd1942a2ce153439c1d88959c9111835be8b08277d00",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_12x15_20262101",
+          "language_model": "de_fold",
+          "resolved_sample_position": 18171,
+          "interval_half_open": [
+            18171,
+            18946
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_12x15_20262102",
+          "language_model": "de_fold",
+          "resolved_sample_position": 6886,
+          "interval_half_open": [
+            6886,
+            7661
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "de_fold_20x25_20262101",
+          "language_model": "de_fold",
+          "resolved_sample_position": 18171,
+          "interval_half_open": [
+            18171,
+            18946
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "de_fold_20x25_20262102",
+          "language_model": "de_fold",
+          "resolved_sample_position": 6886,
+          "interval_half_open": [
+            6886,
+            7661
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[4]",
+          "case_id": "fr_fold_12x15_20262101",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 22673,
+          "interval_half_open": [
+            22673,
+            23448
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[5]",
+          "case_id": "fr_fold_12x15_20262102",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 26460,
+          "interval_half_open": [
+            26460,
+            27235
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[6]",
+          "case_id": "fr_fold_20x25_20262101",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 22673,
+          "interval_half_open": [
+            22673,
+            23448
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[7]",
+          "case_id": "fr_fold_20x25_20262102",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 26460,
+          "interval_half_open": [
+            26460,
+            27235
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase11_crypto/manifest.json"
+    },
+    {
+      "source_path": "work/phase14_crypto/manifest.json",
+      "sha256": "a37899f922059ad09d27228b88c78e8af7a600e7b0c2ec36110ee58090e0dc1a",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_20x25_20262201",
+          "language_model": "de_fold",
+          "resolved_sample_position": 17727,
+          "interval_half_open": [
+            17727,
+            18502
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_20x25_20262202",
+          "language_model": "de_fold",
+          "resolved_sample_position": 14829,
+          "interval_half_open": [
+            14829,
+            15604
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "fr_fold_20x25_20262201",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 4555,
+          "interval_half_open": [
+            4555,
+            5330
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "fr_fold_20x25_20262202",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 19433,
+          "interval_half_open": [
+            19433,
+            20208
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase14_crypto/manifest.json"
+    },
+    {
+      "source_path": "work/phase15_crypto/manifest.json",
+      "sha256": "344113ffafdf0004d887d92f408974ce7b1b2e81cc1ff0a819811f858d0879a0",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_20x25_20262301",
+          "language_model": "de_fold",
+          "resolved_sample_position": 520,
+          "interval_half_open": [
+            520,
+            1295
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_20x25_20262302",
+          "language_model": "de_fold",
+          "resolved_sample_position": 11926,
+          "interval_half_open": [
+            11926,
+            12701
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "fr_fold_20x25_20262301",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27648,
+          "interval_half_open": [
+            27648,
+            28423
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "fr_fold_20x25_20262302",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 13048,
+          "interval_half_open": [
+            13048,
+            13823
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase15_crypto/manifest.json"
+    },
+    {
+      "source_path": "work/phase16_crypto/manifest.json",
+      "sha256": "e8cd13a542210d248ef19a7c7a04384c543e97faf8b7aa66d29664f2af93fa35",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_20x25_20262401",
+          "language_model": "de_fold",
+          "resolved_sample_position": 1467,
+          "interval_half_open": [
+            1467,
+            2242
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_20x25_20262402",
+          "language_model": "de_fold",
+          "resolved_sample_position": 937,
+          "interval_half_open": [
+            937,
+            1712
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "fr_fold_20x25_20262403",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 5314,
+          "interval_half_open": [
+            5314,
+            6089
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "fr_fold_20x25_20262404",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 20880,
+          "interval_half_open": [
+            20880,
+            21655
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase16_crypto/manifest.json"
+    },
+    {
+      "source_path": "work/phase8_crypto/comparison_manifest.json",
+      "sha256": "23ee4feeda0218f5e8585b06f3709af964b1b86093dc9933716320423ec87d1e",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_12x15_20261801",
+          "language_model": "de_fold",
+          "resolved_sample_position": 13822,
+          "interval_half_open": [
+            13822,
+            14597
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_12x15_20261802",
+          "language_model": "de_fold",
+          "resolved_sample_position": 17486,
+          "interval_half_open": [
+            17486,
+            18261
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "de_fold_20x25_20261801",
+          "language_model": "de_fold",
+          "resolved_sample_position": 13822,
+          "interval_half_open": [
+            13822,
+            14597
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "de_fold_20x25_20261802",
+          "language_model": "de_fold",
+          "resolved_sample_position": 17486,
+          "interval_half_open": [
+            17486,
+            18261
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[4]",
+          "case_id": "fr_fold_12x15_20261801",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 14880,
+          "interval_half_open": [
+            14880,
+            15655
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[5]",
+          "case_id": "fr_fold_12x15_20261802",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 15978,
+          "interval_half_open": [
+            15978,
+            16753
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[6]",
+          "case_id": "fr_fold_20x25_20261801",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 14880,
+          "interval_half_open": [
+            14880,
+            15655
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[7]",
+          "case_id": "fr_fold_20x25_20261802",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 15978,
+          "interval_half_open": [
+            15978,
+            16753
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase8_crypto/comparison_manifest.json"
+    },
+    {
+      "source_path": "work/phase9_crypto/manifest.json",
+      "sha256": "6df54456d0393f6397b74856d4ee57dcc01730b203184f92d01172b6482775d1",
+      "case_records": [
+        {
+          "record_locator": "$.cases[0]",
+          "case_id": "de_fold_12x15_20261901",
+          "language_model": "de_fold",
+          "resolved_sample_position": 4467,
+          "interval_half_open": [
+            4467,
+            5242
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[1]",
+          "case_id": "de_fold_12x15_20261902",
+          "language_model": "de_fold",
+          "resolved_sample_position": 18592,
+          "interval_half_open": [
+            18592,
+            19367
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[2]",
+          "case_id": "de_fold_20x25_20261901",
+          "language_model": "de_fold",
+          "resolved_sample_position": 4467,
+          "interval_half_open": [
+            4467,
+            5242
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[3]",
+          "case_id": "de_fold_20x25_20261902",
+          "language_model": "de_fold",
+          "resolved_sample_position": 18592,
+          "interval_half_open": [
+            18592,
+            19367
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[4]",
+          "case_id": "fr_fold_12x15_20261901",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27447,
+          "interval_half_open": [
+            27447,
+            28222
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[5]",
+          "case_id": "fr_fold_12x15_20261902",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 7248,
+          "interval_half_open": [
+            7248,
+            8023
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[6]",
+          "case_id": "fr_fold_20x25_20261901",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 27447,
+          "interval_half_open": [
+            27447,
+            28222
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        },
+        {
+          "record_locator": "$.cases[7]",
+          "case_id": "fr_fold_20x25_20261902",
+          "language_model": "fr_fold",
+          "resolved_sample_position": 7248,
+          "interval_half_open": [
+            7248,
+            8023
+          ],
+          "resolution": "Exact case_id/language_model match to offset-bearing truth metadata; manifest itself omits sample_position."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase9_crypto/manifest.json"
+    },
+    {
+      "source_path": "work/phase8_crypto/isolation_check.json",
+      "sha256": "8ef5f7a5db67e4a60087c3ca095385acdaf03fcfc8111baf6e45e12b705291ba",
+      "case_records": [
+        {
+          "record_locator": "$.case_id",
+          "case_id": "de_fold_12x15_20261801",
+          "language_model": "de_fold",
+          "resolved_sample_position": 13822,
+          "interval_half_open": [
+            13822,
+            14597
+          ],
+          "resolution": "Metadata scope says same sealed pair, not an additional recovery control; local changed-truth decoys therefore do not define a new plaintext segment."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase8_crypto/isolation_check.json"
+    }
+  ],
+  "non_target_sample_files": [
+    {
+      "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/full_prose_20261011_5.jsonl",
+      "sha256": "16e6974dd51135d0d20c8709a881fcdd20f4ee334d5c230512d783a79574d7de",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/full_prose_20261081_3_negative.jsonl",
+      "sha256": "90e648ab171a654ce930d0f6c43fce2c77a56d7203d20317e3981c7d036a89a0",
+      "corpus_record_counts": {
+        "prose": 12
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/full_proxy_20261011_3.jsonl",
+      "sha256": "1845978938b3c9b0e64f5fd73c72199b5a6604d3e99706904515a14ad4c2bf3c",
+      "corpus_record_counts": {
+        "proxy": 12
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/oracle_prose_20261101_25.jsonl",
+      "sha256": "52e0aab4af7bcd9112b67cb0c02600df33bb856db6273365bfaf500e7358efed",
+      "corpus_record_counts": {
+        "prose": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/oracle_prose_20261131_5_negative.jsonl",
+      "sha256": "9b116d08e7e91f2d106ea98bb444d7255109af52391f3f3658a633786db21471",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/oracle_proxy_20261101_25.jsonl",
+      "sha256": "03170cccb42946b5cf6029d14ac13fb590eece4f0429858a71c1c307282ea0c6",
+      "corpus_record_counts": {
+        "proxy": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "outputs/Sentinel_BLUME_nuevas_pistas_2026-10-01/work/phase4_crypto/smoke_negative.jsonl",
+      "sha256": "646307feaa1559c56fb07e22265005ef717d458230e9f9f252213e80f44f49af",
+      "corpus_record_counts": {
+        "proxy": 8
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "outputs/Sentinel_BLUME_nuevas_pistas_2026-10-01/work/phase4_crypto/smoke_positive.jsonl",
+      "sha256": "22277ba1d2c9d03d4bc7a0eedd2047e2ec084c5ff185a8c4d404045fe32db1d5",
+      "corpus_record_counts": {
+        "prose": 16,
+        "proxy": 16
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_prose_20261011_25.jsonl",
+      "sha256": "e6b1e9490efeb772e60ea9decdb52c8026ec9d5465a45b860ca31638b2e5e5d2",
+      "corpus_record_counts": {
+        "prose": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_prose_20261041_5_negative.jsonl",
+      "sha256": "f95a1a139fa6097d3c1007713ba99eca882dc8f1fef1330986c7a84d2d660f31",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_prose_20261051_25.jsonl",
+      "sha256": "4712759f17bdaa251c4afc855afceb867a7b57aae712b19c7f6dad7c73978b47",
+      "corpus_record_counts": {
+        "prose": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_prose_20261081_5_negative.jsonl",
+      "sha256": "9a16a38daeda2ccd9ed93114931422cf68633c90119db654a2f4341412a893c0",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_proxy_20261011_25.jsonl",
+      "sha256": "bef9810925a7f462fa79590e034dfaba8139963201a3887886a59652c9fe1558",
+      "corpus_record_counts": {
+        "proxy": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_proxy_20261051_25.jsonl",
+      "sha256": "9c0a1fca5738214f3f93ad8701f845140036ec7e268f9652a188fc3fffa258a8",
+      "corpus_record_counts": {
+        "proxy": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/full_prose_20261011_5.jsonl",
+      "sha256": "16e6974dd51135d0d20c8709a881fcdd20f4ee334d5c230512d783a79574d7de",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/full_prose_20261081_3_negative.jsonl",
+      "sha256": "90e648ab171a654ce930d0f6c43fce2c77a56d7203d20317e3981c7d036a89a0",
+      "corpus_record_counts": {
+        "prose": 12
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/full_proxy_20261011_3.jsonl",
+      "sha256": "1845978938b3c9b0e64f5fd73c72199b5a6604d3e99706904515a14ad4c2bf3c",
+      "corpus_record_counts": {
+        "proxy": 12
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/oracle_prose_20261101_25.jsonl",
+      "sha256": "52e0aab4af7bcd9112b67cb0c02600df33bb856db6273365bfaf500e7358efed",
+      "corpus_record_counts": {
+        "prose": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/oracle_prose_20261131_5_negative.jsonl",
+      "sha256": "9b116d08e7e91f2d106ea98bb444d7255109af52391f3f3658a633786db21471",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/oracle_proxy_20261101_25.jsonl",
+      "sha256": "03170cccb42946b5cf6029d14ac13fb590eece4f0429858a71c1c307282ea0c6",
+      "corpus_record_counts": {
+        "proxy": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase4_crypto/smoke_negative.jsonl",
+      "sha256": "646307feaa1559c56fb07e22265005ef717d458230e9f9f252213e80f44f49af",
+      "corpus_record_counts": {
+        "proxy": 8
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase4_crypto/smoke_positive.jsonl",
+      "sha256": "22277ba1d2c9d03d4bc7a0eedd2047e2ec084c5ff185a8c4d404045fe32db1d5",
+      "corpus_record_counts": {
+        "prose": 16,
+        "proxy": 16
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/development/oracle_prose_20261011_25.jsonl",
+      "sha256": "e6b1e9490efeb772e60ea9decdb52c8026ec9d5465a45b860ca31638b2e5e5d2",
+      "corpus_record_counts": {
+        "prose": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/development/oracle_prose_20261041_5_negative.jsonl",
+      "sha256": "f95a1a139fa6097d3c1007713ba99eca882dc8f1fef1330986c7a84d2d660f31",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/development/oracle_prose_20261051_25.jsonl",
+      "sha256": "4712759f17bdaa251c4afc855afceb867a7b57aae712b19c7f6dad7c73978b47",
+      "corpus_record_counts": {
+        "prose": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/development/oracle_prose_20261081_5_negative.jsonl",
+      "sha256": "9a16a38daeda2ccd9ed93114931422cf68633c90119db654a2f4341412a893c0",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/development/oracle_proxy_20261011_25.jsonl",
+      "sha256": "bef9810925a7f462fa79590e034dfaba8139963201a3887886a59652c9fe1558",
+      "corpus_record_counts": {
+        "proxy": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/development/oracle_proxy_20261051_25.jsonl",
+      "sha256": "9c0a1fca5738214f3f93ad8701f845140036ec7e268f9652a188fc3fffa258a8",
+      "corpus_record_counts": {
+        "proxy": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/full_prose_20261011_5.jsonl",
+      "sha256": "16e6974dd51135d0d20c8709a881fcdd20f4ee334d5c230512d783a79574d7de",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/full_prose_20261081_3_negative.jsonl",
+      "sha256": "90e648ab171a654ce930d0f6c43fce2c77a56d7203d20317e3981c7d036a89a0",
+      "corpus_record_counts": {
+        "prose": 12
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/full_proxy_20261011_3.jsonl",
+      "sha256": "1845978938b3c9b0e64f5fd73c72199b5a6604d3e99706904515a14ad4c2bf3c",
+      "corpus_record_counts": {
+        "proxy": 12
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/oracle_prose_20261101_25.jsonl",
+      "sha256": "52e0aab4af7bcd9112b67cb0c02600df33bb856db6273365bfaf500e7358efed",
+      "corpus_record_counts": {
+        "prose": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/oracle_prose_20261131_5_negative.jsonl",
+      "sha256": "9b116d08e7e91f2d106ea98bb444d7255109af52391f3f3658a633786db21471",
+      "corpus_record_counts": {
+        "prose": 20
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase3_crypto/oracle_proxy_20261101_25.jsonl",
+      "sha256": "03170cccb42946b5cf6029d14ac13fb590eece4f0429858a71c1c307282ea0c6",
+      "corpus_record_counts": {
+        "proxy": 100
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase4_crypto/smoke_negative.jsonl",
+      "sha256": "646307feaa1559c56fb07e22265005ef717d458230e9f9f252213e80f44f49af",
+      "corpus_record_counts": {
+        "proxy": 8
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    },
+    {
+      "source_path": "work/phase4_crypto/smoke_positive.jsonl",
+      "sha256": "22277ba1d2c9d03d4bc7a0eedd2047e2ec084c5ff185a8c4d404045fe32db1d5",
+      "corpus_record_counts": {
+        "prose": 16,
+        "proxy": 16
+      },
+      "reason": "Prior prose/proxy records use the different work/crypto Spanish/proxy holdout inputs, not phase5 de_fold/fr_fold."
+    }
+  ],
+  "non_target_corpus_basis": [
+    {
+      "source_path": "work/phase3_crypto/oracle_prose_20261101_25_manifest.json",
+      "sha256": "c7e3192b2a06b84b8b452e0186713ce6686a6deb7bb1d7d5f8bdbe417577af01",
+      "corpus": "prose",
+      "corpora": null,
+      "recorded_holdout_inputs": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_es.txt"
+      ]
+    },
+    {
+      "source_path": "work/phase3_crypto/oracle_proxy_20261101_25_manifest.json",
+      "sha256": "7c0e0b63a3a7e5d99997816d55151bf85c820f9e3cfa50d38806260a050fb83c",
+      "corpus": "proxy",
+      "corpora": null,
+      "recorded_holdout_inputs": [
+        "/Users/javier/Documents/Codex/2026-10-01/ayudame-con-este-proyecto-en-paraelo/work/crypto/holdout_proxy.txt"
+      ]
+    },
+    {
+      "source_path": "work/phase4_crypto/smoke_positive_manifest.json",
+      "sha256": "953429f7ea7e018ecf3773d0f38aebd2bfde41a045a37e76c5be4fb6df582437",
+      "corpus": null,
+      "corpora": [
+        "prose",
+        "proxy"
+      ],
+      "recorded_holdout_inputs": []
+    },
+    {
+      "source_path": "work/phase4_crypto/smoke_negative_manifest.json",
+      "sha256": "25f42d80bc0799d06fca703e7e2de1c06da1c72faec9a74ae31428bf3907193c",
+      "corpus": null,
+      "corpora": [
+        "proxy"
+      ],
+      "recorded_holdout_inputs": []
+    }
+  ],
+  "out_of_domain_pilot_evidence": [
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/full_pilot12.jsonl",
+      "sha256": "b8f9712261143e7e5cafcf653ba28386406b6d1cb434d54b177b1f7cebb20f6a",
+      "records": [
+        {
+          "record_locator": "line:1",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        },
+        {
+          "record_locator": "line:2",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase3_crypto/development/full_pilot12.jsonl",
+      "duplicate_of": "work/phase3_crypto/development/full_pilot12.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/full_pilot20.jsonl",
+      "sha256": "f48588295b85c3b1d4acc50d295881d7d3fe3f16398e8ed46d2bbdd2d4e7105c",
+      "records": [
+        {
+          "record_locator": "line:1",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        },
+        {
+          "record_locator": "line:2",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase3_crypto/development/full_pilot20.jsonl",
+      "duplicate_of": "work/phase3_crypto/development/full_pilot20.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_pilot12.jsonl",
+      "sha256": "cd33d29c79aa46518c5e77e2fc4ca70e353db56dddd99449fda79e714de7453b",
+      "records": [
+        {
+          "record_locator": "line:1",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        },
+        {
+          "record_locator": "line:2",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase3_crypto/development/oracle_pilot12.jsonl",
+      "duplicate_of": "work/phase3_crypto/development/oracle_pilot12.jsonl"
+    },
+    {
+      "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_pilot20.jsonl",
+      "sha256": "02adda1afb204c4f398f832fe924be91947ba5e218b6c30bb6a981d8f30c5d36",
+      "records": [
+        {
+          "record_locator": "line:1",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        },
+        {
+          "record_locator": "line:2",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase3_crypto/development/oracle_pilot20.jsonl",
+      "duplicate_of": "work/phase3_crypto/development/oracle_pilot20.jsonl"
+    },
+    {
+      "source_path": "work/phase3_crypto/development/full_pilot12.jsonl",
+      "sha256": "b8f9712261143e7e5cafcf653ba28386406b6d1cb434d54b177b1f7cebb20f6a",
+      "records": [
+        {
+          "record_locator": "line:1",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        },
+        {
+          "record_locator": "line:2",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase3_crypto/development/full_pilot12.jsonl"
+    },
+    {
+      "source_path": "work/phase3_crypto/development/full_pilot20.jsonl",
+      "sha256": "f48588295b85c3b1d4acc50d295881d7d3fe3f16398e8ed46d2bbdd2d4e7105c",
+      "records": [
+        {
+          "record_locator": "line:1",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        },
+        {
+          "record_locator": "line:2",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase3_crypto/development/full_pilot20.jsonl"
+    },
+    {
+      "source_path": "work/phase3_crypto/development/oracle_pilot12.jsonl",
+      "sha256": "cd33d29c79aa46518c5e77e2fc4ca70e353db56dddd99449fda79e714de7453b",
+      "records": [
+        {
+          "record_locator": "line:1",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        },
+        {
+          "record_locator": "line:2",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase3_crypto/development/oracle_pilot12.jsonl"
+    },
+    {
+      "source_path": "work/phase3_crypto/development/oracle_pilot20.jsonl",
+      "sha256": "02adda1afb204c4f398f832fe924be91947ba5e218b6c30bb6a981d8f30c5d36",
+      "records": [
+        {
+          "record_locator": "line:1",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        },
+        {
+          "record_locator": "line:2",
+          "sample_position": 84123,
+          "interval_half_open": [
+            84123,
+            84898
+          ],
+          "language_model": null,
+          "reason": "Old pilot omits language/corpus metadata; offset exceeds both target holdout lengths, so cannot be a valid interval in either fixed coordinate space."
+        }
+      ],
+      "canonical_byte_identical_source": "work/phase3_crypto/development/oracle_pilot20.jsonl"
+    }
+  ],
+  "other_normalization_provenance": {
+    "holdout_path": "work/phase5_language/de_digraph/holdout.txt",
+    "holdout_sha256": "3181e52b8538a504cd6e6ed71914bbe95d58f057bd865d29eba4d2176d76aabf",
+    "normalized_sha256": "3181e52b8538a504cd6e6ed71914bbe95d58f057bd865d29eba4d2176d76aabf",
+    "normalized_length": 20085,
+    "provenance_path": "work/phase5_language/de_digraph/provenance.json",
+    "provenance_sha256": "b6190dd7f7625f65f628356480ead149fb65927450f843ff52c03d01c43c5576",
+    "normalization_metadata": "lowercase; ß→ss, œ→oe, æ→ae; ä→ae, ö→oe, ü→ue; NFKD; retain a-z; no whitespace",
+    "model_path": "work/phase5_language/de_digraph/model.bin",
+    "model_sha256_from_provenance": "08df06527ba07033d46032bbd432ed8eb1c235b78a35660a9cc33ad6b339cf46",
+    "model_binary_read": false
+  },
+  "coverage": {
+    "roots": [
+      "work",
+      "outputs",
+      "sentinel-blume-salamanca/work"
+    ],
+    "formats": [
+      "JSON",
+      "JSONL"
+    ],
+    "sample_field_scan_paths": [
+      {
+        "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/full_prose_20261011_5.jsonl",
+        "sha256": "16e6974dd51135d0d20c8709a881fcdd20f4ee334d5c230512d783a79574d7de",
+        "sample_records": 20
+      },
+      {
+        "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/full_prose_20261081_3_negative.jsonl",
+        "sha256": "90e648ab171a654ce930d0f6c43fce2c77a56d7203d20317e3981c7d036a89a0",
+        "sample_records": 12
+      },
+      {
+        "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/full_proxy_20261011_3.jsonl",
+        "sha256": "1845978938b3c9b0e64f5fd73c72199b5a6604d3e99706904515a14ad4c2bf3c",
+        "sample_records": 12
+      },
+      {
+        "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/oracle_prose_20261101_25.jsonl",
+        "sha256": "52e0aab4af7bcd9112b67cb0c02600df33bb856db6273365bfaf500e7358efed",
+        "sample_records": 100
+      },
+      {
+        "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/oracle_prose_20261131_5_negative.jsonl",
+        "sha256": "9b116d08e7e91f2d106ea98bb444d7255109af52391f3f3658a633786db21471",
+        "sample_records": 20
+      },
+      {
+        "source_path": "outputs/Sentinel_BLUME_avance_2026-10-01/work/phase3_crypto/oracle_proxy_20261101_25.jsonl",
+        "sha256": "03170cccb42946b5cf6029d14ac13fb590eece4f0429858a71c1c307282ea0c6",
+        "sample_records": 100
+      },
+      {
+        "source_path": "outputs/Sentinel_BLUME_inventario_y_controles_2026-10-01/work/phase5_language/oracle_controls.jsonl",
+        "sha256": "3aedb220a95e6b0a1afb576a1fb92fb0ed33028a873870392b8659e95d115895",
+        "sample_records": 24
+      },
+      {
+        "source_path": "outputs/Sentinel_BLUME_nuevas_pistas_2026-10-01/work/phase4_crypto/smoke_negative.jsonl",
+        "sha256": "646307feaa1559c56fb07e22265005ef717d458230e9f9f252213e80f44f49af",
+        "sample_records": 8
+      },
+      {
+        "source_path": "outputs/Sentinel_BLUME_nuevas_pistas_2026-10-01/work/phase4_crypto/smoke_positive.jsonl",
+        "sha256": "22277ba1d2c9d03d4bc7a0eedd2047e2ec084c5ff185a8c4d404045fe32db1d5",
+        "sample_records": 32
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase10_crypto/truth.jsonl",
+        "sha256": "707a327ffe1b8a53bde8327d7f31a67d42996047bf9a1482cd1deecd818de7c1",
+        "sample_records": 8
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase11_crypto/truth.jsonl",
+        "sha256": "9268c72d8cf69f59e9979b1c11635b535c620df9cc2ba53d61f6a825c1251c23",
+        "sample_records": 8
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase14_crypto/truth.jsonl",
+        "sha256": "a56c81b211b974681b3d8d4ef21e5bb4efed41662afa48ac80212017687fa31f",
+        "sample_records": 4
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase15_crypto/evaluation.json",
+        "sha256": "f219f2ccb7812388e17c0328bfb72bce6e1d3d66006b23d5359859cb7105f6e2",
+        "sample_records": 4
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase15_crypto/truth.jsonl",
+        "sha256": "8d25ac30b792678c92c8c8ff25a4950e1f0b28fe8966c6c2fe56b9bf92f696d3",
+        "sample_records": 4
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase16_crypto/evaluation.json",
+        "sha256": "3a3ae74ec452b29dd66d3651ca72d32238a48106d1ec2a5222bf6231313fa6c2",
+        "sample_records": 4
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase16_crypto/truth.jsonl",
+        "sha256": "96e04771e780934f2a057f19f1012f5dedb2a0147761908db1e0b24129eaa4de",
+        "sample_records": 4
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/full_pilot12.jsonl",
+        "sha256": "b8f9712261143e7e5cafcf653ba28386406b6d1cb434d54b177b1f7cebb20f6a",
+        "sample_records": 2
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/full_pilot20.jsonl",
+        "sha256": "f48588295b85c3b1d4acc50d295881d7d3fe3f16398e8ed46d2bbdd2d4e7105c",
+        "sample_records": 2
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_pilot12.jsonl",
+        "sha256": "cd33d29c79aa46518c5e77e2fc4ca70e353db56dddd99449fda79e714de7453b",
+        "sample_records": 2
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_pilot20.jsonl",
+        "sha256": "02adda1afb204c4f398f832fe924be91947ba5e218b6c30bb6a981d8f30c5d36",
+        "sample_records": 2
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_prose_20261011_25.jsonl",
+        "sha256": "e6b1e9490efeb772e60ea9decdb52c8026ec9d5465a45b860ca31638b2e5e5d2",
+        "sample_records": 100
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_prose_20261041_5_negative.jsonl",
+        "sha256": "f95a1a139fa6097d3c1007713ba99eca882dc8f1fef1330986c7a84d2d660f31",
+        "sample_records": 20
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_prose_20261051_25.jsonl",
+        "sha256": "4712759f17bdaa251c4afc855afceb867a7b57aae712b19c7f6dad7c73978b47",
+        "sample_records": 100
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_prose_20261081_5_negative.jsonl",
+        "sha256": "9a16a38daeda2ccd9ed93114931422cf68633c90119db654a2f4341412a893c0",
+        "sample_records": 20
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_proxy_20261011_25.jsonl",
+        "sha256": "bef9810925a7f462fa79590e034dfaba8139963201a3887886a59652c9fe1558",
+        "sample_records": 100
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/development/oracle_proxy_20261051_25.jsonl",
+        "sha256": "9c0a1fca5738214f3f93ad8701f845140036ec7e268f9652a188fc3fffa258a8",
+        "sample_records": 100
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/full_prose_20261011_5.jsonl",
+        "sha256": "16e6974dd51135d0d20c8709a881fcdd20f4ee334d5c230512d783a79574d7de",
+        "sample_records": 20
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/full_prose_20261081_3_negative.jsonl",
+        "sha256": "90e648ab171a654ce930d0f6c43fce2c77a56d7203d20317e3981c7d036a89a0",
+        "sample_records": 12
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/full_proxy_20261011_3.jsonl",
+        "sha256": "1845978938b3c9b0e64f5fd73c72199b5a6604d3e99706904515a14ad4c2bf3c",
+        "sample_records": 12
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/oracle_prose_20261101_25.jsonl",
+        "sha256": "52e0aab4af7bcd9112b67cb0c02600df33bb856db6273365bfaf500e7358efed",
+        "sample_records": 100
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/oracle_prose_20261131_5_negative.jsonl",
+        "sha256": "9b116d08e7e91f2d106ea98bb444d7255109af52391f3f3658a633786db21471",
+        "sample_records": 20
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase3_crypto/oracle_proxy_20261101_25.jsonl",
+        "sha256": "03170cccb42946b5cf6029d14ac13fb590eece4f0429858a71c1c307282ea0c6",
+        "sample_records": 100
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase4_crypto/smoke_negative.jsonl",
+        "sha256": "646307feaa1559c56fb07e22265005ef717d458230e9f9f252213e80f44f49af",
+        "sample_records": 8
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase4_crypto/smoke_positive.jsonl",
+        "sha256": "22277ba1d2c9d03d4bc7a0eedd2047e2ec084c5ff185a8c4d404045fe32db1d5",
+        "sample_records": 32
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase5_language/oracle_controls.jsonl",
+        "sha256": "3aedb220a95e6b0a1afb576a1fb92fb0ed33028a873870392b8659e95d115895",
+        "sample_records": 24
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase7_crypto/full_language_controls.jsonl",
+        "sha256": "a7b7f5bbf53d74108a0c5b1456a6f9dc7f296dd9cdd5e0e7e770c8410bd05727",
+        "sample_records": 16
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase8_crypto/planted_truth.jsonl",
+        "sha256": "5d67498954c149d55231cdc6be7d1d92418bbc9c6119b672ae4e7f4d4fd97e08",
+        "sample_records": 8
+      },
+      {
+        "source_path": "sentinel-blume-salamanca/work/phase9_crypto/truth.jsonl",
+        "sha256": "5143bcac8b37383b2a35801b190eeedb9330d452ea3185053ac264727b13fd05",
+        "sample_records": 8
+      },
+      {
+        "source_path": "work/phase10_crypto/truth.jsonl",
+        "sha256": "707a327ffe1b8a53bde8327d7f31a67d42996047bf9a1482cd1deecd818de7c1",
+        "sample_records": 8
+      },
+      {
+        "source_path": "work/phase11_crypto/truth.jsonl",
+        "sha256": "9268c72d8cf69f59e9979b1c11635b535c620df9cc2ba53d61f6a825c1251c23",
+        "sample_records": 8
+      },
+      {
+        "source_path": "work/phase14_crypto/truth.jsonl",
+        "sha256": "a56c81b211b974681b3d8d4ef21e5bb4efed41662afa48ac80212017687fa31f",
+        "sample_records": 4
+      },
+      {
+        "source_path": "work/phase15_crypto/evaluation.json",
+        "sha256": "f219f2ccb7812388e17c0328bfb72bce6e1d3d66006b23d5359859cb7105f6e2",
+        "sample_records": 4
+      },
+      {
+        "source_path": "work/phase15_crypto/truth.jsonl",
+        "sha256": "8d25ac30b792678c92c8c8ff25a4950e1f0b28fe8966c6c2fe56b9bf92f696d3",
+        "sample_records": 4
+      },
+      {
+        "source_path": "work/phase16_crypto/evaluation.json",
+        "sha256": "3a3ae74ec452b29dd66d3651ca72d32238a48106d1ec2a5222bf6231313fa6c2",
+        "sample_records": 4
+      },
+      {
+        "source_path": "work/phase16_crypto/truth.jsonl",
+        "sha256": "96e04771e780934f2a057f19f1012f5dedb2a0147761908db1e0b24129eaa4de",
+        "sample_records": 4
+      },
+      {
+        "source_path": "work/phase3_crypto/development/full_pilot12.jsonl",
+        "sha256": "b8f9712261143e7e5cafcf653ba28386406b6d1cb434d54b177b1f7cebb20f6a",
+        "sample_records": 2
+      },
+      {
+        "source_path": "work/phase3_crypto/development/full_pilot20.jsonl",
+        "sha256": "f48588295b85c3b1d4acc50d295881d7d3fe3f16398e8ed46d2bbdd2d4e7105c",
+        "sample_records": 2
+      },
+      {
+        "source_path": "work/phase3_crypto/development/oracle_pilot12.jsonl",
+        "sha256": "cd33d29c79aa46518c5e77e2fc4ca70e353db56dddd99449fda79e714de7453b",
+        "sample_records": 2
+      },
+      {
+        "source_path": "work/phase3_crypto/development/oracle_pilot20.jsonl",
+        "sha256": "02adda1afb204c4f398f832fe924be91947ba5e218b6c30bb6a981d8f30c5d36",
+        "sample_records": 2
+      },
+      {
+        "source_path": "work/phase3_crypto/development/oracle_prose_20261011_25.jsonl",
+        "sha256": "e6b1e9490efeb772e60ea9decdb52c8026ec9d5465a45b860ca31638b2e5e5d2",
+        "sample_records": 100
+      },
+      {
+        "source_path": "work/phase3_crypto/development/oracle_prose_20261041_5_negative.jsonl",
+        "sha256": "f95a1a139fa6097d3c1007713ba99eca882dc8f1fef1330986c7a84d2d660f31",
+        "sample_records": 20
+      },
+      {
+        "source_path": "work/phase3_crypto/development/oracle_prose_20261051_25.jsonl",
+        "sha256": "4712759f17bdaa251c4afc855afceb867a7b57aae712b19c7f6dad7c73978b47",
+        "sample_records": 100
+      },
+      {
+        "source_path": "work/phase3_crypto/development/oracle_prose_20261081_5_negative.jsonl",
+        "sha256": "9a16a38daeda2ccd9ed93114931422cf68633c90119db654a2f4341412a893c0",
+        "sample_records": 20
+      },
+      {
+        "source_path": "work/phase3_crypto/development/oracle_proxy_20261011_25.jsonl",
+        "sha256": "bef9810925a7f462fa79590e034dfaba8139963201a3887886a59652c9fe1558",
+        "sample_records": 100
+      },
+      {
+        "source_path": "work/phase3_crypto/development/oracle_proxy_20261051_25.jsonl",
+        "sha256": "9c0a1fca5738214f3f93ad8701f845140036ec7e268f9652a188fc3fffa258a8",
+        "sample_records": 100
+      },
+      {
+        "source_path": "work/phase3_crypto/full_prose_20261011_5.jsonl",
+        "sha256": "16e6974dd51135d0d20c8709a881fcdd20f4ee334d5c230512d783a79574d7de",
+        "sample_records": 20
+      },
+      {
+        "source_path": "work/phase3_crypto/full_prose_20261081_3_negative.jsonl",
+        "sha256": "90e648ab171a654ce930d0f6c43fce2c77a56d7203d20317e3981c7d036a89a0",
+        "sample_records": 12
+      },
+      {
+        "source_path": "work/phase3_crypto/full_proxy_20261011_3.jsonl",
+        "sha256": "1845978938b3c9b0e64f5fd73c72199b5a6604d3e99706904515a14ad4c2bf3c",
+        "sample_records": 12
+      },
+      {
+        "source_path": "work/phase3_crypto/oracle_prose_20261101_25.jsonl",
+        "sha256": "52e0aab4af7bcd9112b67cb0c02600df33bb856db6273365bfaf500e7358efed",
+        "sample_records": 100
+      },
+      {
+        "source_path": "work/phase3_crypto/oracle_prose_20261131_5_negative.jsonl",
+        "sha256": "9b116d08e7e91f2d106ea98bb444d7255109af52391f3f3658a633786db21471",
+        "sample_records": 20
+      },
+      {
+        "source_path": "work/phase3_crypto/oracle_proxy_20261101_25.jsonl",
+        "sha256": "03170cccb42946b5cf6029d14ac13fb590eece4f0429858a71c1c307282ea0c6",
+        "sample_records": 100
+      },
+      {
+        "source_path": "work/phase4_crypto/smoke_negative.jsonl",
+        "sha256": "646307feaa1559c56fb07e22265005ef717d458230e9f9f252213e80f44f49af",
+        "sample_records": 8
+      },
+      {
+        "source_path": "work/phase4_crypto/smoke_positive.jsonl",
+        "sha256": "22277ba1d2c9d03d4bc7a0eedd2047e2ec084c5ff185a8c4d404045fe32db1d5",
+        "sample_records": 32
+      },
+      {
+        "source_path": "work/phase5_language/oracle_controls.jsonl",
+        "sha256": "3aedb220a95e6b0a1afb576a1fb92fb0ed33028a873870392b8659e95d115895",
+        "sample_records": 24
+      },
+      {
+        "source_path": "work/phase7_crypto/full_language_controls.jsonl",
+        "sha256": "a7b7f5bbf53d74108a0c5b1456a6f9dc7f296dd9cdd5e0e7e770c8410bd05727",
+        "sample_records": 16
+      },
+      {
+        "source_path": "work/phase8_crypto/planted_truth.jsonl",
+        "sha256": "5d67498954c149d55231cdc6be7d1d92418bbc9c6119b672ae4e7f4d4fd97e08",
+        "sample_records": 8
+      },
+      {
+        "source_path": "work/phase9_crypto/truth.jsonl",
+        "sha256": "5143bcac8b37383b2a35801b190eeedb9330d452ea3185053ac264727b13fd05",
+        "sample_records": 8
+      }
+    ],
+    "record_containers": [
+      "top-level",
+      "JSONL row",
+      "cases",
+      "records",
+      "controls",
+      "plants",
+      "truth",
+      "plant_metadata"
+    ],
+    "excluded_hash_metadata_families": [
+      "protected*",
+      "frozen*",
+      "baseline*",
+      "file_hashes*",
+      "source_inventory*"
+    ],
+    "nested_fields_not_traversed": [
+      "protected_before",
+      "protected_after",
+      "commands",
+      "runs",
+      "profiles",
+      "score fields",
+      "true key fields"
+    ],
+    "alternative_offset_fields_checked": [
+      "sample_offset",
+      "plaintext_offset",
+      "segment_start",
+      "segment_offset",
+      "holdout_offset",
+      "sampling_position",
+      "start_position"
+    ],
+    "alternative_offset_field_hits": 0,
+    "unclassified_potential_target_records": [],
+    "unmatched_sample_fields": [],
+    "unresolved_manifest_cases": [],
+    "byte_identical_copies_retained": true,
+    "ambiguities": [
+      {
+        "kind": "Old pilot language omitted",
+        "records": 16,
+        "effect": "All sample offsets are 84123, outside both target lengths; cannot overlap a valid target interval. Language is not guessed."
+      },
+      {
+        "kind": "de_digraph coordinate system",
+        "effect": "Different holdout hash/normalization. Both recorded numeric intervals additionally excluded conservatively in de_fold; this does not prove cross-normalization textual novelty."
+      }
+    ],
+    "boundary": "All sample_position-bearing direct records found in visible audited roots; no claim about Git history, ignored files, other workspaces, undocumented uses or identical text in other corpora."
+  },
+  "insufficient_space": [],
+  "new_cases_generated": 0,
+  "new_truth_or_keys_generated": 0,
+  "RNG_calls": 0,
+  "IDP_calls": 0,
+  "solver_calls": 0,
+  "model_binaries_read": 0,
+  "plaintext_selected_or_printed": false,
+  "prior_files_modified": false
+}

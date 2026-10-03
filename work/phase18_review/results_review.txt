@@ -1,0 +1,44 @@
+FASE 18 — REVISIÓN INDEPENDIENTE DE RESULTADOS E INFORME
+Fecha UTC: 2026-10-03 15:57:37 UTC
+Revisor: /root/history_phase17
+
+Conclusión
+El informe outputs/Sentinel_BLUME_fase18_2026-10-03.txt concuerda con evaluation.json y los metadatos guardados. No se encontraron errores que bloqueen su publicación dentro del alcance descrito. Esta revisión no aprueba nuevas puntuaciones, trayectorias o una extensión del panel.
+
+Versión del informe revisada
+SHA256 b397dc093c202cd41da0a52ed24ead4f17bdaab935427ccf69e926ad89ef6b98
+Evaluación SHA256 eea7e24674e1072e90c7db36c7be7b62cad024eb7a81dc918396e230b7d7f8f2
+Evaluador SHA256 82c8a73c4387ce6f1bc7e87b17a73d4f69957f49783024539e0ed06dfeded965
+Target gate SHA256 03d583a1b9f4793499892bb7fc119f4c989b281b1ee0cf28f93294aade6c4680
+
+Método de esta revisión
+Se leyó estáticamente evaluate_external.py y las funciones de inversión/cifrado que usa. Se cotejó evaluation.json con el plan, manifiesto, gate, doce resúmenes pequeños ya guardados y doce comienzos, verificando hashes, categorías y métricas finales. También se comprobaron los 4 pares distintos de claves y los 8 comienzos principales distintos. Se leyeron las claves plantadas que ya figuran en evaluation.json, después del gate; no se abrió truth.jsonl.
+
+No se volvieron a leer CSV. La auditoría independiente previa de 549 429 filas sigue siendo evidencia de la política y los registros; no se repitió. No se ejecutaron RNG, scorer, solver, generador ni evaluador. Coste nuevo de esta revisión: 0 IDP, 0 RNG, 0 filas CSV.
+
+Mapa de target e integridad
+enc(texto, clave física) concatena las columnas en el orden físico. El solver aplica undo2(ciphertext, inverse(clave numérica), 0). Por tanto el target numérico es inverse(true_k2); no true_k2 sin invertir. Se calculó esta inversión directamente sólo para cotejar archivos existentes.
+
+El rango del target en el archivo top5, la igualdad con el estado final, Hamming inicial y la primera adopción concordaron en los 12 perfiles. Los cuatro H2 son exactamente ese target con intercambio de posiciones numéricas 0 y 1.
+
+El evaluador exige los tres recibos passed y sus hashes, más hashes de plan/manifiesto/verdad/recursos, antes de la comparación externa. Antes de guardar status=evaluated comprueba los dos hashes de plaintext por caso y la igualdad de los ocho ciphertexts con enc(enc(plaintext,true_k1),true_k2). Esta revisión comprobó el código y el registro de evaluación posterior a esas aserciones; no regeneró texto o ciphertexts ni volvió a ejecutar ese cálculo. Regenerar con claves ya plantadas es una comprobación de integridad; no recupera K1 ni plaintext mediante el solver.
+
+Resultados y recuentos comprobados
+Principales: 8 comienzos anidados en 4 casos. 0/8 puntuaron la K2 exacta según la comparación externa guardada; 0/8 la conservaron en top5 final; 0/8 terminaron en ella. Los booleanos y totales del informe coinciden con evaluation.json. La ausencia en todas las propuestas y el mínimo Hamming son métricas de la única lectura CSV del evaluador, cuyo código se revisó; no se presenta este cotejo como una segunda lectura de esas propuestas.
+
+Principales: 29 barridos completos = 1 perfil × 5 + 4 perfiles × 3 + 3 perfiles × 4. Ocho banderas de convergencia y ocho stop_reason=converged. Cero barridos parciales; cero principales con parada por llamadas o tiempo. 482 829 llamadas = 29 × 16 649 + 8 iniciales. Hamming inicial 23–25; mínimo Hamming reportado entre propuestas 17–20. Hamming no es distancia del grafo de movimientos.
+
+Positivos privilegiados, separados: 4/4 puntuaron el target, lo conservaron en top5 final (rango 1) y terminaron en él. Cada ruta tuvo 16 650 llamadas, un barrido completo y una adopción. En estos registros el target se puntuó en llamada 6 350 y se adoptó al completar el barrido, llamada 16 650. Todos paran por call_limit, con convergence_observed=false; no hubo otro barrido estable posterior. No se mezclan con el denominador principal ni demuestran recuperación desde azar.
+
+Coste conocido total: 482 829 principal + 66 600 positivos + 24 referencias = 549 453 IDP. Las 24 referencias fueron concordantes y cobradas aparte, sobre primera/última propuesta ya registrada. 59 callbacks de mocks en preparación, fuera de IDP; no se repitieron en esta revisión ni para corregir el wrapper que esperaba 78. El tiempo guardado de generación/rutas es 29.02317 s; la referencia terminó a +135.32014 s del mismo comienzo dentro de la ventana original de 600 s. Último disco observado del runner: 111 035 210 bytes; no es tamaño final de todos los recibos posteriores.
+
+Alcance de las conclusiones
+Este panel no confirmó recuperación exacta de K2 desde esos ocho comienzos. Los H2 muestran recuperación cercana en cuatro controles del mismo sistema sintético. Los resultados no estiman una tasa por idioma ni por corpus, no prueban imposibilidad global, no identifican cuencas o barreras y no atribuyen una causa a fase 14. La política usa geometría, convención y modelos conocidos. Las cuatro muestras literarias y ventanas adyacentes no son corpus comercial histórico nuevo; las reservas excluyen usos de plantado documentados en la representación indicada, no toda posible exposición textual.
+
+El archivo top5, estado actual, alguna puntuación del target y primera adopción son métricas distintas. El resultado exacto de K2 no constituye descifrado histórico ni recuperación de K1/plaintext. La propuesta futura del informe se presenta como diseño pendiente con panel y presupuesto nuevos; no extiende esta ejecución.
+
+Conservación
+El manifiesto señala protected_unchanged=true. Raíz realiza la comprobación posterior de los 3 569 archivos anteriores; esta revisión no vuelve a recorrer ese baseline ni declara haberlo verificado por su cuenta. La publicación debe conservar su recibo. Se añadieron sólo esta nota y el cotejo de metadatos; no se modificó ninguna fuente, plan, resultado o informe.
+
+Resultado legible por máquina:
+work/phase18_review/results_metadata_crosscheck.json

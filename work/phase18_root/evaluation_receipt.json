@@ -1,0 +1,25 @@
+{
+  "status": "completed_unique_target_comparison",
+  "evaluation_sha256": "eea7e24674e1072e90c7db36c7be7b62cad024eb7a81dc918396e230b7d7f8f2",
+  "manifest_sha256": "328e23b301f2739e4cc6a4a23645c8fdb2b5931d63e203db7f4ba8beac039976",
+  "plan_sha256": "97b8d8ef0c90cf58c2787410cf62a6193ee6ab3fe0d7ac91d9512fa4e095b717",
+  "target_gate_sha256": "03d583a1b9f4793499892bb7fc119f4c989b281b1ee0cf28f93294aade6c4680",
+  "new_IDP": 0,
+  "new_RNG": 0,
+  "new_searches": 0,
+  "totals": {
+    "main_profiles": 8,
+    "main_cases": 4,
+    "main_final_top5": 0,
+    "main_ever_scored": 0,
+    "main_final_current": 0,
+    "positive_profiles": 4,
+    "positive_final_top5": 4,
+    "positive_final_current": 4,
+    "main_IDP": 482829,
+    "positive_IDP": 66600,
+    "reference_IDP": 24,
+    "mock_callbacks": 59,
+    "total_IDP": 549453
+  }
+}

@@ -1,0 +1,53 @@
+SENTINEL — BLUME SALAMANCA — FASE 18
+3 de octubre de 2026
+
+Resultado: 0 de 8 búsquedas desde comienzos aleatorios encontraron la K2 verdadera. Ninguna la puntuó, la dejó entre las cinco claves del archivo final o terminó en ella. Los cuatro controles privilegiados H2 la puntuaron, la incluyeron en el archivo y terminaron en ella: 4/4, por separado.
+
+Qué se probó
+Cuatro casos sintéticos nuevos: dos DE_fold y dos FR_fold, cuatro pares distintos de claves, dos comienzos por caso. Los ocho comienzos proceden de semillas distintas y de una mezcla de la identidad de 25 columnas, sin recibir la verdad ni seleccionar por puntuación o distancia. Son ocho rutas anidadas en cuatro casos, no ocho casos independientes ni una tasa por idioma.
+
+Se conocían las anchuras 20 y 25, los tamaños 615 y 160, la convención 0 y el modelo de idioma. Sólo se buscó la K2 numérica inversa. El objetivo entero y el catálogo fuente de 16.649 movimientos se conservaron. B evalúa un vecindario con ancla fija y acepta su mejor mejora estricta al completar el barrido; no acepta el mejor parcial. Orden fijo, sin shuffle, reinicios, caché ni población.
+
+Los modelos y las obras literarias son anteriores. Se reservaron ventanas de 775 caracteres, disjuntas de las plantas anteriores documentadas: DE 2242/3017; FR 0/775. Dos ventanas contiguas por idioma/obra y holdouts ya usados en diagnósticos descriptivos; no son textos comerciales de 1937, corpus nunca analizados ni muestras IID. La reserva no acredita novedad textual frente a otras normalizaciones o usos sin documentar.
+
+Resultado de cada comienzo principal (Hamming sólo medido después; no distancia del grafo)
+Perfil | Hamming inicial | menor Hamming entre propuestas puntuadas | llamadas | barridos completos | parada
+case01_random1_B | 25 | 20 | 83246 | 5 | converged
+case01_random2_B | 25 | 20 | 49948 | 3 | converged
+case02_random1_B | 24 | 18 | 49948 | 3 | converged
+case02_random2_B | 24 | 17 | 49948 | 3 | converged
+case03_random1_B | 23 | 18 | 49948 | 3 | converged
+case03_random2_B | 25 | 19 | 66597 | 4 | converged
+case04_random1_B | 25 | 20 | 66597 | 4 | converged
+case04_random2_B | 23 | 20 | 66597 | 4 | converged
+
+Las ocho rutas principales terminaron tras un barrido completo sin mejora aceptable: ocho banderas de convergencia y ocho stop_reason=converged. Hicieron 29 barridos completos en total, cero parciales; ninguna principal agotó sus llamadas o su tiempo. Esto describe esos registros, sin demostrar una barrera global, una cuenca o que otra ruta sea imposible.
+
+Controles separados
+Un control por caso: la inversa verdadera con intercambio nativo de posiciones 0 y 1, Hamming 2. Cada uno usó 16.650 llamadas y un barrido completo; los cuatro adoptaron K2 y terminaron por call_limit. No se incluyen en el denominador principal ni representan recuperación desde azar. Sus resultados no decidieron si ejecutar las principales.
+
+Presupuesto y costes
+Techo fijado antes de verdad: 1.398.552 IDP equivalentes (principales 1.331.928, positivos 66.600, referencia 24). Cada ruta principal: inicial más hasta diez vecindarios completos; soft 30s/hard 40s. Reloj global original 600s iniciado antes de la primera generación, sin reinicio; disco 512 MiB con reserva de 1 MiB para cierre y guard durante procesos. Sin sustituciones o extensiones después de los resultados.
+Coste real conocido: 482829 principal + 66600 positivo + 24 referencia = 549.453 IDP. Cero legacy. Las 24 referencias repuntúan la primera y última propuesta ya registradas de cada ruta; se cobran aparte y no crean trayectorias. Ejecución de rutas y generación: 29.02s; la referencia terminó a +135.32s del mismo reloj. Último tamaño observado del runner: 111035210 bytes, anterior a los recibos posteriores. No se alcanzó un límite de tiempo/disco ni falló una ruta.
+
+Preparación: una compilación del solver y otra del generador; doce invocaciones RNG (cuatro plantas, ocho inicios). Un único intento pasó 16 controles mecánicos con 59 callbacks y cero IDP. Su wrapper esperaba erróneamente 78 callbacks; el posprocesado falló y se corrigió comprobando los bytes guardados, sin repetir controles ni compilar otra vez. Los 78 de fase16 eran el acumulado de dos suites, 19+59. Las revisiones del plan y guards ocurrieron antes de generar verdad, con cero IDP/RNG.
+
+Auditoría y conservación
+Plan y 39 recursos sellados; aprobación de raíz y de otro agente antes de verdad. El solver recibe únicamente modelo, ciphertexts, inicio, geometría y límites, con nombres opacos; verdad y plantas fuera de su directorio de ejecución. Es aislamiento de código/entradas, sin afirmar una frontera de permisos del sistema operativo.
+
+Dos auditorías de registros distintas verificaron 549.429 filas y sus marcadores: bases fijas, movimientos, numeradores repetidos, decisiones exactas, desempates, top5, selección y adopción, eventos, cortes, hashes y costes. Las 24 muestras numéricas concordaron con un cálculo directo de offsets. Sólo entonces se abrió la verdad para una comparación externa única, con cero IDP, RNG o solvers adicionales. Se regeneraron ocho ciphertexts mediante las claves ya selladas para comprobar integridad, sin generar claves nuevas.
+
+Interpretación y siguiente decisión
+Este ensayo no confirmó recuperación de K2 desde estos comienzos aleatorios. Los positivos muestran que la clave puede recuperarse desde esos cuatro inicios cercanos, dentro del mismo sistema sintético. El alcance queda limitado al panel, al objetivo y a esta política; los ceros no excluyen doble transposición ni prueban imposibilidad. No se recuperó K1 o plaintext, no se atribuye una causa a la fase14 y no se ha descifrado el telegrama histórico.
+
+Antes de dedicar más cálculo al telegrama, la siguiente prueba útil sería evaluar una política capaz de salir de estados sin mejora local. Exigiría una pregunta nueva, casos y semillas reservados, controles y presupuesto propios antes de verdad; no ampliar este panel conocido. La selección entre reinicios independientes, aceptación temporal de empeoramientos u otra política queda pendiente de un diseño concreto. No hay una nueva ejecución aprobada por esta nota.
+
+Todas las fases anteriores se conservan. No hubo consultas históricas nuevas, mensajes a personas, compras o cambios de cuentas en esta ronda. El trabajo científico queda cerrado; se publicará sólo la parte propia/redistribuible revisada.
+
+Recibos principales
+work/phase18_crypto/plan.json SHA 97b8d8ef0c90cf58c2787410cf62a6193ee6ab3fe0d7ac91d9512fa4e095b717
+work/phase18_crypto/manifest.json SHA 328e23b301f2739e4cc6a4a23645c8fdb2b5931d63e203db7f4ba8beac039976
+work/phase18_crypto/evaluation.json SHA eea7e24674e1072e90c7db36c7be7b62cad024eb7a81dc918396e230b7d7f8f2
+work/phase18_root/records_root.json SHA 6a40936552c535a04f6817d7dd4f3101f4e2ddeecf560480b63e645d2cd0f21c
+work/phase18_review/records_independent.json SHA 995e6a92017126da55b8db679d949f358e9adbdc02f57b01622945b5059341e9
+work/phase18_root/numeric_attempt.json SHA 6f753485dde1e1ecdd0aa29163a47da140cd2a126ad028cb5ec6f847df179234

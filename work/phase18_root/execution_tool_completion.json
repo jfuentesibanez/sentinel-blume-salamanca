@@ -1,0 +1,7 @@
+{
+  "chunk_id": "9f8786",
+  "wall_time_seconds": 0.000019917,
+  "exit_code": 0,
+  "original_token_count": 49,
+  "output": "{\"status\": \"completed\", \"main_exact_calls\": 482829, \"positive_exact_calls\": 66600, \"disk_observed_bytes\": 111035210, \"started_at_unix\": 1791042288.8199081, \"ended_at_unix\": 1791042317.8430789}\n"
+}

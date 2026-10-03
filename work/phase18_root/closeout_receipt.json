@@ -1,0 +1,57 @@
+{
+  "status": "scientific_completed_audited_closed",
+  "closed_at_unix": 1791043088.8608441,
+  "hashes": {
+    "work/phase18_crypto/plan.json": "97b8d8ef0c90cf58c2787410cf62a6193ee6ab3fe0d7ac91d9512fa4e095b717",
+    "work/phase18_crypto/manifest.json": "328e23b301f2739e4cc6a4a23645c8fdb2b5931d63e203db7f4ba8beac039976",
+    "work/phase18_crypto/evaluation.json": "eea7e24674e1072e90c7db36c7be7b62cad024eb7a81dc918396e230b7d7f8f2",
+    "work/phase18_root/audit_approval.json": "90b0ebc60b4c55d31e592fcee33c3b4daf56c01eeae1fc5aa24a416ad78ecafd",
+    "work/phase18_root/records_root.json": "6a40936552c535a04f6817d7dd4f3101f4e2ddeecf560480b63e645d2cd0f21c",
+    "work/phase18_review/records_independent.json": "995e6a92017126da55b8db679d949f358e9adbdc02f57b01622945b5059341e9",
+    "work/phase18_root/numeric_attempt.json": "6f753485dde1e1ecdd0aa29163a47da140cd2a126ad028cb5ec6f847df179234",
+    "work/phase18_root/target_gate.json": "03d583a1b9f4793499892bb7fc119f4c989b281b1ee0cf28f93294aade6c4680",
+    "work/phase18_root/evaluation_receipt.json": "84de56f5c5215dc6b440cb2a5950aef2600c84f9612b79fd6d40bf1c52b200d4",
+    "work/phase18_review/results_review.txt": "2f04c85f159ed8f78c360cb4ed785460354a8152f1fcbeb6770adf0e0718cb4c",
+    "outputs/Sentinel_BLUME_fase18_2026-10-03.txt": "b397dc093c202cd41da0a52ed24ead4f17bdaab935427ccf69e926ad89ef6b98",
+    "work/phase18_root/protected_preservation.json": "5decabc64eb09f6f6578adf3240753671e4fe256317f39536d6195b5646693c9"
+  },
+  "totals": {
+    "main_profiles": 8,
+    "main_cases": 4,
+    "main_final_top5": 0,
+    "main_ever_scored": 0,
+    "main_final_current": 0,
+    "positive_profiles": 4,
+    "positive_final_top5": 4,
+    "positive_final_current": 4,
+    "main_IDP": 482829,
+    "positive_IDP": 66600,
+    "reference_IDP": 24,
+    "mock_callbacks": 59,
+    "total_IDP": 549453
+  },
+  "principal_stop_reasons": {
+    "converged": 8
+  },
+  "positive_stop_reasons": {
+    "call_limit": 4
+  },
+  "main_full_sweeps": 29,
+  "main_partial_sweeps": 0,
+  "new_cases": 4,
+  "distinct_planted_keypairs": 4,
+  "distinct_main_starts": 8,
+  "RNG_invocations": 12,
+  "solver_trajectories": 12,
+  "failed_solver_trajectories": 0,
+  "scientific_reference_attempts": 1,
+  "reference_IDP": 24,
+  "mock_process_attempts": 1,
+  "mock_callbacks": 59,
+  "control_postvalidation_attempts": 2,
+  "postvalidation_initial_error": true,
+  "guard_plan_revisions_before_truth": 3,
+  "post_outcome_scoring_extensions": 0,
+  "protected_prior_files": 3569,
+  "scope": "Synthetic exactK2 under known widths/convention/models. No historical decrypt, K1/plaintext, IID language rate, global barrier or general impossibility. Scientific panel closed; further scoring requires a new prospective question/cases/seeds/limits/audits."
+}

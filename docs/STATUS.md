@@ -1,12 +1,12 @@
 # Research status — 3 October 2026
 
-**No verified historical plaintext, key or BLUME identity.** The latest checkpoint,
-phase 17, describes four saved phase 16 paths with zero new IDP or trajectories.
-Phase 16 remains the latest experiment: audited privileged trajectories on
-four new synthetic cases. Best-improvement B
-ended at true K2 in 8/8 main trajectories; immediate-update A in 6/8. This is
-local evidence from truth-derived starts, not unknown-key recovery or a historical
-decipherment. B used about 20% more main calls. Earlier phases remain preserved.
+**No verified historical plaintext, key or BLUME identity.** Phase 18 is the
+latest experiment: fixed-neighbourhood B found exact K2 in 0/8 main starts,
+nested on four new synthetic cases; four separate privileged H2 controls
+succeeded in 4/4. Known geometry, convention and models were supplied. All main
+routes converged without time/call cuts, at 549,453 known IDP including positives
+and numerical references. The result is confined to this panel and policy.
+Earlier phases and their scopes remain preserved.
 
 | Area | What is established | What remains open |
 | --- | --- | --- |
@@ -17,12 +17,69 @@ decipherment. B used about 20% more main calls. Earlier phases remain preserved.
 | German documents | Bounded ADAP readings supply January 1937 context | Direct Oswald/BLUME transaction or current document signatures |
 | Kent | Serial 643 → T120/296, p. 778; serial 3176 → T120/1594, p. 793; volume III, 1966 | Roll access, target frames and current archival signatures |
 | Codebook | Cde in T2 matches the administrative CDE category in the Madrid 1932 regulations | Specific codebook, applicable route tariff or a code request tied to Oswald |
-| Synthetic K2 | Phase 16: B 8/8 versus A 6/8 main privileged trajectories; positive controls B 4/4 separately | Attraction from unknown-key starts and suitability for historical use |
+| Synthetic K2 | Phase 18: B 0/8 main uniform-shuffle starts on four cases; H2 positives 4/4 separately. Earlier phase 16: B 8/8 versus A 6/8 privileged starts | Other starts/policies and suitability for historical use |
 | Saved paths | Phase 17: both selected final A keys are strict source-neighbourhood maxima; no recorded direct join to B | Other routes, broader attraction and a global barrier |
 | Digital access | Phase 16 accessed the public Internet Archive catalogue API | A verified object for T120/296 or T120/1594 and the target frames |
 | BOE nominal search | Phase 17: three query texts, two web calls, zero original documents opened | BLUME identity and historical-corpus coverage |
 
-## Latest saved-log reading
+## Latest experiment: uniform-shuffle starts
+
+Phase 18 reserved four new planted cases, two DE_fold and two FR_fold, at
+known widths 20 × 25, lengths 615/160 and convention 0. Each has two starts from
+a uniform-shuffle algorithm with a separate literal pseudorandom seed, without
+truth, scoring, rejection or redraw in their construction. These are eight
+nested starts on four cases, not eight independent cases or a language rate.
+B scores the complete fixed-anchor source neighbourhood of 16,649 moves and
+adopts its best strict improvement only after a full sweep, with first-source
+index on ties. No shuffle of moves, restart, cache or population was used.
+
+| Phase 18 category | Routes | Target ever scored | Target in final top five | Final current = K2 | IDP calls |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Main uniform-shuffle starts | 8 | 0 | 0 | 0 | 482,829 |
+| Privileged H2 positive controls, separate | 4 | 4 | 4 | 4 | 66,600 |
+
+All eight main routes finished after complete sweeps with no acceptable
+improvement: eight convergence flags and eight `converged` stops, 29 full sweeps
+in total and zero partial sweeps. None hit a call or time limit. The four H2
+controls each scored the target at call 6,350, adopted it at call 16,650 and
+stopped at `call_limit`; they have no later stable sweep proving convergence.
+Their outcomes did not gate or change the main cases.
+
+Known total: **482,829 + 66,600 + 24 = 549,453 IDP-equivalent calls**. The 24
+references recomputed the first/last already scored proposals of each route,
+charged separately. Preparation used 59 mock callbacks and zero IDP. A wrapper
+postvalidation error expecting 78 was corrected against saved output without
+repeating the suite or compiling again. Three plan/guard revisions preceded
+truth, with zero IDP/RNG. The original 600-second clock and disk guard remained
+in force, without substitutions or budget extensions. Twelve generation calls
+produced four plants and eight starts; twelve solver trajectories completed.
+
+The 775-character windows DE 2242/3017 and FR 0/775 do not overlap documented
+prior planting in those representations. They are adjacent within each literary
+work, and the whole holdouts already had descriptive diagnostics. This is not
+an unseen IID corpus or validated 1937 commercial-language model. Hamming was
+measured only afterward and is not movement-graph distance.
+
+Two saved-record audits checked 549,429 trajectory rows/markers before the
+24 charged numerical references and a single external target evaluation. A
+later metadata review read summaries/starts without replaying CSV. The new
+public metadata helper also performs no row replay, scoring, RNG or solver run;
+it checks the hash-bound receipts. The full private baseline/seed audit and
+compiled executables are local references, not required public-clone files.
+
+This panel did not confirm K2 recovery from these starts. It does not prove a
+global barrier, general impossibility, language-specific rates or a cause of
+phase 14's failures; it recovers neither K1 nor historical plaintext. A policy
+that can leave states with no local improvement would need a new prospective
+question, cases, seeds, controls and limits. The closed phase18 plan authorizes no further scoring.
+
+Read the [phase 18 report](../outputs/Sentinel_BLUME_fase18_2026-10-03.txt),
+[fixed plan](../work/phase18_crypto/plan.json),
+[evaluation](../work/phase18_crypto/evaluation.json),
+[independent results review](../work/phase18_review/results_review.txt) and
+[scientific closeout](../work/phase18_root/closeout_receipt.json).
+
+## Earlier saved-log reading
 
 Phase 17 read 183,143 existing rows from two failed A paths and their paired
 successful B paths in phase 16: German case 20262401/H8 and 20262402/H4.
@@ -61,7 +118,7 @@ Audits: [independent replay](../work/phase17_review/post_ejecucion_independiente
 [root neighbourhood count](../work/phase17_review/postaudit_root.json).
 Details: [phase 17 report](../outputs/Sentinel_BLUME_fase17_2026-10-03.txt).
 
-## Latest privileged trajectories
+## Earlier privileged trajectories
 
 Phase 16 used four fresh German/French cases at known widths 20 × 25, with
 four distinct planted key pairs and four text offsets. Each case supplied
@@ -278,9 +335,9 @@ documents. Returned results mostly lay outside the requested Gazeta route;
 the sole Gazeta URL was from 1856 and was not opened. No BLUME identity follows,
 and corpus absence was not tested. See the [bounded note](../work/phase17_history/resultado.txt).
 
-Before another synthetic test, define a fresh design with reserved cases to
-study starts beyond the privileged region or routes beyond the recorded phase 17
-intersections. Preserve the completed phase 15/16 panels and phase 17 descriptors
+Before another synthetic test, define a fresh design with reserved cases and
+seeds to study a policy capable of leaving states without local improvement.
+Preserve phase 18, the completed phase 15/16 panels and phase 17 descriptors,
 without changing their budgets, swaps or move order after seeing the solutions.
 
 ## Source and version discipline

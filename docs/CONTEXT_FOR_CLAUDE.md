@@ -115,7 +115,56 @@ widths**, using literary German/French models. They do not recover K1 and are
 not attacks on the historical ciphertexts. A literary model is not a validated
 model of commercial telegram language in 1937.
 
-Phase 17 is the latest research checkpoint. It describes the two failed A paths
+Phase 18 is the latest completed experiment: eight uniform-shuffle pseudorandom
+starts nested on four new synthetic cases, two DE_fold and two FR_fold, at known
+20 × 25 widths, 615/160 lengths, convention 0 and fixed literary models. B over a fixed source neighbourhood produced **0/8** exact K2 findings: no main route scored it,
+retained it in the final top five or ended at it. Four privileged native-swap H2
+controls succeeded in all three metrics, **4/4 separately**. Starts used reserved
+seeds without truth input, rejection or redraw; eight starts are not eight
+independent cases or a language rate.
+
+B evaluates a full source neighbourhood of 16,649 moves with a fixed base, then
+adopts the greatest strict improvement; first source index breaks ties. It does
+not admit a partial best. The eight main routes stopped as `converged` after
+3–5 full sweeps each, 29 total, with no partial sweep or call/time cut. Each H2
+control scored target at call 6,350, adopted it after the sweep at call 16,650
+and stopped by call limit, without a further stable sweep. No move shuffle,
+restart, population or cache was used.
+
+Known phase 18 cost: **549,453 IDP = 482,829 main + 66,600 positives + 24 numerical
+references**. Two saved-record audits checked 549,429 rows/markers; the numerical
+references rescored only first/last already paid proposals, charged separately.
+A single external evaluation followed both record audits and the numerical gate,
+with zero new IDP/RNG/solver runs. Subsequent metadata checks do not replay CSV.
+Preparation used 59 mocks and zero IDP; an incorrect wrapper expectation of 78
+was corrected on saved bytes without another suite/compilation. Three guard/plan
+revisions preceded truth. One attempt, original 600-second clock and disk guard,
+no substitutions or scoring extensions; twelve RNG generation calls and twelve
+solver routes completed.
+
+The four reserved 775-character windows are disjoint from documented prior
+planting: DE 2242/3017; FR 0/775. Each language uses adjacent windows in one
+literary work, and the whole holdouts had earlier descriptive diagnostics.
+These are not independent unseen corpora or authenticated commercial telegram
+language. Hamming is an externally measured differing-position count, not graph
+distance. The solver searches numeric inverse(true K2) only; known geometry and
+models, synthetic plaintext integrity checks and positive-control success do
+not recover K1/plaintext or decipher BLUME.
+
+This result concerns this panel, objective and B policy. It proves no global
+barrier or impossibility, no language rate or cause of phase 14. It also does
+not establish general A/B superiority. Any policy intended to leave states with
+no local improvement needs a new prospective question, reserved cases/seeds,
+controls and budget; the closed phase18 plan authorizes no further execution.
+No Claude consultation
+or new historical query occurred in phase 18. Phases 16/17 remain frozen.
+Read the [phase 18 report](../outputs/Sentinel_BLUME_fase18_2026-10-03.txt),
+[plan](../work/phase18_crypto/plan.json),
+[evaluation](../work/phase18_crypto/evaluation.json),
+[independent review](../work/phase18_review/results_review.txt) and
+[closeout](../work/phase18_root/closeout_receipt.json).
+
+Phase 17 is the earlier saved-log checkpoint. It describes the two failed A paths
 and their paired successful B paths already saved in phase 16: German case
 20262401/H8 and 20262402/H4. These outcome-selected cases make this an exploratory
 post hoc reading. Its plan was fixed before aggregation; it is not a new
@@ -144,7 +193,7 @@ its outcomes and positive-control denominator are unchanged. Read the
 [comparison table](../work/phase17_records/comparison.csv) and
 [independent audit](../work/phase17_review/post_ejecucion_independiente.json).
 
-Phase 16 is the latest completed experiment: privileged local trajectories
+Phase 16 is the earlier privileged experiment: local trajectories
 from Hamming-4/8 starts derived from true K2, on four fresh cases at widths
 20 × 25. Four distinct seeds produced four key pairs and four text offsets.
 Each case has two nested starts and two policies, so sixteen main trajectories
@@ -305,12 +354,12 @@ is approved by this review.
 2. Investigate the telegraphic-address interpretation and CDE/tariff evidence,
    or locate a specific codebook tied to Oswald. Cite direct sources and state
    what was read, rather than extrapolating from generic five-letter grouping.
-3. Study entry to the local region from starts without a known key, or routes
-   beyond the intersections described in phase 17. Any new scoring needs a fresh
-   design and reserved cases. Count all calls, cuts, preparation and failed
-   attempts. Declare privileged starts and keep them separate from ciphertext-only
-   recovery. Preserve phase 15/16 budgets, swaps and move orders and phase 17
-   descriptors; do not tune on their known solutions.
+3. Design a policy that can leave states without a local improvement, using a
+   new prospective question and reserved cases/seeds after phase 18. Count all
+   calls, cuts, preparation and failures; give controls a separate denominator.
+   Preserve phase 18 and the earlier phase 15/16 panels and phase 17 descriptors;
+   do not extend those known panels or claim ciphertext-only recovery. No further
+   scoring is approved by this context.
 
 When reporting: give exact paths or primary URLs, separate facts/testimony/
 hypotheses, scope negative findings, and identify what would verify a proposed

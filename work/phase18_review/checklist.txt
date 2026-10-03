@@ -1,0 +1,107 @@
+Fase 18 — comprobaciones críticas antes de generar verdad
+3 de octubre de 2026. Preparación estática; no aprobación de ejecución.
+
+1. Sellado y doble aprobación.
+   El plan ejecutable debe reservar casos, corrientes RNG, segmentos, orden,
+   métricas, reglas de parada y todos los límites antes de generar claves.
+   Ambas aprobaciones deben vincular el mismo hash de plan y los hashes del
+   runner, solver, generador, auditor, evaluador, binarios, modelo, movimientos
+   y fuentes de texto. Un cambio posterior invalida el gate. No sobrescribir
+   intentos anteriores ni ejecutar entrypoints de fases congeladas.
+
+2. Separación de verdad.
+   El solver sólo recibe modelo, ciphertexts, geometría, inicio y límites.
+   Comprobar argumentos, archivos abiertos, imports, entorno y directorio de
+   ejecución: sin plaintext, K1/K2 plantadas, Hamming o señal de éxito. Tampoco
+   filtrado o parada desde el runner según la verdad. Verdad fuera del paquete
+   de entrada del solver; la separación no puede ser sólo una etiqueta.
+
+3. Inicios principales.
+   Ocho corrientes reservadas distintas de las de plantación; no derivarlas
+   mediante suma/XOR de la semilla de claves. El generador recibe únicamente
+   su corriente y la anchura. Revisar una permutación mediante algoritmo de
+   mezcla con selección de índices sin sesgo; no dirigirla con texto, claves,
+   distancia o score. Sin rechazos por duplicación casual, cercanía o resultado.
+   Registrar duplicados si ocurren, sin reemplazar el inicio. No confundir una
+   comprobación estática del algoritmo con una prueba estadística ejecutada.
+
+4. Casos y segmentos reservados.
+   Cuatro casos nuevos y segmentos deterministas pertinentes, sin solapamiento
+   con entrenamiento o usos previos documentados. Fijar intervalos y hashes;
+   distinguir falta de documentación de prueba de independencia. Ninguna
+   selección por score. Ocho trayectorias están anidadas en cuatro casos.
+   Convención, modelo y dimensiones conocidos siguen siendo ventajas.
+
+5. Política B exacta y objetivo.
+   Comparar fuente nueva con Core de trajectory.cpp de fase 16: ancla fija por
+   barrido; movimientos en orden fuente; candidato=moved(ancla,movimiento);
+   mayor numerador y primer índice fuente en empate; aceptación sólo al cerrar
+   el vecindario completo, nunca del mejor parcial. Mantener el objetivo entero,
+   denominador y comparación estricta exacta de EPS, con protección de overflow.
+   Sellar scorer y catálogo de 16649 movimientos. Sin A, shuffle, caché,
+   reinicios o nuevas perturbaciones dentro de esta pregunta.
+
+6. Archivo y eventos.
+   Ofrecer al archivo cada evaluación, incluida la inicial y la última antes
+   de un corte. Top 5 distinto por clave numérica; ordenar score descendente y
+   tupla numérica lexicográfica, no texto empaquetado. Contar repetidos aunque
+   no alteren el archivo. Separar propuestas puntuadas, selección y adopción:
+   selected_call puede ser anterior a la llamada que cierra el barrido.
+   Convergencia requiere un barrido completo sin mejora y es independiente
+   del motivo de parada. Un barrido vacío no reutiliza eventos anteriores.
+
+7. Límites de llamadas y reloj.
+   La inicial consume una llamada. Contrastar los límites ejecutables con
+   los techos propuestos: ocho principales, cuatro positivos y hasta 24
+   referencias; no tratar referencias, controles o fallos como gratuitos.
+   Registrar llamadas iniciadas antes del backend y conservar filas/contadores
+   aun si falla. Reloj global monotónico antes del primer intento de generación,
+   sin reinicio; incluye setup, rutas, controles y referencia. Cada timeout debe
+   limitarse además al tiempo global restante. Cierre completo de B se procesa
+   antes de motivos por cap; parada parcial no adopta candidato. Sin reintentos.
+
+8. Disco y evidencia en fallos.
+   Definir exactamente qué bytes nuevos cuentan: CSV, stdout/stderr, contadores,
+   resúmenes, intentos fallidos, referencias y demás artefactos de ejecución.
+   Verificar guard preventivo y monitorización durante procesos, no sólo stat
+   al final. Reservar espacio acotado para el recibo de parada y preservar lo
+   escrito. No borrar o truncar evidencia para caber. Un límite agotado o fallo
+   mecánico termina la etapa; no sustituir perfiles ni ampliar presupuesto.
+
+9. Controles y referencia.
+   Positivos H2 derivados de verdad: separados, privilegiados y fuera del
+   denominador principal; resultado no usado como gate ni tuning. Catálogo
+   prospectivo y cap de callbacks para mocks, con todos los intentos cobrados
+   aparte y cero IDP. Referencia independiente sólo sobre inicial/última propuesta
+   ya registradas, con repeticiones cobradas y hasta el cap aprobado. Si falta
+   una fila, no generar otra ni puntuar la clave verdadera para suplirla.
+
+10. Auditoría de registros antes del evaluador.
+    Verificar sin consultar verdad: secuencia de calls, contadores backend,
+    movimientos y bases, numeradores coherentes en repetidos, decisiones B,
+    top 5, eventos de barrido, límites, archivos y hashes de cada intento.
+    Dos gates de auditoría de registros ligados a hashes exactos antes de abrir
+    verdad en el evaluador externo. Un registro incompleto se marca como tal;
+    no convertir errores técnicos en éxitos/ceros científicos silenciosos.
+
+11. Evaluación externa y alcance.
+    Sólo después del gate: mapear K2 plantada a la convención numérica correcta
+    y calcular métricas desde filas existentes, sin nuevos scores ni búsquedas.
+    Primaria=K2 entre top 5 final; separar visitada, primera visita, primera
+    adopción y estado final. Hamming posterior no es distancia del grafo.
+    Adaptar el evaluador de fase 16: sus supuestos H2/H4/H8 y «privileged» no
+    sirven para los inicios principales uniformes. Informar costes y censura
+    por límites. Ni aciertos ni ceros prueban K1/plaintext, tasas por idioma,
+    optimalidad global, una causa de fase 14 o descifrado histórico.
+
+Lecturas estáticas de preparación: design_proposal.json y feasibility_review.txt
+en work/crypto_blind_next_20261003; LEEME y fragmentos de plan/runner/evaluador
+de fase 16; trajectory.cpp (Core y entrada principal); next_step_review.txt de
+fase 16; plan y nota de fase 17 sobre los cuatro registros seleccionados.
+La lectura amplia accidental de plan20.json devolvió una salida truncada;
+no se usa como comprobación exhaustiva de su inventario. No se ejecutó código.
+
+Coste de esta preparación: cero RNG, verdad, fixtures, solvers, puntuaciones,
+web, originales históricos o correos. No se escribieron semillas ni claves.
+Sólo esta lista nueva; archivos anteriores sin modificaciones. La revisión
+de aprobación por hashes queda pendiente del plan y código de fase 18.

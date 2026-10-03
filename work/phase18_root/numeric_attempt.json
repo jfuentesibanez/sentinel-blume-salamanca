@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "ended_unix": 1791042424.1400478,
+  "manifest_sha256": "328e23b301f2739e4cc6a4a23645c8fdb2b5931d63e203db7f4ba8beac039976",
+  "exact_calls_started": 24,
+  "legacy_calls_started": 0,
+  "results": [
+    {
+      "profile_id": "case01_random1_B",
+      "call": 1,
+      "numerator": -16603124656
+    },
+    {
+      "profile_id": "case01_random1_B",
+      "call": 83246,
+      "numerator": -16433580834
+    },
+    {
+      "profile_id": "case01_random2_B",
+      "call": 1,
+      "numerator": -17893313576
+    },
+    {
+      "profile_id": "case01_random2_B",
+      "call": 49948,
+      "numerator": -16491449897
+    },
+    {
+      "profile_id": "case02_random1_B",
+      "call": 1,
+      "numerator": -16496484687
+    },
+    {
+      "profile_id": "case02_random1_B",
+      "call": 49948,
+      "numerator": -17654145689
+    },
+    {
+      "profile_id": "case02_random2_B",
+      "call": 1,
+      "numerator": -16553215311
+    },
+    {
+      "profile_id": "case02_random2_B",
+      "call": 49948,
+      "numerator": -16247200109
+    },
+    {
+      "profile_id": "case03_random1_B",
+      "call": 1,
+      "numerator": -17273498178
+    },
+    {
+      "profile_id": "case03_random1_B",
+      "call": 49948,
+      "numerator": -17338730684
+    },
+    {
+      "profile_id": "case03_random2_B",
+      "call": 1,
+      "numerator": -16153672698
+    },
+    {
+      "profile_id": "case03_random2_B",
+      "call": 66597,
+      "numerator": -15806782035
+    },
+    {
+      "profile_id": "case04_random1_B",
+      "call": 1,
+      "numerator": -15663285479
+    },
+    {
+      "profile_id": "case04_random1_B",
+      "call": 66597,
+      "numerator": -15494689052
+    },
+    {
+      "profile_id": "case04_random2_B",
+      "call": 1,
+      "numerator": -16938755850
+    },
+    {
+      "profile_id": "case04_random2_B",
+      "call": 66597,
+      "numerator": -16852906389
+    },
+    {
+      "profile_id": "case01_h2_B",
+      "call": 1,
+      "numerator": -15110873152
+    },
+    {
+      "profile_id": "case01_h2_B",
+      "call": 16650,
+      "numerator": -17431958812
+    },
+    {
+      "profile_id": "case02_h2_B",
+      "call": 1,
+      "numerator": -14913968336
+    },
+    {
+      "profile_id": "case02_h2_B",
+      "call": 16650,
+      "numerator": -17116523049
+    },
+    {
+      "profile_id": "case03_h2_B",
+      "call": 1,
+      "numerator": -16063019873
+    },
+    {
+      "profile_id": "case03_h2_B",
+      "call": 16650,
+      "numerator": -15759401155
+    },
+    {
+      "profile_id": "case04_h2_B",
+      "call": 1,
+      "numerator": -14846023301
+    },
+    {
+      "profile_id": "case04_h2_B",
+      "call": 16650,
+      "numerator": -15323859891
+    }
+  ],
+  "truth_read": false,
+  "new_searches": 0,
+  "source_sha256": "c75c641fe267760f2ec1402725865b0d583cffe2d175bf7d443c1f8887d2239a"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "ready_for_independent_pre_truth_audit",
+  "hashes": {
+    "trajectory.cpp": "2904465da7df67f6d503ea3b8864125e95fcfe31d9377075b349bd63ea9bdaf8",
+    "trajectory": "c20b81b9cfee4811217394632bbf6c03f2fa12b32b6fbbd7d9e94f8552ff16c4",
+    "build.py": "b56177bfd4cfabb3c71d2aed32903ef1fc9c6dde013c1048734529e3afd08eaa",
+    "exact_scorer.h": "781845de2dcf55b24ed342fb74f24590d8e6e7d33c1b78756d6cbe78defcb097",
+    "moves.json": "75fb40f3eccf7f41c310c588e4ea8b38da77192dd324bb11afc68ed61ff64277",
+    "LICENSE-CrypTool-2.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "ATTRIBUTION.txt": "15f3d68ef294da6a57a984a7db09c4d4ba49b7e5d4c3003b53060b22c8ed1be6",
+    "build_record.json": "ab18575d652478f6b8b842af28362a08a882683c6e9a2f6490d0e65c8bfb98b4",
+    "control_results.json": "4f02aa76f3e95a0cb374cf28ba6c1d55f9699b8f5dc2ad97816ffd5c6087cb19"
+  },
+  "new_IDP_calls": 0,
+  "mock_callback_calls": 59,
+  "truth_generated": false,
+  "rng_executions": 0,
+  "main_runs": 0,
+  "control_postprocess_correction_sha256": "eaf64012763bf3f3f2f0db2a543468f8d72dd408df903e7cd54b201efdc89bcb",
+  "postvalidation_attempts": 2,
+  "mock_process_attempts": 1,
+  "initial_python_postvalidation_failed": true
+}
