@@ -1,0 +1,31 @@
+Anuario General de España — acceso institucional alternativo
+Plan previo al acceso, 3 de octubre de 2026.
+
+Pregunta: ¿ofrece otro catálogo o repositorio institucional un ejemplar de
+1930–1936 del Anuario General de España (Bailly-Baillière-Riera), con identidad
+de año/tomo y un enlace expreso al original digital?
+
+Presupuesto cerrado: dos consultas web focalizadas en repositorios oficiales,
+dos aperturas de fichas/repositorio como máximo; plazo global hasta las
+09:39:17 UTC, desde las 09:19:17 UTC. No ampliar presupuesto tras resultados.
+Primera ruta: BnF/Gallica, por título y fechas. Segunda, sólo si falta un acceso
+pertinente: catálogo/repositorio HathiTrust, por título y editor, con fechas.
+Las consultas no contienen BLUME ni buscan personas.
+
+Aceptar únicamente un enlace observado y un registro institucional que permita
+identificar edición de 1930–1936 y tomo cuando esté consignado. Conservar año,
+título y límites de acceso exactamente como los presenta el catálogo.
+No inferir el año a partir de identificadores. Una edición del siglo XIX o de
+otra década queda fuera del objetivo; no sustituirla por un original de los
+años treinta ni leerla como evidencia del esquema usado en 1936.
+
+No abrir catalogo.bne.es, datos.bne.es ni la URL municipal de Madrid ya intentada.
+No leer páginas originales en esta subtarea; sólo localizar y navegar fichas
+o repositorio. No descargar volúmenes, ejecutar OCR, usar helpers/CSV o puntuar
+cifrados. No probar endpoints, sortear retos, iniciar sesiones, hacer pedidos,
+contactos ni pagos. Parar ante bloqueo o al agotarse consultas, aperturas o plazo.
+
+Guardar consultas, resultados externos locales y recibos observables en este
+directorio. La conclusión debe distinguir referencia bibliográfica, ejemplar
+digital enlazado y lectura de originales (esta última será cero aquí). Informar
+de inmediato a raíz si aparece un enlace pertinente y verificable.

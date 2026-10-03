@@ -170,3 +170,12 @@ The [own note](../outputs/Sentinel_BLUME_pista_Anuario_2026-10-03.txt) and
 [selected inventory](../provenance/anuario_20261003_source_inventory.jsonl)
 preserve scope and local references. Raw UI/DOM remains local. The preceding
 checksum is archived in [claude_final_20261003_file_hashes.json](../provenance/claude_final_20261003_file_hashes.json).
+
+## 1936 Anuario item metadata
+
+The [current BNE catalogue record](https://catalogo.bne.es/discovery/fulldisplay?docid=alma991059203059708606&context=L&vid=34BNE_INST:CATALOGO&lang=es) exposed physical items labelled 1936 T.1, T.3 and T.4 under ZR/332.
+These are item identifiers, without verified Salamanca pages or telegraphic
+fields. Availability labels do not establish consultation or reproduction rights.
+See the [own note](../outputs/Sentinel_BLUME_tomos_Anuario_1936_2026-10-03.txt), [selected inventory](../provenance/anuario_pages_20261003_source_inventory.jsonl) and [update record](../provenance/anuario_pages_20261003_update.json).
+Raw DOM and search responses remain local. The preceding checksum is preserved
+as [anuario_20261003_file_hashes.json](../provenance/anuario_20261003_file_hashes.json).

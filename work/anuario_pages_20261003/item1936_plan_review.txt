@@ -1,0 +1,33 @@
+Revisión independiente del plan de metadatos de ítems de 1936
+3 de octubre de 2026. Sólo lectura local; cero accesos externos.
+
+APTO para la pregunta nueva y limitada del plan: identificar las etiquetas,
+tomos y códigos de los ítems físicos de 1936 bajo ZR/332. No autoriza continuar
+la búsqueda de originales ni comprobar el contenido del anuario.
+
+Se leyeron item1936_plan.json, root_access_closeout.json y root_plan.json;
+se cotejó por rg el DOM 8 guardado, bne_filter_dom8.local.txt. Sus líneas
+229 y 236–237 muestran «Filtros» y el botón «año». La lista visible presenta
+códigos de barras de ítems. La mención global de 1936 en las existencias no
+prueba todavía que el filtro ofrezca esa opción ni identifica sus tomos.
+
+La ronda anterior quedó cerrada al llegar a ocho lecturas DOM, con cero
+originales. Ese resultado y ese cap deben permanecer intactos. La etapa nueva
+se distingue por su producto: metadatos de una pieza física para un borrador,
+no imágenes, esquema telegráfico, Salamanca ni disponibilidad digital. Es una
+acción útil fundada en un control recién expuesto, siempre que se conserve
+esa separación. Si se usa para seguir buscando enlaces u originales, sería
+una ampliación retroactiva y queda fuera del plan revisado.
+
+Límites adecuados: cuatro DOM y tres clics como máximo; cero navegaciones,
+búsquedas, originales, descargas e IDP; sólo 1936 si aparece expresamente.
+No cambiar de año, paginar, iniciar sesión ni pedir material. Plazo original
+09:39:17 UTC, sin reinicio. Una lectura de reloj durante esta revisión local
+marcó 09:31:12 UTC. Guardar costes de la etapa y el total acumulado separado:
+la ronda previa sigue teniendo ocho DOM; el máximo acumulado sería doce.
+
+Parar también ante reto de acceso o falta de la opción 1936. El recibo deberá
+conservar las etiquetas literales, sin inferir que un tomo incluye Salamanca,
+que la colección está completa o que contiene direcciones telegráficas.
+
+Esta revisión no modificó planes ni registros previos y no ejecutó el filtro.

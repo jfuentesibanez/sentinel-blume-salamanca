@@ -1,0 +1,22 @@
+{
+  "closed_at_utc": "2026-10-03T09:30:53.801280+00:00",
+  "reason": "Eight DOM-read cap reached; original-page question unresolved. Catalogue now exposes item filters, including year.",
+  "root_costs": {
+    "browser_goto_attempts": 1,
+    "record_navigation_clicks": 1,
+    "in_page_holdings_filter_clicks": 3,
+    "DOM_reads": 8,
+    "waitForLoadState_calls": 2,
+    "tab_list_reads": 2,
+    "tab_creations": 1,
+    "originals": 0,
+    "original_pages": 0,
+    "downloads": 0,
+    "own_HTTP": 0,
+    "web_search_queries": 0,
+    "Claude_UI": 0,
+    "IDP": 0,
+    "solver_trajectories": 0
+  },
+  "interpretation": "Initial SPA snapshots were captured before transitions settled. They count, and do not prove empty holdings or a failed navigation. ZR/332 physical item list read; only first six item labels1912–1915. No1936 item details or original pages. No digital-access link observed in record links, not general absence."
+}

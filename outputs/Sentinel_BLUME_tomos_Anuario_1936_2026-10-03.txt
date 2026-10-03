@@ -1,0 +1,64 @@
+BLUME SALAMANCA — piezas concretas del Anuario de 1936
+3 de octubre de 2026. Nota bibliográfica propia; no fase criptográfica.
+
+Avance
+El catálogo actual de la BNE permite pasar de la mención general de 1936 a
+identificar tres piezas físicas. En el registro alma991059203059708606,
+ubicación Alcalá de Henares, signatura ZR/332, filtro de año 1936, se observaron:
+
+Tomo 4: BNALCALA-SCALC-122060-iss-82
+Tomo 3: BNALCALA-SCALC-122060-iss-81
+Tomo 1: BNALCALA-SCALC-122060-iss-79
+
+No apareció Tomo 2 en esa vista. No demuestra que falte en todos los fondos ni
+que la serie 1936 sea completa. No se interpreta el uso de paréntesis en las
+existencias agregadas. Los estados de ejemplar que muestra la interfaz tampoco
+confirman por sí solos que se puedan consultar o reproducir hoy.
+
+La ficha también da OCLC 733272848 e ISSN 2172-8321. Estos identificadores ayudan a
+referenciar la publicación; no identifican al destinatario del telegrama.
+
+Lo pendiente
+No se leyó ninguna página original. No sabemos cuál de esos tomos contiene
+Salamanca, qué provincias cubre cada tomo, qué paginación tendría esa sección
+ni si hay campos de dirección telegráfica. No se ha encontrado una entrada BLUME.
+En los enlaces visibles de la ficha leída no apareció acceso a páginas
+digitalizadas; eso no demuestra ausencia general de digitalización.
+
+La acción concreta siguiente es una consulta bibliográfica a la BNE: confirmar
+el tomo y las páginas de Salamanca, verificar el esquema de las entradas y
+localizar una vía de lectura de índice/abreviaturas/páginas comerciales. Se deja
+un borrador. No se envió ni se cursó un pedido de reproducción.
+
+Método y límites
+La ronda inicial de acceso a originales se cerró en ocho lecturas DOM, sin
+originales. La transición de la interfaz fue asíncrona: varias capturas precedían
+al estado nuevo. Esas capturas se cuentan; no prueban resultados vacíos.
+El DOM 8 expuso por primera vez el filtro de año de los ítems. Antes de usarlo se
+fijó una pregunta separada de metadatos físicos y se recibió revisión favorable
+independiente. La nota de revisión se guardó después del mensaje favorable;
+no se afirma que el archivo existiera antes del clic. Se conservó el plazo
+global 09:19:17–09:39:17 UTC. La nueva etapa usó tres DOM y tres clics; no retomó
+la búsqueda de imágenes ni leyó contenidos. Cierre: ver work/anuario_pages_20261003/item1936_receipt.json.
+
+Acumulado raíz: once DOM, un goto, un clic de navegación al registro y seis clics
+internos; dos llamadas waitForLoadState, dos lecturas de lista de pestañas y
+una pestaña creada. Las peticiones HTTP internas no se midieron. Cero búsquedas
+web de raíz, descargas, HTTP propios, originales, puntuaciones IDP o solvers.
+
+La vía paralela hizo dos consultas al índice web con filtros BnF/Gallica y
+HathiTrust. Devolvieron resultados vacíos; no se consultaron directamente sus
+catálogos y no se abrió ningún ejemplar. No prueba ausencia en los repositorios.
+Su segunda consulta efectiva no añadió el editor mencionado en el plan; ese
+límite queda registrado, sin consultas de sustitución. Dos llamadas web, cero
+aperturas de repositorio, originales o descargas.
+
+Fuente primaria de metadatos
+https://catalogo.bne.es/discovery/fulldisplay?docid=alma991059203059708606&context=L&vid=34BNE_INST:CATALOGO&lang=es
+Leída mediante el navegador de la aplicación. Los DOM y respuestas web exactos
+quedan locales. Publicar sólo esta nota propia, planes, recibos y borrador que
+sean revisados. Las fases científicas anteriores permanecen congeladas.
+
+Resultado histórico
+Avance en la identificación del material que necesitamos consultar; no avance
+verificado en la identidad de BLUME ni en el descifrado.

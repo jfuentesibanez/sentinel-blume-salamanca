@@ -1,0 +1,41 @@
+Anuario General de España — resultado acotado de acceso alternativo
+3 de octubre de 2026. Cierre de accesos a las 09:22:10 UTC.
+
+No se obtuvo un enlace institucional a un ejemplar de 1930–1936. Las dos
+consultas web previstas devolvieron «Empty search results / No results were
+found for the provided queries». No hubo una ficha candidata que justificara
+las aperturas de repositorio permitidas; esas aperturas fueron cero.
+
+Consulta 1: título literal Anuario general de España y disyunción de los años
+1930, 1931, 1932, 1933, 1934, 1935 y 1936; dominios gallica.bnf.fr y
+catalogue.bnf.fr. Resultado vacío.
+
+Consulta 2: mismo título y años; dominios catalog.hathitrust.org y
+babel.hathitrust.org. Resultado vacío.
+
+La formulación efectiva de la segunda consulta no añadió el nombre del editor
+que mencionaba el plan: usó el título y las fechas. Se conserva exactamente
+en el recibo; no se atribuye una prueba independiente a Bailly-Baillière/Riera.
+No se hicieron consultas adicionales para suplir ese límite.
+
+Las consultas fueron búsquedas en el índice web, no consultas directas a los
+catálogos BnF o HathiTrust. La ausencia de resultados con esas palabras y
+filtros no demuestra que falten ediciones, tomos, imágenes o enlaces digitales
+en esos repositorios. Tampoco se ha probado disponibilidad ni indisponibilidad
+de la edición de 1936. No hubo originales que permitan verificar campos
+telegráficos, alcance provincial o Salamanca.
+
+Contabilidad: dos consultas en dos llamadas web, cero aperturas de repositorio,
+cero fichas leídas, cero páginas originales, cero descargas, cero OCR y cero IDP.
+No se afirma un número de peticiones HTTP internas del buscador: no es observable
+en esta interfaz. No se abrió BNE ni Madrid, ni se hicieron pedidos o contactos.
+
+El plazo global autorizado era 09:19:17–09:39:17 UTC. El plan quedó guardado antes
+del primer acceso; la lectura de reloj inmediatamente posterior marcó 09:21:04.
+Una lectura posterior a ambas búsquedas marcó 09:21:36. No se guardó una hora
+individual de envío de cada llamada y no se inventa ahora.
+
+Las solicitudes y respuestas exactas quedan locales en
+search1_response.local.json y search2_response.local.json. Esta nota es propia.
+Se cierra la vía alternativa dentro de su presupuesto, sin repetir términos
+en otros dominios ni ampliar las consultas.

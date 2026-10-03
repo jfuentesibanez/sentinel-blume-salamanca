@@ -1,0 +1,82 @@
+Anuario de 1936 — revisión independiente de afirmaciones y borrador
+3 de octubre de 2026. Revisor de contenido; ninguna publicación ni acceso nuevo.
+
+DICTAMEN: versión actual APTO. Sin errores históricos sustantivos detectados.
+Los cuatro ajustes menores de espacios quedaron corregidos y se cotejaron
+en una nueva lectura local del informe antes de cerrar esta revisión.
+
+Fuentes locales cotejadas: item1936_receipt.json; bne_1936_items2.local.txt;
+bne_1936_items3.local.txt; root_access_closeout.json; root_plan.json;
+root_timing_note.json. Se leyeron el informe
+outputs/Sentinel_BLUME_tomos_Anuario_1936_2026-10-03.txt y el borrador
+borrador_consulta_BNE_1936.txt. Se consultaron fragmentos de los DOM 3 y 4 de
+la ronda anterior únicamente para el cotejo de identificadores, sin acceso UI.
+
+METADATOS COMPROBADOS
+
+En el DOM final de la etapa, el filtro figura como año 1936. Las etiquetas
+y códigos están en la misma lista, bajo ubicación Sede de Alcalá de Henares,
+ejemplar de conservación ZR/332:
+- AÑO 1936 T.4 (1936): BNALCALA-SCALC-122060-iss-82.
+- AÑO 1936 T.3 (1936): BNALCALA-SCALC-122060-iss-81.
+- AÑO 1936 T.1 (1936): BNALCALA-SCALC-122060-iss-79.
+
+Los tres años/tomos ya figuran en el DOM anterior de la etapa; el DOM final
+despliega los códigos. El SHA-256 del DOM final coincide con el recibo:
+226bc70c398d483ce0e347f0c4714d87d1c1b78d2aa82535fda0e62c1da31203.
+La ficha también declara ISSN 2172-8321 y OCLC (OCoLC)733272848. Son
+identificadores de la publicación, no de BLUME ni de una sección provincial.
+
+LÍMITES Y BORRADOR
+
+El informe describe correctamente T.2 como no visible en esa lista, sin
+afirmar ausencia global o integridad de la serie. Tampoco interpreta los
+paréntesis de existencias. La interfaz ofrece estados de disponibilidad y
+préstamo; el informe no los convierte en autorización actual de consulta o
+reproducción. El aviso general de suspensión de servicios aparece en el DOM,
+pero no determina por sí solo el acceso a estas piezas de Alcalá.
+
+No se ha leído una página original. Salamanca, la cobertura de cada tomo,
+los campos telegráficos y una entrada BLUME siguen sin comprobar. El informe
+conserva esa separación. No ver un enlace digital en los enlaces observados
+no prueba ausencia general de digitalización.
+
+El borrador reproduce correctamente los tres códigos y formula preguntas,
+sin atribuir contenidos a los tomos. Pide orientación bibliográfica e indica
+que no cursa un pedido de reproducción. No se ha enviado. La pregunta por
+microfilme es una pregunta de acceso; no afirma que un rollo concreto cubra
+1936 o Salamanca.
+
+COSTES Y CIERRE
+
+Los recibos son coherentes: ocho DOM en la ronda cerrada de originales más
+tres DOM en la etapa de ítems = once DOM de raíz. Tres clics internos anteriores
+más tres nuevos = seis. La etapa queda dentro del límite de cuatro DOM y tres
+clics; cero navegaciones, consultas, originales, descargas e IDP. Se cerró
+a las 09:35:10.668968 UTC, antes del límite original 09:39:17 UTC.
+Estas comprobaciones verifican coherencia entre recibos y evidencia guardada;
+no reconstruyen cada operación UI ni tráfico HTTP interno.
+
+La vía paralela queda separada: dos búsquedas en dos llamadas web; cero
+aperturas de repositorio u originales. Su límite de formulación de la segunda
+consulta se conserva y no se presenta como ausencia en BnF o HathiTrust.
+
+El mensaje favorable del revisor llegó antes del filtro; el archivo de esa
+revisión se escribió después. La nota temporal y el informe lo expresan,
+sin afirmar existencia previa del archivo. No se ha reabierto el cap de ocho
+DOM ni atribuido a la etapa nueva una lectura de contenidos.
+
+VERSIÓN FINAL REVISADA
+
+Se confirmó «No apareció Tomo 2», los espacios tras OCLC e ISSN y «Cierre: ver»
+con la ruta completa al recibo. No quedan correcciones pendientes en el informe
+o borrador leídos. Estos ajustes no cambian metadatos, alcance ni conclusiones.
+
+SHA-256 del informe actual:
+95f8b4e40706f00f63fce6cd942228df75ef3cde5ccba327eea5f8fbe9ed46b4.
+SHA-256 del borrador revisado:
+717c543bd89dc425f90e10fd1f549c06ac75309faa15b2834ef20b636bc83f07.
+
+No se modificaron los documentos revisados. Coste de esta revisión: sólo
+lecturas locales y cotejos SHA-256; cero web, HTTP, UI, originales y puntuaciones
+nuevas. Esta nota no certifica ni ejecuta una publicación.

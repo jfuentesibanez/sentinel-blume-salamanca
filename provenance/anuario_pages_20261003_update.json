@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-03",
+  "addition": "anuario_pages_20261003",
+  "baseline_commit": "c468775517706e3d567d163bf0a7276049a74dd6",
+  "research_through_phase": 17,
+  "new_inventory_entries": 25,
+  "new_included_files": 12,
+  "new_referenced_files": 13,
+  "new_IDP_calls": 0,
+  "new_solver_trajectories": 0,
+  "originals_read": 0,
+  "original_pages_read": 0,
+  "downloads": 0,
+  "own_HTTP": 0,
+  "root_web_search_queries": 0,
+  "parallel_index_query_texts": 2,
+  "parallel_web_calls": 2,
+  "parallel_repository_openings": 0,
+  "root_initial_DOM_reads": 8,
+  "root_item_DOM_reads": 3,
+  "root_total_DOM_reads": 11,
+  "root_goto_attempts": 1,
+  "root_record_navigation_clicks": 1,
+  "root_in_page_clicks": 6,
+  "root_waitForLoadState_calls": 2,
+  "root_tab_list_reads": 2,
+  "root_created_tabs": 1,
+  "metadata_items_1936": [
+    {
+      "year": 1936,
+      "volume": 4,
+      "barcode": "BNALCALA-SCALC-122060-iss-82"
+    },
+    {
+      "year": 1936,
+      "volume": 3,
+      "barcode": "BNALCALA-SCALC-122060-iss-81"
+    },
+    {
+      "year": 1936,
+      "volume": 1,
+      "barcode": "BNALCALA-SCALC-122060-iss-79"
+    }
+  ],
+  "draft_sent": false,
+  "original_scientific_files_changed": 0,
+  "scope": "Own bibliographic item metadata; not a cryptanalytic phase. Three 1936 BNE items under ZR/332. Salamanca coverage, telegraphic fields, BLUME identity, plaintext, holdings completeness and original access remain unverified."
+}

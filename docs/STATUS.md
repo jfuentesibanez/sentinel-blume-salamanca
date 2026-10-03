@@ -302,3 +302,12 @@ and telegraphic-address fields remain unverified; zero original pages were read.
 Madrid did not open; the current BNE catalogue showed only an interface shell
 in the captured DOM. See the [own note](../outputs/Sentinel_BLUME_pista_Anuario_2026-10-03.txt).
 No new cryptanalytic phase or recipient identification follows.
+
+## Physical items of the 1936 Anuario — 3 October 2026
+
+The current BNE catalogue exposed three 1936 items under ZR/332 at Alcalá de
+Henares: T.1, T.3 and T.4. T.2 was not visible in that filtered list; this does
+not establish absence elsewhere or complete holdings. No original pages were
+read; Salamanca coverage, telegraphic fields and BLUME remain unverified.
+The [own item note](../outputs/Sentinel_BLUME_tomos_Anuario_1936_2026-10-03.txt) records the staged limits and separate index queries.
+A [bibliographic inquiry draft](../work/anuario_pages_20261003/borrador_consulta_BNE_1936.txt) is saved but was not sent. No new cryptanalytic phase follows.

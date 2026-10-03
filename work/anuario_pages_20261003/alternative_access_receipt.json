@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-10-03T09:22:10Z",
+  "stage": "alternative_access",
+  "status": "closed",
+  "global_start": "2026-10-03T09:19:17Z",
+  "global_deadline": "2026-10-03T09:39:17Z",
+  "pre_access_clock": "2026-10-03T09:21:04Z",
+  "post_queries_clock": "2026-10-03T09:21:36Z",
+  "plan_sha256": "019242d2928a62ffc0e913dcf8725667ec8dcb804d29a43bba9331b2e46b45f5",
+  "known_cost": {
+    "web_calls": 2,
+    "query_texts": 2,
+    "repository_openings": 0,
+    "catalogue_records_read": 0,
+    "original_pages": 0,
+    "downloads": 0,
+    "ocr": 0,
+    "idp": 0
+  },
+  "observability": "Counts concern exposed tool calls; internal HTTP requests are unknown.",
+  "queries": [
+    {
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Anuario general de España\" (\"1930\" OR \"1931\" OR \"1932\" OR \"1933\" OR \"1934\" OR \"1935\" OR \"1936\")",
+            "domains": [
+              "gallica.bnf.fr",
+              "catalogue.bnf.fr"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "result": "Empty search results",
+      "local_response": "search1_response.local.json",
+      "sha256": "f239f8901c5ccc9ab093b5300976dfc0dac5d8917574a7fd366041397a7d0aaa"
+    },
+    {
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Anuario general de España\" (\"1930\" OR \"1931\" OR \"1932\" OR \"1933\" OR \"1934\" OR \"1935\" OR \"1936\")",
+            "domains": [
+              "catalog.hathitrust.org",
+              "babel.hathitrust.org"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "result": "Empty search results",
+      "local_response": "search2_response.local.json",
+      "sha256": "d05b0bdeb795001a10c4d939c0eab88f02776a2105c2a1019dffd7ad4abbe074"
+    }
+  ],
+  "limits": [
+    "No direct BnF or HathiTrust catalogue query occurred.",
+    "The second query used title/dates but omitted the publisher contemplated in the plan; no supplementary query was made.",
+    "No year, volume, Salamanca section or telegraphic-address field was verified.",
+    "Search-index negatives do not establish absence or non-digitization."
+  ],
+  "excluded_routes_opened": [],
+  "contacts": 0,
+  "orders": 0,
+  "account_operations": 0
+}

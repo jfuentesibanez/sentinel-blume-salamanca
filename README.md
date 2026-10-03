@@ -8,6 +8,10 @@ A new [Anuario lead note](outputs/Sentinel_BLUME_pista_Anuario_2026-10-03.txt) v
 directory proposed by Claude. This is a holdings lead; no original entry or
 telegraphic field has been read. Earlier research remains frozen.
 
+A [later item note](outputs/Sentinel_BLUME_tomos_Anuario_1936_2026-10-03.txt) records three physical BNE items for 1936 under ZR/332:
+T.1, T.3 and T.4. Their Salamanca coverage and telegraphic-address fields remain
+unverified; no original pages were read. A bibliographic inquiry draft remains unsent.
+
 **Status, 3 October 2026: unsolved.** No verified plaintext, key or identification
 of BLUME. Historical evidence, hypotheses and synthetic experiments are kept
 separate. The latest numbered research checkpoint is **phase 17**, a post hoc reading

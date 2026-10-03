@@ -1,0 +1,19 @@
+{
+  "question": "Which1936 item labels, volume numbers and barcodes does the observed ZR/332 year filter expose? This identifies physical material for a precise draft enquiry, not contents or digital availability.",
+  "reason_new_action": "DOM8 newly exposes explicit year filter in an item-level view not read before. This is a separate metadata question after original-page access round closed.",
+  "start_utc": "2026-10-03T09:30:53.801732+00:00",
+  "deadline_utc": "2026-10-03 09:39:17 UTC",
+  "no_clock_reset": true,
+  "caps": {
+    "DOM_reads": 4,
+    "filter_UI_clicks": 3,
+    "source_navigations": 0,
+    "search_queries": 0,
+    "original_pages": 0,
+    "downloads": 0,
+    "IDP": 0
+  },
+  "selection": "Open observed año button; select1936 only if visibly offered. Do not select another year, broaden date, load further pages, or request/order/login.",
+  "stop": "No1936 option, cap, or original global deadline; preserve exact limitations.",
+  "interpretation": "Item metadata proves catalogued items only; not completeness, Salamanca coverage, telegraphic fields, recipient identity or book contents."
+}

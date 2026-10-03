@@ -1,0 +1,24 @@
+{
+  "user_authorization": "Sigue! estamos mas cerca",
+  "question": "Does a readable Anuario General de España1930–1936 contain explicit telegraphic-address fields, and what observed index identifies the Salamanca section?",
+  "start_utc": "2026-10-03 09:19:17 UTC",
+  "deadline_utc": "2026-10-03 09:39:17 UTC",
+  "prior_checkpoint": "BNE linked-data holdings verified and frozen atc468775. Only current catalogue shell was captured then; no original read. New task advances to original access/content, not a repeat of holdings verification.",
+  "root_route": "Inspect already linked current BNE catalogue UI if tab retained; if closed, open its exact observed link once. Follow visible official record/digital links only. Do not reopen datosBNE or failedMadrid.",
+  "root_caps": {
+    "browser_goto_or_navigation_clicks": 5,
+    "DOM_reads": 8,
+    "original_edition_documents": 1,
+    "original_pages": 6,
+    "downloads": 1,
+    "own_HTTP_downloads": 0,
+    "web_search_queries": 0,
+    "sky_UI": 0
+  },
+  "parallel_route": "history_phase17 may inspect another institutional catalogue/repository:2targetedwebqueries+2opens, originalpages0; preserve its separate plan and receipts. Root retains exclusive original-page reading.",
+  "edition_selection": "Prefer officially exposed1936; otherwise latest exposed1930–1935. One original edition in this stage. Older/later items navigation metadata only; no contents read.",
+  "criteria": "First confirm title/year/volume from catalogue and/or cover. Read field legend/abbreviations and a commercial entry page; locate Salamanca only through a visible table of contents or section label. No nominalBLUME search before field viability.",
+  "stop": "Twenty minutes or caps, no reset. Stop on access/auth/CAPTCHA/security/paywall without bypass or account changes. If no original accessible, record exact available metadata and limit. Do not iterate title variants, pages or editions seeking a positive.",
+  "restrictions": "No mail/sends/orders/purchases/accounts, closedSHAB/Gazeta/T120/IA repeats, IDP/solver/panel helpers. Rawscans/UIexternalbodies local; owncompletedreviewedfindings may be published.",
+  "interpretation": "Positive telegraphic field proves directory schema only. Does not identifyBLUME or show registered address, delivery, wool/plaintext. Negativefewpagesnotglobalabsence."
+}

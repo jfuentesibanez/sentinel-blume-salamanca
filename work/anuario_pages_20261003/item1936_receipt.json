@@ -1,0 +1,72 @@
+{
+  "status": "closed_after_answering_metadata_question",
+  "closed_at_utc": "2026-10-03T09:35:10.668968+00:00",
+  "global_deadline_utc": "2026-10-03 09:39:17 UTC",
+  "catalogue_url": "https://catalogo.bne.es/discovery/fulldisplay?docid=alma991059203059708606&context=L&vid=34BNE_INST:CATALOGO&lang=es",
+  "record_id": "alma991059203059708606",
+  "call_number": "ZR/332",
+  "site": "Sede de Alcalá de Henares",
+  "items_visible_under_year1936": [
+    {
+      "year": 1936,
+      "volume": 4,
+      "barcode": "BNALCALA-SCALC-122060-iss-82"
+    },
+    {
+      "year": 1936,
+      "volume": 3,
+      "barcode": "BNALCALA-SCALC-122060-iss-81"
+    },
+    {
+      "year": 1936,
+      "volume": 1,
+      "barcode": "BNALCALA-SCALC-122060-iss-79"
+    }
+  ],
+  "no_t2_visible": "NoT.2 shown in the read filtered list; not proof of absence elsewhere, completeness, or meaning of holdings parentheses.",
+  "status_scope": "UI labels the three items as on site; this does not establish current consultation/reproduction eligibility.",
+  "stage_costs": {
+    "DOM_reads": 3,
+    "filter_UI_clicks": 3,
+    "source_navigations": 0,
+    "queries": 0,
+    "originals": 0,
+    "original_pages": 0,
+    "downloads": 0,
+    "own_HTTP": 0,
+    "Claude_UI": 0,
+    "IDP": 0,
+    "solver_trajectories": 0
+  },
+  "accumulated_root_costs": {
+    "DOM_reads": 11,
+    "browser_goto_attempts": 1,
+    "record_navigation_clicks": 1,
+    "in_page_clicks": 6,
+    "originals": 0,
+    "original_pages": 0,
+    "downloads": 0,
+    "web_search_queries": 0,
+    "own_HTTP": 0,
+    "Claude_UI": 0,
+    "IDP": 0
+  },
+  "parallel_search_costs": {
+    "web_search_queries": 2,
+    "web_calls": 2,
+    "repository_opens": 0,
+    "originals": 0,
+    "downloads": 0
+  },
+  "global_cost_note": "Counts are observable tool operations; browser/search HTTP internals are not enumerated. No repeated originals or scientific checks. Initial8DOM round stays closed; separate item question answered in3DOM before original deadline.",
+  "raw_evidence": "bne_1936_items3.local.txt",
+  "raw_sha256": "226bc70c398d483ce0e347f0c4714d87d1c1b78d2aa82535fda0e62c1da31203",
+  "restrictions": "No sending, request/order, purchase, account changes, login, or original content access.",
+  "claims_not_established": [
+    "Salamanca volume or pages",
+    "Telegraphic address fields",
+    "Registered addressBLUME",
+    "Identity, correspondence language, wool, plaintext or key",
+    "General digital absence"
+  ]
+}
